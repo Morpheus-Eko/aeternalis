@@ -1,0 +1,442 @@
+[
+  {
+    "id": "place-064",
+    "name": "Ruinas de Latherion",
+    "x": 1583.2,
+    "y": 812.5,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Ruinas / lugar histórico",
+    "oldName": "Latherion",
+    "curiosities": [],
+    "sourceTitle": "LATHERION (RUINAS DE LATHERION)",
+    "sourceRange": [
+      1470,
+      1490
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1557,
+    "sourceY": 811,
+    "symbolType": "especial",
+    "symbolNote": "Ruinas",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-065",
+    "name": "Fuerte Azgereth",
+    "x": 1593,
+    "y": 886,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Localidad o enclave",
+    "oldName": "Fuerte Azgereth",
+    "curiosities": [],
+    "sourceTitle": "FUERTE AZGERETH",
+    "sourceRange": [
+      1394,
+      1413
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1583,
+    "sourceY": 858,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo elf_verdante: 7×7 píxeles, área=42, relleno=0.86",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 29.7
+  },
+  {
+    "id": "place-066",
+    "name": "Ruinas de las Lágrimas",
+    "x": 1853,
+    "y": 900,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Ruinas / lugar histórico",
+    "oldName": "Farathia",
+    "curiosities": [],
+    "sourceTitle": "FARATHIA (RUINA DE LAS LÁGRIMAS)",
+    "sourceRange": [
+      1451,
+      1470
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1854,
+    "sourceY": 903,
+    "symbolType": "especial",
+    "symbolNote": "Ruinas",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 3.2
+  },
+  {
+    "id": "place-067",
+    "name": "Bastión Heidrun",
+    "x": 1888,
+    "y": 945,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Localidad o enclave",
+    "oldName": "Bastión Hiedrum",
+    "curiosities": [],
+    "sourceTitle": "BASTIÓN HEIDRUN",
+    "sourceRange": [
+      1432,
+      1451
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1887,
+    "sourceY": 948,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo elf_verdante: 8×8 píxeles, área=48, relleno=0.75",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 3.2
+  },
+  {
+    "id": "place-068",
+    "name": "Guardia Zytheria",
+    "x": 1295,
+    "y": 956,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Localidad o enclave",
+    "oldName": "Guardia Zytheria",
+    "curiosities": [],
+    "sourceTitle": "GUARDIA ZYTHERIA",
+    "sourceRange": [
+      1375,
+      1394
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1287,
+    "sourceY": 959,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo elf_verdante: 7×7 píxeles, área=43, relleno=0.88",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 8.5
+  },
+  {
+    "id": "place-069",
+    "name": "Fohn’Veridan",
+    "x": 1470,
+    "y": 1080,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Localidad o enclave",
+    "oldName": "Fohn'Veridan",
+    "curiosities": [],
+    "sourceTitle": "FOHN’VERIDAN (CAPITAL)",
+    "sourceRange": [
+      1356,
+      1375
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1470,
+    "sourceY": 1079,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo elf_verdante: 9×10 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-070",
+    "name": "Torreón Ásdris",
+    "x": 1726,
+    "y": 1056,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque tropical y costa",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-surkei",
+    "kind": "Localidad o enclave",
+    "oldName": "Torreón Adria",
+    "curiosities": [],
+    "sourceTitle": "TORREÓN ÁSDRIS",
+    "sourceRange": [
+      1413,
+      1432
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Punta Veneno · Dominios Surkei"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1726,
+    "sourceY": 1056,
+    "symbolType": "especial",
+    "symbolNote": "Torreón",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-071",
+    "name": "Loth’Veridan",
+    "x": 1328,
+    "y": 1189,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Selva tropical",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-avari",
+    "kind": "Localidad o enclave",
+    "oldName": "Loht'Veridan",
+    "curiosities": [],
+    "sourceTitle": "LOTH’VERIDAN",
+    "sourceRange": [
+      1510,
+      1529
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Infierno Verde · Dominios Avari"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1328,
+    "sourceY": 1189,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo elf_verdante: 7×7 píxeles, área=42, relleno=0.86",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-072",
+    "name": "Alandra",
+    "x": 1586,
+    "y": 1206,
+    "faction": "elf",
+    "description": "Gobierno: Monarquía Ritual. Su líder es el Hedda, elegido por batalla ritual entre los antiguos clanes.\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 10% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: Se adora principalmente\n\nIdioma: Común.\n\nDefensas: 5\n\nAmenazas:\n\nBárbaros: Si\n\nOtros datos o rasgos:\n\nS\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Selva tropical",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-avari",
+    "kind": "Localidad o enclave",
+    "oldName": "Alandra",
+    "curiosities": [],
+    "sourceTitle": "CAPITAL: ALANDRA",
+    "sourceRange": [
+      1335,
+      1355
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Infierno Verde · Dominios Avari"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1584,
+    "sourceY": 1204,
+    "symbolType": "capital",
+    "symbolNote": "Estrella identificada visualmente sobre el mapa",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2.8
+  },
+  {
+    "id": "place-073",
+    "name": "Ris'Veridan",
+    "x": 1461,
+    "y": 1341,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Selva tropical",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-avari",
+    "kind": "Localidad o enclave",
+    "oldName": "Ris'Veridan",
+    "curiosities": [],
+    "sourceTitle": "RIS’VERIDAN (CAPITAL)",
+    "sourceRange": [
+      1491,
+      1510
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Infierno Verde · Dominios Avari"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1462,
+    "sourceY": 1341,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo elf_verdante: 10×9 píxeles, área=85, relleno=0.94",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-078",
+    "name": "Atalaya Éyniri",
+    "x": 1517,
+    "y": 1480,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Selva tropical",
+    "race": "Amarant",
+    "loreStatus": "actualizado",
+    "regionId": "elenya-avari",
+    "kind": "Localidad o enclave",
+    "oldName": "Atalaya Eynir",
+    "curiosities": [],
+    "sourceTitle": "ATALAYA ÉYNIRI",
+    "sourceRange": [
+      1529,
+      1548
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Infierno Verde · Dominios Avari"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1506,
+    "sourceY": 1462,
+    "symbolType": "especial",
+    "symbolNote": "Atalaya",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 21.1
+  }
+]

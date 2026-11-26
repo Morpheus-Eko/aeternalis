@@ -1,0 +1,89 @@
+[
+  {
+    "id": "place-061",
+    "name": "Puerto Ramera",
+    "x": 1748.7,
+    "y": 669.6,
+    "faction": "pirate",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Archipiélago",
+    "race": "Mixta",
+    "loreStatus": "pendiente",
+    "regionId": "piratas",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto Ramera",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Archipiélago de los Esclavos"
+      ]
+    ],
+    "sourceX": 1687,
+    "sourceY": 684,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-062",
+    "name": "Costa Sangrienta",
+    "x": 1743.7,
+    "y": 637.8,
+    "faction": "pirate",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Archipiélago",
+    "race": "Mixta",
+    "loreStatus": "pendiente",
+    "regionId": "piratas",
+    "kind": "Localidad o enclave",
+    "oldName": "Costa Sangrienta",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Archipiélago de los Esclavos"
+      ]
+    ],
+    "sourceX": 1654,
+    "sourceY": 624,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-063",
+    "name": "Bahía Kraken",
+    "x": 1781.9,
+    "y": 646.3,
+    "faction": "pirate",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Archipiélago",
+    "race": "Mixta",
+    "loreStatus": "pendiente",
+    "regionId": "piratas",
+    "kind": "Localidad o enclave",
+    "oldName": "Bahía Kraken",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Archipiélago de los Esclavos"
+      ]
+    ],
+    "sourceX": 1828,
+    "sourceY": 640,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  }
+]

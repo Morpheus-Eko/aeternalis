@@ -1,0 +1,753 @@
+[
+  {
+    "id": "place-007",
+    "name": "Rabbenjorg",
+    "x": 102,
+    "y": 397,
+    "faction": "nordic",
+    "description": "Rabbenjorg se alza sobre una ladera de piedra y coníferas, al borde de uno de los grandes bosques de Bergheim. Sus murallas protegen patios de armas, almacenes de invierno, serrerías y salones de vigas inmensas. En comparación con buena parte de las Cuatro Montañas, sus tierras son generosas, la caza y la recolección son abundantes y la madera alimenta talleres, fortificaciones y rutas comerciales. Por ello, la ciudad no necesita vivir del saqueo para subsistir, aunque sus guerreros no son menos temibles que los de sus vecinas.\n\nBajo sus montañas se abre una antigua explotación que comunica con los dominios enanos. Sus galerías más profundas son tan estrechas, accidentadas y complejas que solo los enanos pueden recorrerlas con seguridad y sostener el tránsito regular. La ciudad montaraz controla los accesos de superficie, el bosque y las rutas de aprovisionamiento; sus aliados dominan la roca y los caminos subterráneos. Ninguna de las dos comunidades puede mantener por sí sola aquel corredor, convertido en uno de los vínculos estratégicos más singulares del norte.\n\nEl origen de esta alianza se recuerda como el Juramento de las Dos Puertas. Cuentan los skáld que, durante un invierno de derrumbes y ataques, los guerreros de Rabbenjorg mantuvieron abierto el acceso del bosque mientras los mineros enanos despejaban el paso interior. El auxilio mutuo salvó a ambas comunidades. Desde entonces, los jefes de uno y otro pueblo renuevan el compromiso de proteger las dos entradas, socorrer las caravanas y no abandonar a quienes custodian el corredor. Para Rabbenjorg, ese juramento es una expresión concreta del Lífsátt que alcanza incluso a sus aliados extranjeros.\n\nSu Hetjuþing reúne a poderosos linajes de la Sangre Heroica, comerciantes de madera y Hersir encargados de escoltar las caravanas. Sus compañías combaten con hachas, escudos y pesadas corazas; se especializan en sostener accesos boscosos y proteger las rutas contra incursiones y bestias. La esclavitud por sometimiento existe y los cautivos trabajan principalmente en labores forestales, canteras y obras defensivas. La proximidad enana también ha favorecido el intercambio de herramientas, técnicas constructivas y trabajos del metal, sin convertir a Rabbenjorg en una segunda Fjjord.\n\nLa abundancia es a la vez su privilegio y su amenaza política. Grimskar necesita grandes troncos para construir la flota; otras ciudades reclaman hierro, suministros y acceso al comercio enano. Pero los caudillos de Rabbenjorg recuerdan que la alianza fue jurada por sus antepasados y que el tránsito subterráneo depende de la voluntad de los enanos, no de una orden del Concilio. Cada invierno surge la misma disputa: ¿hasta dónde puede una ciudad reservarse los recursos que administra cuando las demás Montañas también los necesitan para sobrevivir? Rabbenjorg exige respeto a sus pactos; sus vecinos exigen que el Lífsátt no se convierta en un privilegio exclusivo.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Bosque boreal / alta montaña",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-ventisca",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Capital de las Montañas de la Ventisca · El Juramento de las Dos Puertas",
+    "oldName": "Rabbenjorg",
+    "curiosities": [],
+    "sourceTitle": "Rabbenjorg",
+    "sourceRange": [
+      1811,
+      1819
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de la Ventisca"
+      ],
+      [
+        "Actividades mencionadas",
+        "Comercio"
+      ]
+    ],
+    "sourceX": 103,
+    "sourceY": 395,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo nordic: 10×10 píxeles, área=94, relleno=0.94",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2.2
+  },
+  {
+    "id": "place-008",
+    "name": "Mossgard",
+    "x": 290,
+    "y": 451,
+    "faction": "nordic",
+    "description": "Mossgard es la capital histórica de Bergheim y el lugar donde los supervivientes del antiguo éxodo montaraz encontraron refugio. Es una imponente ciudad fortificada de piedra oscura y madera, levantada entre las montañas. Sus gruesas murallas resguardan grandes salones comunales, forjas, santuarios ancestrales y enormes depósitos de provisiones. En sus plazas y accesos arden perpetuamente grandes piras, símbolo de la supervivencia del pueblo montaraz.\n\nEn el corazón de la ciudad se alza el Gran Salón de los Juramentos, adornado con los estandartes de las Cuatro Montañas, armas de antiguos héroes y esculturas de los Hedda del pasado. Allí se reúnen los grandes caudillos de Bergheim para deliberar sobre el destino de su nación.\n\nEs una ciudad sobria, monumental y austera, construida para resistir el invierno y la guerra antes que para exhibir riquezas.\n\nLa ciudad es gobernada por un Höfðingi y su Hetjuþing, integrado por los miembros de la Hetjublóð. En Mossgard se celebra también el Concilio de las Cuatro Montañas, donde los jarls y los demás representantes negocian sus compromisos y dirimen sus disputas. En tiempos de crisis, allí se proclama al Hedda, el héroe llamado a conducir a todo el pueblo montaraz. Los grandes salones conservan la memoria de sus hazañas, recitadas por los skáld ante las nuevas generaciones.\n\nSu subsistencia depende de la caza, los oficios, el intercambio de recursos y las provisiones que llegan desde las demás Montañas. Alberga graneros y depósitos comunes, cuya custodia constituye una de sus principales responsabilidades. La esclavitud por sometimiento es aceptada y los cautivos extranjeros sirven principalmente en hogares, talleres y obras de fortificación. La esclavitud mágica no forma parte de sus costumbres habituales.\n\nLos habitantes de Mossgard consideran particularmente grave el derramamiento injustificado de sangre montaraz. Los agravios entre linajes pueden resolverse mediante duelos consagrados a los dioses, mientras que el asesinato constituye un delito capital. Esta severidad no impide que acepten los saqueos de otros pueblos ni que comercien con los cautivos obtenidos en ellos.\n\nSu principal conflicto nace de su posición dentro de Bergheim. Los caudillos de Mossgard aspiran a preservar su autoridad como custodios de los pactos, mientras otras ciudades recelan de que la capital utilice los suministros comunes y el Concilio para imponer su voluntad. La ciudad no posee una corona permanente ni autoridad absoluta sobre las Montañas, y cualquier intento de asumirla podría desencadenar una guerra entre los mismos pueblos que juró mantener unidos.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Alta montaña y valles fortificados",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Capital de Bergheim",
+    "oldName": "Mossgard",
+    "curiosities": [],
+    "sourceTitle": "Mossgard",
+    "sourceRange": [
+      1801,
+      1811
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Capital común de las Cuatro Montañas"
+      ],
+      [
+        "Autoridad",
+        "Höfðingi y Hetjuþing"
+      ]
+    ],
+    "sourceX": 311,
+    "sourceY": 484,
+    "symbolType": "capital",
+    "symbolNote": "Estrella identificada visualmente sobre el mapa",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 39.1
+  },
+  {
+    "id": "place-009",
+    "name": "Fjoll",
+    "x": 435,
+    "y": 489,
+    "faction": "nordic",
+    "description": "Fjoll se levanta sobre terrazas de roca batida por el viento, entre murallas, patios de armas y largos barracones donde el entrenamiento no cesa ni durante las nevadas. En las laderas se extienden campos de maniobras señalados con estacas, fosos y armazones que imitan las defensas enemigas. El visitante escucha el silbido de los virotes, el golpe seco de las hachas contra los blancos y el estruendo de centenares de botas acorazadas avanzando al mismo paso. En Fjoll, hasta los espacios abiertos parecen concebidos para preparar una batalla.\n\nFjoll es la gran escuela de guerra de las Cuatro Montañas y una de sus principales fuerzas de vanguardia. Sus guerreros no entran en trance ni combaten mediante la furia de las bestias, esa tradición pertenece a los Pieljurados de Valstath. La fuerza de Fjoll nace de una disciplina colectiva llevada al extremo, de años de práctica y del dominio de las armas. Allí se forman las falanges montaraces, hileras de soldados acorazados con alabardas, armas de asta, espadas y escudos robustos, capaces de avanzar como una sola masa de hierro para abrir brechas y sostener el terreno conquistado. Donde Fjellgard resiste tras sus muros, Fjoll aprende a llevar la guerra hasta el enemigo.\n\nSus compañías incluyen lanzadores de hachas, entrenados para desordenar las primeras filas antes del choque, y ballesteros montados en huargos, capaces de alcanzar elevaciones, hostigar flancos y cambiar de posición antes de que el adversario responda. El combate desde la montura exige coordinación y un adiestramiento excepcional; los jinetes alternan el disparo y la movilidad con posiciones de tiro preparadas. Las academias reúnen veteranos de distintas Montañas, entre ellos maestros de armas, instructores de formación y Hersir experimentados. El Höfðingi y el Hetjuþing gobiernan la ciudad, pero los capitanes de sus escuelas gozan de gran autoridad sobre las compañías en instrucción.\n\nSu aporte al Lífsátt no consiste únicamente en proporcionar soldados, sino en enseñar a los guerreros de clanes diferentes a combatir juntos sin desperdiciar la sangre montaraz. Cada ciudad puede enviar aspirantes para aprender la disciplina de la falange, el empleo coordinado de ballestas y hachas, o la conducción de unidades montadas. Fjoll necesita el acero y las armaduras de Fjjord, los huargos de Valgard, sus arreos y corazas de Vargheim y las rutas de Jorundathr para reunir y abastecer a sus huestes. A cambio, devuelve combatientes preparados y oficiales capaces de organizar una defensa común. Los cautivos extranjeros realizan labores serviles en canteras, campos de práctica y almacenes.\n\nLa tradición más célebre de sus escuelas es la Prueba de la Línea Rota. En ella se obliga a una compañía de aspirantes a recomponer su formación después de una retirada simulada, mientras recibe ataques desde varios frentes. No se premia a quien derriba más enemigos, sino a quien logra que sus compañeros permanezcan unidos, rescata a los rezagados y restablece la línea. Para Fjoll, un héroe que abandona a su unidad para obtener gloria es menos valioso que un soldado capaz de mantenerla con vida.\n\nPrecisamente de esa enseñanza nace su mayor tensión política. Los clanes envían a Fjoll a sus mejores jóvenes, pero algunos permanecen allí durante años, estrechan vínculos con otros guerreros y terminan obedeciendo antes a sus instructores que a los caudillos de origen. El Concilio necesita esa doctrina común; las ciudades temen que Fjoll forme una fuerza cuya lealtad termine perteneciendo a sus propios Hersir. Cuando una campaña enfrenta las prioridades de dos Montañas, surge la pregunta inevitable: ¿debe el guerrero regresar al estandarte que lo vio nacer o permanecer junto a la formación a la que ha jurado no abandonar?",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Montañas Guardianas · La Vanguardia de Hierro",
+    "oldName": "Fjoll",
+    "curiosities": [],
+    "sourceTitle": "Fjoll",
+    "sourceRange": [
+      1888,
+      1897
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ]
+    ],
+    "sourceX": 436,
+    "sourceY": 494,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×7 píxeles, área=40, relleno=0.82",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 5.1
+  },
+  {
+    "id": "place-010",
+    "name": "Jorundathr",
+    "x": 476,
+    "y": 461,
+    "faction": "nordic",
+    "description": "Jorundathr se alza entre riscos, puentes colgantes y caminos tallados en la piedra. Sus murallas protegen grandes patios de monta, depósitos de invierno y establos donde descansan huargos cubiertos de cicatrices. Los viajeros encuentran en sus accesos campanas, almenaras y tablillas que indican la situación de los pasos. Mientras otras ciudades despiertan con los martillos de sus forjas, Jorundathr lo hace con el ir y venir de jinetes, exploradores y convoyes que parten antes del amanecer.\n\nSus habitantes se consideran los navegantes de la montaña. Conocen las corrientes de nieve, los puentes que resisten las heladas, los caminos que desaparecen cada invierno y las sendas por las que puede atravesar un ejército. Los mejores exploradores de Bergheim proceden de sus compañías de reconocimiento; sus jinetes de huargo recorren desfiladeros y rutas de relevo con una rapidez que los carros ordinarios no podrían igualar. No son simples mensajeros, combaten para romper emboscadas, proteger cargamentos y abrir corredores entre fuerzas enemigas.\n\nEl Höfðingi y el Hetjuþing gobiernan la ciudad, pero los Maestros de Ruta ejercen una autoridad singular sobre convoyes, refugios y estaciones de relevo. Los jinetes veteranos aprenden cartografía, rastreo, señales de fuego y lectura del terreno, además del combate con lanza, hacha y ballesta. Cada invierno, sus mapas son revisados sobre el terreno, una senda segura el año anterior puede ser una tumba al siguiente. Un explorador capaz de salvar un ejército o mantener abastecida una ciudad sitiada puede alcanzar la Sangre Heroica. Los cautivos extranjeros trabajan bajo vigilancia en calzadas, canteras y reparaciones.\n\nSu contribución al Lífsátt es hacer posible que las Cuatro Montañas funcionen como una sola nación. Valgard proporciona huargos, lobos y grandes alces de tiro; Vargheim fabrica sus corazas y arreos; Fjjord entrega armas y herramientas, y Rabbenjorg suministra madera y provisiones. Jorundathr transforma esos recursos dispersos en rutas, convoyes y depósitos capaces de sostener tanto a las familias aisladas como a los ejércitos movilizados. Los huargos llevan exploradores y cargas urgentes; los alces y trineos transportan los grandes suministros. Sin esa red, la riqueza de unas ciudades jamás alcanzaría a las otras.\n\nUna de sus costumbres es la Cuenta de los Fuegos. Cada estación de paso conserva un registro de los hogares que dependen de su ruta, las reservas que necesitan y los convoyes todavía perdidos en la montaña. Al comenzar el invierno se encienden las almenaras de relevo y los jinetes juran que ninguna carga será considerada entregada mientras no llegue a quienes la esperan. Para Jorundathr, una hazaña no se mide únicamente en enemigos abatidos, sino en familias que alcanzan la primavera gracias a una caravana que logró cruzar.\n\nSu mayor poder es también la fuente de sus conflictos, cuando la nieve, el hambre o la guerra impiden atender todas las rutas, los Maestros de Ruta deben decidir qué convoy parte primero, qué fortaleza recibe refuerzos y qué asentamiento tendrá que esperar. Fjellgard exige prioridad para defender la frontera; las ciudades del interior reclaman alimento y Torvask necesita mantener el flujo de mercancías. Los caudillos acusan a Jorundathr de favorecer aliados o castigar rivales mediante los retrasos, aunque ningún extraño conoce los pasos como sus jinetes. El Concilio puede ordenar repartir los suministros, pero no puede hacer transitable una montaña cerrada. En Jorundathr, el control de un camino puede valer más que la posesión de un ejército.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Capital de las Montañas Guardianas · Las Arterias de Bergheim",
+    "oldName": "Jorundathr",
+    "curiosities": [],
+    "sourceTitle": "Jorundathr",
+    "sourceRange": [
+      1870,
+      1879
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ]
+    ],
+    "sourceX": 478,
+    "sourceY": 460,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo nordic: 9×9 píxeles, área=81, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2.2
+  },
+  {
+    "id": "place-011",
+    "name": "Paso de Lory’ell",
+    "x": 465,
+    "y": 537,
+    "faction": "nordic",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "",
+    "race": "",
+    "loreStatus": "pendiente",
+    "regionId": "bergheim-guardianas",
+    "kind": "Localidad o enclave",
+    "oldName": "Paso de Lory’ell",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ]
+    ],
+    "sourceX": 465,
+    "sourceY": 537,
+    "atlasArchiveReason": "Paso geográfico rotulado, no asentamiento marcado",
+    "symbolType": "no_mostrado",
+    "symbolNote": "Paso de montaña / topónimo",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-013",
+    "name": "Fortaleza Fjellgard",
+    "x": 566,
+    "y": 548,
+    "faction": "nordic",
+    "description": "Fjellgard no parece una ciudad levantada para vivir, sino una fortaleza construida para resistir el fin del mundo. Sus murallas de piedra negra descienden en terrazas hasta cerrar el desfiladero; detrás de ellas se alzan torres de asedio, forjas de guerra y patios donde centenares de escudos golpean al unísono. Los salones son largos y desnudos, con bancos para las compañías y grandes hornos que nunca se apagan. En sus puertas cuelgan las armas melladas de los enemigos derrotados. Aquí las campanas no llaman a la oración: marcan el cambio de guardia, el entrenamiento y la movilización.\n\nFjellgard es el martillo militar de Bergheim. Mientras Jorundathr custodia las rutas, la fortaleza forma compañías de infantería pesada capaces de detener una carga o abrir brecha en una muralla. Sus guerreros combaten tras muros de escudos, con hachas largas, lanzas y arietes. No celebran al saqueador que vuelve cargado de riquezas, sino al combatiente que mantiene su posición cuando todo parece perdido. El mayor insulto entre sus soldados no es la cobardía, sino abandonar al compañero que todavía sostiene la línea.\n\nLa gobierna un Höfðingi reconocido por el Hetjuþing, pero las decisiones de guerra corresponden a los Hersir veteranos, cuyo prestigio procede de campañas y asedios. La Hetjublóð de Fjellgard conserva los estandartes de sus compañías y exige que los herederos de sus linajes sirvan en primera fila. Cada nuevo guerrero presta el Juramento del Hierro sobre un escudo abollado, defenderá al hombre situado a su lado y no entregará el paso mientras quede una compañía capaz de sostenerlo. A quienes rompen el juramento se les despoja del escudo y se les borra del registro de su unidad.\n\nLa fortaleza subsiste gracias al tributo de víveres, hierro y leña que las demás comunidades aportan para sostener la defensa común. Sus propias forjas producen armamento, armaduras y máquinas de asedio; sus almacenes guardan armas para contingentes de otras Montañas. Los cautivos extranjeros, sometidos a la esclavitud tradicional, trabajan en canteras, hornos y obras defensivas bajo la vigilancia de soldados. En Fjellgard la paz nunca significa descanso: cada estación es una preparación para la siguiente guerra.\n\nSu costumbre más temida es el Derecho del Yunque, una prerrogativa que los comandantes afirman haber recibido de un antiguo Hedda: cuando el paso se halla en peligro, Fjellgard puede reclamar guerreros, suministros y animales de carga a las ciudades vecinas sin esperar la próxima reunión del Concilio. Para sus veteranos, ninguna votación puede detener a un ejército enemigo. Para otros montaraces, esa potestad amenaza con convertir una fortaleza común en un poder capaz de someter a sus propios aliados.\n\nLa controversia estalló cuando un Hersir declaró el Derecho del Yunque ante rumores de una invasión que nunca llegó y retuvo durante todo un invierno hombres y provisiones destinados a otras ciudades. Sus partidarios sostienen que evitó una catástrofe y que solo la fortaleza conoce el verdadero precio de la vigilancia. Sus enemigos lo acusan de haber utilizado el miedo para acrecentar su ejército. El Concilio aún discute si despojar a Fjellgard de esa prerrogativa; sus guerreros responden que, cuando los enemigos aparezcan, serán ellos quienes deban morir sobre las murallas.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Bastión de las Montañas Guardianas o del Paso Lory’ell",
+    "oldName": "Fortaleza Fjellgard",
+    "curiosities": [],
+    "sourceTitle": "Fortaleza Fjellgard",
+    "sourceRange": [
+      1879,
+      1888
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ]
+    ],
+    "sourceX": 566,
+    "sourceY": 548,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo nordic: 9×10 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-015",
+    "name": "Alhem",
+    "x": 735,
+    "y": 594,
+    "faction": "nordic",
+    "description": "Alhem se alza entre acantilados afilados y caletas ocultas, donde las naves de guerra esperan bajo cobertizos de madera ennegrecida. Grandes cadenas cierran su puerto, mientras sobre las murallas cuelgan escudos arrebatados a capitanes extranjeros. Las forjas iluminan la costa de noche y las antiguas galerías de mineral descienden hacia el interior de la montaña. Quienes llegan por mar distinguen primero las torres de señales y después las proas oscuras que custodian la entrada.\n\nDe todas las ciudades marítimas de Bergheim, Alhem es la más belicosa y despiadada. Sus stýrimenn y hersir no persiguen la gloria de un combate justo, más bien, prefieren la emboscada, los estandartes falsos, la sorpresa y la intimidación. Sus incursiones alcanzan costas lejanas y sus flotillas son temidas tanto por la rapidez de sus ataques como por la astucia de sus capitanes. Para los alhem, obligar a un enemigo a rendirse antes de desenvainar el arma demuestra más poder que derrotarlo en una batalla abierta.\n\nLa Hetjublóð de Alhem está dominada por linajes de capitanes y caudillos de incursión. Sus hazañas se cuentan en puertos sometidos, tributos arrancados y naves capturadas. El Hetjuþing escucha con respeto a quien regresa con la tripulación viva y las bodegas repletas, aunque haya alcanzado la victoria mediante engaños. Entre sus guerreros se repite una máxima. el enemigo que teme a Alhem ya ha perdido la mitad de la batalla.\n\nLa esclavitud por sometimiento es una de las bases de su riqueza. Los alhem capturan marineros, comerciantes y habitantes de las costas saqueadas, y recurren al tormento, la reclusión y la humillación para quebrar su resistencia y hacerlos obedecer. No persiguen la muerte del cautivo ya que, un prisionero vivo puede remar, trabajar, pagar rescate o ser vendido. Esa preferencia no nace de la compasión, sino del cálculo y del afán de dominio. Los vínculos mágicos de servidumbre son extraños aquí; Alhem se enorgullece de imponer obediencia sin hechicería. El Lífsátt, a sus ojos, protege a los suyos, no a quienes han vencido, ya que, los esclavos son simples herramientas, son pertenencias, seres de los que pueden disponer libre y completamente.\n\nSus ingresos proceden del botín, los rescates, los tributos costeros y el comercio de cautivos. Las vetas minerales y los talleres heredados de antiguos linajes proveen metal para reforzar barcos, fabricar armas y mantener sus arsenales, pero son las expediciones las que dan prestigio a la ciudad. Antes de zarpar, los capitanes celebran el Juramento de la Marea Negra, prometen no abandonar a sus propios guerreros y regresar con todo aquello que el enemigo no haya sido capaz de defender.\n\nSu conflicto más peligroso se recuerda como la Noche de las Banderas Prestadas. Una flotilla de Alhem utilizó los estandartes de Fjellgard para aproximarse a un puerto extranjero y someterlo sin apenas combatir. La estratagema fue celebrada en Alhem; sin embargo, semanas después, los supervivientes organizaron una represalia contra los soldados de Fjellgard, que nada sabían de la incursión. Los guardianes exigieron castigo por haber convertido sus emblemas jurados en instrumentos de engaño. Alhem respondió que los estandartes habían salvado sangre montaraz. Desde entonces, el Concilio discute si engañar al extranjero es una virtud guerrera o si emplear los símbolos de otra ciudad rompe los juramentos entre las Cuatro Montañas.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Costa montañosa / fiordos",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-mar",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "La Costa del Terror · Montañas del Mar",
+    "oldName": "Alhem",
+    "curiosities": [],
+    "sourceTitle": "Alhem (Kenshi, esclavistas)",
+    "sourceRange": [
+      1916,
+      1925
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas del Mar"
+      ],
+      [
+        "Actividades mencionadas",
+        "Comercio"
+      ]
+    ],
+    "sourceX": 749,
+    "sourceY": 595,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 14
+  },
+  {
+    "id": "place-016",
+    "name": "Vatnar",
+    "x": 723,
+    "y": 666,
+    "faction": "nordic",
+    "description": "Vatnar se aferra a una costa de acantilados y ensenadas profundas, donde el viento salado golpea murallas de piedra y largas hileras de embarcaderos. Sus astilleros trabajan bajo torres de vigilancia y enormes hogueras que orientan a las naves en la niebla. Sobre los grandes salones cuelgan proas tomadas al enemigo, escudos astillados y cadenas arrancadas de puertos extranjeros. Aquí el mar no es una frontera, sino el camino por el que llegan el sustento, la riqueza y la guerra.\n\nLos vatnar son marinos, comerciantes y saqueadores. Sus stýrimenn conducen naves largas capaces de irrumpir en costas lejanas, mientras los hersir dirigen compañías acostumbradas al abordaje, al combate sobre cubiertas resbaladizas y a desembarcar antes del amanecer. Hachas, lanzas, escudos reforzados y ballestas forman parte de sus arsenales. Los botines de las expediciones alimentan sus graneros y sostienen a sus familias, pero también enriquecen a caudillos que compiten por embarcaciones, tripulaciones y rutas marítimas. La esclavitud por sometimiento es habitual; los cautivos extranjeros sirven en hogares, muelles, talleres y embarcaciones.\n\nEn Vatnar, la Hetjublóð está dominada por antiguos linajes de capitanes y señores de las naves, que eligen a sus autoridades en el Hetjuþing y miden el prestigio por las travesías, el botín y las victorias. Sus mujeres vatnar ocupan el lugar de esposas legítimas y su descendencia es la que conserva los derechos del linaje. Entre determinados caudillos se ha arraigado, sin embargo, una costumbre particularmente curiosa.  mantener concubinas élficas cautivas como trofeos de guerra y demostración de riqueza. No son alianzas matrimoniales, sino signos de sometimiento que los vencedores exhiben ante sus iguales.\n\nLos hijos nacidos de esas concubinas son, conforme a las reglas raciales de Aeternalis, elfos y no montaraces. Se los considera bastardos, sin derecho a suceder en los títulos o patrimonios de sus padres. Generación tras generación, su número ha crecido en los barrios portuarios y entre los trabajadores del mar. Muchos conocen las corrientes, los arrecifes y las rutas de Vatnar tan bien como cualquier capitán; otros han combatido en sus barcos sin que ello altere su exclusión del linaje legítimo. Las demás Montañas observan esta concentración con recelo y algunos caudillos la denuncian como fruto antinatural de una costumbre que amenaza la estabilidad futura de la ciudad.\n\nLos vatnar celebran el Juramento de la Última Marea, antes de una campaña, cada capitán promete conducir de regreso a cuantos miembros de su tripulación pueda salvar y no abandonar sus naves por codicia. Aun entre saqueadores, dejar morir a los propios para conservar un botín constituye una deshonra grave ante el Lífsátt. Los nombres de quienes se pierden en el mar se graban en vigas de los salones, y una proa vacía se enciende sobre el agua cuando una nave entera no regresa.\n\nLa mayor inquietud de Vatnar nació tras la Tormenta de las Proas Rotas, cuando varias naves consiguieron volver a puerto guiadas por marineros bastardos de ascendencia élfica. Aquella hazaña salvó guerreros, cautivos y provisiones, pero los capitanes legítimos se negaron a reconocerles derecho a mandar barcos propios. Desde entonces, algunas familias quieren aprovechar su talento como tripulantes de guerra; otras temen que la ciudad esté formando una población numerosa, marinera, longeva y armada, pero sin sitio en el orden político. Los jóvenes de los muelles recuerdan la tormenta de otra manera, donde fueron ellos quienes condujeron las naves a casa y, aun así, siguen sin tener voz en el salón.\n\nEsta es una gran herida que escuece la ciudad de norte a sur y que podría reventar en una rebelión si no se maneja con cuidado.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Costa montañosa / fiordos",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-mar",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "La Ciudad de las Proas Negras · Montañas del Mar",
+    "oldName": "Vatnar",
+    "curiosities": [],
+    "sourceTitle": "Vatnar",
+    "sourceRange": [
+      1906,
+      1916
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas del Mar"
+      ],
+      [
+        "Actividades mencionadas",
+        "Construcción naval"
+      ]
+    ],
+    "sourceX": 743,
+    "sourceY": 673,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo nordic: 9×10 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 21.2
+  },
+  {
+    "id": "place-017",
+    "name": "Grimskar",
+    "x": 834,
+    "y": 655,
+    "faction": "nordic",
+    "description": "Grimskar se alza sobre una isla de riscos oscuros frente a las costas de Vatnar. Sus murallas abrazan una bahía interior donde descansan diques de piedra, grúas de madera, talleres de velamen y enormes naves aún sin terminar. Entre el golpeteo de los astilleros y el olor a brea, los maestros de quilla trabajan bajo la protección de torres artilladas y guarniciones navales. Desde las almenas se contempla el mar abierto y, en los muelles, las proas talladas de las grandes embarcaciones parecen bestias preparadas para lanzarse sobre las olas.\n\nLa isla posee poca madera aprovechable, una carencia que ha determinado toda su historia. Las vigas más valiosas llegan desde los lejanos bosques de Rabbenjorg, atravesando las rutas de Bergheim hasta la costa; otra parte se obtiene en tierras extranjeras mediante los mercaderes de Torvask. El hierro, los herrajes y las piezas reforzadas provienen de las forjas del interior. Cada retraso, tormenta o conflicto comercial puede detener una construcción durante meses. Por ello, Grimskar no cuenta su prestigio por el número de barcos botados, sino por la calidad de aquellos que logra terminar, construir uno es una empresa costosa y lenta, en ocasiones el esfuerzo de varios clanes.\n\nSus carpinteros navales, herreros y capitanes forman una tradición de oficio tan severa como la de los guerreros. Cada embarcación se diseña para cumplir una función precisa, resistir el oleaje, transportar una hueste o afrontar un abordaje. Los cascos se refuerzan con cuidado, las uniones se prueban una y otra vez y las proas se labran como signos de identidad de sus futuras tripulaciones. Las piezas rúnicas son excepcionales por su costo. En Grimskar se sostiene que una nave construida sin conocimiento de la guerra no merece navegar bajo los estandartes de Bergheim. Sus cuadrillas emplean también cautivos extranjeros en el acarreo y los trabajos más duros, aunque el dominio de las construcciones permanece en manos de sus maestros.\n\nSu aporte al Lífsátt es mantener y renovar la Gran Flota de Bergheim, las embarcaciones que protegen la costa, escoltan mercancías y llevan guerreros a costas lejanas. El vínculo con Torvask es particularmente estrecho. Sus comerciantes consiguen madera y materiales importados, financian encargos y aseguran mercados; Grimskar proporciona barcos de calidad excepcional y capacidad de defensa marítima. Vatnar aporta marineros de guerra y tradición de abordaje, mientras Alhem demanda navíos rápidos para sus incursiones. El mar sostiene a las Montañas tanto por el comercio como por la amenaza que sus naves representan para los enemigos.\n\nEntre sus tradiciones destaca la Entrega de la Quilla. Ningún navío importante se considera terminado hasta que el maestro constructor, el capitán designado y los representantes de quienes aportaron sus materiales juran públicamente qué servicio prestará. La ceremonia consagra la embarcación al Lífsátt y recuerda que la madera, el metal y la sangre de muchas comunidades han hecho posible su existencia. Perder una nave por vanidad o por una expedición irresponsable no es solo una derrota militar, sino que significa años de trabajo y reservas de toda Bergheim hundidas en el mar.\n\nPrecisamente allí nace la mayor tensión de Grimskar. Vatnar exige prioridad para sus flotas de guerra; Alhem reclama embarcaciones para sus saqueos; Torvask necesita escoltas mercantes y prefiere conservar una navegación que garantice sus contratos. Rabbenjorg recuerda que sus bosques no son inagotables y exige condiciones para entregar madera. Ante una amenaza, el Concilio puede pedir nuevas naves, pero ningún juramento acelera el crecimiento de un árbol ni devuelve al mar un barco perdido. Grimskar debe decidir a quién se entrega cada quilla y qué intereses sirven realmente a la supervivencia común, quien controla sus astilleros no gobierna Bergheim, pero puede inclinar el poder de toda su costa.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Costa montañosa / fiordos",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-mar",
+    "kind": "Localidad o enclave",
+    "oldName": "Grimtar",
+    "curiosities": [],
+    "sourceTitle": "Grimskar",
+    "subtitle": "Montañas del Mar · La Gran Atarazana de Bergheim",
+    "sourceRange": [
+      1942,
+      1951
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas del Mar"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería, Carpintería, Comercio, Construcción naval"
+      ]
+    ],
+    "sourceX": 843,
+    "sourceY": 645,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 11×9 píxeles, área=45, relleno=0.45",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 13.5
+  },
+  {
+    "id": "place-018",
+    "name": "Torvask",
+    "x": 809,
+    "y": 757,
+    "faction": "nordic",
+    "description": "Torvask se extiende alrededor de una bahía ancha y profunda, protegida por dos promontorios de roca y siempre poblada de velas extranjeras. Sus muelles de piedra y madera conducen a lonjas, astilleros, tabernas, almacenes y grandes salones donde se negocian contratos de guerra. Sobre las fachadas cuelgan enseñas de compañías mercenarias de todos los colores; junto a ellas se alzan jaulas, grúas y mercados de cautivos. El olor del pescado salado se mezcla con el del alquitrán, el hierro y las hogueras que arden hasta el amanecer.\n\nTorvask es el gran puerto neutral de las Cuatro Montañas. Sus gobernantes reciben a emisarios, comerciantes, contrabandistas y capitanes sin preguntar demasiado por el origen de sus mercancías, siempre que respeten la paz de la bahía. La ciudad vive de la pesca, los aranceles portuarios, la compraventa de botines, el tráfico de esclavos y, por encima de todo, de las compañías de guerra que venden sus servicios más allá de Bergheim. Su neutralidad no nace de la bondad: nace de comprender que cada bando necesita un puerto donde contratar espadas y gastar su oro.\n\nLos montaraces de Torvask suelen hacerse a la mar durante años. Sirven en guerras extranjeras, escoltan mercaderes, exploran costas desconocidas y regresan con idiomas, mapas, armas y conocimientos aprendidos de otros pueblos. Sus compañías reúnen espadachines de armas enormes, ballesteros, navegantes, exploradores, herreros de campaña y runistas capaces de acudir a los antepasados caídos. Para los extranjeros, estos guerreros de temple estoico y magia funeraria parecen malditos. No igualan la furia de Fjoll ni la ferocidad calculadora de Alhem; su fortaleza es adaptarse a casi cualquier combate y sobrevivir juntos. «Aprendices de todo y maestros de nada», dicen algunos, sin comprender por qué tantos reinos siguen contratándolos.\n\nLa Hetjublóð de Torvask está formada por antiguos capitanes, fundadores de compañías y linajes mercantiles que se disputan el Hetjuþing mediante contratos, barcos y lealtades compradas. Un stýrimaðr puede ganar más influencia que un hersir si consigue traer de vuelta a su compañía con vida y las bodegas llenas. Sus soldados respetan el Lífsátt: abandonarán un contrato antes que recibir la orden de matar deliberadamente a otros montaraces. Los muertos no son olvidados; sus nombres se graban en los mástiles de las compañías, y algunos son llamados como guías espirituales durante las travesías.\n\nLa paz de Torvask descansa sobre el Juramento del Ancla, dentro de la bahía, ninguna compañía puede cobrar por la fuerza una deuda de guerra ni desenvainar contra otra bajo protección del puerto. Fuera de sus aguas, cada capitán responde por los pactos que haya firmado. La ciudad comercia abiertamente con cautivos extranjeros y acepta la esclavitud por sometimiento; los contratos de alma son excepcionales y no constituyen su principal negocio. Así, el mismo muelle puede recibir a un emisario buscando escolta, a un traficante de prisioneros y a un guerrero que ofrece su espada al enemigo del primero.\n\nTorvask ha aprendido a convertir el miedo que despierta Bergheim en su mayor riqueza. De su bahía parten compañías de montaraces que luchan por oro en guerras extranjeras, guerreros de espadones desmesurados, ballesteros y runistas capaces de llamar a sus muertos. Su reputación sirve de advertencia. Muchos señores costeros prefieren contratar sus espadas, pagar tributos o pactar protección antes que arriesgarse a las incursiones de Vatnar y a las represalias despiadadas de Alhem. Torvask no dirige a esas ciudades, pero negocia respaldada por la amenaza que representan. A su vez, necesita los metales, armas y hombres de las Cuatro Montañas; Bergheim depende de los alimentos importados, el oro, las mercancías y las noticias que llegan por sus muelles. Esta relación sostiene una paz precaria, ya que, si las ciudades costeras saquean demasiado, se cierran los mercados; si Torvask promete protección que sus vecinos no reconocen, los tratados se vuelven inútiles. Allí, la diplomacia no sustituye a la violencia, sino sobrevive de su reputación.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Costa montañosa / fiordos",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-mar",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "La Bahía de las Cien Quillas · Montañas del Mar",
+    "oldName": "Torvask",
+    "curiosities": [],
+    "sourceTitle": "Torvask",
+    "sourceRange": [
+      1925,
+      1933
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas del Mar"
+      ],
+      [
+        "Actividades mencionadas",
+        "Pesca, Herrería, Construcción naval"
+      ]
+    ],
+    "sourceX": 810,
+    "sourceY": 757,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 8×7 píxeles, área=43, relleno=0.77",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-019",
+    "name": "Skaldal",
+    "x": 268,
+    "y": 666,
+    "faction": "nordic",
+    "description": "Skaldal se levanta sobre terrazas de roca, al pie de unas cumbres donde las ventiscas arrastran el rugido de las grandes bestias. Sus salones de madera ennegrecida y piedra están rodeados de cercados, secaderos de carne y empalizadas coronadas por astas y huesos. En los accesos se alzan monolitos cubiertos de antiguas señales; más arriba, entre riscos y árboles retorcidos, permanecen los santuarios donde sus habitantes renuevan los pactos de sus antepasados.\n\nEntre los montaraces, Skaldal es conocida por su veneración de Rhoroe, señor de la tierra, las montañas y el ciclo de la vida y la muerte. Sus habitantes creen que sobrevivir no significa dominar la montaña, sino conocer sus leyes y pagar el precio de cuanto se toma de ella. Los antiguos pactos con los dioses y los lugares sagrados se transmiten de generación en generación. Quebrar un juramento, profanar un santuario o desperdiciar las presas durante un invierno de hambre se considera una deshonra para todo el clan.\n\nLa caza define gran parte de su vida. Partidas de rastreadores se internan durante días en gargantas y bosques para abatir animales enormes, recuperar pieles y alimentar los graneros comunales. Los jefes de caza gozan de un prestigio comparable al de los grandes guerreros; aquel que conduce una partida de regreso con provisiones suficientes puede conquistar un lugar entre la Hetjublóð. Las presas más peligrosas inspiran sagas, y sus restos se conservan como prueba de valor y como ofrenda a Rhoroe.\n\nSkaldal reconoce a su Höfðingi y a su Hetjuþing, pero los Goðar y los custodios de los pactos intervienen en decisiones que afectan a los bosques, los pasos o las tierras de caza. Antes de emprender una expedición, los caudillos consultan las señales de la montaña y renuevan juramentos ante la piedra. No desprecian la nigromancia, conocida en toda Bergheim, aunque aquí se invoca a los antepasados sobre todo para recordar antiguos senderos, presagios y promesas que los vivos no pueden olvidar.\n\nLa ciudad subsiste mediante la caza, la recolección, el curtido de pieles, el trabajo del hueso y el intercambio de carne conservada, cueros y herramientas. También admite la esclavitud por sometimiento, los cautivos extranjeros transportan cargas, trabajan en secaderos y talleres o sirven a los linajes más poderosos. Los contratos de alma no forman parte de sus prácticas habituales.\n\nLas principales disputas de Skaldal no nacen de la ambición territorial, sino de los antiguos pactos que sus habitantes aseguran haber celebrado con Rhoroe. Para los clanes de las Montañas de las Bestias, la caza constituye mucho más que un medio de subsistencia, sino, una prueba de valor, un deber religioso y una forma de alcanzar el honor.\n\nCada año, antes de los grandes inviernos, los principales linajes celebran la Gran Cacería, durante la cual sus guerreros y cazadores se enfrentan a las criaturas más temibles de las montañas. Quienes regresan victoriosos alcanzan un prestigio extraordinario, mientras que los caídos son recordados como hombres que entregaron su sangre ante las propias criaturas de Rhoroe.\n\nSin embargo, una antigua matanza perpetrada durante una hambruna continúa dividiendo a los clanes. Aquel caudillo que ordenó exterminar bestias consideradas sagradas consiguió salvar a su pueblo, pero quebrantó los juramentos ancestrales.\n\nHasta nuestros días, algunos lo veneran como uno de los mayores héroes de Skaldal, mientras otros lo consideran un sacrílego cuyo nombre jamás debió grabarse entre los de la Sangre Heroica.\n\nEsta disputa ha trascendido las ceremonias religiosas y amenaza con dividir a las principales familias de la ciudad, pues pone en cuestión una de las enseñanzas fundamentales de los montaraces, si el Lífsátt exige preservar la vida del clan, ¿puede existir un juramento sagrado que prohíba aquello que resulta necesario para sobrevivir?",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Alta montaña / tundra",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-bestias",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Capital de las Montañas del Sur o de las Bestias",
+    "oldName": "Skaldal",
+    "curiosities": [],
+    "sourceTitle": "Skaldal",
+    "sourceRange": [
+      1839,
+      1852
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de las Bestias"
+      ],
+      [
+        "Actividades mencionadas",
+        "Curtiduría, Cacería"
+      ]
+    ],
+    "sourceX": 260,
+    "sourceY": 651,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo blue: 10×10 píxeles, área=100, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 17
+  },
+  {
+    "id": "place-020",
+    "name": "Valgard",
+    "x": 268,
+    "y": 559,
+    "faction": "nordic",
+    "description": "Valgard se levanta entre acantilados y terrazas de piedra donde las murallas rodean grandes corrales en lugar de plazas. Los aullidos de los lobos resuenan junto al estrépito de las cadenas y los golpes de los portones. Bajo sus salones se extienden criaderos excavados en la montaña; en las laderas, manadas de enormes alces de pelaje espeso avanzan entre la nieve escoltadas por guardianes armados. La ciudad parece una fortaleza hecha para contener a las criaturas que alimentan su poder.\n\nSu fama procede de la crianza y el adiestramiento de huargos, lobos y grandes alces de montaña. Los primeros son monturas de guerra y guardianes de convoyes; los lobos se emplean para rastreo, vigilancia y defensa; los alces proporcionan fuerza de tiro, transporte, carne y pieles. Valgard no domina a esas bestias mediante magia Feral, más bien, su conocimiento nace de generaciones de selección, crianza, paciencia y pruebas brutales. Una montura capaz de conservar la disciplina entre el hierro, los gritos y la sangre puede valer más que un pequeño arsenal.\n\nEl Höfðingi gobierna con su Hetjuþing, pero las casas de criadores ejercen una autoridad difícil de discutir. Cada gran linaje conserva sus propias camadas y registra la ascendencia de los ejemplares más resistentes. Durante la Prueba de la Primera Correa, el aspirante debe conducir a un huargo adulto a través de un circuito de roca, ruido y fuego sin perder el dominio de la criatura. Los fracasos dejan heridas y muertos; regresar con la bestia bajo control otorga prestigio, y criar una montura que salve una compañía puede abrir el camino hacia la Hetjublóð. Los cautivos extranjeros realizan los trabajos más peligrosos de los corrales, según la esclavitud por sometimiento común en Bergheim.\n\nValgard presta un servicio indispensable al Lífsátt: Jorundathr necesita sus huargos para explorar y mantener abiertas las rutas; Vargheim fabrica corazas y arreos ajustados a sus cuerpos; las fortalezas reclaman guardianes y animales de carga. Los grandes alces sostienen convoyes y reservas de invierno cuando los caminos resultan impracticables para otras bestias. Criar, alimentar y entrenar esas manadas exige enormes cantidades de forraje, carne y trabajo; por eso el poder de Valgard depende también de los suministros que recibe de las otras Montañas.\n\nSus habitantes veneran a Rhoroe como señor de las criaturas y de la montaña, pero no interpretan sus pactos como los cazadores de Skaldal. Para Valgard, el honor consiste en dominar una fuerza peligrosa sin destruirla y emplearla para proteger al pueblo. Los criadores conservan cuernos y colmillos de las bestias que han servido en campañas memorables; algunos atribuyen a la legendaria Madre de las Astas el origen de sus alces más resistentes, una tradición discutida por los clanes que consideran sagradas ciertas criaturas.\n\nLa principal disputa recibe el nombre de Derecho de la Camada. Los grandes criadores se niegan a entregar hembras reproductoras o sus mejores ejemplares fuera de Valgard, alegando que dispersar sus linajes destruiría el trabajo de generaciones. Jorundathr exige monturas para sus rutas, Fjoll reclama huargos para el ejército y Vargheim depende de animales cuyos cuerpos debe conocer para equiparlos. Cuando llega un invierno severo, además, alimentar a las manadas puede consumir provisiones que necesitan los propios montaraces. El Concilio discute hasta dónde puede obligarse a Valgard a compartir aquello que hace posible la defensa común: ¿pertenecen las mejores camadas a quienes las crían o a la nación cuya supervivencia depende de ellas?",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Alta montaña / tundra",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-bestias",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Ciudad de las Montañas de las Bestias · La Cuna de los Huargos",
+    "oldName": "Valgard",
+    "curiosities": [],
+    "sourceTitle": "Valgard",
+    "sourceRange": [
+      1852,
+      1861
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de las Bestias"
+      ]
+    ],
+    "sourceX": 270,
+    "sourceY": 560,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2.2
+  },
+  {
+    "id": "place-021",
+    "name": "Valstath",
+    "x": 195,
+    "y": 622,
+    "faction": "nordic",
+    "description": "Valstath se levanta en el interior de una quebrada volcánica, entre terrazas de piedra oscura y columnas de humo que escapan por los techos de sus salones. Sobre las puertas cuelgan pieles enormes, curtidas y marcadas con runas; los patios de combate están rodeados de máscaras de hueso y braseros. En el centro de la ciudad se encuentra la Casa de las Pieles, un santuario donde se conservan los despojos de las criaturas más feroces de las montañas.\n\nSi Skaldal honra a las bestias mediante la caza y Valgard busca someterlas, Valstath pretende hacer suya su ferocidad. Sus guerreros más célebres, llamados Pieljurados, se cubren con pieles consagradas y participan en ritos que les permiten invocar el vigor, el instinto y el furor de antiguas criaturas. En combate, algunos parecen ignorar el dolor y reconocer a sus compañeros más por el olor o la voz que por el rostro. La ciudad venera a quienes dominan esa fuerza, pero teme a los que ya no consiguen desprenderse de ella.\n\nValstath reconoce a un Höfðingi y a su Hetjuþing. Dentro de la Hetjublóð, los linajes que custodian las pieles ancestrales gozan de un prestigio particular, aunque portar una de ellas exige superar pruebas ante los ancianos y los Goðar. Una victoria militar puede elevar a un guerrero; regresar de un trance conservando su nombre y su juramento demuestra que todavía es capaz de servir al clan. Los Pieljurados no son señores de todos los demás, más bien, su poder depende de que los libres sigan confiando en ellos.\n\nSus habitantes subsisten de la caza, los pasos comerciales, el curtido y la fabricación de armaduras, máscaras y amuletos rúnicos. En tiempos de guerra aportan guerreros de choque, temidos incluso por sus aliados. La esclavitud por sometimiento forma parte de sus costumbres más arraigadas, los cautivos extranjeros trabajan en talleres de cuero, canteras y fortificaciones. Las ceremonias de las pieles no equivalen a contratos de alma; estos últimos son raros y no definen la tradición de la ciudad.\n\nPara Valstath, Rhoroe concedió a las bestias una fuerza que los montaraces pueden tomar prestada, nunca poseer sin consecuencias. Antes de cada campaña se celebra el Rito del Nombre, donde los guerreros pronuncian su nombre, su linaje y el juramento que los ata a los vivos. Al regresar deben repetirlos ante sus familias. Quien ha perdido por completo la memoria de sí mismo es llamado Despojado; no se le considera cobarde, pero tampoco se le permite regresar a la vida ordinaria del clan.\n\nLa herida más antigua de Valstath son los Nueve Despojados, héroes que salvaron la ciudad durante un asedio y jamás recuperaron sus nombres. Según la tradición, aún recorren los desfiladeros vestidos con sus pieles de guerra. Durante generaciones se les dejaron ofrendas y nadie osó perseguirlos; últimamente, sin embargo, se atribuyen a sus apariciones la desaparición de cazadores y caravanas. Unos exigen darles muerte para proteger a los vivos; otros sostienen que levantar el arma contra quienes salvaron Valstath sería traicionar el Lífsátt. Las familias descendientes de aquellos nueve se niegan a que sus nombres sean borrados de la Casa de las Pieles.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Alta montaña / tundra",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-bestias",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Ciudad de las Montañas del Sur o de las Bestias",
+    "oldName": "Valstath",
+    "curiosities": [],
+    "sourceTitle": "Valstath",
+    "sourceRange": [
+      1861,
+      1870
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de las Bestias"
+      ],
+      [
+        "Actividades mencionadas",
+        "Curtiduría"
+      ]
+    ],
+    "sourceX": 196,
+    "sourceY": 621,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×8 píxeles, área=41, relleno=0.73",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1.4
+  },
+  {
+    "id": "place-022",
+    "name": "Fjjord",
+    "x": 411,
+    "y": 623,
+    "faction": "nordic",
+    "description": "Fjjord está excavada en las entrañas de una montaña negra, atravesada por vetas de hierro y antiguos depósitos de carbón. Desde lejos se advierte por las columnas de humo que brotan de sus chimeneas y por el estruendo incesante de los martillos. Sus calles descienden entre hornos abiertos, canales de escoria y puentes de hierro ennegrecido; detrás de sus murallas, las fundiciones iluminan la roca al rojo vivo incluso durante las noches más largas del invierno. Los habitantes llaman a aquel retumbar el corazón de Bergheim.\n\nFjjord es la gran forja de guerra de las Cuatro Montañas. Sus herreros producen espadones gigantes de dos manos, conocidos como zweihänder, espadas largas, hachas de batalla, alabardas y escudos robustos de madera reforzada con hierro. Equipan exploradores con cuero endurecido, compañías enteras con cotas y corazas, y a sus guerreros de mayor prestigio con armaduras de placas. También fabrican ballestas, virotes, herrajes de asedio y herramientas para abrir brechas en una fortificación. Allí el metal no se trabaja para embellecer salones, sino para quebrar huesos y mantener en pie las murallas de Bergheim.\n\nSus habitantes conocen cada filón y cada depósito de carbón de las montañas. Las galerías profundas, los hornos y los fuelles nunca descansan y cuando la ventisca cierra los caminos, sus forjas continúan encendidas con el combustible acumulado durante meses. El oficio del herrero es inseparable del guerrero. Un maestro forjador debe conocer el peso de su arma en una formación, la resistencia de un escudo bajo una lluvia de saetas y el momento exacto en que una hoja cede. Los mejores marchan con sus propias compañías para examinar en combate aquello que han fabricado.\n\nEl Höfðingi comparte el poder con el Hetjuþing y con los grandes linajes de Maestros del Yunque, miembros de la Hetjublóð que gobiernan talleres, depósitos y hornos familiares. Los Hersir de Fjjord son comandantes despiadados, célebres por sus columnas de infantería pesada y ballesteros que avanzan detrás de muros de escudos. Para ellos, una retirada sin orden es una vergüenza y una espada que se rompe por negligencia merece castigo. La esclavitud por sometimiento es corriente y así, cautivos extranjeros excavan carbón, arrastran mineral y alimentan los hornos, sometidos a jornadas que pocos hombres libres aceptarían.\n\nFjjord conserva una costumbre feroz conocida como la Prueba de la Última Brasa. Antes de recibir el mando de una forja de guerra, un heredero de la Sangre Heroica debe terminar una hoja y combatir con ella ante los veteranos, sin delegar en un esclavo ni el trabajo del yunque ni el riesgo del acero. No basta con heredar una marca, quien no sabe hacer un arma ni sobrevivir a ella no está preparado para mandar sobre los hombres que la empuñan. Sus guerreros creen que el Lífsátt exige armas superiores y voluntad para emplearlas sin vacilar, ya que el poder es la única forma de preservar la vida y de la guerra, es como sobrevive su pueblo\n\nLa mayor controversia de Fjjord estalló cuando aparecieron espadas marcadas con su yunque entre los enemigos muertos tras una incursión contra las Montañas Guardianas. Los Maestros del Yunque afirmaron que aquellas hojas habían sido vendidas años atrás a mercaderes extranjeros, cuando Bergheim necesitaba grano y sal para pasar el invierno. Las familias de los caídos los acusaron de haber armado a sus propios verdugos. Fjjord se negó a entregar sus registros comerciales al Concilio y sostiene que ninguna ciudad puede reclamar sus armas sin asumir también el coste de mantener encendidas las forjas. Desde entonces, algunos exigen someter la producción de guerra al Hedda; los herreros responden que quien controle el hierro terminará pretendiendo gobernar las Cuatro Montañas.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "La Gran Forja de Bergheim · Montañas Guardianas o del Paso Lory’ell",
+    "oldName": "Fjjord",
+    "curiosities": [],
+    "sourceTitle": "Fjjord",
+    "sourceRange": [
+      1897,
+      1906
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 392,
+    "sourceY": 628,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×7 píxeles, área=40, relleno=0.82",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 19.6
+  },
+  {
+    "id": "place-023",
+    "name": "Haldra",
+    "x": 636,
+    "y": 671,
+    "faction": "nordic",
+    "description": "Haldra domina una garganta monumental de las montañas, sobre antiguas galerías que conducen a las Cavernas de Varnok. Sus murallas protegen templos de piedra negra, grandes salas de juramentos, osarios y patios de armas donde arden braseros noche y día. Las escalinatas se hunden entre estatuas de caudillos muertos y relieves que muestran a los dioses junto a los primeros montaraces. Aquí la roca no parece haber sido excavada para dar refugio a los hombres, sino para recordarles la pequeñez de sus vidas ante la montaña y sus antepasados.\n\nSi Mossgard guarda los acuerdos políticos de Bergheim, Haldra custodia su fe. Sus Goðar y sacerdotes presiden consagraciones, ceremonias funerarias y juramentos solemnes; interpretan las obligaciones espirituales del Lífsátt y forman oficiantes destinados a las distintas ciudades. No existe por ello una religión idéntica en todas las Montañas ni una corona sacerdotal que gobierne sus clanes. Haldra conserva su Höfðingi y su Hetjuþing, pero el prestigio de sus grandes templos concede a sus autoridades religiosas una influencia que trasciende sus propios muros.\n\nLa nigromancia ocupa un lugar central en sus enseñanzas, aunque de un modo diferente al de Ulfvik. Allí se preservan nombres, recuerdos y reliquias de los muertos; en Haldra se estudia cómo el juramento de un guerrero puede perdurar más allá de su vida. Sus sacerdotes conocen la reanimación de cadáveres y custodian rituales de gran complejidad, sin confundir un cuerpo reanimado con la persona que alguna vez lo habitó. Solo los maestros que alcanzan la Comprensión pueden crear Ecos mediante reliquias y amuletos, son reproducciones parciales de los difuntos, no resurrecciones verdaderas. La lectura de vestigios y el diálogo limitado con memorias residuales siguen siendo artes propuestas para el desarrollo futuro de la escuela.\n\nLa fuerza propia de Haldra son los Eidvard, llamados en lengua común Guardianes del Último Juramento. No son acólitos inexpertos protegidos por soldados, son veteranos que, después de combatir por sus clanes, han consagrado su experiencia militar al sacerdocio y al estudio de la nigromancia. Visten corazas oscuras grabadas con los nombres de sus compañeros caídos y combaten con alabardas, espadas y escudos pesados. Sus órdenes combinan la disciplina de la infantería veterana con la magia de sus oficiantes; no todos dominan la nigromancia por igual y muy pocos poseen el conocimiento necesario para crear un Eco.\n\nAl ingresar en la orden, los Eidvard prestan el Último Juramento, sus armas, su memoria y, tras la muerte, sus restos permanecerán al servicio de Bergheim. Custodian templos y reliquias, acompañan a los ejércitos cuando el Concilio reclama su auxilio y recuperan a los caídos para impedir que sus cuerpos sean abandonados o profanados. Su servicio al Lífsátt es doble, sostienen la continuidad de los ritos comunes y aportan una hueste religiosa experimentada cuando una crisis amenaza a las Cuatro Montañas. Para mantenerla, Haldra necesita hierro de Fjjord, suministros de las rutas de Jorundathr y acceso a los saberes y materiales custodiados en Varnok.\n\nEsa autoridad suscita disputas. Ulfvik rechaza que la capital religiosa reclame para sí las reliquias y los nombres guardados por cada familia; Mossgard, por su parte, reconoce la importancia de las consagraciones, pero sostiene que el Concilio, y no los templos, debe decidir cuándo se proclama un Hedda. Una negativa de Haldra a bendecir a un campeón no anularía necesariamente su mando, aunque podría minar su prestigio entre los clanes. Así, Haldra ofrece fe, disciplina y guerreros a toda Bergheim, mientras disputa hasta dónde puede llegar su potestad sobre los juramentos de los demás.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Localidad o enclave",
+    "oldName": "Maldra",
+    "curiosities": [],
+    "sourceTitle": "Haldra",
+    "subtitle": "Capital religiosa de Bergheim · El Último Juramento",
+    "sourceRange": [
+      1951,
+      1960
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ],
+      [
+        "Autoridad",
+        "Höfðingi y Hetjuþing"
+      ]
+    ],
+    "sourceX": 636,
+    "sourceY": 671,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 7×7 píxeles, área=40, relleno=0.82",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-024",
+    "name": "Rhunorat",
+    "x": 193,
+    "y": 753,
+    "faction": "nordic",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "",
+    "race": "",
+    "loreStatus": "pendiente",
+    "regionId": "bergheim-bestias",
+    "kind": "Localidad o enclave",
+    "oldName": "Rhunorat",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de las Bestias"
+      ]
+    ],
+    "sourceX": 193,
+    "sourceY": 753,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-100",
+    "name": "Vargheim",
+    "x": 155,
+    "y": 453,
+    "faction": "nordic",
+    "description": "Vargheim no es una gran ciudad, sino un asentamiento de herreros y curtidores encajado entre riscos nevados y pinares, a poca distancia de las rutas de Rabbenjorg. Sus casas se apiñan alrededor de forjas bajas, patios de ajuste y talleres donde cuelgan correas, escamas de hierro y moldes de madera. Allí no retumban los martillos que fabrican espadones para los hombres, se escucha el metal que habrá de proteger a las bestias que cabalgan a la guerra. Las puertas de sus salones muestran, junto a los escudos de los antepasados, las corazas destrozadas de huargos que regresaron vivos de antiguas campañas.\n\nDesde hace generaciones, los clanes de Vargheim perfeccionan una artesanía que pocos fuera del pueblo comprenden, la fabricación de armaduras, monturas y arreos para huargos. Cada pieza debe respetar el cuello, los hombros y el movimiento de una criatura capaz de correr, saltar y despedazar a sus enemigos. Una coraza demasiado rígida puede condenar al animal y a su jinete. Por eso los maestros trabajan con las medidas de cada ejemplar y prueban sus obras sobre terreno abrupto, no solo ante el yunque. Los mejores juegos de placas, cuero endurecido y anillas reciben nombres propios y pasan de una montura a otra únicamente cuando el ajuste lo permite.\n\nLa costumbre más apreciada se conoce como la Prueba de la Manada, antes de declarar terminada una coraza, el artesano debe acompañar al huargo en una marcha por los desfiladeros y comprobar que puede combatir y regresar sin quedar entorpecido por su obra. En Vargheim se cree que el herrero que desconoce a la criatura que protege no merece marcar el hierro con su nombre. Los linajes que dominan esta técnica gozan de prestigio entre la Hetjublóð, aunque el asentamiento sigue siendo pequeño y su Höfðingi debe negociar con autoridades mucho más poderosas. Los cautivos extranjeros trabajan en carboneras, curtiembres y tareas pesadas; los ajustes decisivos quedan reservados a los maestros del oficio.\n\nSu contribución al Lífsátt es directa, Valgard cría y adiestra los huargos; Vargheim los equipa para la guerra; Jorundathr los emplea como monturas de exploración, escolta y transporte rápido. También recibe hierro trabajado de Fjjord y parte del carbón y la madera de Rabbenjorg. En una expedición invernal, la protección correcta de una montura puede salvar no solamente al jinete, sino también los mensajes, medicinas y provisiones que lleva a otros clanes. Así, un pueblo de pocos hogares participa en la defensa de las Cuatro Montañas tanto como una gran fortaleza.\n\nEse conocimiento le concede un poder incómodo. Valgard reclama prioridad porque suministra las bestias; Jorundathr exige corazas para sus convoyes; los jefes de guerra piden equipos capaces de resistir una carga frontal. Pero los talleres de Vargheim no pueden apresurarse sin arriesgar la vida de los huargos y de sus jinetes. Sus maestros sostienen que el Lífsátt los obliga a trabajar para Bergheim, no a entregar hierro defectuoso por obedecer a un caudillo impaciente. En cada movilización reaparece la misma disputa: ¿quién decide qué monturas serán protegidas primero cuando el pequeño pueblo no puede equiparlas a todas?",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Bosque boreal / alta montaña",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-ventisca",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Pueblo de las Montañas de la Ventisca · El Hierro de la Manada",
+    "oldName": "Vargheim",
+    "curiosities": [],
+    "sourceTitle": "Vargheim",
+    "sourceRange": [
+      1819,
+      1827
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de la Ventisca"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería, Curtiduría"
+      ]
+    ],
+    "sourceX": 155,
+    "sourceY": 452,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo blue: 8×8 píxeles, área=33, relleno=0.52",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-101",
+    "name": "Ulfvik",
+    "x": 77,
+    "y": 536,
+    "faction": "nordic",
+    "description": "Ulfvik yace en una garganta de basalto ennegrecido, entre riscos perpetuamente cubiertos de niebla. Sus calles calladas están flanqueadas por menhires, criptas y pequeñas efigies de piedra y madera petrificada y cada figura recuerda a un muerto cuyo nombre no debe perderse. Desde algunos promontorios se alcanza a distinguir el mar, aunque la ciudad no posee un verdadero puerto. Allí se conservan anclas carcomidas, maderas saladas y objetos de procedencia olvidada. Durante la Vigilia de la Marea, los oficiantes escuchan el oleaje desde los riscos y guardan silencio ante presagios que ni ellos pretenden comprender del todo.\n\nPara Ulfvik, la nigromancia es una prolongación del Lífsátt. La vida entregada al clan no queda deshonrada por la muerte, recordar a los caídos, conservar sus reliquias y pedirles auxilio cuando la montaña amenaza a los vivos constituye un deber. De esta convicción nació la Custodia de los Nombres o los custodios lupinos, una tradición de escribas funerarios, talladores, runistas y nigromantes dedicados a registrar linajes, juramentos, derrotas y hazañas. Sus monumentos no exhiben solamente a los grandes caudillos; también honran al explorador que halló un refugio o a quien murió llevando provisiones a otra comunidad.\n\nLa ciudad es una de las grandes escuelas de nigromancia de Bergheim, pero su arte no debe confundirse con el gobierno religioso de Haldra. Los aprendices estudian los restos y las señales asociadas a la muerte; los practicantes formados pueden reanimar cadáveres, inicialmente como servidores temporales de órdenes sencillas y, con mayor dominio, para labores más complejas. Solo maestros excepcionales alcanzan la Comprensión necesaria para crear un Eco, una reproducción parcial del difunto, ligada mediante ritual a un amuleto elaborado con sus restos o pertenencias preciadas. No es el regreso íntegro de una persona, ni una voz infalible del pasado. La lectura de vestigios y la comunicación limitada con memorias residuales son saberes que Ulfvik busca desarrollar, todavía sujetos a su definición en el sistema mágico.\n\nEl servicio de Ulfvik al conjunto de Bergheim es preservar aquello que las guerras y el Olvido Ancestral amenazan con borrar. Cuando un paso queda sepultado, un juramento se disputa o una compañía desaparece, sus custodios pueden consultar antiguos registros, reliquias y, en casos extraordinarios, intentar recuperar un Eco útil para la comunidad. Esta labor requiere tiempo, objetos auténticos y hechiceros competentes, ninguna ciudad puede exigir que aparezca a voluntad la sabiduría de un héroe perdido. En la vida cotidiana, los muertos también están presentes en las ceremonias funerarias, los consejos de los clanes y los ritos previos a las expediciones.\n\nLa ciudad reconoce a su Höfðingi y a su Hetjuþing, aunque los custodios de las reliquias ejercen una autoridad difícil de medir en guerreros. Sus hogares, talleres y criptas utilizan cautivos extranjeros conforme a las costumbres generales de Bergheim. Algunos iniciados conocen contratos de alma, una servidumbre excepcional y distinta tanto de la esclavitud por sometimiento como de la evocación honorable de los antepasados. Ulfvik no busca monopolizar la nigromancia, sabe que otras ciudades la practican y que Haldra forma sacerdotes guerreros. Su prestigio procede de la paciencia con que preserva nombres, objetos y memorias.\n\nUna de las particularidades más reconocibles de los nigromantes de Ulfvik es su vestimenta ceremonial, caracterizada por imponentes yelmos y tocados confeccionados con pieles y cabezas de lobo. Los cuerpos de aquellos animales que perecen en las montañas, vencidos por el frío, el hambre o las inclemencias del invierno, son recogidos solemnemente y sus restos utilizados para elaborar las vestiduras rituales y las prendas de guerra de sus sacerdotes.\n\nEsta tradición posee un profundo significado espiritual. Para los habitantes de Ulfvik, el lobo encarna uno de los principios fundamentales del Lífsátt, ninguna criatura sobrevive sola a la montaña. La manada representa la unión, la lealtad y la protección recíproca que mantienen con vida al clan. Por ello, portar la cabeza de un lobo no constituye un simple ornamento ni un trofeo de caza, sino un símbolo sagrado del juramento que une a los montaraces, tanto en la vida como en la muerte.\n\nAsí como la manada protege a sus miembros durante el invierno, los antepasados continúan velando por los suyos desde el más allá.\n\nLa tensión que define a Ulfvik nace de esa custodia. Haldra reclama autoridad espiritual sobre las grandes ceremonias y aspira a reunir reliquias de héroes venerados por toda la nación; las familias de Ulfvik sostienen que ningún templo puede apropiarse de los restos o juramentos que un clan ha guardado durante generaciones. A su vez, los caudillos del Concilio desean aprovechar esa memoria en guerras, litigios y decisiones urgentes. Los custodios replican que un Eco puede reproducir una parte del pasado sin comprender el presente y que forzar una evocación puede destruir aquello que se pretende conservar. Bajo el Lífsátt, Ulfvik ofrece a Bergheim la memoria de sus muertos, pero exige que esa memoria no sea tratada como botín.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Bosque boreal / alta montaña",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-ventisca",
+    "kind": "Ciudad / enclave",
+    "image": "",
+    "subtitle": "Pueblo de las Montañas de la Ventisca · Los Custodios Lupinos",
+    "oldName": "Ulfvik",
+    "curiosities": [],
+    "sourceTitle": "Ulfvik",
+    "sourceRange": [
+      1827,
+      1839
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas de la Ventisca"
+      ]
+    ],
+    "sourceX": 75,
+    "sourceY": 548,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo nordic: 8×7 píxeles, área=43, relleno=0.77",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 12.2
+  },
+  {
+    "id": "place-102",
+    "name": "Cavernas de Varnok",
+    "x": 650,
+    "y": 592,
+    "faction": "nordic",
+    "description": "Pocos montaraces han contemplado las Cavernas de Varnok. Sus entradas se ocultan tras acantilados escarpados, fallas que parten la montaña y senderos donde el hielo permanece incluso en las estaciones benignas. El viento ruge entre las grietas, pero al cruzar el primer umbral sobreviene un silencio pesado. Dentro se abren pabellones de piedra tan vastos que sus bóvedas se pierden en la negrura; entre columnas talladas, altares y antorchas mortecinas, el visitante experimenta la solemnidad de un santuario y la opresión de una tumba.\n\nDe las entrañas de Varnok se extrae el Nox, uno de los minerales más extraordinarios de Bergheim. Sus vetas alimentan las forjas y las artes rúnicas de las Cuatro Montañas, pero ninguna excavación profunda comienza sin un rito. Los mineros marcan los umbrales, los runistas trazan sellos sobre la roca y los guardianes escuchan si la montaña responde. Los trabajos más importantes reúnen a herreros, maestros de galerías y sacerdotes: en Varnok, arrancar metal a la piedra es también perturbar algo antiguo.\n\nNo hay galería que carezca de leyendas. Se habla de duendes deformes que observan desde las fisuras, de bestias sin ojos, de huellas que aparecen sobre la piedra seca y de golpes de martillo provenientes de túneles clausurados hace generaciones. A veces, voces desconocidas recorren los grandes pabellones o surgen símbolos donde nadie ha tallado una runa. Algunos creen que entre las fallas existe un sendero hacia Náheimr, nombre que dan al supuesto reino de los muertos; otros aseguran haber visto criaturas emerger de ese camino. Nadie ha demostrado dónde termina, y pocos se ofrecen a buscarlo.\n\nLa población del enclave vive entre pozos, santuarios y cámaras fortificadas. Sus linajes mineros comparten autoridad con custodios de los ritos y maestros de runas; ningún jefe puede ordenar por sí solo abrir una galería sellada. La esclavitud por sometimiento existe también aquí, y los cautivos extranjeros realizan labores en las explotaciones, aunque las profundidades reservadas a los grandes rituales quedan bajo vigilancia de los propios montaraces. La nigromancia, las invocaciones y la lectura de presagios alcanzan una intensidad excepcional, sin que nadie confunda los conocimientos de Varnok con las tradiciones funerarias de Ulfvik.\n\nSus habitantes despiertan respeto y desconfianza incluso en Mossgard. Los emisarios de Varnok llegan envueltos en capas negras emplumadas, con cascos metálicos de cuernos retorcidos y cubrebrazos escamados que les dan aspecto de demonios salidos de la roca. Hablan poco, evitan los juramentos frívolos y cargan pequeñas figuras de piedra con los nombres de quienes no regresaron. Para ellos, el Lífsátt exige mantener abiertos los trabajos que sostienen a Bergheim, pero también impedir que la codicia conduzca a los vivos hacia aquello que duerme bajo sus pies.\n\nLa inquietud que divide Varnok es sencilla y terrible, cada nueva veta de Nox fortalece las armas y los rituales de Bergheim, pero obliga a excavar más hondo. Los maestros de las forjas exigen mayor producción; los custodios de las galerías advierten que algunos sellos antiguos ya muestran grietas. El Concilio necesita el mineral, aunque apenas comprende lo que sucede bajo la montaña. Nadie sabe si los ritos de Varnok mantienen cerrada la puerta a Náheimr o si, cada vez que se celebran, algo al otro lado aprende a encontrar el camino.",
+    "population": "",
+    "climate": "Frío de montaña (contexto de Bergheim)",
+    "biome": "Macizo alpino y desfiladeros",
+    "race": "Montaraces",
+    "loreStatus": "actualizado",
+    "regionId": "bergheim-guardianas",
+    "kind": "Cavernas / lugar especial",
+    "image": "",
+    "subtitle": "Las galerías del Nox · Enclave de las Cuatro Montañas",
+    "oldName": "Cavernas de Varnok",
+    "curiosities": [],
+    "sourceTitle": "Cavernas de Varnok",
+    "sourceRange": [
+      1933,
+      1942
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Montañas Guardianas"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 650,
+    "sourceY": 592,
+    "symbolType": "especial",
+    "symbolNote": "Punto especial reactivado a petición del autor; coordenadas pendientes de comprobación cartográfica fina",
+    "cartographyReview": "visible_pendiente_revision_icono",
+    "revisionDelta": 0
+  }
+]

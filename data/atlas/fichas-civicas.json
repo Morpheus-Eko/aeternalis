@@ -1,0 +1,47 @@
+{
+  "place-059": {
+    "basic": {
+      "capital": "Capital de la República",
+      "government": "Consejo de los Diez y Altos Consejeros",
+      "religion": null,
+      "language": null
+    },
+    "strategic": {
+      "resources": "La ciudad mantiene una fuerte alianza naval y comercial con Isla Zafiro, sobre todo con Marina y Puerto de la Luna. Aparte de los tratados comerciales y de la defensa conjunta del estrecho xxxxxxxxx, es normal que haya presencia civil y diplomática entre ambos territorios, así como un programa de entrenamiento y capacitación en conjunto tanto de las fuerzas terrestres como navales.",
+      "defenses": "La seguridad en tierra de la ciudad está bajo la jurisdicción de la Guardia Esmeralda, quienes patrullan las calles de los distritos y mantienen el orden. Sin embargo, en el Distrito de Plata suele haber presencia de guardias privadas o mercenarios que fungen como guardaespaldas de los comerciantes o banqueros más acaudalados.\n\nLa seguridad en el mar es llevada por el Mando Noroeste de la Compañía Obsidiana; su barco insignia, “El Escudo de los Inocentes”, se encuentra normalmente anclado o patrullando las aguas circundantes de la ciudad. Este coloso negro, hecho en su totalidad por corteza oscura, es único en su especie. Lento y falto de maniobrabilidad, su tamaño, resistencia y sobre todo armamento es suficiente para destruir cualquier barco que se le ponga enfrente; su sola presencia es disuasoria. Es llamado “El Muro Negro” de forma coloquial.",
+      "threats": "La alta multiculturalidad ha supuesto un reto para las fuerzas del orden, ya que las diferencias culturales y religiosas son la pólvora perfecta para el conflicto. Si bien las leyes son claras en cuanto a la protección de la cultura local y el resto a las creencias extranjeras, cada vez son más los descontentos locales ante las culturas ajenas que han ido echando raíces en la capital.\n\nSi bien el gobierno mantiene un sistema de salud y educación pública gracias a los impuestos, estos sistemas están al borde de verse sobrepasados por la demanda. Así mismo, las instituciones privadas monopolizan a los mejores especialistas y maestros, así como los insumos de mejor calidad."
+    },
+    "districts": [
+      {
+        "id": "eirae-1",
+        "name": "Distrito del Mar",
+        "image": "",
+        "description": "Al norte de la ciudad se encuentran los muelles y el distrito adyacente; es el punto más caótico de la ciudad. En sus aguas se pueden ver tanto naves mercantes y civiles como navíos del Mando Noroeste de la Compañía Obsidiana. Los muelles nunca descansan: grúas de madera y metal levantan fardos, barriles y cajas mientras los cargadores  se mueven entre ellos con la precisión de quien conoce cada rincón del laberinto. Más allá de la línea de agua se extiende un entramado denso de almacenes de piedra y ladrillo, el aire está impregnado del olor a sal, a alquitrán y a mercancía almacenada. Entre los almacenes y cerca de los muelles se concentra la mayor cantidad de posadas económicas y tabernas de la ciudad. Son establecimientos ruidosos, de techos bajos y mesas gastadas, donde marineros de todas las razas beben, negocian y a veces se pelean."
+      },
+      {
+        "id": "eirae-2",
+        "name": "Distrito de Plata",
+        "image": "",
+        "description": "El verdadero corazón económico de la ciudad. Situado al este de la ciudad, aquí el dinero no descansa: bancos, casas de cambio, prestamistas y comercios de toda clase se apiñan en calles estrechas y bien pavimentadas donde el ruido de monedas, negociaciones y pasos apenas cesa al anochecer. El aire huele a tinta de contratos, a metal recién contado y a las especias que se venden en los puestos más cercanos al bazar. Aunque algunos banqueros, prestamistas y comerciantes prósperos viven encima de sus propios negocios o a pocas calles de distancia; la mayor parte del distrito está dedicada exclusivamente a la actividad económica."
+      },
+      {
+        "id": "eirae-3",
+        "name": "Distrito de Piedra",
+        "image": "",
+        "description": "El sector más antiguo y el centro político de Eirae. Sus calles, más anchas y mejor trazadas que las de otros barrios, están flanqueadas por edificios de piedra clara y tejados de teja rojiza que conservan la sobriedad característica de los Nórin. Aquí no se oye el bullicio del puerto ni el tintineo constante del bazar; el ritmo es más pausado, marcado por el paso de funcionarios, mensajeros y la ocasional escolta. En el centro del distrito se alza la sede de los Altos Consejeros y la Sala del Consejo de los Diez, un edificio sobrio pero imponente. A su alrededor se agrupan las principales instituciones gubernamentales. También se encuentra en este distrito el sanatorio “Gracia de los Prósperos” y la Academia de Aurelia, así como algunas residencias personales de los miembros del gobierno."
+      },
+      {
+        "id": "eirae-4",
+        "name": "Distrito del Acero",
+        "image": "",
+        "description": "Este distrito amurallado se alza en el flanco occidental de Eirae como un pequeño fuerte militar incrustado en la ciudad. Sus calles son más amplias y rectas que las del resto de la capital, pensadas para el paso de tropas y carros, y el sonido de las armas de entrenamiento y de los martillos de herrería se escucha desde varios bloques de distancia. Aquí viven, se entrenan y trabajan principalmente Amarant y Sin’Hair, las dos razas que conforman el grueso de las fuerzas de defensa de la República. El ambiente es disciplinario y práctico: las calles se mantienen limpias, los horarios son estrictos y la presencia de civiles ajenos al servicio es limitada."
+      },
+      {
+        "id": "eirae-5",
+        "name": "Distrito de Madera",
+        "image": "",
+        "description": "El más reciente de Eirae y también el más apacible. Aún en constante expansión, se extiende hacia el interior del continente como el principal barrio residencial de la capital. Por ley, todo nuevo edificio debe respetar un equilibrio cuidadoso con la naturaleza: está prohibido levantar construcciones demasiado altas u ostentosas, de modo que a simple vista la diferencia entre los más acomodados y los menos afortunados, no se encuentra en la altura o el lujo de las fachadas, sino en el tamaño del terreno que rodea cada casa. Las viviendas, grandes o modestas, suelen estar rodeadas de jardines bien cuidados. Entre las calles se intercalan parques y plazas comunitarias, así como sanatorios de bajo costo y santuarios dedicados a los dioses mayores y menores."
+      }
+    ]
+  }
+}

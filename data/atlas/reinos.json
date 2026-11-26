@@ -1,0 +1,301 @@
+{
+  "kargast-sierras": {
+    "intro": [],
+    "sections": []
+  },
+  "kargast-rocas": {
+    "intro": [],
+    "sections": []
+  },
+  "kargast-valle": {
+    "intro": [],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "A diferencia del resto del Reino, en este distrito se da una relación estrecha con Ávalon, siendo el lugar de Kargast donde más se puede encontrar a humanos, en contraposición a los dos distritos restantes en donde la existencia de otras razas normalmente es inexistente."
+        ]
+      }
+    ]
+  },
+  "avalon-reeve": {
+    "intro": [
+      "Corresponde a uno de los cuatro ducados que componen el reino de los humanos (Ávalon). Limita al norte con las montañas de Neithem, al sur con el Mar de ithar’iamil, al este con el Ducado de las Llanuras (siendo el río Hylain la frontera natural entre ambos), y al oeste con el reino de los enanos (Kargast), siendo el titánico abismo conocido como “La Cicatriz” la frontera natural entre ambos.",
+      "Entre sus hitos más significativos se encuentra el hermoso Lago Verde, el Río reeve (el segundo más grande del reino), y el gran Bosque Lluvioso, el cual es el más grande de Ávalon, y el tercero más grande del mundo conocido (después de Veridia e Ithar’iamil)."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "Una enorme cantidad de personas (estimadas en algunos cientos de miles) viven como indígenas cobijados bajo el bosque lluvioso. Estos se dividen en tres tribus principales, los Konawe (hostiles y distribuidos principalmente al sureste del bosque), los Cozari (neutrales y distribuidos principalmente al noreste del bosque), y los Nakozi (pacíficos y distribuidos principalmente al noroeste del bosque).",
+          "En el Ducado de Reeve si bien la población predominante, por lejos, sigue siendo la humana, es el distrito con mayor porcentaje de habitantes de otras razas (sólo por debajo del sur del Ducado Zafiro). Esto ha conllevado a problemas con múltiples casas nobles (incluso de otros condados) y el miedo de muchos ciudadanos a que la situación atraiga a inquisidores."
+        ]
+      }
+    ]
+  },
+  "avalon-llanuras": {
+    "intro": [
+      "El Ducado de las Llanuras es el corazón militar y al mismo tiempo agrícola del Reino de Ávalon. Se extiende como un mar interminable de verdes cultivos fértiles, o de pastizales de trigo dorado, dominados por la férrea disciplina de sus guardias montados y por el honor de sus caballeros.",
+      "Limita al oeste con el Ducado de Reeve, con quienes mantiene una silenciosa rivalidad; al oeste con las tierras de la niebla, al norte las montañas de Neithem, y al sur con la joya capital del imperio: Fortaleza del Alba.",
+      "Entre sus hitos más importantes se encuentra el río Hylain, el cual es el más grande y ancho del reino, usado incluso para transporte marítimos dentro del distrito."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "En términos generales, las personas de las llanuras son las que más valoran el honor y la caballería.",
+          "Es el ducado que cuenta con mayor número y proporción, tanto de caballeros como de soldados de infantería, dentro del Reino de Ávalon.",
+          "Desde que se tiene memoria, los habitantes de Archlond siempre han sido los aliados mas fieles a la familia imperial."
+        ]
+      }
+    ]
+  },
+  "avalon-zafiro-norte": {
+    "intro": [
+      "Como una gema resplandeciente que flota en las aguas de Ithar'iamil, se levanta la colosal Isla Zafiro y sus volcanes gemelos. Otrora conocidos como el Ducado del Sol y el Ducado de la Luna, tras la guerra civil conocida como \"La Venganza de Marina\" ambos distritos se fusionaron en uno, quedando al mando de la Casa Fenwyn. Ahora lo que prevalece es un ducado que, a pesar del recelo del Emperador, abraza discretamente la multiculturalidad de las razas, principalmente en el sur, por lo que poco a poco se ha ganado cierta desconfianza de los nobles y duques en el continente."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "El Ducado Zafiro, además de ser el centro neurálgico naval y comercial de la teocracia de Avalon, es el único que cuenta con dos grandes ciudades capitales gobernadas por el mismo linaje. Informalmente se cree por parte de sus habitantes que el Duque es quien define los temas a tratar y quien tiene siempre la última palabra en el Puerto del Sol, mientras que en el sur es siempre la Duquesa la que cuenta con el total apoyo y el cariño de su pueblo, siendo ella quien gobierna cuando sus pies pisan el Puerto de la Luna.",
+          "Actividad volcánica intermitente que puede destruir cultivos o rutas.",
+          "Se le rinde culto a Shadya, pues es una de las hijas de Ignea y los lugareños creen que el fuego bajo las montañas es el aliento dormido de la hija. También se le rinde culto a Terrax y se tiene la creencia de que cuando tiembla o llueve ceniza el dios está reclamando memoria de los muertos."
+        ]
+      }
+    ]
+  },
+  "avalon-zafiro-sur": {
+    "intro": [
+      "Como una gema resplandeciente que flota en las aguas de Ithar'iamil, se levanta la colosal Isla Zafiro y sus volcanes gemelos. Otrora conocidos como el Ducado del Sol y el Ducado de la Luna, tras la guerra civil conocida como \"La Venganza de Marina\" ambos distritos se fusionaron en uno, quedando al mando de la Casa Fenwyn. Ahora lo que prevalece es un ducado que, a pesar del recelo del Emperador, abraza discretamente la multiculturalidad de las razas, principalmente en el sur, por lo que poco a poco se ha ganado cierta desconfianza de los nobles y duques en el continente."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "El Ducado Zafiro, además de ser el centro neurálgico naval y comercial de la teocracia de Avalon, es el único que cuenta con dos grandes ciudades capitales gobernadas por el mismo linaje. Informalmente se cree por parte de sus habitantes que el Duque es quien define los temas a tratar y quien tiene siempre la última palabra en el Puerto del Sol, mientras que en el sur es siempre la Duquesa la que cuenta con el total apoyo y el cariño de su pueblo, siendo ella quien gobierna cuando sus pies pisan el Puerto de la Luna.",
+          "Actividad volcánica intermitente que puede destruir cultivos o rutas.",
+          "Se le rinde culto a Shadya, pues es una de las hijas de Ignea y los lugareños creen que el fuego bajo las montañas es el aliento dormido de la hija. También se le rinde culto a Terrax y se tiene la creencia de que cuando tiembla o llueve ceniza el dios está reclamando memoria de los muertos."
+        ]
+      }
+    ]
+  },
+  "isilme-fallenor": {
+    "intro": [],
+    "sections": []
+  },
+  "isilme-galanor": {
+    "intro": [],
+    "sections": []
+  },
+  "isilme-ithariamil": {
+    "intro": [],
+    "sections": []
+  },
+  "ennor": {
+    "intro": [
+      "La máxima autoridad de este gobierno recae en los Altos Consejeros: un hombre y una mujer (por costumbre, matrimonio, aunque no es requisito que estén emparentados), quienes ostentan el mayor poder individual. No obstante, existe el Consejo de los Diez, órgano facultado para aprobar o rechazar propuestas y leyes por unanimidad aun en contra de los Altos Consejeros; sirve de forma natural como un contrapeso político para las mayores autoridades. Sin embargo, dicho poder no se ha ejercido durante los últimos 350 años, ya sea por falta de necesidad o por el desacuerdo entre facciones del Consejo de los Diez. Los Altos Consejeros son electos cada cinco años, mientras que los miembros de los Diez son elegidos, justamente, cada diez años. La reelección está permitida.",
+      "El Consejo de los Diez reúne a los principales estamentos y territorios de la República: el poder económico (Consorcio de la Balanza), los agricultores y ganaderos (Alianza de la Llanura), el ámbito judicial y notarial (Cónclave del Sello), la salud y herbolaria (Cofradía del Mortero), los artesanos (Unión de los Oficios), y la educación (La Voz de Aurelia, en representación de la Academia de Aurelia). Completan el órgano las fuerzas de defensa: el Mando Noroeste de la Compañía Obsidiana y la Guardia Esmeralda de la Orden de Veridia. Los últimos dos asientos pertenecen a los representantes civiles de la ciudad capital Eirae y de la Comarca Esmeralda.",
+      "En sus tierras se encuentra la Guardia Esmeralda, una rama de la Orden de Veridia centrada en mantener la paz y el patrullaje de caminos y ciudades. Así mismo, sus costas son protegidas por el Mando Noroeste de la Compañía Obsidiana, esta rama naval se encarga de la protección y patrullaje de las costas norte y oeste de la República y se centra, sobre todo, en la defensa."
+    ],
+    "sections": []
+  },
+  "elenya-surkei": {
+    "intro": [],
+    "sections": []
+  },
+  "elenya-avari": {
+    "intro": [],
+    "sections": []
+  },
+  "seriasak-vahirak": {
+    "intro": [],
+    "sections": []
+  },
+  "seriasak-vahamay": {
+    "intro": [],
+    "sections": []
+  },
+  "piratas": {
+    "intro": [],
+    "sections": []
+  },
+  "bergheim": {
+    "intro": [],
+    "sections": [
+      {
+        "title": "I. El gobierno de las Cuatro Montañas",
+        "paragraphs": [
+          "Bergheim es una nación de ciudades, fortalezas y clanes autónomos, agrupados en las Montañas de la Ventisca, de las Bestias, Guardianas y del Mar. Los extranjeros la llaman reino, aunque durante la paz no existe una corona permanente. Cada comunidad conserva sus autoridades, costumbres, milicias, cultos y recursos; ninguna ciudad es propiedad de otra.",
+          "Su vínculo fundamental es el Lífsátt, el Derecho a la Supervivencia. Todo montaraz aprende que nadie resiste la montaña en soledad y que la sangre de su pueblo es indispensable para la continuidad del clan. La doctrina exige defensa y auxilio recíprocos, pero no suprime las rivalidades, la esclavitud ni las guerras contra extranjeros. Las ciudades forman una paz armada, sostenida tanto por el juramento como por la necesidad.",
+          "Mossgard es la capital histórica y ceremonial. Allí se reúne el Concilio de las Cuatro Montañas, al que acuden los jarls y delegados de las ciudades. El Concilio decide sobre defensa común, pasos estratégicos, reservas, relaciones exteriores y controversias entre comunidades; no administra ordinariamente los asuntos interiores de cada ciudad. Se proponen dos reuniones ordinarias anuales, sin perjuicio de convocatorias extraordinarias. Los procedimientos precisos de votación todavía pueden definirse.",
+          "Cuando una amenaza pone en peligro a toda Bergheim, el Concilio puede proclamar un Hedda. Su mando es extraordinario y nace de una crisis concreta: dirige los ejércitos comunes, coordina las fuerzas de las Montañas y dispone de los medios necesarios para afrontar el peligro. Al cesar la crisis devuelve esas facultades, aunque conserva el reconocimiento heroico que ha ganado."
+        ]
+      },
+      {
+        "title": "II. La Hetjublóð: la Sangre Heroica",
+        "paragraphs": [
+          "Hetjublóð, llamada en lengua común la Sangre Heroica, es la dignidad de quienes tienen voz en las grandes decisiones de una ciudad. No equivale a un simple título hereditario ni a un oficio militar. Se transmite por los linajes reconocidos, pero también puede ser conferida públicamente a un montaraz libre por hazañas excepcionales: defender una fortaleza, salvar al clan del hambre, abrir un paso imposible o conseguir una victoria decisiva.",
+          "Las familias que conservan esta dignidad son las Hetjuættir, o Casas Heroicas. Su legitimidad se alimenta de la memoria de sus antepasados, las sagas y el cumplimiento del Lífsátt. Un linaje puede perder prestigio e incluso su reconocimiento por traición o abandono de la comunidad. Pertenecer a la Sangre Heroica da acceso a las asambleas; no convierte por sí solo a nadie en jarl, caudillo o jefe de guerra.",
+          "Hetjuþing — Consejo de la Sangre. Asamblea local de la Sangre Heroica. Reconoce nuevos integrantes, interviene en la designación de autoridades, resuelve asuntos políticos y elige a quienes representarán a la comunidad. En Mossgard, la reunión común de jarls y delegaciones puede denominarse Gran Hetjuþing, sin confundirse con los consejos locales."
+        ]
+      },
+      {
+        "title": "III. Las dignidades de mando",
+        "paragraphs": [
+          "Hedda — Campeón de las Cuatro Montañas. Figura excepcional y casi legendaria. Su autoridad procede de las hazañas y del reconocimiento de toda la nación, no de una dinastía. Recibe el mando común solamente durante una guerra o calamidad que lo justifique. Es el ideal heroico supremo del pueblo montaraz.",
+          "Jarl — Caudillo de la Montaña. Coordina a las ciudades de una de las Cuatro Montañas, representa sus intereses ante el Concilio y organiza los compromisos comunes de defensa y abastecimiento. No es un monarca territorial ni puede disponer libremente de las ciudades vinculadas a su Montaña.",
+          "Höfðingi — Caudillo del Clan. Autoridad principal de una ciudad, clan o asentamiento. Convoca su consejo, administra los asuntos ordinarios, organiza la defensa local y responde de los juramentos de su comunidad. Su elección o sucesión depende de las costumbres del lugar.",
+          "Hersir — Jefe de Guerra. Manda huestes, incursiones y compañías de combate; prepara a los guerreros y responde por la disciplina y la conducción de las campañas. Sus hazañas pueden otorgarle enorme influencia, aunque su autoridad militar no equivale automáticamente a poder político.",
+          "Veiðihöfðingi — Maestro de Caza. Dirige las grandes cacerías, los rastreadores y la obtención de provisiones en territorios inhóspitos. Su oficio puede decidir el destino de una ciudad durante el invierno; en algunas comunidades posee tanto prestigio como un jefe de guerra.",
+          "Skarðvörðr — Guardapaso. Custodia los desfiladeros, fortalezas de tránsito, refugios y rutas invernales. Controla vigías, guarniciones y comunicaciones esenciales para la unión de las Cuatro Montañas. Su autoridad se concentra en la seguridad de los pasos que le son confiados.",
+          "Stýrimaðr — Capitán de Quilla. Dirige embarcaciones, flotas mercantes, compañías mercenarias o expediciones de saqueo. Negocia cargas y contratos, responde por la tripulación y puede alcanzar enorme poder en las ciudades marítimas."
+        ]
+      },
+      {
+        "title": "IV. La palabra, los dioses y las runas",
+        "paragraphs": [
+          "Goði — Oficiante del Clan. Custodia cultos y ceremonias, preside juramentos, ofrendas y duelos consagrados a los dioses. Su influencia varía según la ciudad y la divinidad venerada. Puede aconsejar al caudillo, pero su autoridad religiosa no implica por sí misma el voto de la Sangre Heroica.",
+          "Lögsögumaðr — Voz de la Ley. Conoce, recita e interpreta los pactos, costumbres y precedentes de su comunidad. Interviene en disputas de juramentos y recuerda a los caudillos los límites establecidos por el Lífsátt.",
+          "Skáld — Cantor de las Sagas. Conserva las genealogías, las gestas, las derrotas y la memoria de los héroes. Su palabra puede engrandecer o manchar para generaciones el honor de una casa. Es una función de enorme prestigio cultural, no necesariamente un mando político.",
+          "Runistas y nigromantes — Guardianes de los Signos. No constituyen una casta dirigente propia: son practicantes de saberes arcanos, invocaciones y vínculos con los antepasados. Su servicio está reconocido por el Lífsátt; Ulfvik destaca por su práctica especialmente ritual. Pueden alcanzar la Sangre Heroica mediante hazañas, igual que otros montaraces."
+        ]
+      },
+      {
+        "title": "V. Condición social y derechos",
+        "paragraphs": [
+          "Karlar — los Libres. Pueblo montaraz libre: familias de guerreros, pescadores, artesanos, cazadores, comerciantes y otros oficios. Están amparados por el Lífsátt y deben servicio y auxilio a su comunidad, pero no votan en el Hetjuþing salvo que sean reconocidos como Sangre Heroica.",
+          "Drengir — Guerreros Probados. Reconocimiento de honor para quienes han demostrado valor, lealtad y firmeza ante el peligro. No constituye una casta adicional ni concede necesariamente autoridad de gobierno; puede ser el paso previo a una gran hazaña y al ingreso en la Hetjublóð.",
+          "Þrælar — los Cautivos. Esclavos obtenidos sobre todo por guerra, saqueo o sometimiento. Su servidumbre es una institución aceptada en todas las ciudades, aunque sometida a costumbres locales distintas. Los contratos mágicos de alma son escasos y no deben confundirse con la esclavitud ordinaria ni con los Dhael del lore general."
+        ]
+      },
+      {
+        "title": "VI. Cómo se relacionan los rangos",
+        "paragraphs": [
+          "Un mismo montaraz puede ser miembro de la Sangre Heroica, ejercer como Hersir y sentarse en el Hetjuþing; otro puede mandar una partida de caza sin pertenecer todavía a la Sangre. Un Goði o un Skáld puede influir profundamente en las decisiones de un clan sin ostentar cargo militar. No existe una escalera única de ascenso: cada oficio tiene competencias propias y cada ciudad decide qué hazañas considera dignas de honor.",
+          "En una invasión, el Höfðingi moviliza su ciudad; el Hersir manda las compañías; el Guardapaso asegura las rutas; el Maestro de Caza sostiene los suministros; el Jarl coordina los compromisos de su Montaña y la Voz de la Ley recuerda los juramentos comunes. Si el peligro alcanza a toda Bergheim, el Concilio puede confiar el mando extraordinario al Hedda."
+        ]
+      }
+    ]
+  },
+  "bergheim-ventisca": {
+    "intro": [
+      "Al norte de Bergheim, entre pinares húmedos, desfiladeros nevados y gargantas de basalto, las Montañas de la Ventisca reúnen a comunidades cuya fuerza reside tanto en la memoria como en las armas. No existe una sola manera de servir a la nación: el tránsito seguro de una caravana, la coraza ajustada a un huargo y la custodia de un juramento antiguo pueden resultar tan decisivos como una victoria en el campo de batalla.",
+      "Rabbenjorg controla los accesos forestales y un corredor comercial compartido con los enanos; Vargheim fabrica el equipo que protege a las grandes bestias de guerra; Ulfvik preserva los nombres, reliquias y testimonios de los muertos. Sus linajes mantienen acuerdos y rivalidades que enfrentan los derechos de cada comunidad con las obligaciones comunes del Lífsátt.",
+      "La Ventisca es también una tierra de recursos codiciados. Madera, hierro, pieles, rutas de abastecimiento y saberes funerarios son fuentes de prestigio, pero también de disputa. Sus habitantes saben que el invierno no distingue entre ciudades: cada victoria aislada pierde valor si otra Montaña queda condenada a la escasez."
+    ],
+    "sections": [
+      {
+        "title": "I. El gobierno de las Cuatro Montañas",
+        "paragraphs": [
+          "Bergheim es una nación de ciudades, fortalezas y clanes autónomos, agrupados en las Montañas de la Ventisca, de las Bestias, Guardianas y del Mar. Los extranjeros la llaman reino, aunque durante la paz no existe una corona permanente. Cada comunidad conserva sus autoridades, costumbres, milicias, cultos y recursos; ninguna ciudad es propiedad de otra.",
+          "Su vínculo fundamental es el Lífsátt, el Derecho a la Supervivencia. Todo montaraz aprende que nadie resiste la montaña en soledad y que la sangre de su pueblo es indispensable para la continuidad del clan. La doctrina exige defensa y auxilio recíprocos, pero no suprime las rivalidades, la esclavitud ni las guerras contra extranjeros. Las ciudades forman una paz armada, sostenida tanto por el juramento como por la necesidad.",
+          "Mossgard es la capital histórica y ceremonial. Allí se reúne el Concilio de las Cuatro Montañas, al que acuden los jarls y delegados de las ciudades. El Concilio decide sobre defensa común, pasos estratégicos, reservas, relaciones exteriores y controversias entre comunidades; no administra ordinariamente los asuntos interiores de cada ciudad. Se proponen dos reuniones ordinarias anuales, sin perjuicio de convocatorias extraordinarias. Los procedimientos precisos de votación todavía pueden definirse.",
+          "Cuando una amenaza pone en peligro a toda Bergheim, el Concilio puede proclamar un Hedda. Su mando es extraordinario y nace de una crisis concreta: dirige los ejércitos comunes, coordina las fuerzas de las Montañas y dispone de los medios necesarios para afrontar el peligro. Al cesar la crisis devuelve esas facultades, aunque conserva el reconocimiento heroico que ha ganado."
+        ]
+      }
+    ]
+  },
+  "bergheim-bestias": {
+    "intro": [
+      "Las Montañas de las Bestias se levantan entre riscos donde las ventiscas llevan el rugido de criaturas temidas en todo el continente. Aquí, la supervivencia se ha convertido en una relación compleja con la fuerza salvaje: algunas comunidades la veneran, otras la crían y otras buscan incorporarla a sus propias prácticas guerreras.",
+      "Skaldal conserva los pactos con Rhoroe y el sentido ritual de la Gran Cacería. Valgard reúne criadores y domadores de huargos y otras bestias destinadas al transporte, la defensa y la guerra. Valstath custodia las tradiciones de los Pieljurados, cuyos ritos pretenden invocar la ferocidad animal sin hacer que el combatiente pierda su nombre.",
+      "La contradicción que atraviesa estas tierras es antigua: ¿hasta dónde puede dominarse a la criatura que también merece respeto? Los pactos religiosos, las necesidades alimentarias y la demanda militar sostienen acuerdos frágiles, y una misma bestia puede ser considerada presa sagrada, aliada indispensable o arma del clan."
+    ],
+    "sections": [
+      {
+        "title": "I. El gobierno de las Cuatro Montañas",
+        "paragraphs": [
+          "Bergheim es una nación de ciudades, fortalezas y clanes autónomos, agrupados en las Montañas de la Ventisca, de las Bestias, Guardianas y del Mar. Los extranjeros la llaman reino, aunque durante la paz no existe una corona permanente. Cada comunidad conserva sus autoridades, costumbres, milicias, cultos y recursos; ninguna ciudad es propiedad de otra.",
+          "Su vínculo fundamental es el Lífsátt, el Derecho a la Supervivencia. Todo montaraz aprende que nadie resiste la montaña en soledad y que la sangre de su pueblo es indispensable para la continuidad del clan. La doctrina exige defensa y auxilio recíprocos, pero no suprime las rivalidades, la esclavitud ni las guerras contra extranjeros. Las ciudades forman una paz armada, sostenida tanto por el juramento como por la necesidad.",
+          "Mossgard es la capital histórica y ceremonial. Allí se reúne el Concilio de las Cuatro Montañas, al que acuden los jarls y delegados de las ciudades. El Concilio decide sobre defensa común, pasos estratégicos, reservas, relaciones exteriores y controversias entre comunidades; no administra ordinariamente los asuntos interiores de cada ciudad. Se proponen dos reuniones ordinarias anuales, sin perjuicio de convocatorias extraordinarias. Los procedimientos precisos de votación todavía pueden definirse.",
+          "Cuando una amenaza pone en peligro a toda Bergheim, el Concilio puede proclamar un Hedda. Su mando es extraordinario y nace de una crisis concreta: dirige los ejércitos comunes, coordina las fuerzas de las Montañas y dispone de los medios necesarios para afrontar el peligro. Al cesar la crisis devuelve esas facultades, aunque conserva el reconocimiento heroico que ha ganado."
+        ]
+      }
+    ]
+  },
+  "bergheim-guardianas": {
+    "intro": [
+      "Las Montañas Guardianas sostienen los pasos interiores de Bergheim. Entre fortalezas de hierro, galerías, puentes colgantes y caminos que el invierno puede borrar en una noche, sus habitantes han hecho de la vigilancia y del trabajo técnico una forma de defender a las Cuatro Montañas.",
+      "Jorundathr organiza rutas y convoyes; Fjellgard protege las entradas del Paso de Lory’ell; Fjoll forma guerreros preparados para resistir en los accesos más peligrosos y Fjjord abastece las necesidades metalúrgicas de la nación. Cerca de las grandes galerías de Varnok, Haldra conserva su prestigio religioso y sus juramentos funerarios. Mossgard, capital común, reúne a los representantes de todas las Montañas, aunque su autoridad no convierte en súbditas a las otras ciudades.",
+      "En este territorio, una muralla, un puente reparado o una galería sellada a tiempo pueden salvar tantas vidas como una hueste. Las rivalidades por materiales, jurisdicciones y potestades religiosas recuerdan, sin embargo, que la defensa común exige negociaciones permanentes."
+    ],
+    "sections": [
+      {
+        "title": "I. El gobierno de las Cuatro Montañas",
+        "paragraphs": [
+          "Bergheim es una nación de ciudades, fortalezas y clanes autónomos, agrupados en las Montañas de la Ventisca, de las Bestias, Guardianas y del Mar. Los extranjeros la llaman reino, aunque durante la paz no existe una corona permanente. Cada comunidad conserva sus autoridades, costumbres, milicias, cultos y recursos; ninguna ciudad es propiedad de otra.",
+          "Su vínculo fundamental es el Lífsátt, el Derecho a la Supervivencia. Todo montaraz aprende que nadie resiste la montaña en soledad y que la sangre de su pueblo es indispensable para la continuidad del clan. La doctrina exige defensa y auxilio recíprocos, pero no suprime las rivalidades, la esclavitud ni las guerras contra extranjeros. Las ciudades forman una paz armada, sostenida tanto por el juramento como por la necesidad.",
+          "Mossgard es la capital histórica y ceremonial. Allí se reúne el Concilio de las Cuatro Montañas, al que acuden los jarls y delegados de las ciudades. El Concilio decide sobre defensa común, pasos estratégicos, reservas, relaciones exteriores y controversias entre comunidades; no administra ordinariamente los asuntos interiores de cada ciudad. Se proponen dos reuniones ordinarias anuales, sin perjuicio de convocatorias extraordinarias. Los procedimientos precisos de votación todavía pueden definirse.",
+          "Cuando una amenaza pone en peligro a toda Bergheim, el Concilio puede proclamar un Hedda. Su mando es extraordinario y nace de una crisis concreta: dirige los ejércitos comunes, coordina las fuerzas de las Montañas y dispone de los medios necesarios para afrontar el peligro. Al cesar la crisis devuelve esas facultades, aunque conserva el reconocimiento heroico que ha ganado."
+        ]
+      }
+    ]
+  },
+  "bergheim-mar": {
+    "intro": [
+      "En las costas abruptas del occidente montaraz, la vida gira alrededor de las quillas, los astilleros y las mareas. Las Montañas del Mar conectan a Bergheim con las rutas mercantes y los reinos extranjeros, pero también con la guerra naval, el contrabando, los cautivos y las represalias que siguen a las incursiones.",
+      "Vatnar conserva la tradición de las proas negras y los capitanes de abordaje; Alhem ha construido una reputación de terror que sus aliados no siempre pueden controlar; Torvask convierte la amenaza militar en protección contratada, diplomacia y riqueza portuaria. Frente a la costa, Grimskar reúne los talleres que construyen y reparan la gran flota utilizando madera, hierro y recursos que proceden de otras Montañas.",
+      "Por eso, el poder marítimo nunca pertenece por completo a una sola ciudad. Los guerreros necesitan naves, los constructores requieren madera, los mercaderes rutas seguras y las demás Montañas dependen de que sus puertos permanezcan abiertos. El Lífsátt se pone a prueba precisamente cuando los intereses del botín amenazan el sustento colectivo."
+    ],
+    "sections": [
+      {
+        "title": "I. El gobierno de las Cuatro Montañas",
+        "paragraphs": [
+          "Bergheim es una nación de ciudades, fortalezas y clanes autónomos, agrupados en las Montañas de la Ventisca, de las Bestias, Guardianas y del Mar. Los extranjeros la llaman reino, aunque durante la paz no existe una corona permanente. Cada comunidad conserva sus autoridades, costumbres, milicias, cultos y recursos; ninguna ciudad es propiedad de otra.",
+          "Su vínculo fundamental es el Lífsátt, el Derecho a la Supervivencia. Todo montaraz aprende que nadie resiste la montaña en soledad y que la sangre de su pueblo es indispensable para la continuidad del clan. La doctrina exige defensa y auxilio recíprocos, pero no suprime las rivalidades, la esclavitud ni las guerras contra extranjeros. Las ciudades forman una paz armada, sostenida tanto por el juramento como por la necesidad.",
+          "Mossgard es la capital histórica y ceremonial. Allí se reúne el Concilio de las Cuatro Montañas, al que acuden los jarls y delegados de las ciudades. El Concilio decide sobre defensa común, pasos estratégicos, reservas, relaciones exteriores y controversias entre comunidades; no administra ordinariamente los asuntos interiores de cada ciudad. Se proponen dos reuniones ordinarias anuales, sin perjuicio de convocatorias extraordinarias. Los procedimientos precisos de votación todavía pueden definirse.",
+          "Cuando una amenaza pone en peligro a toda Bergheim, el Concilio puede proclamar un Hedda. Su mando es extraordinario y nace de una crisis concreta: dirige los ejércitos comunes, coordina las fuerzas de las Montañas y dispone de los medios necesarios para afrontar el peligro. Al cesar la crisis devuelve esas facultades, aunque conserva el reconocimiento heroico que ha ganado."
+        ]
+      }
+    ]
+  },
+  "avalon-bosqueniebla": {
+    "intro": [
+      "Las tierras de la niebla corresponden al ducado ubicado más al este de Ávalon. Limita al norte con las montañas de Neithem, al sur el mar lo conecta con los feroces piratas del Archipiélago de los Esclavos, al este con el misterioso Mar del Invierno, y al oeste con el Ducado de las Llanuras.",
+      "Los dominios de la bruma son los que poseen el mayor índice de criminalidad, pero al mismo tiempo el mayor misticismo, lo que resalta con el aspecto sombrío y gótico de su capital."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "La delincuencia es frecuente en las tierras de la niebla (principalmente en las localidades continentales), siendo relativamente peligroso transitar por ciertas calles y ciertos sectores cuando cae la noche o la densa bruma.",
+          "Casi la totalidad de la población del ducado se encuentra en sus casas para cuando la luz del sol se va. Principalmente asociado a el aumento significativo de la niebla durante la tarde. Algunos dicen que es para resguardarse de la delincuencia, otros dicen otras cosas.",
+          "A pesar de que muchas veces la niebla atraviesa el mar y llega a las localidades insulares del ducado, es la gente que vive junto al Bosqueniebla quien cree firmemente que la extraña bruma del ducado, guarda relación con la magia y criaturas del bosque, como bestias y demonios, incluso algunos afirman que la niebla tiene voluntad propia, que a veces secuestra los sonidos, haciendo que los gritos de ayuda de alguien a pocos metros suenen como susurros lejanos."
+        ]
+      }
+    ]
+  },
+  "avalon-isla-negra": {
+    "intro": [
+      "Las tierras de la niebla corresponden al ducado ubicado más al este de Ávalon. Limita al norte con las montañas de Neithem, al sur el mar lo conecta con los feroces piratas del Archipiélago de los Esclavos, al este con el misterioso Mar del Invierno, y al oeste con el Ducado de las Llanuras.",
+      "Los dominios de la bruma son los que poseen el mayor índice de criminalidad, pero al mismo tiempo el mayor misticismo, lo que resalta con el aspecto sombrío y gótico de su capital."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "La delincuencia es frecuente en las tierras de la niebla (principalmente en las localidades continentales), siendo relativamente peligroso transitar por ciertas calles y ciertos sectores cuando cae la noche o la densa bruma.",
+          "Casi la totalidad de la población del ducado se encuentra en sus casas para cuando la luz del sol se va. Principalmente asociado a el aumento significativo de la niebla durante la tarde. Algunos dicen que es para resguardarse de la delincuencia, otros dicen otras cosas.",
+          "A pesar de que muchas veces la niebla atraviesa el mar y llega a las localidades insulares del ducado, es la gente que vive junto al Bosqueniebla quien cree firmemente que la extraña bruma del ducado, guarda relación con la magia y criaturas del bosque, como bestias y demonios, incluso algunos afirman que la niebla tiene voluntad propia, que a veces secuestra los sonidos, haciendo que los gritos de ayuda de alguien a pocos metros suenen como susurros lejanos."
+        ]
+      }
+    ]
+  },
+  "avalon-isla-reina": {
+    "intro": [
+      "Las tierras de la niebla corresponden al ducado ubicado más al este de Ávalon. Limita al norte con las montañas de Neithem, al sur el mar lo conecta con los feroces piratas del Archipiélago de los Esclavos, al este con el misterioso Mar del Invierno, y al oeste con el Ducado de las Llanuras.",
+      "Los dominios de la bruma son los que poseen el mayor índice de criminalidad, pero al mismo tiempo el mayor misticismo, lo que resalta con el aspecto sombrío y gótico de su capital."
+    ],
+    "sections": [
+      {
+        "title": "Datos, particularidades y curiosidades",
+        "paragraphs": [
+          "La delincuencia es frecuente en las tierras de la niebla (principalmente en las localidades continentales), siendo relativamente peligroso transitar por ciertas calles y ciertos sectores cuando cae la noche o la densa bruma.",
+          "Casi la totalidad de la población del ducado se encuentra en sus casas para cuando la luz del sol se va. Principalmente asociado a el aumento significativo de la niebla durante la tarde. Algunos dicen que es para resguardarse de la delincuencia, otros dicen otras cosas.",
+          "A pesar de que muchas veces la niebla atraviesa el mar y llega a las localidades insulares del ducado, es la gente que vive junto al Bosqueniebla quien cree firmemente que la extraña bruma del ducado, guarda relación con la magia y criaturas del bosque, como bestias y demonios, incluso algunos afirman que la niebla tiene voluntad propia, que a veces secuestra los sonidos, haciendo que los gritos de ayuda de alguien a pocos metros suenen como susurros lejanos."
+        ]
+      }
+    ]
+  }
+}

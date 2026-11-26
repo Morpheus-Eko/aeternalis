@@ -1,0 +1,32 @@
+[
+  {
+    "id": "place-096",
+    "name": "Ushios",
+    "x": 54,
+    "y": 1399,
+    "faction": "independent",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Islas volcánicas (sin confirmar)",
+    "race": "No especificada",
+    "loreStatus": "pendiente",
+    "regionId": "ushios",
+    "kind": "Localidad o enclave",
+    "oldName": "Ushios",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ushios"
+      ]
+    ],
+    "sourceX": 54,
+    "sourceY": 1399,
+    "atlasArchiveReason": "Ushios figura como territorio costero, no como ciudad con marcador",
+    "symbolType": "no_mostrado",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  }
+]

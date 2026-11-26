@@ -1,0 +1,267 @@
+[
+  {
+    "id": "place-074",
+    "name": "Fedethrill",
+    "x": 1819.4,
+    "y": 1157.5,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "loreStatus": "actualizado",
+    "regionId": "seriasak-vahirak",
+    "kind": "Localidad o enclave",
+    "oldName": "Fedethrill",
+    "curiosities": [],
+    "sourceTitle": "FEDETHRILL (CAPITAL)",
+    "sourceRange": [
+      1594,
+      1613
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’Irak"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1807,
+    "sourceY": 1156,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-075",
+    "name": "Driadem",
+    "x": 1649,
+    "y": 1396.2,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "loreStatus": "actualizado",
+    "regionId": "seriasak-vahamay",
+    "kind": "Localidad o enclave",
+    "oldName": "Driadem",
+    "curiosities": [],
+    "sourceTitle": "DRIADEM (CAPITAL)",
+    "sourceRange": [
+      1672,
+      1691
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’amay"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1632,
+    "sourceY": 1414,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-076",
+    "name": "Ianelya",
+    "x": 1894,
+    "y": 1408,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 10% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: Se adora principalmente\n\nIdioma: Común.\n\nDefensas: 5\n\nAmenazas:\n\nBárbaros: Si\n\nOtros datos o rasgos:\n\nS\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "loreStatus": "actualizado",
+    "regionId": "seriasak-vahirak",
+    "kind": "Localidad o enclave",
+    "oldName": "Ianelya",
+    "curiosities": [],
+    "sourceTitle": "CAPITAL: IANELYA",
+    "sourceRange": [
+      1574,
+      1593
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’Irak"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1894,
+    "sourceY": 1408,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-077",
+    "name": "Coriel",
+    "x": 1841.3,
+    "y": 1495.2,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "loreStatus": "actualizado",
+    "regionId": "seriasak-vahamay",
+    "kind": "Localidad o enclave",
+    "oldName": "Cortel",
+    "curiosities": [],
+    "sourceTitle": "CORIEL",
+    "sourceRange": [
+      1710,
+      1729
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’amay"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1847,
+    "sourceY": 1476,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-104",
+    "name": "Thyriel",
+    "oldName": "Thyriel",
+    "x": 1883,
+    "y": 1226.5,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "curiosities": [],
+    "regionId": "seriasak-vahirak",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "kind": "Localidad",
+    "loreStatus": "actualizado",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "sourceTitle": "THYRIEL",
+    "sourceRange": [
+      1613,
+      1632
+    ],
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’Irak"
+      ]
+    ],
+    "sourceX": 1882,
+    "sourceY": 1210,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo blue: 10×14 píxeles, área=45, relleno=0.32",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 17.8
+  },
+  {
+    "id": "place-105",
+    "name": "Dael’enor",
+    "oldName": "Dael’enor",
+    "x": 1988.7,
+    "y": 1290.4,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "curiosities": [],
+    "regionId": "seriasak-vahirak",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "kind": "Localidad",
+    "loreStatus": "actualizado",
+    "coordinateStatus": "provisional",
+    "sourceTitle": "DAEL’ENOR",
+    "sourceRange": [
+      1632,
+      1651
+    ],
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’Irak"
+      ]
+    ],
+    "sourceX": 1992,
+    "sourceY": 1357,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-106",
+    "name": "Lothien",
+    "oldName": "Lothien",
+    "x": 1743.4,
+    "y": 1416.3,
+    "faction": "elf",
+    "description": "Gobierno: Feudal. Sus líderes son un Barón y una Baronesa, Familia Noble elegida por\n\nPoblación:\n\nCerca de XXX habitantes.\n\n90% Montaraces, 5% humanos, 5% otros.\n\nRecursos:\n\nObtienen sus alimentos principalmente de la caza.\n\nEl agua la obtienen del hielo y de riachuelos cercanos.\n\nSu actividad económica principal es la herrería.\n\nReligión: S\n\nIdioma: Común.\n\nDefensas: 99% Montaraces, 1% otros.\n\nAmenazas:\n\nC\n\nOtros datos o rasgos:\n\nPNJs Importantes:",
+    "curiosities": [],
+    "regionId": "seriasak-vahamay",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque de Veridia",
+    "race": "Sinhair",
+    "kind": "Localidad",
+    "loreStatus": "actualizado",
+    "coordinateStatus": "provisional",
+    "sourceTitle": "LOTHIEN",
+    "sourceRange": [
+      1691,
+      1710
+    ],
+    "extraFacts": [
+      [
+        "Territorio",
+        "Territorios del clan Vah’amay"
+      ]
+    ],
+    "sourceX": 1741,
+    "sourceY": 1427,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  }
+]

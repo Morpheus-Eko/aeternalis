@@ -1,0 +1,1353 @@
+[
+  {
+    "id": "place-026",
+    "name": "Colinabruma",
+    "x": 1508,
+    "y": 140,
+    "faction": "human",
+    "description": "En lo alto de una colina y cerca de donde nace el río Kyder se asienta un modesto pueblo fluvial, oculto entre la niebla septentrional. Colinabruma es conocido por ser receloso y misterioso, albergando distintas creencias que suelen alejarse de la vista de la iglesia. Sus habitantes llevan linternas de cristal ahumado atadas al cinturón y suelen hablar en voz muy baja, utilizando silbatos de hueso para llamarse a distancia.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Colindrama",
+    "curiosities": [
+      "Este pueblo no suele aceptar a desconocidos con facilidad, y es frecuente el recelo entre los mismos habitantes.",
+      "Los perros del pueblo se niegan a salir de las casas cuando sopla el viento del norte, aterrorizados por un sonido similar al arrastre de cadenas pesadas sobre la nieve virgen.",
+      "En los últimos años, el número de desapariciones y extrañas muertes ha ido en aumento, principalmente ocurridas en la noche y en los momentos de mayor niebla. Algunos lo atribuyen al impredecible poder de la niebla, otros a la presencia de extraños cultos paganos.",
+      "El Culto de la Sombra Velada: Un fervor religioso tan extraño como nuevo comienza a nacer en todo el Ducado de la Niebla, aunque principalmente en Colinabruma. Los rumores hablan de dioses herejes, que no obedecen a los mitos de los cuatro grandes, ni a sus Aehnir. Se dice que realizan rituales paganos en medio de la noche o entre la niebla cuando esta se vuelve más densa y algunos aseguran que los recientes asesinatos son obra del culto. Los chismes más recientes hablan de la existencia de un ex-miembro de esta secta que, intentando escapar de esta y al ver que hasta autoridades estaban infiltradas, no sabiendo en quien confiar, prefirió escapar hacia el bosque, asumiendo el riesgo de encontrarse con las tribus indígenas antes de ser capturado por la Sombra Velada."
+    ],
+    "sourceTitle": "COLINABRUMA",
+    "sourceRange": [
+      479,
+      492
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "sourceX": 1509,
+    "sourceY": 140,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×8 píxeles, área=46, relleno=0.72",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-027",
+    "name": "Engerfrost",
+    "x": 1635,
+    "y": 134,
+    "faction": "human",
+    "description": "Un poblado rural rodeado de bosque y montañas donde se levanta la niebla más densa de todo el ducado (incluso más que en Colinabruma), tanto así que incluso a mediodía los habitantes deben guiarse mediante cuerdas atadas de puerta en puerta para poder desplazarse por el pueblo. En los últimos años se ha visto invadida de capitalinos y por la iglesia, debido al hallazgo de una pequeña mina de Piedra Umbra, escondida entre sus clásicas minas de carbón.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Engerfrost",
+    "curiosities": [
+      "La mujer más vieja y fea de Engerfrost asegura conocer la historia que habla de que en lo profundo del Bosqueniebla, protegido por las tribus de salvajes, vive un misterioso individuo conocido como el Tejedor de la Niebla, por su supuesta capacidad de volver la niebla más densa para ocultar caminos o sectores, así como de disiparla para mostrar lo desconocido o guiar a personas perdidas entre la arboleda. Esta leyenda ha vuelto a resonar con más fuerza en el ducado, principalmente en Engerfrost desde que algunos miembros del nuevo culto pagano originado en Colinabruma rumoreasen buscar al tejedor, aunque nadie sabe el por qué ¿acaso el misterioso individuo esconde algo valioso o sólo se trata de algo que la niebla intenta ocultar y sellar?"
+    ],
+    "sourceTitle": "ENGERFROST",
+    "sourceRange": [
+      492,
+      502
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "sourceX": 1635,
+    "sourceY": 134,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×8 píxeles, área=42, relleno=0.75",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-028",
+    "name": "Engerlass",
+    "x": 1726,
+    "y": 76,
+    "faction": "human",
+    "description": "Es un pueblo minero de alta montaña, semi-congelado la mayor parte del año, que se ha vuelto estratégicamente fundamental, tanto económica como militarmente gracias a sus minas de Piedra Umbra.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Engerlass",
+    "curiosities": [
+      "Este pueblo contiene en sus cercanías las principales minas de Piedra Umbra, necesarias para el pacto de esclavitud que se realiza en Ávalón. La extracción está fuertemente supervisada por la Iglesia de las Cuatro Luces.",
+      "Hay días en los que la temperatura baja tanto que el frío se cobra algunas vidas humanas. Los enanos que vienen de las gélidas tierras de Kargast no se ven afectados por esta situación.",
+      "Hay un ferviente fanatismo religioso en el pueblo y no es raro ver ejecuciones por purificación en la plaza del pueblo. Muchos de los ejecutados suelen ser parte de personas conflictivas y opositoras de la iglesia.",
+      "Existe un gran templo en el centro del pueblo, construido recientemente en honor a la hija de Ígnea."
+    ],
+    "sourceTitle": "ENGERLASS",
+    "sourceRange": [
+      502,
+      515
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "sourceX": 1726,
+    "sourceY": 76,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-029",
+    "name": "Atanner",
+    "x": 1335,
+    "y": 145,
+    "faction": "human",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "parcial",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Atanner",
+    "curiosities": [
+      "Se ha observado un inusual aumento en la frecuencia de desprendimiento de piedras en las montañas y minas. Los más supersticiosos lo asocian a divinidades y magias, otros acusan la participación de terceros."
+    ],
+    "sourceTitle": "ATANNER",
+    "sourceRange": [
+      355,
+      365
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ]
+    ],
+    "sourceX": 1335,
+    "sourceY": 145,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-030",
+    "name": "Riwer",
+    "x": 1486,
+    "y": 148,
+    "faction": "human",
+    "description": "Se trata de un frío y pequeño pueblo fluvial junto al río mas grande del reino. Algunos aseguran  que el río realmente parte mucho más al norte, a donde nadie ha podido llegar jamás por la eterna tundra.",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fluviales",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Ryve",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [],
+    "curiosities": [
+      "Se cuenta que unos niños que jugaban cerca de la ribera encontraron un par de monedas de oro acuñadas con la efigie de un rey que jamás ha existido en los registros históricos."
+    ],
+    "sourceTitle": "RIWER",
+    "sourceRange": [
+      365,
+      375
+    ],
+    "sourceX": 1486,
+    "sourceY": 148,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×7 píxeles, área=40, relleno=0.71",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-031",
+    "name": "Nyde",
+    "x": 1170,
+    "y": 166,
+    "faction": "human",
+    "description": "Es un viejo pueblo principalmente maderero y, en menor medida, minero gracias a sus yacimientos de carbón y algunas venas de hierro.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Nyde",
+    "curiosities": [
+      "En los últimos años los Barones de Nyde han creado impuestos tan draconianos a la madera que los gremios menores operan de noche en las profundidades del bosque, utilizando un código de silbidos basado en cantos de aves nocturnas, arriesgándose a encuentros desafortunados con los Cozari.",
+      "Una antigua leyenda pueblerina ha retomado fuerza en el último año; la sombra de las montañas del norte parece más grande, más antinatural. Algunos lugareños al norte de Nyde comentan que a veces les da la impresión de que se trata de una sombra palpable, no una meramente causada por el sol; una sombra que causa incomodidad tanto en animales como en humanos, que causa un frío inexplicable que según algunos pueblerinos, incluso parece estar afectando el crecimiento de plantas y el comportamiento de los animales. Las cosas empeoraron cuando una docena de soldados decidieron explorar las montañas más próximas, y nunca regresaron."
+    ],
+    "sourceTitle": "NYDE",
+    "sourceRange": [
+      285,
+      296
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ],
+      [
+        "Autoridad",
+        "Baronía local"
+      ]
+    ],
+    "sourceX": 1170,
+    "sourceY": 166,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×8 píxeles, área=43, relleno=0.77",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-032",
+    "name": "Liff",
+    "x": 999,
+    "y": 171,
+    "faction": "human",
+    "description": "Es el pueblo más cercano a Alto Reeve, y es conocido por su actividad agrícola y recolección de hierbas medicinales, pero principalmente por su apicultura.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Liff",
+    "curiosities": [
+      "Algo extraño ha comenzado a gestarse en el bosque al este. Tanto nativos como ciudadanos han reportado de que la naturaleza se está comportando de manera extraña, señalando inicialmente a árboles que florecen fuera de temporada o extraños colores antinaturales en buena parte de la flora, sin embargo el problema se ha ido agravando en el último año con enredaderas que parecen crecer con un diseño inteligente y frutos conocidos ampliamente pero que ahora han desarrollado propiedades alucinógenas o venenosas. Algunos nobles ya comienzan a plantearse culpar a la presencia de Sinhair en la capital o a las Amarant de Villalago y, de paso, convocar a la Iglesia de la Eterna Penitencia. Pero el Barón y la Baronesa del pueblo, junto con la ayuda de los Nakosi, han mantenido el problema confinado hasta el momento."
+    ],
+    "sourceTitle": "LIFF",
+    "sourceRange": [
+      275,
+      285
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ],
+      [
+        "Actividades mencionadas",
+        "Apicultura"
+      ]
+    ],
+    "sourceX": 999,
+    "sourceY": 171,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×8 píxeles, área=46, relleno=0.72",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-033",
+    "name": "Alto Reeve",
+    "x": 892,
+    "y": 230,
+    "faction": "human",
+    "description": "La hermosa e imponente ciudad de Alto Reeve se encuentra allí donde la montaña comienza a fusionarse con el Bosque Lluvioso. Los expertos aseguran que la clave de su elegancia es la fuerte influencia élfica (tanto Sinhair como Altos Elfos) sobre la arquitectura, la cultura y algunos elementos de su dialecto. Hasta la actualidad, no es raro ver algún Sin’Hair viviendo en la gran ciudad.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Alto Reeve",
+    "curiosities": [
+      "Es considerada como la ciudad más bella del imperio (incluso sobre Puerto del Sol), además de ser el centro del arte y la poesía del reino.",
+      "Colegio de Bardos: En Alto Reeve se encuentra el centro más importante de formación de músicos y bailarinas del reino. *Para efectos del Sistema de Distritos, Alto Reeve de inicio cuenta con la mejora “Gremio de Bardos y Bailarinas”.",
+      "Después de Archlond y Fuerte Hydell, Alto Reeve se posiciona como uno de los grandes centros de acumulación y formación de caballeros.",
+      "Un talentoso grupo de alquimistas de Alto Reeve ha descubierto, en lo profundo de la zona suroeste del Bosque Lluvioso, un hongo particular y una extraña serpiente pequeña, de los cuales se puede obtener una novedosa sustancia (sintetizada con la combinación del hongo y del veneno) capaz de crear lo que parece ser una enfermedad infecciosa que logra debilitar severamente al afectado, o matarlo en el peor de los casos, e incluso contagiar a cercanos. Se estableció una pequeña aldea cercana a las montañas, pero después de dos estaciones, este poblado se perdió junto a la totalidad de sus habitantes. Los alquimistas indican que tienen la situación bajo control, sin embargo recientemente han aparecido casos similares en Villalago, los cuales fueron controlados por las Amarant, aniquilando a los infectados.",
+      "El vigía de turno en una de las torres de vigilancia al oeste de Alto Reeve, juró haber visto una hilera de luces parpadeantes cruzando los riscos inescrutables de La Cicatriz, a pesar de que está prohibido transitar por esa zona tan al norte de la falla."
+    ],
+    "sourceTitle": "ALTO REEVE (Capital)",
+    "sourceRange": [
+      236,
+      251
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ]
+    ],
+    "sourceX": 891,
+    "sourceY": 230,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo human: 10×10 píxeles, área=100, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-034",
+    "name": "Villalago",
+    "x": 1087,
+    "y": 220,
+    "faction": "human",
+    "description": "Se trata de un bello y humilde pueblo de pescadores construido, en gran parte, sobre pilotes de madera a la orilla del Lago Verde.\n\nEn los últimos años las dinámicas del pueblo han cambiado debido a una importante inmigración de Amarants (bien recibidas y aceptadas por el consejo), por lo ha aumentado de forma significativa tanto la caza como la peletería.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Villa Lago",
+    "curiosities": [
+      "A diferencia de la enorme mayoría de los pueblos de Ávalon, Villalago está gobernado por una Gerontocracia (mediante un consejo de ancianos que se compone de los nueve hombres o mujeres más viejos del pueblo).",
+      "Se dice que cuando comienzan los últimos días del otoño, algunos pescadores observan en sus redes algunos pececillos de un color verde iridiscente que, al cocinarse, provocan sueños y visiones lúcidas de sus seres queridos fallecidos.",
+      "Una extraña enfermedad se presentó en unos miembros del pueblo. Algunos comentan que se relaciona con los estudios de algunos alquimistas en Alto Reeve. Las Amarant, con el permiso del Consejo de Ancianos, eliminaron y quemaron a los infectados, cortando el problema de raíz, pero los murmullos abundan en el pueblo ¿Quien será el próximo?"
+    ],
+    "sourceTitle": "VILLALAGO",
+    "sourceRange": [
+      262,
+      275
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ],
+      [
+        "Autoridad",
+        "Consejo de ancianos / gerontocracia"
+      ],
+      [
+        "Actividades mencionadas",
+        "Pesca"
+      ]
+    ],
+    "sourceX": 1087,
+    "sourceY": 229,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×8 píxeles, área=43, relleno=0.67",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 9
+  },
+  {
+    "id": "place-035",
+    "name": "Bajo Reeve",
+    "x": 1030,
+    "y": 316,
+    "faction": "human",
+    "description": "Es, con diferencia, el pueblo con más habitantes de Ávalon, lo cual ha sido posible gracias a su beneficiosa conexión y posición en el corazón del ducado. Esta localidad fluvial también es conocida por sus enormes molinos de agua y sus talleres de carpintería pesada, así como por ser un gran corazón económico del reino gracias a las constantes caravanas mercantes que cruzan por sus caminos, haciendo parecer que se trate de un pueblo que nunca duerme.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Bajo Reeve",
+    "curiosities": [
+      "Es uno de los pocos lugares que cuenta con una significativa población de raza no humana (ni enana). Son numerosas las familias Norin que se han mudado a este pueblo por la gran oportunidad de hacer buenos negocios.",
+      "Los Norin tienen una enorme influencia y poder sobre los negocios dentro de Bajo Reeve, manejando una mayoritaria parte de las transacciones. A muchos de los humanos está comenzando a molestarles esta situación."
+    ],
+    "sourceTitle": "BAJO REEVE",
+    "sourceRange": [
+      251,
+      262
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ],
+      [
+        "Actividades mencionadas",
+        "Carpintería"
+      ]
+    ],
+    "sourceX": 1030,
+    "sourceY": 316,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-036",
+    "name": "Fuerte Hydell",
+    "x": 1306,
+    "y": 262,
+    "faction": "human",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "parcial",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Fuerte Hydell",
+    "curiosities": [
+      "Por las causas que aquejan al ducado, hay intereses políticos tanto de Archlond, como desde la capital del Imperio, que están presionando para bajar las exigencias y el tiempo de formación de caballeros.",
+      "Si bien se forman caballeros en todas las principales capitales de cada ducado, es en Fuerte Hydell donde se presume que, en promedio, salen los mejores caballeros del reino."
+    ],
+    "sourceTitle": "FUERTE HYDELL",
+    "sourceRange": [
+      344,
+      355
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ]
+    ],
+    "sourceX": 1295,
+    "sourceY": 279,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=43, relleno=0.88",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 20.2
+  },
+  {
+    "id": "place-037",
+    "name": "Archlond",
+    "x": 1402,
+    "y": 290,
+    "faction": "human",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "parcial",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Archlond",
+    "curiosities": [
+      "Archlond, y el Ducado en general, es la ciudad que más provee a la capital del imperio, tanto de caballos y ganado en general, como de comida de siembras. *Para efectos del Sistema de Distritos, Archlond de inicio cuenta con las mejoras “Gremio de Agricultores y Ganaderos” y “Establos”.",
+      "Ciudad de Soldados: Esta capital es la ciudad con mayor porcentaje de efectivos militares dentro del reino, y por ello, es común ver a la gente adaptada, en muchas facetas, a un esquema de vida bastante disciplinado. *Para efectos del Sistema de Distritos,  Elyssfor de inicio cuenta con la mejora “Cuarteles Militares” y “Cuarteles de la Guardia de la Ciudad”."
+    ],
+    "sourceTitle": "ARCHLOND (Capital)",
+    "sourceRange": [
+      333,
+      344
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ],
+      [
+        "Actividades mencionadas",
+        "Ganadería"
+      ]
+    ],
+    "sourceX": 1403,
+    "sourceY": 290,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo human: 10×9 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-039",
+    "name": "Puerto Volker",
+    "x": 1792,
+    "y": 180,
+    "faction": "human",
+    "description": "La enorme capital de las tierras de la niebla se levanta sobre un enorme acantilado, en forma de cuña, siendo el Castillo de la Bruma quien corona tal formación. El pueblo y sus habitantes se desarrollan hacia abajo hasta llegar a la costa, donde el gran puerto recibe un sin número de barcos mercantes, militares, y otros de dudosa procedencia. El estilo de la capital destaca de sobremanera por sobre el resto de localidades del ducado principalmente por su aspecto elegante, frío y oscuro, el cual se realza por sobre la oscuridad que lo envuelve todo., y del reino en sí; sus construcciones más importantes están hechas de a partir de piedra negra, adornada con gárgolas de hierro fundido, incluso las más altas normalmente están unidas por pasadizos cubiertos que comunican los pisos superiores, con el supuesto objetivo de evitar la bruma. No es infrecuente ver a sus nobles cerca del castillo de los duques, vestidos con sus largos abrigos oscuros y siempre, o con un bastón de madera tallado como muestra de status, o una sombrilla reforzada para protegerse en caso de lluvia.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-isla-reina",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto Volker",
+    "curiosities": [
+      "La caza está muy regulada, siendo casi exclusivamente una actividad de los nobles, los cuales la usan como eventos sociales de prestigio, y ejercicio militar. Los plebeyos no pueden cazar sin permiso previo de la nobleza y sólo en momentos muy acotados, so pena de arriesgarse a multas o mutilaciones.",
+      "Desde el descubrimiento de la Piedra Umbra, en el Ducado de la Niebla se pueden encontrar de los mejores mineros y estudiosos en todo lo concerniente a la minería. *Para efectos del Sistema de Distritos, Puerto Volker de inicio cuenta con la mejora “Gremio de Minería”.",
+      "En base a extrañas muertes de Paladines, se cree que hay un grupo paramilitar que se está formando en el pueblo, opositor a la iglesia. No se sabe mucho de este grupo, pero las autoridades eclesiásticas aseguran que son un peligro para todos.",
+      "El Día de las Máscaras es su festividad más importante, la cual se realiza cuando se esconde el sol en el equinoccio otoñal. Representa la última gran fiesta antes de que aumente la niebla y comiencen a bajar severamente las temperaturas."
+    ],
+    "sourceTitle": "PUERTO VOLKER (Capital)",
+    "sourceRange": [
+      428,
+      441
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ],
+      [
+        "Actividades mencionadas",
+        "Minería"
+      ]
+    ],
+    "sourceX": 1794,
+    "sourceY": 180,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo human: 10×9 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2
+  },
+  {
+    "id": "place-040",
+    "name": "Puerto Elizabeth",
+    "x": 1923,
+    "y": 200,
+    "faction": "human",
+    "description": "Localidad de gran tamaño para el común de los pueblos. Se construyó hace cientos de años en honor a la descubridora de la isla, la Reina Elizabeth, quien se asentó aquí por casi un año antes de perderse en el mar del oeste para no volver jamás.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-isla-reina",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto Ellyrub",
+    "curiosities": [
+      "No es sencillo llegar al puerto de la reina, debido a las corrientes y a los recurrentes piratas que acechan las costas.",
+      "Las historias de los marineros en la capital aseguran que los barones de Puerto Elizabeth fueron asesinados hace mucho tiempo, y que fueron reemplazados por una sombría pareja de piratas; sin embargo pocos nobles o caballeros se atreven a viajar allí para comprobarlo, sumado a que el pago regular de impuestos dirigidos a la capital de la bruma, permite a los duques ignorar los rumores con la excusa de ocuparse en asuntos más importantes."
+    ],
+    "sourceTitle": "PUERTO ELIZABETH",
+    "sourceRange": [
+      525,
+      536
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ],
+      [
+        "Autoridad",
+        "Baronía local"
+      ]
+    ],
+    "sourceX": 1924,
+    "sourceY": 201,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=43, relleno=0.88",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1.4
+  },
+  {
+    "id": "place-041",
+    "name": "Lothom",
+    "x": 1650,
+    "y": 212,
+    "faction": "human",
+    "description": "A pesar de ser una localidad relativamente humilde, Lothom es el pueblo más grande y más habitado del ducado, gracias a su posición estratégica y su puerto que funciona como lugar de reposo para los barcos que navegan buscando la seguridad del Estrecho Brumoso. Está construido casi enteramente con troncos sin descortezar, lo que hace que el pueblo parezca fundirse con la espesura del Bosqueniebla.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Lothom",
+    "curiosities": [
+      "Este pueblo suele aceptar a desconocidos con cierta facilidad.",
+      "La cacería en este pueblo no tiene restricciones o impuestos por parte de sus gobernantes.",
+      "En el norte de Lothom existe una importante Escuela de Alquimia, la cual ha traído mala fama al pueblo por cierto resentimiento a los ojos de algunos nobles, debido al hecho de que varios venenos utilizados en asesinatos silenciosos, han derivado de este lugar."
+    ],
+    "sourceTitle": "LOTHOM",
+    "sourceRange": [
+      441,
+      453
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ],
+      [
+        "Actividades mencionadas",
+        "Cacería, Alquimia"
+      ]
+    ],
+    "sourceX": 1650,
+    "sourceY": 212,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×7 píxeles, área=42, relleno=0.75",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-042",
+    "name": "Faro Crepuscular",
+    "x": 1763,
+    "y": 234,
+    "faction": "human",
+    "description": "El pueblo del faro debería ser un punto de salvaguarda, evitando que los piratas se acerquen a la capital de la niebla, pero esto es una verdad a medias, pues Faro Crepuscular realmente es un punto de encuentro para muchos delincuentes del mar. Muchos en la ciudad incluso aseguran que hasta los Barones comercian con mercancía de dudosa procedencia, tanto de importación como de exportación. Así mismo, esto no los protege de los granujas en altamar, puesto que es sabido que las embarcaciones cuando cometen el error de adentrarse en el mar demasiado hacia el sur, se exponen al asalto de piratas una vez que pierden de vista las costas.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Faro Crepuscular",
+    "curiosities": [
+      "El gran faro es protegido por la propia familia de los barones y jamás se apaga, exceptuando el inicio de la fiesta correspondiente al solsticio de invierno."
+    ],
+    "sourceTitle": "FARO CREPUSCULAR",
+    "sourceRange": [
+      515,
+      525
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "sourceX": 1763,
+    "sourceY": 234,
+    "symbolType": "especial",
+    "symbolNote": "Faro / punto especial",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-043",
+    "name": "Puerto del Ahogado",
+    "x": 1592,
+    "y": 295,
+    "faction": "human",
+    "description": "Es un pueblo decadente que funciona como puerto de entrada a las tierras de la niebla. Sus muelles están sostenidos por pilares de piedra y madera, cubiertos de percebes, y sus casas suelen tener balcones de hierro forjado oxidado, pero su posición estratégica para caravanas mercantes hizo que su la localidad creciese de sobremanera, hasta que hace doscientos años la familia de los actuales barones, para proteger sus dominios ante una treta de piratas, derribaron decenas de barcos antes de que estos tocasen tierra, sin discriminar entre mercantes o piratas. El sin número de cuerpos que ese día quedaron flotando en el mar, fue lo que le dió el nombre al poblado.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-bosqueniebla",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto del Ahogado",
+    "curiosities": [
+      "A diferencia de la capital del ducado, en este decadente puerto la cacería dentro del bosque está permitida para el pueblo llano, siempre y cuando este pague el impuesto correspondiente.",
+      "Casi la mitad del pueblo está en contra de que representantes de la Iglesia de las Cuatro Luces estén ganando dinero y poder, además de que intervengan en la política y administración del pueblo. El descontento ha empeorado desde que han habido ocasiones en las que el alimento ha escaseado, a la luz del duro impuesto a la cacería.",
+      "Toda persona, que no sea de la nobleza, debe pagar un impuesto si desea pasar por el pueblo ya sea desde el reino hacia el ducado de la niebla, o viceversa. Este impuesto también se paga si se quiere entrar por el Estrecho Brumoso, siendo los barcos de guerra de Fuerte Elyssfor los que se aseguran de cobrar o derribar. Negarse al impuesto implica tener que arriesgarse a entrar al Ducado de la Niebla por el mar al sur este de Isla negra, donde radica la amenaza pirata. El impuesto recaudado se redirige mayoritariamente a los altos mandos de la Iglesia de las Cuatro Luces que residen en el Ducado de la Niebla. Cabe mencionar también que este impuesto ha hecho que suba significativamente el costo de las cosas que importan en las tierras de la niebla.",
+      "La familia noble que gobierna este pueblo, también es la que gobierna Fuerte Elysfor, lo que le da una relevancia poco vista entre los Barones del reino.",
+      "Se dice que aun es normal ver algunos cuerpos en las costas, en diferentes estados de descomposición."
+    ],
+    "sourceTitle": "PUERTO DEL AHOGADO",
+    "sourceRange": [
+      453,
+      467
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ],
+      [
+        "Autoridad",
+        "Baronía local"
+      ],
+      [
+        "Actividades mencionadas",
+        "Cacería"
+      ]
+    ],
+    "sourceX": 1594,
+    "sourceY": 297,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=42, relleno=0.86",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 2.8
+  },
+  {
+    "id": "place-044",
+    "name": "Fuerte Elyssfor",
+    "x": 1661,
+    "y": 327,
+    "faction": "human",
+    "description": "Se trata de un pequeña pero robusta fortaleza gobernada por el mismo linaje que rige sobre Puerto del Ahogado. Posee una serie de torres con una ligera inclinación hacia adelante, hechas de piedra, madera y basalto negro. Tras la batalla de los mil ahogados, la influencia y el poder de los nobles de la zona creció tanto que levantaron un fuerte en Isla Negra para controlar estratégicamente el estrecho que llevaba hacia la capital. El pueblo y sus habitantes llegaron años después, ampliando el reconocimiento terrestre y encontrando importantes yacimientos de cobre y estaño.",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "Bosque brumoso y costa",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-isla-negra",
+    "kind": "Localidad o enclave",
+    "oldName": "Fuerte Hylfar",
+    "curiosities": [
+      "Sus habitantes tienen la costumbre de arrojar una moneda de cobre al mar antes de embarcarse, sin importar cuán corto sea el viaje.",
+      "La guarnición viste armaduras pavonadas en negro y nunca se quitan el yelmo frente a extranjeros.",
+      "Malas lenguas entre marineros poco confiables, hablan de que una parte de la familia noble de este lugar se encuentra conspirando contra los Duques de la Niebla, armando alianzas junto a piratas."
+    ],
+    "sourceTitle": "FUERTE ELYSSFOR",
+    "sourceRange": [
+      467,
+      479
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "sourceX": 1650,
+    "sourceY": 341,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 17.8
+  },
+  {
+    "id": "place-045",
+    "name": "Monasterio Celendyr",
+    "x": 1347,
+    "y": 332,
+    "faction": "human",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "",
+    "race": "",
+    "loreStatus": "pendiente",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Montaña de Cinydir",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ]
+    ],
+    "sourceTitle": "MONASTERIO CELENDYR",
+    "sourceRange": [
+      375,
+      385
+    ],
+    "sourceX": 1347,
+    "sourceY": 332,
+    "symbolType": "especial",
+    "symbolNote": "Monasterio",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-046",
+    "name": "Kyder",
+    "x": 1429,
+    "y": 392,
+    "faction": "human",
+    "description": "Es un asentamiento de gran tamaño, dedicado fuertemente a la producción de alimentos, tanto a través de la pesca como de la agricultura y la ganadería. Este pueblo es conocido por sus interminables viñedos y campos de manzanos.",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Kyder",
+    "curiosities": [
+      "Enemigo Acérrimo: Tan sabido como que después de la noche se erguirá el sol, es conocida la pugna y rencor que los habitantes de Cyder sienten por Kyder.",
+      "Se dice que el mejor vino y la mejor sidra del continente se crea en las viñas y en los campos de este pueblo.",
+      "Sólo superado por Cyder, Kyder es el mayor productor de comida del imperio.",
+      "Por primera vez en años se ha estado observando algunos barcos piratas en las costas del pueblo, incluso en el último tiempo se han reportado unos cuantos ataques a barcos mercantes que comienzan a preocupar a los Barones del pueblo.",
+      "El puerto de Kyder, a pesar de ser sólo un pueblo, se ha convertido en los últimos años en un importante punto comercial.",
+      "El golfo de Kider no solo es rico en peces y arrecifes, sino que se encuentra rodeado por un sin número de aldeas bajo el mando y la protección de Kyder."
+    ],
+    "sourceTitle": "KYDER",
+    "sourceRange": [
+      398,
+      415
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ],
+      [
+        "Autoridad",
+        "Baronía local"
+      ],
+      [
+        "Actividades mencionadas",
+        "Pesca, Ganadería, Agricultura"
+      ]
+    ],
+    "sourceX": 1429,
+    "sourceY": 392,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=40, relleno=0.82",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-047",
+    "name": "Cyder",
+    "x": 1182,
+    "y": 399,
+    "faction": "human",
+    "description": "Famoso por sus incontables huertos de verduras, Cyder se posiciona junto al río más grande del imperio, muy cercano a la capital del mismo.",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Cyder",
+    "curiosities": [
+      "Enemigo Acérrimo: Tan sabido como que después de la noche se erguirá el sol, es conocida la pugna y rencor que los habitantes de Cyder sienten por Kyder.",
+      "Cyder es el mayor productor de comida del imperio completo, seguido de cerca por Kider.",
+      "Las relaciones entre Reeve y las Llanuras han comenzado a malograrse debido a leñadores furtivos que están talando árboles del ducado vecino. Quizas sea la necesidad de reforzar las defensas ante el clima de desprotección, o quizás simplemente sea avaricia y buen negocio, pero lo cierto es que en el último tiempo se ha detectado que la mayoría de estos ladrones son de Cyder.",
+      "Maldición de Rohuan: Una fragilidad está comenzando a afectar a los cultivos de Cyder. Los nobles temen que esto pueda propagarse por el resto de siembras o por el reino. Algunos alquimistas y eruditos ya se han puesto a estudiar la situación, pero muchos de los pueblerinos están convencidos de que se trata de la ira del hijo de Terrax."
+    ],
+    "sourceTitle": "CYDER",
+    "sourceRange": [
+      385,
+      398
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ]
+    ],
+    "sourceX": 1182,
+    "sourceY": 399,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-048",
+    "name": "Atalaya del Búho",
+    "x": 1060,
+    "y": 397,
+    "faction": "human",
+    "description": "Se trata de un pequeño fuerte con una característica torre de gran altura, sobre la cual descansa una estatua grande de madera negra con forma de búho. Su creación estuvo a cargo de una antigua familia de linaje noble que gobernaba en Belluart, y se construyó para poseer un puesto de avanzada que permitiese tener cierto control sobre los ataques y movimientos de los Konawe. Actualmente la Atalaya del Búho cuenta con un pequeño pueblo adherido (principalmente familias de soldados y guardabosques) con murallas fortificadas; y su propósito, ahora a manos de nuevos Barones, se mantiene.",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y ríos",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-reeve",
+    "kind": "Localidad o enclave",
+    "oldName": "Altar del Búho",
+    "curiosities": [
+      "Como son los más cercanos a Cyder, los Duques les han encargado la protección de la frontera de Cyder, por el creciente conflicto con los ladrones de madera y cazadores furtivos que suelen actuar en el este del bosque. Algunos sospechan de un trato o alianza oculta entre los ladrones y los Konawe, una especie de pacto de no agresión para hacerle frente a las fuerzas de la Atalaya. Tras numerosas bajas de soldados, caballeros y guardabosques, las fuerzas militares del pueblo no están dando abasto, haciendo incluso que Atalaya no pueda defender ciertas caravanas las cuales han estado siendo atacadas mas frecuentemente por la tribu hostil. Recientes comisiones de atalaya del Búho se han presentado en Alto Reeve y en Fortaleza del Alba para solicitar ayuda y efectivos militares, obteniendo respuestas poco efectivas."
+    ],
+    "sourceTitle": "ATALAYA DEL BÚHO",
+    "sourceRange": [
+      296,
+      306
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ]
+    ],
+    "sourceX": 1071,
+    "sourceY": 418,
+    "symbolType": "especial",
+    "symbolNote": "Atalaya",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 23.7
+  },
+  {
+    "id": "place-049",
+    "name": "Fortaleza del Alba",
+    "x": 1208,
+    "y": 491,
+    "faction": "human",
+    "description": "Se trata de una titánica ciudad protegida por tres colosales murallas que forman los tres distritos de la ciudad. En el centro convive la alta nobleza junto al castillo del emperador, el cual inspira el nombre de la ciudad. Después del primer muro se encuentra un gran territorio compartido por la baja nobleza y los trabajadores de mas alto nivel, como artesanos, escribas, galenos, mercantes y otros; mientras que en el círculo más exterior se acumulan los más pobres, los abandonados, los enfermos y endeudados, los delincuentes y estafadores, básicamente lo que muchos consideran la escoria de la humanidad.",
+    "population": "",
+    "climate": "",
+    "biome": "Llanuras fértiles",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-llanuras",
+    "kind": "Localidad o enclave",
+    "oldName": "Fortaleza del Alba",
+    "curiosities": [],
+    "sourceTitle": "CAPITAL: FORTALEZA DEL ALBA",
+    "sourceRange": [
+      209,
+      224
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de las Llanuras"
+      ]
+    ],
+    "sourceX": 1210,
+    "sourceY": 487,
+    "symbolType": "capital",
+    "symbolNote": "Estrella identificada visualmente sobre el mapa",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 4.5
+  },
+  {
+    "id": "place-050",
+    "name": "Fuerte Nurtac",
+    "x": 1212.7,
+    "y": 524.3,
+    "faction": "human",
+    "description": "Es un bastión militar costero que no sólo vigila el Estrecho de Kárdalos, sino que además asegura la tranquilidad del viaje marítimo entre Puerto del Sol y la capital imperial.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / montaña",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-norte",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto Nurata",
+    "curiosities": [
+      "La dependencia en alimento a Puerto del Sol y Fortaleza del Alba crea una vulnerabilidad que puede generar escasez de alimentos y recursos básicos, pues la isla no tiene una capacidad para sostener guarniciones numerosas sin apoyo externo; sin mencionar que tormentas, ciclones o huracanes pueden dañar la estructura.",
+      "Son pocos los residentes civiles, pero entre ellos suelen estar herreros, religiosos, comerciantes que prestan servicios a la guarnición y algunas familias de militares (usualmente de altos rangos).",
+      "Existen túneles y almacenes subterráneos para suministros y movimientos seguros en caso de asedio.",
+      "Los militares que se entrenan al finalizar deben realizar el juramento de hierro, que garantiza la lealtad hasta la muerte. Dicen que los falsos juramentados desaparecen arrastrados por el mar."
+    ],
+    "sourceTitle": "FUERTE NURTAC",
+    "sourceRange": [
+      577,
+      590
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Norte"
+      ],
+      [
+        "Actividades mencionadas",
+        "Herrería"
+      ]
+    ],
+    "sourceX": 1167,
+    "sourceY": 519,
+    "symbolType": "por_verificar",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-051",
+    "name": "Puerto del Sol",
+    "x": 1219,
+    "y": 551,
+    "faction": "human",
+    "description": "La radiante ciudad blanca conocida como Puerto del Sol, se encuentra enclavada en el extremo noroeste de la Isla Zafiro, y es famosa por su prosperidad, su arquitectura abierta, sus plazas soleadas y su poderosa armada.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / montaña",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-norte",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto del Sol",
+    "curiosities": [
+      "Después de la Flota Imperial, esta ciudad es poseedora de la fuerza naval más fuerte del reino, La Compañía Solaria.",
+      "Leyenda de la llama de Solaria: Es una antorcha que arde de día y noche en lo alto del faro del puerto, simboliza la gloria imperial y se dice que si alguna vez se apaga, las aguas del mar de Ithar’iamil reclamará la ciudad.",
+      "Cada equinoccio realizan la Ceremonia del resplandor, donde lanzan antorchas al volcán junto con algunas ofrendas para Shadya y Terrax quienes cuidan de ellos.",
+      "En los últimos años se ha estado buscando la forma de establecer ruta terrestre segura entre los volcanes, que conecte las dos capitales de forma más eficiente, pero todas las expediciones han terminado en catástrofes, tanto por la fauna de la zona como por las inclemencias de las montañas."
+    ],
+    "sourceTitle": "PUERTO DEL SOL (CAPITAL)",
+    "sourceRange": [
+      564,
+      577
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Norte"
+      ]
+    ],
+    "sourceX": 1219,
+    "sourceY": 551,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo human: 10×10 píxeles, área=89, relleno=0.89",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-052",
+    "name": "Bahía Coral",
+    "x": 1422.5,
+    "y": 528,
+    "faction": "human",
+    "description": "Es un pueblo costero de aguas turquesas donde las casas están pintadas con tonos pasteles. Su economía además de la pesca, gira en torno a la extracción de arrecifes y joyería marina.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / montaña",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-norte",
+    "kind": "Localidad o enclave",
+    "oldName": "Bahía Coral",
+    "curiosities": [
+      "Junto con las localidades ubicadas mas al sur de las tierras de la niebla, Bahía Coral es el lugar más atacado por piratas en todo el reino, por ello, durante la guerra civil, este pueblo fue unos de los aliados más fieles de los Fenwyn, lealtad que se mantiene hasta la actualidad."
+    ],
+    "sourceTitle": "BAHÍA CORAL",
+    "sourceRange": [
+      590,
+      600
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Norte"
+      ],
+      [
+        "Actividades mencionadas",
+        "Pesca"
+      ]
+    ],
+    "sourceX": 1434,
+    "sourceY": 514,
+    "symbolType": "especial",
+    "symbolNote": "Bahía / accidente geográfico",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-053",
+    "name": "Decamino",
+    "x": 1456,
+    "y": 661,
+    "faction": "human",
+    "description": "Se trata de un asentamiento interior en la isla, rodeado de colinas ondulantes cultivadas con viñedos y plantaciones de cítricos que aprovechan el clima templado. En su borde más occidental se encuentra un enorme faro que ayuda a guiar a los barcos que se aventuran por los mares cercanos al archipiélago, y en la base de la gran torre se encuentra un gran palomar, utilizado para informar a la capital, y con máxima eficiencia, cualquier avistamientos sospechoso.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / montaña",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-norte",
+    "kind": "Localidad o enclave",
+    "oldName": "Decamino",
+    "curiosities": [
+      "Existe un órgano compuesto por astrónomos, clérigos, escribas del tiempo y el propio Duque. Designado como Consejo celeste, donde se dictan las políticas científicas, religiosas y de conservación del conocimiento astronómico.",
+      "Cada equinoccio realizan la Ceremonia del resplandor, donde lanzan antorchas al volcán junto con algunas ofrendas para Shadya y Rhoroe quienes cuidan de ellos.",
+      "Estructura del Consejo Celeste: Duque, Archiclericus Solar, Maestro del Horizonte, Custodio de Mareas, Escriba de los Días."
+    ],
+    "sourceTitle": "DECAMINO",
+    "sourceRange": [
+      600,
+      612
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Norte"
+      ]
+    ],
+    "sourceX": 1456,
+    "sourceY": 661,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×7 píxeles, área=41, relleno=0.73",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-054",
+    "name": "Puerto de la Luna",
+    "x": 1207,
+    "y": 774,
+    "faction": "human",
+    "description": "Es la segunda gran ciudad capital del ducado, funcionado como gran pulmón comercial y pesquero de la isla, orientado hacia el sur, famoso por sus muelles iluminados por faroles de aceite de ballena y su bulliciosa vida nocturna. Es la ciudad que, por lejos, cuenta con una mayor diversidad de razas entre sus habitantes.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / bosque",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-sur",
+    "kind": "Localidad o enclave",
+    "oldName": "Puerto de la Luna",
+    "curiosities": [
+      "Es con diferencia el centro neurálgico comercial del imperio",
+      "Es poseedora de la famosa Compañía Reina Turquesa. Fue Eirae quien financió su creación, en un inicio, con la intención de proteger el mar de la capital Norin, Marina y Puerto de la Luna. Sería esta institución quien más tarde se transformaría en el modelo base para la creación de la Compañía Obsidiana (fuerza naval de las Amarant).",
+      "Los rumores de insurrección y la conocida cercanía de sus habitantes con, lo que el imperio considera, razas con poderes blasfemos, ha hecho que un contingente de la Capilla de la Eterna Penitencia llegue la gran capital comercial, con el objetivo de desentrañar planes y castigar tanto a traidores como a herejes."
+    ],
+    "sourceTitle": "PUERTO DE LA LUNA (CAPITAL)",
+    "sourceRange": [
+      612,
+      624
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Sur"
+      ]
+    ],
+    "sourceX": 1207,
+    "sourceY": 773,
+    "symbolType": "ciudad",
+    "symbolNote": "Glifo human: 9×10 píxeles, área=90, relleno=1.00",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-055",
+    "name": "Marina",
+    "x": 1200,
+    "y": 805,
+    "faction": "human",
+    "description": "Así como Reeve tiene la ciudad más bella del reino, la isla Zafiro cuenta, según muchos artistas y músicos, con el pueblo más bello de Ávalon: Marina (y el más poblado de todos, superado solamente por Bajo Reeve), pero la belleza no es su único atractivo, pues el pueblo cuenta con un comercio que poco envidia al de las grandes capitales, esto gracias a su privilegiada posición entre dos titanes del comercio marítimo.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / bosque",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-sur",
+    "kind": "Localidad o enclave",
+    "oldName": "Marina",
+    "curiosities": [
+      "Marina es el hogar del Linaje Fenwyn, pero tras su ascenso a duques del zafiro, el pueblo ha quedado bajo el mando de la Casa Ferrell después de que su primogénito se casase con Ophelia Fenwyn tras la guerra civil.",
+      "A pesar de su modesto tamaño, Marina cuenta con una importante escuela de alquimia y no es infrecuente ver visitantes de tierras muy lejanas. Este pueblo es un buen lugar para estudiar hierbas tóxicas y venenosas."
+    ],
+    "sourceTitle": "MARINA",
+    "sourceRange": [
+      624,
+      635
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Sur"
+      ],
+      [
+        "Actividades mencionadas",
+        "Comercio, Alquimia"
+      ]
+    ],
+    "sourceX": 1200,
+    "sourceY": 805,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 10×9 píxeles, área=68, relleno=0.76",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-056",
+    "name": "Bosquemiel",
+    "x": 1308,
+    "y": 797,
+    "faction": "human",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / bosque",
+    "race": "Humanos",
+    "loreStatus": "pendiente",
+    "regionId": "avalon-zafiro-sur",
+    "kind": "Localidad o enclave",
+    "oldName": "Bosquemiel",
+    "coordinateStatus": "provisional",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Sur"
+      ]
+    ],
+    "sourceX": 1308,
+    "sourceY": 797,
+    "atlasArchiveReason": "Bosquemiel aparece como bosque/topónimo, sin marcador de asentamiento verificable",
+    "symbolType": "no_mostrado",
+    "symbolNote": "Sin glifo cromático verificable en la posición; requiere inspección",
+    "cartographyReview": "pendiente_4100",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-057",
+    "name": "Guardiavieja",
+    "x": 1320,
+    "y": 738,
+    "faction": "human",
+    "description": "Se trata de un viejo fortín pensado para proteger la entrada del Estrecho Almíbar frente a los ataques piratas. Actualmente cuenta con un pueblo adosado en el que residen tanto soldados como granjeros y apicultores. Cuenta con su propia flota pequeña y se encarga de proteger tanto el mar como a las comunidades que viven en el noroeste del Bosquemiel.",
+    "population": "",
+    "climate": "",
+    "biome": "Isla costera / bosque",
+    "race": "Humanos",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-zafiro-sur",
+    "kind": "Localidad o enclave",
+    "oldName": "Guardaniya",
+    "curiosities": [
+      "Se dice que en Guardiavieja se produce el mejor hidromiel del reino.",
+      "Han habido problemas en los últimos años para poder proteger adecuadamente el sur de Bosquemiel pues, ante la escasez de recursos militares, Marina y la Guardia no se ponen de acuerdo de a quién le corresponde la labor."
+    ],
+    "sourceTitle": "GUARDIAVIEJA",
+    "sourceRange": [
+      635,
+      650
+    ],
+    "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Isla Zafiro — Sur"
+      ]
+    ],
+    "sourceX": 1320,
+    "sourceY": 738,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=41, relleno=0.84",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 0
+  },
+  {
+    "id": "place-058",
+    "name": "Torres Viejas",
+    "x": 1861,
+    "y": 104,
+    "faction": "human",
+    "description": "Inicialmente creado como un puesto de avanzada para defender la eventual entrada marítima del este de Engerlass, se volvió rápidamente inutil con los años, no sólo por el frío extremo, sino porque los piratas casi nunca frecuentaron rutas tan hostiles, ni siquiera por la preciada Piedra Umbra de la mina norteña. Es por ello que se transformó en un recinto carcelario de renombre por su dureza y el pueblo que se formó alrededor se terminó quedando para dar origen a un lugar lleno de leyendas y secretos resguardados por extraños habitantes de miradas esquivas y piel cetrina",
+    "population": "",
+    "climate": "Brumoso (contexto territorial)",
+    "biome": "",
+    "race": "",
+    "loreStatus": "actualizado",
+    "regionId": "avalon-isla-reina",
+    "kind": "Localidad o enclave",
+    "oldName": "Torre Vijia",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de la Niebla"
+      ]
+    ],
+    "curiosities": [
+      "Hay días en los que la temperatura baja tanto que el frío se cobra algunas vidas humanas.",
+      "En las tabernas de la capital se canta una balada marinera prohibida que habla de una sirena encerrada hace años por los Barones de Torres Viejas, y que aún sobrevive joven y hermosa en lo profundo de las mazmorras; pero nadie sabe lo que motiva a los nobles a mantener a la prisionera y su secreto.",
+      "Se dice que las mareas a veces arrastran caparazones marinos grabados con lo que, algunos señalan, ser extrañas runas primitivas que cuando se les aplica calor corporal, parecen cambiar de forma.",
+      "Una de las últimas cosas que se supo de este alejado fortín, es que el comandante del lugar estaba sufriendo de una suerte de paranoia aguda, asegurando que, después de unos cuantos días de encarcelamiento, los prisioneros en sus celdas además de cambiar de personalidad,  perdían sus reflejos en el agua o en espejos."
+    ],
+    "sourceTitle": "TORRES VIEJAS",
+    "sourceRange": [
+      536,
+      551
+    ],
+    "sourceX": 1862,
+    "sourceY": 104,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 8×7 píxeles, área=43, relleno=0.77",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 1
+  },
+  {
+    "id": "place-103",
+    "name": "Belluart",
+    "oldName": "Belluart",
+    "x": 863,
+    "y": 499,
+    "faction": "human",
+    "description": "Además de ser la localidad más meridional del Ducado de Reeve, Belluart es conocido por ser el único puerto del bosque lluvioso. A pesar de su modestia, este pueblo mantiene una importancia estratégica enorme dentro del comercio del reino y principalmente del ducado, teniendo constantes llegadas de mercancías tanto de Faro Durgath (enanos del Reino de Kargast) y de Vatnar (montaraces del Reino de Bergheim), además de los barcos que vienen de Puerto del Sol y Fortaleza del Alba, con mercantes que prefieren evitar el paso del bosque para evitar a los Konawe que Atalaya del Búho no ha podido controlar.",
+    "curiosities": [
+      "Hace algunos años han comenzado, de forma más seria y financiada por los duques, algunas expediciones hacia el sur de La Cicatriz. Los resultados, según dicen las malas lenguas, han sido tan impresionantes como inquietantes, pero en general no se han revelado los detalles. Se cree que los barones saben más de lo que dicen, y que incluso saben más que los mismos duques."
+    ],
+    "regionId": "avalon-reeve",
+    "population": "",
+    "climate": "",
+    "biome": "Costa y bosque templado",
+    "race": "Humanos",
+    "kind": "Puerto y localidad",
+    "loreStatus": "actualizado",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "sourceTitle": "BELLUART",
+    "sourceRange": [
+      306,
+      319
+    ],
+    "extraFacts": [
+      [
+        "Territorio",
+        "Ducado de Reeve"
+      ],
+      [
+        "Actividades mencionadas",
+        "Comercio marítimo"
+      ]
+    ],
+    "sourceX": 888,
+    "sourceY": 525,
+    "symbolType": "pueblo",
+    "symbolNote": "Glifo human: 7×7 píxeles, área=40, relleno=0.82",
+    "cartographyReview": "precalibrado_2048",
+    "revisionDelta": 36.1
+  }
+]

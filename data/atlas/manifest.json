@@ -1,0 +1,30 @@
+{
+  "schema": "aeternalis-atlas-v1",
+  "revision": "2026-11-26-primera-migracion",
+  "counts": {
+    "places": 118,
+    "regions": 24,
+    "roads": 165
+  },
+  "files": {
+    "catalog": "data/atlas/catalogo.json",
+    "regions": "data/atlas/regiones.json",
+    "realmLore": "data/atlas/reinos.json",
+    "roads": "data/atlas/caminos.json",
+    "civic": "data/atlas/fichas-civicas.json",
+    "locations": [
+      "data/atlas/localidades/avalon.json",
+      "data/atlas/localidades/bergheim.json",
+      "data/atlas/localidades/elenya.json",
+      "data/atlas/localidades/ennor.json",
+      "data/atlas/localidades/isilme.json",
+      "data/atlas/localidades/kargast.json",
+      "data/atlas/localidades/piratas.json",
+      "data/atlas/localidades/seriasak.json",
+      "data/atlas/localidades/sin-region.json",
+      "data/atlas/localidades/ushios.json"
+    ]
+  },
+  "core": "js/supermapa-core.js",
+  "note": "Datos públicos. Rutas propuestas; narraciones literales desde v1.7."
+}
