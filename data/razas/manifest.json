@@ -1,0 +1,113 @@
+{
+  "schema": "aeternalis-razas-v2",
+  "version": "2.0.0",
+  "description": "Directorio y visor modal de las ocho razas. Textos originales migrados íntegros salvo rework explícito Yūgen.",
+  "races": [
+    {
+      "id": "elfos",
+      "name": "Altos Elfos",
+      "shortName": "Elfos",
+      "subtitle": "Los reinos de los bosques ancestrales",
+      "color": "#9bb9d0",
+      "symbol": "elf-helmet",
+      "portrait": "https://2img.net/i.imgur.com/DiLn7lC.png",
+      "portraitWidth": 425,
+      "legacy": "/t32-03-informacion-de-razas#66",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/elfos.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/elfos.md"
+    },
+    {
+      "id": "montaraces",
+      "name": "Montaraces",
+      "shortName": "Montaraces",
+      "subtitle": "Los clanes de las Cuatro Montañas",
+      "color": "#6fa1b5",
+      "symbol": "frozen-orb",
+      "portrait": "https://2img.net/i.imgur.com/yjpZfOq.png",
+      "portraitWidth": 415,
+      "legacy": "/t32-03-informacion-de-razas#67",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/montaraces.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/montaraces.md"
+    },
+    {
+      "id": "yugen",
+      "name": "Yūgen",
+      "shortName": "Yūgen",
+      "subtitle": "Las Tres Costas y la Bendición de Eko",
+      "color": "#b8a0c9",
+      "symbol": "pagoda",
+      "portrait": "https://2img.net/i.imgur.com/aWR7aRD.png",
+      "portraitWidth": 395,
+      "legacy": "/t32-03-informacion-de-razas#68",
+      "editorial": "Propuesta narrativa en revisión",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/yugen.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/yugen.md"
+    },
+    {
+      "id": "enanos",
+      "name": "Enanos",
+      "shortName": "Enanos",
+      "subtitle": "Los grandes salones bajo la montaña",
+      "color": "#c4a77a",
+      "symbol": "gear-hammer",
+      "portrait": "https://2img.net/i.imgur.com/OYxqje0.png",
+      "portraitWidth": 355,
+      "legacy": "/t32-03-informacion-de-razas#69",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/enanos.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/enanos.md"
+    },
+    {
+      "id": "humanos",
+      "name": "Humanos",
+      "shortName": "Humanos",
+      "subtitle": "Capitales, fortalezas y valles habitados",
+      "color": "#d19389",
+      "symbol": "visored-helm",
+      "portrait": "https://2img.net/i.imgur.com/x1ehcuo.png",
+      "portraitWidth": 325,
+      "legacy": "/t32-03-informacion-de-razas#70",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/humanos.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/humanos.md"
+    },
+    {
+      "id": "norin",
+      "name": "Nórin",
+      "shortName": "Norin",
+      "subtitle": "Las fértiles planicies y sus aldeas",
+      "color": "#c4c68f",
+      "symbol": "hobbit-door",
+      "portrait": "https://2img.net/i.imgur.com/emOdML9.png",
+      "portraitWidth": 305,
+      "legacy": "/t32-03-informacion-de-razas#71",
+      "editorial": "Raza PNJ",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/norin.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/norin.md"
+    },
+    {
+      "id": "sinhair",
+      "name": "Sin'hair",
+      "shortName": "Sin'hair",
+      "subtitle": "Los pueblos de los valles verdes",
+      "color": "#a0c389",
+      "symbol": "leaf-skeleton",
+      "portrait": "https://2img.net/i.imgur.com/f0RSzpG.png",
+      "portraitWidth": 360,
+      "legacy": "/t32-03-informacion-de-razas#72",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/sinhair.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/sinhair.md"
+    },
+    {
+      "id": "amarant",
+      "name": "Amarant",
+      "shortName": "Amarant",
+      "subtitle": "Las amazonas de la selva indómita",
+      "color": "#d18da2",
+      "symbol": "flat-paw-print",
+      "portrait": "https://2img.net/i.imgur.com/ZC1TX4Z.png",
+      "portraitWidth": 380,
+      "legacy": "/t32-03-informacion-de-razas#73",
+      "hero": "https://morpheus-eko.github.io/aeternalis/assets/razas/imagenes/amarant.webp",
+      "file": "https://morpheus-eko.github.io/aeternalis/data/razas/fichas/amarant.md"
+    }
+  ]
+}
