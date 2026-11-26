@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biblioteca de Assets · Aeternalis</title>
+<style>
+:root{color-scheme:dark;font-family:Georgia,serif;background:#171717;color:#e8ddc9}
+*{box-sizing:border-box}body{margin:0 auto;padding:28px 22px;max-width:1300px}
+header{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;align-items:center;border-bottom:1px solid #655139;padding-bottom:20px}
+h1{font-size:clamp(25px,4vw,40px);margin:0;color:#eacb91}a{color:#eacb91}small{color:#aaa}
+header p{margin:5px 0;color:#b3a791} .filters{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:25px 0}
+input,select,button{font:inherit;color:#eadac3;background:#272522;border:1px solid #66543b;border-radius:8px;padding:12px}
+input{flex:2;min-width:210px}select{flex:1;min-width:170px}
+button{cursor:pointer}button:hover{background:#3b3125}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:15px}
+article{border:1px solid #483a2b;background:#211f1c;border-radius:10px;overflow:hidden;min-width:0}
+figure{height:175px;margin:0;padding:8px;display:flex;justify-content:center;align-items:center;background:repeating-conic-gradient(#3d3c39 0% 25%,#292827 0% 50%) 0 0 / 20px 20px}
+figure img{max-width:100%;max-height:100%;object-fit:contain}
+.external{font-size:13px;text-align:center;color:#c1b099;line-height:1.5;padding:16px}
+.info{padding:13px}h2{font-size:15px;line-height:1.3;min-height:36px;margin:0 0 8px;overflow-wrap:anywhere}
+.meta{font-size:12px;color:#b5a48b}.actions{display:flex;gap:7px;margin-top:12px}
+.actions a,.actions button{font:12px system-ui,sans-serif;border:1px solid #65543a;border-radius:5px;text-decoration:none;background:#2e2922;color:#eacb91;padding:7px 8px;flex:1;text-align:center}
+#more{display:block;margin:30px auto}#counter{font:13px system-ui;color:#b3a791}
+</style></head><body>
+<header><div><h1>Archivo de recursos · Aeternalis</h1><p>Biblioteca gráfica para los módulos del foro</p></div><a href="https://github.com/Morpheus-Eko/aeternalis/tree/main/assets">Abrir repositorio</a></header>
+<div class="filters"><input id="q" type="search" placeholder="Buscar runa, pergamino, lobo…" aria-label="Buscar recursos"><select id="category" aria-label="Categoría"><option value="">Todas las categorías</option></select><select id="hosting" aria-label="Alojamiento"><option value="">Todos los recursos</option><option value="archivo">Archivos en GitHub</option><option value="enlace-externo">Referencias externas</option></select></div>
+<p id="counter">Cargando catálogo…</p><main id="grid" class="grid"></main><button id="more" hidden>Mostrar más recursos</button>
+<script>
+(()=>{'use strict';const $=s=>document.querySelector(s);let assets=[],filtered=[],cursor=0;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','"':'&quot;'}[c]));
+const card=x=>{const li=document.createElement('article');let pic=document.createElement('figure');
+if(x.tipo==='archivo'){const img=document.createElement('img');img.src=x.url;img.loading='lazy';img.decoding='async';img.alt=x.nombre;pic.append(img)}else{pic.className='external';pic.textContent='Referencia externa · '+(x.proveedor||'')+'\nImagen conservada en su alojamiento original'}
+li.append(pic);const info=document.createElement('div');info.className='info';const h=document.createElement('h2');h.textContent=x.nombre;info.append(h);
+const meta=document.createElement('div');meta.className='meta';meta.textContent=x.categoria+' · '+x.subcategoria+(x.transparencia===true?' · Transparente':'');info.append(meta);
+const actions=document.createElement('div');actions.className='actions';const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Abrir';actions.append(a);
+const b=document.createElement('button');b.textContent='Copiar URL';b.onclick=()=>{navigator.clipboard?.writeText(x.url).then(()=>b.textContent='Copiado').catch(()=>prompt('Copia la dirección:',x.url))};actions.append(b);info.append(actions);li.append(info);return li};
+function draw(){const next=filtered.slice(cursor,cursor+24);const frag=document.createDocumentFragment();for(const x of next)frag.append(card(x));$('#grid').append(frag);cursor+=next.length;$('#more').hidden=cursor>=filtered.length;$('#counter').textContent=filtered.length+' recursos coinciden · '+cursor+' visibles'}
+function refresh(){let q=$('#q').value.trim().toLocaleLowerCase(),cat=$('#category').value,hosting=$('#hosting').value;
+filtered=assets.filter(x=>(!cat||x.categoria===cat)&&(!hosting||x.tipo===hosting)&&(!q||[x.nombre,x.categoria,x.subcategoria,...(x.etiquetas||[])].join(' ').toLocaleLowerCase().includes(q)));cursor=0;$('#grid').replaceChildren();draw()}
+$('#q').addEventListener('input',refresh);$('#category').addEventListener('change',refresh);$('#hosting').addEventListener('change',refresh);$('#more').addEventListener('click',draw);
+fetch('./catalogo.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(j=>{assets=j.recursos;const cats=[...new Set(assets.map(x=>x.categoria))].sort();for(const c of cats){const o=document.createElement('option');o.value=o.textContent=c;$('#category').append(o)}refresh()}).catch(e=>$('#counter').textContent='No se pudo cargar el catálogo: '+e.message);
+})();
+</script></body></html>
