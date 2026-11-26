@@ -1,9 +1,9 @@
-/* AETERNALIS · Carta Náutica v1.0 · Cargador aislado.
+/* AETERNALIS · Carta Náutica v1.1 · Cargador aislado.
    No altera el Supermapa existente ni sus rutas terrestres. */
 (function(){
  'use strict';
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='1.0.0';
+ var VERSION='1.1.0';
  function start(){
    if(!document.getElementById('ae-carta-naval'))return;
    if(!document.getElementById('ae-carta-naval-css-v1')){
