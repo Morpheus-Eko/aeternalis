@@ -152,3 +152,70 @@
 @media (prefers-reduced-motion:reduce){
   #ae-astillero *{transition:none!important;animation:none!important;scroll-behavior:auto!important;}
 }
+
+/* AETERNALIS_ASTILLERO_1_1_EIGHT_SHIPS */
+/* Ocho familias culturales: las ilustraciones de escena llevan fondo.
+   Nunca se elimina su fondo suponiendo transparencia alfa. */
+#ae-astillero .ae-na-fleet-picker {
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:10px;
+}
+#ae-astillero .ae-na-ship-choice {
+  min-height:68px;
+  border-bottom:2px solid #bc986459;
+}
+#ae-astillero .ae-na-ship-choice.is-selected {
+  border-bottom-color:var(--ae-na-accent);
+}
+#ae-astillero .ae-na-illustration.is-scene {
+  background:#13191c;
+}
+#ae-astillero .ae-na-illustration.is-scene .ae-na-vessel {
+  position:absolute;
+  inset:0;
+  width:100%;
+  max-width:none;
+  height:100%;
+  margin:0;
+  object-fit:cover;
+  object-position:center 45%;
+  filter:saturate(.91) contrast(1.06);
+}
+#ae-astillero .ae-na-illustration.is-scene::after {
+  content:"";
+  pointer-events:none;
+  position:absolute;
+  z-index:2;
+  inset:0;
+  background:linear-gradient(180deg,#030d13aa 0%,transparent 25%,transparent 64%,#090e11c9 100%);
+}
+#ae-astillero .ae-na-carta-link {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin:15px 0 0;
+  padding:11px 13px;
+  border:1px solid #d5af729c;
+  border-radius:2px;
+  background:#33291e;
+  color:#f0d7a7;
+  font:700 12px/1.4 Georgia,serif;
+  text-decoration:none;
+  text-align:center;
+  transition:background .18s,color .18s;
+}
+#ae-astillero .ae-na-carta-link:hover,
+#ae-astillero .ae-na-carta-link:focus-visible {
+  color:#fff8e6;
+  background:#5d452e;
+}
+@container (max-width:700px) {
+  #ae-astillero .ae-na-fleet-picker {grid-template-columns:repeat(2,minmax(0,1fr));}
+  #ae-astillero .ae-na-ship-choice {flex-direction:row;min-height:54px;padding:8px 10px;font-size:12px;}
+  #ae-astillero .ae-na-ship-choice-icon {width:33px;height:33px;flex:0 0 33px;}
+}
+@container (max-width:420px) {
+  #ae-astillero .ae-na-fleet-picker {gap:6px;}
+  #ae-astillero .ae-na-ship-choice {font-size:11px;min-height:52px;}
+  #ae-astillero .ae-na-ship-choice-icon {width:29px;height:29px;flex:0 0 29px;}
+}
