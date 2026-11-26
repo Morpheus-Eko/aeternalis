@@ -167,6 +167,8 @@
   }
   function render(){
     if(!state.atlas||!state.cfg)return;
+    var previousScroll=ROOT.querySelector('.ae-cn-scroll');
+    var scrollOffset=previousScroll?previousScroll.scrollLeft:0;
     ROOT.replaceChildren();
     var page=el('div','ae-cn-page');
     var head=el('header','ae-cn-header');
@@ -210,6 +212,8 @@
     footer.appendChild(el('p','','Los caminos terrestres del Atlas no se usan para navegar. Las líneas discontinuas son bocetos de usuario y pueden atravesar tierra; requieren revisión administrativa.'));
     if(state.notice){var notice=el('p','ae-cn-live',state.notice);notice.setAttribute('role','status');footer.appendChild(notice);}
     page.appendChild(footer);ROOT.appendChild(page);ROOT.setAttribute('data-ae-carta','ready');
+    var newScroll=ROOT.querySelector('.ae-cn-scroll');
+    if(newScroll&&scrollOffset>0)newScroll.scrollLeft=scrollOffset;
   }
   function focusOn(action){
     var e=ROOT.querySelector('[data-action="'+action+'"]');
