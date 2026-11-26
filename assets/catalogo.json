@@ -1,9 +1,9 @@
 {
   "schema": "aeternalis-assets-v1",
-  "revision": "2026-11-26-biblioteca-codex-naval",
+  "revision": "2026-11-26-biblioteca-naval-pack-v3",
   "baseUrl": "https://morpheus-eko.github.io/aeternalis/",
   "descripcion": "Biblioteca central de recursos gráficos reutilizables del proyecto Aeternalis",
-  "total": 593,
+  "total": 623,
   "totalesPorCategoria": {
     "atlas": 2,
     "bestiario": 69,
@@ -12,7 +12,7 @@
     "criaturas": 80,
     "grimorio": 24,
     "monturas": 43,
-    "naval": 126,
+    "naval": 156,
     "razas": 8,
     "runas": 6
   },
@@ -21,8 +21,9 @@
     "Los ornamentos Imgur y las ilustraciones de criaturas se mantienen como referencias externas: no se han descargado ni convertido en archivos de GitHub.",
     "Los originales de los archivos alojados en GitHub permanecen en los paquetes ZIP de origen indicados en cada ficha.",
     "No alterar las rutas usadas por módulos de Foroactivo sin migración expresa.",
-    "Códex: 218 WebP individuales, Naval: 126 WebP individuales, publicados en assets/codex y assets/naval, respectivamente.",
-    "Los originales PNG permanecen en los paquetes ZIP del Códex y Naval; las rutas PNG del catálogo específico son referencias archivísticas, no URLs públicas."
+    "Códex: 218 WebP individuales, Naval: 156 WebP individuales, publicados en assets/codex y assets/naval, respectivamente.",
+    "Los originales PNG permanecen en los paquetes ZIP del Códex y Naval; las rutas PNG del catálogo específico son referencias archivísticas, no URLs públicas.",
+    "30 assets navales nuevos del pack v3: 24 adornos transparentes y 6 navíos con fondo. Familias Élfica, Nórin, Sinhair, Amarant, Yūgen y Humanos."
   ],
   "recursos": [
     {
@@ -15527,6 +15528,831 @@
       "tipo": "archivo",
       "descripcion": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
       "sistema": "velas"
+    },
+    {
+      "id": "naval-navio_elfico_cisne_lunar",
+      "nombre": "Navio elfico cisne lunar",
+      "categoria": "naval",
+      "subcategoria": "elficos",
+      "ruta": "assets/naval/elficos/navio_elfico_cisne_lunar.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/elficos/navio_elfico_cisne_lunar.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        943,
+        646
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "elficos",
+        "navio",
+        "navio",
+        "elfico",
+        "cisne",
+        "lunar"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_elfico_cisne_estelar",
+      "nombre": "Medallon elfico cisne estelar",
+      "categoria": "naval",
+      "subcategoria": "elficos",
+      "ruta": "assets/naval/elficos/medallon_elfico_cisne_estelar.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/elficos/medallon_elfico_cisne_estelar.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        327,
+        335
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "elficos",
+        "medallon",
+        "medallon",
+        "elfico",
+        "cisne",
+        "estelar"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_elfico_estrella",
+      "nombre": "Timon elfico estrella",
+      "categoria": "naval",
+      "subcategoria": "elficos",
+      "ruta": "assets/naval/elficos/timon_elfico_estrella.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/elficos/timon_elfico_estrella.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        228,
+        206
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "elficos",
+        "timon",
+        "timon",
+        "elfico",
+        "estrella"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_elfica_lunar",
+      "nombre": "Vela elfica lunar",
+      "categoria": "naval",
+      "subcategoria": "elficos",
+      "ruta": "assets/naval/elficos/vela_elfica_lunar.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/elficos/vela_elfica_lunar.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        198,
+        421
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "elficos",
+        "vela",
+        "vela",
+        "elfica",
+        "lunar"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_elfico_cisne",
+      "nombre": "Mascaron elfico cisne",
+      "categoria": "naval",
+      "subcategoria": "elficos",
+      "ruta": "assets/naval/elficos/mascaron_elfico_cisne.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/elficos/mascaron_elfico_cisne.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        303,
+        262
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "elficos",
+        "mascaron",
+        "mascaron",
+        "elfico",
+        "cisne"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-navio_norin_mercante_tecnificado",
+      "nombre": "Navio norin mercante tecnificado",
+      "categoria": "naval",
+      "subcategoria": "norin",
+      "ruta": "assets/naval/norin/navio_norin_mercante_tecnificado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/norin/navio_norin_mercante_tecnificado.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        943,
+        607
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "norin",
+        "navio",
+        "navio",
+        "norin",
+        "mercante",
+        "tecnificado"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_norin_gremio_comercio",
+      "nombre": "Medallon norin gremio comercio",
+      "categoria": "naval",
+      "subcategoria": "norin",
+      "ruta": "assets/naval/norin/medallon_norin_gremio_comercio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/norin/medallon_norin_gremio_comercio.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        286,
+        298
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "norin",
+        "medallon",
+        "medallon",
+        "norin",
+        "gremio",
+        "comercio"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_norin_bronce_mecanico",
+      "nombre": "Timon norin bronce mecanico",
+      "categoria": "naval",
+      "subcategoria": "norin",
+      "ruta": "assets/naval/norin/timon_norin_bronce_mecanico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/norin/timon_norin_bronce_mecanico.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        221,
+        197
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "norin",
+        "timon",
+        "timon",
+        "norin",
+        "bronce",
+        "mecanico"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_norin_mercante",
+      "nombre": "Vela norin mercante",
+      "categoria": "naval",
+      "subcategoria": "norin",
+      "ruta": "assets/naval/norin/vela_norin_mercante.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/norin/vela_norin_mercante.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        182,
+        184
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "norin",
+        "vela",
+        "vela",
+        "norin",
+        "mercante"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_norin_pez_dorado",
+      "nombre": "Mascaron norin pez dorado",
+      "categoria": "naval",
+      "subcategoria": "norin",
+      "ruta": "assets/naval/norin/mascaron_norin_pez_dorado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/norin/mascaron_norin_pez_dorado.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        253,
+        201
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "norin",
+        "mascaron",
+        "mascaron",
+        "norin",
+        "pez",
+        "dorado"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-navio_sinhair_bosque_vivo",
+      "nombre": "Navio sinhair bosque vivo",
+      "categoria": "naval",
+      "subcategoria": "sinhair",
+      "ruta": "assets/naval/sinhair/navio_sinhair_bosque_vivo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/sinhair/navio_sinhair_bosque_vivo.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        915,
+        595
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "sinhair",
+        "navio",
+        "navio",
+        "sinhair",
+        "bosque",
+        "vivo"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_sinhair_arbol_mareas",
+      "nombre": "Medallon sinhair arbol mareas",
+      "categoria": "naval",
+      "subcategoria": "sinhair",
+      "ruta": "assets/naval/sinhair/medallon_sinhair_arbol_mareas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/sinhair/medallon_sinhair_arbol_mareas.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        349,
+        321
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "sinhair",
+        "medallon",
+        "medallon",
+        "sinhair",
+        "arbol",
+        "mareas"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_sinhair_raices",
+      "nombre": "Timon sinhair raices",
+      "categoria": "naval",
+      "subcategoria": "sinhair",
+      "ruta": "assets/naval/sinhair/timon_sinhair_raices.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/sinhair/timon_sinhair_raices.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        225,
+        210
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "sinhair",
+        "timon",
+        "timon",
+        "sinhair",
+        "raices"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_sinhair_hoja",
+      "nombre": "Vela sinhair hoja",
+      "categoria": "naval",
+      "subcategoria": "sinhair",
+      "ruta": "assets/naval/sinhair/vela_sinhair_hoja.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/sinhair/vela_sinhair_hoja.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        186,
+        329
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "sinhair",
+        "vela",
+        "vela",
+        "sinhair",
+        "hoja"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_sinhair_ciervo_vivo",
+      "nombre": "Mascaron sinhair ciervo vivo",
+      "categoria": "naval",
+      "subcategoria": "sinhair",
+      "ruta": "assets/naval/sinhair/mascaron_sinhair_ciervo_vivo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/sinhair/mascaron_sinhair_ciervo_vivo.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        351,
+        257
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "sinhair",
+        "mascaron",
+        "mascaron",
+        "sinhair",
+        "ciervo",
+        "vivo"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-navio_amarant_asalto_selvatico",
+      "nombre": "Navio amarant asalto selvatico",
+      "categoria": "naval",
+      "subcategoria": "amarant",
+      "ruta": "assets/naval/amarant/navio_amarant_asalto_selvatico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/amarant/navio_amarant_asalto_selvatico.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        1068,
+        587
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "amarant",
+        "navio",
+        "navio",
+        "amarant",
+        "asalto",
+        "selvatico"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_amarant_jaguar",
+      "nombre": "Medallon amarant jaguar",
+      "categoria": "naval",
+      "subcategoria": "amarant",
+      "ruta": "assets/naval/amarant/medallon_amarant_jaguar.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/amarant/medallon_amarant_jaguar.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        370,
+        342
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "amarant",
+        "medallon",
+        "medallon",
+        "amarant",
+        "jaguar"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_amarant_tribal",
+      "nombre": "Timon amarant tribal",
+      "categoria": "naval",
+      "subcategoria": "amarant",
+      "ruta": "assets/naval/amarant/timon_amarant_tribal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/amarant/timon_amarant_tribal.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        210,
+        199
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "amarant",
+        "timon",
+        "timon",
+        "amarant",
+        "tribal"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_amarant_garras",
+      "nombre": "Vela amarant garras",
+      "categoria": "naval",
+      "subcategoria": "amarant",
+      "ruta": "assets/naval/amarant/vela_amarant_garras.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/amarant/vela_amarant_garras.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        265,
+        243
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "amarant",
+        "vela",
+        "vela",
+        "amarant",
+        "garras"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_amarant_jaguar",
+      "nombre": "Mascaron amarant jaguar",
+      "categoria": "naval",
+      "subcategoria": "amarant",
+      "ruta": "assets/naval/amarant/mascaron_amarant_jaguar.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/amarant/mascaron_amarant_jaguar.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        266,
+        228
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "amarant",
+        "mascaron",
+        "mascaron",
+        "amarant",
+        "jaguar"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-navio_yugen_japones_cubierta_abierta",
+      "nombre": "Navio yugen japones cubierta abierta",
+      "categoria": "naval",
+      "subcategoria": "yugen",
+      "ruta": "assets/naval/yugen/navio_yugen_japones_cubierta_abierta.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/navio_yugen_japones_cubierta_abierta.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        885,
+        485
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "yugen",
+        "navio",
+        "navio",
+        "yugen",
+        "japones",
+        "cubierta",
+        "abierta"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_yugen_crisantemo_olas",
+      "nombre": "Medallon yugen crisantemo olas",
+      "categoria": "naval",
+      "subcategoria": "yugen",
+      "ruta": "assets/naval/yugen/medallon_yugen_crisantemo_olas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/medallon_yugen_crisantemo_olas.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        257,
+        296
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "yugen",
+        "medallon",
+        "medallon",
+        "yugen",
+        "crisantemo",
+        "olas"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_yugen_crisantemo",
+      "nombre": "Timon yugen crisantemo",
+      "categoria": "naval",
+      "subcategoria": "yugen",
+      "ruta": "assets/naval/yugen/timon_yugen_crisantemo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/timon_yugen_crisantemo.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        187,
+        186
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "yugen",
+        "timon",
+        "timon",
+        "yugen",
+        "crisantemo"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_yugen_grulla_sol",
+      "nombre": "Vela yugen grulla sol",
+      "categoria": "naval",
+      "subcategoria": "yugen",
+      "ruta": "assets/naval/yugen/vela_yugen_grulla_sol.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/vela_yugen_grulla_sol.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        191,
+        222
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "yugen",
+        "vela",
+        "vela",
+        "yugen",
+        "grulla",
+        "sol"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_yugen_dragon",
+      "nombre": "Mascaron yugen dragon",
+      "categoria": "naval",
+      "subcategoria": "yugen",
+      "ruta": "assets/naval/yugen/mascaron_yugen_dragon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/mascaron_yugen_dragon.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        198,
+        190
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "yugen",
+        "mascaron",
+        "mascaron",
+        "yugen",
+        "dragon"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-navio_humano_galeon_heraldico",
+      "nombre": "Navio humano galeon heraldico",
+      "categoria": "naval",
+      "subcategoria": "humanos",
+      "ruta": "assets/naval/humanos/navio_humano_galeon_heraldico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/humanos/navio_humano_galeon_heraldico.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        822,
+        532
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "humanos",
+        "navio",
+        "navio",
+        "humano",
+        "galeon",
+        "heraldico"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Ilustración del navío con fondo pictórico, no utilizable como sprite transparente.",
+      "sistema": "navio"
+    },
+    {
+      "id": "naval-medallon_humano_leon",
+      "nombre": "Medallon humano leon",
+      "categoria": "naval",
+      "subcategoria": "humanos",
+      "ruta": "assets/naval/humanos/medallon_humano_leon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/humanos/medallon_humano_leon.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        296,
+        277
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "humanos",
+        "medallon",
+        "medallon",
+        "humano",
+        "leon"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
+    },
+    {
+      "id": "naval-timon_humano_corona",
+      "nombre": "Timon humano corona",
+      "categoria": "naval",
+      "subcategoria": "humanos",
+      "ruta": "assets/naval/humanos/timon_humano_corona.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/humanos/timon_humano_corona.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        155,
+        261
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "humanos",
+        "timon",
+        "timon",
+        "humano",
+        "corona"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "navegacion"
+    },
+    {
+      "id": "naval-vela_humana_aguila",
+      "nombre": "Vela humana aguila",
+      "categoria": "naval",
+      "subcategoria": "humanos",
+      "ruta": "assets/naval/humanos/vela_humana_aguila.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/humanos/vela_humana_aguila.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        262,
+        264
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "humanos",
+        "vela",
+        "vela",
+        "humana",
+        "aguila"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "velas"
+    },
+    {
+      "id": "naval-mascaron_humano_leon",
+      "nombre": "Mascaron humano leon",
+      "categoria": "naval",
+      "subcategoria": "humanos",
+      "ruta": "assets/naval/humanos/mascaron_humano_leon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/naval/humanos/mascaron_humano_leon.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        140,
+        338
+      ],
+      "fuente_archivo": "Aeternalis_Packs_Navales_Individuales_WebP_v3.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "naval",
+        "humanos",
+        "mascaron",
+        "mascaron",
+        "humano",
+        "leon"
+      ],
+      "tipo": "archivo",
+      "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
+      "sistema": "decoracion"
     }
   ]
 }

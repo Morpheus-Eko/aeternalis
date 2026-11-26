@@ -1,30 +1,29 @@
-# Assets navales de Aeternalis
+# Biblioteca naval de Aeternalis
 
-**126 imágenes individuales**, derivadas de seis láminas generadas.
+**156 archivos WebP individuales** publicados en GitHub: 126 de la serie inicial y 30 del nuevo paquete cultural v3.
 
-Las piezas incluyen naves piratas, nórdicas, orientales y medievales; emblemas heráldicos; armas y componentes navales; un conjunto de insignias de niveles y elementos para el mapa/navegación.
+## Familias
 
-## Organización
+- Piratas: 16 · Nórdicos: 17 · Yūgen: 21 · Humanos: 5 · Élficos: 5 · Nórin: 5 · Sinhair: 5 · Amarant: 5.
+- Medievales históricos (iconografía usada para Humanos): 20. **Se conservan sus rutas** para evitar enlaces rotos.
+- Progresión de habilidades: 27 · Navegación e interfaz: 30.
 
-Las rutas siguen `assets/naval/<familia>/<nombre>.[png|webp]`.
+## Paquete cultural v3
 
-- Piratas: 16
-- Nórdicos: 17
-- Yūgen/orientales: 16
-- Medievales: 20
-- Progresión: 27
-- Navegación/mapa: 30
+Cada familia de las seis añadidas o revisadas ofrece cinco recursos: **navío, medallón, timón, vela y mascarón**. Las 24 piezas ornamentales tienen canal alfa real. Las **6 imágenes de navíos mantienen fondo ilustrado**: utilizarlas como escenas o ilustraciones de ficha, no como sprites transparentes.
 
-## Reutilización en la futura interfaz
+El nuevo navío Yūgen es japonés de cubierta abierta, sin casas ni pagodas sobre el casco. Los barcos Nórin expresan prosperidad mercantil e ingeniería avanzada. Estas diferencias son visuales, sin bonificaciones mecánicas.
 
-El documento `Sistema de navegación.docx` define **Velas**, **Resistencia**, **Tripulación** y **Poder de Ataque**, cada una con niveles 1, 2, 3 y legendario. Los dieciséis iconos `mejora_*` permiten representar estas cuatro categorías de progresión sin asumir reglas distintas a las definidas en el documento.
+Los bordes de los recortes deben revisarse en tamaños pequeños antes de integrarlos a la interfaz definitiva.
 
-La colección se creó pensando en el sistema visual, **no** altera el reglamento. Comprobar compatibilidades y requisitos de cada mejora con el documento antes de implementarla (por ejemplo, Velas III y Resistencia III son incompatibles, salvo los casos legendarios definidos).
+## Catálogos
 
-## Cómo publicarlos
+- `assets/naval/catalogo.json`: 156 fichas navales (URL pública, transparencia, medidas, categorías).
+- `assets/catalogo.json`: catálogo global.
+- Fuente de los archivos nuevos: `Aeternalis_Packs_Navales_Individuales_WebP_v3.zip`.
 
-Copia la carpeta `assets/naval/` a la raíz del repositorio `Morpheus-Eko/aeternalis`. El JSON registra las rutas web esperadas; antes de la publicación no serán accesibles desde GitHub Pages. Los WebP se recomiendan para el foro, los PNG para archivo y edición.
+Todos los WebP son accesibles mediante `https://morpheus-eko.github.io/aeternalis/assets/naval/<familia>/<nombre>.webp` después del despliegue de GitHub Pages.
 
-## Límites de los recortes
+## Integración con el Astillero
 
-Las láminas son imágenes generadas con elementos de origen muy próximos. Se separaron con componentes de alfa, preservando antialias y contornos translúcidos. Los cuatro grupos de medallones de progresión y algunos emblemas apilados de Yūgen compartían detalles ornamentales: esos se dividieron mediante recortes guiados; pueden conservar pequeños fragmentos compartidos. Los escudos superpuestos nórdicos se mantienen como una pieza conjunta porque separarlos destruiría las partes ocultas. Los nombres de facciones son etiquetas visuales, no una atribución automática del canon.
+**Esta publicación no modifica el motor del Astillero ni las fichas de personajes.** Para ampliar las opciones a ocho familias hay que actualizar `data/astillero/navios.json`, revisar las imágenes individuales y probar el diseño adaptable en móvil.
