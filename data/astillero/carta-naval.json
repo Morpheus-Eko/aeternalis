@@ -1,0 +1,113 @@
+{
+  "schema": "aeternalis-carta-naval-v1",
+  "version": "1.0.0",
+  "atlasManifest": "data/atlas/manifest.json",
+  "mode": "visor_provisional",
+  "title": "Carta Náutica del Almirantazgo",
+  "notice": "Los marcadores reutilizan IDs, nombres y coordenadas del Atlas de Aeternalis. La cartografía actual es preliminar. No existe todavía un grafo marítimo ni una retícula hexagonal canónica: ninguna línea indica una ruta segura o aprobada.",
+  "hexagonPolicy": "El número de hexágonos se introduce manualmente. La retícula visible es exclusivamente una guía ilustrativa.",
+  "ports": [
+    {
+      "id": "place-017",
+      "role": "astillero",
+      "endpoint": true,
+      "note": "Grimskar, tradición de astilleros navales de Bergheim."
+    },
+    {
+      "id": "place-018",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Torvask, bahía de comercio y neutralidad de Bergheim."
+    },
+    {
+      "id": "place-039",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada."
+    },
+    {
+      "id": "place-040",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada."
+    },
+    {
+      "id": "place-042",
+      "role": "faro",
+      "endpoint": false,
+      "note": "Referencia de navegación, no embarcadero verificable."
+    },
+    {
+      "id": "place-043",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto del Ahogado, cartografía del Atlas."
+    },
+    {
+      "id": "place-051",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto del Sol, norte de las Islas Zafiro."
+    },
+    {
+      "id": "place-052",
+      "role": "bahia",
+      "endpoint": true,
+      "note": "Bahía Coral: coordenadas provisionales, acceso naval por confirmar."
+    },
+    {
+      "id": "place-054",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto de la Luna, sur de las Islas Zafiro."
+    },
+    {
+      "id": "place-055",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Marina, sur de las Islas Zafiro."
+    },
+    {
+      "id": "place-061",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Puerto Ramera, Archipiélago de los Esclavos. Coordenada provisional."
+    },
+    {
+      "id": "place-062",
+      "role": "costa",
+      "endpoint": false,
+      "note": "Costa Sangrienta: marcador costero del Atlas, no un embarcadero verificado."
+    },
+    {
+      "id": "place-063",
+      "role": "bahia",
+      "endpoint": true,
+      "note": "Bahía Kraken, Archipiélago de los Esclavos. Coordenada provisional."
+    },
+    {
+      "id": "place-014",
+      "role": "faro",
+      "endpoint": false,
+      "note": "Faro Durgath, referencia costera."
+    },
+    {
+      "id": "place-081",
+      "role": "puerto",
+      "endpoint": true,
+      "note": "Inlyria figura como puerto en el reglamento de navegación."
+    },
+    {
+      "id": "place-093",
+      "role": "bahia",
+      "endpoint": true,
+      "note": "Bahía Calad, coordenada provisional."
+    },
+    {
+      "id": "place-094",
+      "role": "bahia",
+      "endpoint": true,
+      "note": "Bahía Hirion, coordenada provisional."
+    }
+  ]
+}
