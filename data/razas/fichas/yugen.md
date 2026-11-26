@@ -105,7 +105,7 @@ El entrenamiento y los kitsune La preparación física y militar acompaña a muc
 
 ## Los Tres Clanes y el orden feudal
 
-Nombres propuestos, modificables en la revisión final del mapa y la cronología.
+Los clanes Iwagiri, Hanamori y Shiranui constituyen la organización política vigente; la ubicación exacta de sus ciudades todavía debe contrastarse con el Atlas.
 
 Clan Iwagiri: los pasos de piedra Señores de los acantilados y de los pasos montañosos, los Iwagiri gobiernan mediante castillos de altura, guarniciones disciplinadas y casas guerreras que han transmitido sus servicios durante generaciones. Reivindican el derecho a dirigir la defensa de la isla porque sus fortalezas reciben las primeras embestidas de quienes desembarcan en las costas más hostiles. Para ellos el honor consiste, ante todo, en sostener una posición y no quebrar una promesa, incluso cuando hacerlo suponga la muerte.
 

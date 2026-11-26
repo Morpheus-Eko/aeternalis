@@ -5,7 +5,7 @@ Las ocho razas abren una **ventana modal dentro del índice**, sin navegar a la 
 ## Archivos
 
 - `data/razas/manifest.json`: orden, rótulos, colores, iconos, retratos y portadas.
-- `data/razas/fichas/*.md`: ocho fichas de texto editables. Las siete originales conservan el contenido facilitado por el equipo; Yūgen contiene la propuesta de rework (marcada como tal).
+- `data/razas/fichas/*.md`: ocho fichas de texto editables. Las siete originales conservan el contenido facilitado por el equipo; Yūgen contiene la versión de las Tres Costas y Kuro ya integrada en la Cuarta Era.
 - `js/razas/visor.js`: visor modal, navegación, índice y lectura de Markdown.
 - `css/razas-modal.css`: contiene tanto la CSS original del índice AE RAZAS v1.2 como los estilos aislados del nuevo visor, con diseño adaptativo y accesibilidad.
 - `foroactivo/JS_CARGADOR_RAZAS.js`: único código que debe estar en el panel JS de Foroactivo.
@@ -28,7 +28,7 @@ Las ocho razas abren una **ventana modal dentro del índice**, sin navegar a la 
 
 Para editar una raza, cambiar únicamente su archivo `data/razas/fichas/ID.md`. Un encabezado `#` abre una sección del índice, `##` una subsección y una línea que comienza por `>` muestra una nota destacada. Cada párrafo se separa con una línea vacía. No hace falta tocar el JS.
 
-**Precisión editorial:** La actualización Yūgen procede del documento «Propuesta_Rework_Yugen_Aeternalis.docx», cuyo estado era *propuesta para revisión*. Los nombres de Iwagiri, Hanamori y Shiranui, los ritos y la Magia Kuro se publican en esa condición, no como canon ratificado. La ficha original de Yūgen no se borra de Foroactivo.
+**Precisión editorial:** La actualización Yūgen nació como propuesta en «Propuesta_Rework_Yugen_Aeternalis.docx», pero los tres clanes, la patria insular y la bendición Kuro se han integrado expresamente en `data/cronologia/cuarta-era/codex-adaptado-yugen.md`. Los costes numéricos de Kuro, algunas festividades y los detalles cartográficos siguen abiertos a revisión. La ficha antigua de Yūgen no se borra de Foroactivo.
 
 **Imágenes:** las ocho portadas usan los WebP optimizados existentes en `assets/razas/imagenes/`. Los retratos transparentes conservan por el momento sus URL de Imgur originales; no existe una copia individual equivalente entre los ocho WebP de la biblioteca. Ante fallo de esos retratos, la lectura sigue funcionando.
 
