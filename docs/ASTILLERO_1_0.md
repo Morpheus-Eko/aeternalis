@@ -1,5 +1,7 @@
 # Aeternalis · El Almirantazgo / Astillero v1.0
 
+**Versión posterior disponible:** el **Astillero v1.1** con ocho familias y la **Carta Náutica v1.0** están documentados en [ALMIRANTAZGO_ASTILLERO_1_1_CARTA_1_0.md](ALMIRANTAZGO_ASTILLERO_1_1_CARTA_1_0.md). Las instrucciones siguientes se conservan como histórico del prototipo de cuatro navíos; para nuevas instalaciones usar el instalador conjunto.
+
 ## Estado
 **Prototipo funcional en GitHub Pages.** No instala automáticamente nada en Foroactivo. Debe revisarse su representación gráfica en el tema real.
 
