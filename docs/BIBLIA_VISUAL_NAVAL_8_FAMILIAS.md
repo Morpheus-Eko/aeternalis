@@ -12,7 +12,7 @@ Las familias de presentación son: **Nórdicos, Piratas, Yūgen, Humanos, Élfic
 
 - **Nórdicos:** madera oscura, runas, mar frío, velas fuertes, drakkars y mascarones de cuervos/serpientes.
 - **Piratas:** galeones, pabellones agresivos, cadenas, abordaje, kraken, calaveras y espolones.
-- **Yūgen:** juncos de guerra, velas rojas, jade y laca, faroles y dragones.
+- **Yūgen:** navíos inspirados en tradiciones náuticas japonesas, con cascos estilizados, cubierta **abierta**, velas carmesí, laca oscura, faroles, olas y dragones. **No incorporar casas, pagodas ni edificios montados sobre cubierta**. Mantener la silueta de barco, no de vivienda flotante.
 - **Humanos (antes "medievales"):** navíos de reinos humanos, carracas y galeras, ingeniería de astilleros, heráldica y organización militar/comercial. En el repositorio los **archivos existentes** de assets/naval/medievales siguen con su ruta histórica: cambiar el rótulo no justifica romper enlaces.
 
 ## Cuatro nuevas familias visuales
@@ -38,3 +38,9 @@ Las **láminas de concepto** y los **25 recortes editoriales** se prepararon en 
 La ampliación debe crear carpetas assets/naval/elficos, /norin, /sinhair y /amarant con assets WebP optimizados **y transparencia validada**; registrar cada archivo en el catálogo global y en el catálogo naval; luego incorporar sus entradas al selector (ocho en total) sin modificar el motor de reglas. Los barcos se deben revisar visualmente en móvil y escritorio antes de reemplazar el prototipo 1.0.
 
 Ninguna familia debe recibir ventajas mecánicas por su apariencia o riqueza.
+
+## Revisión Yūgen: prohibición de casa sobre el barco
+
+El diseño visual anterior con una construcción semejante a una casa sobre cubierta fue rechazado. La nueva referencia de arte utiliza un casco naval japonés de **cubierta abierta**, mástiles y velas rojas, proa dragón, motivos florales y marítimos. Sin techos de casa, habitaciones exteriores, pabellones, pagodas ni arquitectura civil sobre el navío.
+
+**Estado:** se generó una nueva lámina de concepto y se incorporó al paquete local de ilustraciones v2. Los recortes contienen el fondo pictórico; **aún no se han publicado como un WebP transparente en GitHub** ni reemplazan el recurso existente en el Astillero. El recurso de interfaz se sustituirá al tener una pieza individual con alfa verificada.
