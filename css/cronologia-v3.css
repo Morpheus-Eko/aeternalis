@@ -1,0 +1,741 @@
+/* AEC_CRONOLOGIA_INICIO */
+/* Aeternalis / Cronologia v2.0 — ESTILOS EXCLUSIVOS DEL CONTENEDOR */
+#aec-cronologia {
+  --aec-text: #f2e6d4;
+  --aec-muted: #b8aa97;
+  --aec-ornament: #bf9e6f;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  padding: clamp(18px, 3vw, 34px);
+  box-sizing: border-box;
+  color: var(--aec-text);
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: left;
+  background: radial-gradient(ellipse at 50% 0%, rgba(124, 93, 52, .13), transparent 64%), linear-gradient(145deg,#211d1c,#111214);
+  border: 1px solid rgba(192,157,106,.33);
+  box-shadow: inset 0 0 45px rgba(0,0,0,.22), 0 10px 28px rgba(0,0,0,.28);
+  container-type: inline-size;
+}
+#aec-cronologia,
+#aec-cronologia *,
+#aec-cronologia *::before,
+#aec-cronologia *::after { box-sizing: border-box; }
+#aec-cronologia[hidden] { display: none !important; }
+#aec-cronologia .aec-head {
+  margin: 0 0 26px;
+  padding: 7px 8px 8px;
+  text-align: center;
+}
+#aec-cronologia .aec-kicker {
+  display: block;
+  color: #c4a778;
+  font: 600 11px/1.5 Georgia,serif;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+#aec-cronologia .aec-title {
+  display: block;
+  margin: 9px 0 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #f2e5d0;
+  font: 400 clamp(28px, 5cqi, 44px)/1.18 Georgia,serif;
+  letter-spacing: .025em;
+  text-transform: none;
+  text-align: center;
+  text-shadow: 0 2px 14px #000;
+}
+#aec-cronologia .aec-ornament {
+  display: block;
+  width: 175px;
+  max-width: 70%;
+  height: 1px;
+  margin: 18px auto;
+  background: linear-gradient(90deg, transparent, #c9ac7c, transparent);
+}
+#aec-cronologia .aec-intro {
+  margin: 0;
+  color: var(--aec-muted);
+  font: italic 14px/1.6 Georgia,serif;
+  text-align: center;
+}
+#aec-cronologia .aec-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 15px;
+  width: 100%;
+  min-width: 0;
+}
+#aec-cronologia .aec-card {
+  --aec-accent: #d5b78c;
+  display: flex;
+  grid-column: span 2;
+  position: relative;
+  isolation: isolate;
+  align-items: flex-end;
+  min-width: 0;
+  min-height: 222px;
+  margin: 0;
+  padding: 20px 16px;
+  overflow: hidden;
+  border: 1px solid rgba(211,191,159,.30);
+  border-radius: 5px;
+  color: #f2e6d4 !important;
+  background-color: #18181a;
+  box-shadow: inset 0 0 27px #0009, 0 3px 12px #0005;
+  text-decoration: none !important;
+  font-family: Georgia,'Times New Roman',serif;
+  text-align: left;
+  cursor: pointer;
+  transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+}
+#aec-cronologia .aec-card:nth-child(n+4) { grid-column: span 3; min-height: 216px; }
+#aec-cronologia .aec-card-image {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  max-width: none;
+  max-height: none;
+  opacity: .78;
+  filter: brightness(.7) saturate(.9);
+  transform: scale(1);
+  transition: transform .5s ease, opacity .35s ease, filter .35s ease;
+  pointer-events: none;
+}
+#aec-cronologia .aec-card::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(8,9,12,.95) 0%, rgba(8,9,12,.70) 28%, rgba(8,9,12,.08) 100%);
+  pointer-events: none;
+}
+#aec-cronologia .aec-card::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--aec-accent), transparent);
+  opacity: .36;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+#aec-cronologia .aec-card-info {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  gap: 11px;
+  width: 100%;
+  min-width: 0;
+}
+#aec-cronologia .aec-emblem {
+  display: flex;
+  flex: 0 0 62px;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  border: 1px solid var(--aec-accent);
+  border-radius: 4px;
+  background: rgba(12,12,16,.77);
+  box-shadow: 0 3px 14px rgba(0,0,0,.7);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+#aec-cronologia .aec-emblem img {
+  display: block;
+  width: 55px;
+  height: 55px;
+  max-width: 55px;
+  max-height: 55px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  object-fit: contain;
+}
+#aec-cronologia .aec-card-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 4px;
+  line-height: normal;
+}
+#aec-cronologia .aec-index {
+  display: block;
+  color: var(--aec-accent);
+  font: 600 10px/1.3 Georgia,serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+#aec-cronologia .aec-card-title {
+  display: block;
+  margin: 0;
+  color: #f4e8d6;
+  font: 700 clamp(17px,2.5cqi,25px)/1.12 Georgia,serif;
+  text-shadow: 0 2px 8px #000;
+}
+#aec-cronologia .aec-subtitle {
+  display: block;
+  color: #d2c2ad;
+  font: italic 12px/1.4 Georgia,serif;
+  text-shadow: 0 1px 5px #000;
+}
+#aec-cronologia .aec-card:hover,
+#aec-cronologia .aec-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--aec-accent);
+  box-shadow: 0 0 0 1px var(--aec-accent),0 0 22px color-mix(in srgb,var(--aec-accent) 55%,transparent), inset 0 0 20px #0006;
+  outline: none;
+}
+#aec-cronologia .aec-card:hover .aec-card-image,
+#aec-cronologia .aec-card:focus-visible .aec-card-image {
+  opacity: 1;
+  filter: brightness(1) saturate(1.08);
+  transform: scale(1.055);
+}
+#aec-cronologia .aec-card:hover .aec-emblem,
+#aec-cronologia .aec-card:focus-visible .aec-emblem {
+  transform: scale(1.07);
+  box-shadow: 0 0 15px var(--aec-accent);
+}
+#aec-cronologia .aec-card:hover::after,
+#aec-cronologia .aec-card:focus-visible::after { opacity: 1; }
+#aec-cronologia .aec-foot {
+  margin: 27px 0 0;
+  padding: 15px 0 0;
+  border-top: 1px solid rgba(199,167,120,.24);
+  text-align: center;
+  color: #a99c8a;
+  font: italic 12px/1.55 Georgia,serif;
+}
+@container (max-width: 760px) {
+  #aec-cronologia .aec-card,
+  #aec-cronologia .aec-card:nth-child(n+4) { grid-column: span 3; }
+  #aec-cronologia .aec-card:last-child { grid-column: span 6; }
+}
+@container (max-width: 490px) {
+  #aec-cronologia .aec-card,
+  #aec-cronologia .aec-card:nth-child(n+4),
+  #aec-cronologia .aec-card:last-child { grid-column: span 6; min-height: 174px; }
+  #aec-cronologia .aec-emblem { flex-basis: 52px; width: 52px; height: 52px; }
+  #aec-cronologia .aec-emblem img { width: 47px; height: 47px; }
+  #aec-cronologia .aec-card-title { font-size: 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #aec-cronologia .aec-card,
+  #aec-cronologia .aec-card-image,
+  #aec-cronologia .aec-emblem { transition: none !important; }
+}
+/* AEC_CRONOLOGIA_FIN */
+
+
+/* -------------------------------------------------------------------
+   CRÓNICAS DE AETERNALIS v3 — visor independiente del foro
+   Iconos decorativos: assets del Grimorio y las Runas alojadas en GitHub.
+   Pluma y calavera marginales: glifos, sin depender de una imagen externa.
+   ------------------------------------------------------------------- */
+html.aecm-open { overflow: hidden !important; }
+#aec-chronicle-overlay[hidden] { display: none !important; }
+#aec-chronicle-overlay, #aec-chronicle-overlay *,
+#aec-chronicle-overlay *::before, #aec-chronicle-overlay *::after {
+  box-sizing: border-box;
+}
+#aec-chronicle-overlay {
+  --aecm-accent: #d6ad77;
+  position: fixed;
+  inset: 0;
+  z-index: 2147483100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(7px, 2vw, 23px);
+  isolation: isolate;
+  color: #eee4d5;
+  background: rgba(6,6,9,.89);
+  backdrop-filter: blur(12px) saturate(.71);
+  -webkit-backdrop-filter: blur(12px) saturate(.71);
+  font-family: Georgia, 'Times New Roman', serif;
+  text-align: left;
+}
+#aec-chronicle-overlay .aecm-dialog {
+  position: relative;
+  isolation: isolate;
+  width: min(1230px, 100%);
+  height: min(900px, calc(100dvh - 24px));
+  min-height: 320px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: clamp(168px, 25vh, 224px) minmax(0,1fr) 64px;
+  border: 1px solid #b89966;
+  border-radius: 4px;
+  outline: 5px solid #080909dd;
+  box-shadow: 0 30px 95px #000d, inset 0 0 0 4px #c3a77b19;
+  background: #1b1815 url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/fondo-cuero-grimorio.webp') center/400px repeat;
+  animation: aecm-opening .24s ease-out both;
+}
+#aec-chronicle-overlay .aecm-dialog::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  z-index: 4;
+  pointer-events: none;
+  border: 1px solid rgba(214,172,101,.25);
+}
+@keyframes aecm-opening {
+  from { opacity: 0; transform: translateY(9px) scale(.989); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+#aec-chronicle-overlay .aecm-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-bottom: 1px solid #ccad7a88;
+  background: #1e201e;
+}
+#aec-chronicle-overlay .aecm-hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  object-position: center 48%;
+  filter: brightness(.73) saturate(.73) contrast(1.09);
+}
+#aec-chronicle-overlay .aecm-hero-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #090b0cf3 0%,#11110bc6 41%,#18160f63 100%),
+    linear-gradient(0deg,#191610ef 0%,transparent 46%);
+}
+#aec-chronicle-overlay .aecm-hero-text {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  max-width: calc(100% - 70px);
+  padding: clamp(29px, 3.4vw, 47px) 30px 12px clamp(30px,4.6vw,58px);
+}
+#aec-chronicle-overlay .aecm-eyebrow {
+  display: block;
+  margin-bottom: 17px;
+  font: 600 11px/1.45 Georgia, serif;
+  color: #d8b98b;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+}
+#aec-chronicle-overlay .aecm-heading {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  min-width: 0;
+}
+#aec-chronicle-overlay #aecm-dialog-title {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  color: #f7ead5;
+  font: normal clamp(34px, 4.8vw, 61px)/1.04 Georgia, serif;
+  letter-spacing: .017em;
+  text-transform: none;
+  text-shadow: 0 4px 15px #000e;
+}
+#aec-chronicle-overlay .aecm-hero-emblem {
+  display: block;
+  width: clamp(52px, 6vw, 84px);
+  height: clamp(52px, 6vw, 84px);
+  object-fit: contain;
+  filter: drop-shadow(0 5px 8px #000a);
+}
+#aec-chronicle-overlay .aecm-hero-subtitle {
+  margin: 13px 0 0;
+  padding: 0;
+  color: #e8d5bd;
+  font: italic clamp(12px, 1.5vw, 15px)/1.5 Georgia, serif;
+}
+#aec-chronicle-overlay .aecm-close {
+  position: absolute;
+  z-index: 7;
+  right: 23px;
+  top: 20px;
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  padding: 0;
+  border: 1px solid #d8b87d99;
+  border-radius: 50%;
+  background: #141311e9;
+  color: #f5e6c8;
+  font: 33px/1 Georgia, serif;
+  cursor: pointer;
+  transition: color .2s, border-color .2s, transform .2s, background .2s;
+}
+#aec-chronicle-overlay .aecm-close:hover,
+#aec-chronicle-overlay .aecm-close:focus-visible {
+  border-color: #f4d49b;
+  background: #51402b;
+  color: white;
+  transform: rotate(90deg);
+}
+#aec-chronicle-overlay .aecm-inner {
+  display: grid;
+  grid-template-columns: 81px minmax(0,1fr) 81px;
+  min-height: 0;
+  overflow: hidden;
+  background: #291f19;
+}
+#aec-chronicle-overlay .aecm-side {
+  position: relative;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 12px 23px;
+  gap: 17px;
+  background:
+    linear-gradient(90deg, #1c1815ee,#312821da,#17130fcc),
+    url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/fondo-cuero-grimorio.webp') center / 300px repeat;
+  box-shadow: inset 0 0 25px #0009;
+}
+#aec-chronicle-overlay .aecm-side-left { border-right: 1px solid #b38c5880; }
+#aec-chronicle-overlay .aecm-side-right { border-left: 1px solid #b38c5880; }
+#aec-chronicle-overlay .aecm-side-mark {
+  color: #d6ba88;
+  font: normal 29px/1 Georgia, serif;
+  text-shadow: 0 3px 6px #000;
+}
+#aec-chronicle-overlay .aecm-side-mark.aecm-skull {
+  font-size: 31px;
+  opacity: .71;
+}
+#aec-chronicle-overlay .aecm-side-line {
+  display: block;
+  width: 1px;
+  min-height: 26px;
+  flex: 1;
+  background: linear-gradient(180deg,transparent,#ad8b5b8c,transparent);
+}
+#aec-chronicle-overlay .aecm-rune {
+  display: block;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border: 1px solid #c5a8786e;
+  border-radius: 50%;
+  opacity: .78;
+  filter: sepia(.25) saturate(.65) drop-shadow(0 4px 10px #0008);
+}
+#aec-chronicle-overlay .aecm-watermark {
+  display: block;
+  width: 61px;
+  height: 61px;
+  object-fit: contain;
+  opacity: .68;
+  filter: drop-shadow(0 4px 8px #0009);
+}
+#aec-chronicle-overlay .aecm-reading {
+  display: grid;
+  grid-template-rows: auto minmax(0,1fr);
+  min-height: 0;
+  min-width: 0;
+  background: #c6ab7e;
+}
+#aec-chronicle-overlay .aecm-toolbar {
+  position: relative;
+  z-index: 2;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #8c6f45ad;
+  background: linear-gradient(0deg,#bda178,#d2b98d);
+  box-shadow: 0 3px 10px #49351b29;
+}
+#aec-chronicle-overlay .aecm-toc {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #9c7541 transparent;
+  padding: 3px 0;
+}
+#aec-chronicle-overlay .aecm-jump {
+  flex: 0 0 auto;
+  appearance: none;
+  margin: 0;
+  padding: 7px 10px;
+  border: 1px solid #906b3f80;
+  border-radius: 3px;
+  background: #f1e1c2a8;
+  color: #3e3124;
+  font: 600 11px/1.3 Georgia, serif;
+  letter-spacing: .015em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+#aec-chronicle-overlay .aecm-jump:hover,
+#aec-chronicle-overlay .aecm-jump:focus-visible {
+  color: #221910;
+  border-color: #775322;
+  background: #fff0d3;
+}
+#aec-chronicle-overlay .aecm-reading-caption {
+  flex: 0 0 auto;
+  color: #694d2b;
+  font: 600 9px/1.3 Georgia, serif;
+  letter-spacing: .19em;
+}
+#aec-chronicle-overlay .aecm-scroll {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #997547 #d2bb95;
+  background:
+    linear-gradient(90deg,#ad8d5a38,transparent 10%,transparent 90%,#ad8d5a38),
+    linear-gradient(180deg,#e4cfaaed,#ead5b0e8),
+    url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/pergamino-arcano-claro.webp') center / 380px repeat;
+}
+#aec-chronicle-overlay .aecm-scroll::-webkit-scrollbar { width: 9px; }
+#aec-chronicle-overlay .aecm-scroll::-webkit-scrollbar-thumb { background: #9b794d; border: 2px solid #d8bb8c; border-radius: 9px; }
+#aec-chronicle-overlay .aecm-parchment {
+  position: relative;
+  width: 100%;
+  max-width: 865px;
+  min-height: 100%;
+  padding: clamp(28px,3.6vw,53px) clamp(26px,5vw,78px) 64px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 0, #fff2d34d, transparent 47%);
+}
+#aec-chronicle-overlay .aecm-parchment::before,
+#aec-chronicle-overlay .aecm-parchment::after {
+  content: '✧';
+  position: absolute;
+  top: 27px;
+  color: #886b3f99;
+  font: 28px/1 Georgia, serif;
+  pointer-events: none;
+}
+#aec-chronicle-overlay .aecm-parchment::before { left: 21px; }
+#aec-chronicle-overlay .aecm-parchment::after { right: 21px; }
+#aec-chronicle-overlay .aecm-prose {
+  width: 100%;
+  margin: 0 auto;
+  color: #36281c;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+#aec-chronicle-overlay .aecm-prologue {
+  margin: 0 0 24px;
+  padding: 0 0 19px;
+  text-align: center;
+  font: 400 clamp(23px, 2.5vw, 30px)/1.33 Georgia,serif;
+  letter-spacing: .024em;
+  color: #533721;
+  border-bottom: 1px solid #86603c88;
+}
+#aec-chronicle-overlay .aecm-prose .aecm-section {
+  margin: 36px 0 17px;
+  padding: 0 0 9px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #97754d8a;
+  font: normal clamp(23px,2.3vw,30px)/1.2 Georgia,serif;
+  color: #624226;
+  letter-spacing: .009em;
+  text-transform: none;
+}
+#aec-chronicle-overlay .aecm-section:first-child { margin-top: 0; }
+#aec-chronicle-overlay .aecm-subheading {
+  margin: 26px 0 12px;
+  padding: 0;
+  border: 0;
+  color: #654322;
+  font: 600 19px/1.3 Georgia,serif;
+}
+#aec-chronicle-overlay .aecm-p {
+  margin: 0 0 21px;
+  padding: 0;
+  color: #362a20;
+  text-align: justify;
+  font: 16px/1.83 Georgia, 'Times New Roman', serif;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+#aec-chronicle-overlay .aecm-prose strong { font-weight: 700; color: #4b2c19; }
+#aec-chronicle-overlay .aecm-prose .aecm-p:first-of-type::first-letter {
+  float: left;
+  font: 64px/.82 Georgia,serif;
+  margin: 6px 8px 0 0;
+  color: #78502f;
+  text-shadow: 1px 1px #fff4d788;
+}
+#aec-chronicle-overlay .aecm-quote {
+  margin: 21px 8px 26px;
+  padding: 15px 24px;
+  border-left: 3px solid #a57c4b;
+  background: #a67f4830;
+  color: #5a3e29;
+  font: italic 17px/1.65 Georgia,serif;
+}
+#aec-chronicle-overlay .aecm-ornamental-divider {
+  width: min(100%, 450px);
+  min-height: 38px;
+  display: grid;
+  place-items: center;
+  margin: 34px auto 8px;
+}
+#aec-chronicle-overlay .aecm-ornamental-divider img {
+  width: min(100%, 400px);
+  height: auto;
+  max-height: 63px;
+  object-fit: contain;
+  filter: sepia(.17) saturate(.7) opacity(.72);
+}
+#aec-chronicle-overlay .aecm-endmark {
+  margin: 42px auto 0;
+  padding: 27px 8px 0;
+  border-top: 1px solid #9d7b5091;
+  text-align: center;
+}
+#aec-chronicle-overlay .aecm-endmark span {
+  display: block;
+  font: 25px/1 Georgia,serif;
+  color: #8a6d46;
+}
+#aec-chronicle-overlay .aecm-endmark p {
+  margin: 14px 0 0;
+  font: italic 14px/1.5 Georgia,serif;
+  color: #7a5a39;
+}
+#aec-chronicle-overlay .aecm-loading { text-align: center; font-style: italic; }
+#aec-chronicle-overlay .aecm-fallback { color: #61350f; text-decoration: underline; font: 700 15px/1.6 Georgia,serif; }
+#aec-chronicle-overlay .aecm-footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr minmax(120px,210px) 1fr;
+  align-items: center;
+  gap: 10px;
+  min-height: 0;
+  border-top: 1px solid #9f845a8c;
+  padding: 0 26px;
+  background:
+    linear-gradient(180deg, #15130ff0,#231e16f8),
+    url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/fondo-cuero-grimorio.webp') center/400px repeat;
+}
+#aec-chronicle-overlay .aecm-footer button {
+  padding: 10px 6px;
+  border: 0;
+  border-radius: 2px;
+  background: none;
+  color: #ded2bc;
+  font: 600 13px/1.3 Georgia,serif;
+  cursor: pointer;
+  transition: color .18s;
+}
+#aec-chronicle-overlay .aecm-footer button:hover,
+#aec-chronicle-overlay .aecm-footer button:focus-visible { color: var(--aecm-accent); }
+#aec-chronicle-overlay .aecm-prev { text-align: left; }
+#aec-chronicle-overlay .aecm-next { text-align: right; }
+#aec-chronicle-overlay .aecm-footer-middle { min-width: 0; text-align: center; }
+#aec-chronicle-overlay .aecm-folio {
+  color: #d2ad74;
+  font: 11px/1.4 Georgia,serif;
+  letter-spacing: .18em;
+  white-space: nowrap;
+}
+#aec-chronicle-overlay .aecm-progress {
+  height: 2px;
+  background: #6b553b94;
+  margin: 7px auto 0;
+  overflow: hidden;
+}
+#aec-chronicle-overlay .aecm-progress span {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: var(--aecm-accent);
+  transition: width .08s linear;
+}
+#aec-chronicle-overlay :is(button,a,[tabindex="0"]):focus-visible {
+  outline: 2px solid var(--aecm-accent);
+  outline-offset: 3px;
+}
+#aec-cronologia .aec-card:focus-visible { outline: 2px solid #eccf9e; outline-offset: 3px; }
+#aec-cronologia .aec-fallback {
+  padding: 20px;
+  margin: 0;
+  color: #e9d7ba;
+  text-align: center;
+}
+#aec-cronologia .aec-fallback-link {
+  display: inline-block;
+  margin: 8px 15px;
+  color: #e3c59a;
+  text-decoration: underline;
+}
+@media (max-width: 980px) {
+  #aec-chronicle-overlay .aecm-inner { grid-template-columns: 55px minmax(0,1fr) 55px; }
+  #aec-chronicle-overlay .aecm-side { padding: 32px 6px 19px; }
+  #aec-chronicle-overlay .aecm-rune { width: 40px; height: 40px; }
+  #aec-chronicle-overlay .aecm-watermark { width: 43px; height: 43px; }
+  #aec-chronicle-overlay .aecm-reading-caption { display: none; }
+}
+@media (max-width: 700px) {
+  #aec-chronicle-overlay { padding: 6px; }
+  #aec-chronicle-overlay .aecm-dialog {
+    width: 100%;
+    height: calc(100dvh - 12px);
+    min-height: 0;
+    grid-template-rows: 169px minmax(0,1fr) 54px;
+    outline-width: 2px;
+  }
+  #aec-chronicle-overlay .aecm-hero-text { max-width: calc(100% - 39px); padding: 28px 43px 12px 22px; }
+  #aec-chronicle-overlay .aecm-close { right: 13px; top: 11px; width: 32px; height: 32px; font-size: 26px; }
+  #aec-chronicle-overlay .aecm-eyebrow { letter-spacing: .1em; font-size: 9px; margin-bottom: 12px; }
+  #aec-chronicle-overlay #aecm-dialog-title { font-size: 34px; }
+  #aec-chronicle-overlay .aecm-heading { gap: 10px; }
+  #aec-chronicle-overlay .aecm-hero-emblem { width: 45px; height: 45px; }
+  #aec-chronicle-overlay .aecm-hero-subtitle { margin-top: 11px; font-size: 12px; }
+  #aec-chronicle-overlay .aecm-inner { grid-template-columns: minmax(0,1fr); }
+  #aec-chronicle-overlay .aecm-side { display: none; }
+  #aec-chronicle-overlay .aecm-toolbar { padding: 9px 13px; }
+  #aec-chronicle-overlay .aecm-jump { font-size: 10px; padding: 7px 9px; }
+  #aec-chronicle-overlay .aecm-parchment { padding: 25px 24px 42px; }
+  #aec-chronicle-overlay .aecm-parchment::before,
+  #aec-chronicle-overlay .aecm-parchment::after { display: none; }
+  #aec-chronicle-overlay .aecm-p { font-size: 15.5px; line-height: 1.76; text-align: left; }
+  #aec-chronicle-overlay .aecm-prose .aecm-section { font-size: 24px; }
+  #aec-chronicle-overlay .aecm-footer { padding: 0 10px; grid-template-columns: 1fr 102px 1fr; }
+  #aec-chronicle-overlay .aecm-footer button { font-size: 20px; }
+  #aec-chronicle-overlay .aecm-footer button span { display: none; }
+  #aec-chronicle-overlay .aecm-folio { letter-spacing: .09em; font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #aec-chronicle-overlay *, #aec-chronicle-overlay .aecm-dialog {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
