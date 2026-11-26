@@ -1,0 +1,861 @@
+{
+  "schema": "aeternalis-rutas-agua-v1",
+  "revision": "2026-11-26-mapa-3-21",
+  "status": "caminos_sobre_hexagonos_detectados",
+  "sourceMapSha256": "79d8d66d34951f531ddc98bdb04f2e8d9efbfdffb395da86dee4fd5bb0cbc71d",
+  "routes": [
+    {
+      "id": "nav-017-018",
+      "from": "place-017",
+      "to": "place-018",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 7,
+      "straightHexDistance": 7,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          826,
+          655
+        ],
+        [
+          826,
+          752
+        ],
+        [
+          812,
+          760
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 3,
+        "snapDistances": [
+          8,
+          4.1
+        ]
+      }
+    },
+    {
+      "id": "nav-018-081",
+      "from": "place-018",
+      "to": "place-081",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 9,
+      "straightHexDistance": 7,
+      "costMultiplier": 1.286,
+      "waypoints": [
+        [
+          812,
+          760
+        ],
+        [
+          812,
+          792
+        ],
+        [
+          770,
+          816
+        ],
+        [
+          714,
+          816
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 4,
+        "snapDistances": [
+          4.1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "nav-081-054",
+      "from": "place-081",
+      "to": "place-054",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 37,
+      "straightHexDistance": 36,
+      "costMultiplier": 1.028,
+      "waypoints": [
+        [
+          714,
+          816
+        ],
+        [
+          812,
+          808
+        ],
+        [
+          938,
+          736
+        ],
+        [
+          1092,
+          824
+        ],
+        [
+          1148,
+          792
+        ],
+        [
+          1176,
+          792
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1218,
+          768
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 38,
+        "simplifiedPointCount": 8,
+        "snapDistances": [
+          3,
+          12.6
+        ]
+      }
+    },
+    {
+      "id": "nav-054-051",
+      "from": "place-054",
+      "to": "place-051",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 25,
+      "straightHexDistance": 14,
+      "costMultiplier": 1.786,
+      "waypoints": [
+        [
+          1218,
+          768
+        ],
+        [
+          1204,
+          792
+        ],
+        [
+          1190,
+          768
+        ],
+        [
+          1106,
+          719
+        ],
+        [
+          1106,
+          606
+        ],
+        [
+          1218,
+          542
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 26,
+        "simplifiedPointCount": 6,
+        "snapDistances": [
+          12.6,
+          9.5
+        ]
+      }
+    },
+    {
+      "id": "nav-051-052",
+      "from": "place-051",
+      "to": "place-052",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 15,
+      "straightHexDistance": 15,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1218,
+          542
+        ],
+        [
+          1246,
+          525
+        ],
+        [
+          1274,
+          525
+        ],
+        [
+          1302,
+          509
+        ],
+        [
+          1344,
+          534
+        ],
+        [
+          1400,
+          501
+        ],
+        [
+          1428,
+          517
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 16,
+        "simplifiedPointCount": 7,
+        "snapDistances": [
+          9.5,
+          12
+        ]
+      }
+    },
+    {
+      "id": "nav-052-061",
+      "from": "place-052",
+      "to": "place-061",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 22,
+      "straightHexDistance": 22,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1428,
+          517
+        ],
+        [
+          1526,
+          574
+        ],
+        [
+          1554,
+          574
+        ],
+        [
+          1680,
+          647
+        ],
+        [
+          1708,
+          647
+        ],
+        [
+          1736,
+          663
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 6,
+        "snapDistances": [
+          12,
+          14.4
+        ]
+      }
+    },
+    {
+      "id": "nav-061-063",
+      "from": "place-061",
+      "to": "place-063",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 4,
+      "straightHexDistance": 3,
+      "costMultiplier": 1.333,
+      "waypoints": [
+        [
+          1736,
+          663
+        ],
+        [
+          1764,
+          663
+        ],
+        [
+          1778,
+          638
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 3,
+        "snapDistances": [
+          14.4,
+          8.7
+        ]
+      }
+    },
+    {
+      "id": "nav-039-040",
+      "from": "place-039",
+      "to": "place-040",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 8,
+      "straightHexDistance": 8,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1806,
+          186
+        ],
+        [
+          1876,
+          226
+        ],
+        [
+          1918,
+          202
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 9,
+        "simplifiedPointCount": 3,
+        "snapDistances": [
+          15.2,
+          5.4
+        ]
+      }
+    },
+    {
+      "id": "nav-040-043",
+      "from": "place-040",
+      "to": "place-043",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 22,
+      "straightHexDistance": 22,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1918,
+          202
+        ],
+        [
+          1862,
+          234
+        ],
+        [
+          1834,
+          218
+        ],
+        [
+          1806,
+          218
+        ],
+        [
+          1778,
+          218
+        ],
+        [
+          1722,
+          251
+        ],
+        [
+          1694,
+          251
+        ],
+        [
+          1610,
+          299
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 8,
+        "snapDistances": [
+          5.4,
+          18.5
+        ]
+      }
+    },
+    {
+      "id": "nav-043-051",
+      "from": "place-043",
+      "to": "place-051",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 32,
+      "straightHexDistance": 29,
+      "costMultiplier": 1.103,
+      "waypoints": [
+        [
+          1610,
+          299
+        ],
+        [
+          1610,
+          315
+        ],
+        [
+          1568,
+          340
+        ],
+        [
+          1568,
+          372
+        ],
+        [
+          1428,
+          453
+        ],
+        [
+          1414,
+          477
+        ],
+        [
+          1330,
+          525
+        ],
+        [
+          1302,
+          509
+        ],
+        [
+          1260,
+          534
+        ],
+        [
+          1232,
+          534
+        ],
+        [
+          1218,
+          542
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 33,
+        "simplifiedPointCount": 11,
+        "snapDistances": [
+          18.5,
+          9.5
+        ]
+      }
+    },
+    {
+      "id": "nav-081-093",
+      "from": "place-081",
+      "to": "place-093",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 52,
+      "straightHexDistance": 38,
+      "costMultiplier": 1.368,
+      "waypoints": [
+        [
+          714,
+          816
+        ],
+        [
+          728,
+          824
+        ],
+        [
+          728,
+          954
+        ],
+        [
+          742,
+          978
+        ],
+        [
+          742,
+          1091
+        ],
+        [
+          798,
+          1124
+        ],
+        [
+          798,
+          1253
+        ],
+        [
+          770,
+          1269
+        ],
+        [
+          756,
+          1293
+        ],
+        [
+          742,
+          1318
+        ],
+        [
+          742,
+          1350
+        ],
+        [
+          714,
+          1366
+        ],
+        [
+          686,
+          1431
+        ],
+        [
+          616,
+          1390
+        ],
+        [
+          616,
+          1374
+        ],
+        [
+          602,
+          1366
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 53,
+        "simplifiedPointCount": 16,
+        "snapDistances": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "nav-093-094",
+      "from": "place-093",
+      "to": "place-094",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 11,
+      "straightHexDistance": 9,
+      "costMultiplier": 1.222,
+      "waypoints": [
+        [
+          602,
+          1366
+        ],
+        [
+          616,
+          1374
+        ],
+        [
+          616,
+          1390
+        ],
+        [
+          686,
+          1431
+        ],
+        [
+          714,
+          1398
+        ],
+        [
+          728,
+          1406
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 6,
+        "snapDistances": [
+          7,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "nav-018-094",
+      "from": "place-018",
+      "to": "place-094",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 43,
+      "straightHexDistance": 43,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          812,
+          760
+        ],
+        [
+          812,
+          938
+        ],
+        [
+          812,
+          1115
+        ],
+        [
+          798,
+          1188
+        ],
+        [
+          798,
+          1253
+        ],
+        [
+          770,
+          1269
+        ],
+        [
+          756,
+          1293
+        ],
+        [
+          742,
+          1318
+        ],
+        [
+          742,
+          1382
+        ],
+        [
+          728,
+          1406
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 44,
+        "simplifiedPointCount": 10,
+        "snapDistances": [
+          4.1,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "nav-054-061",
+      "from": "place-054",
+      "to": "place-061",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 40,
+      "straightHexDistance": 37,
+      "costMultiplier": 1.081,
+      "waypoints": [
+        [
+          1218,
+          768
+        ],
+        [
+          1232,
+          792
+        ],
+        [
+          1260,
+          792
+        ],
+        [
+          1302,
+          768
+        ],
+        [
+          1302,
+          736
+        ],
+        [
+          1330,
+          719
+        ],
+        [
+          1400,
+          744
+        ],
+        [
+          1428,
+          744
+        ],
+        [
+          1582,
+          655
+        ],
+        [
+          1638,
+          622
+        ],
+        [
+          1680,
+          647
+        ],
+        [
+          1708,
+          647
+        ],
+        [
+          1736,
+          663
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 41,
+        "simplifiedPointCount": 13,
+        "snapDistances": [
+          12.6,
+          14.4
+        ]
+      }
+    }
+  ],
+  "snappedPorts": [
+    {
+      "id": "place-017",
+      "name": "Grimskar",
+      "snap_distance": 8,
+      "hex": [
+        59,
+        11
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-018",
+      "name": "Torvask",
+      "snap_distance": 4.1,
+      "hex": [
+        58,
+        18
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-039",
+      "name": "Puerto Volker",
+      "snap_distance": 15.2,
+      "hex": [
+        129,
+        -53
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-040",
+      "name": "Puerto Elizabeth",
+      "snap_distance": 5.4,
+      "hex": [
+        137,
+        -56
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-043",
+      "name": "Puerto del Ahogado",
+      "snap_distance": 18.5,
+      "hex": [
+        115,
+        -39
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-051",
+      "name": "Puerto del Sol",
+      "snap_distance": 9.5,
+      "hex": [
+        87,
+        -10
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-052",
+      "name": "Bahía Coral",
+      "snap_distance": 12,
+      "hex": [
+        102,
+        -19
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-054",
+      "name": "Puerto de la Luna",
+      "snap_distance": 12.6,
+      "hex": [
+        87,
+        4
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-055",
+      "name": "Marina",
+      "snap_distance": 11.1,
+      "hex": [
+        85,
+        7
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-061",
+      "name": "Puerto Ramera",
+      "snap_distance": 14.4,
+      "hex": [
+        124,
+        -21
+      ],
+      "water_type": 2,
+      "component": 0
+    },
+    {
+      "id": "place-063",
+      "name": "Bahía Kraken",
+      "snap_distance": 8.7,
+      "hex": [
+        127,
+        -24
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-081",
+      "name": "Inlyria",
+      "snap_distance": 3,
+      "hex": [
+        51,
+        25
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-093",
+      "name": "Bahía Calad",
+      "snap_distance": 7,
+      "hex": [
+        43,
+        63
+      ],
+      "water_type": 1,
+      "component": 0
+    },
+    {
+      "id": "place-094",
+      "name": "Bahía Hirion",
+      "snap_distance": 4.5,
+      "hex": [
+        52,
+        61
+      ],
+      "water_type": 1,
+      "component": 0
+    }
+  ],
+  "seaOnlyEnforced": true
+}
