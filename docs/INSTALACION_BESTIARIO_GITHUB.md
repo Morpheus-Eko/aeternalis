@@ -27,3 +27,9 @@
 - Los JSON se descomprimieron con gzip y se guardaron sin reemplazar ningún contenido textual.
 - Validación local: ocho tomos, diez criaturas por tomo, 80 identificadores únicos, motor y cargador con sintaxis JS correcta.
 - No cambiar ni h4 ni h5 durante la migración del Bestiario.
+## Rendimiento y caché
+- El motor solicita miniaturas de Imgur adecuadas a cada superficie (160/320/640/1024 px) para evitar descargar las imágenes originales en cada ficha.
+- Reutiliza la extensión que ya funcionó durante la sesión, evitando comprobaciones repetidas de PNG/JPG/WebP.
+- Los JSON utilizan revalidación HTTP del navegador (sin timestamp aleatorio), de manera que las ediciones se detectan al recargar el foro sin forzar una descarga completa innecesaria.
+- El motor JS usa `manifest.revision` como versión de caché; al modificarlo, se debe actualizar esa revisión.
+- Las imágenes todavía se alojan en Imgur. Si continúa la lentitud, conviene migrar imágenes optimizadas en WebP a un almacenamiento estable.

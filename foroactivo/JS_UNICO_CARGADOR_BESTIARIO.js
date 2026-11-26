@@ -7,7 +7,8 @@ const BASE='https://morpheus-eko.github.io/aeternalis/';
 if(window.__AEB_BESTIARY_GITHUB_LOADING__)return;
 window.__AEB_BESTIARY_GITHUB_LOADING__=true;
 const get=async(path)=>{
- const r=await fetch(BASE+path+'?v='+Date.now(),{cache:'no-store'});
+ // Permite validación HTTP (ETag/304) sin forzar una descarga íntegra cada visita.
+ const r=await fetch(BASE+path,{cache:'no-cache'});
  if(!r.ok)throw Error(path+' · HTTP '+r.status);
  return await r.json();
 };
@@ -46,7 +47,7 @@ async function start(){
   window.__AEB_BESTIARY_ASSETS__=assets;
   window.__AEB_BESTIARY_DATA__=tomes;
   window.__AEB_BESTIARY_INDEX__=index;
-  const s=document.createElement('script');s.src=BASE+manifest.engine+'?v='+encodeURIComponent(manifest.revision)+'-'+Date.now();
+  const s=document.createElement('script');s.src=BASE+manifest.engine+'?v='+encodeURIComponent(manifest.revision);
   s.onerror=()=>fail(root,Error('No se pudo cargar el motor del Bestiario'));
   document.head.appendChild(s);
  }catch(err){fail(root,err)}

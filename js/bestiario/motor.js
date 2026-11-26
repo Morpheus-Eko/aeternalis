@@ -24,7 +24,9 @@ let state={view:'closed',region:'bergheim',volume:1,creature:0,search:'',busy:fa
 const escapeHtml=s=>String(s===undefined||s===null?'':s).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const dataAttr=s=>escapeHtml(s);
 const assetId=n=>ASSETS[n]&&ASSETS[n].id_imgur||'';
-const assetTag=(n,cl,alt)=>`<img class="${cl||'aeb-art'}" data-aeb-img="${assetId(n)}" alt="${escapeHtml(alt||'Ornamento')}" loading="lazy">`;
+// Usar versiones proporcionadas de Imgur: t=160px, m=320px, l=640px, h=1024px.
+const imgurExtensionCache=new Map();
+const assetTag=(n,cl,alt)=>`<img class="${cl||'aeb-art'}" data-aeb-img="${assetId(n)}" alt="${escapeHtml(alt||'Ornamento')}" loading="${/aeb-(?:page-image|cover-image|mini-cover)/.test(cl||'')?'eager':'lazy'}" decoding="async">`;
 const urlImgur=id=>'https://imgur.com/'+encodeURIComponent(id);
 function bindImages(scope){
   const local=window.__AEB_TEST_IMAGES__ || {};
@@ -32,11 +34,17 @@ function bindImages(scope){
     const id=img.dataset.aebImg, supplied=local[id];
     if(!id)return;
     if(supplied){img.src=supplied;return;}
-    const urls=['png','jpg','jpeg','webp'].map(x=>'https://i.imgur.com/'+id+'.'+x);
+    const size=img.classList.contains('aeb-creature-image')||img.classList.contains('aeb-page-image')?'h':
+      /aeb-(?:cover-image|prologue-image)/.test(img.className)?'l':
+      /aeb-(?:mini-cover|divider-image|emblem)/.test(img.className)?'m':'t';
+    const known=imgurExtensionCache.get(id);
+    const extensions=known?[known,...['png','jpg','jpeg','webp'].filter(e=>e!==known)]:['png','jpg','jpeg','webp'];
     let i=0;
+    const source=()=> 'https://i.imgur.com/'+id+size+'.'+extensions[i];
+    img.onload=()=>imgurExtensionCache.set(id,extensions[i]);
     img.onerror=()=>{
       ++i;
-      if(i<urls.length){img.src=urls[i];return;}
+      if(i<extensions.length){img.src=source();return;}
       img.classList.add('aeb-image-broken');
       img.alt='Imagen no disponible en Imgur';
       const box=img.closest('.aeb-hero-frame,.aeb-cover-frame,.aeb-decor-frame');
@@ -44,7 +52,7 @@ function bindImages(scope){
         let a=document.createElement('a');a.className='aeb-image-error';a.href=urlImgur(id);a.target='_blank';a.rel='noopener noreferrer';a.textContent='Ver imagen en Imgur';box.appendChild(a);
       }
     };
-    img.src=urls[0];
+    img.src=source();
   });
 }
 function statusMessage(message,kind){
@@ -88,7 +96,7 @@ function themeForVolume(region,volume){
     ? {separator:[45,46,47,61][index],emblem:[54,53,55,58][index],corner:[49,50,51,52][index]}
     : {separator:[5,15,6,5][index],emblem:[21,22,23,24][index],corner:7};
 }
-function imageFromSpecies(spec){return `<img class="aeb-creature-image" data-aeb-img="${dataAttr(spec.imgurId)}" alt="Ilustración: ${escapeHtml(spec.name)}">`;}
+function imageFromSpecies(spec){return `<img class="aeb-creature-image" data-aeb-img="${dataAttr(spec.imgurId)}" alt="Ilustración: ${escapeHtml(spec.name)}" loading="eager" decoding="async" fetchpriority="high">`;}
 function shellTop(){
   return `<div class="aeb-topline"><div><span class="aeb-sigil">✥</span> AETERNALIS <span class="aeb-top-muted">/ Registros naturalistas</span></div><button type="button" class="aeb-close" data-action="close" aria-label="Cerrar bestiario">✕ <span>Cerrar</span></button></div>`;
 }
