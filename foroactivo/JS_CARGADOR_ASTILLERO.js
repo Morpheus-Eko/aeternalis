@@ -1,9 +1,9 @@
-/* AETERNALIS · Astillero 1.1 · Cargador desacoplado de Foroactivo.
+/* AETERNALIS · Astillero 1.2 · Cargador desacoplado de Foroactivo.
    Instalar UNA sola vez; únicamente actúa donde existe #ae-astillero. */
 (function () {
   'use strict';
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var VERSION='1.1.0';
+  var VERSION='1.2.0';
   function install() {
     if (!document.getElementById('ae-astillero')) return;
     if (!document.getElementById('ae-astillero-css-v1')) {
