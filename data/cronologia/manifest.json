@@ -1,0 +1,89 @@
+{
+  "schema": "aeternalis-cronologia-v3",
+  "version": "3.0.0",
+  "description": "Cinco eras de lectura inmersiva; Génesis incluye la prehistoria sagrada del manuscrito largo. Cuarta Era utiliza la adaptación de Kuro.",
+  "sourcePeriodization": "Indice publico: Genesis, Primera, Segunda, Tercera, Cuarta. El manuscrito extenso maneja una numeracion previa que incluye Quinta Era; consultar notas editoriales.",
+  "separadores": [
+    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-filigrana.webp",
+    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-estrella-dorada.webp",
+    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-fases-lunares.webp"
+  ],
+  "sello": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/sello-arcano-marca-agua.webp",
+  "eras": [
+    {
+      "id": "genesis",
+      "nombre": "Génesis",
+      "numero": "I",
+      "subtitulo": "El principio de todo",
+      "color": "#e4c18e",
+      "fondo": "https://i.postimg.cc/13LhfmTY/g-nesis-c-smica-de-un-mundo-naciente.png",
+      "icono": "https://i.postimg.cc/RCRBXz6q/emblema-dorado-de-g-nesis-c-smica.png",
+      "enlace": "/t31-02-cronologia#85",
+      "opening": "Los Aonen, los Aehnir y las primeras heridas de la creación.",
+      "mark": "✒",
+      "rune": "assets/runas/general/emblema-nordico-del-nudo-eterno.webp",
+      "archivo": "https://morpheus-eko.github.io/aeternalis/data/cronologia/eras/genesis.md",
+      "runaUrl": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-nordico-del-nudo-eterno.webp"
+    },
+    {
+      "id": "primera",
+      "nombre": "Primera Era",
+      "numero": "II",
+      "subtitulo": "Los primeros relatos",
+      "color": "#ccb275",
+      "fondo": "https://i.postimg.cc/0y3xDd6P/amanecer-de-la-civilizaci-n-perdida.png",
+      "icono": "https://i.postimg.cc/NfCwv7kP/emblema-dorado-del-amanecer-antiguo.png",
+      "enlace": "/t31-02-cronologia#86",
+      "opening": "El nacimiento de los pueblos, los pactos y el gran éxodo.",
+      "mark": "ᚱ",
+      "rune": "assets/runas/general/medallon-runico-nordico-de-hielo.webp",
+      "archivo": "https://morpheus-eko.github.io/aeternalis/data/cronologia/eras/primera.md",
+      "runaUrl": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/medallon-runico-nordico-de-hielo.webp"
+    },
+    {
+      "id": "segunda",
+      "nombre": "Segunda Era",
+      "numero": "III",
+      "subtitulo": "Las huellas del tiempo",
+      "color": "#90bbd3",
+      "fondo": "https://i.postimg.cc/50VhSPfY/segunda-era-valle-del-esplendor.png",
+      "icono": "https://i.postimg.cc/xCGSww6s/emblema-de-la-segunda-era.png",
+      "enlace": "/t31-02-cronologia#87",
+      "opening": "La Guerra del Nox, la alianza del norte y la gran paz.",
+      "mark": "☠",
+      "rune": "assets/runas/general/emblema-nordico-de-runas-azules.webp",
+      "archivo": "https://morpheus-eko.github.io/aeternalis/data/cronologia/eras/segunda.md",
+      "runaUrl": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-nordico-de-runas-azules.webp"
+    },
+    {
+      "id": "tercera",
+      "nombre": "Tercera Era",
+      "numero": "IV",
+      "subtitulo": "Entre cenizas y memoria",
+      "color": "#dc8878",
+      "fondo": "https://i.postimg.cc/nrVN6Cs6/valle-de-guerra-bajo-la-tormenta.png",
+      "icono": "https://i.postimg.cc/htJRDzCh/emblema-her-ildico-de-espadas-rotas.png",
+      "enlace": "/t31-02-cronologia#88",
+      "opening": "Escuelas de magia, ruinas, expediciones y misterios.",
+      "mark": "✧",
+      "rune": "assets/runas/general/emblema-runico-de-magia-nordica.webp",
+      "archivo": "https://morpheus-eko.github.io/aeternalis/data/cronologia/eras/tercera.md",
+      "runaUrl": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-runico-de-magia-nordica.webp"
+    },
+    {
+      "id": "cuarta",
+      "nombre": "Cuarta Era",
+      "numero": "V",
+      "subtitulo": "El curso del destino",
+      "color": "#a9cab4",
+      "fondo": "https://i.postimg.cc/4dRgFfQd/amanecer-sobre-el-reino-renacido.png",
+      "icono": "https://i.postimg.cc/XqQ6JwSX/emblema-del-f-nix-y-el-tiempo.png",
+      "enlace": "/t31-02-cronologia#97",
+      "opening": "Humanidad, Yūgen, los dos imperios y la Guerra de Northia.",
+      "mark": "✒",
+      "rune": "assets/runas/general/sigilo-runico-de-fuego-helado.webp",
+      "archivo": "https://morpheus-eko.github.io/aeternalis/data/cronologia/eras/cuarta.md",
+      "runaUrl": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/sigilo-runico-de-fuego-helado.webp"
+    }
+  ]
+}
