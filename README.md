@@ -2,9 +2,19 @@
 
 Repositorio público de contenido y código del mundo de rol **Aeternalis**.
 
-**Foroactivo:** https://aeternalis.foroactivo.com/h5-supermapa2-0  
-**Supermapa:** https://aeternalis.foroactivo.com/h5-supermapa2-0  
+**Foroactivo:** https://aeternalis.foroactivo.com/  
+**CSS auxiliar del Supermapa (h5, no vista del mapa):** https://aeternalis.foroactivo.com/h5-supermapa2-0  
 **Sitio de datos (cuando se active GitHub Pages):** https://morpheus-eko.github.io/aeternalis/
+
+## Carta Náutica integrada al Supermapa · v2.0
+
+La Carta Náutica funciona como **capa de Leaflet en el Supermapa**, no como parte del Astillero. Incluye **5.965 hexágonos de agua**, **14 corredores precalculados**, **6 polígonos de mares** y planificación dinámica de viajes entre **14 puertos**.
+
+- [Vista previa del Supermapa con Carta Náutica](https://morpheus-eko.github.io/aeternalis/supermapa-naval-preview.html?naval=1)
+- [Documentación, geografía y guía de instalación](docs/CARTA_NAUTICA_SUPERMAPA_V2.md)
+- [Instalador JS para Foroactivo](foroactivo/JS_INSTALAR_CARTA_SUPERMAPA.js)
+
+**Astillero:** [vista independiente](https://morpheus-eko.github.io/aeternalis/astillero-preview.html), sin la Carta Náutica.
 
 ## Estado
 Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **165 conexiones** del Atlas son propuestas, no carreteras confirmadas.
