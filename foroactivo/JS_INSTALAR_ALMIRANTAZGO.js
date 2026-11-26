@@ -15,8 +15,8 @@
    (document.head||document.documentElement).appendChild(s);
  }
  function init(){
-   if(document.getElementById('ae-astillero'))include('JS_CARGADOR_ASTILLERO.js','1.1.0','ae-almirantazgo-loader-astillero');
-   if(document.getElementById('ae-carta-naval'))include('JS_CARGADOR_CARTA_NAVAL.js','1.0.0','ae-almirantazgo-loader-carta');
+   if(document.getElementById('ae-astillero'))include('JS_CARGADOR_ASTILLERO.js','1.2.0','ae-almirantazgo-loader-astillero');
+   if(document.getElementById('ae-carta-naval'))include('JS_CARGADOR_CARTA_NAVAL.js','1.1.0','ae-almirantazgo-loader-carta');
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
