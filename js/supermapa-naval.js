@@ -25,10 +25,10 @@
      loadJSON('data/atlas/naval/hexagonos-navegables.json'),
      loadJSON('data/atlas/naval/rutas-por-agua.json'),
      loadJSON('data/atlas/naval/zonas-maritimas.json'),
-     loadJSON('data/astillero/carta-naval.json')
+     loadJSON('data/atlas/naval/puertos.json')
    ]).then(function(docs){
      var water=docs[0],routes=docs[1],zones=docs[2],nav=docs[3];
-     if(water.schema!=='aeternalis-hex-agua-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1')throw Error('Datos navales incompatibles');
+     if(water.schema!=='aeternalis-hex-agua-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1')throw Error('Datos navales incompatibles');
      var c=water.grid, R=c.radius, H=Math.sqrt(3)*R, steps=c.neighborDeltas;
      var waterNodes=new Map();
      water.cells.forEach(function(n){waterNodes.set(n[0]+','+n[1],n);});
@@ -109,11 +109,12 @@
          line.addTo(routeNetworkLayer);
        });
      }
+     var chooseOriginNext=true;
      function drawPorts(){
        ports.forEach(function(p){var place=lookup(p.id);if(!place)return;
          var m=L.circleMarker(coord(place.x,place.y),{radius:5,color:'#edc890',fillColor:'#9a7140',fillOpacity:.85,weight:2,className:'ae-naval-port'});
          m.bindTooltip(place.name,{direction:'top'});
-         m.on('click',function(){if(state.from===p.id)to.value=p.id;else if(!from.value||from.value===to.value)from.value=p.id;else to.value=p.id;});
+         m.on('click',function(){if(chooseOriginNext){from.value=p.id;state.from=p.id;result.textContent='Selecciona el puerto de destino.';}else{to.value=p.id;state.to=p.id;if(from.value!==to.value)plotRoute();}chooseOriginNext=!chooseOriginNext;});
          m.addTo(portLayer);portMarkers.set(p.id,m);
        });
      }
