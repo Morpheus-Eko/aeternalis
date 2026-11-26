@@ -1,6 +1,6 @@
-/* AETERNALIS · Astillero 1.1 · Simulador de mejoras sin persistencia.
+/* AETERNALIS · Astillero 1.2 · Interfaz de configuración de embarcaciones.
    CSS en css/astillero.css. Reglamento: data/astillero/reglas.json.
-   NO realiza compras ni modifica personajes, temas o cuentas. */
+   Las operaciones de interfaz no son transacciones ni escritura de cuentas. */
 (function () {
   'use strict';
   var BASE = 'https://morpheus-eko.github.io/aeternalis/';
@@ -53,7 +53,7 @@
     var sails = id === 'velas' ? current + 1 : state.levels.velas;
     var hull = id === 'resistencia' ? current + 1 : state.levels.resistencia;
     if (sails === 3 && hull === 3) problems.push('Velas III y Resistencia III son incompatibles. Una de las dos debe ser legendaria.');
-    if (current + 1 === 4 && !state.event[id]) problems.push('Debes marcar la autorización del evento especial (solo simulación).');
+    if (current + 1 === 4 && !state.event[id]) problems.push('Para acceder al nivel legendario, selecciona el requisito de evento especial.');
     var price = next.cost === null ? null : (state.discount[id] && next.discountCost !== undefined ? next.discountCost : next.cost);
     return {ok:!problems.length, reasons:problems, cost:price, next:next};
   }
@@ -64,8 +64,7 @@
     head.appendChild(img('assets/naval/navegacion/brujula_estrella_dorada.webp','ae-na-compass',''));
     head.appendChild(elem('span','ae-na-overline','REGISTRO NAVAL · AETERNALIS'));
     head.appendChild(elem('h2','ae-na-title','El Almirantazgo'));
-    head.appendChild(elem('p','ae-na-lead','Un astillero para explorar navíos, inversiones y límites de la navegación.'));
-    head.appendChild(elem('p','ae-na-demo','SIMULADOR DE PRUEBA · No ejecuta compras ni guarda cambios'));
+    head.appendChild(elem('p','ae-na-lead','Forja tu embarcación, descubre sus mejoras y prepara la próxima travesía.'));
     page.appendChild(head);
 
     var fleetPicker = elem('div','ae-na-fleet-picker');
@@ -85,22 +84,19 @@
     var shipPanel = elem('div','ae-na-illustration' + (ship.imageMode === 'scene' ? ' is-scene' : ' is-sprite'));
     shipPanel.appendChild(elem('div','ae-na-sea'));
     shipPanel.appendChild(img(ship.image,'ae-na-vessel',ship.name));
-    var figureNote = elem('span','ae-na-figure-note','ILUSTRACIÓN DE CATÁLOGO · No representa modificaciones físicas automáticas');
-    shipPanel.appendChild(figureNote);
     hero.appendChild(shipPanel);
     var shipInfo = elem('div','ae-na-ship-info');
     shipInfo.appendChild(img(ship.emblem,'ae-na-crest',''));
-    shipInfo.appendChild(elem('div','ae-na-kicker','FICHA DE EMBARCACIÓN · CLASE VISUAL'));
+    shipInfo.appendChild(elem('div','ae-na-kicker','REGISTRO DE EMBARCACIÓN'));
     shipInfo.appendChild(elem('h3','ae-na-ship-name',ship.name));
     shipInfo.appendChild(elem('p','ae-na-ship-sub',ship.subtitle));
     var meta = elem('dl','ae-na-meta');
     [['Velocidad de navegación', state.rules.categories[0].levels[state.levels.velas-1].hoursPerHex + ' h / hexágono'],
      ['Barcos adicionales',String(state.rules.categories[2].levels[state.levels.tripulacion-1].fleetAdditional)],
-     ['Inversión simulada',money(state.expenditure)]].forEach(function (x) {
+     ['Coste acumulado',money(state.expenditure)]].forEach(function (x) {
        var row = elem('div','ae-na-meta-row');row.appendChild(elem('dt','',x[0]));row.appendChild(elem('dd','',x[1]));meta.appendChild(row);
      });
     shipInfo.appendChild(meta);
-    shipInfo.appendChild(elem('p','ae-na-hint','El diseño cultural es ornamental. No otorga bonificaciones raciales, navales ni mecánicas.'));
     var nauticalLink = elem('a','ae-na-carta-link','Explorar Carta Náutica ↗');
     nauticalLink.href = document.getElementById('ae-carta-naval') ? '#ae-carta-naval' : BASE + 'carta-naval-preview.html';
     shipInfo.appendChild(nauticalLink);
@@ -153,22 +149,22 @@
       nextBlock.appendChild(elem('strong','ae-na-level-heading','Nivel '+levels[level]));
       nextBlock.appendChild(elem('p','',next.description));
       var cost = elem('div','ae-na-cost');
-      cost.appendChild(elem('span','',next.cost === null ? 'Obtención mediante evento' : 'Coste estimado'));
+      cost.appendChild(elem('span','',next.cost === null ? 'Obtención mediante evento' : 'Coste de mejora'));
       cost.appendChild(elem('strong','',next.cost === null ? 'Evento especial' : money(evaluation.cost)));
       nextBlock.appendChild(cost);
       if (next.discount) {
         var discount = elem('label','ae-na-choice');
         var check = elem('input',''); check.type='checkbox';check.dataset.action='discount';check.checked=state.discount[cat.id];
         discount.appendChild(check);
-        discount.appendChild(elem('span','','Simular descuento a '+money(next.discountCost)+' (requiere acreditación administrativa)'));
+        discount.appendChild(elem('span','','Aplicar tarifa reducida: '+money(next.discountCost)));
         nextBlock.appendChild(discount);
-        nextBlock.appendChild(elem('p','ae-na-rule-hint','Requisito narrativo: '+next.discount));
+        nextBlock.appendChild(elem('p','ae-na-rule-hint','Requisitos de la tarifa reducida: '+next.discount));
       }
       if (next.event) {
-        nextBlock.appendChild(elem('p','ae-na-event','Evento requerido: '+next.event));
+        nextBlock.appendChild(elem('p','ae-na-event',/X{4,}/.test(next.event)?'Requisito: evento especial.':'Evento: '+next.event));
         var approval = elem('label','ae-na-choice');
         var checkEvent = elem('input','');checkEvent.type='checkbox';checkEvent.dataset.action='event';checkEvent.checked=state.event[cat.id];
-        approval.appendChild(checkEvent);approval.appendChild(elem('span','','Simular autorización administrativa del evento'));
+        approval.appendChild(checkEvent);approval.appendChild(elem('span','','Incluir mejora desbloqueable por evento'));
         nextBlock.appendChild(approval);
       }
       if (evaluation.reasons.length) {
@@ -176,42 +172,40 @@
         evaluation.reasons.forEach(function (x){blockers.appendChild(elem('li','',x));});
         nextBlock.appendChild(blockers);
       } else {
-        nextBlock.appendChild(elem('p','ae-na-ok','Requisitos mecánicos satisfechos en esta simulación.'));
+        nextBlock.appendChild(elem('p','ae-na-ok','Requisitos de mejora cumplidos.'));
       }
-      var go = btn('Aplicar mejora al simulador','upgrade',cat.id,'ae-na-primary');
+      var go = btn('Actualizar configuración','upgrade',cat.id,'ae-na-primary');
       go.disabled = !evaluation.ok;
       nextBlock.appendChild(go);
       detail.appendChild(nextBlock);
     } else {
       var top = elem('div','ae-na-next');
       top.appendChild(elem('strong','ae-na-level-heading','Rama completada'));
-      top.appendChild(elem('p','','Se ha alcanzado el nivel legendario en este simulador.'));
+      top.appendChild(elem('p','','Tu embarcación cuenta con el nivel legendario en esta rama.'));
       detail.appendChild(top);
     }
     inspector.appendChild(detail);
     var controls=elem('div','ae-na-actions');
     var back=btn('Deshacer última mejora','undo','','ae-na-secondary');back.disabled=!state.history.length;controls.appendChild(back);
-    controls.appendChild(btn('Reiniciar simulación','reset','','ae-na-secondary'));
+    controls.appendChild(btn('Restablecer configuración','reset','','ae-na-secondary'));
     inspector.appendChild(controls);
     page.appendChild(inspector);
 
     var travel = elem('aside','ae-na-travel');
     travel.appendChild(img('assets/naval/navegacion/brujula_mareas.webp','ae-na-travel-mark',''));
     var travelContent=elem('div','ae-na-travel-main');
-    travelContent.appendChild(elem('span','ae-na-kicker','BITÁCORA · CÁLCULO TEÓRICO'));
+    travelContent.appendChild(elem('span','ae-na-kicker','BITÁCORA · NAVEGACIÓN'));
     travelContent.appendChild(elem('h3','','Tiempo de travesía'));
-    var sliderLabel=elem('label','ae-na-slider-label','Distancia hipotética: '+state.hexes+' hexágono'+(state.hexes===1?'':'s'));
-    var slider=elem('input','ae-na-range');slider.type='range';slider.min='1';slider.max='20';slider.step='1';slider.value=String(state.hexes);slider.dataset.action='hexes';slider.setAttribute('aria-label','Distancia marítima hipotética en hexágonos');
+    var sliderLabel=elem('label','ae-na-slider-label','Distancia: '+state.hexes+' hexágono'+(state.hexes===1?'':'s'));
+    var slider=elem('input','ae-na-range');slider.type='range';slider.min='1';slider.max='20';slider.step='1';slider.value=String(state.hexes);slider.dataset.action='hexes';slider.setAttribute('aria-label','Distancia de navegación en hexágonos');
     travelContent.appendChild(sliderLabel);travelContent.appendChild(slider);
     var hours = state.hexes * state.rules.categories[0].levels[state.levels.velas-1].hoursPerHex;
     travelContent.appendChild(elem('strong','ae-na-travel-time',hours+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días'));
-    travelContent.appendChild(elem('p','ae-na-hint','Cálculo de distancia hipotética; no representa ninguna ruta del Supermapa. Los mares peligrosos y restricciones se implementarán en la Carta Náutica.'));
     travel.appendChild(travelContent);page.appendChild(travel);
 
     var footer=elem('footer','ae-na-footer');
-    footer.appendChild(elem('p','','Barco básico: 50 oro off-rol, salvo posesión justificada por historia y aprobada por administración.'));
-    footer.appendChild(elem('p','','Las mejoras legendarias requieren eventos; sus costes no están fijados en el documento. Los nombres LXXXXX, VXXXXXXX y AXXXXXXX son provisionales.'));
-    footer.appendChild(elem('p','','La simulación no guarda datos. Al recargar la página se restablecen todas las mejoras.'));
+    footer.appendChild(elem('p','','Barco básico: 50 oro off-rol · Mejoras legendarias: eventos especiales.'));
+    footer.appendChild(elem('p','','Elige tu navío y consulta las mejoras disponibles para cada rama.'));
     page.appendChild(footer);
     if(state.notice){var status=elem('p','ae-na-status',state.notice);status.setAttribute('role','status');page.appendChild(status);}
     ROOT.appendChild(page);
@@ -235,14 +229,14 @@
     if(a==='focus'){state.focus=v;state.notice='';refresh('focus',v);return;}
     if(a==='undo'){
       var previous=state.history.pop();
-      if (previous){state.levels=previous.levels;state.expenditure=previous.expenditure;state.notice='Última mejora simulada deshecha.';}
+      if (previous){state.levels=previous.levels;state.expenditure=previous.expenditure;state.notice='Última modificación deshecha.';}
       refresh('undo');return;
     }
     if(a==='reset'){
       state.levels={velas:1,resistencia:1,tripulacion:1,ataque:1};state.expenditure=0;state.history=[];
       state.discount={velas:false,resistencia:false,tripulacion:false,ataque:false};
       state.event={velas:false,resistencia:false,tripulacion:false,ataque:false};
-      state.notice='Simulación reiniciada.';refresh('reset');return;
+      state.notice='Configuración restablecida.';refresh('reset');return;
     }
     if(a==='upgrade'){
       var check=assess(v);
@@ -250,14 +244,14 @@
       state.history.push({levels:Object.assign({},state.levels),expenditure:state.expenditure});
       state.levels[v]++;
       if(check.cost!==null)state.expenditure+=check.cost;
-      state.notice='Mejora aplicada solo a la simulación. No es una compra ni una aprobación.';
+      state.notice='Configuración actualizada.';
       refresh();return;
     }
   });
   ROOT.addEventListener('change',function(ev){
     var t=ev.target,a=t.dataset.action;
-    if(a==='discount'){state.discount[state.focus]=Boolean(t.checked);state.notice='Descuento hipotético: la administración debe verificar los temas.';refresh();}
-    if(a==='event'){state.event[state.focus]=Boolean(t.checked);state.notice='Autorización de evento únicamente hipotética.';refresh();}
+    if(a==='discount'){state.discount[state.focus]=Boolean(t.checked);state.notice='Tarifa de mejora actualizada.';refresh();}
+    if(a==='event'){state.event[state.focus]=Boolean(t.checked);state.notice='Requisito de evento actualizado.';refresh();}
   });
   ROOT.addEventListener('input',function(ev){
     if(ev.target.dataset.action==='hexes'){
@@ -265,19 +259,19 @@
       var hours=state.hexes*state.rules.categories[0].levels[state.levels.velas-1].hoursPerHex;
       var label=ROOT.querySelector('.ae-na-slider-label');
       var result=ROOT.querySelector('.ae-na-travel-time');
-      if(label)label.textContent='Distancia hipotética: '+state.hexes+' hexágono'+(state.hexes===1?'':'s');
+      if(label)label.textContent='Distancia: '+state.hexes+' hexágono'+(state.hexes===1?'':'s');
       if(result)result.textContent=hours+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días';
     }
   });
 
-  function load(path){return fetch(ASSET(path)+'?v=1.1.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+': HTTP '+r.status);return r.json();});}
+  function load(path){return fetch(ASSET(path)+'?v=1.2.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+': HTTP '+r.status);return r.json();});}
   Promise.all([load('data/astillero/reglas.json'),load('data/astillero/navios.json')])
     .then(function(all){
       if(all[0].schema!=='aeternalis-astillero-reglas-v1'||all[1].schema!=='aeternalis-astillero-navios-v1')throw Error('Esquema incompatible');
       if(all[0].categories.length!==4||all[1].ships.length!==8)throw Error('Catálogos incompletos');
       state.rules=all[0];state.ships=all[1];
       window.AeternalisAstillero={
-        version:'1.1.0',
+        version:'1.2.0',
         getState:function(){return {ship:state.ship,levels:Object.assign({},state.levels),hoursPerHex:state.rules.categories[0].levels[state.levels.velas-1].hoursPerHex};},
         reset:function(){var b=ROOT.querySelector('[data-action="reset"]');if(b)b.click();}
       };
