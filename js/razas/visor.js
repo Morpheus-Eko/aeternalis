@@ -206,6 +206,8 @@
       card.setAttribute('aria-haspopup', 'dialog');
       card.setAttribute('aria-label', 'Abrir ficha de ' + race.name + ' sin salir del índice');
       card.style.setProperty('--ae-picture', 'url("' + race.hero + '")');
+      var subtitle = card.querySelector('.ae-race-subtitle');
+      if (subtitle) subtitle.textContent = race.subtitle;
     });
     root.addEventListener('click', function (ev) {
       var card = ev.target.closest('.ae-race-card[data-ae-race]');

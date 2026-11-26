@@ -7,7 +7,7 @@ Las ocho razas abren una **ventana modal dentro del índice**, sin navegar a la 
 - `data/razas/manifest.json`: orden, rótulos, colores, iconos, retratos y portadas.
 - `data/razas/fichas/*.md`: ocho fichas de texto editables. Las siete originales conservan el contenido facilitado por el equipo; Yūgen contiene la propuesta de rework (marcada como tal).
 - `js/razas/visor.js`: visor modal, navegación, índice y lectura de Markdown.
-- `css/razas-modal.css`: apariencia aislada, diseño adaptativo y accesibilidad.
+- `css/razas-modal.css`: contiene tanto la CSS original del índice AE RAZAS v1.2 como los estilos aislados del nuevo visor, con diseño adaptativo y accesibilidad.
 - `foroactivo/JS_CARGADOR_RAZAS.js`: único código que debe estar en el panel JS de Foroactivo.
 - `razas-preview.html`: vista de prueba independiente del foro.
 
@@ -33,3 +33,7 @@ Para editar una raza, cambiar únicamente su archivo `data/razas/fichas/ID.md`. 
 **Imágenes:** las ocho portadas usan los WebP optimizados existentes en `assets/razas/imagenes/`. Los retratos transparentes conservan por el momento sus URL de Imgur originales; no existe una copia individual equivalente entre los ocho WebP de la biblioteca. Ante fallo de esos retratos, la lectura sigue funcionando.
 
 **Despliegue:** Los cambios a GitHub Pages se reflejan cuando termine su publicación. Si el índice usa una versión previa en caché, actualizar `VERSION` en el cargador.
+
+## GitHub Pages
+
+El repositorio incluye `.nojekyll` para publicar directamente los archivos `.md` como texto; sin esta opción Jekyll podría convertir las fichas a HTML y romper la lectura mediante `fetch`.

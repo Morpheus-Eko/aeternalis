@@ -1,3 +1,305 @@
+/* Índice AE RAZAS v1.2: CSS original migrado desde 02_CSS_EN_PAGINA_HTML.html.
+   Mantener aislado bajo #ae-races-codex para no alterar el resto de Foroactivo. */
+/* AETERNALIS · Directorio de razas 1.0
+   CSS aislado. No modifica .tamb, .tdsrzs, .imgrzs ni las fichas existentes. */
+#ae-races-codex {
+  --ae-ink: #eee6d8;
+  --ae-muted: #c9bdaf;
+  width: 100%;
+  max-width: 1050px;
+  margin: 20px auto 40px;
+  padding: clamp(13px, 2.5vw, 28px);
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 15% 0%, rgba(89, 75, 105, .25), transparent 48%),
+    radial-gradient(ellipse at 93% 100%, rgba(89, 107, 74, .23), transparent 45%),
+    linear-gradient(145deg, #292624, #171d23 52%, #272522);
+  border: 1px solid rgba(202, 169, 105, .55);
+  box-shadow: 0 15px 48px rgba(0,0,0,.32), inset 0 0 0 4px rgba(206,172,115,.055);
+  color: var(--ae-ink);
+  text-align: left;
+}
+#ae-races-codex, #ae-races-codex * { box-sizing: border-box; }
+#ae-races-codex br { display:none!important; }
+#ae-races-codex .ae-races-head {
+  position: relative;
+  padding: 22px 18px 26px;
+  text-align: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid rgba(213,184,133,.30);
+}
+#ae-races-codex .ae-races-eyebrow {
+  display: block;
+  margin-bottom: 8px;
+  color: #c6ac83;
+  font: 600 11px/1.5 Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: .32em;
+}
+#ae-races-codex .ae-races-heading {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font: 500 clamp(31px, 4.2vw, 53px)/1.13 Georgia, 'Times New Roman', serif;
+  letter-spacing: .04em;
+  color: #f0e4cc;
+  text-shadow: 0 2px 15px rgba(0,0,0,.6), 0 0 28px rgba(195,157,108,.16);
+  text-transform: uppercase;
+}
+#ae-races-codex .ae-races-rule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 11px auto 14px;
+  color: #d1ae7e;
+  font-size: 15px;
+}
+#ae-races-codex .ae-races-rule:before,
+#ae-races-codex .ae-races-rule:after {
+  content: '';
+  display: block;
+  width: min(19vw, 110px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #b89560);
+}
+#ae-races-codex .ae-races-rule:after { transform: rotate(180deg); }
+#ae-races-codex .ae-races-intro {
+  display:block;
+  color: #c5bcab;
+  font: italic 15px/1.65 Georgia, serif;
+  letter-spacing: .025em;
+}
+#ae-races-codex .ae-races-list {
+  display: grid;
+  grid-template-columns: minmax(0,1fr);
+  gap: 12px;
+}
+#ae-races-codex .ae-race-card {
+  --ae-color: #9e9e9e;
+  --ae-rgb: 158, 158, 158;
+  --ae-picture: none;
+  display: flex;
+  position: relative;
+  isolation: isolate;
+  align-items: center;
+  gap: 22px;
+  width:100%;
+  min-height: 132px;
+  padding: 19px 23px;
+  overflow: hidden;
+  text-decoration: none!important;
+  color: #f6ecdb!important;
+  background: #263038;
+  border: 1px solid rgba(var(--ae-rgb), .53);
+  border-left: 4px solid var(--ae-color);
+  box-shadow: 0 6px 18px rgba(0,0,0,.15);
+  transition: transform .32s ease, box-shadow .32s ease, border-color .32s ease;
+  outline-offset: 3px;
+}
+#ae-races-codex .ae-race-card:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -3;
+  background-image: var(--ae-picture);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(.78) saturate(.83);
+  transform: scale(1.015);
+  transition: filter .36s ease, transform .55s ease;
+}
+#ae-races-codex .ae-race-card:after {
+  content:'';
+  position:absolute;
+  inset:0;
+  z-index:-2;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(17,19,24,.95) 0%,rgba(18,22,26,.86) 27%,rgba(17,20,23,.46) 58%,rgba(10,12,16,.12) 100%),
+    linear-gradient(0deg, rgba(var(--ae-rgb),.15), transparent 55%);
+  transition: background .3s ease;
+}
+#ae-races-codex .ae-race-card .ae-race-shine {
+  position:absolute;
+  left:0;top:0;bottom:0;
+  width:4px;
+  background:var(--ae-color);
+  box-shadow:0 0 14px rgba(var(--ae-rgb), .55);
+  pointer-events:none;
+}
+#ae-races-codex .ae-race-symbol {
+  flex: 0 0 75px;
+  width:75px;height:75px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border: 1px solid rgba(var(--ae-rgb), .8);
+  border-radius: 15px;
+  background: rgba(var(--ae-rgb), .35);
+  box-shadow:inset 0 0 16px rgba(0,0,0,.28),0 0 0 5px rgba(var(--ae-rgb),.08);
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0,0,0,.5);
+  transition: background .3s ease, box-shadow .3s ease, transform .3s ease;
+}
+#ae-races-codex .ae-race-symbol em {
+  font-size: 46px;
+  display: block;
+  line-height: 1;
+  color: #fff;
+  font-style: normal;
+}
+#ae-races-codex .ae-race-text {
+  display:flex;
+  flex: 1 1 0;
+  min-width:0;
+  flex-direction:column;
+  justify-content:center;
+  gap:6px;
+  text-shadow:0 2px 8px rgba(0,0,0,.7);
+}
+#ae-races-codex .ae-race-name {
+  display:block;
+  margin:0;
+  padding:0;
+  font: 700 clamp(25px, 3vw, 34px)/1.05 Georgia, 'Times New Roman', serif;
+  text-transform:uppercase;
+  letter-spacing:.065em;
+  color: #f4ebdc;
+  transition: color .3s ease, text-shadow .3s ease;
+}
+#ae-races-codex .ae-race-subtitle {
+  font: italic 13px/1.5 Georgia, serif;
+  color:#e0d5c6;
+  letter-spacing:.035em;
+}
+#ae-races-codex .ae-race-arrow {
+  display:flex;
+  flex:0 0 33px;
+  justify-content:center;
+  align-items:center;
+  width:33px;height:33px;
+  border-radius:50%;
+  border:1px solid rgba(221,208,186,.45);
+  background:rgba(0,0,0,.3);
+  font: 24px/1 Georgia, serif;
+  color:#f9ede0;
+  transition:transform .3s ease, background .3s ease;
+}
+#ae-races-codex .ae-race-card:hover,
+#ae-races-codex .ae-race-card:focus-visible {
+  transform:translateX(5px);
+  border-color:var(--ae-color);
+  box-shadow: 0 0 0 1px rgba(var(--ae-rgb),.55), 0 0 30px rgba(var(--ae-rgb),.31),0 9px 21px rgba(0,0,0,.3);
+}
+#ae-races-codex .ae-race-card:hover:before,
+#ae-races-codex .ae-race-card:focus-visible:before {
+  filter:brightness(1.08) saturate(1.15);
+  transform:scale(1.065);
+}
+#ae-races-codex .ae-race-card:hover .ae-race-symbol,
+#ae-races-codex .ae-race-card:focus-visible .ae-race-symbol {
+  transform:scale(1.06);
+  background:rgba(var(--ae-rgb),.72);
+  box-shadow:0 0 21px rgba(var(--ae-rgb),.6),inset 0 0 14px rgba(255,255,255,.13);
+}
+#ae-races-codex .ae-race-card:hover .ae-race-name,
+#ae-races-codex .ae-race-card:focus-visible .ae-race-name {
+  color:#fff;
+  text-shadow:0 0 19px rgba(var(--ae-rgb),.8),0 2px 7px rgba(0,0,0,.8);
+}
+#ae-races-codex .ae-race-card:hover .ae-race-arrow,
+#ae-races-codex .ae-race-card:focus-visible .ae-race-arrow {
+  transform:translateX(4px);
+  background:rgba(var(--ae-rgb),.45);
+}
+#ae-races-codex .ae-races-foot {
+  display:block;
+  padding:18px 10px 4px;
+  text-align:center;
+  color:#b8aa95;
+  font:italic 12px/1.5 Georgia,serif;
+  letter-spacing:.04em;
+}
+@media (max-width:650px) {
+  #ae-races-codex { margin: 10px auto 25px; padding: 10px; }
+  #ae-races-codex .ae-races-head { padding: 18px 5px 19px; }
+  #ae-races-codex .ae-races-heading { font-size: clamp(27px,7vw,39px); }
+  #ae-races-codex .ae-races-eyebrow { letter-spacing:.20em; font-size:9px; }
+  #ae-races-codex .ae-races-intro { font-size:12px; }
+  #ae-races-codex .ae-races-list { gap:8px; }
+  #ae-races-codex .ae-race-card { min-height: 100px; padding:12px; gap:12px; border-left-width:3px; }
+  #ae-races-codex .ae-race-card:after { background:linear-gradient(90deg,rgba(15,19,23,.95) 0%,rgba(15,19,23,.72) 65%,rgba(15,19,23,.24) 100%); }
+  #ae-races-codex .ae-race-symbol { width:53px;height:53px;flex-basis:53px;border-radius:11px; }
+  #ae-races-codex .ae-race-symbol em { font-size:33px; }
+  #ae-races-codex .ae-race-text { gap:3px; }
+  #ae-races-codex .ae-race-name { font-size:clamp(18px,4.8vw,27px);letter-spacing:.03em; }
+  #ae-races-codex .ae-race-subtitle { font-size:11px; }
+  #ae-races-codex .ae-race-arrow { display:none; }
+  #ae-races-codex .ae-race-card:hover { transform: translateX(2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  #ae-races-codex .ae-race-card,
+  #ae-races-codex .ae-race-card:before,
+  #ae-races-codex .ae-race-symbol,
+  #ae-races-codex .ae-race-name,
+  #ae-races-codex .ae-race-arrow { transition:none; }
+}
+
+/* Version 1.2: colores e imagenes en CSS (sin estilos inline en la publicacion). */
+#ae-races-codex .ae-race-card--elfos {
+  --ae-color: #97B1C9;
+  --ae-rgb: 151,177,201;
+  --ae-picture: url("https://i.postimg.cc/0jQcJb61/Ciudad-elfica-entre-cascadas-y-bosques-encantados.png");
+}
+#ae-races-codex .ae-race-card--montaraces {
+  --ae-color: #417D9B;
+  --ae-rgb: 65,125,155;
+  --ae-picture: url("https://i.postimg.cc/SRvVLk8Y/Fortaleza-Nevada-entre-Montanas.png");
+}
+#ae-races-codex .ae-race-card--yugen {
+  --ae-color: #9171A5;
+  --ae-rgb: 145,113,165;
+  --ae-picture: url("https://i.postimg.cc/pX3qpVRz/Valle-de-Sakura-y-Cascadas-Milenarias.png");
+}
+#ae-races-codex .ae-race-card--enanos {
+  --ae-color: #AC7C4E;
+  --ae-rgb: 172,124,78;
+  --ae-picture: url("https://i.postimg.cc/50k8Tptk/enanos.jpg");
+}
+#ae-races-codex .ae-race-card--humanos {
+  --ae-color: #B84949;
+  --ae-rgb: 184,73,73;
+  --ae-picture: url("https://i.postimg.cc/C1Kjc9wk/humanos.jpg");
+}
+#ae-races-codex .ae-race-card--norin {
+  --ae-color: #C4C68F;
+  --ae-rgb: 196,198,143;
+  --ae-picture: url("https://i.postimg.cc/XJxsJwY7/Aldea-Hobbit-bajo-el-Sol-Dorado.png");
+}
+#ae-races-codex .ae-race-card--sinhair {
+  --ae-color: #609447;
+  --ae-rgb: 96,148,71;
+  --ae-picture: url("https://i.postimg.cc/KjzJgR1T/Ciudad-arborea-entre-cascadas-y-montanas.png");
+}
+#ae-races-codex .ae-race-card--amarant {
+  --ae-color: #B4496C;
+  --ae-rgb: 180,73,108;
+  --ae-picture: url("https://i.postimg.cc/wxfWYcPq/Guerreras-del-Valle-Jaguar.png");
+}
+
+/* Protecciones ante la skin del foro */
+#ae-races-codex .ae-race-card,
+#ae-races-codex .ae-race-card:link,
+#ae-races-codex .ae-race-card:visited { display:flex; text-decoration:none !important; }
+#ae-races-codex .ae-race-card .ae-race-name,
+#ae-races-codex .ae-race-card .ae-race-subtitle { text-decoration:none !important; }
+#ae-races-codex .ae-races-head h2 { float:none; width:auto; }
+
+/* === NUEVO VISOR MODAL DE RAZAS === */
 /* AETERNALIS · Visor de razas 2.0 | 100% aislado: no toca .tdsrzs ni CSS global */
 html.ae-rv-scroll-lock { overflow: hidden !important; }
 #ae-races-codex .ae-race-card[data-ae-race] { cursor: pointer; }
