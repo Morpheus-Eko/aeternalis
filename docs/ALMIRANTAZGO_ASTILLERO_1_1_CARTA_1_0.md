@@ -1,5 +1,7 @@
 # Aeternalis · Almirantazgo (Astillero v1.1 + Carta Náutica v1.0)
 
+> **DOCUMENTO HISTÓRICO (26 de noviembre de 2026).** La integración Astillero + Carta Náutica en una misma página fue reemplazada. El **Astillero es independiente**; la Carta Náutica está dentro del **Supermapa Leaflet v2**. Para instalar la versión vigente sigue [CARTA_NAUTICA_SUPERMAPA_V2.md](CARTA_NAUTICA_SUPERMAPA_V2.md). Los pasos antiguos de instalación conjunta de este documento **no deben aplicarse**.
+
 **Estado:** Código publicado en GitHub, listo para instalar en Foroactivo. **No está instalado por esta publicación en el panel de administración del foro.** Se requiere pegar el HTML y el instalador únicos y comprobarlos visualmente dentro de Foroactivo.
 
 ## Actualización editorial: Astillero v1.2 y Carta Náutica v1.1
