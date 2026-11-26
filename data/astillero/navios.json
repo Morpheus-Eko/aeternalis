@@ -1,43 +1,87 @@
 {
   "schema": "aeternalis-astillero-navios-v1",
-  "version": "1.0.1",
-  "notice": "Apariencia ilustrativa; la procedencia cultural no cambia las cuatro estadísticas, ni constituye heráldica oficial. La familia antes llamada medievales se denomina humanos.",
+  "version": "1.1.0",
+  "notice": "Ocho familias de estética naval, sin bonificaciones mecánicas. Yūgen: barco japonés de cubierta abierta. Nórin: riqueza mercante e ingeniería avanzada. Los navíos de escena conservan fondos pictóricos.",
   "ships": [
     {
       "id": "nordico",
-      "label": "Navío nórdico",
+      "label": "Nórdicos",
       "name": "Drakkar de las Cuatro Montañas",
-      "subtitle": "Madera oscura · vela rúnica · tallas septentrionales",
+      "subtitle": "Madera oscura · runas · proas del mar septentrional",
       "accent": "#9eb9cb",
       "image": "assets/naval/nordicos/navio_nordico_drakkar_vela_runica.webp",
-      "emblem": "assets/naval/nordicos/medallon_nordico_cuervo.webp"
+      "emblem": "assets/naval/nordicos/medallon_nordico_cuervo.webp",
+      "imageMode": "sprite"
     },
     {
       "id": "pirata",
-      "label": "Navío pirata",
+      "label": "Piratas",
       "name": "Galeón de Costa Sangrienta",
-      "subtitle": "Velas de guerra · abordaje · pabellón de alta mar",
+      "subtitle": "Velas de guerra · abordaje · alta mar",
       "accent": "#d3a06f",
       "image": "assets/naval/piratas/navio_pirata_galeon_velas_kraken.webp",
-      "emblem": "assets/naval/piratas/escudo_pirata_calavera_kraken.webp"
+      "emblem": "assets/naval/piratas/escudo_pirata_calavera_kraken.webp",
+      "imageMode": "sprite"
     },
     {
       "id": "yugen",
-      "label": "Navío Yūgen",
-      "name": "Junco de las Tres Costas",
-      "subtitle": "Arquitectura oriental · casco de guerra · velas rojas",
-      "accent": "#b8a3c6",
-      "image": "assets/naval/yugen/navio_yugen_junco_guerra_velas_rojas.webp",
-      "emblem": "assets/naval/yugen/medallon_yugen_dragon_olas.webp"
+      "label": "Yūgen",
+      "name": "Navío japonés de las Tres Costas",
+      "subtitle": "Cubierta abierta · velas carmesí · tradición naval japonesa",
+      "accent": "#d4a0a1",
+      "image": "assets/naval/yugen/navio_yugen_japones_cubierta_abierta.webp",
+      "emblem": "assets/naval/yugen/medallon_yugen_crisantemo_olas.webp",
+      "imageMode": "scene"
     },
     {
       "id": "humanos",
-      "label": "Navíos humanos",
-      "name": "Carraca del León",
-      "subtitle": "Heráldica, astilleros e ingeniería de los reinos humanos",
+      "label": "Humanos",
+      "name": "Galeón de los Reinos Humanos",
+      "subtitle": "Heráldica · ingeniería de astilleros · armadas y comercio",
       "accent": "#d2b17a",
-      "image": "assets/naval/medievales/navio_medieval_carraca_leon.webp",
-      "emblem": "assets/naval/medievales/escudo_naval_leon.webp"
+      "image": "assets/naval/humanos/navio_humano_galeon_heraldico.webp",
+      "emblem": "assets/naval/humanos/medallon_humano_leon.webp",
+      "imageMode": "scene"
+    },
+    {
+      "id": "elficos",
+      "label": "Élficos",
+      "name": "Cisne de la Luna",
+      "subtitle": "Marfil · orfebrería estelar · casco estilizado",
+      "accent": "#a7c9c4",
+      "image": "assets/naval/elficos/navio_elfico_cisne_lunar.webp",
+      "emblem": "assets/naval/elficos/medallon_elfico_cisne_estelar.webp",
+      "imageMode": "scene"
+    },
+    {
+      "id": "norin",
+      "label": "Nórin",
+      "name": "Mercante de las Casas de Comercio",
+      "subtitle": "Ingeniería avanzada · riqueza comercial · bronce trabajado",
+      "accent": "#d3b578",
+      "image": "assets/naval/norin/navio_norin_mercante_tecnificado.webp",
+      "emblem": "assets/naval/norin/medallon_norin_gremio_comercio.webp",
+      "imageMode": "scene"
+    },
+    {
+      "id": "sinhair",
+      "label": "Sinhair",
+      "name": "Nave de las Raíces Marinas",
+      "subtitle": "Madera viva · enredaderas · velas foliares",
+      "accent": "#a7c792",
+      "image": "assets/naval/sinhair/navio_sinhair_bosque_vivo.webp",
+      "emblem": "assets/naval/sinhair/medallon_sinhair_arbol_mareas.webp",
+      "imageMode": "scene"
+    },
+    {
+      "id": "amarant",
+      "label": "Amarant",
+      "name": "Garra de la Selva",
+      "subtitle": "Caza · madera rojiza · amazonas guerreras",
+      "accent": "#d99e81",
+      "image": "assets/naval/amarant/navio_amarant_asalto_selvatico.webp",
+      "emblem": "assets/naval/amarant/medallon_amarant_jaguar.webp",
+      "imageMode": "scene"
     }
   ]
 }
