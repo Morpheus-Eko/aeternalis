@@ -515,3 +515,165 @@ body.ae-rv-preview .ae-race-name { display:block; font:normal 25px/1.2 Georgia,s
 body.ae-rv-preview .ae-race-subtitle { display:block; font:italic 12px/1.5 Georgia,serif; color:#ded1bd; margin-top:8px; }
 body.ae-rv-preview .ae-race-arrow { margin-left:auto; font:32px/1 Georgia,serif; color:#e8d5af; }
 @media(max-width:600px) { body.ae-rv-preview .ae-races-list{grid-template-columns:1fr;} body.ae-rv-preview #ae-races-codex{padding:17px;} body.ae-rv-preview .ae-races-heading{font-size:33px;} }
+
+/* AETERNALIS_ORNAMENTOS_RAZAS_V2_1 */
+/*
+ * Codice grafico Aeternalis · 2026-11-26
+ * Sustituye SOLO la ornamentacion: marcos, separadores, sellos, cartelas.
+ * Los motivos asociados a cada pueblo son decorativos, NO blasones canonicos.
+ * Conserva sus portadas, textos, enlaces, navegacion y retratos originales.
+ */
+#ae-races-codex {
+  border-color:rgba(203,168,107,.68);
+  background:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp") left 6px top 6px / 76px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp") right 6px top 6px / 76px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp") left 6px bottom 6px / 76px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp") right 6px bottom 6px / 76px auto no-repeat,
+    radial-gradient(ellipse at 52% 0%,#6e53382b,transparent 60%),
+    linear-gradient(145deg,#262422,#121719 56%,#211e1b);
+  box-shadow:0 18px 47px #0008,inset 0 0 0 4px #d4b17513,inset 0 0 56px #0007;
+}
+#ae-races-codex .ae-races-head {
+  padding-top:18px;
+  border-bottom:1px solid #c09b6455;
+  background:radial-gradient(ellipse at center top,#b8994422,transparent 72%);
+}
+#ae-races-codex .ae-races-head::before {
+  content:""; display:block; width:65px; height:60px;
+  margin:0 auto 9px; opacity:.88; pointer-events:none;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/libros/libro_abierto_01.webp") center / contain no-repeat;
+}
+#ae-races-codex .ae-races-head::after {
+  content:""; display:block; width:min(225px,80%); height:28px;
+  margin:13px auto -16px; opacity:.74; pointer-events:none;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp") center / contain no-repeat;
+}
+#ae-races-codex .ae-races-heading {
+  color:#f5e9d5;
+  text-shadow:0 3px 19px #000c,0 0 30px #bf985c37;
+}
+#ae-races-codex .ae-races-eyebrow { color:#d9c09a; }
+#ae-races-codex .ae-race-card {
+  border-radius:2px;
+  border-top-color:#c6ab7e72;
+  border-right-color:#a9936b70;
+  border-bottom-color:#6e523a8c;
+  box-shadow:0 7px 18px #0007,inset 0 0 0 3px #dbb77f14;
+}
+#ae-races-codex .ae-race-card::after {
+  background:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp") right 5px top 4px / 44px auto no-repeat,
+    linear-gradient(90deg,#111315fa 0%,#13181ae8 31%,#161a1cb3 57%,#0b0c1022 100%),
+    linear-gradient(0deg,rgba(var(--ae-rgb),.13),transparent 54%);
+}
+#ae-races-codex .ae-race-symbol {
+  border-radius:4px; position:relative; overflow:hidden;
+  border:1px solid rgba(var(--ae-rgb),.8);
+  font-size:0; color:transparent; text-shadow:none;
+  background:
+    var(--ae-crest) center / 79% 79% no-repeat,
+    radial-gradient(circle at 50% 38%,rgba(var(--ae-rgb),.34),#101214e3 86%);
+  box-shadow:0 0 0 4px rgba(var(--ae-rgb),.1),inset 0 0 0 2px #c7af7136,0 6px 15px #0009;
+}
+#ae-races-codex .ae-race-symbol em { font-size:0; color:transparent; text-shadow:none; }
+#ae-races-codex .ae-race-card:hover .ae-race-symbol,
+#ae-races-codex .ae-race-card:focus-visible .ae-race-symbol {
+  background:
+    var(--ae-crest) center / 85% 85% no-repeat,
+    radial-gradient(circle at center,rgba(var(--ae-rgb),.5),#14181beb 86%);
+}
+#ae-races-codex .ae-race-arrow {
+  border-radius:3px;
+  border-color:#c4a87980;
+  background:#171410c9;
+}
+#ae-races-codex .ae-races-foot { padding-top:28px; }
+/* Seleccion visual de iconos; no atribuye significado heraldico al lore */
+#ae-races-codex .ae-race-card--elfos { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_nudo_elfico_01.webp"); }
+#ae-races-codex .ae-race-card--montaraces { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/estatua_cuervo_01.webp"); }
+#ae-races-codex .ae-race-card--yugen { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_zorro_espiritual_01.webp"); }
+#ae-races-codex .ae-race-card--enanos { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_enano_02.webp"); }
+#ae-races-codex .ae-race-card--humanos { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/castillo_01.webp"); }
+#ae-races-codex .ae-race-card--norin { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_arbol_raices_01.webp"); }
+#ae-races-codex .ae-race-card--sinhair { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_flor_cristal_01.webp"); }
+#ae-races-codex .ae-race-card--amarant { --ae-crest: url("https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/daga_curva_ornamental_01.webp"); }
+/* El modal conserva el esquema original y solo gana encuadernacion nueva. */
+#ae-races-overlay {
+  --ae-rv-motif:url("https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/medallon_esfera_armilar_01.webp");
+}
+#ae-races-overlay[data-ae-race="elfos"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_nudo_elfico_01.webp"); }
+#ae-races-overlay[data-ae-race="montaraces"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/estatua_cuervo_01.webp"); }
+#ae-races-overlay[data-ae-race="yugen"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_zorro_espiritual_01.webp"); }
+#ae-races-overlay[data-ae-race="enanos"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_enano_02.webp"); }
+#ae-races-overlay[data-ae-race="humanos"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/castillo_01.webp"); }
+#ae-races-overlay[data-ae-race="norin"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_arbol_raices_01.webp"); }
+#ae-races-overlay[data-ae-race="sinhair"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_flor_cristal_01.webp"); }
+#ae-races-overlay[data-ae-race="amarant"] { --ae-rv-motif: url("https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/daga_curva_ornamental_01.webp"); }
+#ae-races-overlay .ae-rv-panel {
+  border-color:#c6a573c4;
+  box-shadow:0 30px 100px #000e,inset 0 0 0 5px #d1ab6c1f;
+}
+#ae-races-overlay .ae-rv-panel::before {
+  inset:5px;
+  border-color:#d7b77c2d;
+  background:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp") left top / 62px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp") right top / 62px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp") left bottom / 62px auto no-repeat,
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp") right bottom / 62px auto no-repeat;
+}
+#ae-races-overlay .ae-rv-head::after {
+  content:""; position:absolute; z-index:1; right:65px; bottom:8px;
+  width:126px; height:126px; opacity:.23; pointer-events:none;
+  background:var(--ae-rv-motif) center / contain no-repeat;
+  filter:drop-shadow(0 5px 12px #0008);
+}
+#ae-races-overlay .ae-rv-title-row { gap:17px; }
+#ae-races-overlay .ae-rv-sigil {
+  font-size:clamp(27px,3vw,43px);
+  border-left:1px solid #d5b77c70;
+  padding-left:17px;
+}
+#ae-races-overlay .ae-rv-toc {
+  border-color:#c7a56b55;
+  background:linear-gradient(180deg,#241e1a,#181819);
+}
+#ae-races-overlay .ae-rv-toc-item {
+  border-color:#c3a77a70;
+  background:#2c251f9e;
+  color:#eddcc1;
+}
+#ae-races-overlay .ae-rv-paper {
+  background:
+    linear-gradient(180deg,#1b1a1aed,#171b1eee),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/cuero_oscuro_01.webp") center / 560px repeat;
+}
+#ae-races-overlay .ae-rv-section {
+  padding-right:95px;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp") right center / 92px auto no-repeat;
+}
+#ae-races-overlay .ae-rv-note {
+  background:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/sello_arcano_01.webp") right 12px center / 48px auto no-repeat,
+    rgba(169,144,101,.09);
+  padding-right:60px;
+}
+#ae-races-overlay .ae-rv-foot {
+  border-color:#c1a36c5c;
+  background:linear-gradient(180deg,#171713,#101315);
+}
+@media (max-width:740px) {
+  #ae-races-codex { background-size:46px auto,46px auto,46px auto,46px auto,auto,auto; }
+  #ae-races-codex .ae-races-head::before { width:49px; height:44px; }
+  #ae-races-codex .ae-race-card::after { background-size:30px auto,auto,auto; }
+  #ae-races-codex .ae-race-symbol { background-size:75% 75%,auto; }
+  #ae-races-overlay .ae-rv-panel::before { background-size:36px auto; }
+  #ae-races-overlay .ae-rv-head::after { right:39px; width:80px; height:80px; opacity:.17; }
+  #ae-races-overlay .ae-rv-section { padding-right:0; background:none; }
+  #ae-races-overlay .ae-rv-sigil { padding-left:9px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  #ae-races-codex .ae-race-symbol { transition:none!important; }
+}
+/* FIN_AETERNALIS_ORNAMENTOS_RAZAS_V2_1 */
