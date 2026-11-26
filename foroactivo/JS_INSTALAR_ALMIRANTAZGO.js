@@ -1,6 +1,6 @@
-/* INSTALADOR ÚNICO de Astillero + Carta Náutica.
+/* Instalador del Astillero de Aeternalis. La Carta Náutica vive en el Supermapa.
    Pegar una sola vez en Gestión de JavaScript de Foroactivo.
-   Se activa únicamente donde existan los contenedores correspondientes.
+   Se activa únicamente en páginas que contengan #ae-astillero.
    Si ya instalaste el JS del Astillero anterior, desactívalo para evitar doble carga. */
 (function(){
  'use strict';
@@ -16,7 +16,6 @@
  }
  function init(){
    if(document.getElementById('ae-astillero'))include('JS_CARGADOR_ASTILLERO.js','1.2.0','ae-almirantazgo-loader-astillero');
-   if(document.getElementById('ae-carta-naval'))include('JS_CARGADOR_CARTA_NAVAL.js','1.1.0','ae-almirantazgo-loader-carta');
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init,{once:true});else init();
 })();
