@@ -1,0 +1,152 @@
+/* AETERNALIS · CARTA NÁUTICA 1.0
+   CSS independiente del Astillero y del Supermapa; nunca modifica el CSS global.
+   Todos los elementos limitados a #ae-carta-naval. */
+#ae-carta-naval {
+  --cn-oro:#c9a876;--cn-claro:#f3e5cb;--cn-sec:#c5b394;
+  --cn-madera:#24211e;--cn-linea:#bd9d6e80;
+  max-width:1300px;width:100%;display:block;position:relative;isolation:isolate;
+  margin:32px auto 50px;padding:clamp(13px,2.5vw,31px);
+  background:
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp') left 7px top 7px / 62px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp') right 7px top 7px / 62px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp') left 7px bottom 7px / 62px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp') right 7px bottom 7px / 62px auto no-repeat,
+    radial-gradient(ellipse at top,#62462a3d,transparent 52%),
+    #151b1e;
+  border:1px solid #c29f6d9d;color:var(--cn-claro);
+  box-shadow:0 16px 50px #000a,inset 0 0 0 4px #c3a57310;
+  font-family:Georgia,'Times New Roman',serif;text-align:left;
+  container-type:inline-size;
+}
+#ae-carta-naval,#ae-carta-naval *{box-sizing:border-box;}
+#ae-carta-naval button,#ae-carta-naval select,#ae-carta-naval input{font-family:Georgia,'Times New Roman',serif;}
+#ae-carta-naval img{border:0;box-shadow:none;max-width:100%;}
+#ae-carta-naval button:focus-visible,#ae-carta-naval select:focus-visible,#ae-carta-naval input:focus-visible,#ae-carta-naval .ae-cn-scroll:focus-visible {
+  outline:2px solid #f6d99f;outline-offset:3px;
+}
+#ae-carta-naval button:disabled{opacity:.4;cursor:not-allowed;}
+#ae-carta-naval .ae-cn-page{max-width:1220px;margin:auto;}
+#ae-carta-naval .ae-cn-header{text-align:center;padding:10px 10px 20px;}
+#ae-carta-naval .ae-cn-header-icon{display:block;width:89px;height:89px;object-fit:contain;margin:0 auto 2px;filter:drop-shadow(0 6px 8px #000a);}
+#ae-carta-naval .ae-cn-kicker{font:700 10px/1.5 Georgia,serif;letter-spacing:.2em;color:#d7b987;text-transform:uppercase;}
+#ae-carta-naval .ae-cn-header h2{margin:8px 0 9px;padding:0;color:#fff0d7;font:normal clamp(32px,4vw,51px)/1.14 Georgia,serif;text-shadow:0 3px 16px #000d;}
+#ae-carta-naval .ae-cn-header p{max-width:840px;margin:0 auto 11px;font:italic 14px/1.65 Georgia,serif;color:#d4c4ac;}
+#ae-carta-naval .ae-cn-warning{display:inline-block;padding:7px 12px;border:1px solid #cba57568;background:#3926187d;color:#edd0a7;font:700 10px/1.5 Georgia,serif;letter-spacing:.08em;}
+#ae-carta-naval .ae-cn-header::after{content:"";display:block;width:min(240px,60%);height:30px;margin:9px auto -19px;background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp') center/contain no-repeat;opacity:.68;}
+#ae-carta-naval .ae-cn-layout{display:grid;grid-template-columns:minmax(265px,330px) minmax(0,1fr);align-items:start;gap:16px;}
+#ae-carta-naval .ae-cn-side{
+  display:flex;flex-direction:column;gap:13px;min-width:0;
+  padding:20px 17px 22px;
+  border:1px solid #c19f6d83;background:linear-gradient(145deg,#272420,#151d21);box-shadow:inset 0 0 0 3px #c1a76b12,0 8px 20px #0005;
+}
+#ae-carta-naval .ae-cn-side h3,#ae-carta-naval .ae-cn-calculation h3{margin:0;padding:0;color:#f6e7cc;font:normal 23px/1.2 Georgia,serif;}
+#ae-carta-naval .ae-cn-info{margin:0;color:#c8baa4;font:12px/1.6 Georgia,serif;}
+#ae-carta-naval .ae-cn-field{display:flex;flex-direction:column;min-width:0;gap:6px;}
+#ae-carta-naval .ae-cn-label{font:600 12px/1.4 Georgia,serif;color:#e0c99f;}
+#ae-carta-naval .ae-cn-select,#ae-carta-naval .ae-cn-input{
+  display:block;max-width:100%;width:100%;min-width:0;min-height:39px;
+  padding:8px 9px;border:1px solid #9e855e;border-radius:2px;
+  color:#f3e8d3;background:#1b2024;font:13px/1.3 Georgia,serif;
+}
+#ae-carta-naval .ae-cn-select option{background:#1c2227;color:#f3e8d3;}
+#ae-carta-naval .ae-cn-input::placeholder{color:#b4a58e;opacity:.8;}
+#ae-carta-naval .ae-cn-chosen{padding:10px 11px;border-left:2px solid #b69763;background:#392e2247;}
+#ae-carta-naval .ae-cn-chosen p{margin:3px 0;color:#d8c9b1;font:12px/1.5 Georgia,serif;}
+#ae-carta-naval .ae-cn-trace-controls{display:flex;flex-wrap:wrap;gap:7px;}
+#ae-carta-naval .ae-cn-primary,#ae-carta-naval .ae-cn-secondary {
+  cursor:pointer;border:1px solid #aa8b61;border-radius:2px;
+  padding:10px 12px;font:700 12px/1.3 Georgia,serif;
+  transition:background .18s,color .18s;
+}
+#ae-carta-naval .ae-cn-primary{flex:1 1 100%;background:linear-gradient(145deg,#99734c,#59402b);color:#fff0d5;border-color:#e0bb80;}
+#ae-carta-naval .ae-cn-primary:not(:disabled):hover{background:#966b40;}
+#ae-carta-naval .ae-cn-secondary{flex:1 1 105px;background:#24221f;color:#dbc2a2;}
+#ae-carta-naval .ae-cn-secondary:not(:disabled):hover{background:#433628;color:#fff0d8;}
+#ae-carta-naval .ae-cn-hint{flex:1 1 100%;font:italic 11px/1.5 Georgia,serif;color:#c4ae91;margin:0;}
+#ae-carta-naval .ae-cn-toggle{display:flex;align-items:start;gap:8px;cursor:pointer;color:#e2cda9;font:12px/1.5 Georgia,serif;}
+#ae-carta-naval .ae-cn-toggle input{margin:3px 0 0;accent-color:#c39a62;flex:0 0 auto;}
+#ae-carta-naval .ae-cn-calculation{display:flex;flex-direction:column;gap:11px;padding:16px 0 0;border-top:1px solid #c0a67972;}
+#ae-carta-naval .ae-cn-calculation h3{font-size:20px;}
+#ae-carta-naval .ae-cn-calculation-grid{display:grid;grid-template-columns:1fr;gap:10px;}
+#ae-carta-naval .ae-cn-calculation-result{display:flex;flex-direction:column;gap:5px;padding:12px;border:1px solid #ceae776b;background:#47331c4d;}
+#ae-carta-naval .ae-cn-calculation-result strong{color:#f4d79c;font:normal 23px/1.1 Georgia,serif;}
+#ae-carta-naval .ae-cn-calculation-result small{color:#cdbba0;font:italic 11px/1.5 Georgia,serif;}
+#ae-carta-naval .ae-cn-small{margin:0;color:#a99b86;font:italic 11px/1.55 Georgia,serif;}
+#ae-carta-naval .ae-cn-cartography{
+  border:1px solid #b8a377bd;background:#161b1b;min-width:0;
+  box-shadow:0 12px 26px #0008,inset 0 0 0 4px #c6a9682c;
+  padding:9px;
+}
+#ae-carta-naval .ae-cn-scroll{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;scrollbar-color:#ae8b5a #20201d;}
+#ae-carta-naval .ae-cn-map-stage{position:relative;isolation:isolate;width:100%;min-width:730px;background:
+  radial-gradient(ellipse at center,#2e423e,#172023 70%);overflow:hidden;border:1px solid #cfb58066;}
+#ae-carta-naval .ae-cn-map-stage.is-drawing{cursor:crosshair;}
+#ae-carta-naval .ae-cn-map{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:fill;border:0;max-width:none;}
+#ae-carta-naval .ae-cn-map-fallback{position:absolute;inset:5% 15% auto;color:#eac991;background:#251e1b;font:16px/1.5 Georgia,serif;padding:20px;z-index:1;text-align:center;}
+#ae-carta-naval .ae-cn-overlay{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none;}
+#ae-carta-naval .ae-cn-grid{fill:none;stroke:#eee2c4;stroke-width:1.2;opacity:.27;vector-effect:non-scaling-stroke;}
+#ae-carta-naval .ae-cn-draft{fill:none;stroke:#e9bd75;stroke-width:6;stroke-dasharray:17 12;stroke-linecap:round;stroke-linejoin:round;opacity:.95;filter:drop-shadow(0 1px 5px #000b);}
+#ae-carta-naval .ae-cn-waypoint{fill:#ffe3a2;stroke:#302217;stroke-width:4;filter:drop-shadow(0 2px 4px #000d);}
+#ae-carta-naval .ae-cn-pin {
+  position:absolute;z-index:4;transform:translate(-50%,-50%);
+  display:flex;align-items:center;justify-content:center;
+  width:29px;height:29px;padding:2px;border:1px solid #c6ab7dd6;
+  border-radius:50%;background:#21231ede;box-shadow:0 2px 9px #000d;
+  cursor:pointer;transition:transform .17s,border-color .17s;
+}
+#ae-carta-naval .ae-cn-pin:hover,#ae-carta-naval .ae-cn-pin:focus-visible{z-index:8;transform:translate(-50%,-50%) scale(1.32);border-color:#fff1cf;}
+#ae-carta-naval .ae-cn-pin.is-from{z-index:6;background:#153c43;outline:2px solid #79d7dd;}
+#ae-carta-naval .ae-cn-pin.is-to{z-index:6;background:#522e1e;outline:2px solid #f2b879;}
+#ae-carta-naval .ae-cn-pin.is-reference{opacity:.65;border-style:dashed;}
+#ae-carta-naval .ae-cn-pin.is-provisional{border-style:dotted;}
+#ae-carta-naval .ae-cn-pin-icon{width:23px;height:23px;object-fit:contain;max-width:none;filter:drop-shadow(0 1px 2px #0009);}
+#ae-carta-naval .ae-cn-pin-text{
+  position:absolute;display:none;white-space:nowrap;max-width:250px;
+  top:calc(100% + 4px);left:50%;transform:translateX(-50%);
+  padding:5px 7px;background:#1d2224f5;border:1px solid #d6b77f;
+  color:#f9e6c7;font:12px/1.4 Georgia,serif;text-align:center;
+  box-shadow:0 4px 10px #0009;pointer-events:none;
+}
+#ae-carta-naval .ae-cn-pin:hover .ae-cn-pin-text,
+#ae-carta-naval .ae-cn-pin:focus-visible .ae-cn-pin-text,
+#ae-carta-naval .ae-cn-pin.is-from .ae-cn-pin-text,
+#ae-carta-naval .ae-cn-pin.is-to .ae-cn-pin-text{display:block;}
+#ae-carta-naval .ae-cn-pin.is-from .ae-cn-pin-text,#ae-carta-naval .ae-cn-pin.is-to .ae-cn-pin-text{font-weight:700;}
+#ae-carta-naval .ae-cn-draw-hint{
+  pointer-events:none;position:absolute;z-index:5;left:50%;bottom:9px;transform:translateX(-50%);
+  display:block;padding:9px 12px;max-width:90%;white-space:nowrap;
+  color:#f9e6c8;background:#342514e8;border:1px solid #ecd0988a;
+  font:11px/1.4 Georgia,serif;
+}
+#ae-carta-naval .ae-cn-map-legend{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:10px 15px;padding:12px 8px 4px;}
+#ae-carta-naval .ae-cn-legend-item{display:inline-flex;align-items:center;gap:6px;font:11px/1.35 Georgia,serif;color:#d4c3a9;}
+#ae-carta-naval .ae-cn-key{display:inline-block;width:11px;height:11px;border:1px solid #d1b377;border-radius:50%;background:#5c5541;}
+#ae-carta-naval .ae-cn-key.is-from{background:#368a8b;border-color:#90d1d7;}
+#ae-carta-naval .ae-cn-key.is-to{background:#a85f30;border-color:#e6b18c;}
+#ae-carta-naval .ae-cn-key.is-reference{border-style:dashed;opacity:.5;}
+#ae-carta-naval .ae-cn-key.is-provisional{border-style:dotted;}
+#ae-carta-naval .ae-cn-footer{margin-top:17px;padding:14px 18px;border:1px solid #aa89597c;background:#28221dbd;}
+#ae-carta-naval .ae-cn-footer strong{display:block;color:#e7c58b;margin:0 0 7px;font:700 14px/1.4 Georgia,serif;}
+#ae-carta-naval .ae-cn-footer p{margin:5px 0;color:#d0bda2;font:12px/1.65 Georgia,serif;}
+#ae-carta-naval .ae-cn-footer .ae-cn-live{color:#f3dcae;font-weight:700;}
+#ae-carta-naval .ae-cn-error{padding:28px 24px;margin:0;color:#f8deb0;background:#2b2220;font:15px/1.6 Georgia,serif;}
+@container (max-width:950px) {
+  #ae-carta-naval .ae-cn-layout{grid-template-columns:1fr;}
+  #ae-carta-naval .ae-cn-side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;}
+  #ae-carta-naval .ae-cn-side>h3,#ae-carta-naval .ae-cn-side>.ae-cn-info,
+  #ae-carta-naval .ae-cn-calculation,#ae-carta-naval .ae-cn-small{grid-column:1/-1;}
+  #ae-carta-naval .ae-cn-map-stage{min-width:730px;}
+  #ae-carta-naval .ae-cn-calculation-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+@container (max-width:540px) {
+  #ae-carta-naval{background-size:42px auto,42px auto,42px auto,42px auto,auto,auto;}
+  #ae-carta-naval .ae-cn-side{grid-template-columns:1fr;gap:11px;}
+  #ae-carta-naval .ae-cn-side>h3,#ae-carta-naval .ae-cn-side>.ae-cn-info,
+  #ae-carta-naval .ae-cn-calculation,#ae-carta-naval .ae-cn-small{grid-column:auto;}
+  #ae-carta-naval .ae-cn-calculation-grid{grid-template-columns:1fr;}
+  #ae-carta-naval .ae-cn-map-stage{min-width:730px;}
+  #ae-carta-naval .ae-cn-draw-hint{white-space:normal;min-width:230px;text-align:center;}
+}
+@media (prefers-reduced-motion:reduce) {
+  #ae-carta-naval *{animation:none!important;transition:none!important;scroll-behavior:auto!important;}
+}
