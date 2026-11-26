@@ -1,0 +1,306 @@
+/*
+ AETERNALIS — BESTIARIO INTERACTIVO 1.1 (CATÁLOGOS JAVASCRIPT)
+ HTML de la publicación: <div class="hidethisprofile"></div><div id="aeb-bestiary"></div>
+ CSS: bloque <style id="aeb-bestiary-css"> de /h4-mapa-kawaii-css.
+ Instalar SIN etiquetas <script> en Gestión de JavaScript, preferentemente «En los temas».
+ No necesita páginas HTML auxiliares. Cargar también los JS regionales
+ Bergheim (40 especies) y Yūgen (40 especies) en «En los temas».
+ Los tres códigos pueden ejecutarse en cualquier orden.
+*/
+(function(){
+'use strict';
+if (window.__AEB_BESTIARY_ENGINE_V11__) return;
+window.__AEB_BESTIARY_ENGINE_V11__=true;
+const ROOT_ID='aeb-bestiary', CSS_PAGE='/h4-mapa-kawaii-css', STYLE_ID='aeb-bestiary-injected-css';
+/* Los catálogos se registran desde otros dos archivos JS.
+   window.AEB_BESTIARY_TOMES.bergheim / .yugen */
+const REGION_REGISTRY='AEB_BESTIARY_TOMES';
+const REGION={
+  bergheim:{name:'Bergheim',subtitle:'Cuatro montañas · Crónicas de los Ojopiedras',cover:4,paper:3,prev:20,next:13,separator:5,marker:24,emblem:21,chapter:'Cuadernos de las Cuatro Montañas',descriptions:['Fauna de bosques y montañas','Habitantes de los riscos','Ecos de piedra y aguas oscuras','Los fiordos, el abismo y los cielos']},
+  yugen:{name:'Yūgen',subtitle:'Bosques, santuarios, costas y tormentas',cover:2,paper:1,prev:59,next:60,separator:45,marker:53,emblem:54,chapter:'Cuadernos de las Islas Yūgen',descriptions:['Los senderos del cerezo, la piedra y el barro','Barrancos, bosques antiguos y santuarios','Turberas, ríos y monstruos del litoral','Mar abierto, arrecifes y cielos']}
+};
+const ASSETS={"1":{"id_imgur":"RsvhqBo","nombre":"Cuaderno doble de Yūgen","grupo":"Yūgen"},"2":{"id_imgur":"HePC2BY","nombre":"Portada del bestiario de Yūgen","grupo":"Yūgen"},"3":{"id_imgur":"GuGEG3E","nombre":"Cuaderno doble nórdico","grupo":"Bergheim (nórdico)"},"4":{"id_imgur":"LZ0KfYz","nombre":"Portada del bestiario de Bergheim","grupo":"Bergheim (nórdico)"},"5":{"id_imgur":"9hNItZl","nombre":"Separador de montañas y runas","grupo":"Bergheim (nórdico)"},"6":{"id_imgur":"iv0onld","nombre":"Separador con cabeza de cuervo y huesos","grupo":"Bergheim (nórdico)"},"7":{"id_imgur":"6BDuBAY","nombre":"Vértice superior derecho nevado","grupo":"Bergheim (nórdico)"},"8":{"id_imgur":"FhTdZIQ","nombre":"Icono de fogata","grupo":"Bergheim (nórdico)"},"9":{"id_imgur":"auLAxaD","nombre":"Pluma","grupo":"Bergheim (nórdico)"},"10":{"id_imgur":"AVJGyWT","nombre":"Piedra nevada rectangular","grupo":"Bergheim (nórdico)"},"11":{"id_imgur":"U6lEzBS","nombre":"Piedra con runas de marco","grupo":"Bergheim (nórdico)"},"12":{"id_imgur":"quGJupu","nombre":"Piedra rectangular con musgo","grupo":"Bergheim (nórdico)"},"13":{"id_imgur":"UYLnmtI","nombre":"Botón nórdico para avanzar (derecha)","grupo":"Bergheim (nórdico)"},"14":{"id_imgur":"SQ0bgSo","nombre":"Vértice superior izquierdo nevado","grupo":"Bergheim (nórdico)"},"15":{"id_imgur":"2eeFvZz","nombre":"Separador rúnico con gema central","grupo":"Bergheim (nórdico)"},"16":{"id_imgur":"5bqVa1P","nombre":"Icono de garra de oso","grupo":"Bergheim (nórdico)"},"17":{"id_imgur":"P1GVfjD","nombre":"Icono de dos hachas cruzadas","grupo":"Bergheim (nórdico)"},"18":{"id_imgur":"dkwP8lK","nombre":"Icono de montañas","grupo":"Bergheim (nórdico)"},"19":{"id_imgur":"22JGhrM","nombre":"Icono de pino","grupo":"Bergheim (nórdico)"},"20":{"id_imgur":"FHJjqHb","nombre":"Botón nórdico para retroceder (izquierda)","grupo":"Bergheim (nórdico)"},"21":{"id_imgur":"1V7eV9V","nombre":"Runa del árbol de la vida","grupo":"Bergheim (nórdico)"},"22":{"id_imgur":"gRzNa82","nombre":"Runa de flechas nórdicas","grupo":"Bergheim (nórdico)"},"23":{"id_imgur":"TXZRXyt","nombre":"Tres triángulos nórdicos en círculo","grupo":"Bergheim (nórdico)"},"24":{"id_imgur":"mwavT4y","nombre":"Runa de lobo","grupo":"Bergheim (nórdico)"},"25":{"id_imgur":"niO6o7H","nombre":"Cráneo de lobo","grupo":"Compartidos (trofeos de cazador)"},"26":{"id_imgur":"7jYWmVx","nombre":"Cráneo felino","grupo":"Compartidos (trofeos de cazador)"},"27":{"id_imgur":"c7y2Suo","nombre":"Cráneo con astas de ciervo","grupo":"Compartidos (trofeos de cazador)"},"28":{"id_imgur":"l6sftd8","nombre":"Cráneo de ave","grupo":"Compartidos (trofeos de cazador)"},"29":{"id_imgur":"mo0sQvh","nombre":"Cráneo de reptil","grupo":"Compartidos (trofeos de cazador)"},"30":{"id_imgur":"yC5ghVD","nombre":"Colmillo de reptil","grupo":"Compartidos (trofeos de cazador)"},"31":{"id_imgur":"TEI0wXe","nombre":"Garra","grupo":"Compartidos (trofeos de cazador)"},"32":{"id_imgur":"CAlhuAN","nombre":"Garra de cuervo","grupo":"Compartidos (trofeos de cazador)"},"33":{"id_imgur":"GbNiAcy","nombre":"Pluma","grupo":"Compartidos (trofeos de cazador)"},"34":{"id_imgur":"U3FTc5w","nombre":"Escamas","grupo":"Compartidos (trofeos de cazador)"},"35":{"id_imgur":"o8gKReE","nombre":"Trozo de piel con pelaje","grupo":"Compartidos (trofeos de cazador)"},"36":{"id_imgur":"bPdTM5T","nombre":"Fragmento de caparazón","grupo":"Compartidos (trofeos de cazador)"},"37":{"id_imgur":"vvf4sCs","nombre":"Fragmento de caparazón de insecto","grupo":"Compartidos (trofeos de cazador)"},"38":{"id_imgur":"hoGQTus","nombre":"Huevo con envoltorio de cuero","grupo":"Compartidos (trofeos de cazador)"},"39":{"id_imgur":"qLA1U3j","nombre":"Huella de tres dedos","grupo":"Compartidos (trofeos de cazador)"},"40":{"id_imgur":"dFLV5dO","nombre":"Huella de oso","grupo":"Compartidos (trofeos de cazador)"},"41":{"id_imgur":"96gedPi","nombre":"Símbolo de rasguños","grupo":"Compartidos (trofeos de cazador)"},"42":{"id_imgur":"JBnmPlx","nombre":"Bolsa biliar de reptil","grupo":"Compartidos (trofeos de cazador)"},"43":{"id_imgur":"yas0zmF","nombre":"Ojo de reptil","grupo":"Compartidos (trofeos de cazador)"},"44":{"id_imgur":"vNKenBy","nombre":"Piedra rúnica","grupo":"Compartidos (trofeos de cazador)"},"45":{"id_imgur":"7Ky4MpR","nombre":"Separador floral Yūgen","grupo":"Yūgen"},"46":{"id_imgur":"J0U6aI3","nombre":"Separador lunar Yūgen","grupo":"Yūgen"},"47":{"id_imgur":"Y9erdFg","nombre":"Separador de sakura Yūgen","grupo":"Yūgen"},"48":{"id_imgur":"7HVCDOA","nombre":"Separador vertical Yūgen","grupo":"Yūgen"},"49":{"id_imgur":"h4zaN9e","nombre":"Vértice superior derecho Yūgen de flor de sakura","grupo":"Yūgen"},"50":{"id_imgur":"ALmTy6I","nombre":"Vértice superior derecho Yūgen de hojas","grupo":"Yūgen"},"51":{"id_imgur":"53lhkNr","nombre":"Vértice superior derecho Yūgen de olas","grupo":"Yūgen"},"52":{"id_imgur":"tIDmHcB","nombre":"Vértice superior derecho Yūgen de nubes y humo","grupo":"Yūgen"},"53":{"id_imgur":"Qp5wcjN","nombre":"Runa Yūgen de montañas","grupo":"Yūgen"},"54":{"id_imgur":"3IAHUup","nombre":"Runa Yūgen de flores","grupo":"Yūgen"},"55":{"id_imgur":"a5Q8HGU","nombre":"Runa Yūgen de peces","grupo":"Yūgen"},"56":{"id_imgur":"UFUWag1","nombre":"Runa Yūgen de máscara de zorro","grupo":"Yūgen"},"57":{"id_imgur":"w4fn4mq","nombre":"Runa Yūgen de garza","grupo":"Yūgen"},"58":{"id_imgur":"94LqW3N","nombre":"Runa Yūgen de rayo","grupo":"Yūgen"},"59":{"id_imgur":"RfKNVNb","nombre":"Botón Yūgen para retroceder (izquierda)","grupo":"Yūgen"},"60":{"id_imgur":"3HX4jwm","nombre":"Botón Yūgen para avanzar (derecha)","grupo":"Yūgen"},"61":{"id_imgur":"pF3TBXF","nombre":"Separador pequeño Yūgen","grupo":"Yūgen"}};
+const INDEX={"bergheim":[{"number":1,"name":"Huargo de Valgard","volume":1,"imgurId":"cztiBC1"},{"number":2,"name":"Amarok de las Cumbres","volume":1,"imgurId":"LeB3haQ"},{"number":3,"name":"Garm del Desfiladero","volume":1,"imgurId":"asKiyZv"},{"number":4,"name":"Lobo de Sköll","volume":1,"imgurId":"1ZlMRBW"},{"number":5,"name":"Oso Jötunn","volume":1,"imgurId":"uwds6wi"},{"number":6,"name":"Oso Berserkr","volume":1,"imgurId":"YzvInbh"},{"number":7,"name":"Lince de Yule","volume":1,"imgurId":"5pdIipe"},{"number":8,"name":"Cù-Sìth Montaraz","volume":1,"imgurId":"4a8ZYzv"},{"number":9,"name":"Jabalí de Gullin","volume":1,"imgurId":"iO0xSkc"},{"number":10,"name":"Verraco de Sæhrímnir","volume":1,"imgurId":"ZTRsxwW"},{"number":11,"name":"Alce de Eikþyrnir","volume":2,"imgurId":"4oBbDMA"},{"number":12,"name":"Cabra de Heiðrún","volume":2,"imgurId":"2mKgwI6"},{"number":13,"name":"Uro de Auðumbla","volume":2,"imgurId":"DEt8chQ"},{"number":14,"name":"Cuervo Arpía","volume":2,"imgurId":"YcZnWOj"},{"number":15,"name":"Tatzelwurm","volume":2,"imgurId":"71xPbIv"},{"number":16,"name":"Lindwurm de las Grietas","volume":2,"imgurId":"kwTFpsd"},{"number":17,"name":"Zmey de Tres Fauces","volume":2,"imgurId":"fJjyZXx"},{"number":18,"name":"Nidógrido de las Raíces","volume":2,"imgurId":"NyE5Q1Z"},{"number":19,"name":"Grendel de las Turberas","volume":2,"imgurId":"u83thwd"},{"number":20,"name":"Trol de Pedernal","volume":2,"imgurId":"Cu0gHMR"},{"number":21,"name":"Wolpertinger Alpino","volume":3,"imgurId":"pzRK27j"},{"number":22,"name":"Ratatosk de Corteza","volume":3,"imgurId":"6cUJT3R"},{"number":23,"name":"Krampus de los Riscos","volume":3,"imgurId":"w0KdW2h"},{"number":24,"name":"Basilisco de Caverna","volume":3,"imgurId":"gKXPeMO"},{"number":25,"name":"Fáfnir de las Vetas","volume":3,"imgurId":"bZiRCoI"},{"number":26,"name":"Nøkk de los Lagos","volume":3,"imgurId":"bEN0R2p"},{"number":27,"name":"Afanc Glacial","volume":3,"imgurId":"OmmBkMR"},{"number":28,"name":"Dobharchú","volume":3,"imgurId":"L6NyJju"},{"number":29,"name":"Gusano de Jörmund","volume":3,"imgurId":"aVwdzCD"},{"number":30,"name":"Vodian de Turbera","volume":3,"imgurId":"SOuamNh"},{"number":31,"name":"Kraken de los Fiordos","volume":4,"imgurId":"rhcqQOv"},{"number":32,"name":"Hafgufa","volume":4,"imgurId":"79RP4bG"},{"number":33,"name":"Lyngbakr","volume":4,"imgurId":"azxPF65"},{"number":34,"name":"Iku-Turso","volume":4,"imgurId":"Z2cok17"},{"number":35,"name":"Akhlut","volume":4,"imgurId":"IuvsTq9"},{"number":36,"name":"Selkie de Fiordo","volume":4,"imgurId":"YruOkLS"},{"number":37,"name":"Jörmundr Abisal","volume":4,"imgurId":"AI1yubu"},{"number":38,"name":"Valravn","volume":4,"imgurId":"byaU9Hx"},{"number":39,"name":"Águila de Hræsvelgr","volume":4,"imgurId":"8MMEtl3"},{"number":40,"name":"Murciélago de la Mare","volume":4,"imgurId":"jRr4mmr"}],"yugen":[{"number":1,"name":"Kitsune de Silla","volume":1,"imgurId":"HNrBYyR"},{"number":2,"name":"Kitsune de Nueve Colas","volume":1,"imgurId":"sdfpnXr"},{"number":3,"name":"Tanuki de los Arrozales","volume":1,"imgurId":"eRpsjRl"},{"number":4,"name":"Kamaitachi","volume":1,"imgurId":"hMXDypm"},{"number":5,"name":"Okuri-inu","volume":1,"imgurId":"YxkFwpr"},{"number":6,"name":"Nekomata","volume":1,"imgurId":"DJamT9d"},{"number":7,"name":"Baku","volume":1,"imgurId":"H2Tn7Mb"},{"number":8,"name":"Nue","volume":1,"imgurId":"pASQtUc"},{"number":9,"name":"Tsuchinoko","volume":1,"imgurId":"mkxrNZw"},{"number":10,"name":"Nozuchi","volume":1,"imgurId":"kfWuPTT"},{"number":11,"name":"Ōmukade","volume":2,"imgurId":"mJckZqD"},{"number":12,"name":"Tsuchigumo","volume":2,"imgurId":"vCmfQRa"},{"number":13,"name":"Jorōgumo","volume":2,"imgurId":"cXFpjxN"},{"number":14,"name":"Kirin","volume":2,"imgurId":"dD1Sgwn"},{"number":15,"name":"Komainu","volume":2,"imgurId":"P3dOe2r"},{"number":16,"name":"Yamawaro","volume":2,"imgurId":"S2jCiis"},{"number":17,"name":"Yamabiko","volume":2,"imgurId":"MYSlZYL"},{"number":18,"name":"Kudan","volume":2,"imgurId":"7MeRCtM"},{"number":19,"name":"Jubokko","volume":2,"imgurId":"pEygJrF"},{"number":20,"name":"Kodama","volume":2,"imgurId":"TR1SAi8"},{"number":21,"name":"Nuppeppō","volume":3,"imgurId":"FKkKkU7"},{"number":22,"name":"Oni de Montaña","volume":3,"imgurId":"pdGlCMm"},{"number":23,"name":"Kappa","volume":3,"imgurId":"uU5QKF4"},{"number":24,"name":"Suiko","volume":3,"imgurId":"ouHOzHX"},{"number":25,"name":"Ōnamazu","volume":3,"imgurId":"3ybSr8k"},{"number":26,"name":"Kawauso","volume":3,"imgurId":"hmgOumO"},{"number":27,"name":"Mizuchi","volume":3,"imgurId":"Mu88QXK"},{"number":28,"name":"Ushi-oni","volume":3,"imgurId":"8VvkqQu"},{"number":29,"name":"Umibōzu","volume":3,"imgurId":"Yk8ehMX"},{"number":30,"name":"Shachihoko","volume":3,"imgurId":"KU03M4E"},{"number":31,"name":"Bake-kujira","volume":4,"imgurId":"suSdtkL"},{"number":32,"name":"Koromodako","volume":4,"imgurId":"bjbxEx1"},{"number":33,"name":"Isonade","volume":4,"imgurId":"7ygzdz9"},{"number":34,"name":"Ningyo","volume":4,"imgurId":"mrovyiW"},{"number":35,"name":"Sazae-oni","volume":4,"imgurId":"Uw6cRas"},{"number":36,"name":"Hōnengyo","volume":4,"imgurId":"Hy4jLlq"},{"number":37,"name":"Wani de Arrecife","volume":4,"imgurId":"hH20qtF"},{"number":38,"name":"Tengu de Acantilado","volume":4,"imgurId":"fSteKjV"},{"number":39,"name":"Basan","volume":4,"imgurId":"essULwi"},{"number":40,"name":"Raijū de Tormenta","volume":4,"imgurId":"9Rg9PzU"}]};
+let app=null;
+let initialParent=null, initialNext=null, docScroll='';
+const cache={};
+let state={view:'closed',region:'bergheim',volume:1,creature:0,search:'',busy:false};
+const escapeHtml=s=>String(s===undefined||s===null?'':s).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const dataAttr=s=>escapeHtml(s);
+const assetId=n=>ASSETS[n]&&ASSETS[n].id_imgur||'';
+const assetTag=(n,cl,alt)=>`<img class="${cl||'aeb-art'}" data-aeb-img="${assetId(n)}" alt="${escapeHtml(alt||'Ornamento')}" loading="lazy">`;
+const urlImgur=id=>'https://imgur.com/'+encodeURIComponent(id);
+function bindImages(scope){
+  const local=window.__AEB_TEST_IMAGES__ || {};
+  scope.querySelectorAll('img[data-aeb-img]').forEach(img=>{
+    const id=img.dataset.aebImg, supplied=local[id];
+    if(!id)return;
+    if(supplied){img.src=supplied;return;}
+    const urls=['png','jpg','jpeg','webp'].map(x=>'https://i.imgur.com/'+id+'.'+x);
+    let i=0;
+    img.onerror=()=>{
+      ++i;
+      if(i<urls.length){img.src=urls[i];return;}
+      img.classList.add('aeb-image-broken');
+      img.alt='Imagen no disponible en Imgur';
+      const box=img.closest('.aeb-hero-frame,.aeb-cover-frame,.aeb-decor-frame');
+      if(box&&!box.querySelector('.aeb-image-error')){
+        let a=document.createElement('a');a.className='aeb-image-error';a.href=urlImgur(id);a.target='_blank';a.rel='noopener noreferrer';a.textContent='Ver imagen en Imgur';box.appendChild(a);
+      }
+    };
+    img.src=urls[0];
+  });
+}
+function statusMessage(message,kind){
+  if(!app)return;
+  app.innerHTML='<div class="aeb-error '+(kind||'')+'"><h3>Bestiario de Aeternalis</h3><p>'+escapeHtml(message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';
+}
+function fetchStyles(){
+  if(document.getElementById(STYLE_ID))return Promise.resolve();
+  return fetch(CSS_PAGE,{credentials:'same-origin',cache:'no-store'}).then(r=>{
+    if(!r.ok)throw Error('La página h4 devolvió HTTP '+r.status);return r.text();
+  }).then(html=>{
+    let doc=new DOMParser().parseFromString(html,'text/html');
+    let node=doc.getElementById('aeb-bestiary-css');
+    let css=node?node.textContent:'';
+    if(!css){
+      let from=html.indexOf('/* AEB_BESTIARY_CSS_START */');
+      let to=html.indexOf('/* AEB_BESTIARY_CSS_END */',from+10);
+      if(from>=0&&to>from)css=html.slice(from,to);
+    }
+    if(!css || !css.includes('#aeb-bestiary')||css.length<800)throw Error('Falta el bloque <style id="aeb-bestiary-css"> de este bestiario en h4.');
+    let style=document.createElement('style');style.id=STYLE_ID;style.textContent=css;document.head.appendChild(style);
+  });
+}
+async function decodeGzipB64(str){
+  if(typeof DecompressionStream==='undefined')throw Error('Este navegador no admite la descompresión de catálogos. Utiliza las páginas JSON sin comprimir que van en el ZIP.');
+  const bytes=Uint8Array.from(atob(str.trim()),c=>c.charCodeAt(0));
+  const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+  return JSON.parse(await new Response(stream).text());
+}
+// Espera breve para independizar el motor del orden de ejecución de los scripts.
+// Solo se consulta el catálogo seleccionado; cada archivo regional contiene cuatro tomos.
+function waitForRegionCatalog(region){
+  const available=()=>window[REGION_REGISTRY] && window[REGION_REGISTRY][region];
+  if(available())return Promise.resolve(available());
+  return new Promise((resolve,reject)=>{
+    let finished=false;
+    let timer=null;
+    let poll=null;
+    const cleanup=()=>{document.removeEventListener('aeb:bestiary-catalog-ready',onChange);clearTimeout(timer);clearInterval(poll);};
+    const onChange=()=>{
+      if(finished)return;
+      const bundle=available();
+      if(bundle){finished=true;cleanup();resolve(bundle);}
+    };
+    document.addEventListener('aeb:bestiary-catalog-ready',onChange);
+    poll=setInterval(onChange,200);
+    timer=setTimeout(()=>{
+      if(finished)return;
+      finished=true;cleanup();
+      reject(Error('Falta el JS del catálogo '+REGION[region].name+'. Instálalo en Gestión de códigos JavaScript (En los temas) junto al motor principal.'));
+    },12000);
+    onChange();
+  });
+}
+const catalogPending=Object.create(null);
+async function loadVolume(region,volume){
+  const key=region+'-'+volume;
+  if(cache[key])return cache[key];
+  if(window.__AEB_TEST_DATA__ && window.__AEB_TEST_DATA__[key])return (cache[key]=window.__AEB_TEST_DATA__[key]);
+  if(catalogPending[key])return catalogPending[key];
+  const pending=(async()=>{
+    const bundle=await waitForRegionCatalog(region);
+    if(!bundle || bundle.version!==11 || !bundle.volumes)throw Error('Versión incorrecta del catálogo '+REGION[region].name+'. Revisa que instalaste la versión 1.1.');
+    const packed=bundle.volumes[volume];
+    if(typeof packed!=='string'||!packed.length)throw Error('Falta el tomo '+volume+' en el catálogo de '+REGION[region].name+'.');
+    let data=await decodeGzipB64(packed);
+    if(!data||data.region!==region||Number(data.volume)!==volume||!Array.isArray(data.creatures)||data.creatures.length!==10){
+      throw Error('El catálogo de '+REGION[region].name+' no coincide con el tomo '+volume+'.');
+    }
+    cache[key]=data;
+    return data;
+  })();
+  catalogPending[key]=pending;
+  try{return await pending;}
+  finally{delete catalogPending[key];}
+}
+function romanTome(region,volume){return ['I','II','III','IV','V','VI','VII','VIII'][Math.max(0,Math.min(7,volume-1+(region==='yugen'?4:0)))];}
+function themeForVolume(region,volume){
+  const index=Math.max(0,Math.min(3,volume-1));
+  return region==='yugen'
+    ? {separator:[45,46,47,61][index],emblem:[54,53,55,58][index],corner:[49,50,51,52][index]}
+    : {separator:[5,15,6,5][index],emblem:[21,22,23,24][index],corner:7};
+}
+function imageFromSpecies(spec){return `<img class="aeb-creature-image" data-aeb-img="${dataAttr(spec.imgurId)}" alt="Ilustración: ${escapeHtml(spec.name)}">`;}
+function shellTop(){
+  return `<div class="aeb-topline"><div><span class="aeb-sigil">✥</span> AETERNALIS <span class="aeb-top-muted">/ Registros naturalistas</span></div><button type="button" class="aeb-close" data-action="close" aria-label="Cerrar bestiario">✕ <span>Cerrar</span></button></div>`;
+}
+function renderLauncher(){
+  app.className='aeb-host';
+  app.innerHTML=`<div class="aeb-launch"><div class="aeb-launch-covers">${assetTag(4,'aeb-mini-cover','Bergheim')}${assetTag(2,'aeb-mini-cover','Yūgen')}</div><div class="aeb-launch-copy"><span>ARCHIVOS DE FAËANDIR</span><h2>Bestiario de Aeternalis</h2><p>Ochenta registros de fauna y criaturas de Bergheim y las Islas Yūgen.</p><button type="button" data-action="open">Abrir el bestiario <b>✧</b></button></div></div>`;
+  bindImages(app);
+}
+function renderShelf(){
+  return `<div class="aeb-shelf"><div class="aeb-shelf-title"><p>REGISTROS DE FAËANDIR · VOLUMENES ILUSTRADOS</p><h1>Bestiario de Aeternalis</h1><div>La memoria de los caminos, las huellas y las criaturas que los habitan.</div></div><div class="aeb-shelf-volumes">${Object.entries(REGION).map(([k,r])=>`<button type="button" class="aeb-region-card" data-action="choose-region" data-region="${k}"><span class="aeb-cover-frame">${assetTag(r.cover,'aeb-cover-image','Cubierta del tomo '+r.name)}</span><strong>${r.name}</strong><small>40 criaturas · 4 tomos</small></button>`).join('')}</div><p class="aeb-archive-note">Los textos se conservan según los ocho tomos originales. Las ilustraciones y la iconografía son recursos editoriales.</p></div>`;
+}
+function indexList(region){
+  const names=INDEX[region];
+  return names.map((m,n)=>`<button type="button" class="aeb-creature-link" data-action="go-creature" data-region="${region}" data-volume="${Math.floor(n/10)+1}" data-number="${n%10}" data-search="${dataAttr(m.name.toLocaleLowerCase())}"><span class="aeb-index-number">${String(m.number).padStart(2,'0')}</span><span class="aeb-index-name">${escapeHtml(m.name)}</span><span class="aeb-link-ornament">✧</span></button>`).join('');
+}
+function renderIndex(){
+  const r=REGION[state.region];
+  return `<div class="aeb-book"><div class="aeb-spread"><section class="aeb-page aeb-page-left"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel regional')}</div><div class="aeb-page-content"><p class="aeb-kicker">CÓDICE DE ${escapeHtml(r.name.toUpperCase())}</p><h2>${escapeHtml(r.chapter)}</h2><div class="aeb-decor-frame aeb-divider">${assetTag(r.separator,'aeb-divider-image','Separador')}</div><div class="aeb-intro"><p>${escapeHtml(r.subtitle)}</p><p>Este archivo reúne cuarenta especies repartidas en cuatro tomos. Elige el registro que deseas consultar.</p></div><div class="aeb-region-seal">${assetTag(r.emblem,'aeb-emblem','Sello regional')}</div><div class="aeb-volume-grid">${r.descriptions.map((description,i)=>`<div class="aeb-volume-item"><button type="button" data-action="open-volume" data-volume="${i+1}"><span>TOMO ${romanTome(state.region,i+1)}</span><small>${escapeHtml(description)}</small></button><button class="aeb-prologue-link" type="button" data-action="show-prologue" data-volume="${i+1}">Leer prólogo</button></div>`).join('')}</div></div></section><section class="aeb-page aeb-page-right"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel regional')}</div><div class="aeb-page-content aeb-index-content"><p class="aeb-kicker">ÍNDICE DE ESPECIES · ${escapeHtml(r.name.toUpperCase())}</p><h2>Registros de campo</h2><label class="aeb-search-label">Buscar una criatura <input id="aeb-search" type="search" placeholder="Nombre de la especie…" value="${dataAttr(state.search)}" autocomplete="off"></label><div class="aeb-creature-index" id="aeb-index-list">${indexList(state.region)}</div><p class="aeb-index-counter" id="aeb-index-counter">40 especies</p></div></section></div><div class="aeb-page-turner" aria-hidden="true"></div></div>`;
+}
+function renderPrologue(){
+  const data=cache[state.region+'-'+state.volume];
+  if(!data)return '<p class="aeb-waiting">Cargando prólogo…</p>';
+  const r=REGION[state.region];
+  const themed=themeForVolume(state.region,state.volume);
+  const paragraphs=(data.preface||[]).map(text=>'<p>'+escapeHtml(text)+'</p>').join('');
+  return `<div class="aeb-book"><div class="aeb-spread"><section class="aeb-page aeb-page-left"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel regional')}</div><div class="aeb-page-content aeb-illustration-page"><p class="aeb-kicker">TOMO ${romanTome(state.region,state.volume)} · ${escapeHtml(r.name.toUpperCase())}</p><h2>${escapeHtml(r.descriptions[state.volume-1])}</h2>${assetTag(r.cover,'aeb-prologue-image','Cubierta del tomo')}<div class="aeb-decor-frame aeb-divider">${assetTag(themed.separator,'aeb-divider-image','Separador regional')}</div></div></section><section class="aeb-page aeb-page-right"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel regional')}</div><div class="aeb-page-content aeb-record-page"><p class="aeb-kicker">ARCHIVOS DE FAËANDIR · INTRODUCCIÓN</p><h2>Palabras del explorador</h2><div class="aeb-prologue-scroll"><p class="aeb-prologue-intro">${escapeHtml(r.descriptions[state.volume-1])}</p>${paragraphs||'<p>No se registró una introducción adicional en este tomo.</p>'}</div><button type="button" class="aeb-prologue-next" data-action="start-volume">Comenzar a leer · Lámina ${(state.volume-1)*10+1}</button></div></section></div><div class="aeb-page-turner" aria-hidden="true"></div></div>`;
+}
+function renderDetails(){
+  const data=cache[state.region+'-'+state.volume];
+  if(!data)return '<p class="aeb-waiting">Cargando registros del tomo…</p>';
+  const spec=data.creatures[state.creature];
+  if(!spec)return '<p class="aeb-waiting">El registro solicitado no existe en este tomo.</p>';
+  const r=REGION[state.region];
+  const themed=themeForVolume(state.region,state.volume);
+  const icons=chooseTrophies(spec);
+  const facts=spec.facts.map(([k,v])=>`<div class="aeb-fact"><dt>${escapeHtml(k)}</dt><dd>${escapeHtml(v)}</dd></div>`).join('');
+  const blocks=spec.blocks.map(b=>b.type==='h'?`<h3>${escapeHtml(b.text)}</h3>`:`<p>${escapeHtml(b.text)}</p>`).join('');
+  return `<div class="aeb-book"><div class="aeb-spread"><section class="aeb-page aeb-page-left"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel del tomo')}</div><div class="aeb-page-content aeb-illustration-page"><p class="aeb-kicker">LÁMINA ${String(spec.number).padStart(2,'0')} · TOMO ${romanTome(state.region,state.volume)}</p><h2>${escapeHtml(spec.name)}</h2><div class="aeb-hero-frame">${imageFromSpecies(spec)}</div><div class="aeb-creature-caption">${escapeHtml(spec.subtitle||'Observación de campo')}</div><div class="aeb-trophy-row"><span class="aeb-trophy-label">Rastros del cazador</span><div class="aeb-trophies">${icons.map(k=>`<div class="aeb-trophy" title="${escapeHtml(ASSETS[k].nombre)}">${assetTag(k,'aeb-trophy-icon',ASSETS[k].nombre)}<span>${escapeHtml(shortTrophyName(ASSETS[k].nombre))}</span></div>`).join('')}</div></div><div class="aeb-notloot">Iconografía de estudio · no equivale a materiales obtenibles en el juego</div></div></section><section class="aeb-page aeb-page-right"><div class="aeb-page-bg">${assetTag(r.paper,'aeb-page-image','Papel del tomo')}</div><div class="aeb-page-content aeb-record-page"><p class="aeb-kicker">REGISTROS NATURALISTAS · ${escapeHtml(r.name.toUpperCase())}</p><h2>${escapeHtml(spec.name)}</h2><div class="aeb-details-scroll" id="aeb-reader"><p class="aeb-creature-subtitle">${escapeHtml(spec.subtitle)}</p><div class="aeb-divider aeb-decor-frame">${assetTag(themed.separator,'aeb-divider-image','Separador ornamental')}</div>${facts?`<dl class="aeb-facts">${facts}</dl>`:''}<div class="aeb-natural-history">${blocks}</div></div><div class="aeb-reading-foot">CUADERNO DEL EXPLORADOR · ${escapeHtml(spec.number)}/40 · ${escapeHtml(r.name)}</div></div></section></div><div class="aeb-page-turner" aria-hidden="true"></div></div>`;
+}
+function chooseTrophies(spec){
+  const t=(spec.name+' '+spec.subtitle+' '+spec.facts.map(a=>a.join(' ')).join(' ')).toLocaleLowerCase();
+  if(/ave|cuervo|águila|murciélago|tengu|valravn|garza|basan|halcón|pájaro|emplumad/.test(t))return [28,33,32];
+  if(/lobo|huargo|amarok|garm|canino|perro|zorro|kitsune|okuri/.test(t))return [25,35,40];
+  if(/felino|lince|tigre|gato|nekomata|dientesable/.test(t))return [26,31,35];
+  if(/alce|cabra|ciervo|uro|bóvido|caprin|cérvid|baku|kirin/.test(t))return [27,35,40];
+  if(/serpiente|dragón|saurio|reptil|basilisco|lagarto|lindwurm|gusano|mizuchi|wani/.test(t))return [29,34,39];
+  if(/araña|ciempiés|insecto|caparazón|escarabajo|crustáceo|cangrejo/.test(t))return [37,36,31];
+  if(/oso|grendel|oni|trol|krampus|simio|yamawaro/.test(t))return [40,35,31];
+  if(/mar|pez|kraken|pulpo|tiburón|cetáceo|ballena|calamar|acuático|selkie|foca/.test(t))return [34,36,39];
+  return [31,39,44];
+}
+function shortTrophyName(name){return name.replace(/^Cráneo (de |con )?/,'Cráneo ').replace(/^Fragmento de /,'').replace(/^Trozo de /,'').slice(0,24);}
+function renderNav(){
+  const isShelf=state.view==='shelf';
+  const r=REGION[state.region];
+  const canPrev=state.view==='detail';
+  const canNext=state.view==='detail';
+  return `<nav class="aeb-nav"><button type="button" data-action="prev" ${canPrev?'':'disabled'} aria-label="Página anterior">${assetTag(r.prev,'aeb-nav-rune','Anterior')}<span>Anterior</span></button><div class="aeb-nav-center"><button data-action="to-shelf" type="button">✥ Regiones</button><button data-action="to-index" type="button" ${isShelf?'disabled':''}>☷ Índice</button><span>${state.view==='detail'?'Lámina '+(state.creature+1+10*(state.volume-1))+' de 40':state.view==='index'?r.name:state.view==='prologue'?'Prólogo del tomo '+state.volume:'Biblioteca'}</span></div><button type="button" data-action="next" ${canNext?'':'disabled'} aria-label="Página siguiente"><span>Siguiente</span>${assetTag(r.next,'aeb-nav-rune','Siguiente')}</button></nav>`;
+}
+function renderFull(){
+  if(!app)return;
+  app.className='aeb-host is-open';
+  app.innerHTML=`<main class="aeb-overlay" data-region="${state.region}">${shellTop()}<div class="aeb-header"><span>EL BESTIARIO</span><strong>${state.view==='shelf'?'Biblioteca de las criaturas':state.view==='index'?REGION[state.region].chapter:'Registro de fauna'}</strong><span>FAËANDIR · AETERNALIS</span></div><div class="aeb-stage">${state.view==='shelf'?renderShelf():state.view==='index'?renderIndex():state.view==='prologue'?renderPrologue():renderDetails()}</div>${renderNav()}<p class="aeb-footnote">Las cifras y descripciones proceden de los tomos aportados; el canon definitivo requiere revisión editorial.</p></main>`;
+  bindImages(app);
+  if(state.view==='index'&&state.search)filterIndex(state.search);
+}
+function filterIndex(query){
+  const val=String(query||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+  let count=0;
+  app.querySelectorAll('.aeb-creature-link').forEach(btn=>{
+    const hay=btn.dataset.search.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+    const show=!val||hay.includes(val);btn.hidden=!show;if(show)++count;
+  });
+  const counter=app.querySelector('#aeb-index-counter');if(counter)counter.textContent=count+' especies encontradas';
+}
+function open(){
+  if(state.view!=='closed')return;
+  initialParent=app.parentNode;
+  initialNext=app.nextSibling;
+  docScroll=document.body.style.overflow;
+  if(initialParent)initialParent.removeChild(app);
+  document.body.appendChild(app);
+  document.body.style.overflow='hidden';
+  state.view='shelf';state.region='bergheim';renderFull();
+}
+function close(){
+  if(state.view==='closed')return;
+  state.view='closed';document.body.style.overflow=docScroll;
+  if(initialParent){if(initialNext&&initialNext.parentNode===initialParent)initialParent.insertBefore(app,initialNext);else initialParent.appendChild(app);}
+  renderLauncher();
+}
+function pageTurn(fn,dir){
+  if(state.busy)return;
+  const book=app.querySelector('.aeb-book');
+  if(!book){fn();renderFull();return;}
+  state.busy=true;
+  book.classList.add(dir==='prev'?'aeb-turn-prev':'aeb-turn-next');
+  window.setTimeout(()=>{fn();renderFull();const newbook=app.querySelector('.aeb-book');if(newbook)newbook.classList.add('aeb-turn-finish');},390);
+  window.setTimeout(()=>{state.busy=false;const b=app.querySelector('.aeb-book');if(b)b.classList.remove('aeb-turn-finish');},820);
+}
+async function selectCreature(region,volume,number,animated){
+  if(state.busy)return;
+  app.setAttribute('aria-busy','true');
+  try{
+    const data=await loadVolume(region,volume);
+    if(!data.creatures[number])throw Error('Esta especie aún no figura en el tomo.');
+    const change=()=>{state.region=region;state.volume=volume;state.creature=number;state.view='detail';state.search='';};
+    if(animated)pageTurn(change,number<state.creature?'prev':'next');else {change();renderFull();}
+  }catch(err){console.error('[Aeternalis/bestiario]',err);alert('No se pudo abrir este tomo. '+err.message);}
+  finally{app.removeAttribute('aria-busy');}
+}
+async function selectPrologue(region,volume){
+  if(state.busy)return;
+  app.setAttribute('aria-busy','true');
+  try{
+    await loadVolume(region,volume);
+    pageTurn(()=>{state.region=region;state.volume=volume;state.view='prologue';state.search='';},'next');
+  }catch(err){console.error('[Aeternalis/bestiario]',err);alert('No se pudo abrir el prólogo. '+err.message);}
+  finally{app.removeAttribute('aria-busy');}
+}
+function registerEvents(){
+  app.addEventListener('click',event=>{
+    const b=event.target.closest('[data-action]');if(!b)return;
+    event.preventDefault();
+    const action=b.dataset.action;
+    if(action==='open')return open();
+    if(action==='close')return close();
+    if(action==='retry'){statusMessage('Comprobando estilos…');fetchStyles().then(renderLauncher).catch(e=>statusMessage(e.message,'aeb-failed'));return;}
+    if(action==='choose-region'){state.region=b.dataset.region;state.search='';state.view='index';renderFull();return;}
+    if(action==='to-shelf'){state.view='shelf';state.search='';renderFull();return;}
+    if(action==='to-index'){if(state.view!=='shelf'){pageTurn(()=>{state.view='index';state.search='';},'prev');}return;}
+    if(action==='open-volume')return selectCreature(state.region,Number(b.dataset.volume),0,true);
+    if(action==='show-prologue')return selectPrologue(state.region,Number(b.dataset.volume));
+    if(action==='start-volume')return selectCreature(state.region,state.volume,0,true);
+    if(action==='go-creature')return selectCreature(b.dataset.region,Number(b.dataset.volume),Number(b.dataset.number),true);
+    if(action==='prev'||action==='next'){
+      if(state.view!=='detail'||state.busy)return;
+      const count=state.volume*10+state.creature-9;
+      const target=action==='prev'?count-1:count+1;
+      if(target<1){pageTurn(()=>{state.view='index';},'prev');return;}
+      if(target>40){pageTurn(()=>{state.view='index';},'next');return;}
+      const n=Math.ceil(target/10);const j=(target-1)%10;
+      return selectCreature(state.region,n,j,true);
+    }
+  });
+  app.addEventListener('input',evt=>{if(evt.target.id==='aeb-search'){state.search=evt.target.value;filterIndex(state.search);}});
+  document.addEventListener('keydown',evt=>{
+    if(state.view==='closed')return;
+    if(evt.key==='Escape')close();
+    else if(!/input|textarea/i.test(document.activeElement&&document.activeElement.tagName||'')&&state.view==='detail'){
+      if(evt.key==='ArrowLeft'){evt.preventDefault();app.querySelector('[data-action="prev"]')?.click();}
+      if(evt.key==='ArrowRight'){evt.preventDefault();app.querySelector('[data-action="next"]')?.click();}
+    }
+  });
+}
+function attemptStart(){
+  if(app)return;
+  const root=document.getElementById(ROOT_ID);if(!root)return;
+  app=root;
+  app.textContent='Cargando estilos del bestiario desde h4…';
+  registerEvents();
+  fetchStyles().then(()=>{renderLauncher();}).catch(err=>{console.error('[Aeternalis/bestiario]',err);statusMessage(err.message,'aeb-failed');});
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',attemptStart,{once:true});
+attemptStart();
+if(!app){
+  const observer=new MutationObserver(()=>{attemptStart();if(app)observer.disconnect();});
+  observer.observe(document.documentElement,{subtree:true,childList:true});
+  window.setTimeout(()=>observer.disconnect(),30000);
+}
+})();

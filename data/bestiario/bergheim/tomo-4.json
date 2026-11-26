@@ -1,0 +1,1073 @@
+{
+  "region": "bergheim",
+  "volume": 4,
+  "title": "Bergheim",
+  "source": "Bestiario_Bergheim_Volumen_IV_REHECHO(1).docx",
+  "preface": [
+    "De los puertos de Bergheim a las fosas donde el mundo conocido pierde su profundidad.",
+    "La costa de Bergheim no es una frontera tranquila. Los glaciares descienden hasta el agua, los fiordos esconden canales imposibles de cartografiar desde tierra y, más allá de los puertos, el océano contiene organismos cuya escala ha alimentado durante siglos los relatos de los jarls y los navegantes. A esa amenaza se suman las criaturas de los riscos y las cavernas: pocas vuelan, pero las que lo hacen dominan el espacio que las tormentas dejan libre.",
+    "Este volumen cierra el inventario inicial de cuarenta criaturas. Como en los registros precedentes, los nombres inspirados en mitologías reales se reinterpretan aquí como especies de Aeternalis. Los valores de tamaño, longevidad, dieta y comportamiento constituyen parámetros zoológicos propuestos para el mundo ficticio, no afirmaciones sobre las tradiciones históricas que inspiraron sus nombres.",
+    "Los registros distinguen entre lo que un Ojopiedra podría verificar —huellas, rutas, dieta, reproducción— y lo que sólo conocen los poetas: presagios, espíritus y antiguas venganzas. Esta separación no pretende despojar a los animales de su misterio; pretende hacer que el misterio tenga un territorio, un olor, una estación del año y consecuencias reales para quienes viven cerca de él."
+  ],
+  "creatures": [
+    {
+      "id": "bergheim-31",
+      "number": 31,
+      "name": "Kraken de los Fiordos",
+      "subtitle": "Kraken ancestral del fiordo helado",
+      "imgurId": "rhcqQOv",
+      "imgurPage": "https://imgur.com/rhcqQOv",
+      "facts": [
+        [
+          "Clasificación",
+          "Cefalópodo gigantesco · depredador"
+        ],
+        [
+          "Hábitat",
+          "Fiordos profundos y gargantas marinas"
+        ],
+        [
+          "Alimentación",
+          "Grandes peces, focas, cefalópodos y carroña"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario, territorial"
+        ],
+        [
+          "Dimensiones",
+          "Tentáculos extendidos: 24–40 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 80–130 años"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo"
+        ],
+        [
+          "Inspiración",
+          "Kraken de la tradición nórdica"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«No toda ola que rompe contra el casco anuncia una tormenta. Algunas vienen de abajo.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Kraken Ancestral del Fiordo Helado es, para la imaginación montaraz, la encarnación misma de la profundidad hostil. Se trata de un cefalópodo gigantesco, de cuerpo macizo, piel azul negruzca curtida por el frío y tentáculos enormes marcados por cicatrices antiguas, como si cada individuo fuese el superviviente de incontables inviernos y choques con roca y hielo. A diferencia de un pulpo ordinario, su anatomía presenta tejidos extraordinariamente densos y una musculatura capaz de impulsar toneladas de masa en espacios de agua estrechos. Esto le permite maniobrar con sorprendente eficacia dentro de fiordos y gargantas marinas donde otras criaturas de gran tamaño quedarían atrapadas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Su hábitat preferido son los fiordos profundos, los canales bordeados de acantilados y las entradas marinas donde confluyen agua dulce glacial y corrientes salinas densas. Allí acecha desde simas oscuras, saliendo a cazar cuando la marea, la niebla y la mala visibilidad juegan a su favor. Su dieta es oportunista: consume grandes peces, focas, otros cefalópodos, carroña arrastrada por las mareas y, cuando la ocasión se presenta, embarcaciones pequeñas. Los viejos capitanes afirman que no ataca todo lo que flota; distingue con paciencia lo débil, lo aislado y lo mal preparado."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento no es rabioso, sino táctico. Un kraken rara vez se expone por completo. Primero tantea con uno o dos tentáculos, examina vibraciones, mide resistencia y sólo después lanza el ataque principal. Puede inmovilizar botes enteros envolviendo casco, remos y tripulación en una sola secuencia. En aguas poco profundas es torpe; en pasos angostos se vuelve letal. Los rastros más comunes de su presencia son ventosas impresas sobre roca húmeda, troncos astillados en la costa y áreas extrañamente vacías de peces."
+        },
+        {
+          "type": "p",
+          "text": "Se sabe poco sobre su reproducción. Algunas historias hablan de puestas de huevos adheridas a techos de cueva sumergidos, custodiadas durante meses por una hembra exhausta. Otros sostienen que los juveniles vagan mar adentro antes de reclamar un fiordo propio. Su ferocidad es extrema cuando se siente acorralado, pero no responde a una maldad abstracta: es un depredador territorial."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Para los montaraces costeros, enfrentarse a un kraken no es una hazaña de gloria sino una necesidad de supervivencia. Las ciudades marítimas lo respetan como a un señor de las aguas frías. Derrotarlo aporta carne, aceite, cartílago útil para artesanías y, sobre todo, prestigio. Pero incluso los más temerarios prefieren evitarlo. Un fiordo donde un kraken ha fijado madriguera cambia rutas comerciales, ritmos de pesca y patrones enteros de poblamiento."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "La distribución de esta especie depende de la forma de los fiordos. Los canales con paredes abruptas y plataformas profundas ofrecen un refugio perfecto: el animal puede mantener el cuerpo oculto mientras deja que uno o dos brazos examinen la corriente. Las desembocaduras con fuerte aporte de agua dulce albergan además abundantes peces, lo que explica que ciertos kraken permanezcan durante años en el mismo corredor marino. Una comunidad de pescadores puede convivir con uno sin verlo jamás, hasta que cambia la ruta de un cardumen o falta alimento."
+        },
+        {
+          "type": "p",
+          "text": "Los Ojopiedras recomiendan no interpretar cualquier ataque como una cacería deliberada de hombres. A menudo un kraken se defiende de un casco que invade su refugio, o intenta arrancar redes cargadas de peces. Sin embargo, esa distinción importa poco para una embarcación atrapada. La técnica más segura es reconocer el patrón de la marea y abandonar el paso antes de que el depredador tenga posibilidad de sujetar el casco. Las ventosas dejan heridas profundas; incluso un brazo desprendido conserva reflejos peligrosos durante algún tiempo."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Tentáculos impresos en arena submarina, cicatrices circulares sobre madera, súbita ausencia de peces en el canal."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-32",
+      "number": 32,
+      "name": "Hafgufa",
+      "subtitle": "Coloso de la boca abierta",
+      "imgurId": "79RP4bG",
+      "imgurPage": "https://imgur.com/79RP4bG",
+      "facts": [
+        [
+          "Clasificación",
+          "Gran filtrador oceánico"
+        ],
+        [
+          "Hábitat",
+          "Aguas abiertas y frías, fuera de los fiordos"
+        ],
+        [
+          "Alimentación",
+          "Cardúmenes, calamares menores y crustáceos"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario; reuniones estacionales excepcionales"
+        ],
+        [
+          "Dimensiones",
+          "Longitud estimada: 45–70 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: más de 150 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alto por accidente; rara vez agresivo"
+        ],
+        [
+          "Inspiración",
+          "Hafgufa de los relatos marítimos islandeses"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«Los colosos no necesitan perseguirnos. A veces somos nosotros quienes navegamos hacia sus bocas.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Hafgufa es descrito por los navegantes como una boca imposible en mitad del océano. Su cuerpo, de proporciones colosales y forma vagamente cetácea, se confunde a veces con bancos de hielo o con islas bajas cuando permanece inmóvil. La característica que le da fama legendaria es su método de alimentación: abre su inmensa cavidad bucal y deja que la corriente, acompañada por cardúmenes atraídos hacia el aparente refugio, se precipite en ella. Esta conducta, que parece absurda a primera vista, lo convierte en una trampa viviente para toda clase de vida marina."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita mares abiertos, especialmente zonas frías y ricas en peces pelágicos. Prefiere las aguas profundas situadas más allá de la costa visible, aunque en ciertas temporadas puede acercarse a los bordes de los archipiélagos. Su piel se encuentra cubierta por adherencias de percebes, algas y pequeños organismos filtradores, señal de una vida larguísima y pausada. De lejos, su lomo da la impresión de una roca viva que emerge con lentitud."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta casi exclusivamente por filtración masiva y emboscada pasiva, engullendo ingentes cantidades de peces, calamares y crustáceos. Algunos relatos exagerados sostienen que también absorbe botes pequeños, pero lo más probable es que las embarcaciones se hundan al ser atrapadas en las turbulencias que produce su succión. Aun así, el riesgo para los marineros es real. Cuando un Hafgufa abre la boca, las aguas a su alrededor cambian de patrón, se arremolinan y pueden arrastrar cualquier embarcación imprudente."
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento general no es agresivo. Es lento, ahorrativo y desconcertantemente paciente. Parece escoger zonas de paso de grandes masas de peces y esperar allí como un arrecife hambriento. Por esa razón, algunos pescadores lo detestan y otros lo siguen a distancia, porque la mera presencia del coloso indica abundancia marina. La reproducción del Hafgufa es casi desconocida; los testimonios sobre crías son escasos y contradictorios."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Dentro de la cultura de Bergheim, el Hafgufa representa una amenaza distinta a la del kraken. No destruye por furia, sino por escala. Es un recordatorio de que el mar puede matar sin perseguir a nadie en particular. Los capitanes expertos reconocen ciertas señales antes de retirarse: bandadas de aves que giran sobre un punto fijo, peces huidizos en densidad inusual y un silencio marítimo muy particular. Donde aparece un Hafgufa, el océano entero parece contener el aliento."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "La anatomía del Hafgufa sugiere una evolución centrada en el ahorro de energía. Sus músculos son enormes, pero no están diseñados para la velocidad sostenida, sino para un movimiento de apertura que transforma el agua circundante en una corriente alimentaria. Cuando encuentra una ruta de peces, permanece inmóvil o avanza con lentitud. Los pequeños animales que buscan amparo en la sombra de sus labios se convierten en parte del alimento. Por ello, sus apariciones coinciden con temporadas de gran abundancia y no necesariamente con cambios de clima."
+        },
+        {
+          "type": "p",
+          "text": "Las aldeas de la costa han aprendido a distinguirlo de otros seres peligrosos por el comportamiento de las aves. Un kraken dispersa la vida marina; un Hafgufa puede concentrarla. El gran peligro consiste en confundir esa abundancia con un banco seguro de pesca. Los botes que se aproximan demasiado pueden quedar en una depresión de agua que crece rápidamente. Ni las flechas ni las lanzas ligeras resultan una solución razonable: irritar a un animal de ese tamaño sólo añade violencia a una situación ya imposible de controlar."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Concentración circular de peces, aves girando en un punto y corrientes de succión superficiales."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-33",
+      "number": 33,
+      "name": "Lyngbakr",
+      "subtitle": "La ballena-isla · llamada Hvaløy en algunos puertos",
+      "imgurId": "azxPF65",
+      "imgurPage": "https://imgur.com/azxPF65",
+      "facts": [
+        [
+          "Clasificación",
+          "Cetáceo colosal · filtrador"
+        ],
+        [
+          "Hábitat",
+          "Bahías profundas, fiordos abiertos y rutas de migración"
+        ],
+        [
+          "Alimentación",
+          "Kril, plancton, bancos de peces pequeños"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario o en asociaciones breves"
+        ],
+        [
+          "Dimensiones",
+          "Longitud estimada: 35–60 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: varios siglos"
+        ],
+        [
+          "Peligrosidad",
+          "Moderado por su tamaño; baja agresividad"
+        ],
+        [
+          "Inspiración",
+          "Lyngbakr de las sagas y bestiarios islandeses"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«Quien confunde el lomo de Lyngbakr con tierra firme aprende que ninguna isla respira.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "Los montaraces llaman Lyngbakr a una variedad monumental de cetáceo cuya superficie dorsal puede confundirse con un islote. Sobre su lomo crecen algas, percebes y líquenes marinos; aves costeras se posan en él como si se tratara de una roca fija, y no son pocos los marineros que, en la distancia, han creído divisar un afloramiento donde en realidad descansaba uno de estos gigantes. Su nombre significa, de forma aproximada, isla-ballena, y no se le teme tanto por su agresividad como por su poder de desorientar y alterar la navegación."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita fiordos amplios, bahías protegidas y plataformas marinas donde puede ascender para descansar cerca de la superficie. A diferencia del Hafgufa, el Lyngbakr mantiene un comportamiento más cercano al de los grandes cetáceos conocidos: se desplaza lentamente, se alimenta de cardúmenes y pequeños organismos marinos, y pasa largas temporadas siguiendo rutas migratorias determinadas por la temperatura, la abundancia de alimento y la estabilidad del hielo. Su cuerpo es enorme, robusto, de aletas anchas y piel gris azulada marcada por cicatrices, incrustaciones y parches de vida adherida."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "La dieta se compone sobre todo de peces pequeños, kril y otras presas colectivas. Su alimentación por filtración y aspiración lo vuelve inofensivo para un individuo, aunque una embarcación demasiado cercana puede ser golpeada accidentalmente por la aleta o la cola. Su comportamiento es sorprendentemente plácido. Incluso cuando emerge de improviso, rara vez lo hace con intención depredadora. Sin embargo, su sola masa basta para cambiar corrientes locales y producir oleajes repentinos."
+        },
+        {
+          "type": "p",
+          "text": "Los observadores de Bergheim le atribuyen una inteligencia contemplativa. Se dice que reconoce ciertas rutas costeras y que, cuando un fiordo atraviesa años de sobrepesca, reduce deliberadamente sus visitas. No existe prueba concluyente, pero esa superstición ha generado un tabú parcial: en algunas aldeas se prohíbe arponear al Lyngbakr, considerándolo un pilar viviente del equilibrio marino."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Su reproducción ocurre en aguas relativamente calmas, donde las hembras paren una sola cría tras largos periodos de gestación. Las madres permanecen durante meses en bahías profundas, razón por la cual varios puertos distinguen entre zonas de pesca y zonas de paso sagrado. La ferocidad del Lyngbakr es baja, pero su capacidad de supervivencia es excepcional."
+        },
+        {
+          "type": "p",
+          "text": "Para las gentes de la costa, verlo es un augurio ambiguo. Puede significar abundancia, buen clima o rutas de peces; también puede presagiar nieblas densas y confusión marítima. Más que un monstruo, el Lyngbakr es una presencia inmensa, antigua y casi litúrgica dentro del paisaje de Bergheim."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "Los ejemplares más ancianos desarrollan una cubierta de algas, percebes y otros organismos que convierte su superficie en una pequeña comunidad ecológica. Algunos peces se alimentan de los invertebrados adheridos al animal, mientras las aves descansan sobre las zonas que emergen al respirar. La relación no es perfectamente benigna: un exceso de incrustaciones puede dificultar su movimiento, por lo que el Lyngbakr frecuenta corrientes capaces de desprender parte de ese peso."
+        },
+        {
+          "type": "p",
+          "text": "En determinadas tradiciones montaraces, sus rutas se consideran patrimonio común de los pescadores. Matar uno sería una imprudencia económica y una ofensa ritual, pues su paso anuncia la llegada de bancos de pequeños peces. La escasez de crías observadas sugiere que la reproducción es lenta y que un individuo tardaría décadas en alcanzar un tamaño verdaderamente colosal. Por esa razón, su presencia debe tratarse como excepcional; un mar lleno de Lyngbakr no sería un ecosistema, sino una fábula."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Lomos cubiertos de algas, bandadas posadas en mar abierto y oleajes suaves sin viento."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-34",
+      "number": 34,
+      "name": "Iku-Turso",
+      "subtitle": "Leviatán del mar polar",
+      "imgurId": "Z2cok17",
+      "imgurPage": "https://imgur.com/Z2cok17",
+      "facts": [
+        [
+          "Clasificación",
+          "Depredador oceánico de gran profundidad"
+        ],
+        [
+          "Hábitat",
+          "Bordes del mar polar, fosas y canales submarinos"
+        ],
+        [
+          "Alimentación",
+          "Peces grandes, focas, restos de cetáceos y criaturas abisales"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario; territorial en zonas de alimentación"
+        ],
+        [
+          "Dimensiones",
+          "Extensión total estimada: 25–45 m"
+        ],
+        [
+          "Longevidad",
+          "Desconocida; probablemente muy longevo"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo"
+        ],
+        [
+          "Inspiración",
+          "Iku-Turso de la tradición finlandesa"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«El abismo rara vez devuelve lo que toma. Cuando lo hace, es para recordarnos que sigue hambriento.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "Iku-Turso ocupa en el imaginario marítimo el lugar de la cosa que asciende desde abajo cuando las aguas dejan de obedecer. Su forma mezcla rasgos de calamar, pulpo y bestia blindada: manto enorme, placas rugosas sobre la parte dorsal, tentáculos poderosos y una mirada casi reptiliana que ha dado lugar a innumerables exageraciones. Si el kraken domina los fiordos y el Hafgufa el mar abierto visible, el Iku-Turso pertenece al borde entre las aguas conocidas y los abismos polares."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita regiones de mar profundo, oscuras, gélidas y agitadas por corrientes submarinas violentas. Sólo emerge por completo en tormentas graves, durante luchas territoriales o cuando persigue bancos de presas hacia aguas menos profundas. Su dieta incluye peces grandes, focas, restos de cetáceos y, según varios testimonios, otras criaturas monstruosas. Todo indica que se encuentra cerca de la cúspide de la red trófica marina en su zona."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "A diferencia del kraken, el Iku-Turso parece menos sigiloso y más brutal. No tantea tanto a la presa: golpea, vuelca, arrastra y desgarra. Sus tentáculos poseen ventosas de borde endurecido, aptas para afirmarse a roca, hielo o madera mojada. Sus placas dorsales lo protegen frente a colisiones, mordidas y el impacto del oleaje. La agresividad del animal se incrementa notablemente cuando una tormenta agita el mar; algunos especulan que utiliza cambios de presión y vibración para orientarse mejor que otras especies."
+        },
+        {
+          "type": "p",
+          "text": "Su reproducción sigue siendo un misterio. Las teorías van desde nidos en fosas abisales hasta puestas adheridas a cavernas submarinas calentadas por actividad geotérmica. Lo cierto es que los ejemplares jóvenes casi nunca son vistos, lo que alimenta la idea de que sólo abandonan las profundidades cuando ya han alcanzado un tamaño formidable."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "En Bergheim, el nombre de Iku-Turso se usa también como metáfora política y militar: designa aquello que parece lejano, pero que al despertar obliga a todos a reaccionar. Las ciudades costeras lo odian y lo veneran en igual medida. Enfrentarlo exige tripulaciones preparadas, arpones pesados, hechicería de apoyo y mucha suerte. Allí donde un Iku-Turso ha atacado, el recuerdo permanece durante generaciones, no sólo por la destrucción, sino por la impresión de haber visto moverse al propio mar."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "Aunque suele representarse como un engendro de furia ciega, los informes más razonables describen un animal de emboscada que aprovecha la oscuridad, los bruscos cambios de presión y las tormentas. Su caparazón parcial amortigua golpes contra roca y hielo; sus apéndices buscan fijarse antes de desgarrar. Por ello, los encuentros más peligrosos ocurren donde el fondo asciende bruscamente y las corrientes verticales empujan las presas hacia la superficie."
+        },
+        {
+          "type": "p",
+          "text": "La principal hipótesis sobre su reproducción sitúa sus criaderos en aguas templadas por filtraciones geotérmicas del fondo oceánico. Esta posibilidad nunca se ha confirmado. No obstante, explicaría que se observen casi exclusivamente ejemplares adultos en regiones frías. Los vigías marítimos registran como señal de alarma las zonas donde aparecen grandes peces con heridas demasiado amplias para un tiburón ordinario. Ninguna patrulla sensata persigue entonces el rastro sin una flotilla preparada para la retirada."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Fragmentos de placas oscuras, ventosas de borde coriáceo, grandes presas mutiladas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-35",
+      "number": 35,
+      "name": "Akhlut",
+      "subtitle": "Depredador anfibio de la costa helada",
+      "imgurId": "IuvsTq9",
+      "imgurPage": "https://imgur.com/IuvsTq9",
+      "facts": [
+        [
+          "Clasificación",
+          "Carnívoro anfibio · gran cazador litoral"
+        ],
+        [
+          "Hábitat",
+          "Islotes, rompientes y playas de grava"
+        ],
+        [
+          "Alimentación",
+          "Focas, peces, aves marinas y carroña"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario o en parejas de reproducción"
+        ],
+        [
+          "Dimensiones",
+          "Longitud corporal: 3–5 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 20–35 años"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alto"
+        ],
+        [
+          "Inspiración",
+          "Akhlut de las narraciones inuit"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«No lo busques en la nieve ni en el agua: espera donde ambas se encuentran.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Akhlut es una de las criaturas más extrañas y plausibles de la costa de Bergheim, pues parece reunir la anatomía de un lobo y la de una orca en un solo depredador anfibio. Fuera del agua conserva la silueta de un gran cánido negro y blanco, cubierto por pelaje grueso y brillante; en movimiento se advierte, sin embargo, que sus miembros posteriores y su cola guardan una plasticidad propia de los animales marinos. Cuando se zambulle o emerge a gran velocidad, la línea entre lobo y cetáceo se vuelve inquietantemente borrosa."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Su hábitat natural son costas rocosas, playas heladas, islas pequeñas y ensenadas donde confluyen colonias de focas, peces migratorios y rutas de aves marinas. Caza tanto en tierra como en el agua, lo que le da una ventaja extraordinaria frente a presas que se sienten seguras al cambiar de medio. Puede perseguir una foca en el mar, obligarla a salir a roca y rematarla en seco, o sorprender aves reposadas desde abajo como un depredador marino."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta principalmente de focas, peces grandes, aves costeras y carroña. Los ejemplares más grandes han sido vistos acosando crías de grandes cetáceos o disputando restos a otros monstruos marinos. Su comportamiento es feroz, rápido y oportunista. No posee el carácter abrumadoramente territorial de un kraken ni la masa aplastante de un leviatán, pero compensa esa desventaja con inteligencia predatoria y adaptabilidad."
+        },
+        {
+          "type": "p",
+          "text": "Se sospecha que vive solo o en parejas estables, criando muy pocas crías por camada. Los cachorros, de existir, deben permanecer largo tiempo ocultos en cuevas costeras o grietas protegidas del oleaje. Las marcas de Akhlut suelen consistir en huellas lupinas cerca de la marea, restos de caza arrastrados hacia agua profunda y trayectorias irregulares que parecen empezar en tierra y desaparecer en el mar."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Para los pueblos de la costa es una bestia muy odiada, porque compite directamente por recursos de alto valor: focas, pescado, aves marinas y tranquilidad de los campamentos. Sin embargo, los cazadores le reconocen un tipo de nobleza brutal. Derrotar a un Akhlut prueba algo distinto a vencer a un monstruo enorme: prueba reflejos, disciplina y la capacidad de leer un litoral vivo y traicionero."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "Su singularidad anatómica hace del Akhlut uno de los cazadores más eficientes del litoral. La parte anterior del cuerpo ofrece movilidad y potencia de mordida en tierra; el tren posterior y la cola favorecen la natación. La transición entre medios no es perfecta, de modo que prefiere costas de roca baja y playas de inclinación suave donde puede entrar y salir sin desgastarse. Es capaz de pasar largos periodos observando una colonia de focas antes de decidir por qué lugar atacar."
+        },
+        {
+          "type": "p",
+          "text": "Los Akhlut jóvenes probablemente permanecen ocultos en madrigueras costeras profundas, fuera del alcance del oleaje más violento. La mortalidad debe ser alta, porque los adultos toleran mal la presencia de otros depredadores y la competencia por alimento es intensa. Los pastores que usan islotes como refugio estacional consideran al Akhlut una amenaza prioritaria. No obstante, son los pescadores quienes más lo temen: puede comprender cuándo una barca descarga sus presas y regresar noche tras noche al mismo lugar."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Huellas caninas que desaparecen bajo la marea, plumas y huesos de foca en cuevas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-36",
+      "number": 36,
+      "name": "Selkie de Fiordo",
+      "subtitle": "Pinnípedo de las nieblas",
+      "imgurId": "YruOkLS",
+      "imgurPage": "https://imgur.com/YruOkLS",
+      "facts": [
+        [
+          "Clasificación",
+          "Mamífero marino · especie social"
+        ],
+        [
+          "Hábitat",
+          "Caletas tranquilas, fiordos brumosos y roquedos costeros"
+        ],
+        [
+          "Alimentación",
+          "Peces medianos, crustáceos y moluscos"
+        ],
+        [
+          "Sociabilidad",
+          "Colonias estacionales; vínculos maternos fuertes"
+        ],
+        [
+          "Dimensiones",
+          "Longitud: 2–3,2 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 25–40 años"
+        ],
+        [
+          "Peligrosidad",
+          "Bajo; alto cuando protege crías"
+        ],
+        [
+          "Inspiración",
+          "Selkie del folclore escocés e irlandés"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«La Selkie mira al navegante como si recordase algo que él ha olvidado.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "La Selkie del Fiordo Brumoso representa el extremo opuesto del espectro monstruoso: no es una criatura de furia abierta, sino un ser de belleza inquietante y comportamiento ambiguo. En el agua se asemeja a una gran foca de pelaje gris plateado, ojos extraordinariamente expresivos y movimientos silenciosos. Fuera del agua, sobre ciertas rocas o plataformas costeras, su porte resulta casi demasiado sereno para una simple bestia marina, lo que ha generado siglos de relatos donde se la vincula con espíritus, metamorfosis y melancolías costeras."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita fiordos tranquilos, entradas de mar envueltas en niebla, islotes de descanso y regiones ricas en peces de tamaño medio. A diferencia del Akhlut, evita la confrontación. Su dieta está compuesta por peces, crustáceos y pequeños moluscos; complementa la alimentación con mariscos de roca cuando la marea lo permite. Posee gran resistencia al frío y puede permanecer sumergida durante largos intervalos."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento es cauteloso, observador y sorprendentemente curioso. Muchas veces sigue embarcaciones a distancia, inspecciona campamentos desde la niebla o permanece inmóvil mirando hacia la costa como si intentara comprenderla. Esta conducta ha sido interpretada de las maneras más variadas: desde simple inteligencia animal hasta conciencia casi humana. Nada de ello puede probarse del todo, pero la persistencia del mito dice mucho sobre el efecto que produce en quienes la ven."
+        },
+        {
+          "type": "p",
+          "text": "La reproducción parece ajustarse a la de grandes pinnípedos: una o dos crías, fuerte vínculo materno y zonas de parto relativamente protegidas. No es una criatura feroz salvo en defensa propia o de sus cachorros, situación en la que puede morder con violencia considerable y lanzarse al agua con una velocidad desorientadora."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Los montaraces costeros mantienen hacia la Selkie una actitud de respeto prudente. No es caza prestigiosa, ni presa rentable, ni enemigo estratégico; es más bien una presencia liminal del litoral. Algunas ciudades prohíben dañarla sin motivo, creyendo que traerá mala niebla o desapariciones en el mar. Otras la consideran simple fauna y la dejan en paz porque no compite seriamente con la pesca. En cualquier caso, pocas criaturas de Bergheim muestran con tanta claridad la frontera borrosa entre zoología y leyenda."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "Su conducta social constituye una excepción entre los grandes animales del litoral de Bergheim. Durante las temporadas de crianza, varias hembras utilizan los mismos roquedos protegidos, mientras los machos ocupan posiciones periféricas y compiten mediante voces, exhibiciones y choques breves. Las crías dependen durante semanas del calor y la leche de la madre. Las colonias se desplazan si la zona recibe demasiadas visitas de Akhlut o queda sometida a marejadas constantes."
+        },
+        {
+          "type": "p",
+          "text": "Las leyendas sobre la capacidad de las Selkie para abandonar su piel y caminar como personas no forman parte de las observaciones zoológicas confirmadas. Sin embargo, no conviene ridiculizarlas. Su extraordinaria capacidad de reconocer individuos, sus ojos expresivos y su tendencia a seguir botes en silencio bastan para provocar la impresión de inteligencia humana. En ciertos puertos las antiguas historias han derivado en normas de protección estacional: nadie puede perturbar una colonia durante la época de parto."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Rastros resbaladizos en rocas, descansaderos con escamas, vocalizaciones suaves."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-37",
+      "number": 37,
+      "name": "Jörmundr Abisal",
+      "subtitle": "Serpiente marina de las fosas",
+      "imgurId": "AI1yubu",
+      "imgurPage": "https://imgur.com/AI1yubu",
+      "facts": [
+        [
+          "Clasificación",
+          "Reptil marino abisal · amenaza legendaria"
+        ],
+        [
+          "Hábitat",
+          "Fosas oceánicas y grietas submarinas profundas"
+        ],
+        [
+          "Alimentación",
+          "Cefalópodos, peces grandes, carroña de cetáceos"
+        ],
+        [
+          "Sociabilidad",
+          "Solitario, de distribución muy escasa"
+        ],
+        [
+          "Dimensiones",
+          "Longitud estimada: 35–65 m"
+        ],
+        [
+          "Longevidad",
+          "Desconocida; posiblemente secular"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo, encuentros excepcionalmente raros"
+        ],
+        [
+          "Inspiración",
+          "Jörmungandr de la mitología nórdica"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«No todas las serpientes se enroscan alrededor del mundo. Basta con que una abrace el barco.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Jörmundr Abisal —nombre dado por los montaraces eruditos, no por analogía exacta con el mito— es una serpiente marina de profundidad extrema, de cuerpo larguísimo, placas oscuras superpuestas y brillo azulado en ciertas líneas de la piel, como si transportara consigo una luz enferma robada al fondo del mar. Sus mandíbulas, al abrirse, revelan una batería de dientes dirigidos hacia adentro, útil para atrapar presas blandas y resbaladizas. Es una criatura del abismo más que de la superficie."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita fosas submarinas, cavernas inundadas, fracturas oceánicas y simas próximas a costas muy profundas. Casi nunca se la ve completa. La mayoría de los encuentros consisten en un tramo del cuerpo ondulando bajo un barco, una cabeza surgiendo en medio de aguas negras o resplandores sinuosos a gran profundidad. Su dieta incluye peces abisales, cefalópodos, carroña de gigantes marinos y, posiblemente, individuos de su propia especie cuando escasea el alimento."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Se comporta como un emboscador de paciencia extrema. Aprovecha oscuridad, columnas de agua profundas y relieve submarino para ocultarse. No gasta energía en persecuciones largas salvo cuando se trata de presas heridas. Más que ferocidad abierta, lo define una eficiencia fría. Si algo cae a su nivel de profundidad y no puede escapar rápidamente, suele pertenecerle."
+        },
+        {
+          "type": "p",
+          "text": "Su reproducción se desconoce por completo. Algunos tramos de piel encontrados en cuevas inundadas sugieren mudas parciales o recambio de placas, lo que ha llevado a especular con individuos de vida muy larga. Las historias de los pescadores insisten en que un Jörmundr puede seguir una embarcación durante días enteros antes de atacar, hipótesis difícil de comprobar pero coherente con su aparente paciencia."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Para Bergheim representa la pesadilla de lo que hay debajo. Allí donde el kraken deja marcas visibles y el Akhlut rastros de caza, el Jörmundr deja ausencia: desaparecen redes, se hunden restos, se pierde silencio en el agua. No suele ser una amenaza cotidiana para puertos menores, pero sí para rutas profundas, expediciones ambiciosas y cazadores de monstruos que se internan demasiado en el dominio del fondo."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "El Jörmundr Abisal no debe confundirse con el Gusano de Jörmund de los lagos y ríos, descrito en el volumen anterior. Los nombres reflejan un parentesco cultural y una analogía morfológica, no una identificación biológica. La variedad abisal es mucho mayor, estrictamente marina y dependiente de presas oceánicas de gran tamaño. Su cuerpo serpentino, recubierto por escamas duras y flexibles, le permite desplazarse entre rocas y corrientes sin perder demasiada energía."
+        },
+        {
+          "type": "p",
+          "text": "Los antiguos navegantes sostienen que determinadas fosas parecen pertenecer a un solo ejemplar durante generaciones. Los testimonios podrían estar confundiendo individuos, pero la lentitud de crecimiento observada en reptiles gigantes haría verosímil una vida extraordinariamente prolongada. La criatura no persigue puertos ni asentamientos costeros; su peligrosidad procede de un mundo donde la escala humana deja de tener significado. Una embarcación sobre una fosa habitada puede permanecer a salvo durante años y desaparecer una sola noche sin dejar explicación suficiente."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Surcos enormes en sedimentos profundos, redes desgarradas desde abajo, cuerpos de peces marcados por mandíbulas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-38",
+      "number": 38,
+      "name": "Valravn",
+      "subtitle": "Cuervo de la tormenta y los campos de batalla",
+      "imgurId": "byaU9Hx",
+      "imgurPage": "https://imgur.com/byaU9Hx",
+      "facts": [
+        [
+          "Clasificación",
+          "Córvido gigante · carroñero oportunista"
+        ],
+        [
+          "Hábitat",
+          "Cornisas boscosas y desfiladeros próximos a rutas de guerra"
+        ],
+        [
+          "Alimentación",
+          "Carroña, roedores, huevos, crías de ungulados"
+        ],
+        [
+          "Sociabilidad",
+          "Parejas reproductoras; concentraciones alrededor de carroña"
+        ],
+        [
+          "Dimensiones",
+          "Envergadura: 3,8–5,2 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 35–55 años"
+        ],
+        [
+          "Peligrosidad",
+          "Moderado; alto para heridos indefensos"
+        ],
+        [
+          "Inspiración",
+          "Valravn del folclore danés"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«El Valravn no anuncia la batalla. Sencillamente llega antes que los enterradores.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Valravn de Bergheim es un córvido de grandes dimensiones y temperamento especialmente audaz. La primera impresión que produce es la de una silueta negra recortada contra el cielo de los desfiladeros, con plumas que reflejan tonos azulados y un pico curvo capaz de romper tendones y fracturar huesos pequeños. Su figura inspira relatos de apariciones y viejas guerras, pero sus hábitos pueden comprenderse a partir de una ecología de carroñero oportunista con una inteligencia notable."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita las laderas boscosas, las gargantas que conducen a antiguos pasos y los márgenes de territorios donde se concentran grandes mamíferos. Su dieta es muy amplia: busca cadáveres de ciervos, cabras y lobos; consume huevos, roedores y animales heridos cuando la ocasión lo favorece. A diferencia de una rapaz estrictamente cazadora, puede subsistir durante largos periodos aprovechando restos que otros depredadores dejan atrás."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento es observador. Aprende las rutinas de caravanas y campamentos, asocia sonidos de batalla con oportunidades alimentarias y reconoce a quienes habitualmente lo ahuyentan. Vive en parejas territoriales durante la crianza, aunque puede reunirse con otros ejemplares donde haya carroña abundante. Su vuelo es amplio y sostenido, aprovechando corrientes ascendentes entre árboles y barrancos."
+        },
+        {
+          "type": "p",
+          "text": "Los Valravn levantan nidos enormes sobre ramas o cornisas inaccesibles, donde incuban pocas crías y las alimentan durante un periodo prolongado. Pueden mostrarse muy agresivos ante intrusos que se aproximan al nido, pero fuera de él suelen evitar confrontaciones directas con adultos sanos. La longevidad y la capacidad de aprendizaje hacen que ciertos individuos sean reconocidos por aldeas enteras."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Para los montaraces, un Valravn sobre el campo de batalla es augurio de luto, aunque el propio animal no comprende el significado político de las guerras. Los Ojopiedras valoran su presencia como indicio de cadáveres, heridas o grandes animales próximos. La práctica de exterminar estas aves por superstición resulta contraproducente: su labor carroñera ayuda a retirar restos antes de que atraigan enfermedades y otros depredadores."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "El Valravn se diferencia del Cuervo Arpía descrito en el Volumen II por su preferencia por zonas más bajas, bosques de guerra y antiguos caminos donde la carroña es previsible. Su anatomía es la de un gran córvido de alas poderosas y patas prensiles; las exageraciones que lo presentan como un humano alado pertenecen al imaginario de los bardos. No obstante, el tamaño de su pico y su aparente memoria de los rostros explican el temor que inspira."
+        },
+        {
+          "type": "p",
+          "text": "Es un oportunista capaz de aprender las rutinas de los campamentos. Varios ejemplares pueden seguir discretamente un ejército o un rebaño herido durante jornadas completas. A pesar de esa conducta, sus parejas reproductoras defienden un único territorio de anidación y raramente toleran intrusos cerca de las crías. El Valravn aprovecha la vida y la muerte de la montaña, pero también cumple una función ecológica valiosa: limpia cadáveres antes de que atraigan infecciones y otras bestias más peligrosas. Cazarlo por superstición puede terminar empeorando un problema que parecía resolver."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Plumas negras de brillo metálico, picaduras profundas en huesos, llamadas secas y repetidas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-39",
+      "number": 39,
+      "name": "Águila de Hræsvelgr",
+      "subtitle": "Gran rapaz de las cumbres nevadas",
+      "imgurId": "8MMEtl3",
+      "imgurPage": "https://imgur.com/8MMEtl3",
+      "facts": [
+        [
+          "Clasificación",
+          "Ave rapaz de gran tamaño"
+        ],
+        [
+          "Hábitat",
+          "Picos altos, farallones y desfiladeros ventosos"
+        ],
+        [
+          "Alimentación",
+          "Cabras jóvenes, liebres, zorros y carroña"
+        ],
+        [
+          "Sociabilidad",
+          "Parejas territoriales; juveniles dispersivos"
+        ],
+        [
+          "Dimensiones",
+          "Envergadura: 5–7 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 40–60 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alto cerca del nido; bajo fuera de su territorio"
+        ],
+        [
+          "Inspiración",
+          "Hræsvelgr de la mitología nórdica"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«Quien sólo mira el suelo nunca sabrá qué vigila el cielo.»"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "La Águila de Hræsvelgr es la gran soberana del cielo alto. De cuerpo enorme, plumaje castaño y crema, mirada severa y garras capaces de perforar cuero grueso, domina los corredores aéreos que discurren entre riscos, glaciares y valles abiertos. A diferencia del cuervo, su presencia no se asocia a la muerte residual sino al poder directo del depredador que desciende desde el cielo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita crestas altas, farallones ventosos y picos donde la línea de nieve se mezcla con roca viva. Desde allí explota corrientes térmicas y ascendentes para planear durante horas casi sin mover las alas. Se alimenta de cabras montesas, liebres de nieve, zorros, crías de huargo cuando la oportunidad es extrema, y carroña ocasional en invierno duro. No teme atacar presas relativamente grandes si la topografía le favorece, obligándolas a caer por pendientes o perdiendo estabilidad en el borde de un acantilado."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento es territorial y altivo. Las parejas suelen conservar extensiones aéreas definidas, defendiendo nido y rutas de caza con notable constancia. Aun así, no es una ave irracionalmente agresiva; sólo ataca a humanos si se sienten demasiado cerca del nido o si cargan pequeños animales que puedan parecer presa. La reproducción es lenta: pocos huevos, largos periodos de crianza y una enorme inversión parental. Esto vuelve valioso cada nido y hace que la especie no tolere bien perturbaciones continuadas."
+        },
+        {
+          "type": "p",
+          "text": "Los rastros de su presencia incluyen plumas grandes, egagrópilas, restos de huesos en cornisas y sendas de presas arrastradas o dejadas caer. Los mejores exploradores de Bergheim estudian sus círculos de vuelo para leer vientos, detectar masas de herbívoros o identificar zonas donde la vida aún resiste bajo la nieve."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Culturalmente, la Águila de Hræsvelgr simboliza nobleza dura, visión estratégica y derecho de altura. Sus plumas, obtenidas sólo de ejemplares muertos por causas naturales o accidentes, se destinan a ornamentos ceremoniales o amuletos de jefatura. Matar una sin necesidad se considera un gesto torpe y soberbio, impropio de quien pretende vivir en armonía difícil con la montaña."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "La especie ocupa el espacio trófico de un gran depredador aéreo, pero su tamaño exige territorios enormes y una reproducción lenta. Sus alas anchas aprovechan el viento ascendente que nace de las paredes rocosas. Cuando se aproxima una tormenta, suele descender a cotas medias para evitar ráfagas que podrían inutilizar su maniobrabilidad. Esta conducta se ha transformado en un método popular de previsión meteorológica entre pastores y vigías."
+        },
+        {
+          "type": "p",
+          "text": "Las águilas de Hræsvelgr no forman bandadas. Las parejas adultas pueden conservar el mismo nido durante años, ampliándolo con ramas y huesos; las crías necesitan una temporada prolongada antes de aprender a cazar sin ayuda. No atacan sistemáticamente a viajeros, aunque un montañés que se acerque a la cornisa de cría puede provocar una defensa violenta. Sus plumas se consideran honorables en ciertos rituales guerreros, pero la captura o el sacrificio de ejemplares sanos suele verse como una muestra de irresponsabilidad ecológica."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Egagrópilas grandes, huesos en cornisas, plumas claras de gran tamaño."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-40",
+      "number": 40,
+      "name": "Murciélago de la Mare",
+      "subtitle": "Gran quiróptero de los valles nevados",
+      "imgurId": "jRr4mmr",
+      "imgurPage": "https://imgur.com/jRr4mmr",
+      "facts": [
+        [
+          "Clasificación",
+          "Quiróptero nocturno · cazador de caverna"
+        ],
+        [
+          "Hábitat",
+          "Cuevas protegidas, grietas tibias y valles crepusculares"
+        ],
+        [
+          "Alimentación",
+          "Insectos grandes, roedores y pequeñas aves"
+        ],
+        [
+          "Sociabilidad",
+          "Colonias de descanso; caza individual"
+        ],
+        [
+          "Dimensiones",
+          "Envergadura: 2,5–3,8 m"
+        ],
+        [
+          "Longevidad",
+          "Estimación: 20–30 años"
+        ],
+        [
+          "Peligrosidad",
+          "Bajo en exterior; alto en refugios cerrados"
+        ],
+        [
+          "Inspiración",
+          "Mare, pesadilla nocturna de tradición germánica"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "«Hay cuevas donde la oscuridad no es silencio. Es una multitud que respira.»"
+        },
+        {
+          "type": "h",          "text": "Morfología y presencia"
+        },
+        {
+          "type": "p",
+          "text": "El Murciélago de la Mare cierra este volumen con una criatura que resume varios rasgos del mundo subterráneo y crepuscular de Bergheim. Se trata de un quiróptero de gran tamaño, cubierto por un pelaje pardo oscuro que conserva calor en vuelo, con orejas desmesuradas, dentición fina pero afilada y alas correosas capaces de maniobrar en gargantas, entradas de cueva y valles estrechos. Su aspecto, entre bestia cavernaria y espíritu del anochecer, ha alimentado numerosos relatos de mal agüero."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y dieta"
+        },
+        {
+          "type": "p",
+          "text": "Habita sistemas de cuevas altas, fallas rocosas, cornisas protegidas y valles fríos donde aún existe abundancia de insectos, pequeños vertebrados o aves pequeñas durante la estación templada. En invierno reduce actividad o modifica sus rutas para aprovechar refugios geotérmicos, cavernas profundas y dormideros colectivos. Su dieta es variada: grandes insectos, roedores, pequeños reptiles, aves juveniles e incluso sangre en casos oportunistas, razón por la cual algunos pastores lo culpan de heridas en ganado menor."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, organización y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Su comportamiento es predominantemente nocturno. Sale en bandadas pequeñas o medianas, guiándose por ecolocación y memoria espacial. En espacios abiertos no compite con águilas ni cuervos; ocupa más bien el turno de la penumbra, allí donde la roca se vuelve eco y el viento desordena la percepción humana. Es una criatura muy sensible a vibraciones y perturbaciones sonoras, de modo que una cueva colonizada por murciélagos ancestrales produce una atmósfera acústica particular que los Ojopiedras aprenden a reconocer."
+        },
+        {
+          "type": "p",
+          "text": "La reproducción se organiza en colonias maternales dentro de cámaras relativamente cálidas. Las crías crecen con lentitud y dependen mucho tiempo de los refugios colectivos. En defensa del dormidero pueden mostrarse feroces, mordiendo a intrusos y lanzándose en picado para obligarlos a retirarse. No constituyen una amenaza militar en sí, pero sí un obstáculo serio en exploraciones de cueva, sobre todo cuando el sobresalto hace caer a los inexpertos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Para los montaraces, el Murciélago de la Mare es una criatura de frontera: útil como indicador de cavidades, aguas subterráneas o circulación de insectos, pero inquietante por su asociación con noche, enfermedad y antiguos santuarios ocultos. Algunos runistas observan sus colonias para localizar entradas estables a galerías profundas. Otros simplemente prefieren dejarlas en paz, sabiendo que donde los murciélagos resisten, la montaña guarda todavía respiración interna."
+        },
+        {
+          "type": "h",
+          "text": "Ampliación del registro"
+        },
+        {
+          "type": "p",
+          "text": "Aunque su tamaño inspira espanto, el Murciélago de la Mare depende de una alimentación repartida entre pequeños animales y grandes insectos. No podría prosperar si se dedicara a atacar constantemente ganado o personas. Su dentición está adaptada a sujetar y desgarrar presas relativamente pequeñas, y sus membranas alares favorecen las maniobras entre roca y vegetación antes que el vuelo a gran distancia. Durante la estación más fría, utiliza refugios termales o cavernas profundas y reduce sensiblemente su actividad."
+        },
+        {
+          "type": "p",
+          "text": "Las hembras forman colonias maternales, pero la caza se desarrolla de forma individual. Cuando se altera un refugio, decenas de ejemplares pueden despegar de golpe, generando el caos suficiente para hacer caer a un explorador. De ahí proviene buena parte de su fama asesina. En Bergheim también cumple una función apreciada por agricultores y silvicultores, pues controla insectos y roedores que dañan reservas de grano. Los Ojopiedras aconsejan reconocer las colonias desde la entrada, no penetrar entre ellas sin motivo y recordar que el pánico humano suele causar más accidentes que los propios murciélagos."
+        },
+        {
+          "type": "h",
+          "text": "Señales de rastreo"
+        },
+        {
+          "type": "p",
+          "text": "Guano bajo techos secos, restos de insectos, chillidos agudos y corrientes de aire de cueva."
+        },
+        {
+          "type": "h",
+          "text": "Cierre del primer inventario"
+        },
+        {
+          "type": "p",
+          "text": "El repertorio de Bergheim alcanza así cuarenta especies, distribuidas entre cumbres, bosques, cavernas, lagunas, ríos, fiordos, mar abierto y cielos de montaña. Las leyendas se han tratado como materia prima para construir animales con necesidades y comportamientos propios. No todos los peligros merecen una cacería: algunos se evitan, otros se estudian, unos pocos se domestican y los verdaderos titanes exigen que los cazadores recuerden su insignificancia."
+        },
+        {
+          "type": "p",
+          "text": "La clasificación y las medidas son propuestas de trabajo sujetas a la aprobación del lore. El Volumen II ya incorpora al Cuervo Arpía, sustituyendo al antiguo corcel de ocho patas; por ello, el Valravn de este tomo debe entenderse como otro córvido de hábitos y distribución distintos."
+        },
+        {
+          "type": "p",
+          "text": "Ilustraciones: una lámina individual por especie, separada del Word para su incorporación a las fichas del foro. Todos los archivos se incluyen en formato PNG dentro del ZIP final."
+        }
+      ]
+    }
+  ]
+}

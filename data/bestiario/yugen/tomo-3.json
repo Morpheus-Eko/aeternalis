@@ -1,0 +1,1007 @@
+{
+  "region": "yugen",
+  "volume": 3,
+  "title": "Yūgen",
+  "source": "Bestiario_Yugen_Tomo_VII(1).docx",
+  "preface": [
+    "«Quien cree que la isla sólo pertenece a sus clanes no ha escuchado todavía la respiración de sus ríos».",
+    "El tercer tomo dedicado a las islas Yugen abandona parcialmente los bosques profundos para seguir la ruta del agua. Desde las laderas frías de Iwagiri, los ríos atraviesan barrancos, alimentan terrazas agrícolas de Hanamori y finalmente se internan entre los islotes y costas escarpadas de Shiranui. Ese viaje sostiene una cadena de vida extraordinariamente diversa: carroñeros de ciénaga, grandes primates forestales, anfibios que comparten acequias con campesinos, mamíferos acuáticos, reptiles de aguas profundas y criaturas marinas que apenas han sido descritas por quienes sobrevivieron a su encuentro.",
+    "La sobrepoblación y las guerras entre clanes alteran esta geografía. Un canal puede convertir una marisma natural en campo de arroz; un puente puede cerrar el paso de un gran pez; un puerto de guerra puede multiplicar los desperdicios de pesca y atraer depredadores costeros. Las criaturas de este volumen no están separadas de la historia política de Yugen. Son amenazas, fuentes de materiales, motivos de superstición y, a menudo, señales de que un asentamiento ha ignorado el funcionamiento de la región donde pretende imponerse.",
+    "No todas las especies son hostiles. Algunas resultan peligrosas únicamente por su tamaño; otras defienden a sus crías o sus territorios. La verdadera labor de un bestiario consiste en distinguir aquello que ataca por hambre de aquello que arrasa al desplazarse, y aquello que mata por instinto de lo que las leyendas convierten en un castigo divino. El Kushidō, los templos y las memorias de guerra aportan interpretaciones culturales, pero no sustituyen el examen del terreno.",
+    "Estas fichas proponen especies originales de Aeternalis inspiradas libremente en nombres y motivos mitológicos japoneses. Sus medidas, hábitos y relaciones ecológicas son creación de mundo, no descripciones de animales reales ni afirmaciones cerradas del canon. Las imágenes son interpretaciones artísticas para uso en el foro: en ciertos casos la iconografía visual es provisional y deberá ajustarse a la anatomía propuesta antes de su incorporación definitiva.",
+    "Peligrosidad es una evaluación del riesgo para una persona sin equipo especializado; no equivale a agresividad ni a rango de poder. Las dimensiones son valores editoriales estimativos. La organización social indica cómo se desplaza y reproduce la especie, no su grado de inteligencia. Las observaciones de campo son fragmentos ficticios escritos para enriquecer el rol."
+  ],
+  "creatures": [
+    {
+      "id": "yugen-21",
+      "number": 21,
+      "name": "Nuppeppō",
+      "subtitle": "",
+      "imgurId": "FKkKkU7",
+      "imgurPage": "https://imgur.com/FKkKkU7",
+      "facts": [
+        [
+          "Hábitat",
+          "Turberas cálidas, bosques inundados y depresiones húmedas de Hanamori"
+        ],
+        [
+          "Dimensiones",
+          "1,6–2,3 m a la cruz; 3–4,5 m de longitud; masa estimada 600–1.100 kg"
+        ],
+        [
+          "Dieta",
+          "Carroña, hongos, raíces, invertebrados y restos vegetales"
+        ],
+        [
+          "Organización",
+          "Solitario; encuentros de varios ejemplares en zonas de alimento abundante"
+        ],
+        [
+          "Longevidad",
+          "30–45 años"
+        ],
+        [
+          "Peligrosidad",
+          "Baja frente a adultos sanos; alta por aplastamiento y contaminación de aguas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El devorador silencioso de las turberas"
+        },
+        {
+          "type": "p",
+          "text": "Los caminantes que cruzan las ciénagas cálidas de Hanamori aprenden a reconocer un olor antes que una silueta. Bajo la niebla y las ramas caídas se desplaza el Nuppeppō, una masa de carne pálida que parece incapaz de sostener su propio peso y, sin embargo, avanza con obstinación durante jornadas enteras. Las antiguas canciones lo llaman “la vergüenza del pantano”, porque su aspecto recuerda un cuerpo abandonado a la podredumbre. Los naturalistas Yugen sostienen otra interpretación: se trata de un organismo carroñero lento, extraordinariamente adaptado a consumir aquello que ningún otro animal desea tocar."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "El cuerpo adopta una forma redondeada y baja, sostenida por cuatro extremidades cortas y musculosas. La piel carece casi por completo de pelo y presenta pliegues gruesos que retienen barro y humedad. Bajo ellos se acumula una capa grasa que funciona como reserva energética y protección contra abrasiones. La cabeza apenas se distingue del cuello; dos ojos pequeños y profundamente hundidos observan desde una máscara de carne arrugada. Sus labios fuertes pueden arrancar tejidos blandos, pero la dentadura no está diseñada para destrozar huesos grandes. Una red de glándulas cutáneas produce secreciones de olor penetrante que mantienen alejados a numerosos insectos y depredadores."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere humedales estables, zonas de agua somera y bosques donde las lluvias alimentan suelos saturados de materia orgánica. Se mueve por corredores de vegetación aplastada, casi siempre lejos de caminos cultivados, aunque las crecidas lo empujan hacia zanjas agrícolas. Durante los periodos secos busca pozas profundas para evitar la deshidratación de su piel. Sus refugios son depresiones excavadas entre raíces, protegidas por plantas acuáticas y montículos de limo. El observador prudente reconoce su paso por huellas anchas, barro removido y un silencio anormal de pequeños carroñeros."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "El Nuppeppō consume animales muertos, hongos de gran tamaño, raíces fermentadas y abundantes invertebrados que encuentra bajo la hojarasca. Su digestión es lenta y extraordinariamente eficiente; puede permanecer días sobre un único cadáver grande, reduciendo progresivamente los restos blandos. Al hacerlo libera nutrientes que vuelven al suelo y limita la acumulación de materia putrefacta. Se trata, por tanto, de una criatura desagradable para los sentidos humanos, pero importante para el funcionamiento de los pantanos. En años de inundación puede seguir los restos de ganado o fauna arrastrada por el agua."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "No persigue a los viajeros ni embosca presas sanas. Su conducta más peligrosa es la defensa pasiva: cuando se siente amenazado, baja el centro de gravedad y carga torpemente contra aquello que lo acosa. El golpe de una tonelada de carne puede matar sin que exista verdadero instinto predatorio. Suele alimentarse de noche o bajo lluvias intensas, cuando los olores se dispersan menos. Tolera a otros adultos cerca de una fuente abundante de alimento, pero no forma manadas ni cooperativas de caza. Sus vocalizaciones son gemidos graves y húmedos que se transmiten bien a través del agua."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción es poco observada. Se cree que los adultos se encuentran durante las temporadas lluviosas, permanecen juntos algunos días y después vuelven a la vida solitaria. La hembra pare una cría de tamaño considerable, protegida bajo una bóveda vegetal. Los juveniles carecen del fuerte olor de los adultos, por lo que son vulnerables a grandes depredadores y enfermedades. Su crecimiento requiere muchos años y el tiempo de vida prolongado compensa una reproducción lenta. La muerte de un adulto deja vacante una extensión amplia de humedal."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Entre los Yugen, el Nuppeppō suscita repulsión, pero los campesinos veteranos saben que su presencia cerca de una laguna también anuncia un ecosistema capaz de reciclar desechos. Los templos prohíben en ocasiones su sacrificio durante epidemias, pues recuerdan que destruir carroñeros agrava la acumulación de cuerpos. Los niños son advertidos para no seguir su olor ni acercarse a las pozas que ocupa. En el Kushidō, algunos maestros lo utilizan como alegoría incómoda: aun una existencia despreciada por las apariencias puede cumplir una función que preserva a la comunidad."
+        },
+        {
+          "type": "p",
+          "text": "«No lo matéis por su fealdad. El pantano se alimenta de lo que nosotros abandonamos». — Observación de un recolector de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-22",
+      "number": 22,
+      "name": "Oni de Montaña",
+      "subtitle": "",
+      "imgurId": "pdGlCMm",
+      "imgurPage": "https://imgur.com/pdGlCMm",
+      "facts": [
+        [
+          "Hábitat",
+          "Laderas remotas, gargantas, hayedos y cedrales de Iwagiri"
+        ],
+        [
+          "Dimensiones",
+          "2,3–3,1 m erguido; 320–650 kg"
+        ],
+        [
+          "Dieta",
+          "Omnívoro: raíces, frutos, hongos, mamíferos y carroña"
+        ],
+        [
+          "Organización",
+          "Grupos familiares de 2–5; machos adultos periféricos"
+        ],
+        [
+          "Longevidad",
+          "35–50 años"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta cuando defiende crías, refugio o territorio"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El señor de los desfiladeros boscosos"
+        },
+        {
+          "type": "p",
+          "text": "El Oni no se oculta de la misma manera que las criaturas pequeñas. Su presencia convierte el bosque en un lugar donde hasta el sonido de una rama que se rompe resulta amenazante. Desde lejos puede confundirse con un guerrero cubierto de pieles, pero no lleva armas ni conoce juramento alguno: es un primate gigantesco, de músculos extraordinarios, protuberancias córneas sobre la frente y un temperamento reservado que puede transformarse en violencia instantánea. Los habitantes de Iwagiri llevan generaciones interpretando sus rugidos como desafíos de los espíritus de la montaña."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Posee un tórax ancho, brazos más largos que las piernas y manos con dedos gruesos, útiles para trepar y manipular troncos. La espalda se cubre de un pelaje oscuro con matices rojizos, mientras rostro, pecho y palmas muestran piel curtida. Las protuberancias que parecen cuernos surgen del hueso frontal y varían con la edad; no son armas principales, pero protegen la cabeza durante choques entre machos. Sus caninos sobresalen al abrir la boca, aunque la mordida sirve tanto para amenaza como para defensa. La musculatura de hombros y caderas permite desplazar piedras y derribar árboles delgados."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa bosques de montaña poco transitados, próximos a cursos de agua y paredes rocosas con cavernas secas. Los grupos mantienen rutas que unen frutos de temporada, refugios contra tormentas y zonas de descanso. En verano ascienden a cotas más frías; durante inviernos intensos descienden hacia los bosques templados, donde aumenta el conflicto con pastores. No construyen fortificaciones: acomodan ramas y hojas en repisas resguardadas, y en ocasiones ocupan cavidades abiertas por antiguos desprendimientos. Las huellas profundas, las cortezas levantadas y los troncos volteados revelan su proximidad."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "La mayor parte de su dieta es vegetal: tubérculos, hongos, frutos de alta montaña y brotes de árboles. Sin embargo, consume huevos, pequeños mamíferos y carne cuando encuentra presas vulnerables. Los ejemplares grandes pueden matar ciervos heridos y aprovechar cadáveres de ganado. Esa versatilidad explica su supervivencia en años de malas cosechas naturales. Como dispersores de semillas contribuyen a la regeneración del bosque, pero sus incursiones ocasionales en terrazas y graneros generan pérdidas graves para aldeas aisladas."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Los Oni no forman ejércitos ni responden a una dirección humana. Mantienen relaciones familiares reconocibles, reconocen voces de otros miembros y advierten al intruso mediante golpes de manos contra el suelo o árboles. Antes de una carga levantan la melena, enseñan dientes y producen una vibración grave de pecho. Si el viajero se retira lentamente, muchas confrontaciones terminan sin sangre. Si se separa a una cría de su madre o se persigue a un macho herido, la reacción es devastadora. Su fuerza permite lanzar piedras y golpear enemigos con troncos arrancados, hechos que alimentaron las leyendas de gigantes armados."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La hembra pare normalmente una cría tras una gestación prolongada. La infancia dura varios años: los juveniles aprenden plantas comestibles, rutas seguras y señales de peligro acompañando a los adultos. Los machos jóvenes son expulsados cuando alcanzan madurez y vagan solos antes de formar nuevos grupos. Esa dispersión suele coincidir con ataques sobre corrales, pues los individuos errantes desconocen límites humanos. Su longevidad es alta y la muerte de una hembra adulta afecta durante mucho tiempo la estabilidad familiar."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Para el Kushidō, perseguir a un Oni por orgullo constituye una muestra de falta de disciplina. Sus encuentros exigen leer gestos, conocer terreno y elegir cuándo retroceder. Algunos señores de clan han buscado matar ejemplares para exhibir sus cráneos; otros han protegido bosques donde viven familias antiguas como símbolos de soberanía sobre la montaña. Un cazador que regresa sin combatir, habiendo evitado una tragedia, suele ser mejor recibido por los expertos que quien vuelve con sangre sin haber entendido qué provocó la pelea."
+        },
+        {
+          "type": "p",
+          "text": "«No había dos cuernos en su cabeza, sino años de piedra. Y nada en su mirada pedía nuestra admiración». — Diario de una vigía de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-23",
+      "number": 23,
+      "name": "Kappa",
+      "subtitle": "",
+      "imgurId": "uU5QKF4",
+      "imgurPage": "https://imgur.com/uU5QKF4",
+      "facts": [
+        [
+          "Hábitat",
+          "Ríos, arrozales inundados, canales y lagunas interiores"
+        ],
+        [
+          "Dimensiones",
+          "0,9–1,3 m de largo; 35–75 kg"
+        ],
+        [
+          "Dieta",
+          "Omnívoro acuático: peces, cangrejos, anfibios, algas y vegetales"
+        ],
+        [
+          "Organización",
+          "Colonias de 4–15; parejas estacionales"
+        ],
+        [
+          "Longevidad",
+          "18–28 años"
+        ],
+        [
+          "Peligrosidad",
+          "Media; alta cerca de nidos en canales estrechos"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El habitante de los canales y los estanques"
+        },
+        {
+          "type": "p",
+          "text": "Los canales de Hanamori están llenos de manos invisibles. Algunas pertenecen a raíces sumergidas, otras a corrientes traicioneras; unas pocas son las extremidades palmeadas de un Kappa. Este anfibio de caparazón dorsal habita las aguas lentas y los recodos donde los agricultores construyen compuertas. Los antiguos cuentos le adjudican modales de ladrón y una extraña ceremonia con agua en la cabeza. La observación propone una explicación más terrenal: es una criatura territorial, inteligente en la búsqueda de alimento y dependiente de la humedad para regular su temperatura."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Tiene tronco compacto, piel verde oliva, ojos altos y manos de dedos palmeados muy flexibles. El caparazón, formado por placas endurecidas, protege el dorso contra golpes y mordeduras. En la parte superior de la cabeza se encuentra una depresión húmeda rodeada por tejido sensible; los campesinos creen que contiene su fuerza, pero parece desempeñar una función de termorregulación e hidratación. Sus extremidades posteriores son especialmente potentes, lo que le permite impulsarse bajo el agua y sujetarse a piedras frente a corrientes moderadas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Vive en estanques rodeados de vegetación, zanjas de riego, pozas de río y canales donde abundan peces y refugios. Prefiere aguas relativamente templadas; cuando el caudal se enfría desciende hacia remansos o se oculta bajo lodo espeso. Excava cavidades entre raíces y usa antiguos muros de piedra como guarida. La expansión de cultivos crea refugios artificiales, pero el dragado de los canales destruye puestas y obliga a las colonias a desplazarse. Donde aparece uno suele haber más: no conviene asumir que un estanque es seguro tras ahuyentar al primero."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Consume peces pequeños, renacuajos, cangrejos, moluscos, insectos acuáticos y brotes tiernos. Su dieta cambia según la estación y la disponibilidad de agua. En años secos roba peces atrapados en acequias y aprovecha los arrozales inundados, por lo que se convierte en competidor directo de granjas de cultivo acuático. Sin embargo, también reduce poblaciones de ciertos insectos y pequeños animales que perjudican los campos. Es cazador de emboscada y carroñero ocasional, no un depredador especializado en humanos."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Las colonias mantienen territorios acuáticos conectados por canales. Se comunican mediante golpes cortos sobre el agua, silbidos y movimientos de la cabeza. Los ejemplares jóvenes se acercan a personas por curiosidad y esperan alimentos junto a puentes, conducta que los adultos pueden interpretar como una invitación peligrosa a aproximarse. Si un viajero cae al agua y se agita, el Kappa puede sujetarlo por instinto de defensa territorial, causando ahogamiento sin intención de alimentarse. Los ataques se intensifican durante la crianza y en remansos con visibilidad pobre."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras depositan huevos en cámaras protegidas por limo y raíces; ambos progenitores colaboran en vigilar el acceso. Los juveniles son acuáticos casi por completo y dependen durante meses de pequeños invertebrados. La mortalidad aumenta cuando se secan las zanjas o los agricultores vacían estanques. Alcanzan madurez relativamente pronto comparados con los grandes monstruos de las islas. Una colonia estable puede persistir durante generaciones dentro del mismo sistema de riego."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen sostienen una relación ambigua con ellos. Los campesinos construyen rejillas para impedir su entrada a los depósitos de pesca y los niños aprenden a no jugar cerca de pozas profundas. En algunos templos se dejan pepinos y pescado junto a un arroyo como ofrenda simbólica, no porque los sacerdotes acepten una divinidad acuática, sino como gesto de reconciliación con las fuerzas del territorio. Los cazadores que entienden su conducta prefieren trasladar compuertas y cercar nidos a emprender exterminios que dañen el equilibrio de los humedales."
+        },
+        {
+          "type": "p",
+          "text": "«El agua parecía inmóvil, pero una mano apareció donde ninguna persona podía mantenerse en pie». — Registro de un cuidador de canales."
+        }
+      ]
+    },
+    {
+      "id": "yugen-24",
+      "number": 24,
+      "name": "Suiko",
+      "subtitle": "",
+      "imgurId": "ouHOzHX",
+      "imgurPage": "https://imgur.com/ouHOzHX",
+      "facts": [
+        [
+          "Hábitat",
+          "Desembocaduras, estuarios rocosos y ríos profundos del litoral"
+        ],
+        [
+          "Dimensiones",
+          "2,4–3,3 m de longitud; 160–280 kg"
+        ],
+        [
+          "Dieta",
+          "Peces grandes, aves acuáticas, crías de ungulados y carroña"
+        ],
+        [
+          "Organización",
+          "Solitario; encuentro de parejas durante el celo"
+        ],
+        [
+          "Longevidad",
+          "20–30 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alta, especialmente cerca del agua y durante la noche"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El tigre de agua de los estuarios"
+        },
+        {
+          "type": "p",
+          "text": "Suiko es el nombre que reciben los depredadores que parecen haber aprendido a cazar sin reconocer la frontera entre tierra y río. Su cuerpo largo y musculoso, la cabeza de rasgos felinos y las extremidades adaptadas para nadar explican por qué los Yugen lo llaman “tigre del agua”. A diferencia del Kappa, que protege un remanso y se alimenta de presas menores, el Suiko acecha animales grandes. Su aparición vuelve peligrosos pasos que durante meses parecían seguros y obliga a modificar la hora de cruce de ganado y viajeros."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Presenta hocico alargado, vibrisas rígidas, mandíbula poderosa y pelaje corto impregnado de aceites impermeables. Las extremidades delanteras tienen musculatura apta para sujetar presas sobre piedra mojada y membranas parciales entre los dedos. La cola sirve como timón al nadar y contrapeso durante saltos desde orillas escarpadas. Los individuos de estuario muestran tonos oscuros y marcas claras irregulares que rompen su silueta entre espuma y sombras. La apariencia recuerda una mezcla de gran felino, nutria y cánido, aunque se trataría de una línea propia de la fauna fantástica de las islas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Habita ríos de caudal profundo, desembocaduras cubiertas de rocas y costas donde los bancos de peces llegan con las mareas. Descansa en cuevas con dos accesos, uno cercano al agua y otro protegido sobre la línea de pleamar. Las crecidas aumentan su territorio porque abren corredores entre cursos fluviales y canales de cultivo. No tolera bien la presencia de otros adultos de su especie; mantiene extensas zonas de caza y puede recorrer varios kilómetros en una noche. Los rastros incluyen marcas de uñas en roca, olor aceitoso y huesos depositados en repisas secas."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Los peces de gran talla constituyen la mayor parte de la dieta. También captura aves en descansaderos, mamíferos que beben a la orilla y presas heridas arrastradas por el río. Aprovecha las mareas para acorralar peces contra bancos someros y conserva energía permaneciendo inmóvil durante periodos prolongados. Su apetito puede competir con las capturas humanas cuando las corrientes concentran cardúmenes junto a aldeas de pescadores. Su mordida es peligrosa por la fuerza y la dificultad de liberar una extremidad atrapada."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Caza mediante emboscada: observa desde el agua, utiliza piedras para ocultar el cuerpo y ataca en una explosión corta de movimiento. Evita confrontaciones largas en campo abierto; su ventaja consiste en retirar la presa hacia el agua, donde el peso del adversario juega en contra. Los ataques a personas son poco habituales, pero pueden producirse si alguien atraviesa un canal en oscuridad o intenta arrebatarle una captura. No forma manadas. Durante el celo, las parejas utilizan vocalizaciones graves que se oyen desde ambas orillas de un estuario."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras escogen guaridas altas, fuera del alcance de marejadas, y paren camadas pequeñas. Las crías permanecen ocultas hasta dominar natación y escalada, dos habilidades necesarias para sobrevivir en una geografía abrupta. Su crecimiento es relativamente lento y la madre puede mantener el territorio más de un año para protegerlas. Los juveniles dispersos son los que con mayor frecuencia llegan a zonas pobladas, pues los adultos dominantes ocupan los mejores cauces."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "La tradición Yugen afirma que un Suiko puede reconocer por el ruido a un pescador habitual. Algunos lo consideran inteligencia refinada; los especialistas observan hábitos y memoria espacial. Los tres clanes han debido levantar muelles elevados y establos alejados de canales profundos. La piel impermeable y la dentadura se aprovechan como materiales, pero la caza es arriesgada y se recomienda sólo cuando existe peligro persistente para una comunidad. El animal demuestra que un territorio fértil puede esconder un depredador formidable a pocos pasos de los cultivos."
+        },
+        {
+          "type": "p",
+          "text": "«El puente era estrecho. En el agua no había olas. Sólo dos ojos que esperaban que diésemos un paso más». — Bitácora de un barquero de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-25",
+      "number": 25,
+      "name": "Ōnamazu",
+      "subtitle": "",
+      "imgurId": "3ybSr8k",
+      "imgurPage": "https://imgur.com/3ybSr8k",
+      "facts": [
+        [
+          "Hábitat",
+          "Grandes ríos, pozas interiores y fondos blandos de lagunas"
+        ],
+        [
+          "Dimensiones",
+          "6–11 m de longitud en ejemplares viejos; varias toneladas"
+        ],
+        [
+          "Dieta",
+          "Omnívoro acuático: peces, crustáceos, cadáveres y sedimentos nutritivos"
+        ],
+        [
+          "Organización",
+          "Solitario; agregaciones estacionales de alimento"
+        ],
+        [
+          "Longevidad",
+          "60–100 años o más"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta por masa y desplazamiento de agua; agresividad moderada"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El gran bagre de los diques y las aguas profundas"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen temen los temblores de la tierra, pero los campesinos de las riberas temen otro movimiento: aquel que nace bajo un río aparentemente quieto y rompe sus orillas sin advertencia. El Ōnamazu es un bagre colosal, con cuerpo largo, barbillones sensoriales y cabeza inmensa, capaz de remover toneladas de fango cuando gira en un cauce estrecho. Su fama de causante de terremotos procede de inundaciones y roturas de diques que coinciden con sus desplazamientos; los estudiosos distinguen entre el daño hidráulico comprobable y las leyendas que lo convierten en dueño del subsuelo."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "La cabeza es ancha, achatada y cubierta por piel gruesa sin escamas visibles. Varios pares de barbillones exploran grietas, corrientes y posibles alimentos mediante sensibilidad química y mecánica. La boca enorme permite aspirar peces y materia orgánica sin persecuciones largas. Su musculatura lateral se concentra en un tronco poderoso y una cola capaz de producir desplazamientos violentos del agua. Los individuos veteranos portan cicatrices, parásitos adheridos y una coloración oscura que los vuelve casi invisibles en fondos turbios. La visión es secundaria respecto del tacto y la percepción de vibraciones."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Habita pozas profundas que resisten las estaciones secas, remansos bajo cascadas y lagunas conectadas con grandes ríos. Necesita rutas acuáticas amplias, de modo que la construcción de diques modifica su migración y puede provocar concentraciones peligrosas en un solo tramo. Durante las lluvias aprovecha cauces inundados para alcanzar nuevas zonas de alimento. Los pescadores reconocen su presencia por remolinos lentos, barro levantado sin tormenta y ausencia temporal de cardúmenes. Rara vez emerge por completo, excepto al quedar atrapado en aguas descendentes."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Es un oportunista capaz de consumir enormes bancos de peces pequeños, crustáceos, cadáveres arrastrados por las crecidas e invertebrados del fondo. Los adultos muy grandes pueden absorber presas voluminosas, pero no cazan embarcaciones por gusto. Su alimentación remueve sedimentos y redistribuye nutrientes, aunque también perjudica criaderos y trampas tradicionales. En aguas ricas en alimento puede pasar semanas sin desplazamientos importantes. Cuando los recursos escasean emprende viajes que afectan los márgenes y las instalaciones humanas."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "La conducta normal es lenta y poco agresiva. El peligro aparece cuando se ve encerrado, cuando una crecida le obliga a cruzar zonas poco profundas o cuando una embarcación queda sobre su cuerpo. Un golpe de cola puede romper un bote pequeño; un giro junto a un dique viejo puede desprender piedra y madera. No se conoce coordinación grupal. Los individuos parecen aprender recorridos estacionales y reaccionar a ciertas vibraciones de manera estable, aunque atribuirles intención de destruir pueblos sería confundir escala corporal con maldad."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hipótesis locales sitúan la reproducción en grandes lagunas aisladas durante la estación de lluvias, cuando la disponibilidad de alimento favorece el crecimiento juvenil. Los ejemplares jóvenes tienen pocos metros y son vulnerables a depredadores marinos que penetran en estuarios. Alcanzar la talla legendaria requiere décadas. Su población es naturalmente escasa: cada adulto precisa enormes recursos y corredores libres. Una matanza indiscriminada puede tardar generaciones en compensarse."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "La ingeniería Yugen se adapta a esta especie mediante canales de descarga, pilares protegidos y muelles alejados de pozas antiguas. Los sacerdotes celebran ceremonias de apaciguamiento cuando se levanta una presa nueva; los administradores más prácticos consultan a pescadores veteranos antes de modificar un río. El Ōnamazu no merece la condición de enemigo de guerra, pero ha provocado pérdidas suficientes para figurar entre las grandes amenazas hidráulicas. Conocer su ruta es una cuestión de supervivencia económica para las aldeas agrícolas."
+        },
+        {
+          "type": "p",
+          "text": "«No vimos al monstruo. Primero se movió el río, después el puente y sólo al final apareció un bigote tan largo como nuestro bote». — Informe de un guardacauce."
+        }
+      ]
+    },
+    {
+      "id": "yugen-26",
+      "number": 26,
+      "name": "Kawauso",
+      "subtitle": "",
+      "imgurId": "hmgOumO",
+      "imgurPage": "https://imgur.com/hmgOumO",
+      "facts": [
+        [
+          "Hábitat",
+          "Ríos rápidos, arroyos de montaña y desembocaduras con vegetación"
+        ],
+        [
+          "Dimensiones",
+          "1,3–1,9 m de longitud total; 25–55 kg"
+        ],
+        [
+          "Dieta",
+          "Peces, moluscos, crustáceos y anfibios"
+        ],
+        [
+          "Organización",
+          "Parejas y familias de 3–7 individuos"
+        ],
+        [
+          "Longevidad",
+          "12–18 años"
+        ],
+        [
+          "Peligrosidad",
+          "Baja en circunstancias ordinarias; media si se acorrala"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La nutria que imita la voz de la ribera"
+        },
+        {
+          "type": "p",
+          "text": "El Kawauso habita las aguas donde el río todavía conserva memoria de la montaña. Desde un puente puede parecer una nutria común, aunque su tamaño, su capacidad vocal y la paciencia con que observa a los viajeros revelan una especie distinta. Los relatos afirman que adopta figura humana para engañar pescadores; las observaciones indican un mamífero acuático capaz de reproducir sonidos repetitivos, silbidos y algunos tonos semejantes a una voz, siempre ligados a señales de comunicación y curiosidad."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Posee un cuerpo alargado y flexible, pelaje denso impermeable, patas cortas con membranas interdigitales y cola ancha que le ayuda a dirigir el impulso. Sus vibrisas detectan presas en agua turbia y la dentición mezcla colmillos de sujeción con molares adaptados a triturar conchas. La garganta alberga estructuras vocales más desarrolladas que las de otras nutrias del continente, por lo que produce trinos, sonidos guturales y secuencias aprendidas. Los ojos negros se sitúan altos y permiten vigilar la superficie con la mayor parte del cuerpo sumergida."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere ríos de agua relativamente limpia, lechos de piedra y orillas con raíces donde excavar madrigueras. También utiliza muelles abandonados y canales conectados con el mar, pero evita las zonas de agua demasiado estancada. Sus familias establecen circuitos de pesca que alternan pozas, rápidos y bancos de moluscos. Una madriguera suele disponer de entrada sumergida y cámara seca sobre el nivel de crecida habitual. Las huellas presentan cinco dedos y marcas de arrastre cuando transporta una presa grande."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta se basa en peces, cangrejos y moluscos, con captura ocasional de anfibios o aves pequeñas. La fuerza de la mandíbula le permite romper conchas que otras especies abandonan. Es cazador ágil y aprende dónde quedan peces atrapados después de la bajada del agua. Una familia puede reducir poblaciones locales de presas pequeñas, pero también consume especies que infestan canales. La competencia con pescadores ocurre sobre todo cerca de trampas y estanques de cría."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Se comunica mediante chillidos, golpes sobre piedra y una amplia variedad de vocalizaciones que pueden recordar fragmentos de una conversación humana. No hay evidencia de que comprenda el idioma; la imitación es resultado de aprendizaje acústico. Los jóvenes son juguetones, pero los adultos defienden fuertemente las madrigueras cuando hay crías. Fuera de la reproducción, una familia puede tolerar otras en pasos amplios si existe suficiente alimento. Los ataques a personas son raros y suelen consistir en mordidas al intentar atraparla."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las crías nacen en cámaras secas revestidas de hojas y fibras. Ambos progenitores enseñan a nadar, capturar peces y reconocer peligros. La estructura familiar suele mantenerse durante la primera estación de los juveniles, que después se dispersan río arriba o hacia la costa. Su reproducción es moderada, pero la contaminación y el encauzamiento de cursos de agua reducen rápidamente los refugios disponibles. Una familia estable suele regresar a las mismas piedras soleadas durante años."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen cuentan historias de Kawauso que repiten el llanto de un niño para atraer curiosos a un remanso. El peligro real es otro: los viajeros se aproximan demasiado a una orilla resbaladiza creyendo escuchar una persona. Los templos ribereños consideran a la especie una advertencia sobre la interpretación precipitada de los sentidos. En zonas agrícolas se la tolera cuando no daña pesquerías; los estudiosos valoran su presencia como señal de agua relativamente sana y alimento suficiente."
+        },
+        {
+          "type": "p",
+          "text": "«La voz llamó dos veces desde el molino. Cuando miramos, sólo había una nutria con un pez entre los dientes». — Registro de un molinero de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-27",
+      "number": 27,
+      "name": "Mizuchi",
+      "subtitle": "",
+      "imgurId": "Mu88QXK",
+      "imgurPage": "https://imgur.com/Mu88QXK",
+      "facts": [
+        [
+          "Hábitat",
+          "Lagos profundos, brazos fluviales, estuarios y cavernas sumergidas"
+        ],
+        [
+          "Dimensiones",
+          "8–15 m de longitud; gran variación entre individuos"
+        ],
+        [
+          "Dieta",
+          "Peces de gran talla, aves acuáticas y mamíferos que entran al agua"
+        ],
+        [
+          "Organización",
+          "Solitario; defensa territorial de grandes masas de agua"
+        ],
+        [
+          "Longevidad",
+          "50–90 años"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema en hábitat acuático, baja fuera del agua"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La serpiente de los lagos y de los deltas"
+        },
+        {
+          "type": "p",
+          "text": "En las desembocaduras de las islas, los pescadores distinguen dos clases de oleaje: el que trae el viento y el que nace cuando algo respira bajo la superficie. El Mizuchi es un reptil serpentino, largo y pesado, provisto de crestas dorsales y mandíbula capaz de sujetar presas grandes. Las esculturas de templos suelen conferirle cornamentas y bigotes ceremoniales, rasgos que en los ejemplares reales corresponden a apéndices sensoriales y placas óseas. Su figura se acerca a la de un dragón acuático sin necesidad de atribuirle control sobre el clima."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo está cubierto por escamas robustas que alternan placas de protección y zonas flexibles. Una cola comprimida lateralmente produce propulsión y permite giros bruscos; las extremidades, pequeñas respecto del tronco, sirven para maniobrar entre rocas. En torno al hocico aparecen filamentos sensibles y una cresta que se despliega parcialmente durante exhibiciones territoriales. Los dientes cónicos miran hacia atrás, adecuados para sujetar peces resbaladizos. Bajo el agua, su cuerpo recuerda una corriente oscura que atraviesa el fondo antes de que aparezca la cabeza."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere masas de agua conectadas con ríos caudalosos y zonas profundas que se mantengan estables durante el año. Puede alcanzar los estuarios, pero rara vez permanece mucho tiempo en mar abierto. Sus refugios son cuevas parcialmente inundadas o zonas excavadas entre rocas de gran tamaño. Durante las lluvias usa afluentes anchos para buscar alimento y conquistar territorios nuevos. Los pescadores identifican sus rutas por escamas desprendidas, vegetación cortada a media profundidad y grandes peces que abandonan súbitamente una poza."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Consume peces grandes, aves acuáticas y mamíferos que cruzan ríos, aunque la caza de criaturas terrestres requiere una emboscada muy precisa. Utiliza la oscuridad del agua para aproximarse sin ser visto y captura con una mordida firme antes de sumergirse. Su metabolismo relativamente lento le permite pasar periodos prolongados entre comidas abundantes. Puede competir con el Ōnamazu por espacios profundos, pero sus dietas no son idénticas: el Mizuchi caza activamente grandes presas y el bagre aprovecha también materia orgánica del fondo."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos mantienen territorios extensos y reaccionan con violencia cuando otro ejemplar invade una zona de descanso. No persiguen embarcaciones de manera constante, pero pueden volcarlas si sienten golpes repetidos sobre su refugio o si una barca se interpone entre ellos y una presa. Su emboscada es rápida, seguida de largas pausas de inmovilidad. En tierra se desplazan con dificultad y evitan pendientes secas. El sonido más asociado a su presencia es una exhalación profunda que sale de la superficie como si el propio lago respirase."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras buscan ensenadas protegidas para depositar huevos en terrazas de grava por encima del agua. Los juveniles nacen relativamente pequeños y permanecen años en ríos secundarios, donde se alimentan de peces y anfibios. La mortalidad juvenil es alta por ataques de aves grandes, Suiko y otros depredadores. La madurez se alcanza lentamente y el tamaño máximo exige décadas. La especie es poco abundante, lo que hace excepcional la presencia simultánea de varios adultos en un mismo lago."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los tres clanes utilizan señales y boyas para marcar zonas donde se ha confirmado un Mizuchi. Algunos santuarios lo consideran guardián de aguas esenciales y prohíben perturbar sus refugios; otros pueblos organizan cacerías cuando sus rutas de pesca quedan bloqueadas. La prudencia aconseja desviar embarcaciones menores y mantener distancia de nidos. En el folclore, el Mizuchi castiga a los imprudentes; en la práctica, la mayor parte de sus víctimas se acercó demasiado a un territorio de caza desconocido."
+        },
+        {
+          "type": "p",
+          "text": "«No era una ola la que cruzó el lago. Era un cuerpo que había aprendido a parecerse al agua». — Testimonio de un pescador de Shiranui."
+        }
+      ]
+    },
+    {
+      "id": "yugen-28",
+      "number": 28,
+      "name": "Ushi-oni",
+      "subtitle": "",
+      "imgurId": "8VvkqQu",
+      "imgurPage": "https://imgur.com/8VvkqQu",
+      "facts": [
+        [
+          "Hábitat",
+          "Acantilados, cuevas intermareales y arrecifes rocosos de Shiranui"
+        ],
+        [
+          "Dimensiones",
+          "2,5–4,5 m de ancho de caparazón; hasta 6 m con apéndices"
+        ],
+        [
+          "Dieta",
+          "Carnívoro carroñero: moluscos, peces, crustáceos y mamíferos muertos"
+        ],
+        [
+          "Organización",
+          "Solitario; reuniones fugaces en época reproductiva"
+        ],
+        [
+          "Longevidad",
+          "35–55 años"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema en espacios cerrados y mareas bajas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El crustáceo cornudo de la costa escarpada"
+        },
+        {
+          "type": "p",
+          "text": "A la hora de la bajamar, las rocas de Shiranui descubren grietas que parecen vacías hasta que algo se desplaza en su interior. El Ushi-oni es un monstruo intermareal de caparazón pesado, patas articuladas y una cabeza marcada por proyecciones córneas que recuerdan la frente de un toro. Sus extremidades delanteras poseen pinzas capaces de quebrar madera y huesos. Para los pescadores constituye la pesadilla de las cuevas estrechas: una criatura que no necesita perseguir mucho, porque el terreno suele hacer el trabajo por ella."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Posee un cefalotórax bajo y ancho, cubierto por placas irregulares de aspecto pétreo. Los dos apéndices frontales recuerdan cuernos y sirven en parte como protección y elemento de exhibición durante disputas. Las patas largas terminan en ganchos capaces de aferrarse a roca mojada, y las pinzas mayores presentan bordes trituradores. Los ojos se sitúan lateralmente, en pedúnculos cortos; su percepción química le permite detectar restos orgánicos incluso en aguas turbias. El color varía del gris algoso al marrón oscuro, proporcionando camuflaje entre rocas y algas adheridas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa plataformas rocosas de marea, arrecifes parcialmente cubiertos y cavernas conectadas directamente con el mar. Busca cavidades con agua retenida durante las mareas bajas y acceso a corredores profundos para retirarse cuando llegan tormentas. No tolera bien fondos arenosos abiertos, donde pierde estabilidad y puede ser atacado por grandes depredadores marinos. Los rastros incluyen caparazones de presas fracturados, algas arrancadas y marcas paralelas de patas sobre piedra húmeda. La llegada de temporales puede desplazar ejemplares hacia puertos poco acostumbrados a su presencia."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta de moluscos de concha gruesa, peces varados, otros crustáceos y carroña de grandes animales arrastrada por corrientes. También puede capturar focas juveniles o animales que quedan atrapados en una poza intermareal. Su estrategia combina quietud, olor y un ataque rápido con pinzas. No necesita comer diariamente; almacena energía y aprovecha picos de abundancia asociados a marejadas. Compite con pescadores por mariscos valiosos y puede destruir trampas si encuentra alimento dentro."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es territorial y poco tolerante frente a individuos de su talla. Durante la bajamar permanece a la sombra de rocas y se defiende mediante una secuencia de golpes de pinza. Si una persona queda entre él y el mar, puede producirse una confrontación mortal. Sus ataques no derivan de crueldad, sino de defensa del refugio y aprovechamiento oportunista de presas vulnerables. En agua profunda se mueve con más seguridad; sobre tierra seca resiste poco tiempo. Las crías y adultos pequeños buscan refugios distintos para evitar el canibalismo."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción está vinculada a determinadas mareas estacionales. Las hembras portan grandes masas de huevos bajo el abdomen y liberan larvas en corrientes protegidas, que pasan sus primeros meses entre plancton y arrecifes. Muy pocas sobreviven hasta alcanzar tamaño adulto. Los jóvenes mudan el caparazón repetidas veces y se vuelven vulnerables durante esos periodos. La longevidad estimada es elevada, con crecimiento cada vez más lento tras la madurez."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "El tercer clan debe mantener patrullas de bajamar para revisar cuevas donde trabajan recolectores de algas y mariscos. Los arpones son poco eficaces contra el caparazón; las técnicas tradicionales emplean largas pértigas, redes y retirada coordinada. Las pinzas y placas se aprovechan en herramientas y ornamentos, pero obtenerlas exige arriesgar numerosas vidas. En cantos de Shiranui se afirma que el Ushi-oni castiga a quienes toman del mar más de lo necesario; es una moralización de un hecho práctico: la codicia puede llevar a explorar la grieta equivocada."
+        },
+        {
+          "type": "p",
+          "text": "«La cueva no se cerró sobre nosotros. Fueron dos pinzas las que ocuparon la salida». — Relato de un mariscador superviviente."
+        }
+      ]
+    },
+    {
+      "id": "yugen-29",
+      "number": 29,
+      "name": "Umibōzu",
+      "subtitle": "",
+      "imgurId": "Yk8ehMX",
+      "imgurPage": "https://imgur.com/Yk8ehMX",
+      "facts": [
+        [
+          "Hábitat",
+          "Mar profundo, corrientes pelágicas y proximidades de fosas oceánicas"
+        ],
+        [
+          "Dimensiones",
+          "Diámetro superficial aparente de 8–20 m; extensión subacuática desconocida"
+        ],
+        [
+          "Dieta",
+          "Filtrador de cardúmenes, organismos gelatinosos y materia orgánica"
+        ],
+        [
+          "Organización",
+          "Solitario; avistamientos extremadamente infrecuentes"
+        ],
+        [
+          "Longevidad",
+          "Desconocida; quizás varias décadas"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema para embarcaciones pequeñas por desplazamiento de agua"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La sombra inmensa de las aguas exteriores"
+        },
+        {
+          "type": "p",
+          "text": "Los navegantes de Shiranui utilizan el nombre Umibōzu para una aparición que no parece cuerpo animal hasta que el agua comienza a moverse contra el viento. Una masa negra y redondeada emerge en medio del oleaje y permanece unos instantes como la cabeza de un monje sin rostro. El mito le atribuye la voluntad de hundir navíos; la interpretación naturalista considera la posibilidad de un organismo marino colosal, de tejido gelatinoso oscuro, que asciende para alimentarse o regular su posición en corrientes profundas."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su superficie visible es lisa, húmeda y muy oscura, con pliegues que parecen cicatrices cuando la luz incide lateralmente. Bajo el agua podría poseer largos lóbulos blandos y cavidades filtradoras, pero ningún ejemplar ha sido examinado completo. La escasez de órganos visibles favorece interpretaciones fantásticas: algunos testigos dicen haber visto ojos, otros describen orificios que se abren y cierran como respiraderos. La posibilidad de que varias especies distintas estén agrupadas bajo un solo nombre tampoco puede descartarse. Los registros más fiables coinciden en su enorme masa y en su movimiento casi vertical al emerger."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Sólo se ha observado en aguas profundas y corrientes exteriores que conectan el mar de Ithar’iamil con regiones oceánicas más abiertas. Parece evitar las bahías someras, aunque las tormentas pueden empujarlo hacia rutas comerciales. Su ascenso suele producirse de noche o con visibilidad reducida, circunstancia que puede ser biológica o simplemente fruto de que las observaciones más dramáticas quedan asociadas a temporales. Los pescadores experimentados buscan cambios inexplicables en la densidad de peces y grandes remolinos que no coinciden con mareas conocidas."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Si se trata de un organismo filtrador de gran tamaño, necesitaría consumir enormes cantidades de peces pequeños, plancton y cuerpos gelatinosos. Algunos creen que abre cavidades para concentrar presas y aprovechar corrientes superficiales. Su dieta exacta sigue sin comprobarse. No hay pruebas de ataques depredadores dirigidos contra seres humanos, pero el oleaje generado por su ascenso puede partir remos, desestabilizar cascos y hacer imposible una maniobra de evasión. Es peligroso porque existe a una escala que supera las posibilidades de una embarcación ordinaria."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Parece poco agresivo en el sentido convencional. Emerge, permanece brevemente y se sumerge, dejando un mar agitado que puede durar varios minutos. Los relatos sobre persecuciones prolongadas son inconsistentes y podrían deberse a corrientes o varios ascensos del mismo organismo. La ausencia de comportamiento social documentado y la dificultad de seguirlo bajo el agua hacen que su ecología sea uno de los grandes misterios de los navegantes Yugen. Es una de las pocas criaturas que han inspirado alianzas temporales entre clanes rivales para organizar expediciones."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "No se conocen huevos, crías ni parejas. Algunos eruditos sostienen que las formas juveniles son organismos mucho más pequeños confundidos con fauna gelatinosa común, que sólo al crecer adquieren la silueta aterradora del adulto. Otros sugieren reproducción en profundidades inaccesibles. La incertidumbre debe conservarse como parte de la ficha: un bestiario convincente no exige fingir que sus autores han visto lo imposible. La longevidad permanece abierta a revisión hasta obtener observaciones directas."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen no lo cazan para gloria ni para comercio. Se vigilan rutas y se transmiten señales por faros cuando aparece una sombra sospechosa en mar exterior. Los templos relacionan su forma oscura con la humillación de quienes creen dominar todo lo que navegan. Los patrones de barcos, en cambio, recuerdan instrucciones sencillas: no acercarse, no golpear el agua, mantener rumbo libre y esperar que la criatura termine su ascenso. Un solo encuentro bastó para hundir numerosas leyendas de invulnerabilidad entre capitanes ambiciosos."
+        },
+        {
+          "type": "p",
+          "text": "«No había rostro que mirar. Y, sin embargo, todos sentimos que el mar nos estaba observando». — Crónica de una travesía entre islotes."
+        }
+      ]
+    },
+    {
+      "id": "yugen-30",
+      "number": 30,
+      "name": "Shachihoko",
+      "subtitle": "",
+      "imgurId": "KU03M4E",
+      "imgurPage": "https://imgur.com/KU03M4E",
+      "facts": [
+        [
+          "Hábitat",
+          "Bahías, canales entre islotes y arrecifes con corrientes moderadas"
+        ],
+        [
+          "Dimensiones",
+          "3,5–5,5 m de longitud; 250–600 kg"
+        ],
+        [
+          "Dieta",
+          "Peces, cefalópodos y crustáceos grandes"
+        ],
+        [
+          "Organización",
+          "Parejas estacionales; grupos de 2–4 juveniles"
+        ],
+        [
+          "Longevidad",
+          "25–40 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alta para buzos y embarcaciones menores"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El pez felino de las ensenadas de Shiranui"
+        },
+        {
+          "type": "p",
+          "text": "Sobre los tejados de las fortalezas de Shiranui aparecen figuras con cabeza de bestia y cuerpo de pez. Muchos visitantes creen que son adornos inventados, pero los pescadores conocen al Shachihoko: un depredador marino de mandíbula ancha, cuerpo flexible y marcas contrastadas sobre la piel. Sus movimientos bajo la espuma recuerdan los de un gran pez veloz, mientras la forma de la cabeza y la agresividad de las emboscadas han llevado a compararlo con un felino. Se trata de una de las criaturas más reconocibles de los canales que separan los pequeños islotes del tercer clan."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Presenta cabeza ancha, ojos frontolaterales, mandíbula potente y un cuerpo hidrodinámico prolongado en aletas musculosas. Su patrón de manchas oscuras y claras desdibuja la silueta en agua agitada. Una cresta dorsal endurecida se levanta durante las exhibiciones territoriales, origen de numerosas esculturas de tejado. El hocico posee vibrisas cortas o estructuras sensitivas que detectan movimientos cercanos; estas características explican el apodo de pez felino sin convertirlo en mamífero. Los adultos pueden impulsarse parcialmente fuera del agua al sorprender peces o defender una zona de cría."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere aguas entre arrecifes, canales angostos y ensenadas donde las mareas concentran peces. Reposa en cuevas marinas abiertas por debajo de los acantilados y aprovecha las corrientes para patrullar grandes tramos sin gastar demasiada energía. Durante temporales evita la superficie y desciende a fondos protegidos. Su presencia se advierte por peces que saltan de improviso y por marcas de escamas o tejidos sobre roca después de una persecución. Los ejemplares viejos dominan pasos concretos que conocen con extraordinaria precisión."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Caza peces de cardumen, calamares y crustáceos grandes. Su estrategia es la aproximación desde abajo, seguida de aceleración breve y mordida lateral. Cuando la presa huye hacia una pared rocosa, utiliza la topografía para limitar sus movimientos. También aprovecha restos de pesca arrojados desde embarcaciones, conducta que resulta peligrosa porque lo habitúa a rondar puertos. No se alimenta de personas, pero puede confundir un nadador cargado de pescado o un buzo con una oportunidad de captura."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es un depredador territorial; suele mantenerse solo o con pareja durante la reproducción. Los jóvenes forman grupos pequeños que recorren zonas menos productivas antes de competir por una ensenada. Puede embestir objetos flotantes si interpreta que invaden un corredor de caza, y sus ataques son rápidos y difíciles de prever bajo espuma. Fuera del agua no es una criatura funcional; su poder depende de la natación, la sorpresa y el conocimiento del relieve submarino."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras depositan puestas protegidas en grietas de arrecife, donde los progenitores vigilan durante semanas. Los juveniles son pequeños y dependen de bancos de peces y cobertura rocosa para evitar depredadores mayores. El crecimiento es relativamente lento y los individuos viejos alcanzan tamaños que inspiran especial respeto. Las marejadas pueden destruir nidos y desplazar poblaciones enteras hacia nuevos canales. Por ello, algunas bahías alternan años de abundancia con periodos donde apenas se observa la especie."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los Shachihoko ocupan un lugar doble en la cultura del tercer clan: son amenazas reales para pescadores y figuras de protección instaladas en tejados y puertas. El símbolo no expresa que la criatura sea dócil, sino la esperanza de que su ferocidad guarde el hogar como guarda su propio territorio. Los pescadores señalan con boyas las áreas de crianza y evitan limpiar redes dentro de canales muy estrechos. La captura de un adulto puede aportar materiales apreciados, pero su caza requiere organización naval y un conocimiento preciso de mareas y arrecifes."
+        },
+        {
+          "type": "p",
+          "text": "«En la puerta del castillo había un Shachihoko de bronce. Bajo el puente nadaba uno de carne, y ése sí exigía respeto». — Relato de un recaudador de Shiranui."
+        },
+        {
+          "type": "h",
+          "text": "Apéndice · Los cauces que sostienen la isla"
+        },
+        {
+          "type": "p",
+          "text": "Las criaturas 21 a 30 permiten reconstruir una cadena de relaciones que empieza lejos de los puertos. Los Nuppeppō reciclan materia orgánica en turberas donde las inundaciones depositan restos de animales y vegetación; los grandes Oni, al alimentarse de frutos y raíces, dispersan semillas que permiten recuperar claros tras derrumbes y tormentas. Cada uno altera el paisaje sin necesidad de pertenecer al orden político que lo rodea. La presión demográfica de Hanamori hace que estos procesos pasen inadvertidos hasta que faltan nutrientes o desaparecen refugios."
+        },
+        {
+          "type": "p",
+          "text": "El Kappa, el Kawauso y el Suiko comparten sistemas fluviales, pero ocupan nichos distintos. El primero utiliza estanques y acequias donde abundan peces pequeños e invertebrados; el segundo recorre rápidos y orillas de piedra para consumir peces y moluscos; el tercero necesita presas grandes y extensos tramos de río. La eliminación indiscriminada de una especie puede alterar la abundancia de otra y modificar el rendimiento de una pesquería. El Ōnamazu, por su parte, no cumple una función idéntica a la del Mizuchi: el bagre utiliza fondos y carroña, mientras el reptil es un depredador activo de grandes presas."
+        },
+        {
+          "type": "p",
+          "text": "Las ciudades de Shiranui conviven con amenazas que proceden del movimiento de las mareas. El Ushi-oni ocupa cuevas rocosas y consume restos atrapados durante la bajamar; el Shachihoko patrulla canales de peces y zonas de arrecife; el Umibōzu aparece, si las observaciones son fiables, donde las corrientes oceánicas concentran grandes masas de alimento. No todos estos seres representan el mismo riesgo, y no todos deberían cazarse. La estrategia del pueblo Yugen consiste en aprender las estaciones, las rutas y las señales de cada especie antes de gastar guerreros en una batalla innecesaria."
+        },
+        {
+          "type": "p",
+          "text": "El agua es también una frontera política. Un río que atraviesa Iwagiri y Hanamori puede transportar sedimentos y presas hacia los asentamientos del tercer clan. Una presa militar construida sin cooperación puede alterar el hábitat de los Kappa y dirigir un Ōnamazu hacia tierras cultivadas. Del mismo modo, la destrucción de manglares o arrecifes para ampliar un puerto puede acercar Ushi-oni y Shachihoko a las poblaciones de pescadores. Esta interdependencia ofrece una razón ecológica para que incluso clanes enemigos necesiten pactos sobre las cuencas comunes."
+        },
+        {
+          "type": "p",
+          "text": "Los eruditos de Aeternalis deben distinguir observaciones verificadas, interpretaciones de los templos y relatos de guerra. La longevidad de un Umibōzu no puede suponerse conocida cuando ni siquiera su reproducción ha sido observada. El apelativo de “tigre del agua” no convierte literalmente al Suiko en un felino ordinario. El sobrenombre de “rey del terremoto” no hace al Ōnamazu capaz de mover continentes. En un bestiario digno de ese nombre, el desconocimiento también ocupa un lugar legítimo. Lo que todavía no puede demostrarse debe permanecer escrito como duda."
+        },
+        {
+          "type": "h",
+          "text": "Nota de edición sobre las imágenes"
+        },        {
+          "type": "p",
+          "text": "Este tomo contiene diez archivos PNG individualizados. Las láminas 21 y 22 tienen composición naturalista autónoma; las láminas 23–30 proceden de selecciones pictóricas generadas para el proyecto y se presentan como referencias visuales provisionales. En particular, los rasgos exactos de Suiko, Ushi-oni y Shachihoko deberán armonizarse con sus descripciones si se aprueba una iconografía definitiva. Se han conservado porque son imágenes ilustradas y no los bocetos poligonales rechazados en la entrega anterior."
+        }
+      ]
+    }
+  ]
+}

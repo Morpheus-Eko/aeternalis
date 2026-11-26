@@ -1,0 +1,976 @@
+{
+  "region": "bergheim",
+  "volume": 1,
+  "title": "Bergheim",
+  "source": "Bestiario_Bergheim_Volumen_I(2).docx",
+  "preface": [
+    "Ilustraciones individuales, fichas de ecología y notas atribuidas a los Ojopiedras",
+    "Las Cuatro Montañas no son un territorio poblado solamente por monstruos. Entre sus bosques, glaciares, quebradas y praderas se extienden relaciones antiguas de hambre, migración, reproducción y competencia. Cada gran depredador depende de presas, carroñeros y refugios; cada herbívoro altera a su vez el bosque y los caminos de quienes lo atraviesan. Esta primera entrega reúne diez criaturas terrestres de los ambientes fríos y templados de Bergheim, interpretadas como especies reconocibles y no como enemigos sin historia.",
+    "Las denominaciones evocan mitologías nórdicas, inuit, celtas y del norte europeo, pero los organismos y sus conductas son reinterpretaciones originales para Aeternalis. Las medidas, ciclos vitales y distribuciones se proponen con fines de coherencia narrativa; no representan datos de zoología real ni fichas ya aprobadas por la administración del foro.",
+    "Distribución: describe hábitats preferidos y corredores de movimiento, no límites políticos exactos. Medidas: valores orientativos de ejemplares adultos; los individuos excepcionalmente grandes son poco comunes. Amenaza: expresa el peligro potencial de un encuentro desfavorable, no una agresividad permanente hacia los viajeros. La presencia de maná se menciona únicamente cuando se justifica una alteración particular y nunca concede capacidades ilimitadas.",
+    "Los huargos de Valgard y los lobos de Sköll compiten por cérvidos y cabras en diferentes zonas; los amarok ocupan territorios altos y extensísimos que raramente permiten manadas. Los garms aprovechan cadáveres en gargantas y cavernas, mientras los linces de Yule regulan presas pequeñas en el sotobosque. Los osos Jötunn y Berserkr comparten ciertos recursos, pero suelen evitarlos en función de altitud y estación. Los jabalíes de Gullin sostienen numerosos depredadores mediante sus crías y alteran el suelo con el hocico; el verraco de Sæhrímnir es mucho más raro, grande y exigente en alimento.",
+    "Estas fichas sirven para expediciones, rastreo, cacerías, crianza, conflictos agrícolas y descubrimientos de fauna. Las observaciones atribuidas al Círculo de Faëandir funcionan como voz de mundo, no como reglas obligatorias de combate. Las ilustraciones independientes se incluyen en la carpeta Ilustraciones para facilitar su uso en fichas, mapas, entradas del foro y material visual."
+  ],
+  "creatures": [
+    {
+      "id": "bergheim-01",
+      "number": 1,
+      "name": "Huargo de Valgard",
+      "subtitle": "Cánido de gran porte · depredador social   |   Inspiración: Fenrir y los grandes lobos de los relatos nórdicos",
+      "imgurId": "cztiBC1",
+      "imgurPage": "https://imgur.com/cztiBC1",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Bosques fríos de Valgard, pasos entre valles y lindes de los corrales de cría."
+        ],
+        [
+          "MEDIDAS",
+          "1,20–1,55 m a la cruz; 150–280 kg; longitud total de 2,5–3,3 m."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Carnívoro oportunista: cérvidos, cabras, jabalíes jóvenes y carroña."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Manadas familiares de 5–9 individuos; ocasionalmente hasta 12."
+        ],
+        [
+          "CICLO VITAL",
+          "15–20 años; camadas de 2–4 cachorros; madurez a los 3–4 años."
+        ],
+        [
+          "AMENAZA",
+          "Alta en manada; especialmente al defender crías o presas."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  El huargo anuncia su presencia antes de mostrarse: una hilera de huellas demasiado anchas para un lobo ordinario, pelo oscuro enganchado a una rama y un silencio súbito entre las presas menores. En Valgard se le conoce mejor que a cualquier otro gran depredador. No porque sea manso, sino porque generaciones de domadores han aprendido a entender su jerarquía, sus miedos y sus límites. Una manada salvaje cruzando la nieve parece moverse como una sola criatura de muchas patas."
+        },
+        {
+          "type": "h",
+          "text": "Huargo de Valgard — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía y adaptación"
+        },
+        {
+          "type": "p",
+          "text": "Su estructura combina la caja torácica profunda de un corredor resistente con un cuello grueso capaz de estabilizar presas violentas. Las patas, anchas y provistas de pelo interdigital, reparten el peso sobre la nieve blanda; las uñas sirven más para afianzarse en roca o hielo que para desgarrar. La doble capa de pelaje presenta tonos ceniza, pardo y carbón, con un collar más largo alrededor de la nuca. La mandíbula es formidable, aunque su mayor ventaja consiste en sujetar mientras otros miembros de la manada inmovilizan. Los ejemplares de la misma especie varían mucho de tamaño según la calidad de la alimentación y la altitud."
+        },
+        {
+          "type": "h",
+          "text": "Territorio y desplazamientos"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere el mosaico de bosque, claro y cauce, donde puede acercarse sin ser visto y obligar a una presa a correr por terreno desfavorable. En invierno las manadas bajan siguiendo a los rebaños de herbívoros y los pasos abiertos por caravanas. Durante los deshielos regresan a corredores forestales más altos. Marcan piedras y árboles mediante olores y arañazos, pero evitan patrullar inútilmente todo su dominio: conocen las gargantas por donde transitan las presas y vigilan esos puntos de paso. Las cuadrillas de Jorundathr reconocen sus rutas como indicadores de desplazamientos mayores de fauna."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y lugar en el bioma"
+        },
+        {
+          "type": "p",
+          "text": "El huargo persigue ante todo cérvidos medianos, cabras rezagadas y ungulados enfermos; cuando la oportunidad se presenta también derriba jabalíes jóvenes. La caza exige gasto de energía: no ataca a cada animal que ve. Tras una captura importante, los adultos dominantes comen primero y los restos alimentan al resto del grupo, a córvidos y a pequeños carroñeros. Así contribuye a retirar animales debilitados y a repartir nutrientes por las laderas. En años de escasez puede acercarse a los corrales, motivo por el cual Valgard protege especialmente sus rutas ganaderas."
+        },
+        {
+          "type": "h",
+          "text": "Vida social y crianza"
+        },
+        {
+          "type": "p",
+          "text": "No es una horda de individuos violentos, sino una familia organizada alrededor de una pareja reproductora y su descendencia de distintas edades. Los adultos cooperan para cuidar a los cachorros, los alimentan por regurgitación y les enseñan a interpretar señales de caza sin exponerse a presas peligrosas. Los juegos juveniles reproducen emboscadas, relevos y persecuciones. Las camadas nacen en madrigueras secas o bajo raíces, durante la estación templada. Un huargo separado de su manada puede sobrevivir por sí solo, pero rara vez alcanza la eficacia de caza del grupo."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los montaraces"
+        },
+        {
+          "type": "p",
+          "text": "La crianza selectiva desarrollada en Valgard ha producido líneas más tolerantes a la presencia humana, útiles como monturas para ciertos jinetes, guardianes y animales de tracción ligera. No equivale a domesticar cualquier huargo capturado: un adulto salvaje suele responder con violencia al encierro. Los criadores comienzan la socialización desde edades muy tempranas y reservan varias generaciones para corregir temperamentos inestables. El vínculo se funda en hábitos constantes, alimentación y confianza; el maltrato destruye rápidamente esa relación. En Vargheim, los artesanos adaptan arneses y protecciones a su anatomía particular."
+        },
+        {
+          "type": "h",
+          "text": "Señales de campo y precauciones"
+        },
+        {
+          "type": "p",
+          "text": "Las huellas aparecen casi siempre en series ordenadas, con el paso de los jóvenes oculto entre marcas de adultos. Los aullidos cortos sirven para reagruparse; los prolongados delimitan presencia. Encontrar un cadáver parcialmente cubierto de nieve o ramas indica una reserva de alimento: no conviene aproximarse. El animal evita combates costosos, pero una persona entre una hembra y sus cachorros será tratada como amenaza. Los Ojopiedras recomiendan observar desde terreno elevado y jamás confundir la tolerancia de una línea criada en Valgard con la docilidad de la especie salvaje."
+        },
+        {
+          "type": "p",
+          "text": "«El huargo no sigue al hombre por miedo. Lo sigue mientras juzga digno de confianza el camino que ambos han escogido». — Nota atribuida a un criador de Valgard."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-02",
+      "number": 2,
+      "name": "Amarok de las Cumbres",
+      "subtitle": "Cánido colosal · superdepredador solitario   |   Inspiración: Amarok, gran lobo solitario de relatos inuit",
+      "imgurId": "LeB3haQ",
+      "imgurPage": "https://imgur.com/LeB3haQ",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Altas mesetas, tundras de altura y collados próximos a glaciares."
+        ],
+        [
+          "MEDIDAS",
+          "1,60–1,95 m a la cruz; 330–520 kg; hasta 3,7 m de longitud."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Cabras de montaña, grandes cérvidos, crías de oso y carroña invernal."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Solitario; parejas breves en época reproductiva."
+        ],
+        [
+          "CICLO VITAL",
+          "25–35 años; una cría excepcionalmente, dos en años abundantes."
+        ],
+        [
+          "AMENAZA",
+          "Extrema de cerca; encuentros muy infrecuentes."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  El amarok no deja los rastros de una manada. Una única línea de impresiones profundas cruza el collado, desaparece entre piedras y reaparece mucho más arriba, donde ningún cazador sensato habría intentado ascender. Su figura pálida parece fundirse con las cornisas. No aúlla para que otros lo sigan: su presencia se reconoce por la ausencia de animales en un territorio que hasta ayer estaba lleno de vida."
+        },
+        {
+          "type": "h",
+          "text": "Amarok de las Cumbres — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y resistencia"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo es más macizo que el del huargo, con patas anteriores extremadamente musculosas y hombros capaces de absorber el impacto de saltos entre rocas. El pelaje va del blanco sucio al gris ceniciento; una grasa espesa protege la piel de las ráfagas heladas. Las almohadillas conservan flexibilidad a temperaturas donde otros cánidos sufrirían lesiones. La cabeza es ancha, pero los ojos se sitúan relativamente altos, adecuados para mirar por encima de una costra de nieve. Su enorme talla obliga al animal a reservar energía: pasa largas horas inmóvil, observando pendientes y movimientos de presas."
+        },
+        {
+          "type": "h",
+          "text": "Distribución y rutas de caza"
+        },
+        {
+          "type": "p",
+          "text": "El amarok ocupa territorios inmensos, atravesando collados que rara vez están libres de hielo. No persigue rebaños durante horas como los lobos de menor porte. Prefiere cortarles el paso, obligarlos hacia una cornisa o interceptar a un individuo que desciende de la ruta principal. Utiliza el viento a su favor y evita terrenos donde su peso rompería una capa de nieve inestable. Los avistamientos suelen aumentar al final del invierno, cuando el hambre empuja a los herbívoros hacia los últimos pastos expuestos. Sus refugios son plataformas secas protegidas por rocas, nunca guaridas estrechas."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y competencia"
+        },
+        {
+          "type": "p",
+          "text": "Puede derribar animales que resultarían demasiado grandes para un huargo solitario; aun así, la mayoría de sus presas son individuos debilitados, aislados o arrastrados por el mal tiempo. Consume músculo y órganos, deja huesos quebrados con una mordida característica y regresa a los restos si no ha sido perturbado. La carroña de una gran presa alimenta durante semanas a pequeños carnívoros de la altura. Compite con osos por ciertos cadáveres, pero casi siempre prefiere retirarse antes que arriesgar una lesión mortal. La rareza de alimento limita su población más que cualquier enemigo."
+        },
+        {
+          "type": "h",
+          "text": "Sociabilidad y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos recorren solos sus dominios y solo toleran la presencia de un congénere durante la breve temporada de apareamiento. La gestación da paso generalmente a una cría, oculta durante sus primeros meses en un abrigo profundo. El aprendizaje es lento: el juvenil acompaña a la madre a lo largo de varios inviernos, aprendiendo a leer nieve, pendiente y viento antes de independizarse. Ese ritmo reproductivo explica por qué no existen grandes poblaciones. La pérdida de una hembra adulta puede dejar sin ocupante un territorio durante décadas."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos"
+        },
+        {
+          "type": "p",
+          "text": "En los relatos montaraces, encontrar un amarok representa tanto un peligro como una prueba de humildad. Algunos caudillos han ofrecido recompensas por su piel; otros prohíben perseguirlo, convencidos de que mantiene a raya bestias peores. La especie no puede criarse de forma fiable ni utilizarse como montura. Su territorialidad, sus necesidades alimentarias y la enorme edad de maduración lo hacen incompatible con los corrales. Los Ojopiedras registran sus movimientos porque su descenso a regiones habitadas suele anunciar un invierno particularmente duro."
+        },
+        {
+          "type": "h",
+          "text": "Encuentro y nivel de peligro"
+        },
+        {
+          "type": "p",
+          "text": "El amarok no tiene interés habitual en los viajeros, pero puede atacar si se encuentra encerrado en un paso, defiende una presa o padece hambre extrema. Su carrera corta es devastadora y su peso basta para derribar a una persona protegida con armadura. Una huella aislada, profunda como un plato, no debe interpretarse como rastro antiguo: en clima seco puede permanecer muchos días. Cuando aparece una carcasa de cabra depositada sobre una cornisa alta, los rastreadores saben que un amarok podría estar descansando por encima de ellos."
+        },
+        {
+          "type": "p",
+          "text": "«En las cumbres hay lobos que cazan en compañía. El amarok solo necesita que la montaña le conceda un camino». — Registro oral de un Ojopiedra."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-03",
+      "number": 3,
+      "name": "Garm del Desfiladero",
+      "subtitle": "Cánido de garganta rocosa · carroñero y depredador   |   Inspiración: Garmr, guardián canino de la tradición nórdica",
+      "imgurId": "asKiyZv",
+      "imgurPage": "https://imgur.com/asKiyZv",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Desfiladeros sombríos, minas abandonadas y cañones con poca luz."
+        ],
+        [
+          "MEDIDAS",
+          "1,25–1,50 m a la cruz; 210–330 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Carroña, cabras atrapadas, roedores grandes y presas de emboscada."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Parejas estables; individuos jóvenes errantes."
+        ],
+        [
+          "CICLO VITAL",
+          "18–24 años; camadas de 1–3 crías."
+        ],
+        [
+          "AMENAZA",
+          "Muy alta en espacios estrechos o cerca de la guarida."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  Donde el desfiladero estrecha la luz y devuelve tres veces cada sonido, el garm espera. Su pelaje oscuro se confunde con la roca mojada; únicamente el brillo de los dientes y el vapor de su respiración anuncian que el paso está ocupado. Los pastores aseguran que escucha las piedras antes de que caigan, porque aparece en los barrancos donde otras criaturas mueren despeñadas. Más que un asesino incesante, es el paciente dueño de la carroña."
+        },
+        {
+          "type": "h",
+          "text": "Garm del Desfiladero — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía del quebrantahuesos"
+        },
+        {
+          "type": "p",
+          "text": "El garm presenta una cabeza notablemente más corta y ancha que la de otros cánidos de Bergheim, con músculos maseteros muy desarrollados. Sus caninos sujetan; los molares posteriores fracturan articulaciones y huesos para alcanzar tuétano. Las uñas son romas y fuertes, eficaces para estabilizarse sobre piedra húmeda. El pelaje es negro, con reflejos pardos en garganta y flancos, y una capa impermeable de grasa evita que el agua alcance rápidamente la piel. Sus orejas, relativamente pequeñas, reducen la exposición al frío en cañones ventosos. Una larga cola sirve como contrapeso al descender por pedreras."
+        },
+        {
+          "type": "h",
+          "text": "Ambiente y movimientos"
+        },
+        {
+          "type": "p",
+          "text": "Evita los bosques abiertos y prefiere corredores rocosos donde el paisaje actúa como embudo natural. Recorre de noche los fondos de garganta y descansa en repisas secas durante el día. Los desprendimientos dejan animales heridos que atraen su atención; por eso suele seguir lugares donde las rutas comerciales cruzan pasos inseguros. No excava grandes madrigueras: ocupa cavidades naturales, viejas galerías o grietas protegidas. En los meses lluviosos evita los cauces desbordados y sube a entradas laterales desde las que puede vigilar sin mojarse."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta contiene una proporción de carroña mayor que la de otros grandes depredadores. Consume cuerpos de cabras caídas, restos de caza abandonados por huargos y hasta peces arrastrados tras crecidas. Si una presa viva queda aislada, la ataca mediante emboscadas cortas, aprovechando la escasa posibilidad de escapar. La mandíbula permite triturar partes que otros carroñeros desaprovechan; así acelera la limpieza de los barrancos. Sin embargo, cuando descubre mulas o animales de carga atrapados, puede considerarlos un recurso alimentario y acercarse peligrosamente a las caravanas."
+        },
+        {
+          "type": "h",
+          "text": "Parejas, crías y territorio"
+        },
+        {
+          "type": "p",
+          "text": "A diferencia del huargo, el garm no forma una manada extensa. Las parejas mantienen un territorio común durante años y se toleran al compartir cadáveres de gran tamaño. Los juveniles permanecen cerca de la guarida durante el primer invierno, después recorren cañones hasta encontrar uno desocupado. Las hembras eligen cavidades con entrada estrecha y suelo seco, donde paren una a tres crías. Los adultos transportan alimento hasta el refugio y reaccionan con violencia a cualquier intruso que bloquee la salida. Los encuentros entre dos parejas suelen resolverse mediante exhibiciones sonoras."
+        },
+        {
+          "type": "h",
+          "text": "Convivencia y tradición"
+        },
+        {
+          "type": "p",
+          "text": "Los mineros consideran al garm un mal presagio porque sus aullidos resuenan como si brotaran de varios túneles. Algunos jefes de obra, no obstante, observan su conducta: cuando los animales abandonan repentinamente un desfiladero, puede haber desprendimientos o inundaciones próximas. En las leyendas, acompaña las puertas del mundo subterráneo; en la práctica, su presencia indica un ecosistema rico en cadáveres y puntos de estrangulamiento. Los Ojopiedras anotan el tamaño de sus dientes en las osamentas, porque estas marcas se confunden con heridas provocadas por criaturas cavernarias desconocidas."
+        },
+        {
+          "type": "h",
+          "text": "Advertencia a los viajeros"
+        },
+        {
+          "type": "p",
+          "text": "Un garm es capaz de cerrar en pocos segundos la distancia que separa dos curvas de un cañón. Los viajeros deben evitar acercarse a los restos frescos que aparecen al pie de una pared, especialmente si hay huesos recién fracturados. En terreno abierto puede retirarse; en una garganta estrecha se vuelve peligroso por falta de escapatoria. Conviene no correr hacia su cubil, mantener agrupados a los animales de carga y permitirle una salida. Los ataques conocidos se concentran en áreas de carroña y durante la crianza."
+        },
+        {
+          "type": "p",
+          "text": "«El garm no guarda la muerte. Guarda lo que la montaña deja atrás». — Dicho de las caravanas de Jorundathr."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-04",
+      "number": 4,
+      "name": "Lobo de Sköll",
+      "subtitle": "Cánido cursorial · depredador de meseta   |   Inspiración: Sköll, perseguidor del sol en los mitos nórdicos",
+      "imgurId": "1ZlMRBW",
+      "imgurPage": "https://imgur.com/1ZlMRBW",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Mesetas de altura, tundras secas y praderas azotadas por el viento."
+        ],
+        [
+          "MEDIDAS",
+          "0,95–1,20 m a la cruz; 80–130 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Cabras, cérvidos jóvenes, roedores y liebres alpinas."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Grupos de 3–5; cooperación entre hermanos adultos."
+        ],
+        [
+          "CICLO VITAL",
+          "13–17 años; camadas de 3–5 crías."
+        ],
+        [
+          "AMENAZA",
+          "Media-alta; rara vez ataca grupos humanos."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  La gente de las mesetas dice que los lobos de Sköll nacen para perseguir el último rayo de luz. A la hora en que las sombras se alargan, sus siluetas claras aparecen en la cresta de una loma y empiezan a correr sobre el horizonte. Son animales más ligeros que los huargos, pero su resistencia en terreno abierto los convierte en perseguidores extraordinarios. El viajero puede oír sus llamadas sin ver más que nieve barrida por el viento."
+        },
+        {
+          "type": "h",
+          "text": "Lobo de Sköll — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Rasgos físicos"
+        },
+        {
+          "type": "p",
+          "text": "Su pecho es estrecho y profundo, las extremidades largas y flexibles, y el pelaje gris claro con manchas oscuras a lo largo del lomo. La cabeza, afinada, favorece una respiración prolongada durante persecuciones. El pelo de las patas se abre como una pequeña escoba sobre nieve dura, pero no posee las enormes almohadillas del amarok: evita la nieve demasiado blanda. Un oído agudo detecta movimientos de ungulados detrás de lomas y rocas. La diferencia de talla entre machos y hembras es moderada, mientras que la edad modifica claramente el tono del rostro."
+        },
+        {
+          "type": "h",
+          "text": "Mesetas y desplazamientos estacionales"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere un territorio abierto, expuesto a corrientes constantes que dificultan las emboscadas de depredadores más pesados. Sigue a los rebaños migratorios desde los pastos de verano a los valles cuando aparecen las primeras heladas. En invierno aprovecha superficies donde el viento ha retirado la nieve, dejando corredores de carrera. Los grupos conocen numerosos refugios poco profundos y no descansan dos noches seguidas en el mismo lugar si hay huargos presentes. Sus rutas ofrecen a los Ojopiedras indicios fiables sobre la dirección de las migraciones."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y estrategia de caza"
+        },
+        {
+          "type": "p",
+          "text": "Caza en relevos, no mediante una persecución caótica. Los individuos más jóvenes fuerzan a las presas a cambiar de dirección y los adultos intentan anticiparse a su recorrido. La mayor parte de sus capturas son cabras y cérvidos jóvenes, además de liebres durante épocas pobres. También aprovecha pequeños roedores que emergen bajo la costra de nieve. Las presas sanas escapan con frecuencia, de modo que un grupo puede pasar varios días sin una gran captura. Por ello, abandonar una presa muerta resulta un lujo que rara vez se permite."
+        },
+        {
+          "type": "h",
+          "text": "Grupos y descendencia"
+        },
+        {
+          "type": "p",
+          "text": "Sus grupos suelen reunir a hermanos de diferentes camadas y una pareja reproductora, aunque la composición cambia cuando los jóvenes se dispersan. Los vínculos sociales se mantienen mediante juegos de carrera, contacto de hocico y una variedad de llamadas breves. Durante el verano las hembras excavan madrigueras en suelos drenados, donde nacen de tres a cinco cachorros. Los machos y otros adultos llevan alimento hasta el refugio. La mortalidad juvenil aumenta en inviernos de hielo persistente, cuando las liebres desaparecen y los rebaños migran demasiado lejos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con otras especies"
+        },
+        {
+          "type": "p",
+          "text": "El lobo de Sköll es más numeroso que el amarok y menos dominante que el huargo en bosques cerrados. Cuando ambas especies coinciden, los lobos de Sköll evitan las gargantas y prefieren terrenos donde su velocidad tenga ventaja. Sus restos atraen valravns y linces, mientras ellos mismos aprovechan las piezas abandonadas por depredadores mayores. Los pastores los consideran molestos por su habilidad para conducir rebaños hacia cercos defectuosos, pero los Ojopiedras los valoran como indicadores de equilibrio en los pastos."
+        },
+        {
+          "type": "h",
+          "text": "Peligro y observación"
+        },
+        {
+          "type": "p",
+          "text": "Su imagen en la distancia induce a exagerar la talla por efecto de la luz crepuscular. Rara vez acomete a un grupo de viajeros armado; puede seguirlo durante varias horas para investigar monturas débiles o alimentos. Las aproximaciones peligrosas ocurren cuando se protegen cachorros o hay animales de carga solos. El mejor indicio de presencia es una secuencia de huellas bastante alineadas, con cambios de ritmo frecuentes y marcas de descanso sobre promontorios desde los que se domina el valle."
+        },
+        {
+          "type": "p",
+          "text": "«Al huargo lo precede su manada. Al de Sköll, el viento». — Manual de pasos de la meseta norte."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-05",
+      "number": 5,
+      "name": "Oso Jötunn",
+      "subtitle": "Úrsido colosal · omnívoro dominante   |   Inspiración: Jötnar o gigantes de la mitología nórdica",
+      "imgurId": "uwds6wi",
+      "imgurPage": "https://imgur.com/uwds6wi",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Bosques subalpinos, cabeceras de ríos, morrenas y glaciares estacionales."
+        ],
+        [
+          "MEDIDAS",
+          "1,9–2,4 m a cuatro patas; 650–1.200 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Peces, raíces, bayas, carroña, ungulados jóvenes y miel silvestre."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Solitario; hembras con crías."
+        ],
+        [
+          "CICLO VITAL",
+          "40–60 años; 1–2 oseznos cada 4–5 años."
+        ],
+        [
+          "AMENAZA",
+          "Extrema si se sorprende a corta distancia."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  Nada prepara al viajero para ver a un oso Jötunn levantarse entre los pinos. La primera impresión es la de una roca nevada que ha decidido caminar; después aparecen el hocico, las enormes patas y la respiración que se condensa como humo sobre sus hombros. Pese a su tamaño monstruoso, pasa buena parte del año buscando alimento y evitando esfuerzos innecesarios. Su ferocidad es legendaria porque, cuando decide defenderse, casi ninguna barrera ordinaria consigue detenerlo."
+        },
+        {
+          "type": "h",
+          "text": "Oso Jötunn — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Talla, abrigo y sentidos"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo posee una musculatura particularmente desarrollada en los hombros, necesaria para mover piedras, abrir troncos podridos y excavar refugios. El pelo largo, blanco cremoso o grisáceo, oculta una capa densa de grasa y un subpelo que permanece seco durante nevadas. Las garras, curvas y descomunales, son herramientas de excavación antes que armas de caza. El olfato identifica carroña a gran distancia; la visión es comparativamente modesta. Su paso parece lento, pero puede alcanzar a un caballo durante una carrera corta sobre terreno difícil."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y calendario estacional"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa grandes territorios vinculados a ríos con peces, bosques de frutos y claros con vegetación nutritiva. En primavera busca los primeros brotes y animales muertos por el invierno; en verano captura peces y se desplaza hacia bayales de altura. El otoño es la estación de alimentación voraz antes de una larga letargia, que no siempre implica inmovilidad completa. Las hembras buscan refugios bajo grandes rocas o en laderas protegidas por nieve estable. Los machos pueden recorrer decenas de kilómetros entre valles durante el celo."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y huella ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Aunque puede abatir un gran herbívoro, obtiene mucha de su energía de peces, frutos, raíces, hormigueros y carroña. Rompe troncos para buscar larvas, remueve suelos y dispersa semillas en zonas alejadas del bosque original. Al apropiarse de una pieza muerta impide que carroñeros menores se acerquen, pero los restos que deja terminan alimentándolos. Su presencia limita la abundancia de otros grandes depredadores cerca de los ríos. Un oso Jötunn hambriento puede destruir colmenas y depósitos de pescado, creando graves conflictos con aldeas."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La vida del oso es larga y su reproducción lenta. Las hembras solo aceptan criar cuando han acumulado reservas suficientes y suelen parir uno o dos oseznos durante el descanso invernal. Las crías, inicialmente diminutas en comparación con la madre, permanecen con ella varios años hasta aprender rutas de alimento y reconocer amenazas. Los machos adultos no participan en la crianza y pueden atacar crías ajenas, motivo por el cual las madres evitan áreas con elevada concentración de individuos. La baja frecuencia de nacimientos vuelve peligrosa cualquier caza indiscriminada."
+        },
+        {
+          "type": "h",
+          "text": "El gigante en el imaginario montaraz"
+        },
+        {
+          "type": "p",
+          "text": "Se conservan relatos de guerreros que confundieron un Jötunn dormido con un montículo y levantaron su campamento sobre él. La tradición lo presenta como señor de las nieves, pero en las rutas comerciales se le teme por razones prácticas: puede bloquear un puente, destrozar carros de alimento o seguir el olor de la carne durante una noche entera. Sus pieles son excepcionalmente valiosas, aunque pocas partidas se aventuran a buscarlas sin necesidad. Algunos santuarios lo consideran una criatura que merece ser observada y evitada antes que perseguida."
+        },
+        {
+          "type": "h",
+          "text": "Prevención de encuentros"
+        },
+        {
+          "type": "p",
+          "text": "Las marcas de garras sobre troncos se encuentran muy por encima de la cabeza humana. Restos de peces en lugares secos, troncos despedazados y rocas removidas indican alimentación reciente. Si una hembra emerge con crías, la retirada lenta por el mismo camino suele ser más segura que intentar cruzar delante de ella. No debe bloquearse su paso ni esconder comida junto a los refugios. Los cazadores veteranos saben que un animal de tal masa soporta daños que derribarían a un oso común."
+        },
+        {
+          "type": "p",
+          "text": "«La nieve cede ante el oso Jötunn como los hombres ante un rey. No es reverencia; es peso». — Relato de un cazador de los glaciares."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-06",
+      "number": 6,
+      "name": "Oso Berserkr",
+      "subtitle": "Úrsido de bosque · gran omnívoro territorial   |   Inspiración: Berserkir y pieles de oso en tradiciones guerreras nórdicas",
+      "imgurId": "YzvInbh",
+      "imgurPage": "https://imgur.com/YzvInbh",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Robledales fríos, bosques pedregosos y laderas bajas de las montañas."
+        ],
+        [
+          "MEDIDAS",
+          "1,45–1,85 m a cuatro patas; 450–850 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Raíces, frutos, insectos, peces, carroña y ungulados jóvenes."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Solitario; encuentros breves durante el celo."
+        ],
+        [
+          "CICLO VITAL",
+          "30–40 años; habitualmente 1–3 oseznos por camada."
+        ],
+        [
+          "AMENAZA",
+          "Muy alta en el celo y ante una amenaza próxima."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  El oso Berserkr debe su nombre a las cicatrices que adornan a los machos viejos y al temperamento con que defienden un recurso disputado. Entre árboles húmedos su pelaje rojizo parece casi negro; bajo el sol de otoño adquiere destellos cobrizos. No vive en una cólera permanente. Al contrario, la mayor parte del tiempo ignora a otros animales. Pero una vez que interpreta un movimiento como desafío, su respuesta puede ser explosiva y desproporcionada."
+        },
+        {
+          "type": "h",
+          "text": "Oso Berserkr — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Constitución y señales corporales"
+        },
+        {
+          "type": "p",
+          "text": "Más bajo y compacto que el Jötunn, posee hombros poderosos, hocico amplio y una capa de grasa especialmente gruesa al final del verano. Su pelaje varía del pardo oscuro al rojo cobrizo, con mechones ásperos sobre la espalda. Las uñas excavan madrigueras y troncos, mientras las patas traseras permiten levantarse para examinar olores o intimidar a un rival. Los machos adultos muestran frecuentemente cicatrices lineales en el cuello, resultado de enfrentamientos por alimento y apareamiento. La visión es suficiente para reconocer movimiento cercano, pero depende sobre todo del olfato."
+        },
+        {
+          "type": "h",
+          "text": "Bosques preferidos y rutina"
+        },
+        {
+          "type": "p",
+          "text": "Frecuenta zonas en que se alternan árboles maduros, taludes rocosos y corrientes de agua. Durante días de calor se esconde en barrancos húmedos o entra en ríos para refrescarse. En las estaciones lluviosas remueve grandes superficies buscando tubérculos y larvas, mientras que el otoño lo lleva a los bosques de fruto. No necesita nieve permanente y, por ello, coincide con mayor frecuencia con leñadores y colonos. Sus refugios son cavidades secas, troncos huecos gigantes y salientes protegidos. Puede transitar entre varios valles antes de instalarse definitivamente."
+        },
+        {
+          "type": "h",
+          "text": "Alimento y papel en el bosque"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta es notablemente variada. Consume bellotas, raíces dulces, hongos, hormigas, peces varados y carroña; cuando captura animales vivos suele tratarse de crías, presas enfermas o individuos sorprendidos en espacios cerrados. La fuerza de sus mandíbulas le permite abrir huesos y caparazones resistentes. Al remover tierra expone semillas y larvas que aprovechan aves, roedores y pequeños carnívoros. En las cercanías de aldeas puede adquirir el hábito de buscar residuos de matanza y depósitos de miel, conducta muy difícil de corregir."
+        },
+        {
+          "type": "h",
+          "text": "Territorialidad y descendencia"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos suelen evitarse, pero los machos de mayor tamaño defienden con violencia los mejores puntos de alimentación durante ciertas temporadas. Las hembras dan a luz durante su descanso estacional y permanecen con los oseznos hasta que estos aprenden a obtener alimento por sí solos. Las camadas suelen reunir uno a tres animales. Una madre puede fingir alejarse mientras sus crías se esconden, por lo que un viajero que la siga corre grave peligro. Los machos recién independizados vagan ampliamente y son responsables de muchos encuentros cerca de los cultivos."
+        },
+        {
+          "type": "h",
+          "text": "Relaciones culturales"
+        },
+        {
+          "type": "p",
+          "text": "Su nombre alimenta las historias de guerreros que combatían cubiertos de pieles de oso. Algunos clanes interpretan su temperamento como valentía indomable; los cazadores que lo han enfrentado destacan, en cambio, la obstinación con que protege el lugar donde come. Su piel gruesa se utiliza en mantos ceremoniales y sus garras son trofeos apreciados, pero la caza sin necesidad se considera imprudente en aldeas cercanas a zonas de cría. La convivencia exige almacenar alimentos lejos de los caminos que utiliza regularmente."
+        },
+        {
+          "type": "h",
+          "text": "Riesgo y lectura de rastros"
+        },
+        {
+          "type": "p",
+          "text": "Ramas arrancadas, corteza marcada y piedras desplazadas revelan su paso. Antes de atacar puede resoplar, golpear el suelo y alzarse, aunque algunas cargas se producen sin aviso. La respuesta adecuada no es desafiarlo ni intentar correr a campo abierto, sino evitar aproximaciones, retirarse sin bloquear la ruta y buscar cobertura sólida. Los Ojopiedras distinguen las marcas del Berserkr de las del Jötunn por la anchura menor de sus almohadillas y la habitual presencia de vegetación templada en el mismo trayecto."
+        },
+        {
+          "type": "p",
+          "text": "«No teme al hierro ni al grito. Pero teme perder lo que considera suyo, y eso lo hace peligroso». — Dicho de los guardabosques."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-07",
+      "number": 7,
+      "name": "Lince de Yule",
+      "subtitle": "Felino de bosque frío · cazador de emboscada   |   Inspiración: Jólakötturinn, el gran felino del folclore islandés",
+      "imgurId": "5pdIipe",
+      "imgurPage": "https://imgur.com/5pdIipe",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Bosques de coníferas, pedregales y bordes de nieve estable."
+        ],
+        [
+          "MEDIDAS",
+          "0,75–1,05 m a la cruz; 45–85 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Liebres, marmotas, aves terrestres, cabras jóvenes y carroña."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Solitario; parejas breves durante el apareamiento."
+        ],
+        [
+          "CICLO VITAL",
+          "15–22 años; 1–3 crías por camada."
+        ],
+        [
+          "AMENAZA",
+          "Media; peligrosa si está acorralada o habituada a corrales."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  Muchos montaraces juran que el lince de Yule aparece durante los inviernos en que las familias olvidan renovar sus ropas y reparar sus casas. El animal real es menos moralista y más silencioso: un felino de patas desproporcionadamente anchas que avanza entre raíces nevadas sin hundirse apenas. Su pelaje gris plateado, cubierto de manchas oscuras, se mimetiza con los claros de hielo; en los bosques húmedos aparecen variedades de tonalidad casi negra. Suele estar muy cerca cuando el viajero cree no haber visto nada."
+        },
+        {
+          "type": "h",
+          "text": "Lince de Yule — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología del cazador silencioso"
+        },
+        {
+          "type": "p",
+          "text": "La cabeza redonda, las orejas con penachos y la cola corta recuerdan a un lince corriente, pero su cuerpo es mucho más robusto. Los miembros posteriores son largos, adecuados para saltos bruscos desde rocas o ramas bajas; las patas anteriores sujetan antes de que la mandíbula muerda la garganta de la presa. Un pelo denso cubre las almohadillas, amortiguando el ruido sobre nieve y hojarasca. Su manto varía según la población: blanquecino en alturas, gris moteado en bosques y oscuro entre coníferas densas. Esa variación ha originado supersticiones sobre distintas especies."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y elección de refugio"
+        },
+        {
+          "type": "p",
+          "text": "Frecuenta sectores donde el bosque limita con un derrumbe o una pradera abierta. Desde un saliente puede observar senderos de liebres y cabras sin exponerse a otros depredadores. Usa troncos huecos, cuevas pequeñas y repisas como refugios temporales; no construye una guarida elaborada salvo durante la crianza. Su territorio tiene rutas repetidas de vigilancia y puntos para marcar con olor. En invierno puede seguir al ganado hacia los valles, no por odio a los humanos, sino porque las cabras domésticas representan presas fáciles."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y técnicas de captura"
+        },
+        {
+          "type": "p",
+          "text": "Su presa habitual es menor que él: liebres, marmotas, aves terrestres y roedores grandes. Cuando el hambre aprieta intenta sorprender crías de ungulados o aprovechar cadáveres. Caza en solitario, acechando durante largos minutos antes de realizar un salto corto y contundente. Si fracasa, suele abandonar la persecución y buscar otra oportunidad. Es un importante regulador de pequeños herbívoros que dañan brotes y cortezas. Por su tamaño, también puede competir con lobos por animales muertos, aunque evita el conflicto abierto."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos se encuentran casi exclusivamente durante el celo. Las hembras esconden una a tres crías en un refugio seco, que trasladan si perciben olor extraño. Los cachorros aprenden primero a capturar insectos y pequeños roedores; después acompañan a la madre a los bordes de los claros. Se independizan tras experimentar un invierno, aunque siguen creciendo durante varios años. No existe una verdadera manada ni jerarquías cooperativas, y mantener dos adultos juntos en cautiverio suele acabar en lesiones. Su longevidad depende mucho de conservar un territorio estable."
+        },
+        {
+          "type": "h",
+          "text": "Papel cultural y utilidad"
+        },
+        {
+          "type": "p",
+          "text": "Las historias del Yule lo describen como devorador de quienes carecen de abrigo, reinterpretación nacida de apariciones invernales cerca de casas pobres y depósitos de carne. Las pieles son muy apreciadas, pero su caza exige trampas cuidadosas, pues el animal evita el olor humano. Los Ojopiedras prefieren estudiar sus huellas para estimar la abundancia de liebres y la salud del sotobosque. Algunos campesinos valoran su presencia porque reduce roedores, siempre que permanezca lejos de los gallineros y corrales."
+        },
+        {
+          "type": "h",
+          "text": "Riesgos y observación"
+        },
+        {
+          "type": "p",
+          "text": "La huella redonda muestra pocas marcas de uñas porque estas suelen permanecer retraídas. Restos de presas ocultos bajo nieve ligera, arañazos verticales y senderos repetidos por afloramientos rocosos revelan su presencia. No acostumbra a atacar adultos humanos, pero puede defenderse con enorme rapidez si se intenta atraparlo o acercarse a sus crías. Los encuentros más peligrosos ocurren al tratar de rescatar animales de un corral mientras el felino todavía está dentro. El silencio y la distancia son mejores precauciones que una persecución improvisada."
+        },
+        {
+          "type": "p",
+          "text": "«Las montañas tienen monstruos que rugen. El lince de Yule es peligroso porque no anuncia que ha llegado». — Cuaderno de rastreo."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-08",
+      "number": 8,
+      "name": "Cù-Sìth Montaraz",
+      "subtitle": "Cánido de bosque húmedo · cazador familiar   |   Inspiración: Cù Sìth, perro sobrenatural de las tierras altas escocesas",
+      "imgurId": "4a8ZYzv",
+      "imgurPage": "https://imgur.com/4a8ZYzv",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Bosques musgosos, umbrías lluviosas y gargantas occidentales."
+        ],
+        [
+          "MEDIDAS",
+          "1,10–1,45 m a la cruz; 140–230 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Ciervos, jabalíes jóvenes, liebres grandes y carroña."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Grupos familiares de 3–6 individuos."
+        ],
+        [
+          "CICLO VITAL",
+          "15–22 años; camadas de 2–3 crías."
+        ],
+        [
+          "AMENAZA",
+          "Alta; ataques principalmente defensivos."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  El Cù-Sìth es llamado por ciertos pastores el perro que lleva el bosque sobre el lomo. Su pelaje gris verdoso, siempre húmedo y salpicado de líquenes, se confunde con las rocas y los troncos cubiertos de musgo. En días de lluvia se desliza entre árboles sin levantar más ruido que el agua. Su aspecto ha producido relatos de espectros forestales, pero sus huellas, sus camadas y su necesidad de alimento lo revelan como un animal de carne y hueso."
+        },
+        {
+          "type": "h",
+          "text": "Cù-Sìth Montaraz — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Adaptaciones al bosque lluvioso"
+        },
+        {
+          "type": "p",
+          "text": "Su anatomía recuerda a la del huargo, aunque con cuerpo más bajo, cuello flexible y extremidades capaces de desenvolverse sobre raíces resbaladizas. Las patas presentan almohadillas rugosas y uñas fuertes que mejoran el agarre. El pelaje externo repele parte del agua y retiene tonos gris verdosos; los ejemplares viejos adquieren manchas de algas y líquenes entre mechones de pelo, sin que ello constituya una capacidad mágica. La cara es estrecha, de ojos dorados muy sensibles a la penumbra. La cola larga ayuda a equilibrar giros bruscos en senderos estrechos."
+        },
+        {
+          "type": "h",
+          "text": "Territorios y uso del espacio"
+        },
+        {
+          "type": "p",
+          "text": "Habita regiones lluviosas donde la densa vegetación impide largas persecuciones. Sus rutas enlazan claros, vados y pasos bajo ramas caídas. A menudo ocupa las mismas gargantas durante generaciones; un grupo familiar conoce cada tronco podrido y cada bajada hacia el río. Durante temporadas de lluvia continua se desplaza a laderas mejor drenadas, evitando zonas inundadas donde las presas se dispersan. La niebla favorece sus acercamientos, aunque los propios animales dependen más del olfato y el oído que de la visión."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y cacería"
+        },
+        {
+          "type": "p",
+          "text": "Caza ciervos, jóvenes jabalíes y mamíferos medianos, recurriendo también a carroña en meses duros. A diferencia del huargo, no acostumbra a perseguir a una presa durante muchos kilómetros. Uno o dos individuos la obligan a moverse hacia un paso conocido donde esperan los demás. Su estructura social permite capturas cooperativas sin la necesidad de grandes manadas. Los restos de comida quedan frecuentemente protegidos bajo helechos o entre raíces, práctica que alimenta la creencia de que el animal entierra presas para ocultárselas a los espíritus."
+        },
+        {
+          "type": "h",
+          "text": "Grupos, vínculos y crías"
+        },
+        {
+          "type": "p",
+          "text": "Los Cù-Sìth viven en núcleos familiares de tres a seis individuos. Los adultos comparten la vigilancia de los refugios y toleran que los jóvenes participen de forma gradual en las cacerías. Las hembras prefieren cavidades bajo troncos caídos y dan a luz dos o tres cachorros. Un miembro del grupo permanece cerca del escondite mientras los demás buscan alimento. La maduración es lenta y muchos jóvenes no abandonan el territorio hasta después de su segundo invierno. Las disputas internas se resuelven generalmente mediante exhibiciones y distancias, no peleas letales."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Los relatos celtas del perro de otro mundo inspiraron su nombre entre viajeros extranjeros; los montaraces lo tratan como un depredador forestal exigente y difícil de observar. Algunos cazadores afirman que el bosque se vuelve silencioso antes de escuchar sus tres ladridos graves. La superstición nace de su costumbre de coordinarse mediante llamadas espaciadas que resuenan en gargantas húmedas. No es una montura adecuada: su rechazo al cautiverio y su territorialidad lo vuelven impredecible. Los Ojopiedras registran su presencia para evaluar bosques poco alterados por la tala."
+        },
+        {
+          "type": "h",
+          "text": "Huellas y prudencia"
+        },
+        {
+          "type": "p",
+          "text": "Las marcas aparecen en barro profundo y muestran dedos muy abiertos, útiles para caminar entre raíces. Un olor intenso en rocas cubiertas de musgo puede anunciar un límite territorial. Los viajeros deben evitar acercarse a sus refugios y no seguir llamadas nocturnas hacia zonas de barranco. Aunque las historias lo pinten como una aparición maligna, el Cù-Sìth prefiere que los humanos se retiren. La persecución de una pareja con cachorros, en cambio, puede acabar en un ataque repentino desde varios ángulos."
+        },
+        {
+          "type": "p",
+          "text": "«En un bosque de lluvia nadie ve llegar al Cù-Sìth; solo descubre que el camino dejó de pertenecerle». — Testimonio de una patrulla."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-09",
+      "number": 9,
+      "name": "Jabalí de Gullin",
+      "subtitle": "Súido de valle · omnívoro gregario   |   Inspiración: Gullinbursti, jabalí de cerdas doradas de la tradición nórdica",
+      "imgurId": "iO0xSkc",
+      "imgurPage": "https://imgur.com/iO0xSkc",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Robledales, valles de cultivo, bosques mixtos y linderos de pradera."
+        ],
+        [
+          "MEDIDAS",
+          "0,95–1,25 m a la cruz; 140–320 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Bellotas, raíces, hongos, tubérculos, insectos, huevos y carroña."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Piaras de hembras y juveniles de 6–15; machos solitarios."
+        ],
+        [
+          "CICLO VITAL",
+          "12–18 años; camadas de 3–6 rayones."
+        ],
+        [
+          "AMENAZA",
+          "Media-alta; muy peligrosa si se siente acorralada."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  Cuando el sol toca las cerdas del jabalí de Gullin, su lomo resplandece como un manojo de espigas secas. Esa característica, más marcada en los machos adultos, explica los relatos sobre un verraco de oro que atravesaba el bosque iluminando las ramas. La criatura real es menos sobrenatural y mucho más persistente: una fuerza de hocico, colmillos y paciencia, capaz de remover un campo entero en busca de raíces antes del amanecer."
+        },
+        {
+          "type": "h",
+          "text": "Jabalí de Gullin — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Aspecto y variación"
+        },
+        {
+          "type": "p",
+          "text": "El cuerpo es voluminoso, de hombros elevados, cabeza cónica y patas cortas pero poderosas. Las cerdas del lomo presentan puntas amarillentas o cobrizas, que parecen doradas con luz oblicua. Debajo se extiende una piel densa, protegida por placas de tejido más grueso a ambos lados del cuello en machos viejos. Los colmillos inferiores crecen hacia arriba y se afilan con los superiores; el hocico, de gran sensibilidad, distingue raíces comestibles bajo tierra húmeda. Las crías lucen rayas longitudinales que desaparecen con la edad."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y recorrido"
+        },
+        {
+          "type": "p",
+          "text": "Se concentra en valles con bosques de fruto, prados y cursos de agua próximos. Durante la estación lluviosa utiliza zonas blandas para hozar; en verano busca orillas con barro donde refrescarse y eliminar parásitos. Puede entrar en cultivos nocturnamente, recorrer grandes distancias y regresar a la cobertura forestal antes del alba. Las piaras repiten sendas que terminan convirtiéndose en verdaderos pasillos entre arbustos. Los machos adultos ocupan áreas más amplias y se aproximan a los grupos solo durante el celo."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y transformación del suelo"
+        },
+        {
+          "type": "p",
+          "text": "Consume bellotas, frutos caídos, raíces, tubérculos, hongos, insectos grandes, huevos y restos animales. No es un cazador especializado, pero devora cualquier recurso fácil que encuentra. Al remover el suelo mezcla hojarasca, expone semillas y favorece pequeños claros donde germinan nuevas plantas. Esta actividad beneficia ciertos bosques y perjudica severamente cultivos recién sembrados. Sus excrementos dispersan semillas a largas distancias. Los huargos depredan rayones y juveniles, pero enfrentarse a una cerda adulta cerca de su camada implica un peligro considerable."
+        },
+        {
+          "type": "h",
+          "text": "Estructura social y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras adultas forman piaras con sus crías de varias edades, dirigidas a menudo por una hembra experimentada que conoce rutas y lugares de alimentación. Los machos maduros suelen viajar solos, buscando a los grupos durante el celo. Las camadas acostumbran reunir tres a seis rayones nacidos en nidos vegetales protegidos. Las madres mantienen una disciplina de grupo mediante gruñidos y cargas breves. Cuando una piara huye, los juveniles intentan seguir al adulto más próximo, y los individuos que se separan quedan expuestos a lobos y linces."
+        },
+        {
+          "type": "h",
+          "text": "Economía y tradición"
+        },
+        {
+          "type": "p",
+          "text": "Su carne es apreciada en Bergheim, sus cerdas se utilizan en cepillos y su piel puede aprovecharse en talleres. Los colmillos de machos viejos adornan collares y armas ceremoniales. La caza es relativamente frecuente, aunque requiere coordinación: un animal herido puede cargar contra varios hombres antes de caer. Los granjeros lo detestan por los daños a los tubérculos, mientras que los guardianes de bosque reconocen su función en la dispersión de semillas. Algunos cuentos exageran el brillo de sus cerdas y lo confunden con bestias nacidas del maná de Ignis."
+        },
+        {
+          "type": "h",
+          "text": "Advertencia al cazador"
+        },
+        {
+          "type": "p",
+          "text": "La tierra volteada en surcos irregulares, los revolcaderos de barro y los pelos prendidos a los troncos indican su presencia. Los grupos con rayones responden mal a perros que intentan rodearlos. Conviene no sorprender a los animales entre cercas o taludes, donde pierden vías de escape. Los machos usan los colmillos en embestidas bajas, capaces de abrir la pierna de un guerrero. La ferocidad no implica agresión constante: un jabalí con salida suele preferir huir antes que combatir."
+        },
+        {
+          "type": "p",
+          "text": "«Brilla cuando el sol lo encuentra y destruye cuando la tierra le ofrece raíces. Así es Gullin: ni sagrado ni maldito, solamente hambriento». — Dicho de los cultivadores."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-10",
+      "number": 10,
+      "name": "Verraco de Sæhrímnir",
+      "subtitle": "Súido gigante · omnívoro de bosques antiguos   |   Inspiración: Sæhrímnir, jabalí de los banquetes de la tradición nórdica",
+      "imgurId": "ZTRsxwW",
+      "imgurPage": "https://imgur.com/ZTRsxwW",
+      "facts": [
+        [
+          "DISTRIBUCIÓN",
+          "Robledales remotos, valles de niebla y laderas con grandes madrigueras."
+        ],
+        [
+          "MEDIDAS",
+          "1,50–1,90 m a la cruz; 450–850 kg."
+        ],
+        [
+          "ALIMENTACIÓN",
+          "Raíces, frutos, carroña, huevos y pequeños vertebrados."
+        ],
+        [
+          "ORGANIZACIÓN",
+          "Adultos solitarios; hembras con camada durante la crianza."
+        ],
+        [
+          "CICLO VITAL",
+          "20–30 años; camadas reducidas de 1–3 rayones."
+        ],
+        [
+          "AMENAZA",
+          "Muy alta; embestida capaz de derribar defensas ligeras."
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "PRIMER ENCUENTRO  En los relatos de las largas mesas de Bergheim se habla del verraco que siempre regresa después de ser consumido. El animal al que se ha dado el nombre de Sæhrímnir no resucita ni es inmortal. Lo que posee es una recuperación sorprendente para su tamaño: heridas que debilitarían a otros cerdos salvajes parecen cerrar con rapidez, y algunos ejemplares sobreviven a inviernos en los que deberían haber perecido. Esa resistencia, combinada con su enorme masa, ha transformado una especie rara en símbolo de abundancia obstinada."
+        },
+        {
+          "type": "h",
+          "text": "Verraco de Sæhrímnir — Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía y capacidades"
+        },
+        {
+          "type": "p",
+          "text": "Su espalda forma una joroba musculosa cubierta de cerdas largas, casi negras, y una capa de piel endurecida. Los colmillos son gruesos, curvados y capaces de arrancar corteza o destrozar raíces. Las patas delanteras soportan la mayor parte del peso al remover terrenos duros, mientras los dedos abiertos estabilizan el cuerpo en barro. La peculiar capacidad de cicatrización parece relacionada con una reserva inusual de maná interior en algunos individuos, aunque no permite regenerar extremidades ni sobrevivir a heridas mortales. Su tamaño dificulta cualquier desplazamiento prolongado por nieve profunda."
+        },
+        {
+          "type": "h",
+          "text": "Distribución y hábitos"
+        },
+        {
+          "type": "p",
+          "text": "Se encuentra principalmente en bosques viejos con grandes árboles, refugios rocosos y suelos ricos en raíces. Evita las rutas habitadas salvo cuando los inviernos prolongados agotan su alimento. Puede abrir verdaderas zanjas al hozar y desplazar piedras que un hombre no levantaría solo. Sus zonas de descanso son depresiones entre troncos protegidos del viento. Los ejemplares viejos repiten un circuito de alimentación que abarca varios valles, dejando marcas reconocibles sobre árboles donde se rascan el lomo. La presencia de una sola criatura puede transformar un sector entero de sotobosque."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y equilibrio territorial"
+        },
+        {
+          "type": "p",
+          "text": "Es omnívoro. Consume raíces, hongos, bellotas, brotes, pequeños vertebrados, huevos y carroña de grandes animales. La enorme energía que necesita lo obliga a alimentarse durante horas y a aprovechar cualquier recurso disponible. No persigue presas veloces, pero puede matar animales atrapados o debilitados y expulsar carroñeros menores de un cadáver. Sus movimientos remueven el suelo y abren claros que después colonizan plantas pioneras. Los verracos adultos compiten indirectamente con osos y jabalíes menores por bosques de frutos, imponiéndose muchas veces por tamaño."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y supervivencia"
+        },
+        {
+          "type": "p",
+          "text": "La población es escasa por la extensión de terreno que cada individuo requiere. Las hembras protegen pequeños grupos de uno a tres rayones durante varios años, hasta que estos adquieren masa suficiente para resistir a depredadores. El apareamiento es violento y puede dejar profundas cicatrices en ambos sexos. Su ritmo de reproducción es inferior al del jabalí de Gullin, pero su mayor longevidad compensa parcialmente esas pérdidas. Los juveniles evitan a los machos dominantes y buscan bordes de bosque donde aún queda alimento. Un gran verraco puede sobrevivir a varios cambios de generación entre los aldeanos vecinos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim y el maná"
+        },
+        {
+          "type": "p",
+          "text": "Las cocinas guerreras lo evocan como un banquete interminable, pero capturarlo es empresa extraordinariamente peligrosa. Sus huesos son gruesos y sus pieles se emplean en protecciones pesadas, aunque el peso y el esfuerzo de caza suelen superar el valor de la pieza. Algunos estudiosos de Faëandir consideran que los ejemplares de cicatrización excepcional deben clasificarse como bestias de maná, sin generalizar esa capacidad a toda la especie. Los santuarios recuerdan que su mitología habla de retorno eterno, pero ningún cuerpo puede rehacerse después de ser destruido."
+        },
+        {
+          "type": "h",
+          "text": "Rastros y enfrentamiento"
+        },
+        {
+          "type": "p",
+          "text": "La huella presenta una profundidad inusual y una separación considerable entre marcas delanteras. Troncos pulidos a la altura de la cintura, pozas de barro enormes y raíces arrancadas revelan un territorio reciente. El verraco no suele perseguir visitantes lejanos, pero reacciona con violencia ante amenazas cercanas, especialmente si está herido. Su carga es baja, rápida y capaz de romper empalizadas ligeras. Los Ojopiedras recomiendan evitar espacios cerrados, no seguir sus rastros hasta la cama y recordar que su resistencia no es invulnerabilidad."
+        },
+        {
+          "type": "p",
+          "text": "«Los poetas juran que Sæhrímnir vuelve cada noche. Los cazadores sabemos que a veces nunca conseguimos que se vaya». — Memoria de un cazador de robledales."
+        }
+      ]
+    }
+  ]
+}

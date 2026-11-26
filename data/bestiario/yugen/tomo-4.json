@@ -1,0 +1,970 @@
+{
+  "region": "yugen",
+  "volume": 4,
+  "title": "Yūgen",
+  "source": "Bestiario_Yugen_Tomo_VIII(1).docx",
+  "preface": [
+    "El último volumen del primer catálogo zoológico de las islas Yugen se adentra en el mar de Ithar’iamil, sus peligrosos estrechos, las bahías rodeadas de acantilados y las cumbres templadas donde anidan las escasas grandes aves del archipiélago. De estas aguas proceden algunas de las historias más antiguas sobre naufragios, presagios, mares que parecen vivos y criaturas capaces de hundir una expedición entera.",
+    "Los diez animales que siguen no son espíritus ni manifestaciones de Kuro. Son reinterpretaciones de motivos mitológicos japoneses como especies del mundo de Aeternalis, cada una con su anatomía, necesidades, vulnerabilidades y relación con el entorno. Sus dimensiones, longevidades y comportamientos son propuestas para aprobación del canon, no certezas previamente establecidas.",
+    "Las imágenes incluidas son láminas conceptuales de referencia. La primera es una ilustración específica nueva del Bake-kujira; las demás son reinterpretaciones visuales provisionales a partir de estudios pictóricos anteriores del proyecto, y en algunos casos requieren una futura corrección anatómica antes de considerarlas definitivas.",
+    "El grado de peligrosidad se refiere al riesgo estimado para viajeros y pescadores ordinarios, no a una jerarquía absoluta de fuerza; los animales pueden actuar con violencia por hambre, defensa territorial o protección de sus crías. Los datos de tamaño y duración de vida son rangos editoriales, abiertos a ajustes para evitar contradicciones con el ecosistema del archipiélago."
+  ],
+  "creatures": [
+    {
+      "id": "yugen-31",
+      "number": 31,
+      "name": "Bake-kujira",
+      "subtitle": "La ballena de las costillas visibles",
+      "imgurId": "suSdtkL",
+      "imgurPage": "https://imgur.com/suSdtkL",
+      "facts": [
+        [
+          "Inspiración",
+          "Bake-kujira (folclore japonés)"
+        ],
+        [
+          "Clasificación",
+          "Cetáceo marino de aguas profundas"
+        ],
+        [
+          "Hábitat",
+          "Frentes oceánicos y canales entre islas; apariciones estacionales"
+        ],
+        [
+          "Tamaño",
+          "18–28 m de longitud; estimación de individuos excepcionales hasta 32 m"
+        ],
+        [
+          "Organización",
+          "Solitario o pareja transitoria"
+        ],
+        [
+          "Alimentación",
+          "Peces pelágicos, calamares y pequeños organismos que filtra"
+        ],
+        [
+          "Peligrosidad",
+          "Alta por tamaño, moderada por agresividad"
+        ],
+        [
+          "Longevidad",
+          "80–130 años (estimación)"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "Pocos animales inspiran tanta inquietud como el Bake-kujira. Desde un bote, el primer signo de su presencia suele ser un lomo oscuro, casi inmóvil, recorrido por vetas blancas que semejan las costillas de una criatura descarnada. No es un muerto viviente: los anatomistas de los templos sostienen que las placas calcificadas crecen bajo una piel fina, parcialmente translúcida, y que los huesos aparentes son una adaptación a la presión y a las cicatrices acumuladas en décadas de viajes por mar abierto. Un adulto muestra una cabeza ancha, una mandíbula pesada y largas aletas pectorales que agitan bancos de peces al remontar hacia la superficie. La piel atrae pequeños organismos que viven sobre el cetáceo; sus manchas y escamas de adherencias hacen que dos ejemplares nunca sean idénticos."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere el mar profundo situado más allá de los promontorios de Shiranui, donde las corrientes frías procedentes de las fosas se mezclan con aguas más cálidas y cargadas de alimento. Durante las migraciones se aproxima a los estrechos; allí su silueta puede reconocerse desde las torres de vigía en jornadas de excepcional transparencia. Consume cardúmenes, calamares y peces relativamente grandes, usando ráfagas de aspiración y filtración entre la mandíbula y unas estructuras córneas interiores. No busca habitualmente a los humanos. El peligro reside en la violencia de sus movimientos y en las turbulencias que deja a su paso, capaces de girar una embarcación cargada."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Se desplaza en soledad durante la mayor parte del año, aunque se han observado parejas que recorren el mismo canal durante semanas. Los juveniles parecen permanecer cerca de sus madres mucho más tiempo que otras especies costeras: requieren aprender las rutas seguras entre arrecifes, las corrientes de las plataformas y los sonidos con que se reconocen en aguas turbias. Su reproducción es lenta; una hembra podría parir una cría cada varios años. La mortalidad temprana es elevada frente a depredadores del océano exterior, razón por la que los ejemplares verdaderamente enormes son escasos. Las placas pálidas se hacen más visibles con la edad y han alimentado la creencia de que el animal se convierte poco a poco en hueso."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Sus rutas pueden identificarse por grupos de peces que huyen en la misma dirección, por un soplo profundo que parece salir de una caverna y por marcas de roce en los pasos submarinos más estrechos. Un pescador sensato no intenta acercarse para comprobar si la ballena está viva: una aleta basta para quebrar remos, y una inmersión brusca provoca remolinos peligrosos. El Bake-kujira sólo muestra agresividad directa cuando protege a una cría o cuando una nave lo arponea. Su gran resistencia física no lo vuelve invulnerable; redes pesadas, heridas persistentes y la reducción de cardúmenes pueden condenarlo lentamente."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Las familias de pescadores lo consideran una señal de que los recursos del océano aún no se han agotado. En algunos santuarios costeros aparecen costillas talladas en madera, no para celebrar la muerte del animal, sino para pedir que los mares devuelvan a quienes parten. Existen relatos de marineros que siguieron durante horas la luz pálida reflejada por sus placas y lograron regresar a puerto tras una tormenta. Esas historias no prueban que la criatura proteja embarcaciones; demuestran, más bien, hasta qué punto su figura se ha convertido en un punto de orientación cultural. La caza deliberada de adultos recibe una fuerte censura en ciertos puertos, aunque la carne y el aceite de ejemplares varados puedan alimentar durante meses a una comunidad."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«La vimos salir por debajo de la niebla, sin furia y sin prisa. Bajo la piel se marcaban arcos blancos, como las vigas de una nave antigua. Nadie levantó el arpón. No porque temiéramos matarla, sino porque comprendimos que estábamos mirando un animal que había sobrevivido a más inviernos que nuestros abuelos». — Registro de un piloto de Shiranui."
+        }
+      ]
+    },
+    {
+      "id": "yugen-32",
+      "number": 32,
+      "name": "Koromodako",
+      "subtitle": "El pulpo que despliega su manto",
+      "imgurId": "bjbxEx1",
+      "imgurPage": "https://imgur.com/bjbxEx1",
+      "facts": [
+        [
+          "Inspiración",
+          "Koromodako / pulpo manta del folclore japonés"
+        ],
+        [
+          "Clasificación",
+          "Cefalópodo costero de gran tamaño"
+        ],
+        [
+          "Hábitat",
+          "Arrecifes, paredes sumergidas y entradas de cuevas costeras"
+        ],
+        [
+          "Tamaño",
+          "3–6 m de cuerpo y brazos; membranas extendidas hasta 10–12 m"
+        ],
+        [
+          "Organización",
+          "Solitario"
+        ],
+        [
+          "Alimentación",
+          "Cangrejos, peces, moluscos y carroña ocasional"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta cerca de la guarida"
+        ],
+        [
+          "Longevidad",
+          "12–20 años (estimación)"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Koromodako se reconoce por unas membranas oscuras que unen parcialmente sus brazos y que, desplegadas, recuerdan un manto tendido entre rocas. Su cabeza es bulbosa, los ojos grandes y móviles, la piel de coloraciones cambiantes entre rojo cobre, violeta profundo y gris marino. Pequeños tubérculos cutáneos rompen la silueta cuando descansa inmóvil. Bajo la membrana conserva hileras de ventosas fuertes, útiles para afirmarse a corales, bordes de acantilados sumergidos y cascos de botes. Aunque las leyendas hablan de un pulpo capaz de cubrir una aldea, el verdadero animal no necesita tales dimensiones: basta un adulto para bloquear una entrada de gruta y hacer imposible el paso a un buzo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Frecuenta la vertiente marina de los islotes de Shiranui, allí donde los arrecifes reciben alimento de corrientes profundas y las oquedades ofrecen refugio. Caza en crepúsculo y por la noche. Sus presas más comunes son grandes crustáceos, peces de roca y moluscos; las conchas rotas acumuladas junto a las guaridas son un indicio casi infalible de presencia. El pulpo sujeta la presa con varios brazos, usa el pico córneo para abrir caparazones y arrastra los restos a una cámara lateral. Algunas historias describen ataques a grandes tiburones; probablemente nacieron de encuentros en que el Koromodako sólo pretendía expulsar a un depredador de su refugio."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es extraordinariamente inteligente y cauteloso. Reconoce cambios persistentes en el entorno, investiga objetos caídos y puede abandonar una guarida cuando los pescadores descubren sus accesos. No forma colonias; los encuentros entre adultos suelen terminar en retirada o lucha breve. En la temporada reproductiva las hembras depositan racimos de huevos en galerías protegidas y los ventilan durante semanas con corrientes de agua. La hembra reduce drásticamente su alimentación durante la vigilancia, y muchos individuos mueren después de la eclosión. Esta inversión reproductiva explica por qué destruir un nido puede eliminar toda una generación local."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La membrana funciona como intimidación y como instrumento para dificultar la salida de un adversario. Cuando percibe vibraciones anómalas, el animal se aplana y extiende sus brazos sobre el fondo; si el peligro persiste, se despliega en un solo gesto, como una vela negra hinchada bajo el agua. Puede envolver el torso de un buceador, entorpecer su respiración y arrastrarlo hacia una grieta, pero no persigue embarcaciones a grandes distancias. Las marcas de ventosas, los montículos de conchas y la ausencia repentina de cangrejos ayudan a localizarlo. Su mayor debilidad es el agotamiento fuera de su refugio y la exposición a depredadores de mar abierto."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los buzos que recogen perlas y crustáceos aprenden desde niños a distinguir una cueva abandonada de otra habitada por Koromodako. Ciertos pescadores consideran un acto de imprudencia sacrificar un animal que ha mantenido alejados a otros depredadores del arrecife; otros lo cazan por sus poderosos brazos y su tinta, apreciados en recetas y tinturas. Entre los guerreros de Shiranui circula una imagen recurrente: el pulpo que sólo revela todo su tamaño cuando se ve acorralado. Por esa razón ha llegado a compararse con el último recurso del pueblo Yugen, aunque no existe relación alguna entre su biología y la magia Kuro."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«Cuando desplegó la membrana no apareció un monstruo nuevo: apareció el mismo animal, de pronto demasiado grande para nuestra valentía. Entonces comprendí que sus colores no eran una amenaza gratuita, sino una advertencia que habíamos decidido ignorar». — Diario de una recolectora de arrecifes."
+        }
+      ]
+    },
+    {
+      "id": "yugen-33",
+      "number": 33,
+      "name": "Isonade",
+      "subtitle": "El tiburón de la cola espinosa",
+      "imgurId": "7ygzdz9",
+      "imgurPage": "https://imgur.com/7ygzdz9",
+      "facts": [
+        [
+          "Inspiración",
+          "Isonade (tradición japonesa)"
+        ],
+        [
+          "Clasificación",
+          "Gran pez cartilaginoso depredador"
+        ],
+        [
+          "Hábitat",
+          "Canales exteriores y fondos oceánicos abruptos"
+        ],
+        [
+          "Tamaño",
+          "7–11 m de longitud; cola espinosa excepcionalmente larga"
+        ],
+        [
+          "Organización",
+          "Solitario, encuentros breves de apareamiento"
+        ],
+        [
+          "Alimentación",
+          "Peces grandes, rayas, focas y carroña"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema"
+        ],
+        [
+          "Longevidad",
+          "45–70 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Isonade tiene la forma general de un tiburón de aguas abiertas, pero su rasgo más temible se encuentra en la cola: un pedúnculo musculoso rodeado por espinas rígidas y recurvadas que pueden desgarrar un casco ligero, una red o el cuerpo de una presa. Posee morro ancho, dientes serrados reemplazables y ojos adaptados a la penumbra submarina. La piel gris oscura presenta dentículos ásperos, y la aleta dorsal, baja y robusta, rara vez sobresale de manera espectacular de la superficie. Su silueta es casi invisible desde un barco salvo cuando gira sobre un costado y muestra el vientre más claro."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Se mueve por canales profundos alrededor de los islotes exteriores de Shiranui, donde las corrientes concentran peces migratorios. Sube al borde de la plataforma por las noches y vuelve a zonas más profundas al aumentar la actividad de las embarcaciones. Su dieta incluye peces rápidos, grandes rayas, cefalópodos y restos de animales muertos; no necesita alimentarse todos los días, porque una captura grande puede sostenerlo durante periodos largos. Frente a la escasez de alimento, algunos ejemplares se acercan a los residuos de los muelles, un comportamiento que termina asociándolos con los puertos más pobres."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es generalmente solitario y evita confrontaciones inútiles. Recorre un circuito amplio de caza y conserva memoria de los lugares donde abundan presas o donde alguna vez encontró una trampa. El cortejo consiste en persecuciones breves, mordidas superficiales y un largo periodo de gestación interna. Las hembras paren pocas crías de gran tamaño, capaces de valerse por sí mismas desde el comienzo, pero expuestas a otros depredadores. El crecimiento es lento: pueden pasar décadas antes de que un Isonade alcance la envergadura de las historias marineras."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La imagen del Isonade que destruye naves a coletazos se basa en una conducta real, aunque menos teatral. Cuando una presa se le escapa por detrás, el tiburón describe un giro violento y utiliza su cola como arma lateral. Su contacto puede arrancar carne, romper remos y herir buzos sin necesidad de una mordida. Las mejores señales son peces con laceraciones paralelas, redes cortadas de manera irregular y movimientos extraños de los bancos de rayas. Ante un encuentro, los marineros recomiendan no intentar arponearlo desde un bote pequeño: un animal herido agita la cola con tal fuerza que el riesgo aumenta de inmediato."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "En los puertos más expuestos se construyen redes de protección alrededor de los criaderos y de los desembarcaderos. La tradición guerrera admira su paciencia de cazador, pero considera imprudente desafiarlo sin una necesidad concreta. Los dientes se emplean como cuchillas ceremoniales y las espinas halladas en cadáveres varados como advertencias en las puertas de los almacenes de pescado. Para los habitantes de la isla, el Isonade personifica una lección desagradable: el enemigo más peligroso no siempre es el que aparece de frente. Muchos viejos pilotos enseñan a los aprendices a mirar el agua por detrás de la embarcación antes de echar las redes."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«No vi sus dientes. Vi una sombra girar bajo la quilla y luego el remo salió del agua convertido en astillas. Su cola había dado el golpe donde ninguno de nosotros esperaba una boca». — Testimonio de un patrón de redes."
+        }
+      ]
+    },
+    {
+      "id": "yugen-34",
+      "number": 34,
+      "name": "Ningyo",
+      "subtitle": "El pez de rostro inquietantemente familiar",
+      "imgurId": "mrovyiW",
+      "imgurPage": "https://imgur.com/mrovyiW",
+      "facts": [
+        [
+          "Inspiración",
+          "Ningyo (folclore japonés)"
+        ],
+        [
+          "Clasificación",
+          "Pez marino raro, morfología cefálica peculiar"
+        ],
+        [
+          "Hábitat",
+          "Arrecifes profundos y cuevas de la plataforma insular"
+        ],
+        [
+          "Tamaño",
+          "1,2–2,1 m de longitud"
+        ],
+        [
+          "Organización",
+          "Grupos pequeños de 3–8 individuos"
+        ],
+        [
+          "Alimentación",
+          "Moluscos, crustáceos, peces pequeños y algas blandas"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; mordida defensiva"
+        ],
+        [
+          "Longevidad",
+          "25–40 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "Las primeras descripciones de Ningyo hablan de un rostro humano unido a un cuerpo de pez. Los naturalistas de Yugen prefieren una explicación menos portentosa: el animal posee ojos frontales grandes, labios móviles, una frente abombada y pliegues de piel cuya disposición produce una semejanza inquietante con un semblante humano. Bajo la cabeza el tronco se estrecha hacia un cuerpo pisciforme, con escamas pequeñas, aletas pectorales anchas y una cola potente. La coloración combina verdes, plateados y tonos de coral, y las membranas de las aletas reflejan luces cambiantes bajo el agua. La ilusión de humanidad se disipa al observar sus branquias y su manera de nadar."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Se concentra en las paredes coralinas más protegidas de Shiranui y en túneles sumergidos abiertos por la erosión. Prefiere aguas relativamente claras, donde puede buscar alimento entre las grietas sin competir con depredadores mayores. La mandíbula tiene dientes aptos para romper caparazones pequeños, y los labios permiten explorar ranuras. Come moluscos, cangrejos, erizos y peces juveniles; los ejemplares jóvenes ingieren también algas blandas y organismos adheridos. Al atardecer asciende a cotas menos profundas y de día se oculta en cámaras rocosas donde la corriente transporta nutrientes."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "A diferencia de los grandes depredadores, el Ningyo parece gregario. Pequeños grupos se desplazan lentamente entre refugios, comunicándose mediante golpes, chasquidos y variaciones de color en la garganta. Su reproducción es poco conocida. Los investigadores sospechan que deposita huevos de cubierta flexible en grietas profundas, protegidos por uno o varios adultos. Las crías son vulnerables a peces mayores y viven durante sus primeros años entre algas densas. La curiosidad del Ningyo es notable: puede seguir buzos a distancia, examinar objetos brillantes y detenerse ante una máscara humana como si estudiara su reflejo."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "No se considera un depredador de personas. El peligro surge de la falsa familiaridad que inspira. Más de un buzo se ha acercado demasiado creyendo encontrar a un náufrago, sólo para descubrir que el animal se defiende con una dentellada y una brusca embestida. Sus refugios se reconocen por conchas abiertas en pequeñas acumulaciones y por marcas de aleta sobre sedimentos finos. Un Ningyo atrapado en una red puede lesionarse con facilidad; conviene liberarlo sin tocar las branquias ni mantenerlo largo tiempo fuera del agua."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los templos más antiguos relacionan su aparición con advertencias de naufragio y calamidad. Algunos poemas atribuyen longevidad extraordinaria a quien consuma su carne, tradición que los médicos consideran superstición peligrosa: muchos tejidos marinos acumulan sustancias irritantes y parásitos. Ciertos señores costeros prohíben su captura por razones religiosas; otros lo exhiben como rareza para impresionar a dignatarios extranjeros. El conflicto entre veneración y explotación es especialmente visible en esta especie. Su rostro casi humano despierta compasión, pero también la tentación de considerarlo una prueba tangible de viejos relatos sobrenaturales."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«La criatura se acercó a la máscara de cobre y pareció observar nuestros ojos. No vi una mujer del mar. Vi a un animal curioso, tan sorprendido por nosotros como nosotros por él». — Apunte de una buceadora de los islotes orientales."
+        }
+      ]
+    },
+    {
+      "id": "yugen-35",
+      "number": 35,
+      "name": "Sazae-oni",
+      "subtitle": "El caracol acorazado de las rompientes",
+      "imgurId": "Uw6cRas",
+      "imgurPage": "https://imgur.com/Uw6cRas",
+      "facts": [
+        [
+          "Inspiración",
+          "Sazae-oni (folclore japonés)"
+        ],
+        [
+          "Clasificación",
+          "Gasterópodo marino gigantesco"
+        ],
+        [
+          "Hábitat",
+          "Arrecifes rocosos, pozas intermareales y cuevas batidas por olas"
+        ],
+        [
+          "Tamaño",
+          "Concha de 1–1,8 m; masa superior a 250 kg en adultos"
+        ],
+        [
+          "Organización",
+          "Solitario; agrupaciones estacionales"
+        ],
+        [
+          "Alimentación",
+          "Algas, esponjas, pequeños invertebrados y carroña"
+        ],
+        [
+          "Peligrosidad",
+          "Media; muy alta si un buzo queda atrapado"
+        ],
+        [
+          "Longevidad",
+          "40–60 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Sazae-oni parece, a primera vista, una gigantesca concha espiral adherida a la roca. Su cubierta calcárea desarrolla protuberancias, espinas romas y estrías endurecidas que dispersan la energía de los golpes. Cuando se desplaza extiende un pie muscular ancho y varios tentáculos sensoriales capaces de explorar la oscuridad bajo las piedras. El cuerpo blando es sorprendentemente fuerte y puede retraerse en pocos instantes, cerrando la abertura mediante un opérculo grueso. En los individuos viejos la concha se cubre de percebes y corales, de modo que es casi imposible distinguirlos del arrecife sin observar el movimiento lento de sus antenas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Vive donde el oleaje rompe contra las plataformas de roca de Shiranui y en las cavidades sumergidas de la costa principal. Aprovecha el flujo constante de agua rica en alimento para raspar algas, consumir esponjas y recoger pequeños animales muertos. Su rádula, una estructura de dientes microscópicos, puede trabajar durante horas sobre superficies duras. No persigue presas veloces; su éxito ecológico depende de persistencia y protección. En las mareas especialmente bajas permanece oculto bajo agua acumulada o se retrae por completo para impedir la desecación."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es lento y territorial a escala reducida. Dos adultos compiten por los mismos refugios, pero raramente llegan a matarse. En temporada reproductiva varios ejemplares se congregan en una misma poza profunda; depositan masas gelatinosas de huevos adheridas a techos sumergidos, de las que emergen larvas diminutas dispersadas por las corrientes. Sólo unas pocas encuentran arrecifes adecuados y alcanzan la edad adulta. Esta reproducción abundante, unida a una mortalidad juvenil muy elevada, explica por qué hay grandes diferencias de tamaño en las poblaciones locales."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Su fama de devorador humano exagera un riesgo real: un Sazae-oni puede sujetar con el pie una mano, una red o un tobillo contra la piedra mientras las olas arrastran a la persona. El opérculo puede aplastar dedos y el contacto con espinas contaminadas provocar infecciones. La criatura no busca víctimas; se defiende cuando algo invade su abertura o intenta arrancarla del sustrato. Las señales de presencia incluyen raspados circulares sobre roca, conchas quebradas en torno a pozas profundas y un sonido áspero cuando retrae el pie contra el borde de la concha."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los recolectores costeros conocen el valor de sus conchas, utilizadas para recipientes ceremoniales, cuernos de señal y trabajos de incrustación. Algunos templos las colocan cerca de las escaleras que conducen al mar como símbolo de resistencia y repliegue. La carne es comestible sólo mediante preparación cuidadosa, pues ciertos órganos concentran toxinas provenientes de su dieta. El prestigio que aporta una concha enorme puede fomentar capturas irresponsables: los viejos pescadores recuerdan que eliminar a los adultos altera poblaciones de algas y pequeños invertebrados que mantienen sanos los arrecifes."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«Creíamos estar trepando una roca cubierta de espinas. Entonces la roca cerró una puerta de nácar sobre nuestra cuerda y nos enseñó que el mar también tiene manos lentas». — Notas de un mariscador de Shiranui."
+        }
+      ]
+    },
+    {
+      "id": "yugen-36",
+      "number": 36,
+      "name": "Hōnengyo",
+      "subtitle": "La cinta roja de las corrientes templadas",
+      "imgurId": "Hy4jLlq",
+      "imgurPage": "https://imgur.com/Hy4jLlq",
+      "facts": [
+        [
+          "Inspiración",
+          "Hōnengyo / grandes peces de buen augurio"
+        ],
+        [
+          "Clasificación",
+          "Pez pelágico migratorio"
+        ],
+        [
+          "Hábitat",
+          "Rutas de mar abierto y aguas exteriores del archipiélago"
+        ],
+        [
+          "Tamaño",
+          "4–8 m; adultos excepcionales hasta 11 m"
+        ],
+        [
+          "Organización",
+          "Solitario o grupos migratorios muy dispersos"
+        ],
+        [
+          "Alimentación",
+          "Pequeños peces, crustáceos y organismos gelatinosos"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; peligro por golpes accidentales"
+        ],
+        [
+          "Longevidad",
+          "30–50 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Hōnengyo es un pez alargado de escamas rojizas y bandas plateadas que reflejan la luz como una hoja de metal húmedo. Posee una larga aleta dorsal, flexible y ondulante, cuyos primeros radios se elevan formando filamentos finos. La cabeza es relativamente pequeña para su longitud; los ojos, grandes, parecen adaptados a la luz azul del océano profundo. Sus músculos no están hechos para embestidas violentas, sino para mantener un avance continuo durante enormes distancias. Cuando aparece cerca de un puerto, su cuerpo serpenteante puede confundirse con una pequeña criatura dracónica, aunque su respiración branquial y su esqueleto de pez desmienten la fantasía."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Se desplaza con las corrientes ricas en alimento que circundan Ithar'iamil. Normalmente ocupa niveles intermedios de la columna de agua, ascendiendo de noche para buscar cardúmenes y pequeños crustáceos. Puede alimentarse mediante movimientos lentos de la boca que concentran organismos dispersos. En años especialmente fértiles aparecen ejemplares cerca de Shiranui, cuando la abundancia de plancton cambia el color del mar y atrae peces menores. Durante las tormentas fuertes las corrientes pueden arrastrar a individuos debilitados hacia las playas, donde son hallados todavía vivos y apenas capaces de retorcerse."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es una especie nómada, aparentemente pacífica y poco proclive a establecer territorios. Los encuentros entre adultos son fugaces; los pequeños grupos que observan los vigías pueden reunirse sólo por coincidencia en un mismo corredor de alimento. Los huevos serían liberados en aguas abiertas y transportados por corrientes superficiales hasta alcanzar zonas más seguras. La enorme dispersión de las crías y su crecimiento lento explican la escasez de observaciones directas. Su reproducción está poco documentada porque casi ningún pescador lo encuentra dos veces en un mismo lugar."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "A pesar de su tamaño, rara vez representa un peligro. Puede volcar un bote ligero al golpearlo accidentalmente durante una huida, pero evita el contacto si dispone de espacio para maniobrar. Sus filamentos dorsales se enganchan con facilidad en redes y palangres, por lo que conviene liberarlo con agua sobre las branquias y sin levantarlo por la cabeza. La señal más fiable de su presencia es una banda rojiza fugaz bajo la superficie, seguida de un movimiento largo y regular. Es frecuente que se confunda con una serpiente marina cuando sólo se observa la zona dorsal."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Su aparición durante la estación de las cosechas dio origen a una tradición de buenos augurios. Los campesinos de Hanamori, aunque vivan lejos del océano, escuchan los relatos de los pescadores y los asocian con abundancia de agua y arroz. Esta creencia no es completamente arbitraria: ciertas condiciones climáticas favorecen tanto la fertilidad de los valles como la productividad de las aguas costeras. En los santuarios se lo representa como una cinta roja que une las corrientes del mar con las de la tierra. Su captura no está prohibida, pero muchos clanes prefieren dejarlo marchar para no desafiar la fortuna."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«El pez era rojo como una brasa enterrada en agua azul. No atacó. Pasó junto al casco y desapareció, y todos los hombres discutieron durante horas si habíamos visto un dragón o el presagio de una cosecha». — Carta de un mercader costero."
+        }
+      ]
+    },
+    {
+      "id": "yugen-37",
+      "number": 37,
+      "name": "Wani de Arrecife",
+      "subtitle": "El gran reptil de los arrecifes",
+      "imgurId": "hH20qtF",
+      "imgurPage": "https://imgur.com/hH20qtF",
+      "facts": [
+        [
+          "Inspiración",
+          "Wani (criaturas reptilianas del folclore japonés)"
+        ],
+        [
+          "Clasificación",
+          "Reptil marino anfibio"
+        ],
+        [
+          "Hábitat",
+          "Estuarios salobres, manglares y arrecifes cálidos"
+        ],
+        [
+          "Tamaño",
+          "5–8 m de longitud; ejemplares excepcionales hasta 10 m"
+        ],
+        [
+          "Organización",
+          "Solitario, congregaciones estacionales en desembocaduras"
+        ],
+        [
+          "Alimentación",
+          "Peces, tortugas, aves marinas y mamíferos costeros"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta"
+        ],
+        [
+          "Longevidad",
+          "60–90 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Wani de Arrecife es un reptil marino de enorme cuerpo alargado, cabeza aplanada y mandíbula ancha. Sus dientes cónicos se entrelazan al cerrar la boca y las placas óseas de la espalda forman una coraza que puede confundirse con roca cubierta de algas. A diferencia de los cocodrilos de agua dulce, desarrolla extremidades posteriores más aptas para propulsarse y una cola comprimida lateralmente, de poderoso impulso. La piel combina ocres, verdes oscuros y manchas pálidas que rompen su perfil entre las sombras de coral. Sus ojos y orificios nasales se sitúan altos, permitiéndole observar la costa sin revelar el grueso del cuerpo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa la franja donde los ríos cargados de sedimentos desembocan en el mar y crean laberintos de roca, vegetación litoral y canales someros. Se interna en aguas salobres durante la temporada de lluvias y vuelve al arrecife cuando los estuarios pierden profundidad. Se alimenta de grandes peces, tortugas, aves marinas y cualquier mamífero que se acerque al borde. Un Wani adulto puede aguardar durante horas sin mover más que los ojos. Los cadáveres que arrastra a su guarida atraen cangrejos, pequeños peces y carroñeros, de manera que sus presas alimentan indirectamente a otras especies."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es territorial y conserva las mismas rutas de caza durante años. Los adultos toleran mal la proximidad de rivales, salvo durante el apareamiento, cuando pueden encontrarse varios ejemplares en canales anchos. Las hembras construyen nidos de vegetación húmeda y arena en islotes protegidos; vigilan los huevos y ayudan a las crías a alcanzar el agua. Los juveniles permanecen en bahías poco profundas, donde su tamaño los vuelve presa de tiburones y otros grandes peces. El crecimiento es lento y muchos mueren antes de dominar un territorio propio."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Su ataque es rápido y de corta distancia. Se impulsa con la cola, captura mediante una mordida y utiliza giros del cuerpo para desorientar a la presa. No puede perseguir durante mucho tiempo en tierra seca, pero dentro del agua es extraordinariamente veloz. Sus huellas muestran surcos amplios de cola y marcas de vientre sobre arena húmeda. Las pequeñas playas con nidos son extremadamente peligrosas: una hembra puede defenderlos de manera feroz sin distinguir entre un cazador y un recolector inocente. Los pescadores recomiendan alejarse de canales silenciosos donde desaparecen repentinamente las aves."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los pescadores de Shiranui lo consideran un obstáculo constante para la captura de peces y el tránsito por bahías menores. Su cuero rígido ha sido utilizado como modelo para armaduras escamadas, aunque procesar una piel adulta exige herramientas muy resistentes. La amenaza de los Wani explica por qué ciertos asentamientos mantienen embarcaderos elevados y por qué las rutas de pesca cambian según la estación. Los guerreros que cazan uno no reciben la misma gloria que un mártir del Kuro; se les reconoce una destreza práctica y una sangre fría que encajan con el Kushidō. Los cazadores prudentes prefieren expulsarlo de una zona habitada antes que perseguirlo en mar abierto."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«No vimos al reptil hasta que abrió los ojos. La piedra estaba viva, la arena era su espalda, y el canal que habíamos escogido para cruzar era el pasillo de su casa». — Informe de un vigía de estuario."
+        }
+      ]
+    },
+    {
+      "id": "yugen-38",
+      "number": 38,
+      "name": "Tengu de Acantilado",
+      "subtitle": "El señor de los vuelos cortos entre riscos",
+      "imgurId": "fSteKjV",
+      "imgurPage": "https://imgur.com/fSteKjV",
+      "facts": [
+        [
+          "Inspiración",
+          "Tengu, reinterpretado como ave rapaz"
+        ],
+        [
+          "Clasificación",
+          "Ave rapaz de acantilado"
+        ],
+        [
+          "Hábitat",
+          "Acantilados costeros y barrancos forestales"
+        ],
+        [
+          "Tamaño",
+          "Envergadura 2,8–3,6 m; longitud 1,2–1,5 m"
+        ],
+        [
+          "Organización",
+          "Parejas reproductoras, adultos solitarios fuera del celo"
+        ],
+        [
+          "Alimentación",
+          "Peces, aves marinas, pequeños mamíferos y carroña"
+        ],
+        [
+          "Peligrosidad",
+          "Media cerca del nido"
+        ],
+        [
+          "Longevidad",
+          "25–35 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Tengu de Acantilado no viste ropas ni sostiene báculos: es una rapaz extraordinariamente grande cuya cresta rígida y pico prolongado, vistos de frente, recuerdan de manera sorprendente los perfiles de ciertas máscaras sacerdotales. Sus plumas son negras, pardas y rojizas, con reflejos cobrizos visibles sólo cuando el sol atraviesa las nubes. Las alas anchas y profundamente digitadas le permiten frenar en corrientes muy irregulares, mientras las patas robustas terminan en garras capaces de fijarse a una cornisa batida por el viento. El rostro tiene un aire severo por la disposición de las plumas alrededor de los ojos, no por una inteligencia humana."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Cría en grandes paredes rocosas que miran al mar y en las gargantas forestales próximas a templos antiguos. A diferencia de las águilas de cumbre, utiliza con frecuencia las corrientes cálidas generadas al chocar el aire húmedo con los riscos insulares. Caza aves marinas, peces que saltan cerca de la superficie y roedores de los acantilados; cuando escasea el alimento aprovecha cadáveres y restos de pesca. Sus rutas siguen líneas de viento más que senderos terrestres. Por esa razón puede desaparecer detrás de una pared y aparecer en otra playa minutos más tarde sin apenas batir las alas."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Las parejas establecen nidos grandes y persistentes en repisas inaccesibles. Regresan a ellos durante años, ampliándolos con ramas, algas secas y huesos de presas. Ponen uno o dos huevos por temporada, y las crías dependen de sus padres durante un largo periodo. Los jóvenes realizan vuelos torpes, frecuentemente observados por monjes que confunden sus gritos con silbidos rituales. El Tengu se mantiene generalmente solitario fuera de la crianza, aunque varias aves pueden coincidir cuando los temporales dejan gran cantidad de carroña en la costa."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "No caza adultos humanos, pero puede herir seriamente a quien se acerque a su nido. Ataca desde arriba con las garras extendidas y emite un grito penetrante antes de la segunda pasada. Las señales de presencia incluyen plumas largas, huesos secos sobre salientes y acumulaciones de restos de pescado. Las corrientes que utiliza son tan fuertes que los escaladores pueden perder pie intentando observarlo. Su mayor virtud es la lectura del aire; su mayor vulnerabilidad, la dependencia de lugares de anidación seguros, escasos en una isla donde las fortalezas compiten por cada risco."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los templos de Iwagiri lo consideran un ejemplo de quietud antes del movimiento. Los guerreros contemplan sus largos periodos de inmovilidad y la precisión con que decide lanzarse, encontrando en ello una analogía con la disciplina del Kushidō. Algunos maestros prohíben robar huevos, por entender que destruir un nido para obtener una pluma es la forma más vulgar de vanidad. En ciertos estandartes aparece como un ave de mirada dura, capaz de encontrar el paso incluso en un cielo roto por tormentas. Los vigías observan su vuelo para anticipar corrientes peligrosas y cambios de tiempo sobre los desfiladeros."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«Durante una hora permaneció sobre la roca sin mover el pico. Cuando creyó conveniente descender, el viento mismo pareció abrirle un camino. No es un maestro con alas, pero a muchos maestros les convendría mirarlo». — Cuaderno de un monje de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-39",
+      "number": 39,
+      "name": "Basan",
+      "subtitle": "El gallo que parece respirar fuego",
+      "imgurId": "essULwi",
+      "imgurPage": "https://imgur.com/essULwi",
+      "facts": [
+        [
+          "Inspiración",
+          "Basan (tradición japonesa)"
+        ],
+        [
+          "Clasificación",
+          "Ave galliforme de bosque templado"
+        ],
+        [
+          "Hábitat",
+          "Bosques de bambú, matorrales cálidos y laderas volcánicas"
+        ],
+        [
+          "Tamaño",
+          "1,0–1,5 m de longitud, incluida la cola"
+        ],
+        [
+          "Organización",
+          "Pequeños grupos estacionales; machos territoriales"
+        ],
+        [
+          "Alimentación",
+          "Semillas, frutos, insectos, larvas y pequeños reptiles"
+        ],
+        [
+          "Peligrosidad",
+          "Baja a media, agresiva durante la reproducción"
+        ],
+        [
+          "Longevidad",
+          "12–18 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Basan es un ave terrestre de plumaje extravagante, emparentada en forma general con grandes galliformes. Su pecho oscuro refleja tonos azules y verdes, mientras la garganta y los laterales del cuello muestran pequeñas zonas bioluminiscentes o altamente reflectantes que parecen encenderse en la noche húmeda. Posee cola larga, cresta erizada, patas fuertes y un espolón en cada tarso. Los machos adultos alcanzan una coloración mucho más intensa durante el cortejo, y las hembras llevan tonos pardos que las vuelven difíciles de detectar entre hojas caídas. Cuando exhala aire frío en noches de mucha humedad, el vapor iluminado por sus plumas crea la ilusión de una bocanada de fuego."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Habita bosques templados y cálidos de las zonas bajas de Yugen, particularmente bambusales, claros junto a cultivos abandonados y laderas donde la piedra guarda calor hasta la madrugada. Busca semillas, brotes, frutos, insectos grandes y pequeños reptiles. Durante la temporada de lluvias remueve con las patas la hojarasca húmeda para encontrar larvas; en época seca se desplaza hacia las márgenes de los canales agrícolas. Puede consumir escarabajos de caparazón duro gracias a una molleja poderosa. Su presencia indica un sotobosque rico y con cobertura suficiente para escapar de pequeños carnívoros."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Los Basan adultos son terrestres, aunque vuelan distancias cortas para cruzar arroyos o escapar de un depredador. Fuera del periodo reproductivo forman grupos pequeños que forrajean juntos; al comenzar el celo los machos reclaman claros, inflan el cuello y exhiben las zonas luminosas del plumaje entre silbidos ásperos. Las hembras anidan sobre el suelo, ocultas bajo helechos y raíces. Los polluelos abandonan el nido poco después de nacer, pero permanecen guiados por la madre durante semanas. Su reproducción depende de que los bosques mantengan franjas de vegetación densa, algo cada vez más difícil cerca de campos cultivados."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Las leyendas lo describen lanzando llamas espectrales, pero los observadores nunca han registrado combustión verdadera. En defensa se vale del espolón, de golpes de ala y de una huida veloz entre matorrales. Un macho acorralado puede herir a un niño o a un cazador descuidado, aunque rara vez representa una amenaza seria para un adulto protegido. Su canto es grave, irregular y parece surgir de varios puntos del bosque por la manera en que rebota entre troncos. Las huellas de dedos robustos, los surcos de hojarasca removida y la presencia de plumas iridiscentes son sus mejores rastros."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "En las aldeas próximas a los bambusales se lo conoce como el pájaro de la linterna. Algunas familias creen que su brillo anuncia visitas de antepasados; otras sostienen que sólo advierte cambios de humedad y temperatura. Los cazadores aprecian su carne, pero los templos de ciertas montañas protegen los territorios de cría. En pinturas de guerra el Basan representa el engaño de la apariencia: parece incendiario, pero sobrevive gracias a la discreción y a su conocimiento del suelo. Su creciente escasez cerca de Hanamori ha sido interpretada como un indicio de transformación excesiva del paisaje por la agricultura y los conflictos entre clanes."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«La primera noche creímos que ardían carbones bajo los bambúes. La segunda descubrimos que eran gargantas y plumas de gallos salvajes, vivos y atentos a todo lo que se movía en la oscuridad». — Observación de un guardabosques Yugen."
+        }
+      ]
+    },
+    {
+      "id": "yugen-40",
+      "number": 40,
+      "name": "Raijū de Tormenta",
+      "subtitle": "La bestia que anticipa las tormentas",
+      "imgurId": "9Rg9PzU",
+      "imgurPage": "https://imgur.com/9Rg9PzU",
+      "facts": [
+        [
+          "Inspiración",
+          "Raijū (folclore japonés)"
+        ],
+        [
+          "Clasificación",
+          "Mamífero arborícola planeador"
+        ],
+        [
+          "Hábitat",
+          "Bosques altos, barrancos húmedos y árboles expuestos a tormentas"
+        ],
+        [
+          "Tamaño",
+          "0,6–1,1 m de cuerpo; membrana planeadora de hasta 1,8 m extendida"
+        ],
+        [
+          "Organización",
+          "Solitario o parejas, grupos familiares temporales"
+        ],
+        [
+          "Alimentación",
+          "Insectos, roedores, huevos, frutos y pequeños reptiles"
+        ],
+        [
+          "Peligrosidad",
+          "Media; mordeduras y descargas defensivas"
+        ],
+        [
+          "Longevidad",
+          "15–22 años"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Aspecto y anatomía"
+        },
+        {
+          "type": "p",
+          "text": "El Raijū de Tormenta combina rasgos de mustélido, ardilla planeadora y pequeño felino arborícola. Tiene cuerpo flexible, patas fuertes, cola larga y orejas sensibles a sonidos de baja frecuencia. Entre las extremidades desarrolla membranas que le permiten deslizarse de un árbol a otro sin un vuelo verdadero. Su pelaje oscuro muestra una franja brillante a lo largo de los flancos; bajo la piel existen órganos capaces de acumular pequeñas diferencias de potencial, quizá alimentados por procesos bioquímicos aún mal comprendidos. No invoca rayos del cielo, pero cuando está excitado produce chasquidos, eriza el pelo y puede descargar una sacudida dolorosa al contacto cercano."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Vive en bosques altos situados por encima de los valles agrícolas, donde la lluvia frecuente mantiene ramas cargadas de humedad y abundantes insectos. Construye refugios en huecos de árboles grandes, separados del suelo por varios metros. Sale sobre todo durante el crepúsculo y las noches nubladas para capturar insectos, roedores, huevos y pequeños reptiles. También come frutos y resinas. Su dieta cambia con la estación: en época de lluvias sigue a las concentraciones de insectos; cuando escasean se vuelve cazador de pequeños vertebrados, utilizando el planeo para sorprender presas en ramas distantes."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Es activo, curioso y difícil de observar durante mucho tiempo. Puede pasar horas inmóvil en una horcadura y luego cruzar un barranco en un planeo silencioso. Suelen vivir solos, aunque las parejas conservan contacto mediante llamados graves durante la reproducción. Las hembras paren pocas crías en nidos de fibras vegetales y las transportan cuando cambia el refugio. Los juveniles practican saltos cortos antes de aprender a extender completamente la membrana. La mortalidad aumenta tras grandes vendavales que destruyen árboles viejos; la supervivencia de la especie depende de corredores forestales continuos y de troncos con cavidades estables."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad, rastros y encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La fama de mensajero de los truenos nace de su actividad antes de las tormentas. Percibe variaciones de presión, electricidad atmosférica y vibraciones que los humanos apenas advierten; entonces se desplaza buscando refugio y a menudo cruza de una rama a otra en plena oscuridad. Los chasquidos que acompañan ese movimiento son interpretados como relámpagos diminutos. La descarga puede aturdir momentáneamente a una presa o a una mano que intenta sujetarlo, pero no alcanza el poder destructivo de un hechizo. Los árboles marcados por arañazos finos, los nidos elevados y las pequeñas pelotas de pelo gris son señales de su presencia."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los campesinos de Hanamori creen que escuchar un Raijū en el bosque próximo anuncia lluvia intensa y refuerzan diques y tejados cuando sus llamadas se repiten. En Iwagiri algunos monjes lo consideran un maestro de la retirada oportuna: percibe el peligro antes de que estalle y cambia de refugio sin enfrentarse a él. Los niños cuentan historias de criaturas que duermen en los truenos y despiertan cuando relampaguea. Su captura como mascota es poco aconsejable, pues necesita árboles altos, libertad de movimiento y espacios amplios. Un ejemplar encerrado se vuelve agresivo, pierde musculatura planeadora y puede dañarse contra los barrotes."
+        },
+        {
+          "type": "h",
+          "text": "Nota de campo"
+        },
+        {
+          "type": "p",
+          "text": "«No vimos caer el rayo. Vimos un animal menudo abrirse como una vela entre dos árboles y, al llegar al otro lado, el cielo empezó a rugir. Quienes lo llamaron hechicería no habían aprendido a escuchar el bosque». — Informe de un explorador de Iwagiri."
+        },
+        {
+          "type": "h",
+          "text": "Epílogo · El mar que mantuvo viva a la isla"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen se han sostenido durante generaciones en una isla demasiado poblada, cultivando valles fértiles, aprovechando lluvias estacionales y enviando barcos a un océano que ofrece alimento a cambio de peligro. La ecología de los arrecifes no es un simple decorado: la desaparición de un depredador puede multiplicar una presa, la alteración de un canal puede desplazar a un Wani y la destrucción de bosques costeros puede privar al Basan y al Raijū de los refugios que necesitan para sobrevivir."
+        },
+        {
+          "type": "p",
+          "text": "El clan de Shiranui controla los islotes y los accesos a muchos de los caladeros, pero eso no convierte a la fauna marina en patrimonio exclusivo suyo. Las corrientes transportan peces hacia puertos rivales, las lluvias de Iwagiri alimentan estuarios y los campos de Hanamori reciben recursos del intercambio pesquero. Cada criatura del tomo participa indirectamente en conflictos de impuestos, derechos de pesca, límites entre clanes, rituales templarios y decisiones de guerra."
+        },
+        {
+          "type": "p",
+          "text": "La tentación de resolver cualquier crisis mediante la bendición de Eko debe contrastarse con el conocimiento del entorno. Un nido bien cartografiado, una migración observada a tiempo o una bahía declarada zona de crianza pueden salvar tantas vidas como una manifestación desesperada de Kuro. Este bestiario propone así otra clase de heroísmo Yugen: el de quien aprende a comprender su tierra y sus aguas para que nadie tenga que sacrificar su esencia en vano."
+        },
+        {
+          "type": "h",
+          "text": "Relaciones ecológicas resumidas"
+        },
+        {
+          "type": "p",
+          "text": "En el mar abierto, los Hōnengyo y los grandes bancos de peces ocupan corredores alimentarios que también atraen al Bake-kujira. El Isonade patrulla los bordes de esas rutas y aprovecha a los animales heridos. El Koromodako, por su parte, reina en los recovecos donde la corriente pierde fuerza: es el cazador que transforma cada cueva en una trampa."
+        },
+        {
+          "type": "p",
+          "text": "En los arrecifes, el Sazae-oni consume algas y carroña, pero sus conchas también ofrecen refugio a organismos pequeños. El Ningyo aprovecha los mismos fondos sin perseguir las mismas presas. El Wani cruza entre estuario y mar y conecta las cadenas alimentarias del interior con las de la costa."
+        },
+        {
+          "type": "p",
+          "text": "Sobre la línea de rocas y árboles, el Tengu observa las corrientes aéreas, mientras el Basan ocupa el sotobosque cálido y el Raijū recorre copas y barrancos antes de la lluvia. Ninguno compite exactamente por las mismas presas; su coexistencia depende de la conservación de diferentes estratos del paisaje."
+        },
+        {
+          "type": "p",
+          "text": "Fin del primer ciclo zoológico Yugen: 40 especies en los tomos V, VI, VII y VIII."
+        }
+      ]
+    }
+  ]
+}

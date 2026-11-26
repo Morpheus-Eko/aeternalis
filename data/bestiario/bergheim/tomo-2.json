@@ -1,0 +1,1067 @@
+{
+  "region": "bergheim",
+  "volume": 2,
+  "title": "Bergheim",
+  "source": "Bestiario_Bergheim_Volumen_II(1).docx",
+  "preface": [
+    "Registros de grandes herbívoros, reptantes de grieta, gigantes y la infrecuente fauna aérea. Textos concebidos como un cuaderno zoológico de exploración; las ilustraciones son recreaciones artísticas, no retratos documentales.",
+    "La segunda entrega del bestiario desciende desde las orillas de lagos subalpinos hasta los pozos minerales de las montañas. Su propósito es mostrar un territorio vivo, no un desfile de adversarios: grandes herbívoros que sostienen depredadores, reptiles cuya distribución depende del calor de la roca, carroñeros que limpian barrancos y animales capaces de alterar caminos simplemente por habitar cerca de ellos.",
+    "Las denominaciones proceden libremente de repertorios nórdicos, germánicos, alpinos, anglosajones y eslavos. Las especies, medidas, dietas y ciclos descritos aquí son propuestas originales para Aeternalis. No se afirma que las figuras mitológicas originales hayan sido animales comunes ni que sus leyendas constituyan hechos históricos dentro del canon.",
+    "Cada especie presenta una lámina ilustrada, un encuentro narrativo y una descripción de su anatomía, distribución, nutrición, comportamiento, reproducción, relación con Bergheim y señales de campo. Las tallas y longevidades son intervalos estimados; las especies raras están peor estudiadas. En particular, las menciones de magia no convierten automáticamente a una criatura en hechicera ni sustituyen las reglas del sistema mágico.",
+    "Los grandes herbívoros —alces, cabras y uros— transforman praderas y bosques, además de alimentar a los depredadores del volumen anterior. Los reptiles gigantes son muy escasos y dependen de refugios térmicos o cavernarios; no podrían poblar todas las cumbres de forma abundante. El Cuervo Arpía constituye una excepción aérea ligada a corrientes de acantilado, no una bandada habitual sobre cada montaña. Grendeles y trols ocupan nichos distintos: el primero domina turberas y bosques inundados, mientras el segundo necesita grandes derrumbes y gargantas de piedra.",
+    "Nota editorial: el Cuervo Arpía ocupa el lugar del antiguo Corcel de Sleipnir. El repertorio se mantiene provisional para revisión por el equipo de Aeternalis."
+  ],
+  "creatures": [
+    {
+      "id": "bergheim-11",
+      "number": 11,
+      "name": "Alce de Eikþyrnir",
+      "subtitle": "",
+      "imgurId": "4oBbDMA",
+      "imgurPage": "https://imgur.com/4oBbDMA",
+      "facts": [
+        [
+          "Hábitat",
+          "Lagos, saucedales y claros de coníferas"
+        ],
+        [
+          "Alimentación",
+          "Brotes, corteza, plantas acuáticas y líquenes"
+        ],
+        [
+          "Organización",
+          "Solitario; grupos laxos fuera del celo"
+        ],
+        [
+          "Tamaño",
+          "1,9–2,5 m a la cruz; 650–1.200 kg"
+        ],
+        [
+          "Vida",
+          "18–27 años"
+        ],
+        [
+          "Peligrosidad",
+          "Moderado; muy alto durante el celo"
+        ],
+        [
+          "Frecuencia",
+          "Escaso; conocido en las grandes cuencas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Cérvido colosal de lagos y bosques subalpinos   |   Inspiración: Eikþyrnir, tradición nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "En los amaneceres de deshielo, la primera señal del alce de Eikþyrnir no es su silueta, sino el sonido de ramas quebrándose al otro lado de una bruma que apenas deja ver la orilla. Después aparecen las astas, enormes, ramificadas como un bosque deshojado que camina por sí solo. Si el animal desciende a beber, su cornamenta roza los sauces; cuando levanta la cabeza, el agua resbala por la barba y cae de vuelta al lago. Los antiguos Ojopiedras aprenden a reconocer su paso por la altura a la que faltan hojas en los árboles."
+        },
+        {
+          "type": "h",
+          "text": "Alce de Eikþyrnir · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Se trata de un cérvido mucho más robusto que un alce ordinario, con hombros altos, cuello corto y fuerte, hocico ancho y una piel que forma pliegues resistentes en la parte inferior de la garganta. Los machos maduros desarrollan una cornamenta tan extensa que rara vez atraviesan espesuras cerradas por sus rutas más estrechas. La mudan anualmente, por lo que las astas abandonadas constituyen un recurso importante para artesanos y naturalistas. El pelaje cambia del castaño oscuro invernal a un tono más pardo y liviano durante las breves estaciones cálidas; las extremidades largas le permiten vadear aguas frías y avanzar por nieve profunda sin hundirse por completo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere las cabeceras de los lagos, las franjas de sauces y abedules y los bosques abiertos donde encuentra abundantes brotes jóvenes. No vive en las cumbres desnudas: necesita vegetación, agua dulce y corredores relativamente llanos entre una cuenca y otra. Durante las tormentas se refugia en bosques bajos y, en los años de nevadas extremas, puede descender hacia rutas de Jorundathr y zonas de pastoreo, donde sus huellas suelen confundirse con las de animales mucho más numerosos. La presencia de un macho adulto suele indicar un mosaico bien conservado de aguas someras, matorral y sombra forestal."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Come hojas, ramillas tiernas, corteza, juncos, plantas sumergidas y líquenes de troncos húmedos. Su gran talla no lo convierte en un depredador: transforma enormes volúmenes de vegetación en carne y contribuye a abrir claros mediante el ramoneo continuo. Las astas caídas aportan minerales a roedores y pequeños carnívoros; sus cadáveres, raros pero enormes, sostienen durante semanas a carroñeros de diversos tamaños. Los huargos pueden acosar a las crías, aunque pocas manadas se arriesgan a enfrentar a una hembra adulta en aguas profundas, donde sus patas se vuelven armas contundentes."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, reproducción y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras acompañan a una o dos crías durante su primer año; los adultos mantienen en general distancias considerables entre sí. Al aproximarse el celo, los machos se desplazan por las orillas, frotan su cornamenta contra árboles y emiten llamados graves que resuenan sobre los lagos al anochecer. Los enfrentamientos suelen resolverse mediante exhibiciones, pero la colisión de dos grandes astas puede lesionar seriamente a ambos contendientes. Tras una gestación prolongada nace normalmente una sola cría, que aprende a nadar muy pronto. Los ejemplares viejos, con astas deformadas por antiguas fracturas, pueden alcanzar edades superiores a dos décadas."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los montaraces"
+        },
+        {
+          "type": "p",
+          "text": "La carne y el cuero de un animal adulto alimentarían y equiparían a una comunidad durante semanas; justamente por ello, algunas casas restringen su caza durante el período de cría. Los cartógrafos de Jorundathr registran los senderos del alce porque suelen seguir cursos de agua relativamente transitables, aunque jamás aconsejan confundir una senda de animal con una ruta segura para carretas. En numerosos relatos, encontrar un alce solitario frente a un lago antes del amanecer anuncia un invierno difícil. El Círculo de Faëandir considera esa asociación una superstición nacida de sus desplazamientos cuando desciende la temperatura."
+        },
+        {
+          "type": "h",
+          "text": "Rastros y precauciones"
+        },
+        {
+          "type": "p",
+          "text": "Su huella es larga, profundamente hendida y acompañada a menudo por marcas de las pezuñas accesorias en terreno blando. El ramoneo por encima de la altura del pecho de un humano y los grandes surcos de astas en sauces son señales inequívocas. Ante una hembra con cría o un macho en celo, la norma es retirarse sin cruzar su línea de avance: la carrera de un alce sobre terreno firme es mucho más rápida de lo que su volumen sugiere."
+        },
+        {
+          "type": "p",
+          "text": "«Cuando el bosque parece caminar sobre el agua, deja que lo haga. Ningún mapa merece la embestida de sus astas». — Cuaderno de un Ojopiedra de Jorundathr."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-12",
+      "number": 12,
+      "name": "Cabra de Heiðrún",
+      "subtitle": "«Los riscos no les pertenecen por fuerza, sino porque saben dónde poner cada pezuña». — Registro pastoral de las Cuatro Montañas.",
+      "imgurId": "2mKgwI6",
+      "imgurPage": "https://imgur.com/2mKgwI6",
+      "facts": [
+        [
+          "Hábitat",
+          "Farallones, praderas alpinas y laderas soleadas"
+        ],
+        [
+          "Alimentación",
+          "Líquenes, gramíneas, brotes y plantas de grieta"
+        ],
+        [
+          "Organización",
+          "Rebaños de 8–25; machos adultos más apartados"
+        ],
+        [
+          "Tamaño",
+          "1,1–1,5 m a la cruz; 90–190 kg"
+        ],
+        [
+          "Vida",
+          "12–18 años"
+        ],
+        [
+          "Peligrosidad",
+          "Bajo; elevado si está acorralada"
+        ],
+        [
+          "Frecuencia",
+          "Frecuente en los riscos adecuados"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Caprino de escarpes y alimento de los altos pasos   |   Inspiración: Heiðrún, tradición nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "A media mañana, cuando el sol alcanza una pared de roca y derrite la escarcha, pequeños puntos claros comienzan a moverse sobre cornisas donde ningún hombre cuerdo apoyaría un pie. Son cabras de Heiðrún. La distancia hace que parezcan inmóviles, hasta que una de ellas salta un vacío y todas la siguen con una facilidad ofensiva para los escaladores. Desde abajo, los cuernos se recortan contra el cielo como dos arcos oscuros. La primera lección de sus observadores consiste en mirar arriba, no delante: el peligro más común es una piedra desprendida por las pezuñas."
+        },
+        {
+          "type": "h",
+          "text": "Cabra de Heiðrún · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía del escalador"
+        },
+        {
+          "type": "p",
+          "text": "El cuerpo es compacto y de pecho profundo, con cuartos traseros capaces de impulsar saltos bruscos sin perder equilibrio. Las pezuñas poseen un borde córneo duro y una almohadilla interna flexible que se adapta a salientes irregulares. El pelo largo protege el cuello y los flancos del viento; los machos lucen cuernos imponentes, surcados por anillos de crecimiento, mientras las hembras suelen portar defensas menores. La musculatura de hombros y caderas es desproporcionada para su talla, pero no convierte a la especie en un animal rápido en terreno llano. Su especialidad es precisamente el lugar donde los depredadores mayores pierden movilidad."
+        },
+        {
+          "type": "h",
+          "text": "Territorio y estaciones"
+        },
+        {
+          "type": "p",
+          "text": "Se distribuye por laderas con exposición solar, escarpes secos y praderas que asoman entre campos de piedra. En verano asciende detrás de las primeras hierbas, mientras que en invierno busca gargantas protegidas y afloramientos donde el viento mantiene la nieve poco profunda. El rebaño puede atravesar varios pasos a lo largo del año, pero regresa con notable fidelidad a sus refugios de cría. Las observaciones de los Ojopiedras indican que los corredores usados por generaciones de cabras señalan, a veces, derrumbes recientes y puentes naturales cuya existencia todavía no figura en los mapas humanos."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y relación con el suelo"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta de gramíneas cortas, hojas resistentes, líquenes y pequeños arbustos; también lame superficies salinas y consume tierra mineralizada en cantidades reducidas. Sus deposiciones enriquecen repisas donde apenas podría crecer otra vegetación, y el movimiento de los rebaños dispersa semillas entre cordones montañosos. Las águilas de gran tamaño amenazan a los cabritos; los linces acechan en los bosques bajos, y los tatzelwurms pueden capturar individuos aislados cerca de grietas cálidas. Sin embargo, una cabra adulta en un risco casi vertical está fuera del alcance de la mayoría de sus enemigos."
+        },
+        {
+          "type": "h",
+          "text": "Rebaño y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras forman grupos relativamente estables, conducidos por los animales más experimentados, no necesariamente los de mayor tamaño. Los machos adultos permanecen a distancia durante buena parte del año y compiten por acceso a las hembras mediante golpes de cornamenta que resuenan entre los paredones. La mayoría de las crías nace cuando las primeras hierbas son abundantes, generalmente una por hembra; los nacimientos dobles son poco comunes en regiones de alta montaña. La madre permanece con el cabrito durante días en un resguardo estrecho antes de incorporarse de nuevo a la marcha del rebaño."
+        },
+        {
+          "type": "h",
+          "text": "Utilidad y domesticación"
+        },
+        {
+          "type": "p",
+          "text": "Algunas comunidades mantienen linajes semidomesticados en bordes de valle, apreciados por una leche espesa y un pelo largo que puede hilarse. Las poblaciones verdaderamente salvajes siguen siendo demasiado nerviosas para una crianza corriente. Los cazadores de Skaldal estiman que abatir una cabra encaramada en plena pared es una demostración de puntería, pero los pastores recuerdan que un animal herido puede precipitarse y perderse. Sus cuernos, por su curvatura, son útiles para recipientes ceremoniales, bocinas y trabajos de artesanía; las pieles resultan valiosas para forros aislantes."
+        },
+        {
+          "type": "h",
+          "text": "Señales y peligros"
+        },
+        {
+          "type": "p",
+          "text": "Sus excrementos se acumulan bajo grandes salientes y su paso deja finos rayones paralelos en roca blanda. La peor amenaza para un caminante no es la agresión directa, sino el desprendimiento de piedras provocado por un rebaño sorprendido. Cuando las cabras miran súbitamente hacia una misma grieta, conviene observarla: pueden haber detectado un depredador de emboscada mucho antes que cualquier persona."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-13",
+      "number": 13,
+      "name": "Uro de Auðumbla",
+      "subtitle": "«Si la montaña tiene un corazón, los uros son sus latidos». — Dicho de pastores de los valles del norte.",
+      "imgurId": "DEt8chQ",
+      "imgurPage": "https://imgur.com/DEt8chQ",
+      "facts": [
+        [
+          "Hábitat",
+          "Valles amplios, praderas subalpinas y humedales de altura"
+        ],
+        [
+          "Alimentación",
+          "Pasto, ciperáceas, brotes y sales minerales"
+        ],
+        [
+          "Organización",
+          "Manadas de 12–40; toros viejos solitarios"
+        ],
+        [
+          "Tamaño",
+          "1,8–2,3 m a la cruz; 900–1.700 kg"
+        ],
+        [
+          "Vida",
+          "18–24 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alto si la manada es amenazada"
+        ],
+        [
+          "Frecuencia",
+          "Localmente abundante; vulnerable a guerras y sequías"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gran bóvido de pastos fríos y rutas de sal   |   Inspiración: Auðumbla, tradición nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Los valles de Bergheim conocen un rumor más profundo que el de los huargos: el avance de una manada de uros de Auðumbla. Desde una loma parecen montículos oscuros que se desplazan entre la niebla; de cerca, cada animal exhibe una cruz de músculo, una barba pesada y cuernos capaces de levantar un jinete del suelo. Su presencia se anuncia en los salitrales por huellas enormes, barro removido y áreas de pasto arrancado. Cuando los toros más viejos se vuelven hacia un observador, los Ojopiedras anotan la dirección del viento y se apartan antes de ser vistos."
+        },
+        {
+          "type": "h",
+          "text": "Uro de Auðumbla · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Constitución y resistencia"
+        },
+        {
+          "type": "p",
+          "text": "El uro es uno de los mayores herbívoros terrestres de Bergheim. Posee una cabeza ancha, una giba poderosa y un espeso abrigo de pelo que cambia de densidad con las estaciones. Los cuernos se abren lateralmente antes de curvarse hacia adelante y arriba, lo que le permite rechazar ataques desde varios ángulos. Las pezuñas, relativamente amplias, soportan su enorme peso sobre terrenos húmedos y endurecidos por las heladas. Bajo el pelaje se acumula una gruesa reserva de grasa estacional, indispensable durante inviernos en los que el pasto queda cubierto por hielo. Las cicatrices en el costado de toros adultos suelen contar una historia de disputas, no necesariamente de depredación."
+        },
+        {
+          "type": "h",
+          "text": "Los valles del uro"
+        },
+        {
+          "type": "p",
+          "text": "La especie prefiere cuencas abiertas, praderas y humedales altos, con acceso a agua dulce y afloramientos minerales. Se desplaza estacionalmente entre pastos frescos y zonas protegidas por laderas boscosas. Las manadas evitan los pasos demasiado estrechos, pero pueden atravesar corrientes que detendrían a un animal menor. La apertura de rutas militares por el centro de sus corredores ha provocado enfrentamientos con habitantes y ganado doméstico. Los mapas de los Ojopiedras registran por separado las rutas humanas y los senderos del uro, porque una curva de valle puede quedar bloqueada durante horas por un rebaño que ha decidido descansar."
+        },
+        {
+          "type": "h",
+          "text": "Consumo y función del rebaño"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta está formada casi por completo por gramíneas, juncos, brotes y vegetación acuática; los animales lamen con frecuencia rocas ricas en sales. Allí donde pastan, recortan las hierbas altas y mantienen claros que favorecen otras especies herbívoras. Sus pezuñas remueven el suelo, formando charcas pequeñas que aprovechan anfibios e insectos. Los lobos de Sköll suelen seguir a las manadas esperando una cría enferma; los amarok pueden atacar a un adulto aislado, aunque una defensa compacta de las hembras reduce mucho las posibilidades de éxito. La manada es una fortaleza en movimiento, no una presa indefensa."
+        },
+        {
+          "type": "h",
+          "text": "Jerarquía, parto y crianza"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras adultas sostienen grupos duraderos que reúnen madres, crías y juveniles. Los machos se incorporan con mayor frecuencia en períodos de apareamiento, cuando su rivalidad puede desencadenar embestidas brutales. Las vacas paren generalmente una cría que debe mantenerse en pie poco después del nacimiento. Una de las conductas más observadas es el círculo de protección: ante una amenaza, varios adultos se orientan hacia el peligro y dejan a los más jóvenes en el interior. Los grandes toros pueden permanecer solos en laderas marginales durante años; algunos terminan muriendo en los mismos salitrales que frecuentaron toda la vida."
+        },
+        {
+          "type": "h",
+          "text": "El valor del uro"
+        },
+        {
+          "type": "p",
+          "text": "Para las comunidades montaraces, un uro representa un tesoro de carne, grasa, cuero, tendones y hueso. A diferencia de un bovino doméstico, resulta muy difícil someterlo al manejo diario; solo algunos linajes capturados jóvenes se han habituado al contacto humano, y ni siquiera ellos dejan de ser imprevisibles. Existen normas locales que desalientan matar hembras preñadas, no solo por piedad sino por cálculo económico: agotar una manada significa perder una fuente futura de sustento. Los herreros aprecian ciertos huesos densos y los curanderos tradicionales emplean la grasa en ungüentos, sin que tales usos prueben propiedades mágicas."
+        },
+        {
+          "type": "h",
+          "text": "Reconocimiento y seguridad"
+        },
+        {
+          "type": "p",
+          "text": "La huella es ancha, con un hundimiento profundo y bordes desgarrados en suelos húmedos. Los árboles donde se rascan muestran corteza pulida a una altura que supera el pecho de un hombre. Ante una manada nerviosa, jamás debe interponerse un viajero entre las vacas y las crías; tampoco conviene cruzar un salitral durante la temporada de celo, cuando los machos pueden reaccionar violentamente ante cualquier movimiento brusco."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-14",
+      "number": 14,
+      "name": "Cuervo Arpía",
+      "subtitle": "",
+      "imgurId": "YcZnWOj",
+      "imgurPage": "https://imgur.com/YcZnWOj",
+      "facts": [
+        [
+          "Hábitat",
+          "Paredones, riscos costeros y gargantas de alta montaña"
+        ],
+        [
+          "Alimentación",
+          "Carroña, huevos, roedores y crías de ungulados"
+        ],
+        [
+          "Organización",
+          "Parejas territoriales; agregaciones ocasionales en carroña"
+        ],
+        [
+          "Tamaño",
+          "1,5–1,9 m erguido; envergadura 4–6 m"
+        ],
+        [
+          "Vida",
+          "20–32 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alto cerca del nido; moderado fuera de él"
+        ],
+        [
+          "Frecuencia",
+          "Muy escaso; pocas parejas reproductoras"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Depredador planeador de acantilados y grandes gargantas   |   Inspiración: Cuervos míticos y arpías del folclore europeo"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "En lo alto de un paredón, donde las nubes se deshacen en ráfagas, una forma negra parece desprenderse de la roca sin caer. Abre las alas y planea con una lentitud aterradora. El Cuervo Arpía no persigue a sus presas durante largas distancias: lee las corrientes ascendentes, desciende sobre un animal distraído y vuelve a una cornisa antes de que sus compañeros comprendan qué sucedió. Su llamada no es un graznido ordinario, sino un sonido quebrado y casi humano que, en la garganta equivocada, puede poner de pie a toda una patrulla."
+        },
+        {
+          "type": "h",
+          "text": "Cuervo Arpía · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía alada"
+        },
+        {
+          "type": "p",
+          "text": "El Cuervo Arpía combina rasgos de un gran córvido con un tronco alargado y extremidades posteriores fuertes, terminadas en garras prensiles. Las alas son amplias y relativamente largas, pensadas para el planeo más que para el aleteo continuo. La musculatura de pecho consume mucha energía al despegar desde el suelo; por ello, los adultos prefieren lanzarse desde alturas y aprovechar las térmicas que ascienden por los acantilados. El pico curvado desgarra carne y fractura huesos pequeños, pero sus verdaderas armas son las patas, capaces de sujetar una presa momentáneamente. El plumaje oscuro absorbe calor cuando asoma el sol entre tormentas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y desplazamientos"
+        },
+        {
+          "type": "p",
+          "text": "No es una especie común en los cielos de Bergheim. Anida en farallones protegidos del viento dominante, donde existen repisas anchas y una corriente ascendente relativamente estable. Los ejemplares jóvenes pueden recorrer largas distancias buscando territorio, pero los adultos se mantienen en sectores concretos de fiordo o cordillera. Evitan cruzar amplias extensiones de montaña sin lugares de apoyo, especialmente durante nevadas y vendavales. Su presencia se concentra en unas pocas gargantas donde el relieve favorece el vuelo; por eso encontrar una pluma negra en una cumbre no significa que toda la región esté habitada por arpías."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y papel de carroñero"
+        },
+        {
+          "type": "p",
+          "text": "La mayor parte de su dieta consiste en carroña de cabra, ciervo y animales caídos en barrancos. También captura marmotas, aves de menor tamaño y crías debilitadas en repisas expuestas. La agresión contra adultos sanos de gran tamaño es rara: un combate en el aire sería demasiado peligroso para sus alas. En los inviernos duros sigue las rutas de huargos y otros carnívoros, aprovechando los restos de sus cacerías. Allí donde un Cuervo Arpía se instala, la acumulación de carroña bajo los acantilados disminuye, aunque sus gritos y ataques defensivos hacen que los pastores desconfíen de esa utilidad."
+        },
+        {
+          "type": "h",
+          "text": "Parejas, nidos y crías"
+        },
+        {
+          "type": "p",
+          "text": "Las parejas ocupan territorios extensos y pueden mantenerse unidas durante años. Construyen nidos con ramas pesadas, huesos, pelo y hierba seca en plataformas difícilmente accesibles. Ponen pocas crías en cada temporada, lo que vuelve especialmente vulnerables a las poblaciones ante la destrucción de un nido. Ambos progenitores se alternan en la vigilancia; los jóvenes necesitan una larga etapa para dominar las corrientes del viento y no todos sobreviven a su primer invierno. Cuando la comida escasea, una pareja puede abandonar durante meses su zona habitual, dejando un risco aparentemente desierto."
+        },
+        {
+          "type": "h",
+          "text": "Temor, utilidad y relatos"
+        },
+        {
+          "type": "p",
+          "text": "Los montaraces la consideran un presagio inquietante porque suele llegar a lugares donde han muerto animales o personas. Algunos cuentos atribuyen inteligencia humana a sus llamadas; los naturalistas, en cambio, las relacionan con un aparato vocal flexible capaz de emitir sonidos muy variados. Las plumas grandes son apreciadas por artesanos y ciertos cazadores las utilizan en adornos ceremoniales, pero recolectarlas cerca de un nido es una imprudencia grave. Los Ojopiedras han registrado ataques directos sobre escaladores que cruzaron bajo una plataforma de cría sin advertirla."
+        },
+        {
+          "type": "h",
+          "text": "Señales de presencia"
+        },
+        {
+          "type": "p",
+          "text": "Los nidos dejan manchas blancas en el paredón, y bajo ellos se acumulan huesos limpios y restos de pelo. Las huellas son de tres dedos anteriores muy marcados y un dedo posterior largo. Si se escucha una llamada quebrada repetida desde un único punto, lo aconsejable es alejarse: probablemente se ha entrado en el perímetro defensivo de una pareja."
+        },
+        {
+          "type": "p",
+          "text": "«No hay tantos cuervos en los altos riscos como teme el pueblo. Basta con uno que haya decidido criarse sobre tu camino». — Aviso del Círculo de Faëandir."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-15",
+      "number": 15,
+      "name": "Tatzelwurm",
+      "subtitle": "«La grieta que parece vacía puede tener dientes». — Máxima de los mineros de montaña.",
+      "imgurId": "71xPbIv",
+      "imgurPage": "https://imgur.com/71xPbIv",
+      "facts": [
+        [
+          "Hábitat",
+          "Desprendimientos, cuevas soleadas y laderas geotérmicas"
+        ],
+        [
+          "Alimentación",
+          "Roedores, liebres, aves terrestres y cabritos"
+        ],
+        [
+          "Organización",
+          "Solitario; encuentros estacionales para reproducirse"
+        ],
+        [
+          "Tamaño",
+          "1,8–3,2 m de longitud; 60–170 kg"
+        ],
+        [
+          "Vida",
+          "25–40 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alto en espacios estrechos"
+        ],
+        [
+          "Frecuencia",
+          "Poco frecuente; concentrado en quebradas cálidas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saurio emboscador de grietas templadas   |   Inspiración: Tatzelwurm de la tradición alpina"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "El tatzelwurm casi nunca se ve entero. Primero aparece una cola entre piedras; después, un hocico plano que se confunde con la pared húmeda, y al final un estallido de músculo cuando se lanza sobre una presa. Los mineros cuentan que su rugido es parecido al de un gato atrapado bajo tierra, pero su verdadero sonido es un soplido áspero producido al expulsar aire de sus grandes pulmones. A plena luz permanece inmóvil durante horas. Es el movimiento del cabrito sobre la roca, no el olor del hombre, lo que suele decidir su ataque."
+        },
+        {
+          "type": "h",
+          "text": "Tatzelwurm · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Cuerpo y mecanismos de caza"
+        },
+        {
+          "type": "p",
+          "text": "Este reptil posee un tronco ancho, extremidades anteriores cortas pero muy musculosas y una cola casi tan larga como el cuerpo. Las patas posteriores pueden ser reducidas en algunas poblaciones, lo que explica su apariencia de animal a medio camino entre lagarto y serpiente. La piel está cubierta por escamas ásperas de color piedra, con manchas que rompen su contorno al verlo desde arriba. La boca es grande y presenta dientes curvados para impedir que una presa se libere. No posee alas ni exhala fuego; su peligrosidad procede de la velocidad de la embestida, la mordedura y la ventaja del terreno."
+        },
+        {
+          "type": "h",
+          "text": "Una distribución fragmentada"
+        },
+        {
+          "type": "p",
+          "text": "A pesar del frío de Bergheim, el tatzelwurm prospera en fisuras expuestas al sol, fuentes templadas y cavidades donde el suelo conserva calor. Rara vez se aleja mucho de una red de refugios que conoce desde joven. En días fríos permanece oculto y reduce su actividad; cuando la roca se calienta aparece junto a entradas de cueva o salientes donde abundan pequeños animales. Su distribución parece salpicada de poblaciones separadas, incapaces de cruzar largas superficies glaciadas. Esta fragmentación explica las variaciones locales en tamaño, coloración y proporción de sus miembros."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y competencia"
+        },
+        {
+          "type": "p",
+          "text": "Caza marmotas, roedores, liebres de montaña, aves que anidan en el suelo y cabritos descuidados. Consume también carroña si está fresca, pero no soporta bien períodos prolongados de grandes recorridos, de modo que prefiere emboscar desde el mismo sector repetidamente. Compite con pequeños lobos y linces en bordes de bosque; los ejemplares jóvenes pueden ser devorados por rapaces o serpientes mayores. Un adulto logra abatir presas voluminosas sujetándolas con los miembros anteriores y arrastrándolas hacia grietas, donde la víctima pierde libertad de movimiento."
+        },
+        {
+          "type": "h",
+          "text": "Ciclo vital y comportamiento"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos son solitarios, con territorios modestos pero defendidos con insistencia. Durante la estación más templada varios individuos pueden aproximarse a una misma zona de reproducción, donde las peleas dejan cicatrices notorias en cuello y hocico. Las hembras depositan pocos huevos grandes en cámaras cálidas, cubiertas con tierra suelta; no alimentan a las crías cuando nacen. Los juveniles permanecen cerca de cursos subterráneos y su dieta inicial incluye insectos de gran tamaño y pequeños vertebrados. La longevidad es considerable, aunque muchos mueren por derrumbes o inviernos particularmente severos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con viajeros y mineros"
+        },
+        {
+          "type": "p",
+          "text": "Es uno de los animales más temidos en galerías de exploración, no porque persiga a las personas, sino porque puede confundir una mano o una pierna asomada con una presa accesible. En algunas ciudades los cazadores recolectan sus escamas para labores de cuero endurecido, aunque las propiedades atribuidas a ellas suelen exagerarse. Los naturalistas distinguen al tatzelwurm del lindwurm por su menor tamaño, su tendencia a emboscar en grietas superficiales y su movilidad mucho más limitada fuera de sus refugios cálidos."
+        },
+        {
+          "type": "h",
+          "text": "Indicios y precauciones"
+        },
+        {
+          "type": "p",
+          "text": "Señala su presencia una franja lisa en el polvo, con arrastres de cola y marcas pares de garras. Bajo las rocas de descanso quedan escamas viejas y restos de huevos o pequeños huesos. Jamás debe introducirse el brazo en una hendidura para recuperar un objeto sin comprobar primero su profundidad: la mayor parte de los ataques registrados ocurrió a menos de dos metros del animal."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-16",
+      "number": 16,
+      "name": "Lindwurm de las Grietas",
+      "subtitle": "«No tiene alas, y benditos sean los cielos por ello». — Apunte marginal de un Capa Negra.",
+      "imgurId": "kwTFpsd",
+      "imgurPage": "https://imgur.com/kwTFpsd",
+      "facts": [
+        [
+          "Hábitat",
+          "Grandes fallas, túneles cálidos y mesetas de roca"
+        ],
+        [
+          "Alimentación",
+          "Ungulados, grandes roedores y carroña"
+        ],
+        [
+          "Organización",
+          "Solitario, con territorios de muchos kilómetros"
+        ],
+        [
+          "Tamaño",
+          "6–11 m; 600–1.600 kg"
+        ],
+        [
+          "Vida",
+          "60–110 años (estimación)"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo en zonas de guarida"
+        ],
+        [
+          "Frecuencia",
+          "Muy raro; avistamientos separados por décadas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gran reptil serpentiforme sin alas   |   Inspiración: Lindwurm de los relatos germánicos"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Los moradores de las fallas llaman lindwurm a una sombra que parece prolongarse más allá de la vista. No se desliza como una serpiente corriente: sus musculosos miembros delanteros impulsan un torso acorazado, mientras la larga mitad posterior se arrastra por la piedra dejando un surco amplio. Al emerger de la grieta, se oye primero el raspado de escamas y después un golpe de cola que suelta guijarros. Los testigos más prudentes nunca intentan medirlo entero. Se alejan apenas advierten que la roca de la entrada conserva un calor improbable en pleno invierno."
+        },
+        {
+          "type": "h",
+          "text": "Lindwurm de las Grietas · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía de una criatura sin alas"
+        },
+        {
+          "type": "p",
+          "text": "El lindwurm presenta una cabeza triangular de mandíbulas anchas, cuello corto y musculoso, escamas profundas y dos extremidades anteriores desarrolladas, dotadas de fuertes uñas para aferrarse a la roca. La región posterior del cuerpo es serpentina y termina en una cola de gran longitud, que sirve como palanca y arma de defensa. Carece de alas y su peso impediría cualquier forma de vuelo. Las placas dorsales son muy duras, aunque las uniones entre escamas y la región ventral resultan más flexibles. Los tonos van del gris oscuro al pardo mineral, con variaciones relacionadas con el tipo de roca de cada territorio."
+        },
+        {
+          "type": "h",
+          "text": "Guaridas y termorregulación"
+        },
+        {
+          "type": "p",
+          "text": "Habita fallas profundas, galerías geotérmicas y cavidades extensas donde el suelo mantiene temperaturas menos extremas que el exterior. Sale a cazar con mayor frecuencia en estaciones templadas, a veces aprovechando senderos de cabras que cruzan por la boca de una grieta. En invierno reduce notablemente su metabolismo y puede permanecer largos períodos sin alimentarse, aunque no entra necesariamente en una hibernación completa. La amplitud de su territorio y la escasez de encuentros explican que casi toda la información proceda de esqueletos, huellas o guaridas abandonadas más que de observaciones directas."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y posición trófica"
+        },
+        {
+          "type": "p",
+          "text": "Captura cabras, ciervos y otras presas medianas cuando se aproximan a quebradas estrechas. Si encuentra un cadáver grande puede alimentarse de él durante varios días, ocultando parte del cuerpo entre rocas para evitar a los carroñeros. Su fuerza le permite quebrar huesos y desprender pieles gruesas, pero no persigue presas veloces por largas distancias. Es un superdepredador de baja densidad: una sola criatura necesita un área de caza enorme para no agotar a los herbívoros de su entorno. Los tatzelwurms evitan las fallas ocupadas por adultos."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y larga vida"
+        },
+        {
+          "type": "p",
+          "text": "No se conocen colonias ni grupos estables. Dos adultos solo parecen tolerarse durante una breve temporada de apareamiento, seguida con frecuencia por luchas por las mejores cámaras de puesta. Las hembras depositarían un número muy reducido de huevos grandes en salas de temperatura constante; el desarrollo de las crías sería lento y la mortalidad juvenil elevada. El tamaño de algunos ejemplares, unido a cicatrices superpuestas y al desgaste de las placas, hace pensar en vidas de muchas décadas. La cifra exacta sigue discutida, pues nadie ha mantenido una observación continua durante suficiente tiempo."
+        },
+        {
+          "type": "h",
+          "text": "Conflictos con poblaciones"
+        },
+        {
+          "type": "p",
+          "text": "La apertura de una mina en su zona de descanso puede provocar ataques que los habitantes atribuyen a una maldición subterránea. En realidad, el animal reacciona a vibraciones, luces y cambios en la circulación del aire cerca de su refugio. Las escamas gruesas atraen a herreros y curtidores; sin embargo, transportar restos de un lindwurm por los pasos supone un riesgo que rara vez justifica el beneficio. Los Capas Negras consideran esta especie un objetivo excepcional: antes de organizar una cacería necesitan cartografía de las fallas, reconocimiento de vías de escape y una evaluación de su tamaño real."
+        },
+        {
+          "type": "h",
+          "text": "Señales de campo"
+        },
+        {
+          "type": "p",
+          "text": "Se reconocen surcos anchos de arrastre, grandes marcas de uñas en roca relativamente blanda y huesos triturados acumulados en la entrada de guaridas. Un olor fuerte y caliente puede permanecer en una cueva recientemente ocupada. El peor error es creer que la cabeza visible revela la longitud total del animal: el cuerpo suele continuar muchos metros entre las piedras."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-17",
+      "number": 17,
+      "name": "Zmey de Tres Fauces",
+      "subtitle": "",
+      "imgurId": "fJjyZXx",
+      "imgurPage": "https://imgur.com/fJjyZXx",
+      "facts": [
+        [
+          "Hábitat",
+          "Fumarolas, laderas térmicas y valles volcánicos aislados"
+        ],
+        [
+          "Alimentación",
+          "Grandes herbívoros, carroña y saurios menores"
+        ],
+        [
+          "Organización",
+          "Solitario; intolerante con otros adultos"
+        ],
+        [
+          "Tamaño",
+          "5–8 m; 900–2.000 kg"
+        ],
+        [
+          "Vida",
+          "70–120 años (estimación)"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo; depredador territorial"
+        ],
+        [
+          "Frecuencia",
+          "Legendario; población mínima y aislada"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gran reptil de fumarolas y barrancos calientes   |   Inspiración: Zmey y dragones serpentinos eslavos"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "En una ladera de tierra oscura, entre nubes de vapor mineral, el zmey puede confundirse con un bloque desprendido de la montaña. Solo al respirar se distingue el movimiento de sus costados y el cierre irregular de una mandíbula que parece dividirse en varias bocas. Los habitantes le atribuyen tres cabezas; los relatos que más atención han recibido entre los Ojopiedras describen, en cambio, una boca principal acompañada de dos mandíbulas laterales móviles, capaces de sujetar a la presa mientras el animal la desgarra. Ver uno a la luz del día suele significar que se ha penetrado demasiado en un territorio vedado."
+        },
+        {
+          "type": "h",
+          "text": "Zmey de Tres Fauces · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "La estructura de las tres fauces"
+        },
+        {
+          "type": "p",
+          "text": "El zmey es un saurio cuadrúpedo macizo, sin alas, protegido por placas oscuras y salientes óseos irregulares. Su característica distintiva consiste en un aparato mandibular que puede abrirse en tres secciones funcionales: una abertura central de gran fuerza y dos ramas laterales que sujetan la presa. Esta anatomía ha alimentado la imagen popular de un dragón tricéfalo; algunos testimonios hablan de ejemplares con auténticas cabezas múltiples, pero tales informes siguen sin confirmación fiable. La cola es pesada y musculosa, apta para golpear, y las extremidades cortas permiten sostener el cuerpo sobre pendientes de rocas inestables."
+        },
+        {
+          "type": "h",
+          "text": "El calor como refugio"
+        },
+        {
+          "type": "p",
+          "text": "Su distribución se limita a puntos donde el calor de la tierra impide que la nieve cubra por completo las grietas. Suele permanecer cerca de fumarolas, cuevas con aire templado y corrientes minerales que tiñen el suelo. Esta dependencia vuelve su territorio muy escaso y explica que un mismo valle pueda albergar a un animal durante décadas sin que aparezcan otros. No soporta bien una travesía prolongada sobre glaciares; si el frío obliga a reducir su actividad, regresa a cámaras profundas y reduce el consumo de alimento. Los mapas que indican fumarolas activas son esenciales para prever su presencia."
+        },
+        {
+          "type": "h",
+          "text": "Caza y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Es un depredador de emboscada que espera en canales naturales por los que pasan grandes herbívoros. La mordedura múltiple le permite inmovilizar una extremidad y desgarrar carne sin soltar a la presa. Puede consumir carroña y aprovechar cadáveres arrastrados hacia valles cálidos, lo que reduce la frecuencia de sus cacerías. Los animales adultos están cerca de la cima de la cadena alimentaria, pero su enorme necesidad de recursos impide que prosperen muchos en una misma cuenca. Los juveniles probablemente se alimentan de reptiles pequeños y mamíferos medianos antes de alcanzar el tamaño necesario para atacar a un uro."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Un adulto tolera mal a otros de su especie. Las marcas de cola, los arañazos profundos y los montones de piedra removida cerca de sus refugios sugieren rituales de intimidación territorial. La reproducción, si los registros disponibles son correctos, es lenta: pocas crías, huevos protegidos en cavidades térmicas y una maduración que podría requerir años. Los viejos individuos muestran dientes gastados y placas acumuladas en varias capas, de donde provienen las estimaciones de longevidad centenaria. Parte del mito que lo rodea procede de la imposibilidad de distinguir generaciones cuando los avistamientos están separados por décadas."
+        },
+        {
+          "type": "h",
+          "text": "Interpretaciones y amenazas"
+        },
+        {
+          "type": "p",
+          "text": "Los cuentos lo presentan como un dragón de aliento abrasador. Ningún informe fiable demuestra que posea magia Ignis; el vapor caliente que se observa junto a su boca puede proceder de su entorno geotérmico y de la expulsión de aire húmedo. Si algún ejemplar desarrollara capacidades mágicas, habría que documentar su relación con el maná conforme a las reglas de Aeternalis, no adjudicárselas por tradición. Los cazadores evitan combatirlo cerca de la fumarola principal, donde las corrientes de vapor y los desprendimientos pueden resultar más peligrosos que sus propios ataques."
+        },
+        {
+          "type": "h",
+          "text": "Rastros y precauciones"
+        },
+        {
+          "type": "p",
+          "text": "Se identifican enormes impresiones de cuatro miembros, estrías de cola y piedras desplazadas hacia fuera de la entrada de su guarida. Los restos de presas muestran mordeduras paralelas difíciles de confundir con las de un lindwurm. Un aumento repentino de animales muertos cerca de una fumarola es motivo suficiente para cerrar un paso hasta completar un reconocimiento."
+        },
+        {
+          "type": "p",
+          "text": "«Tres fauces o tres cabezas: no aconsejo averiguar la diferencia a distancia de mordida». — Cuaderno de una expedición no concluida."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-18",
+      "number": 18,
+      "name": "Nidógrido de las Raíces",
+      "subtitle": "«No son las piedras las que crujen. Son las escamas de aquello que se mueve bajo ellas». — Relato de mineros de Bergheim.",
+      "imgurId": "NyE5Q1Z",
+      "imgurPage": "https://imgur.com/NyE5Q1Z",
+      "facts": [
+        [
+          "Hábitat",
+          "Cavernas húmedas, vetas minerales y túneles profundos"
+        ],
+        [
+          "Alimentación",
+          "Carroña, peces ciegos y grandes animales cavernarios"
+        ],
+        [
+          "Organización",
+          "Solitario; tolerancia ocasional durante la puesta"
+        ],
+        [
+          "Tamaño",
+          "4–7 m; 350–900 kg"
+        ],
+        [
+          "Vida",
+          "50–90 años (estimación)"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alto en túneles cerrados"
+        ],
+        [
+          "Frecuencia",
+          "Muy raro; registros indirectos de minas antiguas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reptil mineralizado de las profundidades cavernarias   |   Inspiración: Níðhöggr, criatura nórdica de las raíces"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "En las minas viejas, mucho antes de que se vea al nidógrido, se escucha un raspado que nadie confunde con un pico de minero. Al pasar junto a una pared mineral, sus placas arrancan pequeñas astillas de piedra y dejan vetas pulidas a una altura inquietante. La criatura avanza casi sin luz, siguiendo vibraciones y olor a carne húmeda. Cuando emerge, la cabeza cubierta de protuberancias minerales parece un trozo de geoda que se ha decidido a morder. Los viejos túneles donde hay huesos triturados y cristales quebrados se consideran, con razón, lugares que deben abandonarse."
+        },
+        {
+          "type": "h",
+          "text": "Nidógrido de las Raíces · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Placas, sentidos y forma corporal"
+        },
+        {
+          "type": "p",
+          "text": "Su anatomía es serpentiforme, con patas reducidas y una cabeza relativamente ancha protegida por escudos de queratina y depósitos minerales que se adhieren con el tiempo. Las placas más viejas presentan cristalizaciones externas, cuyo color depende de las aguas que filtran la caverna. Estas incrustaciones no son gemas preciosas creadas por magia, sino materiales acumulados lentamente sobre tejidos resistentes. La visión es pobre en la oscuridad absoluta; a cambio, posee sensores capaces de detectar movimientos transmitidos por el suelo y un sentido químico desarrollado. Los dientes están adaptados para separar carne y fracturar partes blandas de caparazones y huesos."
+        },
+        {
+          "type": "h",
+          "text": "El subsuelo como ecosistema"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa redes de cueva húmedas, minas antiguas conectadas a cauces y galerías donde las temperaturas cambian poco durante el año. Prefiere espacios con acceso a agua y presas, aunque puede recorrer túneles secos para trasladarse entre sectores. Los Nidógridos de las Raíces no aparecen en cualquier mina: necesitan un sistema cavernario extenso y una cadena alimentaria subterránea capaz de sostenerlos. Los derrumbes pueden aislar poblaciones enteras durante generaciones, circunstancia que explicaría las diferencias de tamaño y ornamentación mineral descritas por exploradores de distintas regiones."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y economía de la cueva"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta comprende peces ciegos, anfibios grandes, roedores cavernarios, animales extraviados y carroña arrastrada por ríos subterráneos. Un ejemplar adulto consume mucho en una sola ingesta y después puede permanecer inmóvil durante semanas, ahorrando energía. Allí donde aparece, otros carroñeros pequeños se benefician de los restos que deja, pero las poblaciones locales de presas pueden disminuir bruscamente. En túneles profundos el problema no es que la criatura mate sin cesar, sino que una sola noche de caza desestabilice un ecosistema escaso y de lenta recuperación."
+        },
+        {
+          "type": "h",
+          "text": "Ciclo vital y territorialidad"
+        },
+        {
+          "type": "p",
+          "text": "Los ejemplares adultos pasan gran parte de su vida en soledad. Marcan los pasadizos mediante roce de placas y secreciones fuertes que permanecen adheridas a superficies húmedas. Se presume que las hembras ponen pocos huevos en cámaras de temperatura constante y que las crías deben alimentarse de pequeños artrópodos antes de capturar vertebrados. La lentitud de crecimiento, las placas acumuladas y la baja frecuencia de encuentros sugieren una longevidad considerable, todavía no demostrada por observación directa. Las mudas parciales producen fragmentos de escama útiles para reconocer su tamaño aproximado sin encontrarlo."
+        },
+        {
+          "type": "h",
+          "text": "Minas, supersticiones y oficio"
+        },
+        {
+          "type": "p",
+          "text": "En Varnok y otras zonas de túneles, su existencia se vincula a relatos sobre raíces que descienden hasta el corazón del mundo. Los mineros evitan las galerías donde el techo muestra rayones anchos y piedras recubiertas de una película aceitosa. Sus placas mineralizadas despiertan interés entre artesanos, pero transportarlas requiere comprobar que no son simplemente depósitos comunes. La prioridad del Círculo de Faëandir suele ser sellar accesos y cartografiar rutas alternativas antes que organizar una cacería en galerías donde el animal mantiene toda la ventaja."
+        },
+        {
+          "type": "h",
+          "text": "Cómo reconocerlo"
+        },
+        {
+          "type": "p",
+          "text": "La huella combina un surco central profundo con marcas laterales pequeñas y discontinuas. En curvas estrechas aparecen placas pulidas y finos residuos de cristal quebrado. Si se oyen golpes repetidos bajo una pared sin actividad minera cercana, los exploradores se retiran; perseguir un ruido hacia la profundidad es la manera más rápida de perder orientación y quedar atrapado con el reptil."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-19",
+      "number": 19,
+      "name": "Grendel de las Turberas",
+      "subtitle": "«La turbera siempre parece poco profunda hasta que dejas de ver tus piernas». — Advertencia de un Ojopiedra.",
+      "imgurId": "u83thwd",
+      "imgurPage": "https://imgur.com/u83thwd",
+      "facts": [
+        [
+          "Hábitat",
+          "Turberas frías, bosques anegados y refugios abandonados"
+        ],
+        [
+          "Alimentación",
+          "Peces, crustáceos, carroña y mamíferos pequeños"
+        ],
+        [
+          "Organización",
+          "Solitario; hembras con una cría"
+        ],
+        [
+          "Tamaño",
+          "2,1–2,8 m erguido; 180–330 kg"
+        ],
+        [
+          "Vida",
+          "25–45 años"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alto si es sorprendido de noche"
+        ],
+        [
+          "Frecuencia",
+          "Escaso; limitado a humedales extensos"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gran omnívoro antropoide de pantanos y ruinas   |   Inspiración: Grendel, poema anglosajón Beowulf"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La turbera parece silenciosa hasta que una figura enorme atraviesa el agua con la cabeza inclinada. No corre; avanza apoyándose con manos demasiado largas y con pies que rara vez dejan una huella entera. Las pieles oscuras y el barro adherido confunden sus contornos entre los sauces muertos. Los caminantes hablan de voces que piden auxilio desde las charcas, aunque los informes más cautos describen un animal capaz de emitir gemidos y sonidos cortos semejantes a los humanos. El error fatal es responder entrando en el agua: allí el grendel conoce cada hundimiento y cada isla de tierra firme."
+        },
+        {
+          "type": "h",
+          "text": "Grendel de las Turberas · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Aspecto y adaptación al pantano"
+        },
+        {
+          "type": "p",
+          "text": "El grendel posee una postura erguida intermitente, brazos extremadamente largos, manos fuertes y una espalda curva protegida por pelo áspero mezclado con placas dérmicas endurecidas. No es una persona deforme ni un espíritu, sino una criatura grande y poderosa, con dentición apta para una dieta muy variada. La piel se cubre con barro seco que protege de insectos y reduce el brillo bajo la luz. Sus pies largos distribuyen parcialmente el peso sobre terrenos blandos, aunque un adulto evita las turberas más profundas. Sus ojos reflejan débilmente la luz; el oído y el olfato son esenciales para moverse en bosques de visibilidad escasa."
+        },
+        {
+          "type": "h",
+          "text": "Dónde se oculta"
+        },
+        {
+          "type": "p",
+          "text": "Habita ciénagas frías, bosques encharcados y ruinas donde los cimientos forman refugios relativamente secos. Sale al atardecer y regresa antes de que el sol alcance el centro de los claros. Puede compartir indirectamente un humedal con otros grendeles si existe suficiente alimento, pero rara vez tolera encuentros cara a cara. El territorio cambia con las lluvias: una nueva crecida puede expulsarlo de sus charcas habituales y acercarlo a aldeas o rutas comerciales. Las construcciones abandonadas lo atraen por su techo, no porque tenga intención de habitar los lugares humanos como una persona."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y oportunismo"
+        },
+        {
+          "type": "p",
+          "text": "Pesca con movimientos rápidos de las manos, arranca crustáceos de las orillas y consume anfibios grandes, pequeñas presas y carroña. En los inviernos duros puede atacar animales de mayor tamaño que se han quedado atrapados en el lodo. Los depósitos de huesos junto a su guarida suelen reunir especies distintas, lo que ha alimentado la idea equivocada de que mata por simple crueldad. La mayor parte del tiempo busca alimento de manera oportunista y evita combates que puedan herir sus manos; un brazo lesionado comprometería su capacidad para alimentarse durante semanas."
+        },
+        {
+          "type": "h",
+          "text": "Vida social y crianza"
+        },
+        {
+          "type": "p",
+          "text": "Son criaturas mayoritariamente solitarias. Los encuentros durante el celo parecen breves y ruidosos; después los adultos se separan. Las hembras cuidan a una cría durante un período prolongado, enseñándole los pasos firmes y las zonas donde se encuentran peces o carroña. Los juveniles, al dispersarse, generan la mayoría de incidentes con viajeros porque todavía desconocen las rutas humanas y reaccionan de forma imprevisible al verse acorralados. La reproducción lenta hace que la eliminación de un par de adultos pueda vaciar un humedal durante años."
+        },
+        {
+          "type": "h",
+          "text": "Conflicto con los pobladores"
+        },
+        {
+          "type": "p",
+          "text": "Los relatos de Grendel como devorador de hombres nacen de encuentros nocturnos y de cadáveres hallados en agua poco profunda. Aunque un adulto puede matar a un viajero, no parece que los humanos formen parte habitual de su dieta. Los Ojopiedras recomiendan no perseguirlo sin necesidad: las turberas son más peligrosas para una compañía armada que para una criatura adaptada a vivir en ellas. Sus pieles y placas carecen de propiedades mágicas demostradas, y la extracción de trofeos rara vez justifica perder hombres en terreno inundado."
+        },
+        {
+          "type": "h",
+          "text": "Reconocimiento y defensa"
+        },
+        {
+          "type": "p",
+          "text": "El grendel deja marcas de manos anchas en troncos bajos, huellas irregulares en barro firme y restos alimentarios escondidos bajo ramas. Un gemido aislado al caer la noche debe considerarse una señal de alarma, no una invitación al rescate. La defensa más útil consiste en permanecer en suelo seco, agruparse y no perseguir figuras que desaparecen entre juncos."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-20",
+      "number": 20,
+      "name": "Trol de Pedernal",
+      "subtitle": "«Hay tres cosas que uno no discute con un trol: su cueva, su alimento y el tamaño de las piedras». — Refrán de montaña.",
+      "imgurId": "Cu0gHMR",
+      "imgurPage": "https://imgur.com/Cu0gHMR",
+      "facts": [
+        [
+          "Hábitat",
+          "Gargantas pedregosas, cuevas amplias y bosques altos"
+        ],
+        [
+          "Alimentación",
+          "Raíces, hongos, carroña y grandes frutos estacionales"
+        ],
+        [
+          "Organización",
+          "Solitario o en grupos familiares de 2–4"
+        ],
+        [
+          "Tamaño",
+          "3,5–5 m erguido; masa muy variable, superior a 1 t"
+        ],
+        [
+          "Vida",
+          "60–100 años (estimación)"
+        ],
+        [
+          "Peligrosidad",
+          "Extremo si se invade su refugio"
+        ],
+        [
+          "Frecuencia",
+          "Muy escaso; núcleos aislados"
+        ]
+      ],
+      "blocks": [        {
+          "type": "p",
+          "text": "Gigante omnívoro de riscos y derrumbes   |   Inspiración: Troles de la tradición nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "A distancia, un Trol de Pedernal parece una torre caída sobre la ladera. Su espalda es un mosaico de placas duras, musgo y cicatrices claras; la barba de pelo grueso le cuelga hasta el pecho. Cuando se incorpora, las piedras sueltas ruedan por sus hombros como si la montaña despertara. La mayoría de los incidentes comienza con una roca que alguien mueve sin mirar: bajo ella había hongos, insectos o la entrada de un refugio utilizado por el gigante. No suele correr detrás de los viajeros; basta con que avance unos pasos y agite un brazo para que el suelo se llene de proyectiles."
+        },
+        {
+          "type": "h",
+          "text": "Trol de Pedernal · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Gigantismo y placas dérmicas"
+        },
+        {
+          "type": "p",
+          "text": "El trol posee un esqueleto masivo, articulaciones anchas y una musculatura lenta pero capaz de ejercer fuerzas enormes. Sobre hombros, espalda y extremidades se desarrollan placas cutáneas duras, impregnadas con depósitos minerales que se acumulan con la edad. No está hecho literalmente de roca: la piel puede lesionarse, el tejido sangra y el organismo necesita alimentarse y respirar. El peso impide carreras prolongadas; su potencia se concentra en empujes, golpes y desplazamientos cortos. La semejanza con un peñasco constituye su principal defensa pasiva frente a quienes cruzan cerca de una guarida sin verlo."
+        },
+        {
+          "type": "h",
+          "text": "Ecosistemas de derrumbe"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere gargantas con grandes bloques, cuevas de entrada amplia y laderas donde los cambios bruscos de nivel dificultan el paso de animales menores. En verano desciende hacia bosques altos para buscar alimento y agua; en invierno permanece durante días en refugios protegidos, moviéndose poco cuando los recursos escasean. Su distribución es discontinua y depende de espacios grandes que casi ningún asentamiento utiliza. Los viejos caminos de cantera y las rutas mineras pueden acercarse demasiado a sus refugios, especialmente donde la extracción ha abierto galerías o desplazado enormes rocas."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Pese a su tamaño, es principalmente omnívoro. Consume raíces grandes, hongos, frutos, carroña y animales pequeños cuando consigue capturarlos. En otoño acumula alimento en cavidades protegidas y puede arrancar troncos podridos para acceder a larvas. Sus movimientos transforman la ladera: levanta piedras que quedan como refugio de pequeños seres, abre claros y deja excavaciones donde se reúne agua. Solo de forma ocasional captura grandes mamíferos; la persecución activa implicaría un gasto excesivo de energía. Una dieta dominada por carne no permitiría sostener una población estable en terrenos tan pobres."
+        },
+        {
+          "type": "h",
+          "text": "Familia y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos viven solos o acompañados por una pareja y una o dos crías de crecimiento lentísimo. Los jóvenes permanecen varios años en el mismo refugio y aprenden a reconocer hongos comestibles y zonas de descanso. Los enfrentamientos entre gigantes se anuncian por piedras partidas y árboles arrancados, pero no son frecuentes: una lesión grave tarda demasiado en curarse. La presencia de placas estratificadas, cicatrices antiguas y gran diferencia de tamaño entre jóvenes y viejos sugiere una vida excepcionalmente larga, quizá cercana a un siglo en lugares poco perturbados."
+        },
+        {
+          "type": "h",
+          "text": "Convivencia con los montaraces"
+        },
+        {
+          "type": "p",
+          "text": "Los trols figuran en cuentos como guardianes de cumbres y responsables de derrumbes inexplicables. Algunas aldeas dejan ofrendas de sal o alimentos a distancia de sus rutas; eso puede reducir encuentros puntuales, pero también acostumbrarlos a buscar comida cerca de personas. Los cazadores más sensatos prefieren desviar un camino antes que iniciar un combate frontal. Su piel mineralizada no vuelve invulnerable al animal, aunque sí dificulta el efecto de golpes superficiales; la verdadera amenaza para una expedición es el terreno que puede desprender durante su defensa."
+        },
+        {
+          "type": "h",
+          "text": "Señales y seguridad"
+        },
+        {
+          "type": "p",
+          "text": "Deja huellas enormes, excrementos ricos en fibras y surcos de arrastre donde ha movido rocas. Las piedras recientes sin líquenes sobre sus caras expuestas suelen indicar actividad, aunque no siempre de un trol. Si se oye un crujido pesado y lento desde un canchal, la recomendación es apartarse del corredor de derrumbe y no intentar asomarse para obtener una mejor observación."
+        }
+      ]
+    }
+  ]
+}

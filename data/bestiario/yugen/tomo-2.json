@@ -1,0 +1,1006 @@
+{
+  "region": "yugen",
+  "volume": 2,
+  "title": "Yūgen",
+  "source": "Bestiario_Yugen_Tomo_VI(2).docx",
+  "preface": [
+    "«Hasta el silencio de los árboles tiene dientes, si uno aprende a escucharlo».",
+    "Las islas Yugen no son un territorio vacío al que la guerra haya llegado por accidente. Son un conjunto de montañas, valles, bosques y costas donde la abundancia de agua sostiene una riqueza biológica excepcional, incluso bajo la presión de una población numerosa. Las terrazas agrícolas ascienden por los piedemontes, los cerezos señalan antiguos caminos y los ríos descienden desde cumbres nevadas hasta las ensenadas que alimentan a los pescadores. Cada espacio ganado al cultivo modifica los lugares donde las bestias pueden alimentarse, reproducirse o esconderse.",
+    "Entre los dominios propuestos de Iwagiri, Hanamori y Shiranui, esta segunda entrega concentra su atención en el interior de la isla: las laderas oscuras de Iwagiri, las tierras fértiles de Hanamori y los bosques antiguos donde los límites de los clanes importan menos que las raíces. No todas las criaturas aquí reunidas son monstruos capaces de destruir una aldea. Algunas son depredadores de insectos, otras grandes herbívoros y otras seres tan discretos que la mera presencia humana puede hacerlos desaparecer.",
+    "La mirada Yugen tiende a interpretar la naturaleza mediante el Kushidō, la religión de los templos y la memoria de sus guerras. Una araña puede representar la paciencia; un Kirin, la justicia; un árbol oscuro, la persistencia del dolor después de una batalla. Estas asociaciones importan culturalmente, pero no sustituyen la observación. Cada ficha distingue entre anatomía y relato, entre conducta registrada y superstición, y entre peligro real y miedo heredado.",
+    "Las especies y sus medidas son propuestas originales de zoología fantástica para Aeternalis, inspiradas libremente en nombres y motivos del folclore japonés. No constituyen afirmaciones sobre animales reales ni incorporaciones automáticas al canon existente. Su intención es ofrecer una base ecológica consistente que permita al jugador imaginar encuentros, rutas, cacerías y conflictos sin reducir a todas las criaturas a enemigos que esperan ser derrotados."
+  ],
+  "creatures": [
+    {
+      "id": "yugen-11",
+      "number": 11,
+      "name": "Ōmukade",
+      "subtitle": "",
+      "imgurId": "mJckZqD",
+      "imgurPage": "https://imgur.com/mJckZqD",
+      "facts": [
+        [
+          "Territorio",
+          "Barrancos húmedos, taludes boscosos y cavernas superficiales de Iwagiri"
+        ],
+        [
+          "Dimensiones",
+          "2,0–3,5 m de longitud; ocasionalmente más en ejemplares antiguos"
+        ],
+        [
+          "Alimentación",
+          "Carnívoro: pequeños mamíferos, reptiles, aves de suelo y carroña fresca"
+        ],
+        [
+          "Organización",
+          "Solitario, con encuentros breves durante el periodo reproductivo"
+        ],
+        [
+          "Longevidad",
+          "8–15 años estimados"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta en espacios estrechos"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El ciempiés de las gargantas rojas"
+        },
+        {
+          "type": "p",
+          "text": "En los barrancos de Iwagiri, donde los árboles hunden las raíces entre piedras mojadas y los torrentes cubren cualquier ruido, hay un crujido que los leñadores aprenden a distinguir del viento. Primero suena como una cadena arrastrada sobre la grava; después, como cientos de uñas golpeando la roca. Quien mira hacia el origen encuentra una armadura viva avanzando entre helechos: el Ōmukade, un ciempiés de tamaño monstruoso cuya presencia transforma un sendero aparentemente seguro en un lugar de caza. Los habitantes del archipiélago lo asocian a antiguos castigos de la montaña, pero su conducta ofrece indicios de un depredador especializado, no de una voluntad sobrenatural."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo está compuesto por numerosos segmentos superpuestos, protegidos por placas oscuras de tonos ferruginosos. Cada sección porta un par de patas articuladas con extremos curvos, capaces de aferrarse a cortezas, grietas y superficies inclinadas. Los apéndices anteriores constituyen su principal arma: estructuras ganchudas que sujetan a la presa mientras las piezas bucales inoculan una secreción tóxica. Las antenas detectan vibraciones de animales y movimientos del agua; por ello, el Ōmukade rara vez necesita ver claramente a su objetivo. Aunque su longitud intimida, su cuerpo es bajo y flexible, y puede desaparecer en una hendidura que parece insuficiente para albergarlo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Es frecuente encontrarlo en laderas sombreadas, bajo árboles caídos y cerca de cavidades que conservan temperatura estable durante las estaciones lluviosas. No tolera demasiado bien la exposición prolongada al sol de los valles cultivados, donde su humedad corporal se pierde con rapidez. Aprovecha madrigueras abandonadas y canales naturales para recorrer distancias sin quedar a la vista. Las zonas de presencia suelen mostrar marcas paralelas en el barro, pequeños animales desaparecidos de sus nidos y restos de quitina depositados junto a la entrada de cuevas. Los exploradores más hábiles se detienen ante esas señales: la piel mudada de un Ōmukade puede seguir pareciendo un animal vivo."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Caza mediante emboscadas cortas y persecuciones explosivas. Prefiere mamíferos pequeños, reptiles, aves que descansan en el suelo y animales heridos; en épocas de escasez acepta carroña reciente. Su veneno incapacita a presas de tamaño moderado y puede causar dolor intenso en criaturas grandes, aunque no conviene presentarlo como una muerte instantánea inevitable. Lejos de ser un consumidor indiscriminado, controla poblaciones de pequeños depredadores y carroñeros de los bosques bajos. Allí donde desaparece, los campesinos a veces observan una proliferación de roedores, aunque pocos aceptarían conservar deliberadamente semejante vecino."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es territorial y evita a sus congéneres fuera del apareamiento. Durante las lluvias intensas puede desplazarse a plena luz del día, pero habitualmente es crepuscular. Si se le deja un camino de huida, intentará esconderse; si una compañía lo encierra contra una pared, atacará de manera repetida y feroz. Los huargos de paso y los kitsune de silla suelen mostrar inquietud ante el olor del Ōmukade antes de que sus jinetes lo descubran. Sus ataques se concentran en piernas, hocicos y extremidades: busca derribar a la presa para después rodearla con el cuerpo."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Tras el apareamiento, la hembra deposita un conjunto reducido de huevos en una cámara cálida y húmeda. Puede permanecer durante semanas protegiéndolos y limpiando su superficie para evitar hongos. Las crías poseen un tamaño relativamente pequeño y atraviesan numerosas mudas antes de alcanzar su anatomía adulta. La pérdida de humedad, los depredadores más grandes y el canibalismo juvenil limitan el número de individuos que llega a reproducirse. Su longevidad es difícil de medir porque los ejemplares mayores rara vez pueden seguirse durante años sin correr riesgos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los clanes de Iwagiri mantienen turnos de inspección cerca de almacenes montañosos y puentes de madera, y recomiendan no introducir la mano en grietas desconocidas. Su quitina se utiliza ocasionalmente como elemento decorativo y sus secreciones interesan a ciertos alquimistas, aunque su extracción es peligrosa. En relatos del Kushidō, vencer a un Ōmukade con una sola espada representa la victoria de la disciplina sobre el horror; los cazadores reales prefieren lanzas largas, fuego controlado y retirada ordenada. Nadie que conozca su biología confunde la valentía con acercarse innecesariamente a sus mandíbulas."
+        },
+        {
+          "type": "p",
+          "text": "«No escuchamos sus patas hasta que dejó de sonar el arroyo. La montaña no calló: alguien más había comenzado a caminar por ella». — Informe de un guardasendas de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-12",
+      "number": 12,
+      "name": "Tsuchigumo",
+      "subtitle": "",
+      "imgurId": "vCmfQRa",
+      "imgurPage": "https://imgur.com/vCmfQRa",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques de raíz profunda, terrazas de piedra y cuevas secas de Iwagiri"
+        ],
+        [
+          "Dimensiones",
+          "1,5–2,8 m de envergadura entre las patas"
+        ],
+        [
+          "Alimentación",
+          "Insectos gigantes, roedores, reptiles y pequeños mamíferos"
+        ],
+        [
+          "Organización",
+          "Solitario; territorial alrededor de la madriguera"
+        ],
+        [
+          "Longevidad",
+          "10–18 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alta cerca de madrigueras activas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La excavadora que espera bajo las raíces"
+        },
+        {
+          "type": "p",
+          "text": "Los caminos viejos de Iwagiri están llenos de trampas que no construyó mano alguna. Bajo la costra de hojas y tierra húmeda se abren galerías discretas, cubiertas por tapas de seda y barro que imitan el suelo del bosque. Allí espera la Tsuchigumo, una araña excavadora tan grande que puede arrastrar a un animal de carga pequeño dentro de su guarida. Los campesinos la consideran una enemiga de los caminos; los naturalistas, en cambio, ven en ella a una cazadora de paciencia extrema, adaptada a gastar muy poca energía mientras la presa se acerca por sí sola."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo es compacto, con un abdomen voluminoso y cubierto por vellosidades pardas que retienen partículas de tierra. Las patas anteriores son fuertes, cortas en comparación con las arañas tejedoras y provistas de espinas apropiadas para excavar y sujetar. Los ojos, pequeños y múltiples, detectan cambios de luz; el principal sentido de caza se encuentra en las sedas sensitivas extendidas alrededor de la entrada. Las quelíceras están diseñadas para atravesar pieles y pequeñas corazas, mientras que los pedipalpos colaboran en la manipulación de tierra y alimento. Sus movimientos parecen torpes fuera de la madriguera, pero el primer salto desde la trampa puede superar cualquier reacción humana desprevenida."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Excava en taludes estables y secos por debajo de la capa superficial húmeda. Prefiere bosques antiguos, raíces gruesas y suelos donde una galería no se derrumbe con la primera tormenta. Un ejemplar adulto puede ampliar su sistema de túneles durante muchos años, creando cámaras para descanso, alimentación y puesta. Las madrigueras se identifican por la ausencia de insectos alrededor de una zona aparentemente fértil, pequeñas líneas de seda mezcladas con barro y depresiones circulares casi invisibles. Las aldeas que construyen nuevas sendas suelen inspeccionar primero la base de los árboles próximos."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "La Tsuchigumo consume roedores, lagartos, pequeños cánidos, aves de suelo y grandes insectos de bosque. Captura a la presa al sentir vibraciones sobre la tapa, la aferra con sus patas delanteras y la arrastra hacia abajo. Su veneno comienza a inmovilizar tejidos mientras enzimas digestivas facilitan la alimentación posterior. No suele atacar presas mayores que ella a menos que una parte del animal quede atrapada en la entrada. En el ecosistema es un regulador silencioso de animales que prosperan entre las raíces; su especialización la vuelve vulnerable a la desaparición de bosques maduros."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es solitaria y muestra poca tolerancia hacia otras arañas adultas. La actividad más intensa se produce durante noches cálidas y después de lluvias moderadas. No persigue a viajeros a campo abierto: por norma general, defenderá la guarida y abandonará la persecución a pocos metros. Eso no la vuelve inofensiva. Una persona que coloque el pie sobre la tapa puede perder el equilibrio antes de comprender qué sucede. Los ejemplares viejos tienden a conservar rutas de emboscada estables, lo que permite a rastreadores experimentados marcar terrenos de riesgo y mantener a salvo las caravanas."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La hembra crea una cámara separada donde custodia un saco de huevos. Durante la crianza reduce su actividad y puede mostrarse extraordinariamente agresiva ante vibraciones próximas. Los juveniles permanecen un tiempo en la misma galería antes de dispersarse, una etapa en la que muchos son devorados por otros depredadores o por sus propios congéneres. La maduración es lenta, y los individuos grandes son resultado de años de mudas bien alimentadas. Su reproducción irregular explica que un bosque pueda albergar varias madrigueras durante décadas sin convertirse en un océano de arañas."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "En Iwagiri se utilizan varas de sondeo y perros pequeños para reconocer terreno antes de abrir caminos de obra. Algunos cazadores arrancan seda de galerías abandonadas para cordajes finos o trampas, pero la fibra recién producida pierde calidad si se manipula de forma brusca. Los monjes de montaña enseñan que la Tsuchigumo es una lección sobre la paciencia y el riesgo de caminar sin mirar; los guerreros la detestan porque ningún espadachín puede lucir su técnica mientras cae dentro de un agujero. Los clanes buscan exterminarla cerca de aldeas, pero suelen dejarla en paz en bosques remotos."
+        },
+        {
+          "type": "p",
+          "text": "«El suelo estaba entero, hasta que dejó de estarlo. La araña no salió de la tierra: fue la tierra la que se abrió para recibirnos». — Advertencia de un maestro de caminos."
+        }
+      ]
+    },
+    {
+      "id": "yugen-13",
+      "number": 13,
+      "name": "Jorōgumo",
+      "subtitle": "",
+      "imgurId": "cXFpjxN",
+      "imgurPage": "https://imgur.com/cXFpjxN",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques húmedos, cascadas y gargantas ribereñas"
+        ],
+        [
+          "Dimensiones",
+          "Hasta 2,5 m de envergadura; hembras mucho mayores"
+        ],
+        [
+          "Alimentación",
+          "Aves, pequeños mamíferos, murciélagos e insectos grandes"
+        ],
+        [
+          "Organización",
+          "Solitario salvo reproducción; hembras dominan grandes telas"
+        ],
+        [
+          "Longevidad",
+          "7–12 años"
+        ],
+        [
+          "Peligrosidad",
+          "Alta cuando se atraviesa una tela activa"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La tejedora de los bosques de agua"
+        },
+        {
+          "type": "p",
+          "text": "En los bosques de agua, las cascadas no sólo alimentan raíces: también sostienen una arquitectura hecha de hilos. Entre troncos separados por precipicios cuelgan redes que parecen niebla detenida, visibles únicamente cuando el sol las toca en un ángulo exacto. La Jorōgumo es la autora de esas trampas. Los relatos Yugen la describen como una mujer hermosa que llama a los viajeros desde el bosque; lo comprobable es una araña tejedora enorme, cuyos reflejos cromáticos y cuya seda son capaces de engañar a ojos cansados y conducir al caminante hacia un lugar del que resulta difícil salir."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su abdomen es ovoide, con bandas negras, rojizas y doradas que recuerdan pinturas rituales. Las patas son extraordinariamente largas y finas, con espinas pequeñas que le permiten desplazarse por seda suspendida sin quedar adherida. Los ojos frontales detectan movimiento, pero el control del territorio depende de vibraciones transmitidas a través de los hilos. Algunas hembras adultas desarrollan patrones brillantes en el abdomen; no se trata de marcas mágicas, sino de señales visuales que podrían intervenir en la selección sexual y la intimidación. Su cuerpo pesa mucho menos de lo que su envergadura sugiere."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere bosques de copa alta junto a cursos de agua, donde la humedad impide que la seda se vuelva quebradiza. En los puentes naturales de las gargantas, una red puede extenderse entre dos árboles y permanecer activa durante semanas. Las Jorōgumo no construyen telas aleatoriamente: seleccionan corredores por los que pasan aves y pequeños mamíferos arborícolas. Durante lluvias demasiado fuertes recogen parte del tejido y lo reconstruyen en cuanto baja el caudal. Un bosque invadido por estas redes suele tener pocas aves pequeñas, pero grandes concentraciones de insectos atraídos por el agua."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta sobre todo de presas que cruzan su territorio aéreo: pájaros, murciélagos, insectos grandes y mamíferos de ramas. Una tela de Jorōgumo no necesita resistir el peso de un guerrero para ser peligrosa; basta con adherirse a brazos, rostro y equipo para inmovilizarlo durante el tiempo suficiente para que la araña se aproxime. Los hilos poseen una gran elasticidad y resisten tirones violentos mejor que cortes limpios. Tras la captura, el animal inmoviliza, envuelve y consume lentamente a su presa. No sale a cazar por el suelo salvo cuando la hambruna se prolonga."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "La Jorōgumo es extremadamente territorial respecto de su red. Reconstruirla supone un gasto considerable de energía, por lo que responde con violencia a intrusos que la destruyen. Fuera de su área de seda suele evitar enfrentamientos; incluso una gran hembra prefiere dejar marchar a una criatura que no puede sujetar. Durante la estación cálida, los machos, mucho menores, recorren las ramas en busca de hembras, exponiéndose a ser depredados. La tradición de la mujer que atrae hombres quizá nazca de la silueta de sus patas sobre una red mojada: en la niebla, las figuras engañan hasta a los exploradores veteranos."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras producen ootecas rodeadas por varias capas de seda y las sitúan en ramas protegidas del agua directa. Una sola puesta puede contener numerosos juveniles, aunque la mayoría no alcanza la edad adulta. Las crías se dispersan mediante finos hilos arrastrados por las corrientes del bosque, lo que explica apariciones inesperadas en valles distantes. El gigantismo requiere años de crecimiento y abundancia continua de alimento. Algunas redes permanecen ocupadas por generaciones sucesivas, alimentando la creencia local de que una sola tejedora puede vivir cientos de años."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los habitantes de Hanamori y las laderas de Iwagiri evitan talar árboles con grandes redes activas sin antes revisar la fauna atrapada. La seda interesa a artesanos por su resistencia, pero recolectarla puede destruir la red y desencadenar un ataque. En los poemas del Kushidō se utiliza a la Jorōgumo como advertencia contra la belleza que oculta hambre; los cazadores recuerdan que no necesita engañar al alma, porque le basta con conocer el camino. Al abrir una nueva ruta, los exploradores suelen caminar primero con varas extendidas a la altura del rostro."
+        },
+        {
+          "type": "p",
+          "text": "«Vi una doncella entre los árboles. Cuando la niebla se abrió, entendí que eran ocho patas y que la voz era sólo agua cayendo». — Testimonio recogido en un santuario ribereño."
+        }
+      ]
+    },
+    {
+      "id": "yugen-14",
+      "number": 14,
+      "name": "Kirin",
+      "subtitle": "",
+      "imgurId": "dD1Sgwn",
+      "imgurPage": "https://imgur.com/dD1Sgwn",
+      "facts": [
+        [
+          "Territorio",
+          "Praderas altas y bosques claros de montaña, lejos de asentamientos densos"
+        ],
+        [
+          "Dimensiones",
+          "1,8–2,2 m a la cruz; cuerpo comparable a un gran cérvido"
+        ],
+        [
+          "Alimentación",
+          "Herbívoro selectivo: brotes, hojas, hierbas y corteza tierna"
+        ],
+        [
+          "Organización",
+          "Solitario o en parejas, con encuentros estacionales"
+        ],
+        [
+          "Longevidad",
+          "25–40 años"
+        ],
+        [
+          "Peligrosidad",
+          "Baja salvo defensa de crías o acorralamiento"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El caminante escamado de los valles altos"
+        },
+        {
+          "type": "p",
+          "text": "En las fronteras entre bosque y niebla se conserva la memoria del Kirin, un herbívoro tan escaso que muchos guardabosques envejecen sin cruzarse con él. Su presencia parece contradecir el ruido cotidiano de las islas: allí donde la guerra abre caminos, el Kirin los evita; donde los arrozales ocupan cada palmo de tierra, busca claros altos donde todavía crecen árboles viejos. Los Yugen lo consideran un presagio de gobernantes justos. Los naturalistas prefieren una explicación menos solemne: se trata de una especie vulnerable, de hábitos discretos y reproducción lenta, cuya supervivencia depende de refugios muy poco alterados."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Posee un cuerpo largo y elegante, miembros de gran resistencia, pezuñas anchas y un cuello musculoso que le permite alcanzar ramas elevadas. Algunas placas epidérmicas endurecidas cubren cuello, hombros y parte de los flancos, formando un dibujo semejante a escamas. La cornamenta, de estructura compleja, se desarrolla en los adultos y puede presentar puntas retorcidas; en los ejemplares jóvenes es corta y fácil de confundir con ramas adheridas a la cabeza. Sus ojos son grandes y su oído extremadamente fino. La combinación de agilidad y armadura parcial le permite cruzar terrenos pedregosos sin exponerse constantemente a heridas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere bosques abiertos, laderas templadas y praderas de altitud donde la niebla proporciona cobertura. No tolera bien las llanuras más pobladas, y suele abandonar una zona en cuanto se abren carreteras, se talan árboles de refugio o aumentan los perros ferales. Una pareja puede usar durante años los mismos corredores entre manantiales y pastos estacionales. Sus huellas recuerdan a las de un cérvido grande, pero las separaciones de los dedos y la profundidad del apoyo permiten reconocer su paso a ojos experimentados. Los lugares de descanso suelen estar protegidos por vegetación espesa y tener buena visibilidad sobre los accesos."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Come hojas tiernas, brotes estacionales, hierbas de altura y corteza de ciertos árboles, especialmente al final del invierno. Su dieta selectiva obliga a recorrer grandes áreas y mantiene abiertos pequeños claros al ramonear arbustos invasores. No posee capacidades mágicas para fertilizar el terreno ni sanar plantas, aunque las aldeas atribuyan prosperidad a sus visitas. La coincidencia tiene una base ecológica: un valle capaz de alimentar a un Kirin suele disponer de agua limpia, vegetación diversa y escaso disturbio. Protegerlo implica conservar también los paisajes de los que dependen otras especies."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es cauteloso y evita el conflicto, pero puede ejecutar una carga devastadora si se encuentra sin salida. En época de celo, los machos realizan combates ritualizados con la cornamenta y señales olfativas; las heridas graves son infrecuentes porque suelen retirarse antes de agotarse. La especie se desplaza lentamente al amanecer y conserva largas horas de reposo en zonas de sombra. Cuando percibe una amenaza, primero permanece inmóvil, confiando en su coloración y en el relieve. Sólo huye cuando el peligro se aproxima demasiado."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras paren una cría tras una gestación prolongada y dedican meses a ocultarla entre hierbas altas. Los juveniles tardan años en alcanzar el tamaño adulto, de modo que las poblaciones crecen con lentitud y no pueden reponerse rápidamente tras una cacería. Su longevidad aparente es considerable, especialmente en terrenos donde el clima y la alimentación permanecen estables. Los cachorros son vulnerables a grandes félidos y caninos, pero los adultos tienen pocos enemigos naturales aparte de los mayores monstruos de montaña."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Algunos templos prohíben explícitamente cazar al Kirin. La posesión de un asta caída puede bastar para otorgar prestigio ritual, siempre que se demuestre que no procede de un animal abatido. Las familias guerreras lo incorporan a estandartes como símbolo de mesura y legitimidad, una elección paradójica en una isla atravesada por disputas constantes. Para los cuidadores del bosque, proteger un Kirin significa limitar las talas y defender nacientes de agua. Su utilidad práctica es escasa; su valor como indicador del estado del hábitat es enorme."
+        },
+        {
+          "type": "p",
+          "text": "«No inclinó la cabeza ante mi espada. La alzó para escuchar el viento y siguió caminando. Comprendí entonces cuánto ruido produce un hombre que busca gloria». — Poema de una escuela del Kushidō."
+        }
+      ]
+    },
+    {
+      "id": "yugen-15",
+      "number": 15,
+      "name": "Komainu",
+      "subtitle": "",
+      "imgurId": "P3dOe2r",
+      "imgurPage": "https://imgur.com/P3dOe2r",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques pedregosos, claros de santuario y laderas rocosas"
+        ],
+        [
+          "Dimensiones",
+          "1,3–1,6 m a la cruz; grandes adultos pueden superar 300 kg"
+        ],
+        [
+          "Alimentación",
+          "Carnívoro: ungulados, jabalíes jóvenes y carroña ocasional"
+        ],
+        [
+          "Organización",
+          "Parejas duraderas y pequeños grupos familiares"
+        ],
+        [
+          "Longevidad",
+          "16–24 años"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta cerca de cachorros o territorio defendido"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El león de las puertas antiguas"
+        },
+        {
+          "type": "p",
+          "text": "En las entradas de ciertos santuarios se alzan dos figuras de piedra con fauces abiertas y cerradas. Los sacerdotes dicen que representan a los Komainu, grandes depredadores cuyo modo de vigilar a sus crías y sus territorios inspira la idea de una guardia que jamás abandona su puesto. En estado salvaje no custodian templos por devoción: ocupan bosques rocosos y acantilados donde la caza resulta abundante. Sin embargo, su tolerancia a determinados asentamientos antiguos ha alimentado durante siglos una relación compleja de temor, respeto y crianza excepcional."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su constitución reúne rasgos de grandes félidos y cánidos, con tórax profundo, cuello ancho y una melena de pelo áspero que aumenta visualmente su volumen. El hocico es corto y robusto; los dientes, gruesos, permiten abatir presas fuertes sin depender de golpes precisos. Las patas delanteras son poderosas y terminan en garras apropiadas para aferrarse a piedra mojada. Una cola larga y musculosa ayuda al equilibrio en pendientes. Los colores del pelaje varían entre ocre, pardo y gris oscuro, con franjas más intensas alrededor del rostro. Desde lejos, un Komainu inmóvil parece una escultura erosionada por el tiempo."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Habita colinas rocosas, bosques claros y zonas de grandes bloques de piedra donde puede disponer de refugios secos para las crías. Las parejas eligen áreas con agua accesible y rutas estables de herbívoros. Rechazan bosques demasiado cerrados, porque necesitan espacio para lanzar carreras cortas, y rara vez penetran en los centros de cultivo más transitados. El límite de un territorio se reconoce por marcas de uñas, restos de presas y rugidos graves que atraviesan las laderas al atardecer."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Caza ungulados medianos, verracos juveniles y animales debilitados. Puede alimentarse de carroña reciente cuando la oportunidad resulta favorable, pero prefiere una presa perseguida y derribada mediante cooperación. En grupos familiares, uno de los adultos obliga al animal a desviarse hacia una zona de emboscada mientras el otro se mantiene oculto. Su presencia limita la expansión de ciertos herbívoros hacia cultivos y controla individuos enfermos; al mismo tiempo, puede convertirse en un problema grave para aldeas que crían animales al borde del bosque."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "La pareja estable constituye el núcleo social habitual. Los adultos comparten señales sonoras y táctiles, y defienden ferozmente las crías. Ante un extraño, un Komainu primero observa, emite un sonido bajo y despliega su melena; si la advertencia falla, su ataque es súbito. La aparente quietud de la especie no debe confundirse con docilidad. Algunos ejemplares pueden habituarse a los cuidadores desde jóvenes, pero retienen instintos predatorios fuertes. Una relación exitosa requiere décadas de experiencia en la familia y un espacio que no los obligue a convivir con multitudes."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La hembra pare una camada reducida y selecciona cubiles protegidos en cuevas superficiales. Los cachorros dependen de ambos adultos, que alternan la caza y la defensa del refugio. Su maduración es lenta; durante años juegan y ensayan emboscadas bajo vigilancia de los progenitores. La dispersión ocurre cuando los jóvenes pueden obtener alimento sin ayuda. La mortalidad juvenil es elevada en territorios fragmentados por guerras y caminos, donde los individuos vagabundos se acercan a graneros y corrales."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los clanes conocen Komainu domesticados de manera muy excepcional, criados por linajes vinculados a santuarios y utilizados como guardianes simbólicos más que como caballería. La costumbre de situar estatuas a ambos lados de una puerta imita su postura vigilante. Algunos señores han intentado exhibirlos como prueba de poder; los accidentes resultantes se recuerdan como castigos a la soberbia. Para el Kushidō, el Komainu simboliza firmeza sin furia: sólo ataca cuando su territorio o sus crías lo exigen. Los cazadores aconsejan alejarse con calma y nunca intentar separar a una pareja."
+        },
+        {
+          "type": "p",
+          "text": "«Dos sombras guardaban la escalinata. La piedra estaba a ambos lados de la puerta; las criaturas, en cambio, respiraban». — Relato de un peregrino de las colinas."
+        }
+      ]
+    },
+    {
+      "id": "yugen-16",
+      "number": 16,
+      "name": "Yamawaro",
+      "subtitle": "",
+      "imgurId": "S2jCiis",
+      "imgurPage": "https://imgur.com/S2jCiis",
+      "facts": [
+        [
+          "Territorio",
+          "Montañas cubiertas de bosque, barrancos y corredores de bambú"
+        ],
+        [
+          "Dimensiones",
+          "1,7–2,1 m de altura erguido; brazos muy largos"
+        ],
+        [
+          "Alimentación",
+          "Omnívoro: frutos, raíces, hongos, insectos y pequeños vertebrados"
+        ],
+        [
+          "Organización",
+          "Grupos familiares de 5–12 individuos"
+        ],
+        [
+          "Longevidad",
+          "25–35 años"
+        ],
+        [
+          "Peligrosidad",
+          "Media; alta ante crías o alimento defendido"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El habitante de los bosques altos"
+        },
+        {
+          "type": "p",
+          "text": "Los leñadores que cruzan los bosques altos de Iwagiri conocen un grito que parece una voz humana llamando desde la niebla. No siempre pertenece a un hombre. En laderas inaccesibles viven los Yamawaro, primates de gran tamaño cuya fuerza, inteligencia y conducta social han inspirado relatos sobre salvajes de las montañas. Sus pasos dejan huellas semejantes a manos enormes, y sus refugios se ocultan entre árboles caídos y riscos de piedra. El peligro que representan no surge de una supuesta crueldad ancestral, sino de su capacidad para organizarse y defender aquello que consideran propio."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "El Yamawaro posee tórax ancho, espalda encorvada, brazos largos y manos prensiles de dedos gruesos. Un pelaje oscuro y espeso cubre casi todo el cuerpo, salvo rostro, palmas y algunas zonas de la planta del pie. La mandíbula es poderosa, adaptada a triturar tubérculos duros y a defenderse; los caninos de los machos adultos pueden ser llamativos. Sus pies combinan agarre y apoyo estable, lo que le permite trepar raíces y caminar durante horas entre rocas sueltas. De lejos recuerda a un guerrero cubierto de pieles, confusión responsable de numerosos avistamientos exagerados."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa bosques de niebla, laderas con bambú y montes donde la actividad humana es escasa. Prefiere áreas con abundancia de frutos estacionales y manantiales permanentes. Las familias recorren circuitos amplios, trasladándose entre árboles de alimentación y abrigos de piedra según las lluvias. Construyen lechos de ramas en plataformas altas y utilizan ocasionalmente refugios rocosos contra los temporales. En invierno descienden a cotas moderadas, donde pueden entrar en conflicto con recolectores de madera y cultivadores."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta es principalmente vegetal y de invertebrados, aunque también captura lagartos, aves de nido y pequeños mamíferos. Rompe tallos, desentierra raíces, consume hongos y selecciona frutos maduros con gran precisión. La dispersión de semillas lo convierte en un agente importante para la recuperación de claros tras tormentas. Los grupos pueden abandonar una ladera después de agotar un recurso y regresar meses después. La escasez extrema los empuja hacia huertas, donde su gran fuerza hace difícil expulsarlos sin violencia."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Es social, mantiene vínculos familiares reconocibles y utiliza gestos, golpes sobre troncos y voces guturales para coordinarse. Los adultos protegen a los pequeños mediante formaciones que interponen los cuerpos mayores entre la amenaza y el grupo. La agresividad suele estar precedida por despliegues ruidosos, golpes al suelo y lanzamiento de ramas. Quien interpreta esas señales y retrocede raramente necesita combatir. El problema aparece cuando viajeros armados confunden una advertencia con un desafío de honor y provocan una respuesta colectiva."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras suelen parir una sola cría tras una gestación prolongada. Los juveniles permanecen durante años cerca de la madre y de los adultos experimentados, aprendiendo rutas, frutos seguros y señales de peligro. Esta lenta reproducción limita la recuperación de grupos dañados por cacerías o epidemias. Los machos jóvenes pueden abandonar su familia y recorrer grandes distancias antes de incorporarse a otro grupo. No se ha demostrado que formen comunidades con lenguaje humano, pese a que algunas leyendas insistan en ello."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Las aldeas próximas a su hábitat prefieren negociar con el bosque mediante barreras de cultivo, vigilancia y rutas alternativas antes que organizar exterminios. En ciertos monasterios se observan grupos de Yamawaro para estudiar cooperación, crianza y comunicación. Los guerreros más jóvenes los comparan con rivales de fuerza física; los veteranos saben que pelear con un primate sin necesidad es perder una batalla antes de empezarla. Su presencia es una prueba indirecta de continuidad forestal y diversidad de recursos."
+        },
+        {
+          "type": "p",
+          "text": "«El más grande golpeó el tronco tres veces. Sus crías se ocultaron. Nosotros aún discutíamos si aquello era una amenaza». — Diario de un explorador de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-17",
+      "number": 17,
+      "name": "Yamabiko",
+      "subtitle": "",
+      "imgurId": "MYSlZYL",
+      "imgurPage": "https://imgur.com/MYSlZYL",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques de barranco, arboledas de ribera y paredes rocosas arboladas"
+        ],
+        [
+          "Dimensiones",
+          "35–55 cm sin contar la cola; orejas grandes y móviles"
+        ],
+        [
+          "Alimentación",
+          "Omnívoro: insectos, frutos, semillas y huevos"
+        ],
+        [
+          "Organización",
+          "Parejas y pequeños grupos familiares"
+        ],
+        [
+          "Longevidad",
+          "6–10 años"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; puede atraer a viajeros mediante imitaciones involuntarias"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La pequeña voz de los desfiladeros"
+        },
+        {
+          "type": "p",
+          "text": "En los pasos estrechos de la isla, la montaña devuelve voces que nadie recuerda haber pronunciado. Los Yugen llaman Yamabiko a una pequeña criatura de grandes orejas que habita las paredes boscosas y reproduce sonidos de su entorno con una fidelidad desconcertante. A veces imita el silbido de un arriero; otras, un grito de alarma o el llamado de un pájaro oculto. Sus capacidades no constituyen necesariamente magia: el animal parece poseer un aparato vocal extraordinariamente flexible y una memoria acústica desarrollada para sobrevivir en un territorio donde la vista queda bloqueada por piedra, niebla y vegetación."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Tiene cuerpo pequeño y musculoso, hocico fino, ojos redondos y una cola espesa que facilita el equilibrio en ramas inclinadas. Sus orejas, grandes y orientables, detectan reflexiones sonoras con notable precisión. La garganta alberga bolsas de resonancia que amplifican ciertos tonos y permiten repetir secuencias breves. El pelaje varía entre pardo rojizo y gris, con manchas claras en la garganta y el pecho. Al caminar se desplaza con saltos cortos, aferrándose a grietas mediante uñas curvas. Su silueta puede confundirse con la de una comadreja o un pequeño zorro visto desde lejos."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Vive en bosques donde existen rocas expuestas, huecos de árbol y cursos de agua cercanos. Los desfiladeros le ofrecen una ventaja acústica: una llamada puede viajar lejos, rebotar en paredes y comunicar a individuos separados sin que deban mostrarse. Prefiere refugios sobre la altura del suelo, lejos de serpientes y grandes mamíferos. Su presencia se reconoce por series de silbidos repetidos con pequeñas variaciones y por restos de semillas acumulados en cavidades. En zonas muy transitadas aprende nuevos sonidos y cambia su repertorio con rapidez."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Busca insectos, larvas, arañas pequeñas, huevos de aves y frutos de estación. Al dispersar semillas y consumir insectos contribuye a mantener la diversidad de pequeños bosques ribereños. Su actividad se intensifica al alba, cuando la humedad facilita el transporte del sonido y los predadores visuales aún tienen poca luz. No suele competir con los grandes carnívoros y evita enfrentamientos, utilizando gritos de alarma para convocar a sus compañeros o confundir a perseguidores."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Los Yamabiko viven en parejas estables o pequeños grupos familiares. Copian sonidos de otras especies y de personas, pero su imitación no demuestra comprensión del significado. Un ejemplar puede repetir durante días la voz de un soldado que oyó una sola tarde, sin saber que los viajeros interpretarán aquello como una solicitud de auxilio. Los individuos muestran curiosidad por campamentos tranquilos, en especial cuando los humanos producen silbidos, flautas o campanillas. Un grupo asustado puede crear una confusión acústica notable en una garganta."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las crías nacen en huecos acolchados con hojas y fibras vegetales. Ambos adultos colaboran en la alimentación, y los jóvenes aprenden sus primeras llamadas por imitación de los mayores. La calidad del repertorio aumenta con la edad, por lo que algunos viajeros atribuyen a los individuos viejos una inteligencia sobrenatural. Las parejas suelen producir pocas crías y abandonan territorios excesivamente ruidosos. La desaparición de árboles huecos afecta directamente su reproducción."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los monasterios silenciosos del archipiélago consideran al Yamabiko una advertencia acerca de la ligereza de la palabra. «No toda voz exige respuesta», enseñan algunos maestros del Kushidō. Los guardabosques, por su parte, saben que un grito aislado en un desfiladero no justifica lanzarse a una carrera por terreno peligroso: primero se observa, se escucha la repetición y se buscan huellas. La especie puede convivir cerca de aldeas, pero no es recomendable capturarla como juguete, porque su estrés desencadena una imitación incesante de alarmas."
+        },
+        {
+          "type": "p",
+          "text": "«Mi hermano me llamó desde el otro lado del risco. Estaba a mi lado. Entonces comprendí que la voz también puede tener patas». — Relato de un mensajero de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-18",
+      "number": 18,
+      "name": "Kudan",
+      "subtitle": "",
+      "imgurId": "7MeRCtM",
+      "imgurPage": "https://imgur.com/7MeRCtM",
+      "facts": [
+        [
+          "Territorio",
+          "Praderas fértiles, llanuras de piedemonte y pastos altos de Hanamori"
+        ],
+        [
+          "Dimensiones",
+          "1,4–1,7 m a la cruz; hasta 700 kg en grandes ejemplares"
+        ],
+        [
+          "Alimentación",
+          "Herbívoro: gramíneas, juncos y plantas ribereñas"
+        ],
+        [
+          "Organización",
+          "Rebaños de 6–18 individuos"
+        ],
+        [
+          "Longevidad",
+          "15–22 años"
+        ],
+        [
+          "Peligrosidad",
+          "Media; alta durante el celo o si se amenaza a una cría"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El bovino de la mirada severa"
+        },
+        {
+          "type": "p",
+          "text": "Pocas criaturas han sido tan cargadas de significado por los Yugen como el Kudan. Se trata de un bovino de cuerpo robusto y rostro inusualmente expresivo, cuyos ojos grandes, frente ancha y pliegues faciales recuerdan vagamente los gestos de una persona. Algunos campesinos afirman que anuncia terremotos, cambios dinásticos o cosechas futuras; otros sostienen que nace una vez cada varias generaciones para pronunciar un único mensaje. Los exploradores que han observado rebaños completos, sin embargo, describen una especie real de pastizal, de comportamiento gregario y vida perfectamente compatible con los valles fértiles de la isla."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "El Kudan posee tronco ancho, pecho profundo, cuello musculoso y cuernos cortos pero densos. Su cabeza presenta frente prominente y ojos orientados de manera algo más frontal que en otros bovinos. Esta disposición, junto con un hocico flexible y marcas claras alrededor de las órbitas, produce la impresión de una mirada reflexiva. El pelaje puede ser pardo oscuro, ceniciento o casi negro, con mayor densidad en las estaciones frías. Las pezuñas anchas toleran suelos húmedos; una papada pronunciada ayuda a disipar calor en temporadas particularmente calurosas."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Habita praderas y piedemontes irrigados por ríos de montaña. Prefiere mosaicos de pastos, juncales y arbolado disperso, donde los rebaños alternan horas de alimentación con descanso en sombra. La expansión de arrozales ha fragmentado muchos corredores de desplazamiento, haciendo que los animales se aproximen a acequias y cultivos. Es frecuente que crucen canales poco profundos para alcanzar pastos nuevos, dejando huellas grandes y redondeadas que los campesinos reconocen fácilmente."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Su dieta se compone de gramíneas, brotes de ribera y plantas palustres. Los rebaños pastan de forma ordenada, desplazándose lentamente y dejando áreas de vegetación corta que aprovechan aves y pequeños mamíferos. La presencia del Kudan contribuye al reciclaje de nutrientes y a impedir la proliferación de arbustos en ciertos valles abiertos. Cuando el alimento escasea, puede consumir cosechas y dañar márgenes de canal, motivo por el cual los campesinos alternan respeto religioso con medidas prácticas de exclusión."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "La especie es gregaria, con rebaños dirigidos por hembras experimentadas. Los machos adultos se muestran competitivos durante el celo y pueden embestir con gran fuerza si sienten amenazada su posición. Fuera de ese periodo suelen evitar conflictos y se limitan a vigilar mediante posturas corporales y vocalizaciones bajas. Su percepción del entorno parece fina: los cambios de presión atmosférica y vibración del suelo pueden alterarlos antes de temporales, fenómeno que ha dado base a relatos proféticos. Una reacción preventiva no implica que comprendan el futuro, pero puede resultar útil a quien observe sin superstición."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras paren una sola cría después de una gestación larga. Los terneros se incorporan rápidamente al desplazamiento del rebaño, aunque permanecen protegidos por varias adultas durante meses. Los jóvenes machos abandonan el grupo al madurar y forman asociaciones temporales. El Kudan no se reproduce con rapidez, de modo que la caza indiscriminada puede vaciar un valle durante generaciones. Algunas casas Yugen mantienen rebaños semidomesticados destinados a labores de fuerza y a ceremonias agrícolas, aunque la especie conserva un temperamento difícil."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los templos de Hanamori registran nacimientos de Kudan con especial cuidado, y ciertos señores intentan asociar su aparición a la legitimidad de sus gobiernos. Los campesinos suelen mostrar menos solemnidad: saben que un bovino puede anunciar lluvia por su inquietud y, al día siguiente, destruir una empalizada de cultivo. En algunos poemas, el Kudan aparece como símbolo de una verdad que nadie quiere escuchar, metáfora apropiada para una cultura fundada en la aprobación social. Su carne y cuero son apreciados, pero la caza de ejemplares vinculados a santuarios provoca conflictos religiosos."
+        },
+        {
+          "type": "p",
+          "text": "«No habló. Nos observó con aquellos ojos mientras la tierra temblaba. Quizá fuimos nosotros quienes necesitábamos creer que había anunciado algo». — Cronista de las terrazas de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-19",
+      "number": 19,
+      "name": "Jubokko",
+      "subtitle": "",
+      "imgurId": "pEygJrF",
+      "imgurPage": "https://imgur.com/pEygJrF",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques antiguos, terrenos húmedos y antiguos campos de batalla"
+        ],
+        [
+          "Dimensiones",
+          "Entre 12 y 25 m de altura; troncos de varios metros de diámetro"
+        ],
+        [
+          "Alimentación",
+          "Fotosintético con suplementación de nutrientes animales"
+        ],
+        [
+          "Organización",
+          "Individuos fijos, sin organización social reconocible"
+        ],
+        [
+          "Longevidad",
+          "Varios siglos"
+        ],
+        [
+          "Peligrosidad",
+          "Alta cerca de raíces activas y ramas bajas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El árbol que aprende el sabor de la sangre"
+        },
+        {
+          "type": "p",
+          "text": "En algunos bosques, los árboles parecen recordar lo que sucedió bajo sus copas. Los Jubokko son vegetales de gran tamaño y anatomía peculiar, capaces de obtener parte de sus nutrientes mediante secreciones y estructuras de captura sobre ramas y raíces. Los relatos populares sostienen que nacen únicamente donde cayó demasiada sangre, especialmente en antiguos campos de batalla. La observación no permite confirmar semejante origen, pero sí reconoce que prosperan en suelos ricos en materia orgánica y donde animales se reúnen a beber, descansar o buscar sombra."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "El Jubokko se asemeja a un árbol de tronco retorcido, corteza oscura y ramificación irregular. Algunas raíces superficiales se extienden como cables vivos y poseen superficies pegajosas. Ciertas ramas jóvenes desarrollan espinas curvas y canales capaces de liberar sustancias digestivas sobre materia orgánica atrapada. Las heridas de la corteza exudan savia rojiza, responsable de su asociación con la sangre. En ausencia de viento, los movimientos lentísimos de sus ramas resultan casi imperceptibles, lo que hace difícil distinguir un ejemplar activo de un árbol ordinario desde una distancia segura."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere suelos húmedos y fértiles, especialmente claros donde la vegetación vecina no le prive de luz. Puede establecerse en bosques viejos de Hanamori o Iwagiri, junto a caminos abandonados y zonas de descanso animal. Sus raíces llegan a manantiales someros y pueden alterar pequeños cursos de agua. La especie necesita décadas para alcanzar tamaño peligroso, y el crecimiento resulta más rápido cuando obtiene suplementos orgánicos frecuentes. Los Jubokko jóvenes son casi indistinguibles de árboles no depredadores, circunstancia que complica el reconocimiento de futuros riesgos."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Como cualquier vegetal de su tipo, obtiene la mayor parte de su energía de la luz y de nutrientes del suelo. Sin embargo, atrae a insectos y pequeños vertebrados mediante secreciones aromáticas y superficies húmedas; posteriormente retiene restos orgánicos entre raíces y ramas, donde enzimas y microorganismos liberan minerales aprovechables. Los individuos grandes pueden sujetar presas mayores, aunque no disponen de movimientos rápidos. Su supuesto apetito por la sangre es, en realidad, una especialización nutricional que aprovecha la abundancia animal de ciertas zonas. Un animal herido y quieto bajo sus ramas corre más peligro que uno sano que atraviesa el lugar corriendo."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "No posee conciencia comparable a la de un animal, pero responde a estímulos de presión, humedad y compuestos químicos. Las raíces tensan determinadas zonas cuando algo permanece inmóvil demasiado tiempo; las ramas se orientan con lentitud hacia áreas donde se acumulan presas pequeñas. Estas respuestas han sido interpretadas como inteligencia y rencor. En realidad, son mecanismos vegetales muy especializados. Su peligrosidad surge de la lentitud engañosa: una persona que duerma bajo un Jubokko puede despertar con las extremidades sujetas por estructuras que durante horas parecían inertes."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Se reproduce mediante semillas transportadas por agua y animales, además de brotes de raíz que generan individuos próximos. La maduración tarda varias décadas y las grandes masas forestales pueden albergar linajes de Jubokko cuya antigüedad supera la historia de asentamientos cercanos. Las plántulas requieren luz abundante y suelo mineralizado, por lo que las talas recientes y los terrenos devastados por guerra pueden favorecer su establecimiento. Esto quizá explica la asociación popular entre sangre derramada y nacimiento del árbol sin exigir un origen verdaderamente sobrenatural."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "La presencia de Jubokko plantea a los clanes un dilema práctico. Talarlos elimina un peligro inmediato, pero los árboles adultos también sostienen humedad, suelo y fauna en terrenos erosionados. Algunas aldeas marcan su perímetro con piedras o cuerdas y prohíben instalar campamentos bajo sus copas. Los templos recuerdan que un lugar de muerte puede volverse fértil sin volverse bondadoso. Para el Kushidō, el Jubokko representa la consecuencia que crece después de una batalla, cuando los guerreros ya han abandonado el campo y quedan los cuerpos, el barro y el silencio."
+        },
+        {
+          "type": "p",
+          "text": "«Volvimos diez primaveras después. Sobre el lugar de la matanza había nacido un árbol rojo. No me atreví a preguntar de qué se había alimentado». — Memorias de un soldado retirado."
+        }
+      ]
+    },
+    {
+      "id": "yugen-20",
+      "number": 20,
+      "name": "Kodama",
+      "subtitle": "",
+      "imgurId": "TR1SAi8",
+      "imgurPage": "https://imgur.com/TR1SAi8",
+      "facts": [
+        [
+          "Territorio",
+          "Bosques centenarios, troncos huecos y copas húmedas"
+        ],
+        [
+          "Dimensiones",
+          "25–40 cm de largo; cuerpo liviano y extremidades prensiles"
+        ],
+        [
+          "Alimentación",
+          "Insectos, hongos, savia, líquenes y frutos pequeños"
+        ],
+        [
+          "Organización",
+          "Colonias discretas de 4–15 individuos"
+        ],
+        [
+          "Longevidad",
+          "5–9 años"
+        ],
+        [
+          "Peligrosidad",
+          "Muy baja; sensible a la destrucción del hábitat"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El pequeño guardián de los árboles viejos"
+        },
+        {
+          "type": "p",
+          "text": "Los Kodama son probablemente las criaturas más discretas de todo el archipiélago. En los bosques antiguos, donde la humedad cubre los troncos de musgo y la luz apenas atraviesa las copas, pequeñas formas se desplazan entre nudos de madera como si fueran parte del árbol. Los habitantes Yugen llaman Kodama a estos animales arborícolas de piel o pelaje moteado, habitualmente confundidos con espíritus de los bosques. Su presencia suele descubrirse al amanecer, cuando abandonan huecos profundos para buscar insectos y pequeñas fuentes de alimento sobre cortezas mojadas."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su anatomía es ligera: torso estrecho, cabeza redondeada, ojos grandes y extremidades adaptadas a aferrarse a superficies irregulares. El pelaje corto acumula con facilidad humedad, polen y partículas vegetales; ciertos individuos presentan asociaciones estables con líquenes microscópicos, lo que contribuye al camuflaje. Los dedos terminan en pequeñas almohadillas y uñas curvas. La cola, según la variedad local, puede ser corta y gruesa o delgada y prensil. Cuando permanece inmóvil junto a un nudo del tronco, distinguirlo del propio árbol exige paciencia y una distancia reducida."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Necesita bosques viejos con árboles huecos, ramas conectadas y abundante material en descomposición. Las plantaciones jóvenes no ofrecen suficientes refugios ni alimento diverso. Sus colonias ocupan circuitos de varios árboles y evitan descender al suelo, donde quedan expuestas a serpientes, pequeños félidos y otros depredadores. Durante lluvias intensas se agrupan en cavidades secas, manteniendo contacto mediante sonidos muy tenues que pueden confundirse con gotas sobre madera. Los bosques donde abundan Kodama suelen conservar una compleja comunidad de insectos, hongos y pequeños vertebrados."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Consume larvas, insectos, hongos blandos, savia exudada y frutos de escaso tamaño. En ocasiones limpia líquenes de ramas viejas o captura pequeños invertebrados ocultos bajo cortezas sueltas. Su papel ecológico es doble: contribuye a controlar insectos perforadores y dispersa esporas fúngicas entre árboles cercanos. A diferencia de los grandes depredadores, su impacto sobre el territorio es sutil, pero una colonia estable indica continuidad ecológica. La desaparición del Kodama suele preceder a la de otras especies forestales más llamativas."
+        },
+        {
+          "type": "h",
+          "text": "Conducta, territorialidad y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "Los Kodama son sociales dentro de grupos reducidos y extraordinariamente prudentes frente a animales grandes. Emplean llamadas de baja intensidad, movimientos de cola y golpecitos sobre la madera para comunicarse. Cuando detectan una amenaza se inmovilizan antes de huir, estrategia que funciona bien ante depredadores que dependen del movimiento. Algunos observadores atribuyen significado ritual a sus golpecitos; lo más probable es que sean señales de alarma o contacto entre individuos. Pueden acostumbrarse a la presencia humana silenciosa, pero abandonan un árbol cuando se les persigue o manipula repetidamente."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción ocurre durante la temporada de abundancia de insectos. Una pareja o pequeño grupo familiar prepara un nido de fibras vegetales en un tronco hueco y cuida una camada reducida. Los jóvenes aprenden rutas arbóreas y refugios durante meses antes de dispersarse. Su vida es corta en comparación con la edad de los árboles que habitan, circunstancia que ha inspirado la creencia de que el mismo Kodama pasa de un cuerpo a otro a través de generaciones. Lo que permanece, en realidad, es la colonia y el bosque que la sostiene."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los santuarios más antiguos de Yugen protegen árboles conocidos por albergar Kodama, aunque los sacerdotes no siempre distingan el animal de las historias que lo rodean. En ciertos pueblos se enseña a los niños a hablar bajo dentro del bosque para no perturbar a sus habitantes. Los carpinteros y agricultores, menos supersticiosos, reconocen que un bosque con Kodama suele tener suelo húmedo, menos plagas y madera vieja que debe conservarse. Su fragilidad contrasta con los ideales guerreros del Kushidō: hay ocasiones en que defender un reino significa proteger algo demasiado pequeño para empuñar una espada."
+        },
+        {
+          "type": "p",
+          "text": "«No lo vi hasta que decidió moverse. Durante un instante creí que el árbol respiraba; después advertí dos ojos diminutos mirándome desde el musgo». — Nota de un cuidador de santuario."
+        },
+        {
+          "type": "h",
+          "text": "Apéndice · El bosque como sistema vivo"
+        },
+        {
+          "type": "p",
+          "text": "No puede diseñarse un bestiario creíble sin relaciones entre sus habitantes. El Kudan consume grandes extensiones de pasto y mantiene áreas abiertas que benefician a pequeños mamíferos, aves y artrópodos; esos animales, a su vez, sostienen a los depredadores de mayor talla. El Kirin selecciona brotes y hojas de regiones menos perturbadas, de modo que su ausencia puede indicar deterioro del paisaje antes de que el daño sea visible para una comunidad asentada en el valle."
+        },
+        {
+          "type": "p",
+          "text": "Las arañas Tsuchigumo y Jorōgumo ocupan nichos distintos. La primera se oculta bajo la tierra y selecciona corredores terrestres de presas; la segunda aprovecha la arquitectura del bosque y las rutas aéreas entre árboles. Sus territorios pueden superponerse sin que ambas compitan directamente por los mismos alimentos. El Ōmukade, en cambio, actúa como depredador móvil que atraviesa laderas, galerías y raíces y puede consumir ejemplares juveniles de ambas arañas."
+        },
+        {
+          "type": "p",
+          "text": "El Yamawaro y el Yamabiko muestran que el sonido es una herramienta ecológica. El primero utiliza llamadas y golpes para mantener unido al grupo; el segundo imita y amplifica sonidos en desfiladeros donde la vista resulta inútil. El Kodama ocupa una escala aún menor y ayuda a explicar por qué los bosques antiguos sostienen criaturas que desaparecen cuando el terreno se convierte en plantación homogénea. Su pérdida puede pasar inadvertida hasta que cambian las poblaciones de hongos e insectos."
+        },
+        {
+          "type": "p",
+          "text": "El Jubokko introduce una relación más inquietante entre guerra y naturaleza. Tras grandes incendios, matanzas o abandono de asentamientos, la acumulación de materia orgánica puede favorecer especies vegetales oportunistas. Que un Jubokko se instale sobre un antiguo campo de batalla no demuestra que haya nacido de la sangre derramada, aunque la asociación resulte poderosa para una cultura habituada a honrar a los muertos y a desconfiar de las consecuencias de la violencia."
+        },
+        {
+          "type": "p",
+          "text": "La interpretación oficial de cada especie queda abierta a ajustes de escala, rareza y peligrosidad. Sin embargo, deberían conservarse tres principios: que toda criatura necesite un hábitat, que sus capacidades tengan límites y que su relación con los pueblos Yugen produzca consecuencias tangibles sobre caminos, cosechas, templos y estrategias militares."
+        },
+        {
+          "type": "h",
+          "text": "Nota editorial"
+        },
+        {          "type": "p",
+          "text": "Este tomo se presenta como propuesta de desarrollo para Aeternalis. Los nombres de Iwagiri, Hanamori y Shiranui, los rangos de medidas y los comportamientos especializados corresponden al rework en curso y deberán aprobarse antes de incorporarse al canon definitivo. Las láminas son ilustraciones conceptuales de referencia; las fichas escritas prevalecen en caso de diferencia de detalle anatómico."
+        }
+      ]
+    }
+  ]
+}

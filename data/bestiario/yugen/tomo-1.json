@@ -1,0 +1,960 @@
+{
+  "region": "yugen",
+  "volume": 1,
+  "title": "Yūgen",
+  "source": "Bestiario_Yugen_Tomo_V(1).docx",
+  "preface": [
+    "Primer registro de diez criaturas terrestres y de montaña del mar de Ithar’iamil, elaborado como propuesta de historia natural para Aeternalis.",
+    "«El guerrero conoce el camino de su espada. El naturalista aprende primero a reconocer el camino de aquello que aún no ha desenvainado nada».",
+    "Propuesta editorial — Las medidas, distribuciones, ciclos vitales y observaciones siguientes son desarrollos originales para el bestiario. Los nombres se inspiran libremente en relatos japoneses; no se presentan como descripciones científicas del mundo real. La adaptación debe armonizarse con las reglas de maná y la continuidad definitiva de Aeternalis.",
+    "En el centro del mar de Ithar’iamil se extiende una isla demasiado habitada para la extensión de sus campos. Las montañas del dominio Iwagiri se elevan sobre costas difíciles, los valles Hanamori contienen arrozales, caminos de riego y bosques de cerezos, y las tierras peninsulares de Shiranui se fragmentan en bahías, estuarios e islotes batidos por los temporales. El clima alterna estaciones de lluvias intensas con periodos cálidos, y la abundancia de agua dulce permite que muchas especies prosperen muy cerca de las aldeas.",
+    "Este paisaje no alberga monstruos aislados en un vacío. Cada criatura consume, caza, descompone o desplaza a otra. Los kitsune protegen rutas y disputan presas a otros cánidos; los tanuki y tsuchinoko limitan a los roedores que amenazan graneros; los grandes baku dispersan semillas y destruyen bancales por simple necesidad de alimento; el nue, mucho menos abundante, revela hasta qué punto una isla pequeña puede sostener un depredador extraordinario cuando todavía conserva montes cerrados.",
+    "Para un pueblo que ha construido su historia alrededor del Kushidō, la observación de estas criaturas se mezcla con el deber y la superstición. Hay monturas asociadas al prestigio de casas guerreras, animales protegidos por santuarios y presencias que los campesinos culpan de enfermedades o derrotas que nada tienen que ver con ellas. Los tres clanes se enfrentan por tierra y tributos, pero comparten el mismo clima, las mismas crecidas de los ríos y la necesidad de comprender a las bestias que atraviesan sus fronteras."
+  ],
+  "creatures": [
+    {
+      "id": "yugen-01",
+      "number": 1,
+      "name": "Kitsune de Silla",
+      "subtitle": "",
+      "imgurId": "HNrBYyR",
+      "imgurPage": "https://imgur.com/HNrBYyR",
+      "facts": [
+        [
+          "Clasificación",
+          "Mamífero omnívoro · cánido de gran porte · domesticable"
+        ],
+        [
+          "Distribución",
+          "Valles cultivados, bosques de ribera y corredores de piedemonte; especialmente Hanamori"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Altura a la cruz de 1,15–1,40 m; 180–300 kg; vida de 18–25 años en crianza protegida"
+        ],
+        [
+          "Organización social",
+          "Parejas reproductoras y grupos familiares de 3–7; en establos, vínculos selectivos con su cuidador"
+        ],
+        [
+          "Peligrosidad",
+          "Moderada en estado salvaje; alta si se amenaza una camada o se fuerza a un ejemplar herido"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El zorro de las caballerías y los senderos del valle"
+        },
+        {
+          "type": "p",
+          "text": "Entre los campos inundados de los valles y las veredas flanqueadas por cerezos, la presencia de un kitsune de silla es tan reconocible como el tintineo de las campanas de un santuario. Su silueta conserva la elegancia del zorro, aunque con proporciones que ningún viajero extranjero esperaría: hombros altos, caja torácica profunda, patas de hueso robusto y una cola abundante que se balancea para corregir el equilibrio en caminos embarrados. Los Yugen no lo consideran un simple medio de transporte. Un animal capaz de elegir el suelo seguro antes que su propio jinete merece una forma distinta de respeto."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su pelaje cambia entre rojo cobrizo, gris ceniza y pardo oscuro, con un vientre más claro y una doble capa que repele las lluvias estacionales. Las orejas, grandes y móviles, detectan el ruido del agua bajo los tablones y el crujido de una rama a gran distancia. La espalda es relativamente corta y musculosa; la selección de crianza ha privilegiado ejemplares capaces de cargar a una persona sin perder la agilidad necesaria para saltar zanjas o sortear raíces. No todos pueden soportar armaduras pesadas: un animal mal ensillado termina con lesiones graves de columna y se vuelve irritable. Sus garras son semiromas, buenas para afirmarse en piedra húmeda pero poco aptas para el galope prolongado sobre caminos pavimentados. La cola, lejos de ser adorno, actúa como contrapeso durante giros repentinos."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "En estado salvaje ocupa mosaicos de bosque, laderas templadas y riberas con refugios abundantes. Evita las llanuras abiertas en las horas más calurosas y prefiere atravesarlas al amanecer. En Hanamori sus madrigueras suelen encontrarse cerca de antiguos bancales abandonados; en Iwagiri aprovecha cornisas boscosas y canales de desagüe. Las poblaciones ferales alrededor de Shiranui son escasas, pues la salinidad, la presión humana y el reducido espacio de las islas pequeñas no favorecen a un cánido de estas dimensiones. Las líneas domesticadas, criadas durante generaciones por casas guerreras y familias de transportistas, soportan mejor la presencia humana, pero siguen necesitando largos recorridos y superficies donde cavar."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Es omnívoro, aunque requiere una proporción importante de proteína animal. En libertad captura roedores, aves de suelo, pequeños reptiles y crías de ungulados, complementando con frutos, raíces dulces y peces varados. Los animales de silla reciben pescado hervido, recortes de carne, huevos, tubérculos y raciones vegetales; alimentarlos sólo con cereal, por barato que resulte, provoca debilidad y una alteración visible del pelaje. En las granjas cumple una función inesperada: reduce plagas de roedores en graneros y acequias. La escasez de carne tras una guerra vuelve costosa su manutención y explica por qué la cría nunca ha podido extenderse a todas las familias."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "La inteligencia del kitsune es social y práctica, no humana. Reconoce voces, rutas y señales de tensión en su cuidador; puede negarse a cruzar un puente dañado y reaccionar con hostilidad ante una persona que previamente lo haya golpeado. Las familias salvajes cazan cooperativamente presas pequeñas, pero no mantienen manadas tan compactas como los huargos de Bergheim. Durante la marcha se orienta mediante olfato, oído y memoria del terreno; a menudo detecta desprendimientos o crecidas antes que un explorador. Los ejemplares jóvenes pueden mostrarse excesivamente curiosos y mordisquean cuero, correas o madera. El apego no equivale a obediencia incondicional: tratar de dominarlo por dolor genera animales peligrosos."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras suelen parir dos o tres crías tras una gestación prolongada para un cánido, y la pareja mantiene una participación notable en la defensa de la madriguera. Las crías nacen torpes, con extremidades desproporcionadas, y tardan años en alcanzar capacidad de carga. El primer entrenamiento debe consistir en habituación al arnés y a los sonidos de ciudad, no en monta. Los cuidadores prudentes retrasan cualquier carga considerable hasta que los huesos han madurado. La longevidad supera la de los zorros pequeños, pero los individuos sometidos a campañas militares continuas envejecen prematuramente por desgaste articular."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los tres clanes desean buenos animales de silla, aunque los emplean de manera distinta: Hanamori para mensajeros y supervisión de canales, Iwagiri para patrullas de montaña y Shiranui para recorrer la península entre puertos. La crianza es una fuente de orgullo y rivalidad; ciertas casas prohíben vender sus mejores reproductores a un clan enemigo. Los templos toleran su presencia en patios exteriores durante ceremonias funerarias, pues algunas tradiciones dicen que los kitsune recuerdan el camino a casa incluso cuando su jinete no regresa. La amenaza real para las personas suele nacer del trato negligente, no de una voluntad predatoria. Un animal herido o arrinconado puede romper huesos con una mordida y derribar a un hombre armado."
+        },
+        {
+          "type": "p",
+          "text": "«Si aparta las orejas y se niega a pisar una tabla, escuchadlo. Nadie necesita ser más orgulloso que la criatura que conoce el camino». — Nota de un maestro de posta de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-02",
+      "number": 2,
+      "name": "Kitsune de Nueve Colas",
+      "subtitle": "",
+      "imgurId": "sdfpnXr",
+      "imgurPage": "https://imgur.com/sdfpnXr",
+      "facts": [
+        [
+          "Clasificación",
+          "Bestia excepcional · cánido de maná · no domesticable"
+        ],
+        [
+          "Distribución",
+          "Bosques antiguos, laderas de montaña preservadas y bosquetes próximos a santuarios remotos"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Hasta 1,45 m a la cruz; gran masa caudal; longevidad posiblemente superior a 60 años"
+        ],
+        [
+          "Organización social",
+          "Solitario; parejas muy breves durante época reproductiva"
+        ],
+        [
+          "Peligrosidad",
+          "Alta si se acosa; encuentros extremadamente poco frecuentes"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El zorro antiguo de los santuarios olvidados"
+        },
+        {
+          "type": "p",
+          "text": "Los Yugen sostienen que ciertos bosques sólo envejecen porque un zorro de nueve colas permite que el tiempo pase entre sus árboles. El viajero que tropieza con uno no ve una montura de gran tamaño, sino un animal cubierto de pelaje claro y rodeado de una corona de colas tan ancha que transforma su contorno. Una aparición semejante puede cambiar la suerte de una aldea: los guardias cierran senderos, los monjes registran el lugar y los cazadores veteranos discuten si aquello que han visto pertenece a la naturaleza o a una vieja historia."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Las nueve colas son estructuras anatómicas reales de su extraordinaria línea de crianza natural, no simples ilusiones: nacen en una región caudal de soporte ensanchado, irrigada por una red compleja de músculos y nervios. La estructura exige enorme inversión metabólica y reduce su velocidad en terreno estrecho. El resto del cuerpo es más fino que el del kitsune de silla, con hocico alargado, pupilas sensibles a la penumbra y pelo de tonalidad marfil, humo o rojo desvaído. En ejemplares ancianos se observan mechones casi plateados. Su presencia puede coincidir con anomalías menores de maná, aunque la especie no ejecuta Kuro: esa bendición pertenece a los Yugen, no a los animales."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere bosques con arbolado centenario, abundantes cuevas superficiales, agua permanente y escasa presencia humana. Las laderas húmedas de Iwagiri ofrecen refugios más seguros que los valles sobrepoblados, pero algunos ejemplares cruzan hacia Hanamori cuando florecen frutales y aumenta la fauna menor. Se desplaza por corredores discretos donde puede desaparecer entre niebla y piedra. Sus zonas de descanso suelen mostrar tierra perfectamente removida, pelo claro en ramas bajas y una ausencia inusual de pequeños carroñeros. Los templos protegen ciertos bosquetes por motivos religiosos, creando involuntariamente las pocas reservas donde la especie puede sobrevivir."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Como otros cánidos, combina carne con frutos y raíces, pero su tamaño exige presas considerables: liebres, aves, roedores, pequeñas crías de ungulado y, ocasionalmente, animales domésticos extraviados. Se han descrito individuos que consumen peces durante migraciones de río. Los numerosos apéndices caudales requieren abundantes nutrientes para mantener un pelaje denso y regenerarlo tras la muda; por ello evita los inviernos de escasez extrema y se mueve siguiendo la productividad del bosque. No hay pruebas de que se alimente de almas, sueños o sacrificios. Tales relatos nacen del miedo que produce su rareza."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es cauteloso, inteligente y notablemente territorial con otros adultos. Evita ataques innecesarios; una criatura que ha sobrevivido décadas no arriesga su cuerpo por curiosidad. Puede permanecer observando una aldea desde un borde de bosque sin entrar jamás. Los testimonios sobre su capacidad para reconocer rostros después de años son difíciles de verificar, pero coherentes con su memoria espacial. Frente a un intruso, despliega las colas para aumentar visualmente su tamaño y emite llamadas graves. Si tiene salida, huye; si alguien descubre una madriguera, puede convertirse en un adversario peligroso. Los relatos de apariciones simultáneas son casi siempre errores de identificación entre colas y siluetas reflejadas por la niebla."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "No existen observaciones continuas de una camada completa. Se supone que las hembras paren muy pocas crías y que la maduración es lenta; la morfología de las colas podría desarrollarse progresivamente durante la juventud y no estar plenamente diferenciada al nacer. Los largos intervalos entre nacimientos y la mortalidad infantil explican su rareza mejor que cualquier maldición. Se presume una vida extensa, quizá de varias generaciones humanas, aunque las edades propuestas derivan más de registros familiares que de una medición fiable."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Para los templos Yugen es una criatura de contemplación, no de caza. Algunos santuarios señalan con cuerdas trenzadas los bosques donde han aparecido rastros; otros mantienen silencio para evitar que visitantes ambiciosos destruyan el refugio. Las casas de Iwagiri consideran honorable escoltar una expedición de observación y deshonroso matar al animal por su piel. En los valles, en cambio, una desaparición de ganado puede desencadenar persecuciones, incluso cuando no existe prueba de culpabilidad. La especie refleja una contradicción Yugen: se venera aquello que no se comprende y se teme lo que no puede someterse a las jerarquías del clan."
+        },
+        {
+          "type": "p",
+          "text": "«Nueve colas vi en la ladera. No saqué el arco. Por primera vez entendí que un cazador puede regresar con la aljaba llena y haber aprendido más que en una guerra». — Fragmento atribuido a un guardabosques de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-03",
+      "number": 3,
+      "name": "Tanuki de los Arrozales",
+      "subtitle": "",
+      "imgurId": "eRpsjRl",
+      "imgurPage": "https://imgur.com/eRpsjRl",
+      "facts": [
+        [
+          "Clasificación",
+          "Mamífero omnívoro · fauna frecuente · aprovechable para control de plagas"
+        ],
+        [
+          "Distribución",
+          "Valles irrigados, límites de aldeas, bosques secundarios y campos de cultivo de Hanamori"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Entre 55 y 85 cm sin cola; 7–16 kg; vida aproximada de 7–12 años"
+        ],
+        [
+          "Organización social",
+          "Parejas y grupos familiares, especialmente durante la crianza"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; mordidas defensivas y riesgo de enfermedades si se manipula"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El vecino descarado de acequias y graneros"
+        },
+        {
+          "type": "p",
+          "text": "Entre las criaturas de las islas Yugen, ninguna conoce tan bien las debilidades del hombre como el tanuki. No porque sea más astuto que un gran depredador, sino porque vive a una distancia de unos pocos pasos de los campos, las cocinas y los depósitos de grano. Al caer la tarde aparece junto a las acequias con su cuerpo rechoncho, patas oscuras y máscara facial, inspeccionando el barro con la minuciosidad de un pequeño ladrón. Los campesinos lo maldicen cuando desaparecen huevos y lo celebran cuando los ratones dejan de invadir los sacos."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo combina la silueta de un pequeño cánido con el aspecto redondeado de un animal excavador. Posee hocico fuerte, dientes adaptados a dieta diversa, pelaje pardo con una máscara oscura y una cola corta en comparación con los kitsune. Sus patas, relativamente pequeñas, le permiten atravesar vegetación muy densa y caminar por los bordes de las terrazas agrícolas. En la estación lluviosa el pelo forma una capa protectora que se oscurece con el barro, y el animal puede pasar inadvertido junto a un muro de piedra. Sus manos anteriores no son manos humanas, aunque su habilidad para manipular ciertos objetos ligeros ha originado incontables cuentos."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "El tanuki es especialmente común donde el bosque se mezcla con el trabajo agrícola. Prefiere setos, bosques de ribera, canales, montones de piedra y pequeñas franjas de tierra que nadie cultiva. En Hanamori puede compartir paisaje con centenares de familias humanas sin mostrar demasiada inquietud, siempre que disponga de corredores por los que retirarse. En las islas exteriores de Shiranui aparece de forma más irregular y se alimenta de los desperdicios de pesquerías. En la montaña alta se vuelve escaso: los inviernos duros y la falta de refugios reducen notablemente su supervivencia."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Come casi cualquier cosa de tamaño manejable: insectos, larvas, ranas, caracoles, huevos, pequeños roedores, frutos caídos, granos dispersos y restos orgánicos. Su papel ecológico es ambivalente. Ayuda a controlar ratas y plagas que prosperan en la abundancia de grano, pero también roba huevos de aves domésticas y puede desgarrar pequeños sacos de arroz. No suele matar animales de granja adultos. Durante la época de cosecha aumenta de peso con rapidez, una reserva que le permite atravesar temporadas menos productivas. Muchos niños aprenden a distinguir sus huellas de las de un perro antes de saber leer."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es principalmente crepuscular y nocturno, aunque la tranquilidad del invierno puede hacerlo visible de día. No mantiene grandes manadas; la pareja reproductora y las crías recientes ocupan un territorio que defienden mediante olor y vocalizaciones. Ante personas, su primera reacción suele ser la huida y sólo muerde si se le acorrala. La curiosidad le permite resolver pequeños problemas y reconocer puntos habituales de alimento. Ciertos ejemplares aprenden a esperar el cierre de mercados para acudir a los restos, comportamiento que los aldeanos interpretan como una burla deliberada a su vigilancia."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Las camadas aparecen habitualmente en la estación templada, cuando abundan insectos y recursos acuáticos. Una hembra puede criar varias crías y ambos progenitores colaboran en la vigilancia de madrigueras bajo árboles o muros. Los jóvenes se dispersan al madurar, causa frecuente de encuentros con perros y carretas. La vida en proximidad humana ofrece comida, pero incrementa atropellos, persecuciones y enfermedades. Los templos recomiendan no alimentar ejemplares salvajes de forma regular, aunque las familias suelen ignorar el consejo cuando creen reconocer al mismo individuo año tras año."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "En el folclore campesino el tanuki es un engañador, símbolo de la abundancia mal administrada y de la necesidad de reírse de la propia solemnidad. Las figuras talladas en puertas de posadas recuerdan esa tradición, pero los animales reales no poseen capacidad de transformarse en personas. La mayor tensión surge cuando un señor de la tierra ordena exterminarlos tras una mala cosecha y los agricultores protestan porque saben que, sin tanukis, las ratas volverán. La especie permite narrar la vida cotidiana Yugen sin convertir cada criatura del bestiario en una amenaza de muerte."
+        },
+        {
+          "type": "p",
+          "text": "«El tanuki robó tres huevos y devoró cuarenta ratones. El recaudador lo llamó ladrón; el molinero pidió que se quedara». — Dicho de los canales orientales de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-04",
+      "number": 4,
+      "name": "Kamaitachi",
+      "subtitle": "",
+      "imgurId": "hMXDypm",
+      "imgurPage": "https://imgur.com/hMXDypm",
+      "facts": [
+        [
+          "Clasificación",
+          "Mustélido depredador · fauna peligrosa de pequeño tamaño"
+        ],
+        [
+          "Distribución",
+          "Praderas de montaña, linderos de bosque, pasos ventosos y cultivos abandonados"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Cuerpo de 55–90 cm; cola de 20–35 cm; peso de 4–9 kg; vida de 8–13 años"
+        ],
+        [
+          "Organización social",
+          "Habitualmente solitario; juveniles o hermanos pueden cazar en grupos de 2–3"
+        ],
+        [
+          "Peligrosidad",
+          "Media por su velocidad, garras y ataques defensivos; no comparable con grandes depredadores"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La comadreja que corre con el vendaval"
+        },
+        {
+          "type": "p",
+          "text": "El viajero herido por un corte fino mientras atraviesa un collado ventoso rara vez culpa a una piedra. Los Yugen prefieren decir que un kamaitachi le ha pasado junto a la pierna. La leyenda lo pinta como una hoz invisible transportada por el viento, pero el animal verdadero es más extraño por su precisión que por cualquier hechizo: un mustélido musculoso, largo, de patas flexibles, capaz de lanzar su cuerpo entre tallos y rocas a una velocidad que confunde la mirada. Allí donde otros animales necesitan fuerza, el kamaitachi sobrevive por aceleración y oportunidad."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Presenta tronco elástico, cuello fuerte y una columna que se flexiona de forma pronunciada durante el salto. La forma de sus uñas, curvas y muy afiladas, permite sujetar y desgarrar presas en terrenos donde los dientes no pueden completar la captura. Su hocico bajo y sus bigotes largos le permiten orientarse entre hierbas densas. Las patas posteriores están adaptadas a aceleraciones violentas, pero no al recorrido continuo de largas distancias. Posee pelaje pardo con manchas claras que se vuelven más grises en invierno. Algunos ejemplares muestran bandas que parecen cuchilladas cuando el pelo se humedece."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Es más frecuente en las franjas de altitud intermedia, donde el bosque se abre en praderas y las corrientes de aire recorren los pasos. Aprovecha grietas, madrigueras abandonadas y raíces expuestas. No requiere grandes territorios, pero sí una alta densidad de roedores y aves pequeñas. Los valles agrícolas de Hanamori lo reciben con ambivalencia porque elimina ratones, aunque persigue polluelos. En Iwagiri los cazadores suelen identificar sus rutas por montículos con excrementos y pequeños huesos limpiados con extraordinaria pulcritud."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Preda ratones, topillos, pequeños conejos, anfibios y aves nidificantes. En ocasiones roba huevos y consume insectos grandes, pero necesita proteína animal de manera regular. Su técnica consiste en acechar cerca de un refugio, lanzarse en una carrera corta y cortar o morder antes de que la presa pueda reaccionar. No utiliza cuchillas de viento, ni genera por sí mismo magia Aer; la apariencia de un corte surgido de la nada proviene de su velocidad y de la escasa visibilidad en hierba alta. La superstición de la hoz tiene, por tanto, una raíz material."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Caza solo la mayor parte del año. Los grupos de dos o tres observados durante determinadas estaciones corresponden a hermanos jóvenes que aún no se han dispersado o a parejas temporales. No suele atacar a seres humanos sin provocación; prefiere huir. Sin embargo, un animal atrapado dentro de una manga, una cesta o un cobertizo puede producir heridas profundas al forcejear. Es nervioso, curioso y sumamente sensible al sonido. Al atardecer acostumbra recorrer senderos elevados que le ofrecen buena visión del terreno."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción coincide con periodos de abundancia de pequeños mamíferos. Las hembras acondicionan madrigueras con hierba seca y pelo, y defienden ferozmente a las crías. Los juveniles aprenden a cazar mediante persecuciones cortas, a menudo ineficientes, durante las cuales pueden acercarse a granjas. Su longevidad es relativamente corta frente a los grandes depredadores del archipiélago. Las poblaciones fluctúan con las cosechas: un año de ratones abundantes favorece al kamaitachi; un invierno húmedo y pobre puede reducirlas con dureza."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los practicantes del Kushidō comparan a veces la técnica del kamaitachi con la espada bien trazada: un movimiento breve, decisivo y sin ruido innecesario. Los maestros más prudentes advierten, sin embargo, que imitar su agresividad sin comprender su prudencia es una forma de vanidad. Los agricultores lo toleran cuando disminuye las plagas, pero colocan cerramientos en gallineros. Sus pieles raramente justifican una cacería deliberada. Una ruta donde aparezcan varios animales hambrientos puede resultar molesta para viajeros menores, aunque su leyenda exagera ampliamente el peligro real."
+        },
+        {
+          "type": "p",
+          "text": "«Vi la hierba abrirse y luego sentí el arañazo. No era el viento. Era algo que sabía aprovecharlo mejor que nosotros». — Testimonio de un explorador de paso alto."
+        }
+      ]
+    },
+    {
+      "id": "yugen-05",
+      "number": 5,
+      "name": "Okuri-inu",
+      "subtitle": "",
+      "imgurId": "YxkFwpr",
+      "imgurPage": "https://imgur.com/YxkFwpr",
+      "facts": [
+        [
+          "Clasificación",
+          "Gran cánido depredador · amenaza de sendero · no domesticable"
+        ],
+        [
+          "Distribución",
+          "Bosques sombríos, caminos entre clanes y gargantas poco transitadas"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Altura a la cruz 85–110 cm; 65–105 kg; vida de 12–18 años"
+        ],
+        [
+          "Organización social",
+          "Parejas y pequeñas manadas familiares de 2–5, con largos periodos de rastreo individual"
+        ],
+        [
+          "Peligrosidad",
+          "Alta ante viajeros caídos o aislados; muy elevada al defender cachorros"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El perro que acompaña sin ser invitado"
+        },
+        {
+          "type": "p",
+          "text": "Los caminantes de la isla conocen un tipo de silencio que no anuncia paz, sino acompañamiento. Primero se percibe una rama que cruje detrás, después unas patas que no adelantan al viajero y finalmente una sombra oscura que mantiene siempre la misma distancia. Es el okuri-inu, un cánido montañés que ha convertido el seguimiento paciente de presas vulnerables en un modo de vida. A diferencia del huargo montaraz, no busca dominar un territorio mediante una manada numerosa; prefiere estudiar a quien cruza sus pasos y esperar el error."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "De cuerpo más estrecho y alto que un perro de guerra, el okuri-inu presenta pecho profundo, extremidades largas y una musculatura de resistencia. El pelaje es negro o pardo muy oscuro, salpicado de pelos grises que rompen su contorno bajo la lluvia. Tiene ojos adaptados a la penumbra y almohadillas silenciosas, capaces de caminar sobre hojarasca húmeda con ruido sorprendentemente reducido. Sus mandíbulas son robustas, pero su peligro principal es la capacidad de mantener presión constante sobre la presa. Una criatura que huye presa del pánico suele cansarse mucho antes que él."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere caminos encajonados, linderos de bosque, pasos sombreados y rutas comerciales secundarias donde los viajeros deben caminar despacio. En Iwagiri es más común cerca de los puertos montañosos; en Hanamori aparece en bosques de transición que separan aldeas y pequeños cultivos. Los islotes de Shiranui sostienen poblaciones muy pequeñas o ninguna, salvo cuando los animales han sido transportados involuntariamente. Sus territorios pueden solaparse con los de grandes kitsune y nekomata, lo que produce disputas silenciosas en horas nocturnas."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Depreda pequeños y medianos mamíferos, crías de ungulado, aves terrestres, animales domésticos perdidos y carroña. Puede perseguir durante largo tiempo a una presa herida antes de arriesgar una lucha. Cuando caza en pareja, uno de los animales hostiga y el otro busca la salida probable. Los ataques contra viajeros son infrecuentes cuando éstos avanzan en grupo, pero la especie ha aprendido a reconocer tropiezos, agotamiento y lesiones. Esto alimenta la superstición según la cual el okuri-inu sólo muerde a quien cae."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "La especie es reservada, metódica y curiosamente disciplinada. Un individuo puede seguir una caravana durante horas sin lanzarse al ataque, recogiendo restos de comida y evaluando la reacción de perros o guardianes. Los aullidos son bajos y escasos, mientras que la comunicación entre miembros de un grupo depende de olores, gestos y sonidos casi imperceptibles. Frente a una escolta armada suele retirarse; contra un solo caminante exhausto puede mantener una vigilancia que se vuelve psicológicamente devastadora. No debe confundirse este comportamiento con una intención sobrenatural de castigo."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Las parejas ocupan madrigueras profundas, a menudo en pendientes secas o bajo grandes árboles. Las camadas son pequeñas y el cuidado prolongado. Los jóvenes aprenden a seguir presas mucho antes de estar preparados para derribarlas, razón por la cual se observan animales inmaduros acompañando viajeros sin atacarlos. Los adultos se vuelven muy agresivos cerca del refugio de cría. Su esperanza de vida depende de la disponibilidad de presas y de los conflictos con humanos, que suelen perseguirlos después de un ataque al ganado."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "La tradición dice que un viajero que mantiene el paso y conserva la compostura puede llegar a casa sano, mientras el que se deja dominar por el miedo termina devorado. Es una lección moral conveniente para el Kushidō, aunque no constituye una regla infalible: un okuri-inu hambriento ataca cuando las condiciones le favorecen. En épocas de guerra se vuelve más audaz al hallar caminos llenos de heridos y cadáveres. Los capitanes de posta recomiendan avanzar en grupos, iluminar la retaguardia y nunca abandonar a un rezagado. El animal se ha convertido así en metáfora de una sociedad donde perder el paso significa exponerse a los demás."
+        },
+        {
+          "type": "p",
+          "text": "«No me perseguía. Esperaba mi cansancio. Cuando llegué a ver la puerta del puesto, comprendí que el monstruo había caminado conmigo desde el primer recodo». — Carta de un mensajero de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-06",
+      "number": 6,
+      "name": "Nekomata",
+      "subtitle": "",
+      "imgurId": "DJamT9d",
+      "imgurPage": "https://imgur.com/DJamT9d",
+      "facts": [
+        [
+          "Clasificación",
+          "Felino depredador · nocturno · difícil de observar"
+        ],
+        [
+          "Distribución",
+          "Bosques densos, márgenes de aldeas abandonadas y arboledas junto a barrancos"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Longitud de cuerpo 1,25–1,70 m; 35–70 kg; vida de 14–22 años"
+        ],
+        [
+          "Organización social",
+          "Solitario, salvo madres con crías y parejas temporales"
+        ],
+        [
+          "Peligrosidad",
+          "Media-alta; emboscador peligroso para ganado menor y personas aisladas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El felino de las dos colas y las casas vacías"
+        },
+        {
+          "type": "p",
+          "text": "Cuando una casa permanece abandonada durante muchos inviernos, los aldeanos dicen que un nekomata acaba encontrando su techo. La imagen popular presenta a un gato que envejeció hasta volverse monstruo, pero los animales descritos por cazadores competentes son felinos forestales de gran tamaño, de cola bifurcada y conducta notablemente cauta. Se mueven entre vigas caídas, senderos cubiertos de hierba y jardines invadidos por la maleza con la facilidad de un animal que ha hecho de la ausencia humana su mejor refugio."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su musculatura recuerda la de un gato montés grande, con patas posteriores poderosas, hombros flexibles y garras retráctiles que permiten ascender por troncos inclinados. El rasgo más distintivo es la cola dividida en dos ramas musculares desde su base, que actúa como sistema de equilibrio al saltar entre superficies irregulares. El pelaje suele ser ceniza, pardo rojizo o negro salpicado de manchas apenas visibles. Las orejas son pequeñas y móviles; los ojos reflejan la luz de antorchas con un fulgor que ha alimentado historias de posesión. Sus vibrisas largas son útiles en ruinas estrechas, donde puede deslizarse sin rozar paredes."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere bosques húmedos con árboles grandes, muros derruidos, terrazas antiguas y quebradas de difícil acceso. Evita los campos abiertos de Hanamori salvo cuando la noche ofrece cobertura suficiente. Los territorios más estables se encuentran en Iwagiri, donde hay numerosas laderas cubiertas de bosque y menos población permanente. En zonas cercanas a castillos abandonados las ruinas proporcionan plataformas de vigilancia y madrigueras secas, aunque también atraen exploradores curiosos. Su presencia puede deducirse por arañazos verticales, restos de presas arrastrados y pequeñas marcas en el barro de patios abandonados."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Caza liebres, aves de suelo, roedores grandes, pequeños ungulados y animales domésticos desprotegidos. Suele ocultar parte de las presas en árboles o grietas, donde puede alimentarse durante varios días. Los gatos comunes no constituyen una parte habitual de su dieta, aunque puede matarlos si invaden su territorio. Su éxito depende de la sorpresa: se acerca desde un punto elevado, da un salto corto y busca controlar cuello o nuca. No está adaptado a persecuciones extensas, de modo que una presa que detecta a tiempo al felino tiene buenas posibilidades de escapar."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es fundamentalmente solitario y nocturno, con picos de actividad al anochecer y antes del amanecer. Utiliza lugares elevados para observar el terreno y modifica sus rutas cuando descubre presencia humana regular. Un nekomata que se habitúa a restos de cocina puede volverse atrevido y acercarse a aldeas, aunque sigue evitando el ruido de los mercados. La cola bifurcada participa en señales corporales sutiles, muy útiles durante el cortejo. Es feroz si se le acorrala o si una hembra protege a su camada, pero rara vez desea enfrentarse a un adulto armado sin ventaja."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "El apareamiento reúne brevemente a dos individuos que después vuelven a vidas separadas. Las hembras seleccionan madrigueras ocultas bajo rocas, raíces o tejados derruidos y crían pocos cachorros. Los juveniles permanecen con su madre hasta aprender a calcular saltos, elegir refugios y capturar presas pequeñas. Durante el primer año son vulnerables a okuri-inu y grandes aves rapaces. La esperanza de vida de los ejemplares libres es menor que la atribuida por las leyendas, que imaginan gatos centenarios."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "En la cultura Yugen se le atribuyen presagios de abandono, resentimiento y ruptura de juramentos. Algunos ancianos interpretan que las dos colas representan dos lealtades imposibles de conciliar, una imagen potente en una isla dividida en tres clanes. Los templos más pragmáticos rechazan la idea de que el animal transporte maldiciones y recomiendan simplemente reparar cercos y evitar dejar carne en patios nocturnos. El nekomata recuerda que la guerra no sólo mata personas: también crea pueblos vacíos, jardines abandonados y nuevas oportunidades para los depredadores."
+        },
+        {
+          "type": "p",
+          "text": "«En la casa sin señor había una lámpara rota, tres huesos limpios y dos colas que desaparecieron tras el muro. La criatura no habitaba las ruinas: las ruinas se habían convertido en su bosque». — Registro de un rastreador de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-07",
+      "number": 7,
+      "name": "Baku",
+      "subtitle": "",
+      "imgurId": "H2Tn7Mb",
+      "imgurPage": "https://imgur.com/H2Tn7Mb",
+      "facts": [
+        [
+          "Clasificación",
+          "Megaherbívoro · cuerpo robusto y trompa prensil · especie protegida en ciertos valles"
+        ],
+        [
+          "Distribución",
+          "Bosques húmedos, praderas de piedemonte y corredores fluviales ricos en vegetación"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Altura de 1,7–2,1 m; 600–1.100 kg; vida de 35–50 años"
+        ],
+        [
+          "Organización social",
+          "Solitario o pequeños grupos de hembras con crías; machos adultos apartados"
+        ],
+        [
+          "Peligrosidad",
+          "Baja salvo acorralamiento y defensa de crías; gran riesgo por pisoteo"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El gran herbívoro que recibe los malos sueños"
+        },
+        {
+          "type": "p",
+          "text": "El baku parece salido del sueño de alguien que nunca había visto la diferencia entre un elefante pequeño, un tapir y una bestia de bosque. Tiene cuerpo macizo, piel de gruesos pliegues, hocico prolongado en una trompa corta y colmillos de apariencia antigua. Su paso es pausado, pero cada pisada hunde tierra húmeda y aplasta raíces. A los niños Yugen se les enseña que el baku devora las pesadillas; los agricultores adultos saben que, si entra en un arrozal recién plantado, puede devorar también el trabajo de varias familias."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su piel es gruesa, gris o parda, cubierta en algunas regiones por cerdas dispersas y patrones que resultan de barro seco, algas y parásitos. La trompa permite arrancar hojas tiernas, levantar raíces y explorar grietas en busca de sales minerales. Los colmillos sirven sobre todo para remover terreno y defenderse, no para cazar. Sus patas son columnares, adaptadas a sostener peso en suelos blandos. El cráneo alberga senos amplios que favorecen la resonancia de llamados graves, audibles a gran distancia en bosques húmedos. La boca posee dientes trituradores capaces de procesar fibras vegetales resistentes."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa los valles menos cultivados y los bosques de transición entre Hanamori e Iwagiri, especialmente cerca de ríos permanentes y charcas. Necesita grandes áreas de forraje y agua, por lo que una isla densamente poblada puede sostener solamente grupos dispersos. Los corredores ecológicos entre bosques antiguos son esenciales para su supervivencia; cuando una guerra destruye puentes o levanta empalizadas continuas, los baku quedan aislados y comienzan a invadir cultivos. En la península de Shiranui no existen poblaciones importantes, aunque algunos individuos aparecen cerca de estuarios tras grandes temporales."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Es herbívoro estricto. Consume hojas, ramas tiernas, brotes de bambú, raíces, frutos caídos y plantas acuáticas. Puede remover con facilidad un árbol joven o desenterrar grandes tubérculos gracias a la trompa y los colmillos. Su apetito es considerable, lo que crea conflictos con agricultores cuando los ríos bajan y los animales se desplazan hacia tierras irrigadas. Al mismo tiempo, dispersa semillas, abre claros en bosques densos y mantiene accesos a pequeños humedales que benefician a muchas especies menores. Su huella ecológica es, literalmente, visible sobre la tierra."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "No es un animal belicoso por naturaleza. Las hembras con crías mantienen grupos pequeños que recorren rutas relativamente estables; los machos adultos prefieren la soledad y sólo buscan compañía durante el celo. Su memoria espacial es excelente, y los mismos animales pueden regresar a determinados vados durante décadas. La amenaza más seria nace del peso: un baku sorprendido a corta distancia puede cargar de frente y aplastar a un jinete o romper una empalizada. Los sonidos graves, la cabeza baja y la trompa enrollada son advertencias suficientes para retirarse."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "La madurez llega tarde y las hembras paren una sola cría tras una gestación larga. Los nacimientos están separados por varios años, circunstancia que dificulta la recuperación de las poblaciones después de una cacería excesiva. Los pequeños permanecen junto a la madre durante mucho tiempo y aprenden de ella rutas, refugios y fuentes de agua. La especie puede superar varias décadas de vida si consigue evitar conflictos con comunidades humanas. Los cazadores que matan una hembra reproductora dañan a una población entera durante generaciones."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los templos de Hanamori veneran al baku como símbolo de un sueño que se vuelve soportable, pero esa reverencia convive con disputas por los cultivos. Algunos señores mantienen corredores protegidos y compensan a campesinos por las pérdidas; otros autorizan batidas que reducen la especie a unas pocas quebradas. Su carne no es común en mesas nobles, tanto por tabú como por dificultad para transportarla, aunque el cuero se aprovecha en momentos de hambruna. La mayor paradoja es que un animal que simboliza descanso vive rodeado de una civilización incapaz de dejar de guerrear."
+        },
+        {
+          "type": "p",
+          "text": "«El baku no cruzó nuestras zanjas para desafiarnos. Las zanjas estaban tendidas sobre un camino que ya conocían sus madres antes de que existiera el castillo». — Memoria de un agricultor de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-08",
+      "number": 8,
+      "name": "Nue",
+      "subtitle": "",
+      "imgurId": "pASQtUc",
+      "imgurPage": "https://imgur.com/pASQtUc",
+      "facts": [
+        [
+          "Clasificación",
+          "Gran depredador quimérico · bestia rara · amenaza excepcional"
+        ],
+        [
+          "Distribución",
+          "Bosques montañosos antiguos, quebradas profundas y franjas de selva templada muy húmeda"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Cuerpo de 1,9–2,7 m; masa aproximada de 130–220 kg; vida posiblemente de 20–30 años"
+        ],
+        [
+          "Organización social",
+          "Solitario y territorial; apenas observado en pareja"
+        ],
+        [
+          "Peligrosidad",
+          "Muy alta en su territorio, especialmente durante tormentas y cría"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La quimera de la espesura tormentosa"
+        },
+        {
+          "type": "p",
+          "text": "Hay animales que inspiran miedo por su tamaño y otros por su forma de cazar. El nue provoca un temor distinto: parece compuesto por recuerdos incompletos de varias bestias. Su cabeza posee músculos que recuerdan el gesto de un primate, el tronco exhibe la fuerza de un felino y la cola alargada termina en una estructura escamosa que parece una serpiente. Esta anatomía irregular no prueba que sea el resultado de un hechizo; muestra, más bien, cuántos senderos puede tomar la naturaleza cuando los bosques están aislados y el maná circula de formas difíciles de estudiar."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "El cuerpo se sostiene sobre cuatro miembros poderosos, preparados para trepar, saltar y sostener presas contra el suelo. La cintura escapular es flexible, como la de un gran felino, mientras la mandíbula posee colmillos largos y musculatura trituradora. Las manos anteriores tienen dedos especialmente móviles, útiles para agarrar ramas o sujetar a una presa que forcejea. La cola, fuerte y anillada, sirve de contrapeso; no es una segunda criatura autónoma, por mucho que así lo aseguren las canciones. El pelaje muestra bandas oscuras y manchas ocres que rompen su silueta bajo la lluvia. Sus rugidos poseen resonancias extrañas capaces de confundirse con varios animales a la vez."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Se han descrito nue en los bosques más espesos de Iwagiri y en montes poco explotados de la frontera con Hanamori. Necesitan refugios amplios, una red de presas grandes y una vegetación que permita ataques por sorpresa. Su presencia cerca de poblados es un signo de degradación del hábitat o de escasez alimentaria: normalmente evita los caminos transitados. Las tormentas intensas favorecen su movilidad, porque el ruido de la lluvia disimula el peso de sus pasos y la mala visibilidad impide a las presas detectar su aproximación."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Es carnívoro de gran tamaño. Persigue ciervos, jabalíes, animales de carga extraviados y, excepcionalmente, kitsune jóvenes. Puede arrastrar una presa pesada a una grieta o plataforma de piedra y alimentarse de ella durante varios días. A diferencia de otros felinos, muestra disposición a consumir carroña fresca, lo que permite sobrevivir tras inviernos complicados. Las historias que afirman que devora relámpagos o voces humanas son alegorías. Su verdadero terror es la capacidad para abatir presas muy por encima de lo que su aspecto, observado a distancia, permitiría esperar."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es solitario, de movimientos lentos cuando explora y de explosiva violencia al atacar. Un adulto puede permanecer inmóvil durante horas observando un sendero. Su defensa territorial se realiza mediante marcas de olor y llamadas graves, sobre todo al final de la estación lluviosa. En caso de encuentro directo no siempre ataca: puede retirarse si reconoce un grupo numeroso y bien armado. Sin embargo, un animal hambriento o una hembra con cachorros representa un peligro extraordinario. La ferocidad del nue no convierte la especie en asesina indiscriminada; es una estrategia de supervivencia dentro de un ecosistema estrecho y competitivo."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Se conoce muy poco de su reproducción. Los rastreadores atribuyen a las hembras una camada reducida de una o dos crías, ocultas en cuevas secas o árboles huecos de enorme diámetro. Los jóvenes permanecen largo tiempo con su madre y aprenden a cazar siguiendo rastros, observando viento y cobertura. La madurez lenta y la necesidad de grandes territorios justifican su escasez. Los conflictos con señores feudales —que ofrecen recompensas cuando una bestia mata ganado— impiden estudiar individuos durante varios años consecutivos."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Para los tres clanes, abatir un nue es una hazaña digna de canto. Pero los maestros de Kushidō más severos consideran vergonzoso organizar una cacería multitudinaria para buscar gloria con una criatura que sólo defiende su territorio. Los habitantes de aldeas cercanas desean seguridad y rara vez comparten esa prudencia. Los informes sobre nue suelen mezclar observación y superstición, de modo que los cartógrafos deben indicar qué marcas fueron vistas personalmente y cuáles proceden del testimonio de campesinos asustados. Su figura representa la frontera entre el orgullo de los guerreros y la necesidad real de proteger un ecosistema."
+        },
+        {
+          "type": "p",
+          "text": "«Tres voces escuchamos en la noche; la huella que hallamos al alba pertenecía a un solo animal. La montaña conoce formas de engañarnos que no necesitan magia». — Anotación de un cazador de Iwagiri."
+        }
+      ]
+    },
+    {
+      "id": "yugen-09",
+      "number": 9,
+      "name": "Tsuchinoko",
+      "subtitle": "",
+      "imgurId": "mkxrNZw",
+      "imgurPage": "https://imgur.com/mkxrNZw",
+      "facts": [
+        [
+          "Clasificación",
+          "Reptil depredador pequeño · especie discreta · potencialmente venenosa"
+        ],
+        [
+          "Distribución",
+          "Linderos agrícolas, ribazos, matorrales y suelos pedregosos de valles templados"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Longitud de 70–125 cm; cuerpo ancho y corto; vida estimada de 12–18 años"
+        ],
+        [
+          "Organización social",
+          "Solitario; concentraciones estacionales donde abundan roedores"
+        ],
+        [
+          "Peligrosidad",
+          "Moderada si se manipula; la mayor parte de encuentros termina en huida"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "La serpiente gruesa de los bancales húmedos"
+        },
+        {
+          "type": "p",
+          "text": "El tsuchinoko parece una serpiente que ha olvidado cómo ser delgada. Su cuerpo es ancho, compacto y musculoso, con escamas de tonos tierra que se confunden con hojas, piedras y terrones de arrozal. Durante generaciones los aldeanos han contado que puede dar saltos imposibles, rodar como una rueda o escupir veneno a distancia. Los observadores más pacientes describen algo bastante menos mágico, aunque no menos extraño: un reptil de músculos poderosos, capaz de comprimirse y liberarse con un impulso súbito sobre distancias cortas."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "La cabeza es triangular y ancha, con mandíbula capaz de abrirse para capturar presas voluminosas. El tronco contiene reservas de grasa que cambian de tamaño según la estación. Las escamas son irregulares, con dibujos pardos y ocres, eficaces para permanecer inmóvil sobre suelo cubierto de hojarasca. La cola es relativamente corta. Su gran fuerza procede de una musculatura lateral desarrollada que permite movimientos violentos de contracción. Algunos ejemplares poseen glándulas salivales irritantes o venenosas; su toxicidad parece variar y debe estudiarse con cautela, sin asumir que toda mordida es mortal."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Es común en zonas donde el bosque se encuentra con cultivos irrigados. Prefiere ribazos soleados con refugios, pequeños montones de piedra, canales antiguos y matorrales próximos al agua. A diferencia del nozuchi, pasa mucho tiempo sobre la superficie, calentándose en espacios protegidos antes de cazar. Las lluvias abundantes favorecen su actividad porque atraen anfibios y desplazan roedores. Durante las semanas más frías reduce movimiento y se refugia bajo piedras o raíces profundas. Los campesinos suelen encontrarlo al reparar una acequia o levantar haces de paja."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Consume roedores, ranas, lagartos pequeños y polluelos que caen de nidos bajos. Su estrategia es la emboscada: espera inmóvil hasta que la presa se acerca lo suficiente y se lanza en un impulso breve. Puede tragarse animales sorprendentemente grandes para su longitud gracias a la movilidad de las mandíbulas. Tras una comida abundante permanece escondido durante días, circunstancia que alimenta las historias de serpientes desaparecidas que reaparecen de improviso. Su aporte al control de ratones en graneros y arrozales es mayor de lo que reconocen los aldeanos supersticiosos."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es solitario y defensivo. Un individuo sorprendido suele intentar ocultar la cabeza, luego huir, y sólo muerde si se le retiene. Los saltos descritos en los cuentos surgen de contracciones violentas del tronco que pueden levantar parte del cuerpo del suelo; no vuela ni se desplaza a voluntad por el aire. En épocas de abundancia pueden reunirse varios ejemplares cerca de colonias de roedores sin que exista cooperación social. Los machos se enfrentan durante el celo mediante empujones y movimientos de torsión, pero evitan heridas graves salvo en espacios demasiado reducidos."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras depositan pequeños grupos de huevos en cavidades cálidas y húmedas, generalmente protegidas por piedras o materia vegetal. La eclosión coincide con periodos productivos para la fauna menor. Los juveniles son más delgados que los adultos y pueden confundirse con serpientes ordinarias hasta que acumulan reservas y desarrollan el perfil ancho. Muchos mueren por ataques de aves, pequeños carnívoros y labores agrícolas. La especie soporta bien los paisajes parcialmente transformados, siempre que existan refugios sin cultivar."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los agricultores desconfían del tsuchinoko porque su forma anómala parece presagio de malas cosechas. Al mismo tiempo, algunas aldeas ofrecen recompensas por capturar uno vivo, creyendo que su rareza atrae fortuna. Los templos piden respeto por los animales del campo, pero no pueden impedir que cada temporada se produzcan heridas por manipulación imprudente. Los sanadores aconsejan inmovilizar la extremidad mordida y evitar remedios violentos sin identificación de la especie. En términos ecológicos, el tsuchinoko no es una calamidad: es uno de los pequeños equilibrios que impiden al valle ser devorado por sus propios roedores."
+        },
+        {
+          "type": "p",
+          "text": "«De los diez monstruos que dijeron haber visto junto al arrozal, nueve eran troncos y el décimo comía un ratón. Era el más útil de todos». — Cuaderno de una inspectora de canales de Hanamori."
+        }
+      ]
+    },
+    {
+      "id": "yugen-10",
+      "number": 10,
+      "name": "Nozuchi",
+      "subtitle": "",
+      "imgurId": "kfWuPTT",
+      "imgurPage": "https://imgur.com/kfWuPTT",
+      "facts": [
+        [
+          "Clasificación",
+          "Invertebrado excavador de gran tamaño · detritívoro y oportunista"
+        ],
+        [
+          "Distribución",
+          "Suelos húmedos, bosques de ribera, taludes y terrazas agrícolas con abundante materia orgánica"
+        ],
+        [
+          "Dimensiones y longevidad",
+          "Longitud de 0,9–1,8 m; cuerpo cilíndrico de 10–25 cm de diámetro; vida estimada 10–16 años"
+        ],
+        [
+          "Organización social",
+          "Solitario; numerosos individuos pueden coincidir en suelos fértiles"
+        ],
+        [
+          "Peligrosidad",
+          "Baja para personas; importante riesgo indirecto por derrumbes de taludes o canales"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "h",
+          "text": "El excavador ciego de la tierra mojada"
+        },
+        {
+          "type": "p",
+          "text": "Si el tsuchinoko es una serpiente demasiado gruesa, el nozuchi parece una raíz que decidió desplazarse por sí misma. Su cuerpo está cubierto por anillos coriáceos de tonalidad terrosa, carece de ojos visibles y avanza mediante contracciones lentas que deforman el barro antes de que la superficie termine por ceder. Muchos Yugen nunca han visto uno entero: conocen la criatura por el sonido sordo de sus galerías y por las paredes de acequia que se desmoronan después de una lluvia fuerte."
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptaciones"
+        },
+        {
+          "type": "p",
+          "text": "Su cuerpo cilíndrico carece de extremidades y posee anillos musculares que actúan como puntos de anclaje durante la excavación. La piel, gruesa y húmeda, está protegida por secreciones que evitan la pérdida de agua y facilitan el desplazamiento entre partículas de suelo. La cabeza apenas se distingue del tronco, salvo por una abertura bucal ancha provista de pequeñas estructuras raspadoras. No tiene colmillos visibles ni grandes órganos sensoriales externos; percibe vibraciones, humedad y cambios químicos a través de la superficie del cuerpo. Puede parecer una serpiente desde lejos, pero su anatomía y su forma de alimentarse corresponden a una línea de grandes excavadores prácticamente independiente."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y distribución"
+        },
+        {
+          "type": "p",
+          "text": "Prospera donde el suelo conserva humedad durante gran parte del año: bosques de ribera, terrazas abandonadas, bordes de humedal y laderas suaves cubiertas por hojas en descomposición. No soporta bien el frío extremo ni los sustratos secos de la montaña alta. La densidad de población Yugen ha transformado enormemente sus hábitats. Los canales de riego ofrecen agua estable y materia orgánica, pero las obras de piedra y el tránsito constante alteran sus galerías. Después de tormentas intensas es frecuente encontrar individuos sobre el suelo, expulsados de refugios inundados."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y papel ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Consume restos vegetales, hongos, raíces blandas y pequeños organismos del suelo. También aprovecha carroña diminuta y animales atrapados en galerías, aunque no está construido para perseguir presas grandes. Su digestión transforma materia vegetal en suelo removido, por lo que aumenta la aireación y facilita el retorno de nutrientes a capas superficiales. En bosques naturales cumple un papel importante; en campos cultivados puede ser un problema si consume raíces tiernas o desestabiliza terrazas de riego. La convivencia depende menos del animal que de cuánto territorio se le ha dejado."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y vida social"
+        },
+        {
+          "type": "p",
+          "text": "Es lento y solitario, con actividad muy influida por temperatura y humedad. Durante periodos cálidos y lluviosos excava cerca de la superficie; cuando el suelo se seca desciende a cámaras más profundas. Evita vibraciones fuertes y puede permanecer inmóvil durante horas al detectar pasos. No persigue personas ni animales domésticos, pero sus secreciones pueden irritar la piel, y sus túneles debilitan pequeños muros o acequias. La fama de criatura devoradora de cadáveres deriva probablemente de los individuos hallados junto a materia orgánica enterrada y no de una preferencia por restos humanos."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y ciclo vital"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción parece producirse en cámaras húmedas donde los adultos depositan pequeñas masas de huevos protegidos por una sustancia gelatinosa. Las crías son mucho más delgadas y permanecen en capas altas del suelo, consumiendo hongos y detritos. La mortalidad juvenil es elevada por insectos depredadores, inundaciones repentinas y labores agrícolas. Los individuos que alcanzan gran tamaño pueden vivir más de una década, renovando lentamente sus galerías. No se observan colonias organizadas, aunque un área muy fértil puede albergar varios ejemplares sin conflicto aparente."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las poblaciones Yugen"
+        },
+        {
+          "type": "p",
+          "text": "Los constructores de terrazas odian al nozuchi cuando sus túneles socavan un muro que lleva años sosteniendo agua y grano. Los monjes dedicados a jardines, en cambio, conocen su utilidad para renovar tierras compactadas y advierten contra exterminarlo sin criterio. Algunas aldeas mantienen franjas sin cultivar junto a bosques de ribera para reducir su aparición en bancales. El nozuchi no representa el horror de un monstruo colosal, pero sí la incomodidad de una verdad ecológica: hasta una criatura casi invisible puede alterar la estabilidad de una civilización que construye su riqueza sobre la tierra húmeda."
+        },
+        {
+          "type": "p",
+          "text": "«La acequia cedió sin enemigo a la vista. Bajo la piedra encontramos galerías, raíces cortadas y una bestia que sólo intentaba respirar». — Registro de reparación de terrazas, Hanamori."
+        },
+        {
+          "type": "h",
+          "text": "Apéndice · Cadenas de vida en una isla disputada"
+        },
+        {
+          "type": "p",
+          "text": "El equilibrio ecológico de los valles no depende de una especie extraordinaria, sino de la coexistencia de muchas criaturas ordinarias y unas pocas verdaderamente peligrosas. En tierras cultivadas, tanuki, tsuchinoko y kamaitachi limitan poblaciones de roedores, insectos y pequeños vertebrados; a su vez, grandes nekomata y okuri-inu se benefician de algunos animales atraídos por la abundancia humana. Los kitsune de silla criados por los clanes alteran ese equilibrio mediante el pastoreo, la protección de caminos y la competencia con depredadores silvestres."
+        },
+        {
+          "type": "p",
+          "text": "Los grandes herbívoros son un punto especialmente frágil. El baku requiere extensiones continuas y agua permanente, pero los campos Hanamori y las fortificaciones Iwagiri cortan lentamente sus rutas. Si los señores confunden toda incursión sobre un cultivo con una declaración de guerra de la naturaleza, podrían exterminar la especie y perder con ella la dispersión de semillas, la renovación de claros y otros servicios invisibles del bosque."
+        },
+        {
+          "type": "p",
+          "text": "En lo alto de la cadena, el nue debe ser escaso. Un solo ejemplar adulto puede necesitar una extensión considerable de bosque productivo, y una hembra con crías multiplica la presión sobre herbívoros y otros carnívoros. Si una historia menciona varios nue atacando la misma aldea, conviene tratarlo como una anomalía que exige explicación —un incendio, una hambruna, el desplazamiento por una guerra— y no como conducta habitual de la especie."
+        },
+        {
+          "type": "p",
+          "text": "La principal amenaza para la fauna de las islas quizá no sea la magia ni la espada, sino la fragmentación del hábitat. Canales, murallas, arrozales y caminos alimentan a la población Yugen pero expulsan o confinan especies enteras. La guerra entre clanes puede destruir depósitos de grano y quemar sotos; también puede dejar aldeas abandonadas que en pocos años se convierten en territorios de nekomata y okuri-inu. De esas alternancias nace la geografía viva de Aeternalis."
+        },
+        {
+          "type": "p",
+          "text": "Criterio de magia: ninguna de las diez especies utiliza Kuro. La Bendición de Eko pertenece al pueblo Yugen; la relación de las bestias excepcionales con el maná deberá definirse individualmente y respetando el sistema de Aeternalis."
+        }
+      ]
+    }
+  ]
+}

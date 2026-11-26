@@ -1,0 +1,66 @@
+{
+  "schema": "aeternalis-bestiario-v2",
+  "revision": "2026-11-26-github-v2",
+  "totalCreatures": 80,
+  "totalVolumes": 8,
+  "visualAssets": "data/bestiario/assets.json",
+  "volumes": [
+    {
+      "region": "bergheim",
+      "volume": 1,
+      "path": "data/bestiario/bergheim/tomo-1.json",
+      "creatures": 10,
+      "originalGzipSha256": "86e83b2e542baba98d004a6b883762e86b8a25df8ffe25c3a9efa99487fd651f"
+    },
+    {
+      "region": "bergheim",
+      "volume": 2,
+      "path": "data/bestiario/bergheim/tomo-2.json",
+      "creatures": 10,
+      "originalGzipSha256": "4d5dd0a140f8f03b9d93bbde67fc56b25dd6fd1e1302785d8f0cd11513f73b1c"
+    },
+    {
+      "region": "bergheim",
+      "volume": 3,
+      "path": "data/bestiario/bergheim/tomo-3.json",
+      "creatures": 10,
+      "originalGzipSha256": "5d486ace7e52b4e7d0ff7b7dc41f01a6b2ed6b80c941de80a37f72d3bf4783dc"
+    },
+    {
+      "region": "bergheim",
+      "volume": 4,
+      "path": "data/bestiario/bergheim/tomo-4.json",
+      "creatures": 10,
+      "originalGzipSha256": "1212dd323c3ef88e1087132ebc086222f29089eb2f4c1152fbf089e14eb3af69"
+    },
+    {
+      "region": "yugen",
+      "volume": 1,
+      "path": "data/bestiario/yugen/tomo-1.json",
+      "creatures": 10,
+      "originalGzipSha256": "00316aab115cbad0e5257b42f254c1844c412a96766c19264e928ec69e4f8743"
+    },
+    {
+      "region": "yugen",
+      "volume": 2,
+      "path": "data/bestiario/yugen/tomo-2.json",
+      "creatures": 10,
+      "originalGzipSha256": "262ff9185403f0775cb11f30e51ef55997d543abd92260618e470ff436b25e28"
+    },
+    {
+      "region": "yugen",
+      "volume": 3,
+      "path": "data/bestiario/yugen/tomo-3.json",
+      "creatures": 10,
+      "originalGzipSha256": "2af19a8b3fdb3492d82ed3e3a0401ae5549b2dc7690713be1f43bb825446b8fb"
+    },
+    {
+      "region": "yugen",
+      "volume": 4,
+      "path": "data/bestiario/yugen/tomo-4.json",
+      "creatures": 10,
+      "originalGzipSha256": "c9f83762cbe74623aa94c7e57600330c9d4d1f64d9d8ceb599343a26dfa152c0"
+    }
+  ],
+  "engine": "js/bestiario/motor.js"
+}

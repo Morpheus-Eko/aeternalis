@@ -1,0 +1,1135 @@
+{
+  "region": "bergheim",
+  "volume": 3,
+  "title": "Bergheim",
+  "source": "Bestiario_Bergheim_Volumen_III(2).docx",
+  "preface": [
+    "Ilustraciones de fantasía naturalista y registros atribuidos a exploradores de Bergheim",
+    "«No todas las criaturas que tememos vienen a buscarnos. Muchas estaban aquí antes de que dibujáramos nuestros primeros caminos».",
+    "El tercer volumen abandona por momentos los pasos conocidos y sigue las huellas que se pierden entre raíces, galerías y aguas oscuras. Junto a pequeños mamíferos de montaña aparecen reptiles que han sobrevivido a generaciones enteras de mineros, depredadores de los lagos y colonias anfibias cuyas costumbres han dado origen a supersticiones. El propósito es que cada encuentro se sienta como la irrupción de un animal con necesidades propias, no de una criatura colocada en el mapa para combatir al primer viajero.",
+    "Estas especies se inspiran libremente en las tradiciones bávara, nórdica, alpina, germánica, galesa, irlandesa y eslava. Los nombres mitológicos sirven como punto de partida; su anatomía, dieta, longevidad, distribución y comportamiento son propuestas originales para el universo de Aeternalis. Las cifras son aproximaciones destinadas a guiar el rol, y pueden ajustarse al consolidar el canon.",
+    "Cada entrada incluye una lámina individual, una identificación rápida, una escena de primer encuentro y siete apartados de historia natural: cuerpo y sentidos, hábitat, dieta, sociabilidad y reproducción, peligrosidad, relación con los pueblos y rastros. La ferocidad describe la respuesta probable frente a un intruso; no equivale a maldad ni a agresión permanente.",
+    "Los Wolpertinger alimentan a carnívoros mayores y los Ratatosk participan en la renovación de los bosques. Krampus y basiliscos ocupan refugios rocosos con recursos irregulares; los Fáfnir son tan escasos que cada hallazgo merece una expedición singular. En los cursos de agua, Nøkk, Afanc y Dobharchú se reparten orillas, peces y sectores de caza. Los gusanos de Jörmund aprovechan galerías profundas, mientras las colonias de Vodian mantienen relaciones complejas con los humedales de turba."
+  ],
+  "creatures": [
+    {
+      "id": "bergheim-21",
+      "number": 21,
+      "name": "Wolpertinger Alpino",
+      "subtitle": "",
+      "imgurId": "pzRK27j",
+      "imgurPage": "https://imgur.com/pzRK27j",
+      "facts": [
+        [
+          "Hábitat",
+          "Pastizales subalpinos, laderas soleadas y matorrales de límite forestal"
+        ],
+        [
+          "Tamaño",
+          "65–95 cm de cuerpo; 6–11 kg; astas de hasta 22 cm"
+        ],
+        [
+          "Dieta",
+          "Gramíneas, brotes, flores, corteza tierna y líquenes"
+        ],
+        [
+          "Organización",
+          "Pequeñas colonias dispersas de 4–12; activos al alba y al ocaso"
+        ],
+        [
+          "Longevidad",
+          "6–10 años; 2–4 crías por camada"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; mordeduras defensivas y posible cornada al capturarlo"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Lagomorfo de alta montaña · herbívoro · presa menor   |   Inspiración: Wolpertinger, tradición bávara y alpina"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Las primeras nieves borran casi todo rastro salvo una sucesión de saltos extrañamente largos entre matas de brezo. El animal aparece cuando el observador deja de buscarlo: una liebre robusta de dorso pardo, orejas ribeteadas por finas barbas plumosas y una pequeña cornamenta que desentona con su tamaño. Permanece tan inmóvil que podría confundirse con una raíz retorcida. Después flexiona las patas, salta por encima de una piedra cubierta de hielo y desaparece en una grieta que parecía demasiado estrecha para su cuerpo. Los viejos cazadores afirman que avistar un wolpertinger es señal de que el deshielo llegará pronto; los Ojopiedras prefieren recordar que las señales de su alimentación anuncian la exposición de nuevos pastos."
+        },
+        {
+          "type": "h",
+          "text": "Wolpertinger Alpino · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y adaptación"
+        },
+        {
+          "type": "p",
+          "text": "El wolpertinger es un lagomorfo grande de tronco compacto, caja torácica amplia y extremidades posteriores extraordinariamente musculosas. La planta de las patas está cubierta por pelos rígidos que aumentan la superficie de apoyo sobre nieve reciente y ofrecen agarre en lajas húmedas. En los machos maduros aparece una cornamenta corta, ligera y de renovación estacional; las hembras presentan apenas protuberancias óseas o carecen de ellas. Los penachos que bordean las orejas no permiten volar: sirven de aislamiento y de señal visual durante el cortejo. El pelaje cambia del pardo rojizo veraniego a un gris moteado invernal que lo desdibuja entre piedra, nieve y vegetación seca."
+        },
+        {
+          "type": "h",
+          "text": "Hábitat y desplazamientos"
+        },
+        {
+          "type": "p",
+          "text": "Ocupa la franja intermedia entre los últimos coníferos y los pastizales que florecen durante el deshielo. Busca laderas orientadas al sol, terrazas de roca donde el viento barre la nieve y pequeños sistemas de madrigueras excavados entre raíces de enebros. Evita las superficies glaciares y las cumbres expuestas porque allí no encuentra alimento ni cobertura. Sus colonias se dispersan por corredores de vegetación próximos, y los animales juveniles pueden recorrer varios kilómetros al final del verano para fundar nuevas madrigueras. La distribución cambia marcadamente de una estación a otra, de modo que un collado aparentemente desierto en invierno puede rebosar de señales durante la primavera."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta de gramíneas, hojas de plantas almohadilladas, brotes florales, líquenes blandos y corteza de arbustos jóvenes cuando la nieve cubre los pastos. Selecciona especies ricas en minerales y frecuenta depósitos salinos donde pueden encontrarse también cabras de Heiðrún y uros jóvenes. Al consumir semillas y dispersarlas en sus excrementos, favorece la recolonización de taludes erosionados. Constituye una presa habitual para el lince de Yule y para los cánidos de menor tamaño; incluso un cuervo arpía juvenil puede atacar una cría aislada. Su abundancia permite que los depredadores sobrevivan en altitudes donde otros pequeños mamíferos son escasos."
+        },
+        {
+          "type": "h",
+          "text": "Vida social, reproducción y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Las colonias no funcionan como rebaños compactos: cada pareja o hembra reproductora dispone de una cámara de cría, mientras varios individuos utilizan los mismos pasos entre rocas y comparten señales de alarma. Las hembras pueden parir de dos a cuatro crías tras una gestación breve, generalmente cuando comienzan a brotar las primeras hierbas. Una segunda camada es posible en veranos largos, pero la mayoría de los jóvenes no supera su primer invierno. El celo de los machos coincide con el crecimiento completo de sus astas, utilizadas para empujarse y disputarse lugares de alimentación. En estado salvaje los adultos más viejos raramente exceden diez años."
+        },
+        {
+          "type": "h",
+          "text": "Temperamento y encuentros"
+        },
+        {
+          "type": "p",
+          "text": "No persigue al ser humano y casi siempre intenta huir. Su aparente mansedumbre ha provocado numerosos accidentes entre pastores que tratan de capturarlo con las manos: un ejemplar acorralado muerde, se sacude violentamente y puede herir con las pequeñas astas. Al sentirse observado levanta las orejas, golpea el suelo con las patas posteriores y emite un resoplido corto que pone en alerta a sus vecinos. Los Ojopiedras recomiendan usar su presencia como indicador de pastos seguros, no como garantía de ausencia de grandes depredadores. Los lugares con muchas madrigueras atraen precisamente a quienes se alimentan de ellas."
+        },
+        {
+          "type": "h",
+          "text": "Relación con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Los monteros de Rabbenjorg conocen sus pieles suaves, aunque la captura excesiva está mal vista en zonas donde el wolpertinger mantiene la estabilidad de los pastos. Algunos hogares conservan pequeñas astas desprendidas como amuletos contra extravíos, atribución supersticiosa que el Círculo no avala. No ha prosperado una domesticación verdadera: los animales se estresan en corrales y sus cambios estacionales de dieta son difíciles de reproducir. En años de mala cosecha, su carne ha servido de alimento de emergencia a familias aisladas. Los mejores exploradores aprenden a distinguir sus pistas de las de liebres ordinarias para no perder tiempo siguiendo rastros demasiado pequeños para una presa mayor."
+        },
+        {
+          "type": "h",
+          "text": "Indicios de campo y precauciones"
+        },
+        {
+          "type": "p",
+          "text": "La huella posterior es ancha y suele imprimirse delante de las dos huellas delanteras; entre los dedos queda un contorno suave formado por el pelo plantar. Los brotes cortados muestran bordes limpios, a poca altura del suelo, y cerca de las madrigueras aparecen bolitas de excremento seco en grupos compactos. En la muda de primavera pueden hallarse pelos largos prendidos de espinos bajos. Ninguna de estas señales demuestra la presencia de un monstruo: para el buen rastreador, saber reconocer la fauna pequeña es tan importante como identificar un depredador colosal. Donde hay presas, tarde o temprano habrá cazadores."
+        },
+        {
+          "type": "p",
+          "text": "«El pequeño que huye siempre encuentra un paso que el gigante todavía no ha visto». — Cuaderno de un Ojopiedra de las laderas occidentales."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-22",
+      "number": 22,
+      "name": "Ratatosk de Corteza",
+      "subtitle": "",
+      "imgurId": "6cUJT3R",
+      "imgurPage": "https://imgur.com/6cUJT3R",
+      "facts": [
+        [
+          "Hábitat",
+          "Bosques maduros de coníferas, gargantas húmedas y franjas de abedul"
+        ],
+        [
+          "Tamaño",
+          "45–70 cm con cola; 1,5–3,5 kg"
+        ],
+        [
+          "Dieta",
+          "Piñones, hongos, líquenes, insectos, huevos y carroña ocasional"
+        ],
+        [
+          "Organización",
+          "Grupos familiares de 3–8; muy vocales y territoriales"
+        ],
+        [
+          "Longevidad",
+          "8–13 años; 1–3 crías por camada"
+        ],
+        [
+          "Peligrosidad",
+          "Baja; mordedura defensiva y alarma que delata a los intrusos"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Roedor arborícola · dispersor de semillas · oportunista   |   Inspiración: Ratatoskr, tradición nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "El bosque parece conversar mucho antes de que alguien advierta a sus habitantes. Un chasquido de dientes responde a otro desde el lado opuesto del barranco; luego caen escamas de corteza sobre un hombro. Entre las ramas surge una ardilla enorme, de orejas puntiagudas y cola rojiza tan espesa que parece un estandarte. Sujeta una piña entre las patas delanteras y observa a los viajeros con una atención desconcertante. No teme demasiado a las personas, pero tampoco las admite: lanza un grito áspero, sacude la cola y desaparece por el tronco. Un momento después, el mismo aviso se escucha al otro lado del valle. Los guardabosques dicen que los Ratatosk conocen todas las noticias de la montaña; lo cierto es que ningún intruso pasa inadvertido donde viven."
+        },
+        {
+          "type": "h",
+          "text": "Ratatosk de Corteza · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía y sentidos"
+        },
+        {
+          "type": "p",
+          "text": "El Ratatosk de Corteza es un roedor arborícola de cuerpo flexible, musculatura escapular potente y garras arqueadas que le permiten ascender incluso por troncos casi verticales. Su cola gruesa cumple funciones de equilibrio y aislamiento; durante las noches de helada se enrolla alrededor del cuerpo en el interior del nido. Presenta bigotes largos que perciben obstáculos en la oscuridad y pabellones auriculares capaces de orientarse hacia sonidos lejanos. Los individuos de los bosques altos tienen pelaje más gris, mientras que los de gargantas húmedas muestran tonos castaños y rojizos. No habla ni comprende idiomas, aunque su repertorio de llamadas es extraordinariamente variado y ha inspirado incontables historias sobre mensajeros invisibles."
+        },
+        {
+          "type": "h",
+          "text": "Territorio y refugios"
+        },
+        {
+          "type": "p",
+          "text": "Necesita árboles viejos con cavidades, ramas comunicadas y abundancia estacional de semillas. En los pinares de Rabbenjorg construye nidos de hojas secas y fibra de corteza a varios metros del suelo; en inviernos extremos utiliza grietas de roca o troncos huecos, siempre lejos de charcos y corrientes. Puede desplazarse cientos de metros sin pisar tierra mediante saltos calculados, pero evita los claros extensos donde lo descubren aves rapaces. Sus poblaciones señalan bosques con continuidad ecológica: cuando desaparecen los árboles antiguos, suelen desaparecer también los Ratatosk. Coloniza nuevas áreas lentamente y tiende a conservar sus lugares de almacenamiento durante generaciones."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y relación con el bosque"
+        },
+        {
+          "type": "p",
+          "text": "Come semillas de coníferas, avellanas, brotes, hongos, escarabajos y, cuando la oportunidad surge, huevos abandonados. Entierra reservas en pequeños escondites que rara vez recupera por completo; de esta forma favorece la germinación de numerosas especies. Dispersa además esporas de hongos asociados a raíces de árboles, importantes para el crecimiento del bosque. Durante un invierno duro puede consumir carroña o roer huesos para obtener minerales, conducta que lo ha hecho objeto de relatos siniestros entre los campesinos. No es un depredador peligroso para viajeros, pero sí puede destrozar sacos de provisiones mal cerrados y dañar cuerdas o correajes con sus incisivos."
+        },
+        {
+          "type": "h",
+          "text": "Familia y crianza"
+        },
+        {
+          "type": "p",
+          "text": "Las pequeñas comunidades se organizan alrededor de hembras emparentadas y de una red de nidos cercanos. La competencia por los árboles con mejores reservas produce persecuciones ruidosas, pero las agresiones graves son excepcionales cuando existe alimento suficiente. La hembra pare una a tres crías, ciegas y casi desnudas, que permanecen varias semanas protegidas en una cavidad. Los adultos mayores enseñan indirectamente las rutas seguras a los jóvenes al repetirlas y marcarlas con secreciones olorosas. Un mismo árbol puede acumular generaciones de nidos abandonados. La longevidad es relativamente alta para un animal pequeño, aunque el frío tardío y las rapaces provocan gran mortalidad juvenil."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "El Ratatosk rara vez inicia un ataque, pero defenderá a mordiscos una cavidad con crías. Cuando percibe peligros emite secuencias distintas según la amenaza provenga del suelo, del aire o de las ramas, y otros individuos transmiten la alerta a distancia. Esta capacidad resulta incómoda para los cazadores: es frecuente que un lobo, un oso o un ciervo huya antes de ver al rastreador, advertido por el alboroto arbóreo. En ocasiones la misma red de alarmas salva vidas, pues un cambio brusco de sus llamadas anuncia un depredador oculto. El problema consiste en interpretar qué alarma pertenece a qué amenaza."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos"
+        },
+        {
+          "type": "p",
+          "text": "Los carboneros y leñadores conocen al Ratatosk como guardián de los árboles viejos, aunque no por un poder sobrenatural sino por la fidelidad de la especie a ciertos bosques. Las familias de Rabbenjorg lo consideran un buen indicador para escoger zonas de reforestación. Algunos niños intentan amansarlo con nueces, pero el animal conserva las mandíbulas de un roedor silvestre y no es apropiado como mascota. Los Ojopiedras estudian los cambios en sus llamadas para detectar incendios, movimientos de grandes bestias o derrumbes que alteran las rutas de la fauna. Sus colas y pieles poseen escaso valor comercial frente al beneficio que produce en la salud del bosque."
+        },
+        {
+          "type": "h",
+          "text": "Rastros y observación"
+        },
+        {
+          "type": "p",
+          "text": "Bajo los árboles preferidos quedan piñas desarmadas en pilas, escamas mordisqueadas, marcas de garras paralelas y pequeñas reservas de frutos ocultas bajo musgo. Una pausa total en sus gritos puede resultar tan significativa como una alarma: suele indicar la aproximación de un cazador aéreo. El observador paciente debe permanecer quieto y dejar que el animal retome su rutina. Perseguirlo de árbol en árbol solo consigue agotar al rastreador y espantar a toda la fauna próxima. La mejor prueba de su presencia es el propio bosque, cuyos movimientos parecen conectados por una sola voluntad que en realidad pertenece a decenas de pequeñas vidas."
+        },
+        {
+          "type": "p",
+          "text": "«Si el bosque guarda silencio de repente, pregunta qué lo ha hecho callar». — Instrucción de reconocimiento en Jorundathr."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-23",
+      "number": 23,
+      "name": "Krampus de los Riscos",
+      "subtitle": "",
+      "imgurId": "w0KdW2h",
+      "imgurPage": "https://imgur.com/w0KdW2h",
+      "facts": [
+        [
+          "Hábitat",
+          "Gargantas rocosas, pinares altos y cavernas de invierno"
+        ],
+        [
+          "Tamaño",
+          "1,9–2,6 m erguido; 140–260 kg"
+        ],
+        [
+          "Dieta",
+          "Tubérculos, cortezas, frutos duros, carroña y pequeños mamíferos"
+        ],
+        [
+          "Organización",
+          "Adultos generalmente solitarios; hembras con crías durante el deshielo"
+        ],
+        [
+          "Longevidad",
+          "25–38 años; una cría cada dos inviernos"
+        ],
+        [
+          "Peligrosidad",
+          "Alta en pasos estrechos, especialmente durante la crianza y el celo"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Gran mamífero caprinoide · omnívoro de risco · territorial   |   Inspiración: Krampus, tradición alpina"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "El sendero se estrecha hasta obligar a caminar de lado. Allí aparece el olor: almizcle agrio, lana húmeda y piedra revuelta. Sobre una terraza rocosa una silueta de dos metros se incorpora lentamente, descolgando unos brazos demasiado largos para una cabra y mostrando un par de cuernos curvados. No ruge al principio. Golpea el suelo con una pezuña y raspa una pared, desprendiendo una lluvia de grava. Detrás de él se abre una cueva caliente donde duerme una cría. Los antiguos cuentos hablan de una criatura que castiga a los desobedientes; el explorador que lleva semanas en la montaña comprende algo más sencillo y peligroso: está demasiado cerca del refugio de un animal extraordinariamente fuerte."
+        },
+        {
+          "type": "h",
+          "text": "Krampus de los Riscos · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Constitución y particularidades"
+        },
+        {
+          "type": "p",
+          "text": "El Krampus de los Riscos posee una anatomía singular, a medio camino entre un gran caprino y un mamífero trepador de postura semierguida. Las patas posteriores terminan en pezuñas hendidas con bordes duros y almohadillas capaces de adherirse a superficies rugosas; las extremidades anteriores, provistas de dedos prensiles y uñas negras, sirven para asirse a salientes y remover troncos podridos. Una melena espesa protege el cuello de mordeduras y golpes, mientras dos cuernos de crecimiento lento forman el principal instrumento de defensa. Las representaciones tradicionales suelen añadirle cadenas y campanas, adornos rituales que no pertenecen a su anatomía; los ejemplares silvestres solo portan cicatrices, barro y restos vegetales."
+        },
+        {
+          "type": "h",
+          "text": "Refugios y rango altitudinal"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere los escarpes situados por encima de los bosques densos, donde encuentra cavernas con varias salidas y laderas soleadas para calentarse. Desciende a pinares durante el invierno para extraer raíces bajo la nieve, pero evita llanuras donde resulta visible desde lejos. Cada adulto utiliza una red de repisas y túneles con numerosos puntos de vigilancia. Las huellas quedan a menudo en lugares que parecen inaccesibles, porque la criatura escala con una destreza sorprendente para su masa. En épocas de fuertes tormentas puede permanecer varios días resguardada, alimentándose de reservas vegetales almacenadas y de carne previamente arrastrada a la cueva."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y competencia"
+        },
+        {
+          "type": "p",
+          "text": "Aunque sus colmillos y figura intimidante sugieren un cazador sanguinario, el Krampus es omnívoro. Consume tubérculos, raíces de plantas resistentes, hongos, frutos secos y cortezas, pero también saquea nidos terrestres, captura marmotas y aprovecha cadáveres abandonados por lobos u osos. Gracias a sus largos brazos puede abrir troncos podridos y extraer larvas de insectos. Compite con osos Berserkr por carroña y cavidades, aunque un encuentro directo suele terminar con la retirada de uno de ellos. Cuando escasea la comida puede intentar arrebatar pequeñas reses a los rebaños, originando conflictos recurrentes con los pastores de las montañas bajas."
+        },
+        {
+          "type": "h",
+          "text": "Cortejo, crianza y longevidad"
+        },
+        {
+          "type": "p",
+          "text": "Los machos adultos son territoriales y la mayor parte del año se desplazan solos. Durante el celo se reúnen temporalmente en laderas donde golpean sus cuernos y se empujan con los hombros; algunos terminan las disputas con heridas profundas. Las hembras paren una sola cría, raramente dos, en una cueva de invierno y la mantienen bajo vigilancia durante muchos meses. Su maduración es lenta: un joven puede seguir a su madre durante dos temporadas antes de establecer un territorio. Esta baja tasa reproductiva explica por qué la población nunca es numerosa. Los ejemplares viejos, reconocibles por cuernos desgastados, pueden superar treinta años y conservan una memoria detallada de rutas y peligros."
+        },
+        {
+          "type": "h",
+          "text": "Conducta ante intrusos"
+        },
+        {
+          "type": "p",
+          "text": "Las agresiones comienzan casi siempre con señales que un viajero apurado no sabe interpretar: piedras desplazadas, bufidos, raspaduras de cuernos y una postura erguida destinada a aumentar su aparente tamaño. Si la advertencia se ignora, el animal carga en trayectorias cortas y utiliza los brazos para derribar al intruso contra la roca. No persigue durante kilómetros, pero puede controlar un paso estrecho durante horas. El miedo que provoca ha exagerado su supuesta maldad. Los Ojopiedras insisten en que comprender cuándo retirarse evita más muertes que cualquier técnica de combate. Los ejemplares heridos o habituados a robar ganado son, con diferencia, los más peligrosos."
+        },
+        {
+          "type": "h",
+          "text": "Relación cultural con Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "En algunos pueblos se tallan máscaras de Krampus durante los festivales invernales para recordar a los niños la necesidad de respetar las laderas y no entrar en cuevas desconocidas. Sus cuernos, conseguidos casi siempre de cadáveres, se utilizan para fabricar mangos y objetos ceremoniales de gran valor. Existen relatos de guerreros que lo han abatido solos, pero las observaciones fiables describen cacerías largas y difíciles. Su fuerza ha llevado a considerarlo un monstruo, aunque su dieta y conducta indican una especie animal muy especializada. El Círculo de Faëandir recomienda desplazar temporalmente los rebaños antes que exterminar una población que ocupa un enclave desde hace generaciones."
+        },
+        {
+          "type": "h",
+          "text": "Señales de proximidad"
+        },
+        {
+          "type": "p",
+          "text": "Deja hendiduras profundas en repisas estrechas, marcas horizontales de cuernos en troncos y montones de piedras removidas cerca de raíces nutritivas. Su pelaje largo queda enredado en las entradas de las cuevas, y el olor almizclado puede persistir días en lugares cerrados. Una cueva con excrementos recientes, tierra revuelta y pequeñas huellas debe considerarse refugio de cría: no se debe investigar sin una vía de retirada comprobada. En la montaña, la curiosidad es menos valiosa que la prudencia, y pocas especies castigan tan severamente el error de confundir silencio con ausencia."
+        },
+        {
+          "type": "p",
+          "text": "«La montaña da una advertencia antes del golpe. El necio suele escucharla demasiado tarde». — Dicho de un pastor de pasos altos."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-24",
+      "number": 24,
+      "name": "Basilisco de Caverna",
+      "subtitle": "",
+      "imgurId": "gKXPeMO",
+      "imgurPage": "https://imgur.com/gKXPeMO",
+      "facts": [
+        [
+          "Hábitat",
+          "Cuevas húmedas, minas abandonadas y galerías geotérmicas"
+        ],
+        [
+          "Tamaño",
+          "1,4–2,2 m de longitud; 25–60 kg"
+        ],
+        [
+          "Dieta",
+          "Murciélagos, roedores, anfibios, huevos y carroña pequeña"
+        ],
+        [
+          "Organización",
+          "Solitario; presencia de juveniles cerca de lugares de eclosión"
+        ],
+        [
+          "Longevidad",
+          "15–22 años; puestas de 3–7 huevos"
+        ],
+        [
+          "Peligrosidad",
+          "Alta en espacios cerrados por mordedura, veneno y pánico de las presas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reptil escamoso · depredador venenoso · emboscador   |   Inspiración: Basilisco, bestiarios medievales europeos"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La lámpara ilumina una pared cubierta de manchas blancas y excremento reseco. Más allá, dos piedras brillantes parecen reflejar la llama, aunque una de ellas parpadea. El cuerpo emerge a ras del suelo: escamas oscuras, cuello anguloso y una cresta de placas membranosas que se abre lentamente. La criatura no necesita correr. Espera inmóvil mientras una rata desaparece bajo su mandíbula y, al cerrar los ojos, la galería parece respirar de nuevo. Muchos mineros atribuyen a la mirada del basilisco la muerte de quien lo observa; los exploradores experimentados señalan que los vapores de ciertas cavernas, combinados con una mordedura venenosa, bastan para explicar la mayoría de aquellas historias."
+        },
+        {
+          "type": "h",
+          "text": "Basilisco de Caverna · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología y aparatos defensivos"
+        },
+        {
+          "type": "p",
+          "text": "El Basilisco de Caverna es un saurio de tronco bajo, cuello musculoso, cola pesada y patas provistas de uñas apropiadas para trepar sobre rocas húmedas. La cresta dorsal y los pliegues laterales del cuello aumentan su tamaño aparente durante una amenaza y sirven en el cortejo. Sus ojos poseen una capa reflectante que devuelve la luz de antorchas y cristales, origen probable de la superstición según la cual petrifica con la mirada. No existen observaciones fiables de ese poder. En cambio, un par de glándulas venenosas asociadas a los dientes posteriores produce una secreción capaz de provocar dolor intenso, inflamación y torpeza muscular; la dosis y gravedad dependen de la duración de la mordedura."
+        },
+        {
+          "type": "h",
+          "text": "Distribución subterránea"
+        },
+        {
+          "type": "p",
+          "text": "No ocupa cualquier cueva. Necesita humedad persistente, refugios con temperaturas moderadas y acceso a una cadena alimentaria estable. Es frecuente cerca de surgencias cálidas, galerías donde anidan murciélagos o minas abandonadas con charcos y poblaciones de roedores. Una población pequeña puede sobrevivir durante años sin llamar la atención de la superficie. Evita los grandes pozos inundados, donde pierde movilidad y temperatura, y rara vez se aventura fuera de una entrada rocosa salvo durante noches excepcionalmente templadas. Su presencia es especialmente preocupante en minas reabiertas después de décadas, porque las galerías aparentemente vacías pueden haberse convertido en territorios de caza."
+        },
+        {
+          "type": "h",
+          "text": "Caza y alimentación"
+        },
+        {
+          "type": "p",
+          "text": "Permanece oculto durante horas junto a pasos utilizados por sus presas. Su menú habitual comprende ratas cavernarias, murciélagos caídos, anfibios, grandes escarabajos y huevos de aves que nidifican en entradas de cuevas. Puede consumir carroña reciente, pero evita cuerpos muy descompuestos. Después de capturar una presa grande suele permanecer varios días inmóvil, metabolizando lentamente el alimento y conservando energía. Esta economía de movimiento es fundamental en hábitats donde la comida es irregular. Los juveniles dependen de invertebrados y pequeños vertebrados antes de desarrollar la fuerza mandibular necesaria para capturar animales más grandes. El basilisco no necesita perseguir ni hostigar a viajeros para sobrevivir."
+        },
+        {
+          "type": "h",
+          "text": "Territorialidad y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos suelen ocupar galerías separadas, marcadas con secreciones de olor penetrante y rasguños bajos en la roca blanda. Las disputas se producen cuando dos individuos coinciden cerca de una fuente de calor o de un nido de murciélagos especialmente abundante. La hembra deposita de tres a siete huevos coriáceos en grietas tibias y protegidas; los cubre parcialmente con grava y suele vigilarlos durante parte del desarrollo. Las crías nacen capaces de cazar insectos por sí mismas y presentan crestas menos visibles. La mortalidad juvenil es alta debido a la competencia y al canibalismo ocasional. Su longevidad se estima en dos décadas para ejemplares que consiguen mantener un territorio rico en presas."
+        },
+        {
+          "type": "h",
+          "text": "Peligrosidad y signos de ataque"
+        },
+        {
+          "type": "p",
+          "text": "El basilisco intenta retirarse cuando dispone de una grieta abierta, pero en un pasillo estrecho puede interpretar la aproximación humana como un bloqueo deliberado. Eriza la cresta, abre la boca y emite un siseo grave. Una mordedura suele ir seguida de movimientos de retirada, pues el veneno actúa mientras la presa huye o se inmoviliza. Las historias sobre víctimas convertidas en piedra pueden derivar de cuerpos hallados rígidos tras sufrir intoxicaciones en cámaras pobres en aire. Los Ojopiedras aconsejan ventilación, luz estable y vigilancia de las salidas antes de acercarse. Nunca se debe levantar una piedra sobre la que descansa una criatura desconocida."
+        },
+        {
+          "type": "h",
+          "text": "Usos y conflictos humanos"
+        },
+        {
+          "type": "p",
+          "text": "Su veneno interesa a determinados alquimistas, pero la extracción requiere inmovilizar a un animal extremadamente peligroso y puede dañar las glándulas si se realiza sin conocimientos. En las regiones mineras de Varnok y los caminos hacia Fjjord se colocan avisos sobre galerías ocupadas. Algunos capataces han preferido inundar o quemar cuevas completas para expulsarlo, práctica que suele producir derrumbes y matar fauna cavernaria inocua. El Círculo impulsa capturas controladas y traslado de ejemplares cuando una nueva mina invade un refugio preexistente. Sus placas y piel tienen poco valor comparadas con el riesgo de una caza descuidada."
+        },
+        {
+          "type": "h",
+          "text": "Rastreo seguro"
+        },
+        {
+          "type": "p",
+          "text": "Las huellas muestran cuatro dedos principales y arrastre de cola en sedimentos finos. Cerca de los refugios aparecen restos de alas de murciélago, huesos limpios y excrementos oscuros con fragmentos de quitina. Un olor acre persistente en una galería tibia es más fiable que cualquier relato sobre ojos malditos. El observador debe recordar que el brillo ocular puede provenir de otros animales y que un basilisco inmóvil se confunde fácilmente con una roca húmeda. La exploración se realiza desde distancia, sin intentar obligarlo a abandonar su escondite: hacer que una criatura venenosa entre en pánico constituye la forma más segura de provocar un accidente."
+        },
+        {
+          "type": "p",
+          "text": "«No fue su mirada la que mató al minero, sino la prisa con la que este metió la mano en una grieta». — Informe de una galería cerrada."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-25",
+      "number": 25,
+      "name": "Fáfnir de las Vetas",
+      "subtitle": "",
+      "imgurId": "bZiRCoI",
+      "imgurPage": "https://imgur.com/bZiRCoI",
+      "facts": [
+        [
+          "Hábitat",
+          "Cavernas mineralizadas, barrancos profundos y redes de fumarolas"
+        ],
+        [
+          "Tamaño",
+          "9–14 m de longitud; 4–9 toneladas"
+        ],
+        [
+          "Dieta",
+          "Grandes ungulados, carroña, reptiles cavernarios y presas ocasionales"
+        ],
+        [
+          "Organización",
+          "Solitario; áreas de vida enormes y ejemplares extremadamente escasos"
+        ],
+        [
+          "Longevidad",
+          "Más de 120 años; reproducción rara y lenta"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema; amenaza regional, no depredador común"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Saurio colosal sin alas · depredador ápice · relicto cavernario   |   Inspiración: Fáfnir, leyenda nórdica"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La caverna no parece habitada hasta que las piedras comienzan a deslizarse hacia abajo, como si el propio suelo hubiera despertado. Entre vetas doradas surge un lomo de placas oscuras atravesadas por incrustaciones minerales. Después aparece el cuello, demasiado grande para las galerías que lo rodean, y una mandíbula cuya presión ha dejado surcos en la roca. El Fáfnir no muestra prisa: percibe el olor de los intrusos, gira el cuerpo para cerrarles el paso y se dispone a defender un refugio que ocupa desde antes de la memoria de muchas aldeas. Las canciones hablan de un dragón ávido de tesoros. Para quienes han visto sus excrementos y restos de comida, la verdad es distinta: el mineral forma parte de su refugio, no de su dieta, y la montaña guarda al monstruo mucho antes de que el oro llegara a despertar la codicia humana."
+        },
+        {
+          "type": "h",
+          "text": "Fáfnir de las Vetas · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Morfología de un gigante sin alas"
+        },
+        {
+          "type": "p",
+          "text": "El Fáfnir de las Vetas es uno de los mayores reptiles terrestres documentados en las Cuatro Montañas. Su anatomía combina un tronco pesado, cuatro extremidades de huesos gruesos, una cola musculosa que equilibra giros estrechos y una cabeza triangular preparada para aplastar. No posee alas ni capacidad de volar. Las placas dorsales presentan depósitos de sales y minerales adheridos durante décadas de contacto con galerías húmedas, hasta asemejarse a una armadura de metal oscuro. Bajo esa costra permanece una piel viva que necesita mudar parcialmente. Los adultos viejos lucen crestas desgastadas, dientes reemplazados muchas veces y cicatrices que permiten reconocer a individuos concretos durante generaciones."
+        },
+        {
+          "type": "h",
+          "text": "Un territorio demasiado grande"
+        },
+        {
+          "type": "p",
+          "text": "Su tamaño exige áreas de alimentación vastísimas. Por ello se concentra en sistemas de cavernas conectados con valles donde migran grandes ungulados y en barrancos poco transitados con salida hacia rutas de presas. El calor residual de ciertas fumarolas le permite mantener actividad incluso durante inviernos rigurosos; cuando las condiciones empeoran entra en largos períodos de reposo. La aparente asociación con vetas metálicas se explica por la estabilidad térmica y la profundidad de los refugios, no por una necesidad de alimentarse de minerales. Los asentamientos situados sobre galerías antiguas pueden pasar años sin detectar su presencia hasta que una excavación abre una salida que permanecía sellada."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y balance ecológico"
+        },
+        {
+          "type": "p",
+          "text": "Un Fáfnir consume presas grandes con poca frecuencia. Prefiere uros heridos, grandes ciervos y otros animales incapaces de escapar de un ataque corto, pero no desdeña cadáveres arrastrados por las avenidas de montaña. Puede sobrevivir semanas sin cazar y, tras una comida descomunal, permanecer casi inmóvil durante días. Esta baja frecuencia alimentaria explica que unos pocos individuos puedan existir sin vaciar de fauna toda una región. Sus ataques contra aldeas son excepcionales y suelen seguir perturbaciones del refugio o desplazamientos forzados por hambre y derrumbes. Pese a ello, la pérdida de un solo rebaño basta para provocar catástrofes económicas locales y represalias que a menudo empeoran la situación."
+        },
+        {
+          "type": "h",
+          "text": "Ciclo vital y singularidad"
+        },
+        {
+          "type": "p",
+          "text": "La reproducción del Fáfnir está escasamente documentada. Los testimonios más fiables describen cavidades profundas con una o dos cáscaras enormes, de superficie rugosa y gran resistencia. Todo apunta a intervalos reproductivos muy largos y a una maduración que puede prolongarse durante décadas. Un juvenil, aunque de tamaño reducido frente al adulto, ya resulta peligroso para viajeros solitarios. Los individuos de mayor edad tal vez superen un siglo y conservan rutas fijas entre agua, calor y alimento. Su número regional podría ser inferior a una decena de adultos fértiles, circunstancia que vuelve poco creíbles los relatos de manadas de dragones bajo cada montaña. Cada hallazgo confirmado tiene valor zoológico y político extraordinario."
+        },
+        {
+          "type": "h",
+          "text": "Comportamiento y combate"
+        },
+        {
+          "type": "p",
+          "text": "Se trata de un animal territorial y esencialmente solitario. Antes de atacar intenta ocupar la salida más próxima, agita la cola sobre grava y muestra el interior de la boca con un resoplido profundo. Su principal arma es la combinación de masa, mandíbulas y empuje corporal; no se le atribuye de manera verificable un aliento de fuego. Los relatos de llamas pueden nacer de encuentros en grietas con gases calientes y combustibles, donde una chispa produce resultados devastadores. El Fáfnir no persigue a través de bosques durante horas; prefiere emboscadas, túneles y cambios bruscos de dirección que favorecen su potencia. En esos espacios una compañía armada puede resultar tan vulnerable como un rebaño."
+        },
+        {
+          "type": "h",
+          "text": "Los pueblos y los tesoros"
+        },
+        {
+          "type": "p",
+          "text": "Su figura ocupa un lugar importante en canciones nórdicas sobre codicia, pactos y riqueza enterrada. Sin embargo, las supuestas joyas guardadas por el animal suelen ser depósitos minerales, huesos acumulados y piezas de antiguos exploradores arrastradas hacia su guarida. Los mineros temen reabrir galerías asociadas con desprendimientos inexplicables. Los Capas Negras de Faëandir solamente justificarían una cacería de exterminio ante una amenaza persistente contra poblaciones, porque abatir un ejemplar puede exigir enormes pérdidas y alterar un ecosistema subterráneo entero. El conocimiento de sus rutas vale más que su muerte cuando los caminos pueden desviarse."
+        },
+        {
+          "type": "h",
+          "text": "Rastros, advertencias y protocolos"
+        },
+        {
+          "type": "p",
+          "text": "Las placas desprendidas parecen fragmentos de pizarra oscura con estrías orgánicas internas. Los túneles utilizados presentan rocas pulidas por roce, huellas profundas de cinco dedos y acumulaciones de huesos aplastados. Un olor a cuero húmedo, minerales y carne vieja puede persistir alrededor del refugio. Si se descubre un rastro reciente, lo prudente es retroceder y cartografiar desde el exterior: entrar más profundamente solo facilita que el animal cierre la retirada. Las expediciones deben comunicar de inmediato cualquier hallazgo al responsable de rutas de Jorundathr, pues una criatura de semejante tamaño puede alterar el tránsito de toda una comarca."
+        },
+        {
+          "type": "p",
+          "text": "«La mina prometía oro; el mapa nos exigió cerrar la puerta. Entre ambas decisiones estaba la vida de cien hombres». — Registro de una expedición a las vetas profundas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-26",
+      "number": 26,
+      "name": "Nøkk de los Lagos",
+      "subtitle": "",
+      "imgurId": "bEN0R2p",
+      "imgurPage": "https://imgur.com/bEN0R2p",
+      "facts": [
+        [
+          "Hábitat",
+          "Lagos fríos y profundos, canales de desagüe y orillas boscosas"
+        ],
+        [
+          "Tamaño",
+          "2,6–3,5 m de longitud; 500–850 kg"
+        ],
+        [
+          "Dieta",
+          "Peces grandes, aves acuáticas, mamíferos ribereños y carroña"
+        ],
+        [
+          "Organización",
+          "Solitario; encuentros breves durante la reproducción"
+        ],
+        [
+          "Longevidad",
+          "22–35 años; una cría por parto"
+        ],
+        [
+          "Peligrosidad",
+          "Alta cerca de la orilla, en especial al crepúsculo"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mamífero anfibio de aspecto equino · depredador lacustre   |   Inspiración: Nøkk / Nøkken, tradiciones escandinavas"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Al final de la tarde, cuando el lago se cubre de una niebla azul, alguien escucha un resoplido semejante al de un caballo que bebe junto a la orilla. Una figura oscura emerge entre juncos: cuello largo, ojos negros y una melena que parece hecha de algas. Durante unos instantes parece un animal extraviado. Solo al moverse revela las extremidades palmeadas, la piel húmeda y los dientes que sobresalen de una boca demasiado abierta. Se desliza sin esfuerzo al agua, dejando tras de sí círculos que se extienden hasta la otra ribera. Los relatos aseguran que el Nøkk atrae al incauto con una canción. Los pescadores más viejos nunca hablan de canciones: hablan del silencio que precede al tirón bajo la superficie."
+        },
+        {
+          "type": "h",
+          "text": "Nøkk de los Lagos · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía de un falso caballo"
+        },
+        {
+          "type": "p",
+          "text": "El Nøkk de los Lagos posee un perfil equino que engaña a distancia, pero su anatomía revela una adaptación profunda a la vida acuática. Tiene cuello flexible, piel oscura protegida por una secreción oleosa, membranas interdigitales amplias y una capa de grasa que conserva el calor en aguas heladas. La supuesta crin está formada por pelos largos donde se enredan algas y residuos vegetales; por eso su figura parece confundirse con el lago. Respira aire y necesita ascender a la superficie, aunque puede permanecer sumergido durante períodos prolongados. La dentición posterior es robusta y apropiada para sujetar peces resbaladizos, mientras los incisivos y colmillos anteriores permiten sujetar pequeñas presas que se acercan a beber."
+        },
+        {
+          "type": "h",
+          "text": "Aguas preferidas y movimientos"
+        },
+        {
+          "type": "p",
+          "text": "Busca lagos con sectores profundos, orillas cubiertas de vegetación y pasos sumergidos hacia zonas donde abundan peces. Evita las aguas rápidas de alta montaña y los lagos poco profundos que se congelan hasta el fondo. Durante el verano recorre bordes con juncos y playas de grava; en invierno permanece cerca de manantiales subacuáticos donde la temperatura es más estable. Un solo individuo puede ocupar gran parte de un lago, desplazándose entre refugios de piedra y raíces inundadas. Raramente abandona el agua salvo para descansar, perseguir una presa inmediata o trasladarse entre lagunas conectadas tras inundaciones."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y estrategia de caza"
+        },
+        {
+          "type": "p",
+          "text": "Se alimenta principalmente de grandes peces, aunque también captura aves acuáticas, roedores y animales de mayor tamaño que se aproximan de forma imprudente. Espera oculto entre vegetación sumergida hasta que la presa entra en el alcance de una embestida breve. Sus vibrisas y la sensibilidad del hocico le permiten detectar ondas del agua en condiciones de visibilidad mínima. No es un devorador constante de personas: la mayoría de los incidentes documentados afectan a pescadores que intentan acercarse a una silueta equina o a animales domésticos que beben en zonas ocupadas. Su presencia influye en el comportamiento de los cardúmenes y limita la permanencia de otras especies depredadoras en ciertas orillas."
+        },
+        {
+          "type": "h",
+          "text": "Ciclo vital y conducta social"
+        },
+        {
+          "type": "p",
+          "text": "Los adultos viven separados y solamente coinciden durante breves períodos reproductivos. La hembra da a luz una cría bien desarrollada, capaz de mantenerse a flote desde muy pronto, pero dependiente de ella durante meses. Los jóvenes utilizan pequeñas ensenadas como refugio y son vulnerables a los Afanc de mayor tamaño en lagos donde ambas especies comparten hábitat. El Nøkk madura lentamente y conserva durante años las mismas rutas, circunstancia que permite identificar ejemplares mediante cicatrices de cuello y manchas claras. Su expectativa de vida puede superar tres décadas cuando dispone de alimento abundante y no sufre heridas graves."
+        },
+        {
+          "type": "h",
+          "text": "Ferocidad y advertencias"
+        },
+        {
+          "type": "p",
+          "text": "El primer signo de incomodidad es la inmovilidad: permanece con el hocico fuera del agua, mirando fijamente hacia la orilla. Si el intruso avanza, desaparece bajo la superficie y puede volver a aparecer a su espalda. Su fuerza es superior a la de un caballo común y resulta especialmente peligrosa cuando logra sujetar a una presa en aguas profundas. Los Ojopiedras prohíben aproximarse a un supuesto caballo que emerge de un lago sin identificar pezuñas, respiración y comportamiento. Debe mantenerse una salida terrestre despejada y evitar que niños o animales entren al agua siguiendo una silueta. Su agresión procede de la predación o la defensa territorial, no de una voluntad maligna."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los pueblos ribereños"
+        },
+        {
+          "type": "p",
+          "text": "Los poblados lacustres cuentan historias de músicos ahogados y caballos que jamás salen del agua. Esas tradiciones pueden servir como advertencias eficaces aunque atribuyan a la criatura poderes no demostrados. Los pescadores colocan boyas talladas donde existe un territorio conocido y prefieren dejar amplios tramos sin redes para que los peces migren. La caza de Nøkk es difícil y pocas veces rentable; la carne tiene olor fuerte, y una captura peligrosa puede dañar embarcaciones. Jorundathr utiliza estos registros para decidir dónde ubicar muelles y puntos de abastecimiento. Faëandir registra individualmente los ejemplares que se aproximan a rutas habitadas."
+        },
+        {
+          "type": "h",
+          "text": "Huellas y reconocimiento"
+        },
+        {
+          "type": "p",
+          "text": "En barro húmedo se distinguen marcas palmeadas y arrastres anchos de vientre, no las huellas nítidas de un equino terrestre. La vegetación suele aparecer doblada a una altura inusual y, en rincones poco profundos, pueden quedar grandes escamas de peces consumidos. Sus resoplidos, graves y húmedos, viajan lejos en el aire inmóvil de la tarde. El observador debe recordar que los lagos magnifican y deforman los sonidos: no conviene seguir una llamada sin comprobar primero su origen. El mejor rastro de un Nøkk es la desaparición repentina de aves acuáticas de una ensenada donde antes descansaban regularmente."
+        },
+        {
+          "type": "p",
+          "text": "«El lago imita cuanto quiere el viajero ver. Comprueba las patas antes de acercarte al caballo». — Advertencia de los remeros de las cuencas interiores."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-27",
+      "number": 27,
+      "name": "Afanc Glacial",
+      "subtitle": "",
+      "imgurId": "OmmBkMR",
+      "imgurPage": "https://imgur.com/OmmBkMR",
+      "facts": [
+        [
+          "Hábitat",
+          "Lagos glaciares con aguas profundas, deltas fríos y canales de descarga"
+        ],
+        [
+          "Tamaño",
+          "5–8 m de longitud; 1,5–3 toneladas"
+        ],
+        [
+          "Dieta",
+          "Peces grandes, Nøkk jóvenes, aves y mamíferos de orilla"
+        ],
+        [
+          "Organización",
+          "Solitario y extremadamente territorial"
+        ],
+        [
+          "Longevidad",
+          "55–80 años; puesta pequeña cada varios años"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema en aguas cerradas y desembocaduras estrechas"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reptil acuático gigante · depredador ápice de agua dulce   |   Inspiración: Afanc, tradición galesa"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "La superficie del lago parece tranquila hasta que un tronco comienza a desplazarse contra el viento. Su textura cambia a medida que se acerca: placas grises, crestas húmedas y dos ojos amarillentos apenas sobre el agua. Una orilla de grava tiembla cuando el Afanc gira lentamente la cola bajo la superficie. No necesita perseguir a un bote; le basta interceptar el canal estrecho por el que debe pasar. Cuando emerge, el sonido más aterrador no es un rugido, sino el crujido de las piedras bajo su peso. Una sola embestida puede hundir una embarcación de pesca. Los aldeanos recuerdan a los monstruos que arrastraban diques; los Ojopiedras observan que incluso un animal que no busca destruirlos puede hacerlo simplemente con el movimiento de su cuerpo."
+        },
+        {
+          "type": "h",
+          "text": "Afanc Glacial · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía y resistencia al frío"
+        },
+        {
+          "type": "p",
+          "text": "El Afanc Glacial es un enorme reptil acuático, bajo y ancho, protegido por placas dérmicas mineralizadas que recorren espalda, cuello y cola. Su cabeza poderosa presenta un hocico alargado con dientes adecuados para sujetar presas grandes, mientras las extremidades cortas y palmeadas sirven para estabilizarse sobre fondos rocosos. La cola, comprimida lateralmente, genera la mayor parte de la propulsión bajo el agua. A diferencia de reptiles comunes, posee adaptaciones fisiológicas que le permiten mantener actividad prolongada en aguas frías, aunque busca frecuentemente orillas soleadas o surgencias tibias. La superficie de su armadura acumula algas y sedimentos, por lo que un adulto inmóvil se confunde con un tronco o con una roca sumergida."
+        },
+        {
+          "type": "h",
+          "text": "Territorios lacustres"
+        },
+        {
+          "type": "p",
+          "text": "Una masa corporal tan grande exige lagos profundos, abundancia de peces y lugares donde descansar sin ser perturbado. Prefiere cuencas glaciares que conservan sectores libres de hielo y canales de desagüe por los que ascienden grandes cardúmenes. Cada adulto defiende un territorio extenso y suele patrullar rutas relativamente fijas entre un refugio profundo, zonas de caza y bancos de grava utilizados para asolearse. Los ejemplares jóvenes pueden desplazarse río abajo durante crecidas, provocando apariciones inesperadas cerca de poblados. La presencia de un Afanc adulto reduce notablemente el número de otros grandes depredadores acuáticos, aunque no impide la coexistencia temporal con Nøkk en sectores separados."
+        },
+        {
+          "type": "h",
+          "text": "Alimentación y lugar en la cadena trófica"
+        },
+        {
+          "type": "p",
+          "text": "Consume peces grandes como alimento habitual, pero puede capturar aves acuáticas, mamíferos que cruzan un brazo de agua e incluso crías de Nøkk. Su caza depende de la emboscada: permanece inmóvil bajo la superficie, calcula el movimiento de la presa y lanza una embestida breve de enorme fuerza. No persigue indefinidamente y puede ayunar durante períodos prolongados tras una comida abundante. El transporte de restos hacia la profundidad alimenta crustáceos y otros carroñeros del lago. Por su rareza no convierte cada ribera en una zona mortífera, pero una sola presencia mal comprendida basta para comprometer la pesca y el abastecimiento de varias comunidades."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción y desarrollo"
+        },
+        {
+          "type": "p",
+          "text": "Las hembras adultas buscan bancos altos de arena y grava al final de la época templada, cuando las temperaturas permiten la incubación de una pequeña puesta. Cubren los huevos con sedimento vegetal y regresan periódicamente al lugar, comportamiento que vuelve extremadamente peligroso acercarse a una orilla aparentemente desierta. Las crías son vulnerables a peces grandes, aves y a otros Afanc, por lo que pocos juveniles alcanzan dimensiones notables. Su crecimiento se prolonga durante décadas y los adultos pueden vivir muchos años si conservan un territorio estable. Esta reproducción lenta es incompatible con poblaciones numerosas: cada lago debería albergar, en el mejor de los casos, uno o unos pocos individuos adultos."
+        },
+        {
+          "type": "h",
+          "text": "Respuesta ante intrusos"
+        },
+        {
+          "type": "p",
+          "text": "Cuando detecta una amenaza el Afanc puede sumergirse sin mostrar agresión, pero también vigilarla desde una distancia mínima con los ojos casi invisibles. Las conductas de aviso incluyen golpes de cola contra el fondo, burbujeos violentos y desplazamientos laterales que hacen oscilar embarcaciones. Un barco pequeño no ofrece protección frente a un adulto. No existen pruebas de que busque deliberadamente destruir puentes; las roturas atribuidas a su malicia suelen producirse cuando utiliza una estructura como apoyo o intenta atravesar un paso demasiado estrecho. Los Ojopiedras recomiendan no arrojar cebos al agua para confirmar su presencia, porque un animal acostumbrado a buscar comida junto a muelles se vuelve mucho más peligroso."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las rutas de Bergheim"
+        },
+        {
+          "type": "p",
+          "text": "Las aldeas de las cuencas glaciales han aprendido a construir embarcaderos en orillas elevadas y a señalar los bancos de puesta. Los capitanes de pesca prefieren navegar en grupos, no porque la fuerza conjunta pueda derrotar al Afanc, sino porque ayuda a vigilar el agua y facilitar rescates. La carne y las placas del animal son valiosas para comerciantes sin escrúpulos, pero la caza puede exterminar una población local y provocar conflictos con santuarios que lo consideran guardián del lago. Para Faëandir, una intervención legítima exige demostrar una amenaza persistente contra rutas habitadas. El conocimiento de sus movimientos suele permitir una convivencia tensa pero posible."
+        },
+        {
+          "type": "h",
+          "text": "Rastros y seguridad"
+        },
+        {
+          "type": "p",
+          "text": "Las marcas de arrastre presentan surcos amplios de cola y señales profundas de garras en grava húmeda. Los lugares de descanso muestran piedras comprimidas, algas secas y restos de escamas de peces mayores. Una superficie que hierve de repente sin cambio de viento puede indicar un movimiento de cola bajo el agua, no necesariamente un ataque inminente. Se debe evitar nadar, desembarcar o acercar ganado a bancos frecuentados por Afanc. Los exploradores deben registrar época, temperatura y nivel del lago junto a cada avistamiento, porque esos factores suelen explicar sus desplazamientos mejor que los relatos sobre monstruos enfurecidos."
+        },
+        {
+          "type": "p",
+          "text": "«El monstruo no derribó nuestro puente por odio. Se limitó a pasar bajo él». — Testimonio recogido tras una crecida glacial."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-28",
+      "number": 28,
+      "name": "Dobharchú",
+      "subtitle": "",
+      "imgurId": "L6NyJju",
+      "imgurPage": "https://imgur.com/L6NyJju",
+      "facts": [
+        [
+          "Hábitat",
+          "Ríos de montaña, rápidos boscosos y desembocaduras frías"
+        ],
+        [
+          "Tamaño",
+          "2,3–3,4 m de longitud; 110–240 kg"
+        ],
+        [
+          "Dieta",
+          "Peces, crustáceos, aves acuáticas y mamíferos pequeños"
+        ],
+        [
+          "Organización",
+          "Parejas o grupos familiares de 2–4; crías protegidas con ferocidad"
+        ],
+        [
+          "Longevidad",
+          "13–19 años; normalmente 1–2 crías"
+        ],
+        [
+          "Peligrosidad",
+          "Alta en proximidad a refugios y cuando defiende alimento"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mamífero semiacuático · mustélido gigante · depredador social limitado   |   Inspiración: Dobhar-chú, folclore irlandés"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Los peces desaparecen del remanso antes de que el viajero vea nada. Entonces un bulto pardo rompe la corriente y surge sobre una piedra, sacudiendo gotas que parecen agujas a la luz de la mañana. Tiene el cuerpo flexible de una nutria, pero la cabeza es ancha y la mandíbula recuerda a la de un perro de presa. Detrás aparece otra silueta, más pequeña. El adulto mira hacia la orilla, emite un silbido profundo y vuelve a sumergirse, no para escapar, sino para situarse entre el intruso y su cachorro. Desde lejos la criatura parece curiosa. Quien confunde esa atención con mansedumbre puede descubrir demasiado tarde que, en el agua, el Dobharchú se mueve con una velocidad imposible de igualar."
+        },
+        {
+          "type": "h",
+          "text": "Dobharchú · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía del perro de agua"
+        },
+        {
+          "type": "p",
+          "text": "El Dobharchú presenta un cuerpo alargado y musculoso, patas cortas con membranas interdigitales, cuello flexible y una cola gruesa que actúa como timón. Su cabeza, más ancha que la de una nutria ordinaria, sostiene músculos mandibulares capaces de quebrar espinas de peces grandes y sujetar presas que se retuercen. El pelaje contiene dos capas: una externa resistente al agua y otra fina que retiene aire caliente junto a la piel. Sus bigotes son extraordinariamente sensibles y le permiten rastrear movimientos entre piedras sin necesidad de ver. Aunque su forma recuerda a un cánido, su esqueleto y conducta lo acercan mucho más a los grandes mustélidos acuáticos."
+        },
+        {
+          "type": "h",
+          "text": "Aguas que necesita"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere ríos fríos de corriente variable, con remansos profundos, orillas socavadas y abundancia de peces. Las madrigueras se abren a menudo bajo raíces de árboles o detrás de pequeñas cascadas, con accesos parcialmente ocultos por el agua. Durante el invierno puede desplazarse hacia desembocaduras donde la corriente no se congela por completo. Evita lagunas demasiado tranquilas dominadas por Afanc y canales muy estrechos en los que no puede girar con rapidez. Un territorio familiar puede abarcar varios kilómetros de ribera y pequeños tributarios, marcados mediante olor y raspaduras que otros grupos reconocen antes de encontrarse."
+        },
+        {
+          "type": "h",
+          "text": "Nutrición y función ecológica"
+        },
+        {
+          "type": "p",
+          "text": "Su alimento principal son peces medianos y grandes, capturados en persecuciones cortas y giros rápidos. También consume crustáceos, moluscos de agua dulce, aves acuáticas sorprendidas en la orilla y pequeños mamíferos durante épocas de escasez. Puede dejar restos de comida en bancos de piedra que luego aprovechan córvidos y carroñeros terrestres. Al capturar peces enfermos o debilitados contribuye a regular poblaciones locales, pero en tramos donde la pesca humana es intensa puede entrar en competencia con comunidades enteras. Los ejemplares jóvenes aprenden la caza siguiendo a los adultos durante muchas semanas y practicando con presas pequeñas antes de enfrentarse a las corrientes mayores."
+        },
+        {
+          "type": "h",
+          "text": "Organización social y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "A diferencia de varios depredadores mayores de las montañas, los Dobharchú suelen mantener vínculos de pareja y toleran la permanencia temporal de una o dos crías. Su comunicación incluye silbidos, chasquidos y golpes de cola sobre el agua. Las hembras paren habitualmente una o dos crías en una cámara seca próxima a un remanso, y durante las primeras semanas los adultos limitan drásticamente sus movimientos para protegerlas. El crecimiento es rápido, pero la madurez reproductiva exige varios años. Las disputas entre familias vecinas pueden ser violentas, aunque la mayoría se resuelve mediante persecuciones y señales de olor sin heridas mortales. La esperanza de vida natural ronda dos décadas en ejemplares excepcionalmente afortunados."
+        },
+        {
+          "type": "h",
+          "text": "Ferocidad y límites de su amenaza"
+        },
+        {
+          "type": "p",
+          "text": "Es una especie curiosa y muy inteligente en términos prácticos, capaz de memorizar dónde aparecen redes o dónde se abren trampas para peces. Tal capacidad no debe confundirse con deseo de atacar humanos. Las mordeduras graves suelen producirse al intentar arrebatarle una presa, penetrar en una madriguera o interponerse entre madre y cachorro. En agua profunda puede sujetar una extremidad y arrastrar a un nadador, pero normalmente abandona la confrontación cuando dispone de retirada. Las barcas pequeñas son vulnerables a su curiosidad si llevan pescado sin guardar; los navegantes prudentes atan las capturas y no alimentan animales silvestres desde cubierta."
+        },
+        {
+          "type": "h",
+          "text": "Relación con pescadores y cazadores"
+        },
+        {
+          "type": "p",
+          "text": "En muchos poblados ribereños se le conoce como perro de río, denominación que ha dado lugar a confusiones con huargos jóvenes y Nøkk. Su piel fue apreciada antiguamente por su impermeabilidad, pero las colonias son pequeñas y la captura indiscriminada puede vaciar un valle en pocos años. Los pescadores suelen tolerarlo en tributarios poco explotados, donde su presencia indica aguas relativamente sanas. Algunos relatos hablan de venganzas ejecutadas por una pareja tras la muerte de uno de sus miembros; los Ojopiedras interpretan tales persecuciones como defensa persistente del territorio o del alimento. No se recomienda intentar domesticarlo: necesita kilómetros de río y un comportamiento exploratorio difícil de reproducir en cautiverio."
+        },
+        {
+          "type": "h",
+          "text": "Señales y protocolos de campo"
+        },
+        {
+          "type": "p",
+          "text": "Los montones de escamas y espinas limpias sobre piedras lisas son uno de sus indicios más característicos. Las huellas muestran dedos unidos por una membrana amplia y pequeñas marcas de uñas; cerca de una madriguera aparecen deslizaderos pulidos en barro. Sus voces pueden confundirse con las de crías caninas, especialmente al amanecer. Ante un ejemplar que emite silbidos intensos y golpea el agua, lo prudente es retirarse sin bloquear el acceso a su refugio. La observación de familias debe realizarse desde terreno alto y sin comida expuesta. Su ferocidad comienza donde termina la distancia de seguridad de sus crías."
+        },
+        {
+          "type": "p",
+          "text": "«No temas al que ríe sobre las piedras; teme al que ha dejado de reír y no aparta los ojos del agua». — Nota de un pescador de corrientes frías."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-29",
+      "number": 29,
+      "name": "Gusano de Jörmund",
+      "subtitle": "",
+      "imgurId": "aVwdzCD",
+      "imgurPage": "https://imgur.com/aVwdzCD",
+      "facts": [
+        [
+          "Hábitat",
+          "Ríos glaciares profundos, cavernas inundadas y gargantas sumergidas"
+        ],
+        [
+          "Tamaño",
+          "8–15 m de longitud; 650–1.800 kg"
+        ],
+        [
+          "Dieta",
+          "Peces grandes, mamíferos acuáticos, carroña y peces migratorios"
+        ],
+        [
+          "Organización",
+          "Solitario; presencia simultánea muy rara"
+        ],
+        [
+          "Longevidad",
+          "70–110 años; reproducción poco conocida"
+        ],
+        [
+          "Peligrosidad",
+          "Extrema en galerías inundadas y pasos fluviales angostos"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Reptil acuático serpentiforme · gran depredador de aguas interiores   |   Inspiración: Jörmungandr, serpiente del mundo de los relatos nórdicos"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "El primer movimiento parece un desprendimiento bajo la corriente. Un tramo entero de agua se curva de forma antinatural y las piedras del cauce se levantan como si algo enorme hubiera pasado entre ellas. Luego surge una cabeza baja, larga, protegida por escamas negras, seguida de un cuerpo anillado que continúa saliendo mucho después de lo que la vista considera razonable. El Gusano de Jörmund atraviesa el remanso sin prestar atención a los viajeros; tras él, una orilla se desploma y un árbol cae de raíces al río. Las crónicas afirman que estas serpientes rodean las montañas. Los mapas de Faëandir muestran algo menos imposible y no menos inquietante: ciertas galerías inundadas permiten a un mismo individuo aparecer en valles muy distantes."
+        },
+        {
+          "type": "h",
+          "text": "Gusano de Jörmund · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Estructura y locomoción"
+        },
+        {
+          "type": "p",
+          "text": "El Gusano de Jörmund es un reptil de cuerpo extremadamente largo, musculatura segmentada y escamas superpuestas que ofrecen protección al roce con roca sumergida. Su cráneo es ancho y relativamente aplanado; los ojos pequeños se combinan con órganos sensibles a la presión del agua y vibrisas cortas alrededor del hocico. No posee extremidades funcionales y se desplaza mediante ondulaciones potentes del tronco, ayudadas por una cola comprimida. Puede elevar parte del cuerpo sobre bancos de grava, pero su gran masa hace poco eficiente un desplazamiento terrestre prolongado. Presenta una respiración lenta y un metabolismo capaz de soportar períodos extensos entre comidas. Los adultos viejos conservan cicatrices profundas donde las escamas se han regenerado de forma irregular."
+        },
+        {
+          "type": "h",
+          "text": "Las rutas ocultas bajo la montaña"
+        },
+        {
+          "type": "p",
+          "text": "Habita ríos glaciares con pozas profundas, pasos bajo roca y redes de cavernas inundadas que comunican cuencas próximas. Es difícil detectarlo porque puede permanecer inmóvil en cámaras oscuras y emerge muy poco tiempo para respirar. Durante crecidas excepcionales aprovecha la fuerza del agua para atravesar obstáculos que normalmente separarían territorios. Los sedimentos arrastrados después de su paso pueden modificar la forma del cauce, y algunos derrumbes antiguos atribuidos a gigantes quizá fueron provocados por animales enormes excavando bajo orillas inestables. Los Ojopiedras han comenzado a superponer mapas de manantiales y sumideros para comprender conexiones que los caminantes de superficie desconocen."
+        },
+        {
+          "type": "h",
+          "text": "Presa, paciencia y equilibrio"
+        },
+        {
+          "type": "p",
+          "text": "Caza peces grandes mediante emboscadas en pasos estrechos, donde una cabeza inmóvil basta para cerrar una ruta migratoria. También captura mamíferos acuáticos desprevenidos y aprovecha carroña que las crecidas llevan hacia las cavernas. Debido a su tamaño, una presa importante puede alimentarlo durante semanas; esta economía evita una depredación constante del río. En sistemas de aguas interiores muy pobres la especie no puede sostenerse y nunca establece poblaciones numerosas. Su presencia provoca desplazamientos de cardúmenes y altera las zonas de pesca, pero también favorece a carroñeros y peces pequeños cuando restos de grandes presas quedan atrapados entre piedras del fondo."
+        },
+        {
+          "type": "h",
+          "text": "Reproducción, crecimiento y rareza"
+        },
+        {
+          "type": "p",
+          "text": "Casi nada se sabe con certeza de su reproducción. Se han hallado mudas y restos de juveniles en pozas templadas, pero no nidos inequívocos. Una hipótesis es que las hembras depositan pocas crías vivas o huevos en galerías inundadas cercanas a manantiales cálidos. La maduración debe ser lenta y la supervivencia de las crías escasa, pues los adultos confirmados están muy separados entre sí. Algunos individuos reconocibles por cicatrices han sido registrados durante varias generaciones humanas, sugiriendo vidas extremadamente largas. Estas observaciones justifican tratarlo como un depredador relicto y no como una serpiente común multiplicada hasta formar hordas de criaturas interminables."
+        },
+        {
+          "type": "h",
+          "text": "Conducta y peligro real"
+        },
+        {
+          "type": "p",
+          "text": "Un Gusano de Jörmund no necesita mostrar agresividad deliberada para poner en peligro a los viajeros. Su desplazamiento puede invertir corrientes locales, arrancar redes, romper soportes de puentes y derrumbar orillas debilitadas. Cuando se siente acorralado, embiste con la cabeza y utiliza el cuerpo para comprimir o desplazar obstáculos, convirtiendo un paso estrecho en una trampa. Los ataques sobre personas suelen estar asociados a intentos de cruzar pozas utilizadas para cazar o a la perturbación de sus refugios. No lanza venenos ni llamas por defecto, y su tamaño no significa inmunidad ante todas las armas: heridas profundas y obstrucciones pueden matarlo, aunque el costo de acercarse resulta desproporcionado."
+        },        {
+          "type": "h",
+          "text": "Relación con las poblaciones"
+        },
+        {
+          "type": "p",
+          "text": "Los habitantes de las gargantas más profundas han construido puentes altos y preferido los pasos de roca viva frente a los terraplenes de tierra. Varias comunidades conservan campanas de alarma que se hacen sonar cuando las aguas cambian bruscamente de dirección sin motivo meteorológico. Las canciones lo identifican con la serpiente que abraza el mundo, interpretación poética de una criatura cuya ruta real puede conectar cuencas muy alejadas. Faëandir considera que un mapa de sus galerías es un recurso de seguridad pública de primer orden, aunque revelar todos los accesos puede atraer cazadores de tesoros y provocar encuentros mortales. Solo una amenaza sostenida justificaría movilizar a los Capas Negras."
+        },
+        {
+          "type": "h",
+          "text": "Indicios fluviales y prudencia"
+        },
+        {
+          "type": "p",
+          "text": "Entre sus rastros se cuentan escamas grandes de superficie estriada, bancos de grava desplazados, peces encontrados con heridas circulares y turbulencias que no coinciden con el flujo habitual. Los sonidos subterráneos semejantes a un trueno pueden preceder a su aparición, pero también proceder de desprendimientos naturales. Nunca se debe ingresar en un túnel inundado para perseguir huellas sin conocer el nivel del agua aguas arriba. Cuando el cauce oscurece de repente, el mejor cazador no busca una espada: busca terreno alto. La comprensión de sus rutas puede evitar más muertes que cualquier combate contra una criatura de semejante escala."
+        },
+        {
+          "type": "p",
+          "text": "«No seguimos una serpiente. Seguimos un río que había aprendido a moverse dentro de otro». — Fragmento de los mapas de galerías sumergidas."
+        }
+      ]
+    },
+    {
+      "id": "bergheim-30",
+      "number": 30,
+      "name": "Vodian de Turbera",
+      "subtitle": "",
+      "imgurId": "SOuamNh",
+      "imgurPage": "https://imgur.com/SOuamNh",
+      "facts": [
+        [
+          "Hábitat",
+          "Turberas, pantanos fríos, arroyos lentos y bosques inundados"
+        ],
+        [
+          "Tamaño",
+          "0,9–1,6 m erguido; 25–65 kg"
+        ],
+        [
+          "Dieta",
+          "Crustáceos, peces pequeños, insectos, huevos y carroña blanda"
+        ],
+        [
+          "Organización",
+          "Colonias de 6–25, con refugios colectivos y vigilancia de bordes"
+        ],
+        [
+          "Longevidad",
+          "10–16 años; puestas numerosas con elevada mortalidad juvenil"
+        ],
+        [
+          "Peligrosidad",
+          "Moderada; puede tornarse alta al defender puestas o refugios"
+        ]
+      ],
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Anfibio humanoide de humedal · omnívoro · social   |   Inspiración: Vodyanoy, folclore eslavo del agua"
+        },
+        {
+          "type": "h",
+          "text": "Primer encuentro"
+        },
+        {
+          "type": "p",
+          "text": "Al principio parece un tronco cubierto de algas. Sobresale del fango junto a una cortina de juncos, inmóvil, con dos ojos que reflejan la luz entre hebras verdosas. Cuando el viajero se acerca descubre una forma encorvada, brazos largos, dedos palmeados y una piel irregular tan cargada de musgo que parece vestida por el propio pantano. La criatura emite un croar ronco, y la respuesta llega desde tres direcciones. No se lanza contra nadie: retrocede despacio hasta cubrirse de agua. Pero el suelo que parecía firme comienza a vibrar por los movimientos de otros cuerpos sumergidos. Los leñadores cuentan que son viejos espíritus del barro. Los Ojopiedras ven una colonia inteligente en su manera de advertirse, aunque sus decisiones continúan obedeciendo a necesidades de refugio, alimento y cría."
+        },
+        {
+          "type": "h",
+          "text": "Vodian de Turbera · Historia natural"
+        },
+        {
+          "type": "h",
+          "text": "Anatomía y camuflaje"
+        },
+        {
+          "type": "p",
+          "text": "El Vodian de Turbera es un anfibio grande de postura semierguida, extremidades posteriores poderosas y brazos largos terminados en dedos palmeados. La cabeza presenta ojos elevados, membranas protectoras transparentes y una boca ancha apropiada para capturar presas pequeñas de un solo movimiento. Su piel rugosa mantiene una capa de humedad y secreciones que facilita la adhesión de limo, algas y fragmentos vegetales. Por ello puede parecer un ser cubierto de barba o ropas de musgo, origen de sus representaciones como anciano del pantano. Aunque algunos individuos se incorporan sobre dos extremidades para vigilar, se desplazan con mayor seguridad usando también las manos. No posee una voz humana ni practica magia acuática por naturaleza."
+        },
+        {
+          "type": "h",
+          "text": "Turberas que sostienen colonias"
+        },
+        {
+          "type": "p",
+          "text": "Prefiere zonas con agua lenta, islotes de turba, raíces de árboles inundados y pequeños canales que permiten desplazarse sin quedar expuesto. Evita los ríos torrenciales y los lagos dominados por grandes depredadores, aunque puede habitar desembocaduras protegidas. Las colonias construyen refugios entre raíces y acumulan barro vegetal en las orillas para elevar cámaras por encima del agua de lluvia. Este trabajo no es arquitectura humana, pero sí una conducta colectiva compleja. Durante el invierno se congregan en pozas poco profundas donde la temperatura permanece estable. Sus poblaciones pueden desaparecer tras drenajes, incendios de turba o tala indiscriminada de los bosques ribereños."
+        },
+        {
+          "type": "h",
+          "text": "Dieta y equilibrio del humedal"
+        },
+        {
+          "type": "p",
+          "text": "Consume larvas de insectos, cangrejos de agua dulce, renacuajos, pequeños peces, huevos abandonados y carroña blanda que queda atrapada entre raíces. Los individuos grandes pueden capturar aves acuáticas heridas, pero no dependen de presas del tamaño humano. Esta alimentación reduce poblaciones de insectos y ayuda a eliminar restos orgánicos antes de que se acumulen en remansos. A su vez, juveniles y adultos pequeños sirven de alimento a grandes serpientes, Nøkk y determinados depredadores terrestres. En pantanos muy densos, su actividad abre pequeños canales entre la vegetación, favoreciendo el movimiento del agua. Su aspecto grotesco oculta un papel ecológico considerable."
+        },
+        {
+          "type": "h",
+          "text": "Organización y reproducción"
+        },
+        {
+          "type": "p",
+          "text": "Las colonias utilizan señales visuales y sonoras para comunicar peligro. Un individuo vigila desde un montículo mientras otros buscan comida; cuando detecta movimientos bruscos emite un croar profundo al que responden sus vecinos. Las hembras depositan grandes masas de huevos gelatinosos adheridas a vegetación sumergida, pero solo una fracción mínima de las crías alcanza la madurez. Los juveniles atraviesan una etapa predominantemente acuática antes de desarrollar fuerza suficiente para desplazarse sobre barro firme. Los adultos toleran la proximidad de individuos emparentados, aunque disputan refugios secos durante inundaciones. Su vida es relativamente breve en comparación con grandes reptiles de montaña."
+        },
+        {
+          "type": "h",
+          "text": "Relación con los hombres y ferocidad"
+        },
+        {
+          "type": "p",
+          "text": "El Vodian suele retirarse frente a caminantes de gran tamaño y reserva la violencia para defender huevos o entradas de refugio. Al sentirse rodeado puede arrojar barro, golpear con las manos y morder con fuerza suficiente para herir dedos o pantorrillas. Sus secreciones cutáneas provocan irritación si alcanzan heridas abiertas, pero no justifican los relatos de venenos capaces de matar a un guerrero en segundos. Algunos campesinos lo consideran maligno por su semejanza con una figura humana deformada. La mayoría de los accidentes ocurre cuando alguien pisa una zona de cría o intenta capturar un individuo joven por curiosidad. El miedo mutuo agrava el conflicto mucho más que su dieta."
+        },
+        {
+          "type": "h",
+          "text": "Relación con las comunidades montaraces"
+        },
+        {
+          "type": "p",
+          "text": "En las tierras bajas de Bergheim se le culpa de desapariciones ocurridas en turberas profundas, aunque el terreno inestable, el frío y las corrientes invisibles explican numerosos casos. Algunos pastores dejan comida en los bordes del pantano para evitar que se acerquen a sus animales, práctica desaconsejada porque acostumbra a la colonia a buscar alimento humano. Los Ojopiedras consideran su presencia un indicador de humedal saludable y recomiendan conservar pequeños corredores sin drenaje alrededor de sus refugios. Sus pieles carecen de interés comercial y la captura suele provocar daños innecesarios. El folclore lo ha convertido en un espíritu ancestral; la observación lo devuelve a su lugar entre las criaturas vivas."
+        },
+        {
+          "type": "h",
+          "text": "Rastros, señales y seguridad"
+        },
+        {
+          "type": "p",
+          "text": "Sus huellas dejan cuatro o cinco dedos unidos por membranas y una impresión amplia del talón en barro blando. Cerca de las cámaras aparecen masas vegetales desplazadas, restos de caparazones de crustáceos y senderos húmedos que conectan pozas. Un coro de croares que se interrumpe de golpe puede anunciar la entrada de un depredador mayor. El explorador debe avanzar con una pértiga para comprobar la firmeza del suelo, pues el principal peligro del territorio no es el Vodian, sino la turba que cede bajo los pies. Si una colonia muestra señales de defensa, conviene retroceder hacia terreno alto sin separar individuos ni bloquear el agua."
+        },
+        {
+          "type": "p",
+          "text": "«El pantano no es una tierra vacía. Solo parece callado cuando los que viven en él todavía no han decidido mirarte». — Informe de reconocimiento de las turberas."
+        }
+      ]
+    }
+  ]
+}
