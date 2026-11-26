@@ -270,7 +270,7 @@
     }
   });
 
-  function load(path){return fetch(ASSET(path),{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+': HTTP '+r.status);return r.json();});}
+  function load(path){return fetch(ASSET(path)+'?v=1.1.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+': HTTP '+r.status);return r.json();});}
   Promise.all([load('data/astillero/reglas.json'),load('data/astillero/navios.json')])
     .then(function(all){
       if(all[0].schema!=='aeternalis-astillero-reglas-v1'||all[1].schema!=='aeternalis-astillero-navios-v1')throw Error('Esquema incompatible');
