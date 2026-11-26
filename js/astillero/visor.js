@@ -97,9 +97,6 @@
        var row = elem('div','ae-na-meta-row');row.appendChild(elem('dt','',x[0]));row.appendChild(elem('dd','',x[1]));meta.appendChild(row);
      });
     shipInfo.appendChild(meta);
-    var nauticalLink = elem('a','ae-na-carta-link','Explorar Carta Náutica ↗');
-    nauticalLink.href = document.getElementById('ae-carta-naval') ? '#ae-carta-naval' : BASE + 'carta-naval-preview.html';
-    shipInfo.appendChild(nauticalLink);
     hero.appendChild(shipInfo);
     page.appendChild(hero);
 
