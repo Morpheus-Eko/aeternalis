@@ -34,9 +34,11 @@ function bindImages(scope){
     const id=img.dataset.aebImg, supplied=local[id];
     if(!id)return;
     if(supplied){img.src=supplied;return;}
-    const size=img.classList.contains('aeb-creature-image')||img.classList.contains('aeb-page-image')?'h':
-      /aeb-(?:cover-image|prologue-image)/.test(img.className)?'l':
-      /aeb-(?:mini-cover|divider-image|emblem)/.test(img.className)?'m':'t';
+    // Solo las ilustraciones de fauna usan miniaturas para acelerar la lectura.
+    // Los 61 ornamentos/editoriales (papeles, marcos, portadas, runas y trofeos)
+    // conservan el PNG original con su canal alfa. Las miniaturas generadas
+    // automáticamente por Imgur pueden aplanar su transparencia.
+    const size=img.classList.contains('aeb-creature-image')?'h':'';
     const known=imgurExtensionCache.get(id);
     const extensions=known?[known,...['png','jpg','jpeg','webp'].filter(e=>e!==known)]:['png','jpg','jpeg','webp'];
     let i=0;
