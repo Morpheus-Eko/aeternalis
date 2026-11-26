@@ -9,7 +9,7 @@
 (()=>{
 'use strict';
 const CONFIG={
- CSS_PAGE:'/h5-supermapa2-0', CSS_ID:'ae-leaflet-css-source',
+ CSS_PAGE:(location.hostname.endsWith('github.io')?'/aeternalis/css/supermapa-v1.7-h5.html':'/h5-supermapa2-0'), CSS_ID:'ae-leaflet-css-source',
  LEAFLET_CSS:'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
  LEAFLET_CDN:['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'],
  STORAGE_KEY:'AETERNALIS_CARTOGRAFIA_BORRADOR_V16_EXPLORADOR',
