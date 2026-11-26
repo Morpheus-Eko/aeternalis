@@ -1,0 +1,1000 @@
+{
+  "version": 1,
+  "networkVersion": 13,
+  "coordinateSystem": "Aeternalis logical 2048x1571",
+  "rasterHighResolution": "4100x3146",
+  "hex": {
+    "radius": 9.3333,
+    "phaseX": 0,
+    "phaseY": 0
+  },
+  "cities": {
+    "place-001": {
+      "x": 334,
+      "y": 141
+    },
+    "place-002": {
+      "x": 539,
+      "y": 167
+    },
+    "place-003": {
+      "x": 185,
+      "y": 236
+    },
+    "place-004": {
+      "x": 127,
+      "y": 90
+    },
+    "place-006": {
+      "x": 652,
+      "y": 253
+    },
+    "place-007": {
+      "x": 102,
+      "y": 397
+    },
+    "place-008": {
+      "x": 290,
+      "y": 451
+    },
+    "place-009": {
+      "x": 435,
+      "y": 489
+    },
+    "place-010": {
+      "x": 476,
+      "y": 461
+    },
+    "place-011": {
+      "x": 465,
+      "y": 537
+    },
+    "place-012": {
+      "x": 658,
+      "y": 459
+    },
+    "place-013": {
+      "x": 566,
+      "y": 548
+    },
+    "place-014": {
+      "x": 738,
+      "y": 520
+    },
+    "place-015": {
+      "x": 735,
+      "y": 594
+    },
+    "place-016": {
+      "x": 723,
+      "y": 666
+    },
+    "place-017": {
+      "x": 834,
+      "y": 655
+    },
+    "place-018": {
+      "x": 809,
+      "y": 757
+    },
+    "place-019": {
+      "x": 268,
+      "y": 666
+    },
+    "place-020": {
+      "x": 268,
+      "y": 559
+    },
+    "place-021": {
+      "x": 195,
+      "y": 622
+    },
+    "place-022": {
+      "x": 411,
+      "y": 623
+    },
+    "place-023": {
+      "x": 636,
+      "y": 671
+    },
+    "place-024": {
+      "x": 193,
+      "y": 753
+    },
+    "place-025": {
+      "x": 93,
+      "y": 794
+    },
+    "place-026": {
+      "x": 1508,
+      "y": 140
+    },
+    "place-027": {
+      "x": 1635,
+      "y": 134
+    },
+    "place-028": {
+      "x": 1726,
+      "y": 76
+    },
+    "place-029": {
+      "x": 1335,
+      "y": 145
+    },
+    "place-030": {
+      "x": 1486,
+      "y": 148
+    },
+    "place-031": {
+      "x": 1170,
+      "y": 166
+    },
+    "place-032": {
+      "x": 999,
+      "y": 171
+    },
+    "place-033": {
+      "x": 892,
+      "y": 230
+    },
+    "place-034": {
+      "x": 1087,
+      "y": 220
+    },
+    "place-035": {
+      "x": 1030,
+      "y": 316
+    },
+    "place-036": {
+      "x": 1306,
+      "y": 262
+    },
+    "place-037": {
+      "x": 1402,
+      "y": 290
+    },
+    "place-038": {
+      "x": 553,
+      "y": 231
+    },
+    "place-039": {
+      "x": 1792,
+      "y": 180
+    },
+    "place-040": {
+      "x": 1923,
+      "y": 200
+    },
+    "place-041": {
+      "x": 1650,
+      "y": 212
+    },
+    "place-042": {
+      "x": 1763,
+      "y": 234
+    },
+    "place-043": {
+      "x": 1592,
+      "y": 295
+    },
+    "place-044": {
+      "x": 1661,
+      "y": 327
+    },
+    "place-045": {
+      "x": 1347,
+      "y": 332
+    },
+    "place-046": {
+      "x": 1429,
+      "y": 392
+    },
+    "place-047": {
+      "x": 1182,
+      "y": 399
+    },
+    "place-048": {
+      "x": 1060,
+      "y": 397
+    },
+    "place-049": {
+      "x": 1208,
+      "y": 491
+    },
+    "place-050": {
+      "x": 1212.7,
+      "y": 524.3
+    },
+    "place-051": {
+      "x": 1219,
+      "y": 551
+    },
+    "place-052": {
+      "x": 1422.5,
+      "y": 528
+    },
+    "place-053": {
+      "x": 1456,
+      "y": 661
+    },
+    "place-054": {
+      "x": 1207,
+      "y": 774
+    },
+    "place-055": {
+      "x": 1200,
+      "y": 805
+    },
+    "place-056": {
+      "x": 1308,
+      "y": 797
+    },
+    "place-057": {
+      "x": 1320,
+      "y": 738
+    },
+    "place-058": {
+      "x": 1861,
+      "y": 104
+    },
+    "place-059": {
+      "x": 1146,
+      "y": 866
+    },
+    "place-060": {
+      "x": 1040,
+      "y": 1223
+    },
+    "place-061": {
+      "x": 1748.7,
+      "y": 669.6
+    },
+    "place-062": {
+      "x": 1743.7,
+      "y": 637.8
+    },
+    "place-063": {
+      "x": 1781.9,
+      "y": 646.3
+    },
+    "place-064": {
+      "x": 1583.2,
+      "y": 812.5
+    },
+    "place-065": {
+      "x": 1593,
+      "y": 886
+    },
+    "place-066": {
+      "x": 1853,
+      "y": 900
+    },
+    "place-067": {
+      "x": 1888,
+      "y": 945
+    },
+    "place-068": {
+      "x": 1295,
+      "y": 956
+    },
+    "place-069": {
+      "x": 1470,
+      "y": 1080
+    },
+    "place-070": {
+      "x": 1726,
+      "y": 1056
+    },
+    "place-071": {
+      "x": 1328,
+      "y": 1189
+    },
+    "place-072": {
+      "x": 1586,
+      "y": 1206
+    },
+    "place-073": {
+      "x": 1461,
+      "y": 1341
+    },
+    "place-074": {
+      "x": 1819.4,
+      "y": 1157.5
+    },
+    "place-075": {
+      "x": 1649,
+      "y": 1396.2
+    },
+    "place-076": {
+      "x": 1894,
+      "y": 1408
+    },
+    "place-077": {
+      "x": 1841.3,
+      "y": 1495.2
+    },
+    "place-078": {
+      "x": 1517,
+      "y": 1480
+    },
+    "place-079": {
+      "x": 263,
+      "y": 851
+    },
+    "place-080": {
+      "x": 528,
+      "y": 793
+    },
+    "place-081": {
+      "x": 711,
+      "y": 816
+    },
+    "place-083": {
+      "x": 402,
+      "y": 1018
+    },
+    "place-084": {
+      "x": 463,
+      "y": 942
+    },
+    "place-085": {
+      "x": 663,
+      "y": 1009
+    },
+    "place-087": {
+      "x": 256,
+      "y": 898
+    },
+    "place-088": {
+      "x": 290,
+      "y": 998
+    },
+    "place-089": {
+      "x": 134,
+      "y": 1186
+    },
+    "place-092": {
+      "x": 776,
+      "y": 1202
+    },
+    "place-093": {
+      "x": 608.1,
+      "y": 1362.6
+    },
+    "place-094": {
+      "x": 729,
+      "y": 1402
+    },
+    "place-095": {
+      "x": 888,
+      "y": 1238
+    },
+    "place-096": {
+      "x": 54,
+      "y": 1399
+    },
+    "place-097": {
+      "x": 1194,
+      "y": 1148
+    },
+    "place-100": {
+      "x": 155,
+      "y": 453
+    },
+    "place-101": {
+      "x": 77,
+      "y": 536
+    },
+    "place-102": {
+      "x": 650,
+      "y": 592
+    },
+    "place-103": {
+      "x": 863,
+      "y": 499
+    },
+    "place-104": {
+      "x": 1883,
+      "y": 1226.5
+    },
+    "place-105": {
+      "x": 1988.7,
+      "y": 1290.4
+    },
+    "place-106": {
+      "x": 1743.4,
+      "y": 1416.3
+    },
+    "place-299": {
+      "x": 65,
+      "y": 181
+    },
+    "place-300": {
+      "x": 282,
+      "y": 314
+    },
+    "place-301": {
+      "x": 100,
+      "y": 224
+    },
+    "place-302": {
+      "x": 553,
+      "y": 231
+    },
+    "place-303": {
+      "x": 387,
+      "y": 240
+    },
+    "place-304": {
+      "x": 323,
+      "y": 291
+    },
+    "place-305": {
+      "x": 414,
+      "y": 353
+    },
+    "place-306": {
+      "x": 1147,
+      "y": 1049
+    },
+    "place-307": {
+      "x": 408,
+      "y": 1361
+    },
+    "place-308": {
+      "x": 219,
+      "y": 1303
+    },
+    "place-309": {
+      "x": 298,
+      "y": 1248
+    },
+    "place-310": {
+      "x": 114,
+      "y": 1072
+    },
+    "place-311": {
+      "x": 250,
+      "y": 1118
+    },
+    "place-312": {
+      "x": 142,
+      "y": 880
+    },
+    "place-313": {
+      "x": 256,
+      "y": 913
+    },
+    "place-314": {
+      "x": 582,
+      "y": 881
+    },
+    "place-315": {
+      "x": 582,
+      "y": 1228
+    },
+    "poi-santuario-eradil": {
+      "x": 1265,
+      "y": 1314.5
+    },
+    "poi-laberinto-ataras": {
+      "x": 1990,
+      "y": 1505
+    }
+  },
+  "regions": {
+    "kargast-sierras": "33,45 768,45 774,140 728,214 705,273 531,323 423,317 357,370 281,372 190,341 99,378 30,364",
+    "kargast-rocas": "768,45 1138,45 1115,153 982,170 912,241 840,243 799,331 728,331 705,273 728,214 774,140",
+    "kargast-valle": "417,318 523,315 652,306 728,320 733,503 683,538 613,519 537,476 461,470 404,425 361,379",
+    "bergheim-ventisca": "35,375 109,376 197,334 288,375 360,379 399,432 358,499 328,540 252,543 177,566 52,584 30,544",
+    "bergheim-guardianas": "358,379 405,428 460,467 532,479 611,522 690,534 733,505 755,537 716,620 642,646 564,616 493,582 446,531 364,510 326,537 357,500",
+    "bergheim-bestias": "30,587 176,564 252,541 326,538 367,516 446,534 487,585 566,616 564,716 519,743 460,767 423,796 382,807 340,843 253,826 159,813 86,820 33,775",
+    "bergheim-mar": "566,616 642,646 716,619 759,541 843,531 884,578 875,710 839,760 768,767 716,740 649,707 566,713",
+    "avalon-reeve": "831,144 948,141 1070,149 1267,165 1271,305 1241,355 1215,412 1183,447 1114,487 1009,496 889,505 809,440 795,340 839,253",
+    "avalon-llanuras": "1267,165 1478,190 1558,173 1616,211 1564,372 1514,426 1432,487 1244,517 1115,488 1180,443 1217,414 1271,303",
+    "avalon-bosqueniebla": "1503,145 1521,150 1545,154 1568,151 1593,155 1616,146 1644,140 1675,143 1692,155 1720,156 1742,165 1766,171 1780,181 1773,191 1758,204 1733,211 1709,225 1683,238 1653,255 1626,266 1602,271 1583,289 1556,291 1540,275 1529,253 1524,232 1517,210 1511,187 1504,161",
+    "avalon-isla-negra": "1659,306 1681,296 1708,290 1730,291 1754,306 1774,326 1765,344 1742,355 1719,362 1699,358 1678,367 1656,360 1639,343 1649,322",
+    "avalon-isla-reina": "1820,101 1838,94 1862,93 1880,101 1908,108 1926,122 1930,147 1920,169 1913,189 1888,198 1861,196 1841,184 1825,186 1809,180 1808,158 1810,136 1816,119",
+    "avalon-zafiro-norte": "1126,560 1144,546 1168,546 1191,545 1215,553 1245,553 1264,548 1296,535 1324,527 1354,536 1385,530 1408,522 1427,514 1446,529 1451,549 1443,578 1455,603 1468,626 1468,654 1470,684 1450,703 1422,700 1393,709 1362,723 1326,712 1302,696 1272,702 1248,713 1223,724 1191,720 1166,731 1144,714 1131,693 1112,686 1100,664 1092,630 1100,606 1116,586",
+    "avalon-zafiro-sur": "1154,714 1173,718 1193,719 1214,723 1236,738 1259,742 1278,733 1306,730 1330,727 1353,733 1382,748 1402,770 1403,790 1393,805 1371,814 1341,821 1305,823 1278,813 1252,801 1226,790 1205,782 1180,784 1165,776 1156,755",
+    "isilme-fallenor": "39,811 174,805 294,801 385,798 470,776 520,831 475,945 454,1046 414,1156 269,1166 141,1105 42,1116",
+    "isilme-galanor": "475,795 576,801 707,807 736,949 669,1066 636,1177 499,1195 416,1156 455,1054 479,945 520,829",
+    "isilme-ithariamil": "141,1113 267,1171 411,1157 498,1198 630,1183 725,1139 787,1242 781,1404 705,1441 531,1407 394,1394 244,1357 156,1309 106,1227",
+    "ennor": "1047,837 1177,823 1226,892 1245,989 1211,1090 1242,1196 1186,1240 1065,1207 971,1195 960,1116 991,1043 1003,943",
+    "elenya-surkei": "1502,779 1631,758 1701,798 1871,813 1981,895 1969,1075 1854,1116 1739,1084 1623,1113 1502,1171 1396,1125 1327,1043 1350,933",
+    "elenya-avari": "1327,1046 1396,1121 1502,1172 1623,1108 1722,1149 1786,1283 1745,1448 1622,1554 1393,1554 1253,1430 1230,1250",
+    "seriasak-vahirak": "1722,1152 1849,1119 2016,1128 2016,1532 1837,1541 1775,1438 1742,1333",
+    "seriasak-vahamay": "1613,1403 1742,1333 1776,1436 1839,1541 1839,1554 1472,1556 1470,1527",
+    "piratas": "1540,589 1563,575 1602,564 1648,554 1696,560 1730,573 1760,595 1790,607 1838,621 1875,643 1910,668 1920,693 1896,718 1853,732 1813,747 1786,750 1752,733 1714,729 1684,713 1650,710 1612,698 1581,674 1560,645 1535,619",
+    "ushios": "30,1363 94,1374 167,1466 159,1536 32,1538"
+  },
+  "edges": [
+    {
+      "id": "base-001",
+      "to": "place-301",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-299"
+    },
+    {
+      "id": "base-002",
+      "to": "place-301",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-003"
+    },
+    {
+      "id": "base-003",
+      "to": "place-299",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-004"
+    },
+    {
+      "id": "base-004",
+      "to": "place-300",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-003"
+    },
+    {
+      "id": "base-005",
+      "to": "place-003",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-001"
+    },
+    {
+      "id": "base-006",
+      "to": "place-301",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-004"
+    },
+    {
+      "id": "base-007",
+      "to": "place-302",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-002"
+    },
+    {
+      "id": "base-008",
+      "to": "place-302",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-006"
+    },
+    {
+      "id": "base-009",
+      "to": "place-303",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-302"
+    },
+    {
+      "id": "base-010",
+      "to": "place-100",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-007"
+    },
+    {
+      "id": "base-011",
+      "to": "place-101",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-100"
+    },
+    {
+      "id": "base-012",
+      "to": "place-101",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-007"
+    },
+    {
+      "id": "base-013",
+      "to": "place-010",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-009"
+    },
+    {
+      "id": "base-014",
+      "to": "place-013",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-010"
+    },
+    {
+      "id": "base-015",
+      "to": "place-022",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-009"
+    },
+    {
+      "id": "base-016",
+      "to": "place-023",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-013"
+    },
+    {
+      "id": "base-017",
+      "to": "place-009",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-008"
+    },
+    {
+      "id": "base-018",
+      "to": "place-014",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-012"
+    },
+    {
+      "id": "base-019",
+      "to": "place-305",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-012"
+    },
+    {
+      "id": "base-020",
+      "to": "place-016",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-015"
+    },
+    {
+      "id": "base-021",
+      "to": "place-018",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-017"
+    },
+    {
+      "id": "base-022",
+      "to": "place-017",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-016"
+    },
+    {
+      "id": "base-023",
+      "to": "place-017",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-015"
+    },
+    {
+      "id": "base-024",
+      "to": "place-016",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-018"
+    },
+    {
+      "id": "base-025",
+      "to": "place-021",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-019"
+    },
+    {
+      "id": "base-026",
+      "to": "place-021",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-020"
+    },
+    {
+      "id": "base-027",
+      "to": "place-024",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-019"
+    },
+    {
+      "id": "base-028",
+      "to": "place-019",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-020"
+    },
+    {
+      "id": "base-029",
+      "to": "place-021",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-024"
+    },
+    {
+      "id": "base-030",
+      "to": "place-087",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-079"
+    },
+    {
+      "id": "base-031",
+      "to": "place-312",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-025"
+    },
+    {
+      "id": "base-032",
+      "to": "place-088",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-087"
+    },
+    {
+      "id": "base-033",
+      "to": "place-312",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-087"
+    },
+    {
+      "id": "base-034",
+      "to": "place-310",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-089"
+    },
+    {
+      "id": "base-035",
+      "to": "place-311",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-088"
+    },
+    {
+      "id": "base-036",
+      "to": "place-311",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-089"
+    },
+    {
+      "id": "base-037",
+      "to": "place-312",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-079"
+    },
+    {
+      "id": "base-038",
+      "to": "place-311",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
