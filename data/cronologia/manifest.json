@@ -4,11 +4,11 @@
   "description": "Cinco eras de lectura inmersiva; Génesis incluye la prehistoria sagrada del manuscrito largo. Cuarta Era utiliza la adaptación de Kuro.",
   "sourcePeriodization": "Indice publico: Genesis, Primera, Segunda, Tercera, Cuarta. El manuscrito extenso maneja una numeracion previa que incluye Quinta Era; consultar notas editoriales.",
   "separadores": [
-    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-filigrana.webp",
-    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-estrella-dorada.webp",
-    "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-fases-lunares.webp"
+    "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp",
+    "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/estrella_brujula_01.webp",
+    "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/fases_lunares_01.webp"
   ],
-  "sello": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/sello-arcano-marca-agua.webp",
+  "sello": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/medallon_esfera_armilar_01.webp",
   "eras": [
     {
       "id": "genesis",
