@@ -37,3 +37,16 @@ Para editar una raza, cambiar únicamente su archivo `data/razas/fichas/ID.md`. 
 ## GitHub Pages
 
 El repositorio incluye `.nojekyll` para publicar directamente los archivos `.md` como texto; sin esta opción Jekyll podría convertir las fichas a HTML y romper la lectura mediante `fetch`.
+
+## Rework ornamental 2.1 (26 de noviembre de 2026)
+
+**Alcance:** se conservan las ocho fichas Markdown, sus retratos, fondos, enlaces antiguos y el comportamiento del visor. Se añade un único bloque CSS aislado al final de `css/razas-modal.css`, identificado por `AETERNALIS_ORNAMENTOS_RAZAS_V2_1`.
+
+- **Índice:** encuadernación de bronce, cantoneras, imagen de códice abierto, divisor en filigrana, tarjetas reforzadas y motivo decorativo individual en sus cartelas.
+- **Visor:** cuatro cantoneras, estampas de cada pueblo en la portada, papel de lectura con textura oscura y ornamentos discretos en títulos, notas e índice.
+- **Motivos:** el CSS asigna ocho recursos WebP de `assets/codex/` a las tarjetas; el motor coloca solo el atributo `data-ae-race` en el modal para seleccionar el adorno correspondiente. **No son blasones oficiales** y podrán sustituirse en cuanto se apruebe iconografía canónica.
+- **Compatibilidad:** no se reemplazan las imágenes hero de `assets/razas/imagenes/`, la fotografía de personajes ni la implementación modal; accesibilidad y puntos de corte anteriores continúan.
+
+**Actualización en Foroactivo:** el instalador `foroactivo/JS_UNA_LINEA_INSTALACION.js` pasa a `?v=2.1.0`, y el cargador descarga `css/razas-modal.css?v=2.1.0` y `js/razas/visor.js?v=2.1.0`. Si en Foroactivo sigue pegada una línea anterior, sustituirla (o actualizar el parámetro de versión) para evitar el caché. No es preciso añadir CSS al tema general del foro ni a h4/h5.
+
+**Previsualización:** https://morpheus-eko.github.io/aeternalis/razas-preview.html
