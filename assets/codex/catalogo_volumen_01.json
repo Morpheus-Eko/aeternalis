@@ -1,0 +1,440 @@
+{
+  "volumen": 1,
+  "total": 15,
+  "recursos": [
+    {
+      "id": "fondos__libro_abierto_medieval_cubierta_01",
+      "nombre": "Libro abierto medieval cubierta 01",
+      "volumen": 1,
+      "grupo": "fondos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/fondos/libro_abierto_medieval_cubierta_01.png",
+      "webp": "assets/codex/fondos/libro_abierto_medieval_cubierta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/fondos/libro_abierto_medieval_cubierta_01.webp",
+      "dimensiones": {
+        "ancho": 1448,
+        "alto": 1086
+      },
+      "transparencia": false,
+      "palabras_clave": [
+        "fondos",
+        "libro",
+        "abierto",
+        "medieval",
+        "cubierta",
+        "01"
+      ],
+      "origen": {
+        "id": "fondos_libro_abierto_gran_codex",
+        "png": "png_individuales/fondos/libro_abierto_gran_codex.png",
+        "webp": "webp_optimizados/fondos/libro_abierto_gran_codex.webp",
+        "archivo_origen": "Codex_Aeternalis/01_Fondos/01_libro_abierto_gran_codex.png"
+      },
+      "sha256_webp": "3fe46af1264e9417615bb89c13d1475be0ae8182cf201874d6a3e90a1f66fb01"
+    },
+    {
+      "id": "fondos__biblioteca_gran_archivo_01",
+      "nombre": "Biblioteca gran archivo 01",
+      "volumen": 1,
+      "grupo": "fondos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/fondos/biblioteca_gran_archivo_01.png",
+      "webp": "assets/codex/fondos/biblioteca_gran_archivo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/fondos/biblioteca_gran_archivo_01.webp",
+      "dimensiones": {
+        "ancho": 1672,
+        "alto": 941
+      },
+      "transparencia": false,
+      "palabras_clave": [
+        "fondos",
+        "biblioteca",
+        "gran",
+        "archivo",
+        "01"
+      ],
+      "origen": {
+        "id": "fondos_gran_biblioteca_archivo",
+        "png": "png_individuales/fondos/gran_biblioteca_archivo.png",
+        "webp": "webp_optimizados/fondos/gran_biblioteca_archivo.webp",
+        "archivo_origen": "Codex_Aeternalis/01_Fondos/02_gran_biblioteca_archivo.png"
+      },
+      "sha256_webp": "61cd38e5be3fbc1d989ff24c025d5bdbba3d6418437cc931ea2a37d9cab12699"
+    },
+    {
+      "id": "paginas__pergamino_vertical_ornamental_01",
+      "nombre": "Pergamino vertical ornamental 01",
+      "volumen": 1,
+      "grupo": "paginas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/paginas/pergamino_vertical_ornamental_01.png",
+      "webp": "assets/codex/paginas/pergamino_vertical_ornamental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/paginas/pergamino_vertical_ornamental_01.webp",
+      "dimensiones": {
+        "ancho": 1086,
+        "alto": 1448
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "paginas",
+        "pergamino",
+        "vertical",
+        "ornamental",
+        "01"
+      ],
+      "origen": {
+        "id": "paginas_pergamino_vertical",
+        "png": "png_individuales/paginas/pergamino_vertical.png",
+        "webp": "webp_optimizados/paginas/pergamino_vertical.webp",
+        "archivo_origen": "Codex_Aeternalis/02_Paginas/03_pergamino_vertical.png"
+      },
+      "sha256_webp": "48a036d052e811ec608f6dd5bad07d6bbb64348e8889c6e6d9644f439231a688"
+    },
+    {
+      "id": "cartelas__cabecera_capitulo_dorada_01",
+      "nombre": "Cabecera capitulo dorada 01",
+      "volumen": 1,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/cabecera_capitulo_dorada_01.png",
+      "webp": "assets/codex/cartelas/cabecera_capitulo_dorada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/cabecera_capitulo_dorada_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "cabecera",
+        "capitulo",
+        "dorada",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_cabecera_capitulo",
+        "png": "png_individuales/cartelas/cabecera_capitulo.png",
+        "webp": "webp_optimizados/cartelas/cabecera_capitulo.webp",
+        "archivo_origen": "Codex_Aeternalis/03_Cartelas/04_cabecera_capitulo.png"
+      },
+      "sha256_webp": "cb30ed6cbfa462d4c94d223d0f9f0d07534ace62d05af9486407a4cfbaed38a6"
+    },
+    {
+      "id": "cartelas__pie_pagina_medieval_01",
+      "nombre": "Pie pagina medieval 01",
+      "volumen": 1,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/pie_pagina_medieval_01.png",
+      "webp": "assets/codex/cartelas/pie_pagina_medieval_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/pie_pagina_medieval_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "pie",
+        "pagina",
+        "medieval",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_pie_de_pagina",
+        "png": "png_individuales/cartelas/pie_de_pagina.png",
+        "webp": "webp_optimizados/cartelas/pie_de_pagina.webp",
+        "archivo_origen": "Codex_Aeternalis/03_Cartelas/05_pie_de_pagina.png"
+      },
+      "sha256_webp": "f9930eda595c1663c2b3a15d9dccb5a3932733c3f97a5bba24303dc4b8320ea3"
+    },
+    {
+      "id": "separadores__filigrana_dorada_01",
+      "nombre": "Filigrana dorada 01",
+      "volumen": 1,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/filigrana_dorada_01.png",
+      "webp": "assets/codex/separadores/filigrana_dorada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "filigrana",
+        "dorada",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_filigrana",
+        "png": "png_individuales/separadores/filigrana.png",
+        "webp": "webp_optimizados/separadores/filigrana.webp",
+        "archivo_origen": "Codex_Aeternalis/04_Separadores/06_separador_filigrana.png"
+      },
+      "sha256_webp": "aa7542b02c1b5c94916633e8445df97fff2eea2a977f8b8ca0cb4ff5d24e4bce"
+    },
+    {
+      "id": "separadores__runas_gema_central_01",
+      "nombre": "Runas gema central 01",
+      "volumen": 1,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/runas_gema_central_01.png",
+      "webp": "assets/codex/separadores/runas_gema_central_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/runas_gema_central_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "runas",
+        "gema",
+        "central",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_runico_gema",
+        "png": "png_individuales/separadores/runico_gema.png",
+        "webp": "webp_optimizados/separadores/runico_gema.webp",
+        "archivo_origen": "Codex_Aeternalis/04_Separadores/07_separador_runico_gema.png"
+      },
+      "sha256_webp": "23000a8944c99db2cd4742cc981d946d102a0d39dd494d38012808531cf7df7f"
+    },
+    {
+      "id": "separadores__craneo_plumas_01",
+      "nombre": "Craneo plumas 01",
+      "volumen": 1,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/craneo_plumas_01.png",
+      "webp": "assets/codex/separadores/craneo_plumas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/craneo_plumas_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "craneo",
+        "plumas",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_craneo_plumas",
+        "png": "png_individuales/separadores/craneo_plumas.png",
+        "webp": "webp_optimizados/separadores/craneo_plumas.webp",
+        "archivo_origen": "Codex_Aeternalis/04_Separadores/08_separador_craneo_plumas.png"
+      },
+      "sha256_webp": "d12dcd8db71af7f0cc741bcfc44154728e7b6569de77decca82dca8d0efd07d1"
+    },
+    {
+      "id": "colecciones__juego_cuatro_esquinas_bronce_01",
+      "nombre": "Juego cuatro esquinas bronce 01",
+      "volumen": 1,
+      "grupo": "colecciones",
+      "formato_preferido": "webp",
+      "png": "assets/codex/colecciones/juego_cuatro_esquinas_bronce_01.png",
+      "webp": "assets/codex/colecciones/juego_cuatro_esquinas_bronce_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/colecciones/juego_cuatro_esquinas_bronce_01.webp",
+      "dimensiones": {
+        "ancho": 1254,
+        "alto": 1254
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "colecciones",
+        "juego",
+        "cuatro",
+        "esquinas",
+        "bronce",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_juego_esquinas_bronce",
+        "png": "png_individuales/ornamentos/juego_esquinas_bronce.png",
+        "webp": "webp_optimizados/ornamentos/juego_esquinas_bronce.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/09_esquinas_decorativas.png"
+      },
+      "sha256_webp": "68fc8ca29a7641b747b55d53f98043bee253ddfa18dfa73cae59e98448150ff5"
+    },
+    {
+      "id": "esquinas__bronce_superior_izquierda_01",
+      "nombre": "Bronce superior izquierda 01",
+      "volumen": 1,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/bronce_superior_izquierda_01.png",
+      "webp": "assets/codex/esquinas/bronce_superior_izquierda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp",
+      "dimensiones": {
+        "ancho": 424,
+        "alto": 438
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "bronce",
+        "superior",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_bronce_superior_izquierda",
+        "png": "png_individuales/esquinas/bronce_superior_izquierda.png",
+        "webp": "webp_optimizados/esquinas/bronce_superior_izquierda.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/09_esquinas_decorativas.png"
+      },
+      "sha256_webp": "62de702acaab9e73102680569264d39bf80e74e4e6385acdff0f2bfed442bea9"
+    },
+    {
+      "id": "esquinas__bronce_superior_derecha_01",
+      "nombre": "Bronce superior derecha 01",
+      "volumen": 1,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/bronce_superior_derecha_01.png",
+      "webp": "assets/codex/esquinas/bronce_superior_derecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp",
+      "dimensiones": {
+        "ancho": 424,
+        "alto": 438
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "bronce",
+        "superior",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_bronce_superior_derecha",
+        "png": "png_individuales/esquinas/bronce_superior_derecha.png",
+        "webp": "webp_optimizados/esquinas/bronce_superior_derecha.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/09_esquinas_decorativas.png"
+      },
+      "sha256_webp": "0a1d9dc010ec53d769f7b90a4d17e6292e174157f32b9b9e157e6fc7d0e1350b"
+    },
+    {
+      "id": "esquinas__bronce_inferior_izquierda_01",
+      "nombre": "Bronce inferior izquierda 01",
+      "volumen": 1,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/bronce_inferior_izquierda_01.png",
+      "webp": "assets/codex/esquinas/bronce_inferior_izquierda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp",
+      "dimensiones": {
+        "ancho": 415,
+        "alto": 426
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "bronce",
+        "inferior",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_bronce_inferior_izquierda",
+        "png": "png_individuales/esquinas/bronce_inferior_izquierda.png",
+        "webp": "webp_optimizados/esquinas/bronce_inferior_izquierda.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/09_esquinas_decorativas.png"
+      },
+      "sha256_webp": "10c6a5e3bb8746444ad71f3c80264df1bcfa0fb45810cbf973f97fba925f8857"
+    },
+    {
+      "id": "esquinas__bronce_inferior_derecha_01",
+      "nombre": "Bronce inferior derecha 01",
+      "volumen": 1,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/bronce_inferior_derecha_01.png",
+      "webp": "assets/codex/esquinas/bronce_inferior_derecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp",
+      "dimensiones": {
+        "ancho": 415,
+        "alto": 427
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "bronce",
+        "inferior",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_bronce_inferior_derecha",
+        "png": "png_individuales/esquinas/bronce_inferior_derecha.png",
+        "webp": "webp_optimizados/esquinas/bronce_inferior_derecha.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/09_esquinas_decorativas.png"
+      },
+      "sha256_webp": "5b7c25e71f2f4bb7f2f33ace47bf2c7e903bb7bd49b4bea4de36dbe8358cec20"
+    },
+    {
+      "id": "sellos__sello_arcano_01",
+      "nombre": "Sello arcano 01",
+      "volumen": 1,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/sello_arcano_01.png",
+      "webp": "assets/codex/sellos/sello_arcano_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/sello_arcano_01.webp",
+      "dimensiones": {
+        "ancho": 1254,
+        "alto": 1254
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "sello",
+        "arcano",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_sello_arcano",
+        "png": "png_individuales/ornamentos/sello_arcano.png",
+        "webp": "webp_optimizados/ornamentos/sello_arcano.webp",
+        "archivo_origen": "Codex_Aeternalis/05_Ornamentos/10_sello_arcano.png"
+      },
+      "sha256_webp": "20eee7c66c77a36103e39442bdb2e82a6a5744c832e567503860a4ef31b8d095"
+    },
+    {
+      "id": "cartelas__placa_navegacion_medieval_01",
+      "nombre": "Placa navegacion medieval 01",
+      "volumen": 1,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/placa_navegacion_medieval_01.png",
+      "webp": "assets/codex/cartelas/placa_navegacion_medieval_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_navegacion_medieval_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "placa",
+        "navegacion",
+        "medieval",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_placa_navegacion",
+        "png": "png_individuales/cartelas/placa_navegacion.png",
+        "webp": "webp_optimizados/cartelas/placa_navegacion.webp",
+        "archivo_origen": "Codex_Aeternalis/03_Cartelas/11_placa_navegacion.png"
+      },
+      "sha256_webp": "accd5404a9a846048d0d3df3473d1090d4572723c0e22ead637e1e977fcf8b26"
+    }
+  ]
+}

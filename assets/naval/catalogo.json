@@ -1,0 +1,3452 @@
+{
+  "proyecto": "Aeternalis · Biblioteca de assets navales",
+  "version": "1.0",
+  "total": 126,
+  "fuentes": {
+    "piratas": "emblemas_de_piratas_y_monstruos_marinos.png",
+    "nordicos": "set_de_emblemas_vikingos_navales.png",
+    "yugen": "colección_naval_fantástica_oriental.png",
+    "medievales": "hoja_de_activos_navales_medievales_fantásticos.png",
+    "progresion": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+    "navegacion": "hoja_de_íconos_náuticos_fantásticos.png"
+  },
+  "familias": {
+    "medievales": 20,
+    "navegacion": 30,
+    "nordicos": 17,
+    "piratas": 16,
+    "progresion": 27,
+    "yugen": 16
+  },
+  "nota": "Las imágenes no están todavía en GitHub. url_webp es la ruta esperada una vez publicadas, NO un enlace verificado.",
+  "licencia": "Imágenes generadas para este proyecto. Los nombres son etiquetas de organización, no canon narrativo.",
+  "archivo_destino": "assets/naval/",
+  "assets": [
+    {
+      "id": "ancla_medieval_cuerda",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        1191,
+        353,
+        1417,
+        642
+      ],
+      "png": "assets/naval/medievales/ancla_medieval_cuerda.png",
+      "webp": "assets/naval/medievales/ancla_medieval_cuerda.webp",
+      "ancho": 216,
+      "alto": 279,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "ancla",
+        "medieval",
+        "cuerda"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/ancla_medieval_cuerda.webp"
+    },
+    {
+      "id": "ballesta_naval_medieval",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        320,
+        644,
+        650,
+        864
+      ],
+      "png": "assets/naval/medievales/ballesta_naval_medieval.png",
+      "webp": "assets/naval/medievales/ballesta_naval_medieval.webp",
+      "ancho": 320,
+      "alto": 210,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "ballesta",
+        "naval",
+        "medieval"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/ballesta_naval_medieval.webp"
+    },
+    {
+      "id": "catapulta_naval_medieval",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        1133,
+        633,
+        1446,
+        866
+      ],
+      "png": "assets/naval/medievales/catapulta_naval_medieval.png",
+      "webp": "assets/naval/medievales/catapulta_naval_medieval.webp",
+      "ancho": 303,
+      "alto": 223,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "catapulta",
+        "naval",
+        "medieval"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/catapulta_naval_medieval.webp"
+    },
+    {
+      "id": "escudo_naval_aguila",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        482,
+        868,
+        661,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_aguila.png",
+      "webp": "assets/naval/medievales/escudo_naval_aguila.webp",
+      "ancho": 169,
+      "alto": 212,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "aguila"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_aguila.webp"
+    },
+    {
+      "id": "escudo_naval_ancla",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        1057,
+        867,
+        1230,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_ancla.png",
+      "webp": "assets/naval/medievales/escudo_naval_ancla.webp",
+      "ancho": 163,
+      "alto": 211,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "ancla"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_ancla.webp"
+    },
+    {
+      "id": "escudo_naval_castillos",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        864,
+        867,
+        1043,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_castillos.png",
+      "webp": "assets/naval/medievales/escudo_naval_castillos.webp",
+      "ancho": 169,
+      "alto": 213,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "castillos"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_castillos.webp"
+    },
+    {
+      "id": "escudo_naval_galera",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        1249,
+        866,
+        1420,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_galera.png",
+      "webp": "assets/naval/medievales/escudo_naval_galera.webp",
+      "ancho": 161,
+      "alto": 214,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "galera"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_galera.webp"
+    },
+    {
+      "id": "escudo_naval_leon",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        285,
+        868,
+        462,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_leon.png",
+      "webp": "assets/naval/medievales/escudo_naval_leon.webp",
+      "ancho": 167,
+      "alto": 212,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "leon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_leon.webp"
+    },
+    {
+      "id": "escudo_naval_velero",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        677,
+        868,
+        848,
+        1086
+      ],
+      "png": "assets/naval/medievales/escudo_naval_velero.png",
+      "webp": "assets/naval/medievales/escudo_naval_velero.webp",
+      "ancho": 161,
+      "alto": 213,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "escudo",
+        "naval",
+        "velero"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/escudo_naval_velero.webp"
+    },
+    {
+      "id": "espadas_cruzadas_medievales",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        22,
+        863,
+        257,
+        1086
+      ],
+      "png": "assets/naval/medievales/espadas_cruzadas_medievales.png",
+      "webp": "assets/naval/medievales/espadas_cruzadas_medievales.webp",
+      "ancho": 225,
+      "alto": 213,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "espadas",
+        "cruzadas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/espadas_cruzadas_medievales.webp"
+    },
+    {
+      "id": "espolon_medieval_reforzado",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        0,
+        643,
+        329,
+        853
+      ],
+      "png": "assets/naval/medievales/espolon_medieval_reforzado.png",
+      "webp": "assets/naval/medievales/espolon_medieval_reforzado.webp",
+      "ancho": 321,
+      "alto": 200,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "espolon",
+        "medieval",
+        "reforzado"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/espolon_medieval_reforzado.webp"
+    },
+    {
+      "id": "insignia_medieval_aguila",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        280,
+        361,
+        553,
+        634
+      ],
+      "png": "assets/naval/medievales/insignia_medieval_aguila.png",
+      "webp": "assets/naval/medievales/insignia_medieval_aguila.webp",
+      "ancho": 263,
+      "alto": 263,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "insignia",
+        "medieval",
+        "aguila"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/insignia_medieval_aguila.webp"
+    },
+    {
+      "id": "mascaron_medieval_leon",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        27,
+        340,
+        280,
+        652
+      ],
+      "png": "assets/naval/medievales/mascaron_medieval_leon.png",
+      "webp": "assets/naval/medievales/mascaron_medieval_leon.webp",
+      "ancho": 243,
+      "alto": 302,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "mascaron",
+        "medieval",
+        "leon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/mascaron_medieval_leon.webp"
+    },
+    {
+      "id": "municion_medieval_bolas_cadena",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        624,
+        638,
+        852,
+        870
+      ],
+      "png": "assets/naval/medievales/municion_medieval_bolas_cadena.png",
+      "webp": "assets/naval/medievales/municion_medieval_bolas_cadena.webp",
+      "ancho": 218,
+      "alto": 222,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "municion",
+        "medieval",
+        "bolas",
+        "cadena"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/municion_medieval_bolas_cadena.webp"
+    },
+    {
+      "id": "navio_medieval_carraca_leon",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "navio",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        428,
+        0,
+        922,
+        343
+      ],
+      "png": "assets/naval/medievales/navio_medieval_carraca_leon.png",
+      "webp": "assets/naval/medievales/navio_medieval_carraca_leon.webp",
+      "ancho": 484,
+      "alto": 338,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "navio",
+        "medieval",
+        "carraca",
+        "leon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/navio_medieval_carraca_leon.webp"
+    },
+    {
+      "id": "navio_medieval_cruzado_vela_cruz",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        7,
+        0,
+        413,
+        344
+      ],
+      "png": "assets/naval/medievales/navio_medieval_cruzado_vela_cruz.png",
+      "webp": "assets/naval/medievales/navio_medieval_cruzado_vela_cruz.webp",
+      "ancho": 396,
+      "alto": 339,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "navio",
+        "medieval",
+        "cruzado",
+        "vela",
+        "cruz"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/navio_medieval_cruzado_vela_cruz.webp"
+    },
+    {
+      "id": "navio_medieval_galera_aguila",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "navio",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        910,
+        1,
+        1446,
+        357
+      ],
+      "png": "assets/naval/medievales/navio_medieval_galera_aguila.png",
+      "webp": "assets/naval/medievales/navio_medieval_galera_aguila.webp",
+      "ancho": 526,
+      "alto": 346,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "navio",
+        "medieval",
+        "galera",
+        "aguila"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/navio_medieval_galera_aguila.webp"
+    },
+    {
+      "id": "pasarela_abordaje_medieval",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        857,
+        625,
+        1136,
+        870
+      ],
+      "png": "assets/naval/medievales/pasarela_abordaje_medieval.png",
+      "webp": "assets/naval/medievales/pasarela_abordaje_medieval.webp",
+      "ancho": 269,
+      "alto": 235,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "pasarela",
+        "abordaje",
+        "medieval"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/pasarela_abordaje_medieval.webp"
+    },
+    {
+      "id": "timon_medieval_sol",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        883,
+        347,
+        1173,
+        629
+      ],
+      "png": "assets/naval/medievales/timon_medieval_sol.png",
+      "webp": "assets/naval/medievales/timon_medieval_sol.webp",
+      "ancho": 280,
+      "alto": 272,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "timon",
+        "medieval",
+        "sol"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/timon_medieval_sol.webp"
+    },
+    {
+      "id": "vela_medieval_leon",
+      "familia": "medievales",
+      "categoria": "medievales",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "hoja_de_activos_navales_medievales_fantásticos.png",
+      "origen_recuadro": [
+        566,
+        348,
+        884,
+        631
+      ],
+      "png": "assets/naval/medievales/vela_medieval_leon.png",
+      "webp": "assets/naval/medievales/vela_medieval_leon.webp",
+      "ancho": 308,
+      "alto": 273,
+      "transparente": true,
+      "etiquetas": [
+        "medievales",
+        "vela",
+        "medieval",
+        "leon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/medievales/vela_medieval_leon.webp"
+    },
+    {
+      "id": "brujula_borde_soga",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        640,
+        0,
+        899,
+        314
+      ],
+      "png": "assets/naval/navegacion/brujula_borde_soga.png",
+      "webp": "assets/naval/navegacion/brujula_borde_soga.webp",
+      "ancho": 249,
+      "alto": 307,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "brujula",
+        "borde",
+        "soga"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/brujula_borde_soga.webp"
+    },
+    {
+      "id": "brujula_estrella_dorada",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        334,
+        0,
+        639,
+        308
+      ],
+      "png": "assets/naval/navegacion/brujula_estrella_dorada.png",
+      "webp": "assets/naval/navegacion/brujula_estrella_dorada.webp",
+      "ancho": 295,
+      "alto": 298,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "brujula",
+        "estrella",
+        "dorada"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/brujula_estrella_dorada.webp"
+    },
+    {
+      "id": "brujula_flor_lis",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        10,
+        0,
+        351,
+        320
+      ],
+      "png": "assets/naval/navegacion/brujula_flor_lis.png",
+      "webp": "assets/naval/navegacion/brujula_flor_lis.webp",
+      "ancho": 330,
+      "alto": 312,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "brujula",
+        "flor",
+        "lis"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/brujula_flor_lis.webp"
+    },
+    {
+      "id": "brujula_mareas",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1176,
+        1,
+        1448,
+        303
+      ],
+      "png": "assets/naval/navegacion/brujula_mareas.png",
+      "webp": "assets/naval/navegacion/brujula_mareas.webp",
+      "ancho": 267,
+      "alto": 292,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "brujula",
+        "mareas"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/brujula_mareas.webp"
+    },
+    {
+      "id": "brujula_pergamino_roja",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        906,
+        23,
+        1182,
+        302
+      ],
+      "png": "assets/naval/navegacion/brujula_pergamino_roja.png",
+      "webp": "assets/naval/navegacion/brujula_pergamino_roja.webp",
+      "ancho": 266,
+      "alto": 269,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "brujula",
+        "pergamino",
+        "roja"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/brujula_pergamino_roja.webp"
+    },
+    {
+      "id": "flecha_abajo_nav",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1022,
+        944,
+        1113,
+        1077
+      ],
+      "png": "assets/naval/navegacion/flecha_abajo_nav.png",
+      "webp": "assets/naval/navegacion/flecha_abajo_nav.webp",
+      "ancho": 82,
+      "alto": 128,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "abajo",
+        "nav"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_abajo_nav.webp"
+    },
+    {
+      "id": "flecha_arriba_nav",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        884,
+        928,
+        988,
+        1076
+      ],
+      "png": "assets/naval/navegacion/flecha_arriba_nav.png",
+      "webp": "assets/naval/navegacion/flecha_arriba_nav.webp",
+      "ancho": 99,
+      "alto": 143,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "arriba",
+        "nav"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_arriba_nav.webp"
+    },
+    {
+      "id": "flecha_derecha_nav",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1280,
+        953,
+        1446,
+        1068
+      ],
+      "png": "assets/naval/navegacion/flecha_derecha_nav.png",
+      "webp": "assets/naval/navegacion/flecha_derecha_nav.webp",
+      "ancho": 140,
+      "alto": 115,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "derecha",
+        "nav"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_derecha_nav.webp"
+    },
+    {
+      "id": "flecha_final_trayecto",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        790,
+        971,
+        856,
+        1068
+      ],
+      "png": "assets/naval/navegacion/flecha_final_trayecto.png",
+      "webp": "assets/naval/navegacion/flecha_final_trayecto.webp",
+      "ancho": 65,
+      "alto": 71,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "final",
+        "trayecto"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_final_trayecto.webp"
+    },
+    {
+      "id": "flecha_izquierda_nav",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1132,
+        953,
+        1277,
+        1068
+      ],
+      "png": "assets/naval/navegacion/flecha_izquierda_nav.png",
+      "webp": "assets/naval/navegacion/flecha_izquierda_nav.webp",
+      "ancho": 138,
+      "alto": 89,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "izquierda",
+        "nav"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_izquierda_nav.webp"
+    },
+    {
+      "id": "flecha_ruta_curva",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        272,
+        964,
+        476,
+        1074
+      ],
+      "png": "assets/naval/navegacion/flecha_ruta_curva.png",
+      "webp": "assets/naval/navegacion/flecha_ruta_curva.webp",
+      "ancho": 204,
+      "alto": 106,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "flecha",
+        "ruta",
+        "curva"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/flecha_ruta_curva.webp"
+    },
+    {
+      "id": "icono_combate_naval",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        7,
+        550,
+        264,
+        781
+      ],
+      "png": "assets/naval/navegacion/icono_combate_naval.png",
+      "webp": "assets/naval/navegacion/icono_combate_naval.webp",
+      "ancho": 247,
+      "alto": 221,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "combate",
+        "naval"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_combate_naval.webp"
+    },
+    {
+      "id": "icono_comercio_maritimo",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        267,
+        551,
+        502,
+        787
+      ],
+      "png": "assets/naval/navegacion/icono_comercio_maritimo.png",
+      "webp": "assets/naval/navegacion/icono_comercio_maritimo.webp",
+      "ancho": 225,
+      "alto": 226,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "comercio",
+        "maritimo"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_comercio_maritimo.webp"
+    },
+    {
+      "id": "icono_flota_de_galeras",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        909,
+        761,
+        1374,
+        947
+      ],
+      "png": "assets/naval/navegacion/icono_flota_de_galeras.png",
+      "webp": "assets/naval/navegacion/icono_flota_de_galeras.webp",
+      "ancho": 455,
+      "alto": 176,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "flota",
+        "de",
+        "galeras"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_flota_de_galeras.webp"
+    },
+    {
+      "id": "icono_isla",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        58,
+        772,
+        431,
+        965
+      ],
+      "png": "assets/naval/navegacion/icono_isla.png",
+      "webp": "assets/naval/navegacion/icono_isla.webp",
+      "ancho": 363,
+      "alto": 183,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "isla"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_isla.webp"
+    },
+    {
+      "id": "icono_kraken",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        746,
+        549,
+        988,
+        793
+      ],
+      "png": "assets/naval/navegacion/icono_kraken.png",
+      "webp": "assets/naval/navegacion/icono_kraken.webp",
+      "ancho": 232,
+      "alto": 234,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "kraken"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_kraken.webp"
+    },
+    {
+      "id": "icono_pirateria",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        504,
+        549,
+        752,
+        787
+      ],
+      "png": "assets/naval/navegacion/icono_pirateria.png",
+      "webp": "assets/naval/navegacion/icono_pirateria.webp",
+      "ancho": 238,
+      "alto": 228,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "pirateria"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_pirateria.webp"
+    },
+    {
+      "id": "icono_tormenta_maritima",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        989,
+        549,
+        1228,
+        786
+      ],
+      "png": "assets/naval/navegacion/icono_tormenta_maritima.png",
+      "webp": "assets/naval/navegacion/icono_tormenta_maritima.webp",
+      "ancho": 229,
+      "alto": 227,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "tormenta",
+        "maritima"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_tormenta_maritima.webp"
+    },
+    {
+      "id": "icono_viento_maritimo",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1214,
+        549,
+        1448,
+        785
+      ],
+      "png": "assets/naval/navegacion/icono_viento_maritimo.png",
+      "webp": "assets/naval/navegacion/icono_viento_maritimo.webp",
+      "ancho": 223,
+      "alto": 226,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "icono",
+        "viento",
+        "maritimo"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/icono_viento_maritimo.webp"
+    },
+    {
+      "id": "indicador_doble_chevron",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        478,
+        967,
+        605,
+        1069
+      ],
+      "png": "assets/naval/navegacion/indicador_doble_chevron.png",
+      "webp": "assets/naval/navegacion/indicador_doble_chevron.webp",
+      "ancho": 127,
+      "alto": 99,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "indicador",
+        "doble",
+        "chevron"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/indicador_doble_chevron.webp"
+    },
+    {
+      "id": "indicador_puntos_trayecto",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        607,
+        969,
+        790,
+        1066
+      ],
+      "png": "assets/naval/navegacion/indicador_puntos_trayecto.png",
+      "webp": "assets/naval/navegacion/indicador_puntos_trayecto.webp",
+      "ancho": 183,
+      "alto": 97,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "indicador",
+        "puntos",
+        "trayecto"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/indicador_puntos_trayecto.webp"
+    },
+    {
+      "id": "indicador_ruta_progreso_completo",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        477,
+        965,
+        861,
+        1070
+      ],
+      "png": "assets/naval/navegacion/indicador_ruta_progreso_completo.png",
+      "webp": "assets/naval/navegacion/indicador_ruta_progreso_completo.webp",
+      "ancho": 378,
+      "alto": 104,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "indicador",
+        "ruta",
+        "progreso",
+        "completo"
+      ],
+      "notas": "Composición ornamental completa de progresión: dos chevrones, puntos y cabeza de flecha.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/indicador_ruta_progreso_completo.webp"
+    },
+    {
+      "id": "indicador_ruta_punteada",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        9,
+        969,
+        270,
+        1070
+      ],
+      "png": "assets/naval/navegacion/indicador_ruta_punteada.png",
+      "webp": "assets/naval/navegacion/indicador_ruta_punteada.webp",
+      "ancho": 252,
+      "alto": 87,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "indicador",
+        "ruta",
+        "punteada"
+      ],
+      "notas": "Segmento del control de ruta o flecha. Puede combinarse con otros segmentos en CSS.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/indicador_ruta_punteada.webp"
+    },
+    {
+      "id": "mapa_busqueda_tesoro",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        464,
+        784,
+        848,
+        961
+      ],
+      "png": "assets/naval/navegacion/mapa_busqueda_tesoro.png",
+      "webp": "assets/naval/navegacion/mapa_busqueda_tesoro.webp",
+      "ancho": 373,
+      "alto": 167,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "mapa",
+        "busqueda",
+        "tesoro"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/mapa_busqueda_tesoro.webp"
+    },
+    {
+      "id": "marcador_ancla",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1013,
+        310,
+        1219,
+        555
+      ],
+      "png": "assets/naval/navegacion/marcador_ancla.png",
+      "webp": "assets/naval/navegacion/marcador_ancla.webp",
+      "ancho": 196,
+      "alto": 235,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "marcador",
+        "ancla"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/marcador_ancla.webp"
+    },
+    {
+      "id": "marcador_faro",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        1230,
+        309,
+        1438,
+        555
+      ],
+      "png": "assets/naval/navegacion/marcador_faro.png",
+      "webp": "assets/naval/navegacion/marcador_faro.webp",
+      "ancho": 198,
+      "alto": 236,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "marcador",
+        "faro"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/marcador_faro.webp"
+    },
+    {
+      "id": "marcador_puerto",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        786,
+        310,
+        995,
+        554
+      ],
+      "png": "assets/naval/navegacion/marcador_puerto.png",
+      "webp": "assets/naval/navegacion/marcador_puerto.webp",
+      "ancho": 199,
+      "alto": 234,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "marcador",
+        "puerto"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/marcador_puerto.webp"
+    },
+    {
+      "id": "timon_flor_lis",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        270,
+        304,
+        531,
+        557
+      ],
+      "png": "assets/naval/navegacion/timon_flor_lis.png",
+      "webp": "assets/naval/navegacion/timon_flor_lis.webp",
+      "ancho": 251,
+      "alto": 243,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "timon",
+        "flor",
+        "lis"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/timon_flor_lis.webp"
+    },
+    {
+      "id": "timon_motivo_ola",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        12,
+        303,
+        275,
+        563
+      ],
+      "png": "assets/naval/navegacion/timon_motivo_ola.png",
+      "webp": "assets/naval/navegacion/timon_motivo_ola.webp",
+      "ancho": 253,
+      "alto": 250,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "timon",
+        "motivo",
+        "ola"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/timon_motivo_ola.webp"
+    },
+    {
+      "id": "timon_pulpo",
+      "familia": "navegacion",
+      "categoria": "interfaz_naval",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "hoja_de_íconos_náuticos_fantásticos.png",
+      "origen_recuadro": [
+        525,
+        301,
+        770,
+        552
+      ],
+      "png": "assets/naval/navegacion/timon_pulpo.png",
+      "webp": "assets/naval/navegacion/timon_pulpo.webp",
+      "ancho": 235,
+      "alto": 241,
+      "transparente": true,
+      "etiquetas": [
+        "navegacion",
+        "timon",
+        "pulpo"
+      ],
+      "notas": "",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/navegacion/timon_pulpo.webp"
+    },
+    {
+      "id": "ancla_nordica",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        340,
+        579,
+        576,
+        867
+      ],
+      "png": "assets/naval/nordicos/ancla_nordica.png",
+      "webp": "assets/naval/nordicos/ancla_nordica.webp",
+      "ancho": 226,
+      "alto": 278,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "ancla",
+        "nordica"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/ancla_nordica.webp"
+    },
+    {
+      "id": "arpon_nordico_con_cuerda",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        11,
+        598,
+        338,
+        856
+      ],
+      "png": "assets/naval/nordicos/arpon_nordico_con_cuerda.png",
+      "webp": "assets/naval/nordicos/arpon_nordico_con_cuerda.webp",
+      "ancho": 317,
+      "alto": 248,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "arpon",
+        "nordico",
+        "con",
+        "cuerda"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/arpon_nordico_con_cuerda.webp"
+    },
+    {
+      "id": "busto_capitan_nordico",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        742,
+        309,
+        1097,
+        623
+      ],
+      "png": "assets/naval/nordicos/busto_capitan_nordico.png",
+      "webp": "assets/naval/nordicos/busto_capitan_nordico.webp",
+      "ancho": 345,
+      "alto": 304,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "busto",
+        "capitan",
+        "nordico"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/busto_capitan_nordico.webp"
+    },
+    {
+      "id": "conjunto_escudos_nordicos",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        330,
+        334,
+        746,
+        632
+      ],
+      "png": "assets/naval/nordicos/conjunto_escudos_nordicos.png",
+      "webp": "assets/naval/nordicos/conjunto_escudos_nordicos.webp",
+      "ancho": 406,
+      "alto": 287,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "conjunto",
+        "escudos"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/conjunto_escudos_nordicos.webp"
+    },
+    {
+      "id": "estandarte_nordico_ave_runica",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        1151,
+        851,
+        1433,
+        1086
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_ave_runica.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_ave_runica.webp",
+      "ancho": 272,
+      "alto": 229,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "ave",
+        "runica"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_ave_runica.webp"
+    },
+    {
+      "id": "estandarte_nordico_drakkar",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        11,
+        853,
+        295,
+        1086
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_drakkar.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_drakkar.webp",
+      "ancho": 274,
+      "alto": 228,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "drakkar"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_drakkar.webp"
+    },
+    {
+      "id": "estandarte_nordico_lobo",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        300,
+        851,
+        578,
+        1086
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_lobo.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_lobo.webp",
+      "ancho": 268,
+      "alto": 229,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "lobo"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_lobo.webp"
+    },
+    {
+      "id": "estandarte_nordico_runa_hielo",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        12,
+        304,
+        342,
+        618
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_runa_hielo.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_runa_hielo.webp",
+      "ancho": 320,
+      "alto": 304,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "runa",
+        "hielo"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_runa_hielo.webp"
+    },
+    {
+      "id": "estandarte_nordico_serpiente_marina",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        873,
+        852,
+        1141,
+        1086
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_serpiente_marina.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_serpiente_marina.webp",
+      "ancho": 257,
+      "alto": 228,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "serpiente",
+        "marina"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_serpiente_marina.webp"
+    },
+    {
+      "id": "estandarte_nordico_tridente",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        583,
+        852,
+        860,
+        1086
+      ],
+      "png": "assets/naval/nordicos/estandarte_nordico_tridente.png",
+      "webp": "assets/naval/nordicos/estandarte_nordico_tridente.webp",
+      "ancho": 267,
+      "alto": 229,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "estandarte",
+        "nordico",
+        "tridente"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/estandarte_nordico_tridente.webp"
+    },
+    {
+      "id": "hachas_cruzadas_nordicas",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        1081,
+        316,
+        1440,
+        598
+      ],
+      "png": "assets/naval/nordicos/hachas_cruzadas_nordicas.png",
+      "webp": "assets/naval/nordicos/hachas_cruzadas_nordicas.webp",
+      "ancho": 349,
+      "alto": 272,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "hachas",
+        "cruzadas",
+        "nordicas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/hachas_cruzadas_nordicas.webp"
+    },
+    {
+      "id": "mascaron_nordico_cabeza_dragon",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        819,
+        3,
+        1087,
+        315
+      ],
+      "png": "assets/naval/nordicos/mascaron_nordico_cabeza_dragon.png",
+      "webp": "assets/naval/nordicos/mascaron_nordico_cabeza_dragon.webp",
+      "ancho": 258,
+      "alto": 302,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "mascaron",
+        "nordico",
+        "cabeza",
+        "dragon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/mascaron_nordico_cabeza_dragon.webp"
+    },
+    {
+      "id": "mascaron_nordico_serpiente_olas",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        868,
+        583,
+        1146,
+        861
+      ],
+      "png": "assets/naval/nordicos/mascaron_nordico_serpiente_olas.png",
+      "webp": "assets/naval/nordicos/mascaron_nordico_serpiente_olas.webp",
+      "ancho": 268,
+      "alto": 268,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "mascaron",
+        "nordico",
+        "serpiente",
+        "olas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/mascaron_nordico_serpiente_olas.webp"
+    },
+    {
+      "id": "medallon_nordico_cuervo",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        1137,
+        25,
+        1417,
+        314
+      ],
+      "png": "assets/naval/nordicos/medallon_nordico_cuervo.png",
+      "webp": "assets/naval/nordicos/medallon_nordico_cuervo.webp",
+      "ancho": 270,
+      "alto": 279,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "medallon",
+        "nordico",
+        "cuervo"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/medallon_nordico_cuervo.webp"
+    },
+    {
+      "id": "medallon_nordico_rosa_vientos",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        1134,
+        567,
+        1440,
+        867
+      ],
+      "png": "assets/naval/nordicos/medallon_nordico_rosa_vientos.png",
+      "webp": "assets/naval/nordicos/medallon_nordico_rosa_vientos.webp",
+      "ancho": 296,
+      "alto": 290,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "medallon",
+        "nordico",
+        "rosa",
+        "vientos"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/medallon_nordico_rosa_vientos.webp"
+    },
+    {
+      "id": "navio_nordico_drakkar_vela_runica",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        31,
+        0,
+        786,
+        336
+      ],
+      "png": "assets/naval/nordicos/navio_nordico_drakkar_vela_runica.png",
+      "webp": "assets/naval/nordicos/navio_nordico_drakkar_vela_runica.webp",
+      "ancho": 745,
+      "alto": 331,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "navio",
+        "nordico",
+        "drakkar",
+        "vela",
+        "runica"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/navio_nordico_drakkar_vela_runica.webp"
+    },
+    {
+      "id": "timon_nordico_runico",
+      "familia": "nordicos",
+      "categoria": "nordicos",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "set_de_emblemas_vikingos_navales.png",
+      "origen_recuadro": [
+        579,
+        575,
+        872,
+        861
+      ],
+      "png": "assets/naval/nordicos/timon_nordico_runico.png",
+      "webp": "assets/naval/nordicos/timon_nordico_runico.webp",
+      "ancho": 283,
+      "alto": 276,
+      "transparente": true,
+      "etiquetas": [
+        "nordicos",
+        "timon",
+        "nordico",
+        "runico"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/timon_nordico_runico.webp"
+    },
+    {
+      "id": "ancla_pirata_con_cuerda",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        772,
+        311,
+        1006,
+        598
+      ],
+      "png": "assets/naval/piratas/ancla_pirata_con_cuerda.png",
+      "webp": "assets/naval/piratas/ancla_pirata_con_cuerda.webp",
+      "ancho": 224,
+      "alto": 277,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "ancla",
+        "pirata",
+        "con",
+        "cuerda"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/ancla_pirata_con_cuerda.webp"
+    },
+    {
+      "id": "ballesta_naval_pirata",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        749,
+        593,
+        1151,
+        806
+      ],
+      "png": "assets/naval/piratas/ballesta_naval_pirata.png",
+      "webp": "assets/naval/piratas/ballesta_naval_pirata.webp",
+      "ancho": 392,
+      "alto": 203,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "ballesta",
+        "naval",
+        "pirata"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/ballesta_naval_pirata.webp"
+    },
+    {
+      "id": "escudo_pirata_calavera_kraken",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        105,
+        804,
+        356,
+        1086
+      ],
+      "png": "assets/naval/piratas/escudo_pirata_calavera_kraken.png",
+      "webp": "assets/naval/piratas/escudo_pirata_calavera_kraken.webp",
+      "ancho": 241,
+      "alto": 277,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "escudo",
+        "pirata",
+        "calavera",
+        "kraken"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/escudo_pirata_calavera_kraken.webp"
+    },
+    {
+      "id": "escudo_pirata_cuervo_calavera",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        416,
+        803,
+        664,
+        1086
+      ],
+      "png": "assets/naval/piratas/escudo_pirata_cuervo_calavera.png",
+      "webp": "assets/naval/piratas/escudo_pirata_cuervo_calavera.webp",
+      "ancho": 238,
+      "alto": 278,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "escudo",
+        "pirata",
+        "cuervo",
+        "calavera"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/escudo_pirata_cuervo_calavera.webp"
+    },
+    {
+      "id": "escudo_pirata_sables_brujula",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        730,
+        803,
+        992,
+        1086
+      ],
+      "png": "assets/naval/piratas/escudo_pirata_sables_brujula.png",
+      "webp": "assets/naval/piratas/escudo_pirata_sables_brujula.webp",
+      "ancho": 252,
+      "alto": 278,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "escudo",
+        "pirata",
+        "sables",
+        "brujula"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/escudo_pirata_sables_brujula.webp"
+    },
+    {
+      "id": "escudo_pirata_serpiente_marina",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        1063,
+        804,
+        1318,
+        1086
+      ],
+      "png": "assets/naval/piratas/escudo_pirata_serpiente_marina.png",
+      "webp": "assets/naval/piratas/escudo_pirata_serpiente_marina.webp",
+      "ancho": 245,
+      "alto": 277,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "escudo",
+        "pirata",
+        "serpiente",
+        "marina"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/escudo_pirata_serpiente_marina.webp"
+    },
+    {
+      "id": "estandarte_pirata_kraken",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        22,
+        308,
+        354,
+        584
+      ],
+      "png": "assets/naval/piratas/estandarte_pirata_kraken.png",
+      "webp": "assets/naval/piratas/estandarte_pirata_kraken.webp",
+      "ancho": 322,
+      "alto": 266,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "estandarte",
+        "pirata",
+        "kraken"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/estandarte_pirata_kraken.webp"
+    },
+    {
+      "id": "garfio_abordaje_pirata",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        264,
+        562,
+        491,
+        838
+      ],
+      "png": "assets/naval/piratas/garfio_abordaje_pirata.png",
+      "webp": "assets/naval/piratas/garfio_abordaje_pirata.webp",
+      "ancho": 217,
+      "alto": 266,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "garfio",
+        "abordaje",
+        "pirata"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/garfio_abordaje_pirata.webp"
+    },
+    {
+      "id": "insignia_pirata_calavera_tesoro",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        0,
+        561,
+        268,
+        836
+      ],
+      "png": "assets/naval/piratas/insignia_pirata_calavera_tesoro.png",
+      "webp": "assets/naval/piratas/insignia_pirata_calavera_tesoro.webp",
+      "ancho": 258,
+      "alto": 265,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "insignia",
+        "pirata",
+        "calavera",
+        "tesoro"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/insignia_pirata_calavera_tesoro.webp"
+    },
+    {
+      "id": "mascaron_pirata_calavera_tentaculos",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        994,
+        2,
+        1421,
+        336
+      ],
+      "png": "assets/naval/piratas/mascaron_pirata_calavera_tentaculos.png",
+      "webp": "assets/naval/piratas/mascaron_pirata_calavera_tentaculos.webp",
+      "ancho": 417,
+      "alto": 324,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "mascaron",
+        "pirata",
+        "calavera",
+        "tentaculos"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/mascaron_pirata_calavera_tentaculos.webp"
+    },
+    {
+      "id": "medallon_serpiente_marina",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        493,
+        556,
+        745,
+        820
+      ],
+      "png": "assets/naval/piratas/medallon_serpiente_marina.png",
+      "webp": "assets/naval/piratas/medallon_serpiente_marina.webp",
+      "ancho": 242,
+      "alto": 254,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "medallon",
+        "serpiente",
+        "marina"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/medallon_serpiente_marina.webp"
+    },
+    {
+      "id": "navio_pirata_galeon_velas_kraken",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "navio",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        5,
+        0,
+        633,
+        316
+      ],
+      "png": "assets/naval/piratas/navio_pirata_galeon_velas_kraken.png",
+      "webp": "assets/naval/piratas/navio_pirata_galeon_velas_kraken.webp",
+      "ancho": 618,
+      "alto": 311,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "navio",
+        "pirata",
+        "galeon",
+        "velas",
+        "kraken"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/navio_pirata_galeon_velas_kraken.webp"
+    },
+    {
+      "id": "navio_pirata_proa_frontal",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "navio",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        657,
+        0,
+        937,
+        347
+      ],
+      "png": "assets/naval/piratas/navio_pirata_proa_frontal.png",
+      "webp": "assets/naval/piratas/navio_pirata_proa_frontal.webp",
+      "ancho": 270,
+      "alto": 342,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "navio",
+        "pirata",
+        "proa",
+        "frontal"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/navio_pirata_proa_frontal.webp"
+    },
+    {
+      "id": "pasarela_abordaje_pirata",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        1063,
+        564,
+        1444,
+        824
+      ],
+      "png": "assets/naval/piratas/pasarela_abordaje_pirata.png",
+      "webp": "assets/naval/piratas/pasarela_abordaje_pirata.webp",
+      "ancho": 370,
+      "alto": 250,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "pasarela",
+        "abordaje",
+        "pirata"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/pasarela_abordaje_pirata.webp"
+    },
+    {
+      "id": "sables_cruzados_piratas",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        406,
+        315,
+        688,
+        600
+      ],
+      "png": "assets/naval/piratas/sables_cruzados_piratas.png",
+      "webp": "assets/naval/piratas/sables_cruzados_piratas.webp",
+      "ancho": 272,
+      "alto": 275,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "sables",
+        "cruzados"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/sables_cruzados_piratas.webp"
+    },
+    {
+      "id": "timon_pirata_brujula",
+      "familia": "piratas",
+      "categoria": "piratas",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "emblemas_de_piratas_y_monstruos_marinos.png",
+      "origen_recuadro": [
+        1102,
+        303,
+        1385,
+        579
+      ],
+      "png": "assets/naval/piratas/timon_pirata_brujula.png",
+      "webp": "assets/naval/piratas/timon_pirata_brujula.webp",
+      "ancho": 272,
+      "alto": 266,
+      "transparente": true,
+      "etiquetas": [
+        "piratas",
+        "timon",
+        "pirata",
+        "brujula"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/piratas/timon_pirata_brujula.webp"
+    },
+    {
+      "id": "ballesta_de_bolas_encadenadas",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        1038,
+        685,
+        1243,
+        830
+      ],
+      "png": "assets/naval/progresion/ballesta_de_bolas_encadenadas.png",
+      "webp": "assets/naval/progresion/ballesta_de_bolas_encadenadas.webp",
+      "ancho": 195,
+      "alto": 135,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "ballesta",
+        "de",
+        "bolas",
+        "encadenadas"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/ballesta_de_bolas_encadenadas.webp"
+    },
+    {
+      "id": "ballesta_de_cubierta",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        833,
+        684,
+        1033,
+        834
+      ],
+      "png": "assets/naval/progresion/ballesta_de_cubierta.png",
+      "webp": "assets/naval/progresion/ballesta_de_cubierta.webp",
+      "ancho": 190,
+      "alto": 140,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "ballesta",
+        "de",
+        "cubierta"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/ballesta_de_cubierta.webp"
+    },
+    {
+      "id": "blindaje_refuerzo_acero",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "resistencia",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        61,
+        833,
+        322,
+        1086
+      ],
+      "png": "assets/naval/progresion/blindaje_refuerzo_acero.png",
+      "webp": "assets/naval/progresion/blindaje_refuerzo_acero.webp",
+      "ancho": 251,
+      "alto": 248,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "blindaje",
+        "refuerzo",
+        "acero"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/blindaje_refuerzo_acero.webp"
+    },
+    {
+      "id": "blindaje_runeado_oscuro",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "resistencia",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        355,
+        833,
+        635,
+        1086
+      ],
+      "png": "assets/naval/progresion/blindaje_runeado_oscuro.png",
+      "webp": "assets/naval/progresion/blindaje_runeado_oscuro.webp",
+      "ancho": 270,
+      "alto": 248,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "blindaje",
+        "runeado",
+        "oscuro"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/blindaje_runeado_oscuro.webp"
+    },
+    {
+      "id": "catapulta_de_cubierta",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        1246,
+        656,
+        1444,
+        836
+      ],
+      "png": "assets/naval/progresion/catapulta_de_cubierta.png",
+      "webp": "assets/naval/progresion/catapulta_de_cubierta.webp",
+      "ancho": 188,
+      "alto": 170,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "catapulta",
+        "de",
+        "cubierta"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/catapulta_de_cubierta.webp"
+    },
+    {
+      "id": "corvus_pasarela_basica",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        450,
+        664,
+        633,
+        845
+      ],
+      "png": "assets/naval/progresion/corvus_pasarela_basica.png",
+      "webp": "assets/naval/progresion/corvus_pasarela_basica.webp",
+      "ancho": 173,
+      "alto": 171,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "corvus",
+        "pasarela",
+        "basica"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/corvus_pasarela_basica.webp"
+    },
+    {
+      "id": "corvus_pasarela_reforzada",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        639,
+        662,
+        832,
+        844
+      ],
+      "png": "assets/naval/progresion/corvus_pasarela_reforzada.png",
+      "webp": "assets/naval/progresion/corvus_pasarela_reforzada.webp",
+      "ancho": 183,
+      "alto": 172,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "corvus",
+        "pasarela",
+        "reforzada"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/corvus_pasarela_reforzada.webp"
+    },
+    {
+      "id": "espolon_basico",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        6,
+        668,
+        220,
+        834
+      ],
+      "png": "assets/naval/progresion/espolon_basico.png",
+      "webp": "assets/naval/progresion/espolon_basico.webp",
+      "ancho": 204,
+      "alto": 156,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "espolon",
+        "basico"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/espolon_basico.webp"
+    },
+    {
+      "id": "espolon_reforzado",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        235,
+        668,
+        443,
+        834
+      ],
+      "png": "assets/naval/progresion/espolon_reforzado.png",
+      "webp": "assets/naval/progresion/espolon_reforzado.webp",
+      "ancho": 198,
+      "alto": 156,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "espolon",
+        "reforzado"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/espolon_reforzado.webp"
+    },
+    {
+      "id": "insignia_flota_legendaria",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "tripulacion",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        985,
+        833,
+        1412,
+        1086
+      ],
+      "png": "assets/naval/progresion/insignia_flota_legendaria.png",
+      "webp": "assets/naval/progresion/insignia_flota_legendaria.webp",
+      "ancho": 417,
+      "alto": 248,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "insignia",
+        "flota",
+        "legendaria"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/insignia_flota_legendaria.webp"
+    },
+    {
+      "id": "insignia_tripulacion_veterana",
+      "familia": "progresion",
+      "categoria": "componentes_de_mejora",
+      "sistema": "tripulacion",
+      "nivel": null,
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        654,
+        842,
+        992,
+        1086
+      ],
+      "png": "assets/naval/progresion/insignia_tripulacion_veterana.png",
+      "webp": "assets/naval/progresion/insignia_tripulacion_veterana.webp",
+      "ancho": 328,
+      "alto": 237,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "insignia",
+        "tripulacion",
+        "veterana"
+      ],
+      "notas": "Icono de equipo opcional; no indica por sí mismo que la mejora esté disponible o desbloqueada.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/insignia_tripulacion_veterana.webp"
+    },
+    {
+      "id": "mejora_ataque_legendario",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "poder_ataque",
+      "nivel": "legendario",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        977,
+        501,
+        1238,
+        670
+      ],
+      "png": "assets/naval/progresion/mejora_ataque_legendario.png",
+      "webp": "assets/naval/progresion/mejora_ataque_legendario.webp",
+      "ancho": 242,
+      "alto": 168,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "ataque",
+        "legendario"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_ataque_legendario.webp"
+    },
+    {
+      "id": "mejora_ataque_nivel_1",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "poder_ataque",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        246,
+        501,
+        444,
+        670
+      ],
+      "png": "assets/naval/progresion/mejora_ataque_nivel_1.png",
+      "webp": "assets/naval/progresion/mejora_ataque_nivel_1.webp",
+      "ancho": 186,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "ataque",
+        "nivel",
+        "1"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_ataque_nivel_1.webp"
+    },
+    {
+      "id": "mejora_ataque_nivel_2",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "poder_ataque",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        491,
+        501,
+        702,
+        670
+      ],
+      "png": "assets/naval/progresion/mejora_ataque_nivel_2.png",
+      "webp": "assets/naval/progresion/mejora_ataque_nivel_2.webp",
+      "ancho": 198,
+      "alto": 169,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "ataque",
+        "nivel",
+        "2"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_ataque_nivel_2.webp"
+    },
+    {
+      "id": "mejora_ataque_nivel_3",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "poder_ataque",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        729,
+        501,
+        964,
+        670
+      ],
+      "png": "assets/naval/progresion/mejora_ataque_nivel_3.png",
+      "webp": "assets/naval/progresion/mejora_ataque_nivel_3.webp",
+      "ancho": 216,
+      "alto": 168,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "ataque",
+        "nivel",
+        "3"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_ataque_nivel_3.webp"
+    },
+    {
+      "id": "mejora_resistencia_legendario",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "resistencia",
+      "nivel": "legendario",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        977,
+        170,
+        1238,
+        335
+      ],
+      "png": "assets/naval/progresion/mejora_resistencia_legendario.png",
+      "webp": "assets/naval/progresion/mejora_resistencia_legendario.webp",
+      "ancho": 237,
+      "alto": 165,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "resistencia",
+        "legendario"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_resistencia_legendario.webp"
+    },
+    {
+      "id": "mejora_resistencia_nivel_1",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "resistencia",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        246,
+        170,
+        444,
+        335
+      ],
+      "png": "assets/naval/progresion/mejora_resistencia_nivel_1.png",
+      "webp": "assets/naval/progresion/mejora_resistencia_nivel_1.webp",
+      "ancho": 179,
+      "alto": 165,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "resistencia",
+        "nivel",
+        "1"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_resistencia_nivel_1.webp"
+    },
+    {
+      "id": "mejora_resistencia_nivel_2",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "resistencia",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        491,
+        170,
+        702,
+        335
+      ],
+      "png": "assets/naval/progresion/mejora_resistencia_nivel_2.png",
+      "webp": "assets/naval/progresion/mejora_resistencia_nivel_2.webp",
+      "ancho": 189,
+      "alto": 165,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "resistencia",
+        "nivel",
+        "2"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_resistencia_nivel_2.webp"
+    },
+    {
+      "id": "mejora_resistencia_nivel_3",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "resistencia",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        729,
+        170,
+        964,
+        335
+      ],
+      "png": "assets/naval/progresion/mejora_resistencia_nivel_3.png",
+      "webp": "assets/naval/progresion/mejora_resistencia_nivel_3.webp",
+      "ancho": 210,
+      "alto": 165,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "resistencia",
+        "nivel",
+        "3"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_resistencia_nivel_3.webp"
+    },
+    {
+      "id": "mejora_tripulacion_legendario",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "tripulacion",
+      "nivel": "legendario",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        977,
+        335,
+        1238,
+        501
+      ],
+      "png": "assets/naval/progresion/mejora_tripulacion_legendario.png",
+      "webp": "assets/naval/progresion/mejora_tripulacion_legendario.webp",
+      "ancho": 240,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "tripulacion",
+        "legendario"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_tripulacion_legendario.webp"
+    },
+    {
+      "id": "mejora_tripulacion_nivel_1",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "tripulacion",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        246,
+        335,
+        444,
+        501
+      ],
+      "png": "assets/naval/progresion/mejora_tripulacion_nivel_1.png",
+      "webp": "assets/naval/progresion/mejora_tripulacion_nivel_1.webp",
+      "ancho": 182,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "tripulacion",
+        "nivel",
+        "1"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_tripulacion_nivel_1.webp"
+    },
+    {
+      "id": "mejora_tripulacion_nivel_2",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "tripulacion",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        491,
+        335,
+        702,
+        501
+      ],
+      "png": "assets/naval/progresion/mejora_tripulacion_nivel_2.png",
+      "webp": "assets/naval/progresion/mejora_tripulacion_nivel_2.webp",
+      "ancho": 198,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "tripulacion",
+        "nivel",
+        "2"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_tripulacion_nivel_2.webp"
+    },
+    {
+      "id": "mejora_tripulacion_nivel_3",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "tripulacion",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        729,
+        335,
+        964,
+        501
+      ],
+      "png": "assets/naval/progresion/mejora_tripulacion_nivel_3.png",
+      "webp": "assets/naval/progresion/mejora_tripulacion_nivel_3.webp",
+      "ancho": 223,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "tripulacion",
+        "nivel",
+        "3"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_tripulacion_nivel_3.webp"
+    },
+    {
+      "id": "mejora_velas_legendario",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "velas",
+      "nivel": "legendario",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        977,
+        0,
+        1238,
+        170
+      ],
+      "png": "assets/naval/progresion/mejora_velas_legendario.png",
+      "webp": "assets/naval/progresion/mejora_velas_legendario.webp",
+      "ancho": 245,
+      "alto": 170,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "velas",
+        "legendario"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_velas_legendario.webp"
+    },
+    {
+      "id": "mejora_velas_nivel_1",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "velas",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        246,
+        3,
+        444,
+        170
+      ],
+      "png": "assets/naval/progresion/mejora_velas_nivel_1.png",
+      "webp": "assets/naval/progresion/mejora_velas_nivel_1.webp",
+      "ancho": 175,
+      "alto": 161,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "velas",
+        "nivel",
+        "1"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_velas_nivel_1.webp"
+    },
+    {
+      "id": "mejora_velas_nivel_2",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "velas",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        491,
+        0,
+        702,
+        170
+      ],
+      "png": "assets/naval/progresion/mejora_velas_nivel_2.png",
+      "webp": "assets/naval/progresion/mejora_velas_nivel_2.webp",
+      "ancho": 189,
+      "alto": 166,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "velas",
+        "nivel",
+        "2"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_velas_nivel_2.webp"
+    },
+    {
+      "id": "mejora_velas_nivel_3",
+      "familia": "progresion",
+      "categoria": "estadisticas_navales",
+      "sistema": "velas",
+      "nivel": "nivel",
+      "origen": "emblemas_navales_fantásticos_para_interfaz_de_jueg.png",
+      "origen_recuadro": [
+        729,
+        0,
+        964,
+        170
+      ],
+      "png": "assets/naval/progresion/mejora_velas_nivel_3.png",
+      "webp": "assets/naval/progresion/mejora_velas_nivel_3.webp",
+      "ancho": 196,
+      "alto": 167,
+      "transparente": true,
+      "etiquetas": [
+        "progresion",
+        "mejora",
+        "velas",
+        "nivel",
+        "3"
+      ],
+      "notas": "Insignia temática por nivel. Representa la categoría visual; valores y requisitos se obtienen del documento Sistema de navegación.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/progresion/mejora_velas_nivel_3.webp"
+    },
+    {
+      "id": "ancla_yugen_jade",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        935,
+        391,
+        1167,
+        691
+      ],
+      "png": "assets/naval/yugen/ancla_yugen_jade.png",
+      "webp": "assets/naval/yugen/ancla_yugen_jade.webp",
+      "ancho": 222,
+      "alto": 290,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "ancla",
+        "jade"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/ancla_yugen_jade.webp"
+    },
+    {
+      "id": "emblema_yugen_dragon_rojo",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        982,
+        675,
+        1214,
+        875
+      ],
+      "png": "assets/naval/yugen/emblema_yugen_dragon_rojo.png",
+      "webp": "assets/naval/yugen/emblema_yugen_dragon_rojo.webp",
+      "ancho": 211,
+      "alto": 195,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "emblema",
+        "dragon",
+        "rojo"
+      ],
+      "notas": "Dos emblemas verticales muy próximos en la lámina; se separaron conservando el contacto ornamental.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/emblema_yugen_dragon_rojo.webp"
+    },
+    {
+      "id": "emblema_yugen_fenix_blanco",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        1203,
+        676,
+        1441,
+        875
+      ],
+      "png": "assets/naval/yugen/emblema_yugen_fenix_blanco.png",
+      "webp": "assets/naval/yugen/emblema_yugen_fenix_blanco.webp",
+      "ancho": 227,
+      "alto": 194,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "emblema",
+        "fenix",
+        "blanco"
+      ],
+      "notas": "Dos emblemas verticales muy próximos en la lámina; se separaron conservando el contacto ornamental.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/emblema_yugen_fenix_blanco.webp"
+    },
+    {
+      "id": "emblema_yugen_luna_flores",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        1203,
+        875,
+        1441,
+        1080
+      ],
+      "png": "assets/naval/yugen/emblema_yugen_luna_flores.png",
+      "webp": "assets/naval/yugen/emblema_yugen_luna_flores.webp",
+      "ancho": 227,
+      "alto": 200,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "emblema",
+        "luna",
+        "flores"
+      ],
+      "notas": "Dos emblemas verticales muy próximos en la lámina; se separaron conservando el contacto ornamental.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/emblema_yugen_luna_flores.webp"
+    },
+    {
+      "id": "emblema_yugen_tortuga_montana",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        982,
+        875,
+        1214,
+        1080
+      ],
+      "png": "assets/naval/yugen/emblema_yugen_tortuga_montana.png",
+      "webp": "assets/naval/yugen/emblema_yugen_tortuga_montana.webp",
+      "ancho": 222,
+      "alto": 200,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "emblema",
+        "tortuga",
+        "montana"
+      ],
+      "notas": "Dos emblemas verticales muy próximos en la lámina; se separaron conservando el contacto ornamental.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/emblema_yugen_tortuga_montana.webp"
+    },
+    {
+      "id": "estandarte_yugen_velero",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        281,
+        673,
+        557,
+        1077
+      ],
+      "png": "assets/naval/yugen/estandarte_yugen_velero.png",
+      "webp": "assets/naval/yugen/estandarte_yugen_velero.webp",
+      "ancho": 266,
+      "alto": 394,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "estandarte",
+        "velero"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/estandarte_yugen_velero.webp"
+    },
+    {
+      "id": "farol_yugen_puerto",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        1,
+        365,
+        221,
+        712
+      ],
+      "png": "assets/naval/yugen/farol_yugen_puerto.png",
+      "webp": "assets/naval/yugen/farol_yugen_puerto.webp",
+      "ancho": 210,
+      "alto": 337,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "farol",
+        "puerto"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/farol_yugen_puerto.webp"
+    },
+    {
+      "id": "guja_yugen_abordaje",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        696,
+        355,
+        986,
+        707
+      ],
+      "png": "assets/naval/yugen/guja_yugen_abordaje.png",
+      "webp": "assets/naval/yugen/guja_yugen_abordaje.webp",
+      "ancho": 280,
+      "alto": 342,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "guja",
+        "abordaje"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/guja_yugen_abordaje.webp"
+    },
+    {
+      "id": "katanas_cruzadas_yugen",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        431,
+        403,
+        709,
+        683
+      ],
+      "png": "assets/naval/yugen/katanas_cruzadas_yugen.png",
+      "webp": "assets/naval/yugen/katanas_cruzadas_yugen.webp",
+      "ancho": 268,
+      "alto": 270,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "katanas",
+        "cruzadas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/katanas_cruzadas_yugen.webp"
+    },
+    {
+      "id": "mascaron_yugen_dragon_olas",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        757,
+        23,
+        1132,
+        369
+      ],
+      "png": "assets/naval/yugen/mascaron_yugen_dragon_olas.png",
+      "webp": "assets/naval/yugen/mascaron_yugen_dragon_olas.webp",
+      "ancho": 365,
+      "alto": 336,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "mascaron",
+        "dragon",
+        "olas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/mascaron_yugen_dragon_olas.webp"
+    },
+    {
+      "id": "medallon_yugen_dragon_olas",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        4,
+        714,
+        303,
+        1028
+      ],
+      "png": "assets/naval/yugen/medallon_yugen_dragon_olas.png",
+      "webp": "assets/naval/yugen/medallon_yugen_dragon_olas.webp",
+      "ancho": 289,
+      "alto": 304,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "medallon",
+        "dragon",
+        "olas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/medallon_yugen_dragon_olas.webp"
+    },
+    {
+      "id": "medallon_yugen_sol_y_mar",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "decoracion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        1123,
+        3,
+        1448,
+        380
+      ],
+      "png": "assets/naval/yugen/medallon_yugen_sol_y_mar.png",
+      "webp": "assets/naval/yugen/medallon_yugen_sol_y_mar.webp",
+      "ancho": 320,
+      "alto": 367,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "medallon",
+        "sol",
+        "y",
+        "mar"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/medallon_yugen_sol_y_mar.webp"
+    },
+    {
+      "id": "navio_yugen_junco_guerra_velas_rojas",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "navio",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        6,
+        0,
+        755,
+        372
+      ],
+      "png": "assets/naval/yugen/navio_yugen_junco_guerra_velas_rojas.png",
+      "webp": "assets/naval/yugen/navio_yugen_junco_guerra_velas_rojas.webp",
+      "ancho": 739,
+      "alto": 367,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "navio",
+        "junco",
+        "guerra",
+        "velas",
+        "rojas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/navio_yugen_junco_guerra_velas_rojas.webp"
+    },
+    {
+      "id": "pasarela_abordaje_yugen",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "poder_ataque",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        501,
+        689,
+        968,
+        1054
+      ],
+      "png": "assets/naval/yugen/pasarela_abordaje_yugen.png",
+      "webp": "assets/naval/yugen/pasarela_abordaje_yugen.webp",
+      "ancho": 457,
+      "alto": 355,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "pasarela",
+        "abordaje"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/pasarela_abordaje_yugen.webp"
+    },
+    {
+      "id": "timon_yugen_dragon",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "navegacion",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        1155,
+        379,
+        1448,
+        673
+      ],
+      "png": "assets/naval/yugen/timon_yugen_dragon.png",
+      "webp": "assets/naval/yugen/timon_yugen_dragon.webp",
+      "ancho": 288,
+      "alto": 284,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "timon",
+        "dragon"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/timon_yugen_dragon.webp"
+    },
+    {
+      "id": "vela_yugen_dragones_olas",
+      "familia": "yugen",
+      "categoria": "yugen",
+      "sistema": "velas",
+      "nivel": null,
+      "origen": "colección_naval_fantástica_oriental.png",
+      "origen_recuadro": [
+        200,
+        366,
+        447,
+        694
+      ],
+      "png": "assets/naval/yugen/vela_yugen_dragones_olas.png",
+      "webp": "assets/naval/yugen/vela_yugen_dragones_olas.webp",
+      "ancho": 237,
+      "alto": 318,
+      "transparente": true,
+      "etiquetas": [
+        "yugen",
+        "vela",
+        "dragones",
+        "olas"
+      ],
+      "notas": "Imagen generada: denominación de búsqueda, no embarcación o emblema canónico de una facción.",
+      "url_webp": "https://morpheus-eko.github.io/aeternalis/assets/naval/yugen/vela_yugen_dragones_olas.webp"
+    }
+  ],
+  "publicados_en_github": true,
+  "formato_publicado": "webp",
+  "png_originales_en_archivos_zip": true
+}

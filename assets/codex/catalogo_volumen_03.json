@@ -1,0 +1,3724 @@
+{
+  "volumen": 3,
+  "total": 125,
+  "recursos": [
+    {
+      "id": "esculturas__busto_guerrero_humano_01",
+      "nombre": "Busto guerrero humano 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_guerrero_humano_01.png",
+      "webp": "assets/codex/esculturas/busto_guerrero_humano_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_humano_01.webp",
+      "dimensiones": {
+        "ancho": 465,
+        "alto": 496
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "guerrero",
+        "humano",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_humano",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_humano.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_humano.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "80b091460310ca0a0bfbad891dbe9e9b42b13975ef2c124452e80519ae4b2d7b"
+    },
+    {
+      "id": "esculturas__busto_arquera_alto_elfo_01",
+      "nombre": "Busto arquera alto elfo 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_arquera_alto_elfo_01.png",
+      "webp": "assets/codex/esculturas/busto_arquera_alto_elfo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_arquera_alto_elfo_01.webp",
+      "dimensiones": {
+        "ancho": 469,
+        "alto": 497
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "arquera",
+        "alto",
+        "elfo",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_alto_elfo",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_alto_elfo.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_alto_elfo.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "5f9bb726d3c8eb3c5081404a28c1954299eb86df9ae2a43582c1024d2c593927"
+    },
+    {
+      "id": "esculturas__busto_guerrero_enano_01",
+      "nombre": "Busto guerrero enano 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_guerrero_enano_01.png",
+      "webp": "assets/codex/esculturas/busto_guerrero_enano_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_enano_01.webp",
+      "dimensiones": {
+        "ancho": 496,
+        "alto": 498
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "guerrero",
+        "enano",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_enano",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_enano.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_enano.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "87b597ee26ed100e39bc78d23793a28e7673f2d6dc9583056cf3cd419dbe4b53"
+    },
+    {
+      "id": "esculturas__busto_orco_generico_01",
+      "nombre": "Busto orco generico 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_orco_generico_01.png",
+      "webp": "assets/codex/esculturas/busto_orco_generico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_orco_generico_01.webp",
+      "dimensiones": {
+        "ancho": 504,
+        "alto": 522
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "orco",
+        "generico",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_guerrero_orco_generico",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_guerrero_orco_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_guerrero_orco_generico.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "a53a9d47699068ed4d69d60b224b416a32442e709b7c3d927243c7de392e2ec1"
+    },
+    {
+      "id": "esculturas__busto_no_muerto_generico_01",
+      "nombre": "Busto no muerto generico 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_no_muerto_generico_01.png",
+      "webp": "assets/codex/esculturas/busto_no_muerto_generico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_no_muerto_generico_01.webp",
+      "dimensiones": {
+        "ancho": 480,
+        "alto": 533
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "no",
+        "muerto",
+        "generico",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_no_muerto_generico",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_no_muerto_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_no_muerto_generico.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "f53afd20831002e741025435cc7a24861c0392f5163e80ad964c49c66e421bef"
+    },
+    {
+      "id": "esculturas__busto_bestial_generico_01",
+      "nombre": "Busto bestial generico 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_bestial_generico_01.png",
+      "webp": "assets/codex/esculturas/busto_bestial_generico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_bestial_generico_01.webp",
+      "dimensiones": {
+        "ancho": 497,
+        "alto": 532
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "bestial",
+        "generico",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_bustos_6_bestial_generico",
+        "png": "png_individuales/esculturas/medallones_01/racial_bustos_6_bestial_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_01/racial_bustos_6_bestial_generico.webp",
+        "archivo_origen": "lamina_racial_bustos_6.png"
+      },
+      "sha256_webp": "9aeaf5c406c2df6ae9d3febd95202ffeb9d69dad756a7b5516e25732eff79d73"
+    },
+    {
+      "id": "esculturas__busto_guerrero_humano_02",
+      "nombre": "Busto guerrero humano 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_guerrero_humano_02.png",
+      "webp": "assets/codex/esculturas/busto_guerrero_humano_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_humano_02.webp",
+      "dimensiones": {
+        "ancho": 396,
+        "alto": 374
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "guerrero",
+        "humano",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_guerrero_humano",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_guerrero_humano.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_guerrero_humano.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "09c9fb18f41977460b09127aab45cc21886f4e087561198071c5d6775b5f7043"
+    },
+    {
+      "id": "esculturas__busto_alto_elfo_02",
+      "nombre": "Busto alto elfo 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_alto_elfo_02.png",
+      "webp": "assets/codex/esculturas/busto_alto_elfo_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_alto_elfo_02.webp",
+      "dimensiones": {
+        "ancho": 380,
+        "alto": 379
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "alto",
+        "elfo",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_alto_elfo",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_alto_elfo.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_alto_elfo.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "d953cd6d35ce3b89ed860ecbd86119e17e8250ad8d48cf9b82e244c400a87e9d"
+    },
+    {
+      "id": "esculturas__busto_guerrero_enano_02",
+      "nombre": "Busto guerrero enano 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_guerrero_enano_02.png",
+      "webp": "assets/codex/esculturas/busto_guerrero_enano_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_enano_02.webp",
+      "dimensiones": {
+        "ancho": 407,
+        "alto": 370
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "guerrero",
+        "enano",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_enano",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_enano.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_enano.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "b937b1bbc1276730cbb23a39aa9bf5e05da8f3cf24fb8e8fc596bf21e23b44ca"
+    },
+    {
+      "id": "esculturas__busto_orco_generico_02",
+      "nombre": "Busto orco generico 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_orco_generico_02.png",
+      "webp": "assets/codex/esculturas/busto_orco_generico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_orco_generico_02.webp",
+      "dimensiones": {
+        "ancho": 390,
+        "alto": 378
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "orco",
+        "generico",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_orco_generico",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_orco_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_orco_generico.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "f5b27624ab50cb0df3850bee315668769b62b9897f47d6f861ccb2c3de361092"
+    },
+    {
+      "id": "esculturas__busto_no_muerto_generico_02",
+      "nombre": "Busto no muerto generico 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_no_muerto_generico_02.png",
+      "webp": "assets/codex/esculturas/busto_no_muerto_generico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_no_muerto_generico_02.webp",
+      "dimensiones": {
+        "ancho": 407,
+        "alto": 398
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "no",
+        "muerto",
+        "generico",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_no_muerto_generico",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_no_muerto_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_no_muerto_generico.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "7c3e7b2523ec0912a77bdd865060daaa7a6ab2349d99c941264a3a14afe2c437"
+    },
+    {
+      "id": "esculturas__busto_bestial_generico_02",
+      "nombre": "Busto bestial generico 02",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_bestial_generico_02.png",
+      "webp": "assets/codex/esculturas/busto_bestial_generico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_bestial_generico_02.webp",
+      "dimensiones": {
+        "ancho": 414,
+        "alto": 363
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "bestial",
+        "generico",
+        "02"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_bestial_generico",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_bestial_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_bestial_generico.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "9179cf5b146f073527a66dc6cb3b8c231e35f3ddfb0b2bf32c4757ba04f1b8a7"
+    },
+    {
+      "id": "esculturas__busto_reptiliano_generico_01",
+      "nombre": "Busto reptiliano generico 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/busto_reptiliano_generico_01.png",
+      "webp": "assets/codex/esculturas/busto_reptiliano_generico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_reptiliano_generico_01.webp",
+      "dimensiones": {
+        "ancho": 400,
+        "alto": 372
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "busto",
+        "reptiliano",
+        "generico",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_reptiliano_generico",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_reptiliano_generico.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_reptiliano_generico.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "5a30647c6528444e54df7f2a42d5619d3b710f330401a352927fb74cce7cc86f"
+    },
+    {
+      "id": "esculturas__estatua_cuervo_01",
+      "nombre": "Estatua cuervo 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/estatua_cuervo_01.png",
+      "webp": "assets/codex/esculturas/estatua_cuervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/estatua_cuervo_01.webp",
+      "dimensiones": {
+        "ancho": 355,
+        "alto": 302
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "estatua",
+        "cuervo",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_cuervo",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_cuervo.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_cuervo.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "a72305234cdddfcf5ea630b38d8728d0d860bc7271708395b50d25f0d875c09f"
+    },
+    {
+      "id": "esculturas__estatua_ciervo_reno_01",
+      "nombre": "Estatua ciervo reno 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/estatua_ciervo_reno_01.png",
+      "webp": "assets/codex/esculturas/estatua_ciervo_reno_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/estatua_ciervo_reno_01.webp",
+      "dimensiones": {
+        "ancho": 334,
+        "alto": 355
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "estatua",
+        "ciervo",
+        "reno",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_reno",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_reno.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_reno.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "388a27b5a55585f959b49f5a539e0f422f300bffb28f7b7fc1b03626a3098e79"
+    },
+    {
+      "id": "esculturas__estatua_dragon_01",
+      "nombre": "Estatua dragon 01",
+      "volumen": 3,
+      "grupo": "esculturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esculturas/estatua_dragon_01.png",
+      "webp": "assets/codex/esculturas/estatua_dragon_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/estatua_dragon_01.webp",
+      "dimensiones": {
+        "ancho": 421,
+        "alto": 315
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esculturas",
+        "estatua",
+        "dragon",
+        "01"
+      ],
+      "origen": {
+        "id": "racial_guerreros_y_fauna_10_dragon",
+        "png": "png_individuales/esculturas/medallones_02/racial_guerreros_y_fauna_10_dragon.png",
+        "webp": "webp_optimizados/esculturas/medallones_02/racial_guerreros_y_fauna_10_dragon.webp",
+        "archivo_origen": "lamina_racial_guerreros_y_fauna_10.png"
+      },
+      "sha256_webp": "618b9d573c14bd8a5a52c2a1d438cae90d9171e06b7fcb23f015d521b6556e16"
+    },
+    {
+      "id": "armamento__escudos__escudo_redondo_rostro_solar_01",
+      "nombre": "Escudo redondo rostro solar 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_redondo_rostro_solar_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_redondo_rostro_solar_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_redondo_rostro_solar_01.webp",
+      "dimensiones": {
+        "ancho": 271,
+        "alto": 281
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "redondo",
+        "rostro",
+        "solar",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_001",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_001.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_001.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "cd2863414337f0b5a486be5b14e55aa6855aa55dcc256a7a9bdf7293638f1b5a"
+    },
+    {
+      "id": "armamento__escudos__escudo_redondo_rojo_cuervos_01",
+      "nombre": "Escudo redondo rojo cuervos 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_redondo_rojo_cuervos_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_redondo_rojo_cuervos_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_redondo_rojo_cuervos_01.webp",
+      "dimensiones": {
+        "ancho": 266,
+        "alto": 276
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "redondo",
+        "rojo",
+        "cuervos",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_002",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_002.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_002.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "81b89109e3ea2224792432903336aacb849dbf70e95e7b073d15efc5b468147a"
+    },
+    {
+      "id": "armamento__escudos__escudo_redondo_arbol_raices_01",
+      "nombre": "Escudo redondo arbol raices 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_redondo_arbol_raices_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_redondo_arbol_raices_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_redondo_arbol_raices_01.webp",
+      "dimensiones": {
+        "ancho": 263,
+        "alto": 271
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "redondo",
+        "arbol",
+        "raices",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_003",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_003.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_003.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "2787a17d9a4efd0c73d600d249ac287a4889aa73db17943ae14405498135fe2a"
+    },
+    {
+      "id": "armamento__escudos__escudo_heraldico_estrella_azul_01",
+      "nombre": "Escudo heraldico estrella azul 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_heraldico_estrella_azul_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_heraldico_estrella_azul_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_heraldico_estrella_azul_01.webp",
+      "dimensiones": {
+        "ancho": 216,
+        "alto": 324
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "heraldico",
+        "estrella",
+        "azul",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_004",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_004.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_004.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "c3732e029521e763e56527a2d9b9867679450e811cfd54b4d9b5403d8033048b"
+    },
+    {
+      "id": "armamento__escudos__escudo_heraldico_leon_coronado_01",
+      "nombre": "Escudo heraldico leon coronado 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_heraldico_leon_coronado_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_heraldico_leon_coronado_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_heraldico_leon_coronado_01.webp",
+      "dimensiones": {
+        "ancho": 215,
+        "alto": 322
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "heraldico",
+        "leon",
+        "coronado",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_005",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_005.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_005.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "b72b89a9f8f99ce412c3a7fa544b7563fb1e26edce7a31a9238f6c0cbd8ed569"
+    },
+    {
+      "id": "armamento__escudos__escudo_heraldico_craneo_ciervo_01",
+      "nombre": "Escudo heraldico craneo ciervo 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_heraldico_craneo_ciervo_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_heraldico_craneo_ciervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_heraldico_craneo_ciervo_01.webp",
+      "dimensiones": {
+        "ancho": 199,
+        "alto": 332
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "heraldico",
+        "craneo",
+        "ciervo",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_006",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_006.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_006.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "ef2753d5de9f37245c3c887b5af2be32977fb028d98e676717c4fc0528a5a5da"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_guarda_dorada_01",
+      "nombre": "Espada larga guarda dorada 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_guarda_dorada_01.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_guarda_dorada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_guarda_dorada_01.webp",
+      "dimensiones": {
+        "ancho": 144,
+        "alto": 348
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "guarda",
+        "dorada",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_007",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_007.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_007.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "32555f041bdcbaff24ec7cce3efc03846876be33537ccda2aef915b23ba959ed"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_cinta_roja_01",
+      "nombre": "Espada larga cinta roja 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_cinta_roja_01.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_cinta_roja_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_cinta_roja_01.webp",
+      "dimensiones": {
+        "ancho": 137,
+        "alto": 342
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "cinta",
+        "roja",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_008",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_008.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_008.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "163e10b526a4085ac62225160d0fa13c9250752e07523034ee0747c9bcf4924a"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_recta_01",
+      "nombre": "Espada larga recta 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_recta_01.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_recta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_recta_01.webp",
+      "dimensiones": {
+        "ancho": 133,
+        "alto": 341
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "recta",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_009",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_009.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_009.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "ce96e4b9bc5eb42a1f7bcae9270482b564e09e2d8fc50de13e2d48b831316b56"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_ranuras_doradas_01",
+      "nombre": "Espada larga ranuras doradas 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_ranuras_doradas_01.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_ranuras_doradas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_ranuras_doradas_01.webp",
+      "dimensiones": {
+        "ancho": 115,
+        "alto": 348
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "ranuras",
+        "doradas",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_010",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_010.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_010.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "c28be86bc03cbcea7d3318179c7f6155ceee08b6271f952193bd349cdc85a1aa"
+    },
+    {
+      "id": "armamento__espadas__espada_corta_guarda_cruzada_01",
+      "nombre": "Espada corta guarda cruzada 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_corta_guarda_cruzada_01.png",
+      "webp": "assets/codex/armamento/espadas/espada_corta_guarda_cruzada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_corta_guarda_cruzada_01.webp",
+      "dimensiones": {
+        "ancho": 104,
+        "alto": 340
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "corta",
+        "guarda",
+        "cruzada",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_011",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_011.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_011.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "1cf68edf45eb96a2061482760fd6638bbf5453af88fcbb7d579f2b324c299531"
+    },
+    {
+      "id": "armamento__espadas__sable_curvo_filigrana_01",
+      "nombre": "Sable curvo filigrana 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/sable_curvo_filigrana_01.png",
+      "webp": "assets/codex/armamento/espadas/sable_curvo_filigrana_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/sable_curvo_filigrana_01.webp",
+      "dimensiones": {
+        "ancho": 84,
+        "alto": 323
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "sable",
+        "curvo",
+        "filigrana",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_012",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_012.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_012.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "67b4837edf86e58a9b25aee3048bda0a655b117352f162bfb4a9575c0becdab4"
+    },
+    {
+      "id": "armamento__espadas__sable_curvo_cinta_roja_01",
+      "nombre": "Sable curvo cinta roja 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/sable_curvo_cinta_roja_01.png",
+      "webp": "assets/codex/armamento/espadas/sable_curvo_cinta_roja_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/sable_curvo_cinta_roja_01.webp",
+      "dimensiones": {
+        "ancho": 92,
+        "alto": 326
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "sable",
+        "curvo",
+        "cinta",
+        "roja",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_013",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_013.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_013.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "f325220b52b984ce2b00944f307b99a27d1cadde6284fac66658bb2728036a53"
+    },
+    {
+      "id": "armamento__espadas__katana_vaina_negra_01",
+      "nombre": "Katana vaina negra 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/katana_vaina_negra_01.png",
+      "webp": "assets/codex/armamento/espadas/katana_vaina_negra_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/katana_vaina_negra_01.webp",
+      "dimensiones": {
+        "ancho": 69,
+        "alto": 333
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "katana",
+        "vaina",
+        "negra",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_014",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_014.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_014.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "33dfded0a146a602d8e77c228b72978e934ad18f3e105d630c1458bfbb68a648"
+    },
+    {
+      "id": "armamento__espadas__daga_curva_ornamental_01",
+      "nombre": "Daga curva ornamental 01",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/daga_curva_ornamental_01.png",
+      "webp": "assets/codex/armamento/espadas/daga_curva_ornamental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/daga_curva_ornamental_01.webp",
+      "dimensiones": {
+        "ancho": 118,
+        "alto": 329
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "daga",
+        "curva",
+        "ornamental",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_015",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_015.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_015.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "4302642c400ffebc188c5d32b0044b076f49013c5e943662bad95adb1438dbdf"
+    },
+    {
+      "id": "armamento__hachas__hacha_doble_ritual_01",
+      "nombre": "Hacha doble ritual 01",
+      "volumen": 3,
+      "grupo": "armamento/hachas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/hachas/hacha_doble_ritual_01.png",
+      "webp": "assets/codex/armamento/hachas/hacha_doble_ritual_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/hachas/hacha_doble_ritual_01.webp",
+      "dimensiones": {
+        "ancho": 176,
+        "alto": 362
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "hachas",
+        "hacha",
+        "doble",
+        "ritual",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_016",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_016.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_016.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "047bac4d069b53e517e33e4647613de153f16d8383f0c9fe5d552e6e9513656a"
+    },
+    {
+      "id": "armamento__hachas__hacha_una_mano_piel_01",
+      "nombre": "Hacha una mano piel 01",
+      "volumen": 3,
+      "grupo": "armamento/hachas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/hachas/hacha_una_mano_piel_01.png",
+      "webp": "assets/codex/armamento/hachas/hacha_una_mano_piel_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/hachas/hacha_una_mano_piel_01.webp",
+      "dimensiones": {
+        "ancho": 144,
+        "alto": 354
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "hachas",
+        "hacha",
+        "una",
+        "mano",
+        "piel",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_017",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_017.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_017.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "f7ebf617224d64a2a5d8be6bd261fdccfc0293e4f43c0e4c739d92859afaadc9"
+    },
+    {
+      "id": "armamento__hachas__hacha_una_mano_acero_01",
+      "nombre": "Hacha una mano acero 01",
+      "volumen": 3,
+      "grupo": "armamento/hachas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/hachas/hacha_una_mano_acero_01.png",
+      "webp": "assets/codex/armamento/hachas/hacha_una_mano_acero_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/hachas/hacha_una_mano_acero_01.webp",
+      "dimensiones": {
+        "ancho": 159,
+        "alto": 357
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "hachas",
+        "hacha",
+        "una",
+        "mano",
+        "acero",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_018",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_018.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_018.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "1e909b9212d95647e087de5e1a2ff826e0d9040faee5ce835dd0a923487f31dc"
+    },
+    {
+      "id": "armamento__hachas__hacha_alabarda_cabeza_metal_01",
+      "nombre": "Hacha alabarda cabeza metal 01",
+      "volumen": 3,
+      "grupo": "armamento/hachas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/hachas/hacha_alabarda_cabeza_metal_01.png",
+      "webp": "assets/codex/armamento/hachas/hacha_alabarda_cabeza_metal_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/hachas/hacha_alabarda_cabeza_metal_01.webp",
+      "dimensiones": {
+        "ancho": 172,
+        "alto": 370
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "hachas",
+        "hacha",
+        "alabarda",
+        "cabeza",
+        "metal",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_019",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_019.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_019.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "4a923c1c0ad603f3965eba8a62e211884e397c8aa495a1266198f19b9f14052d"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_hoja_curva_cinta_roja_01",
+      "nombre": "Alabarda hoja curva cinta roja 01",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_01.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_01.webp",
+      "dimensiones": {
+        "ancho": 132,
+        "alto": 398
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "hoja",
+        "curva",
+        "cinta",
+        "roja",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_020",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_020.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_020.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "628512c0157481de03a63961a84f9faaff46e67aa835d62e0a5d6de6a98ca62e"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_hoja_ganchuda_01",
+      "nombre": "Alabarda hoja ganchuda 01",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_01.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_01.webp",
+      "dimensiones": {
+        "ancho": 111,
+        "alto": 394
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "hoja",
+        "ganchuda",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_021",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_021.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_021.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "7b66b63f176fe1b80f85f1730fa134883dcd54def7fc77e29733493295edcc3b"
+    },
+    {
+      "id": "armamento__lanzas__lanza_punta_alargada_01",
+      "nombre": "Lanza punta alargada 01",
+      "volumen": 3,
+      "grupo": "armamento/lanzas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/lanzas/lanza_punta_alargada_01.png",
+      "webp": "assets/codex/armamento/lanzas/lanza_punta_alargada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/lanzas/lanza_punta_alargada_01.webp",
+      "dimensiones": {
+        "ancho": 57,
+        "alto": 393
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "lanzas",
+        "lanza",
+        "punta",
+        "alargada",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_022",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_022.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_022.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "b28e546cdffb6dec5860fa7e10426e6fcefbb0311822c7505816bd44e4e31e83"
+    },
+    {
+      "id": "armamento__lanzas__tridente_puntas_rituales_01",
+      "nombre": "Tridente puntas rituales 01",
+      "volumen": 3,
+      "grupo": "armamento/lanzas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/lanzas/tridente_puntas_rituales_01.png",
+      "webp": "assets/codex/armamento/lanzas/tridente_puntas_rituales_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/lanzas/tridente_puntas_rituales_01.webp",
+      "dimensiones": {
+        "ancho": 89,
+        "alto": 394
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "lanzas",
+        "tridente",
+        "puntas",
+        "rituales",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_023",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_023.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_023.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "55e0e9569ce56236b335a5b82c46d57c813ccce88ddfe1c86956436ce5bdf050"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_hoja_ganchuda_02",
+      "nombre": "Alabarda hoja ganchuda 02",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_02.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_hoja_ganchuda_02.webp",
+      "dimensiones": {
+        "ancho": 131,
+        "alto": 395
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "hoja",
+        "ganchuda",
+        "02"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_024",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_024.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_024.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "dc6b325fafe8a946141a7ff776262491339fe991025fcfbc7d9d266e7882911e"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_hoja_sol_runa_01",
+      "nombre": "Alabarda hoja sol runa 01",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_hoja_sol_runa_01.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_hoja_sol_runa_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_hoja_sol_runa_01.webp",
+      "dimensiones": {
+        "ancho": 148,
+        "alto": 406
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "hoja",
+        "sol",
+        "runa",
+        "01"
+      ],
+      "origen": {
+        "id": "escudos_espadas_alabardas_26_elemento_025",
+        "png": "png_individuales/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_025.png",
+        "webp": "webp_optimizados/armamento/coleccion_01/escudos_espadas_alabardas_26_elemento_025.webp",
+        "archivo_origen": "lamina_escudos_espadas_alabardas_26.png"
+      },
+      "sha256_webp": "f0c579cc0930404116607a9f81e5df43f808c15e0611e2e3e3aa674fe75552f3"
+    },
+    {
+      "id": "armamento__escudos__escudo_redondo_rosa_vientos_leon_01",
+      "nombre": "Escudo redondo rosa vientos leon 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_redondo_rosa_vientos_leon_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_redondo_rosa_vientos_leon_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_redondo_rosa_vientos_leon_01.webp",
+      "dimensiones": {
+        "ancho": 406,
+        "alto": 400
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "redondo",
+        "rosa",
+        "vientos",
+        "leon",
+        "01"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_001",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_001.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_001.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "6194942969de4e2572e8303e843af7b51b771d95d9ada03c0b38f56197f3a317"
+    },
+    {
+      "id": "armamento__escudos__escudo_heraldico_arbol_dorado_01",
+      "nombre": "Escudo heraldico arbol dorado 01",
+      "volumen": 3,
+      "grupo": "armamento/escudos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/escudos/escudo_heraldico_arbol_dorado_01.png",
+      "webp": "assets/codex/armamento/escudos/escudo_heraldico_arbol_dorado_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_heraldico_arbol_dorado_01.webp",
+      "dimensiones": {
+        "ancho": 309,
+        "alto": 450
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "escudos",
+        "escudo",
+        "heraldico",
+        "arbol",
+        "dorado",
+        "01"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_002",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_002.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_002.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "92db41604131188b95ce2d4d51aec448a7bd99b787a23851f2a4140d7e10fb22"
+    },
+    {
+      "id": "armamento__hachas__hacha_doble_filigrana_cinta_01",
+      "nombre": "Hacha doble filigrana cinta 01",
+      "volumen": 3,
+      "grupo": "armamento/hachas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/hachas/hacha_doble_filigrana_cinta_01.png",
+      "webp": "assets/codex/armamento/hachas/hacha_doble_filigrana_cinta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/hachas/hacha_doble_filigrana_cinta_01.webp",
+      "dimensiones": {
+        "ancho": 281,
+        "alto": 477
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "hachas",
+        "hacha",
+        "doble",
+        "filigrana",
+        "cinta",
+        "01"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_003",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_003.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_003.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "1568a7174b323297d955c449738ab04bcf7f5f687dcaae584dd422f1a9bb2010"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_media_luna_cinta_01",
+      "nombre": "Alabarda media luna cinta 01",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_media_luna_cinta_01.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_media_luna_cinta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_media_luna_cinta_01.webp",
+      "dimensiones": {
+        "ancho": 208,
+        "alto": 732
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "media",
+        "luna",
+        "cinta",
+        "01"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_004",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_004.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_004.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "095acc008b7c5cd2f8a210315aece0476170e9368c3828b75f18443d47c4caba"
+    },
+    {
+      "id": "armamento__alabardas__alabarda_hoja_curva_cinta_roja_02",
+      "nombre": "Alabarda hoja curva cinta roja 02",
+      "volumen": 3,
+      "grupo": "armamento/alabardas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_02.png",
+      "webp": "assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/alabardas/alabarda_hoja_curva_cinta_roja_02.webp",
+      "dimensiones": {
+        "ancho": 186,
+        "alto": 759
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "alabardas",
+        "alabarda",
+        "hoja",
+        "curva",
+        "cinta",
+        "roja",
+        "02"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_005",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_005.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_005.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "b039b16d57d8e5668a5a8912a70576fd7ec3bc42573ba30c8277bca7c0d4e989"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_ornamental_02",
+      "nombre": "Espada larga ornamental 02",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_ornamental_02.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_ornamental_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_ornamental_02.webp",
+      "dimensiones": {
+        "ancho": 230,
+        "alto": 607
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "ornamental",
+        "02"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_006",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_006.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_006.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "8e679fb8967f51a09f1a5c86032c03085d08b92083b5ab0a658ff63c6d642254"
+    },
+    {
+      "id": "armamento__espadas__espada_larga_ornamental_03",
+      "nombre": "Espada larga ornamental 03",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/espada_larga_ornamental_03.png",
+      "webp": "assets/codex/armamento/espadas/espada_larga_ornamental_03.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/espada_larga_ornamental_03.webp",
+      "dimensiones": {
+        "ancho": 167,
+        "alto": 510
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "espada",
+        "larga",
+        "ornamental",
+        "03"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_007",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_007.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_007.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "bc78c453a9e4710946101f9e284cb63c5994ea8e845d38bad534cf4653b8f1ac"
+    },
+    {
+      "id": "armamento__espadas__katana_cinta_roja_02",
+      "nombre": "Katana cinta roja 02",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/katana_cinta_roja_02.png",
+      "webp": "assets/codex/armamento/espadas/katana_cinta_roja_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/katana_cinta_roja_02.webp",
+      "dimensiones": {
+        "ancho": 148,
+        "alto": 554
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "katana",
+        "cinta",
+        "roja",
+        "02"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_008",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_008.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_008.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "2b41cd30d3da716a6e50e14444b4040941b5fb82a2bfaed4bd7162a0d50af5cf"
+    },
+    {
+      "id": "armamento__lanzas__lanza_heraldica_cinta_roja_02",
+      "nombre": "Lanza heraldica cinta roja 02",
+      "volumen": 3,
+      "grupo": "armamento/lanzas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/lanzas/lanza_heraldica_cinta_roja_02.png",
+      "webp": "assets/codex/armamento/lanzas/lanza_heraldica_cinta_roja_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/lanzas/lanza_heraldica_cinta_roja_02.webp",
+      "dimensiones": {
+        "ancho": 162,
+        "alto": 637
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "lanzas",
+        "lanza",
+        "heraldica",
+        "cinta",
+        "roja",
+        "02"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_009",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_009.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_009.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "763c4a70da7468de68f7720fcff028af4fd7ef939517a68523ac8f099b698aff"
+    },
+    {
+      "id": "armamento__mazas__maza_estrella_metal_01",
+      "nombre": "Maza estrella metal 01",
+      "volumen": 3,
+      "grupo": "armamento/mazas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/mazas/maza_estrella_metal_01.png",
+      "webp": "assets/codex/armamento/mazas/maza_estrella_metal_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/mazas/maza_estrella_metal_01.webp",
+      "dimensiones": {
+        "ancho": 171,
+        "alto": 526
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "mazas",
+        "maza",
+        "estrella",
+        "metal",
+        "01"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_010",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_010.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_010.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "e83d22c39e93a80c2089ce611ad75255ef4186e1e5ee635510abba521cd732a8"
+    },
+    {
+      "id": "armamento__espadas__daga_hoja_oscura_02",
+      "nombre": "Daga hoja oscura 02",
+      "volumen": 3,
+      "grupo": "armamento/espadas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/armamento/espadas/daga_hoja_oscura_02.png",
+      "webp": "assets/codex/armamento/espadas/daga_hoja_oscura_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/espadas/daga_hoja_oscura_02.webp",
+      "dimensiones": {
+        "ancho": 144,
+        "alto": 437
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "armamento",
+        "espadas",
+        "daga",
+        "hoja",
+        "oscura",
+        "02"
+      ],
+      "origen": {
+        "id": "armas_heraldicas_11_elemento_011",
+        "png": "png_individuales/armamento/coleccion_02/armas_heraldicas_11_elemento_011.png",
+        "webp": "webp_optimizados/armamento/coleccion_02/armas_heraldicas_11_elemento_011.webp",
+        "archivo_origen": "lamina_armas_heraldicas_11.png"
+      },
+      "sha256_webp": "4ac2376524e1295635aec4eddf16775f16ca713ce6d0593c53ba1bd7de5f074c"
+    },
+    {
+      "id": "botones__gotico__boton_indice_gotico_01",
+      "nombre": "Boton indice gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_indice_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_indice_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_indice_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 332,
+        "alto": 323
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "indice",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_indice",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_indice.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_indice.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "9006965d89523a36ef2798fbce43a2925c104522c9a62bbb21942a6dbccba52c"
+    },
+    {
+      "id": "botones__gotico__boton_izquierda_gotico_01",
+      "nombre": "Boton izquierda gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_izquierda_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_izquierda_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_izquierda_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 291,
+        "alto": 326
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_izquierda",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_izquierda.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_izquierda.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "b8af3bfa2019cceab6c2e5c29ce3c81e3adb5cfafb84e1af1ed4e2b4ba9fbdce"
+    },
+    {
+      "id": "botones__gotico__boton_derecha_gotico_01",
+      "nombre": "Boton derecha gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_derecha_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_derecha_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_derecha_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 289,
+        "alto": 326
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_derecha",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_derecha.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_derecha.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "95c3250b5a49bc6d902c7507eaac9d8a8dfdcdd8069e5ff907fa2b9f12971faf"
+    },
+    {
+      "id": "botones__gotico__boton_arriba_gotico_01",
+      "nombre": "Boton arriba gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_arriba_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_arriba_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_arriba_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 296,
+        "alto": 325
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "arriba",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_arriba",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_arriba.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_arriba.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "48114012e06e6ffe6882c169c92413398d068cd9b4d6edca9d381589ff1d8c45"
+    },
+    {
+      "id": "botones__gotico__boton_abajo_gotico_01",
+      "nombre": "Boton abajo gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_abajo_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_abajo_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_abajo_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 276,
+        "alto": 323
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "abajo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_abajo",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_abajo.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_abajo.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "35a4b04ba8c57561cfd2a618ef685a8cd878a427cc424deae9cefe325637a54d"
+    },
+    {
+      "id": "botones__gotico__boton_volver_gotico_01",
+      "nombre": "Boton volver gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_volver_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_volver_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_volver_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 282,
+        "alto": 307
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "volver",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_volver",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_volver.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_volver.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "bbe5925e96857ef1f7c0c1d382757fec3749aa410b0c81f99494972e7eea8b93"
+    },
+    {
+      "id": "botones__gotico__boton_avanzar_gotico_01",
+      "nombre": "Boton avanzar gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_avanzar_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_avanzar_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_avanzar_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 276,
+        "alto": 301
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "avanzar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_avanzar",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_avanzar.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_avanzar.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "561dbaa09d00a668c2761120da6b086898e3c23991612d264a8e4d8915e53e14"
+    },
+    {
+      "id": "botones__gotico__boton_cerrar_gotico_01",
+      "nombre": "Boton cerrar gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_cerrar_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_cerrar_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_cerrar_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 244,
+        "alto": 308
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "cerrar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_cerrar",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_cerrar.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_cerrar.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "255f13799e0d7bf8c02f8c7094c7f29b356ba6c63eabe15025069f1009038950"
+    },
+    {
+      "id": "botones__gotico__boton_expandir_gotico_01",
+      "nombre": "Boton expandir gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_expandir_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_expandir_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_expandir_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 309,
+        "alto": 302
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "expandir",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_expandir",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_expandir.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_expandir.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "08ec4ac1878a244148918b475ab7e4c6650588f3f45b61fe34e18ba9108f77cd"
+    },
+    {
+      "id": "botones__gotico__boton_contraer_gotico_01",
+      "nombre": "Boton contraer gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_contraer_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_contraer_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_contraer_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 301,
+        "alto": 299
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "contraer",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_contraer",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_contraer.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_contraer.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "74f22a463f557bc17f53c4049ae13ca5658e007ebad26d523af11354ff011da0"
+    },
+    {
+      "id": "botones__gotico__boton_inicio_gotico_01",
+      "nombre": "Boton inicio gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_inicio_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_inicio_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_inicio_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 335,
+        "alto": 353
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "inicio",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_inicio",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_inicio.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_inicio.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "87667ecd22fd8392fed8264b27a09731afa76b5020ae82123f94871b26424e3f"
+    },
+    {
+      "id": "botones__gotico__boton_buscar_gotico_01",
+      "nombre": "Boton buscar gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_buscar_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_buscar_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_buscar_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 363,
+        "alto": 336
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "buscar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_buscar",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_buscar.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_buscar.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "06fe85cfefbec8bb16f7c0f0ba613e083776c4d27b4f597cf6f08d2584da98e7"
+    },
+    {
+      "id": "botones__gotico__boton_menu_gotico_01",
+      "nombre": "Boton menu gotico 01",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_menu_gotico_01.png",
+      "webp": "assets/codex/botones/gotico/boton_menu_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_menu_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 374,
+        "alto": 365
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "menu",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_goticos_13_menu",
+        "png": "png_individuales/botones/gotico_01/botones_goticos_13_menu.png",
+        "webp": "webp_optimizados/botones/gotico_01/botones_goticos_13_menu.webp",
+        "archivo_origen": "lamina_botones_goticos_13.png"
+      },
+      "sha256_webp": "72d1cd9c220f50fff23e3db05c0a6bf972d857fbda1bc5443e60ac77a9829962"
+    },
+    {
+      "id": "botones__gotico__boton_indice_gotico_02",
+      "nombre": "Boton indice gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_indice_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_indice_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_indice_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 775,
+        "alto": 358
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "indice",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_indice",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_indice.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_indice.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "6e2a52991a8154fe40696305302eaef1bdd26b070056b22a49c35b5bf25adbbb"
+    },
+    {
+      "id": "botones__gotico__boton_derecha_gotico_02",
+      "nombre": "Boton derecha gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_derecha_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_derecha_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_derecha_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 344,
+        "alto": 362
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "derecha",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_derecha",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_derecha.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_derecha.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "18379fcf77019776128d6b2d858d6e0681cd72bcc72913bfccda41dc2442000f"
+    },
+    {
+      "id": "botones__gotico__boton_izquierda_gotico_02",
+      "nombre": "Boton izquierda gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_izquierda_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_izquierda_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_izquierda_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 351,
+        "alto": 363
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "izquierda",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_izquierda",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_izquierda.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_izquierda.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "cfcc3a61f11a424d01f7216532e837137e9418ebbedd7db42269127428ffc4d0"
+    },
+    {
+      "id": "botones__gotico__boton_arriba_gotico_02",
+      "nombre": "Boton arriba gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_arriba_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_arriba_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_arriba_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 335,
+        "alto": 364
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "arriba",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_arriba",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_arriba.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_arriba.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "b0940d466337b6e6fa9e700c3bef1156f35bc66637db914da92f5e62033eb46f"
+    },
+    {
+      "id": "botones__gotico__boton_abajo_gotico_02",
+      "nombre": "Boton abajo gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_abajo_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_abajo_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_abajo_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 330,
+        "alto": 364
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "abajo",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_abajo",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_abajo.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_abajo.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "7a9180e3bf3fad96d3de46553765300c0c08304301e94044198a8c872f499046"
+    },
+    {
+      "id": "botones__gotico__boton_cerrar_gotico_02",
+      "nombre": "Boton cerrar gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_cerrar_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_cerrar_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_cerrar_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 367,
+        "alto": 365
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "cerrar",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_cerrar",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_cerrar.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_cerrar.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "82e04d084eb68b3b2d735a3ee046ad7295447dfa00a2471e12eb2b6349aecd2f"
+    },
+    {
+      "id": "botones__gotico__boton_menu_gotico_02",
+      "nombre": "Boton menu gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_menu_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_menu_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_menu_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 399,
+        "alto": 387
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "menu",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_menu",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_menu.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_menu.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "59511f4e47130dc1686c955111b9efeddd26c35f10aed4c171a6be42a6045ddc"
+    },
+    {
+      "id": "botones__gotico__boton_retroceder_gotico_02",
+      "nombre": "Boton retroceder gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_retroceder_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_retroceder_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_retroceder_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 708,
+        "alto": 314
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "retroceder",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_retroceder",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_retroceder.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_retroceder.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "2c07236200c1c0fecad98e245c47f091812f3c0c3d13ba0691a799a024bf6231"
+    },
+    {
+      "id": "botones__gotico__boton_avanzar_gotico_02",
+      "nombre": "Boton avanzar gotico 02",
+      "volumen": 3,
+      "grupo": "botones/gotico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/gotico/boton_avanzar_gotico_02.png",
+      "webp": "assets/codex/botones/gotico/boton_avanzar_gotico_02.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/gotico/boton_avanzar_gotico_02.webp",
+      "dimensiones": {
+        "ancho": 713,
+        "alto": 311
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "gotico",
+        "boton",
+        "avanzar",
+        "02"
+      ],
+      "origen": {
+        "id": "botones_goticos_grandes_9_avanzar",
+        "png": "png_individuales/botones/gotico_02/botones_goticos_grandes_9_avanzar.png",
+        "webp": "webp_optimizados/botones/gotico_02/botones_goticos_grandes_9_avanzar.webp",
+        "archivo_origen": "lamina_botones_goticos_grandes_9.png"
+      },
+      "sha256_webp": "2130df9f3c3b0e449dca2d0238fda1b496ee1dba7be1bb5a9943bd96cbaeec19"
+    },
+    {
+      "id": "botones__oriental__boton_indice_oriental_01",
+      "nombre": "Boton indice oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_indice_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_indice_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_indice_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 390,
+        "alto": 430
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "indice",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_indice",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_indice.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_indice.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "45e129f579f33c3847fb2648fcf7a695fd709549685bd4504a4b5e708cf47fe4"
+    },
+    {
+      "id": "botones__oriental__boton_izquierda_oriental_01",
+      "nombre": "Boton izquierda oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_izquierda_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_izquierda_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_izquierda_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 403,
+        "alto": 310
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_izquierda",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_izquierda.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_izquierda.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "37c529486753a46a9b3e3717d485111e36f4fdea904bf07ef832270bc5a56926"
+    },
+    {
+      "id": "botones__oriental__boton_derecha_oriental_01",
+      "nombre": "Boton derecha oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_derecha_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_derecha_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_derecha_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 400,
+        "alto": 308
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_derecha",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_derecha.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_derecha.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "42fddfdaf44fea9909cd00fb6cef58c191bb83a8d899b21a957ce92fdc05a421"
+    },
+    {
+      "id": "botones__oriental__boton_arriba_oriental_01",
+      "nombre": "Boton arriba oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_arriba_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_arriba_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_arriba_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 212,
+        "alto": 443
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "arriba",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_arriba",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_arriba.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_arriba.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "af7eec6634b7dd4d6cf2047eb556c32c4fbcb075af11c79ac8d5a8b127139811"
+    },
+    {
+      "id": "botones__oriental__boton_abajo_oriental_01",
+      "nombre": "Boton abajo oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_abajo_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_abajo_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_abajo_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 213,
+        "alto": 443
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "abajo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_abajo",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_abajo.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_abajo.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "dcced96fc96d2f7013cabebfe1f8619153f1257ca15b2d13e56264846d97f414"
+    },
+    {
+      "id": "botones__oriental__boton_cerrar_oriental_01",
+      "nombre": "Boton cerrar oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_cerrar_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_cerrar_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_cerrar_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 411,
+        "alto": 380
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "cerrar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_cerrar",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_cerrar.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_cerrar.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "62e22ac45e7a50a930c2e0b95557212a79b1119a4964266df6ad95558e29ec6d"
+    },
+    {
+      "id": "botones__oriental__boton_volver_oriental_01",
+      "nombre": "Boton volver oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_volver_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_volver_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_volver_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 416,
+        "alto": 380
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "volver",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_volver",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_volver.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_volver.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "9e0f03c45a83133cea1d55974283902ee7078381b295f04a98b23b7797683499"
+    },
+    {
+      "id": "botones__oriental__boton_avanzar_oriental_01",
+      "nombre": "Boton avanzar oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_avanzar_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_avanzar_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_avanzar_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 417,
+        "alto": 379
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "avanzar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_avanzar",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_avanzar.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_avanzar.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "9c5622029a269bdad050f79005e8da2e316fccbb1b149e2ea4a8a0fbf912d8f0"
+    },
+    {
+      "id": "botones__oriental__boton_menu_oriental_01",
+      "nombre": "Boton menu oriental 01",
+      "volumen": 3,
+      "grupo": "botones/oriental",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/oriental/boton_menu_oriental_01.png",
+      "webp": "assets/codex/botones/oriental/boton_menu_oriental_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/oriental/boton_menu_oriental_01.webp",
+      "dimensiones": {
+        "ancho": 425,
+        "alto": 393
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "oriental",
+        "boton",
+        "menu",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_orientales_9_menu",
+        "png": "png_individuales/botones/oriental_01/botones_orientales_9_menu.png",
+        "webp": "webp_optimizados/botones/oriental_01/botones_orientales_9_menu.webp",
+        "archivo_origen": "lamina_botones_orientales_9.png"
+      },
+      "sha256_webp": "7df5dd8bd6b9844486fbd348fc90e69f454bc8a01e3d0685a034c003d8c9795b"
+    },
+    {
+      "id": "botones__silvestre__boton_indice_silvestre_libro_abierto_01",
+      "nombre": "Boton indice silvestre libro abierto 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_indice_silvestre_libro_abierto_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_indice_silvestre_libro_abierto_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_indice_silvestre_libro_abierto_01.webp",
+      "dimensiones": {
+        "ancho": 231,
+        "alto": 221
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "indice",
+        "libro",
+        "abierto",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_001",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_001.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_001.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "87b3d6a7c39fff27eaf51215ed4d6765e4c13671fa2b0d8a15b964c38efc7df4"
+    },
+    {
+      "id": "botones__silvestre__boton_inicio_silvestre_casa_elfica_01",
+      "nombre": "Boton inicio silvestre casa elfica 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_inicio_silvestre_casa_elfica_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_inicio_silvestre_casa_elfica_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_inicio_silvestre_casa_elfica_01.webp",
+      "dimensiones": {
+        "ancho": 191,
+        "alto": 209
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "inicio",
+        "casa",
+        "elfica",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_002",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_002.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_002.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "f9976d9d3137a3f5d3071cd296d392043d3e3d15fb7a5f67e7b54dd889ec321a"
+    },
+    {
+      "id": "botones__silvestre__boton_buscar_silvestre_lupa_jade_01",
+      "nombre": "Boton buscar silvestre lupa jade 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_buscar_silvestre_lupa_jade_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_buscar_silvestre_lupa_jade_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_buscar_silvestre_lupa_jade_01.webp",
+      "dimensiones": {
+        "ancho": 183,
+        "alto": 200
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "buscar",
+        "lupa",
+        "jade",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_003",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_003.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_003.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "0bc7f846dbafb2a20965722013f0df9209bbcf2d6e455d121338f6dcf27b5552"
+    },
+    {
+      "id": "botones__silvestre__boton_menu_silvestre_tres_lineas_01",
+      "nombre": "Boton menu silvestre tres lineas 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_menu_silvestre_tres_lineas_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_menu_silvestre_tres_lineas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_menu_silvestre_tres_lineas_01.webp",
+      "dimensiones": {
+        "ancho": 179,
+        "alto": 198
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "menu",
+        "tres",
+        "lineas",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_004",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_004.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_004.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "f11187c3e314e988062e998576f29dae4d29dd7fea520b69161d4b74a99a02ce"
+    },
+    {
+      "id": "botones__silvestre__boton_izquierda_silvestre_flecha_01",
+      "nombre": "Boton izquierda silvestre flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_izquierda_silvestre_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_izquierda_silvestre_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_izquierda_silvestre_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 177,
+        "alto": 191
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "izquierda",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_005",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_005.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_005.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "6d878af8c51add7acf17ee2a3a88779e48c4fb4c50f0518b31a45d34ea96e67d"
+    },
+    {
+      "id": "botones__silvestre__boton_derecha_silvestre_flecha_01",
+      "nombre": "Boton derecha silvestre flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_derecha_silvestre_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_derecha_silvestre_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_derecha_silvestre_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 176,
+        "alto": 186
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "derecha",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_006",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_006.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_006.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "4fca735a30d4050ba01d9857efac5d6782a877a91ddba29fa58cd43e77f6c0da"
+    },
+    {
+      "id": "botones__silvestre__boton_arriba_silvestre_flecha_01",
+      "nombre": "Boton arriba silvestre flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_arriba_silvestre_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_arriba_silvestre_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_arriba_silvestre_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 177,
+        "alto": 190
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "arriba",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_007",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_007.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_007.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "9ef1b96077fef09b7c572693701f6cbe9565ff13fbbf2146aff0f2991e63b10f"
+    },
+    {
+      "id": "botones__silvestre__boton_abajo_silvestre_flecha_01",
+      "nombre": "Boton abajo silvestre flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_abajo_silvestre_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_abajo_silvestre_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_abajo_silvestre_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 177,
+        "alto": 189
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "abajo",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_008",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_008.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_008.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "8f7429e9343e123545f04a640af2a2d9ad0dfcc704f6b10b79445f82bc79baea"
+    },
+    {
+      "id": "botones__silvestre__boton_volver_silvestre_flecha_curva_01",
+      "nombre": "Boton volver silvestre flecha curva 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_volver_silvestre_flecha_curva_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_volver_silvestre_flecha_curva_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_volver_silvestre_flecha_curva_01.webp",
+      "dimensiones": {
+        "ancho": 203,
+        "alto": 184
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "volver",
+        "flecha",
+        "curva",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_009",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_009.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_009.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "3fe7d6f922cba580694f5ba295379bff21007684644a54f5a019e7f2e7d9c88f"
+    },
+    {
+      "id": "botones__silvestre__boton_avanzar_silvestre_flecha_curva_01",
+      "nombre": "Boton avanzar silvestre flecha curva 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_avanzar_silvestre_flecha_curva_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_avanzar_silvestre_flecha_curva_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_avanzar_silvestre_flecha_curva_01.webp",
+      "dimensiones": {
+        "ancho": 186,
+        "alto": 181
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "avanzar",
+        "flecha",
+        "curva",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_010",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_010.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_010.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "12ae2e81318599de1bdeb71786f6e51e27d1c06c22da815f9106005df15d3a43"
+    },
+    {
+      "id": "botones__silvestre__boton_cerrar_silvestre_equis_01",
+      "nombre": "Boton cerrar silvestre equis 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_cerrar_silvestre_equis_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_cerrar_silvestre_equis_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_cerrar_silvestre_equis_01.webp",
+      "dimensiones": {
+        "ancho": 162,
+        "alto": 170
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "cerrar",
+        "equis",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_011",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_011.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_011.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "5348a02ac69968528878d00ca08d5ad7a233ae27ebc2536d22dd057b985fbb78"
+    },
+    {
+      "id": "botones__silvestre__boton_ampliar_silvestre_mas_01",
+      "nombre": "Boton ampliar silvestre mas 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_ampliar_silvestre_mas_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_ampliar_silvestre_mas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_ampliar_silvestre_mas_01.webp",
+      "dimensiones": {
+        "ancho": 161,
+        "alto": 186
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "ampliar",
+        "mas",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_012",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_012.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_012.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "609bdfae65ca8f6a1f01a414a9c011eb4a1ce6f4207fd041bafddeadda02d8bd"
+    },
+    {
+      "id": "botones__silvestre__boton_reducir_silvestre_menos_01",
+      "nombre": "Boton reducir silvestre menos 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_reducir_silvestre_menos_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_reducir_silvestre_menos_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_reducir_silvestre_menos_01.webp",
+      "dimensiones": {
+        "ancho": 168,
+        "alto": 181
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "reducir",
+        "menos",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_013",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_013.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_013.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "efe6230949fd3236eeeb5e8767e9102529b78c2d6dbb759cfb77ec46af61bb66"
+    },
+    {
+      "id": "botones__silvestre__boton_retroceso_silvestre_doble_flecha_01",
+      "nombre": "Boton retroceso silvestre doble flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_retroceso_silvestre_doble_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_retroceso_silvestre_doble_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_retroceso_silvestre_doble_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 169,
+        "alto": 164
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "retroceso",
+        "doble",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_014",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_014.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_014.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "169f8167320746d931760d76c921d44afbe307ab39a23e90cf0205a439eded8b"
+    },
+    {
+      "id": "botones__silvestre__boton_avance_rapido_silvestre_doble_flecha_01",
+      "nombre": "Boton avance rapido silvestre doble flecha 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_avance_rapido_silvestre_doble_flecha_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_avance_rapido_silvestre_doble_flecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_avance_rapido_silvestre_doble_flecha_01.webp",
+      "dimensiones": {
+        "ancho": 156,
+        "alto": 169
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "avance",
+        "rapido",
+        "doble",
+        "flecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_015",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_015.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_015.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "fad1910964c49a86f1ac6b8f63c95841ac7282b96d7c599388fc243fda9405f7"
+    },
+    {
+      "id": "botones__silvestre__boton_expandir_silvestre_cuatro_esquinas_01",
+      "nombre": "Boton expandir silvestre cuatro esquinas 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_expandir_silvestre_cuatro_esquinas_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_expandir_silvestre_cuatro_esquinas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_expandir_silvestre_cuatro_esquinas_01.webp",
+      "dimensiones": {
+        "ancho": 161,
+        "alto": 164
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "expandir",
+        "cuatro",
+        "esquinas",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_016",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_016.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_016.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "1a24e899f9a8af1f2579d46af6ead968c328c159c7ec30c9197deb15adf54a3d"
+    },
+    {
+      "id": "botones__silvestre__boton_contraer_silvestre_cuatro_esquinas_01",
+      "nombre": "Boton contraer silvestre cuatro esquinas 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_contraer_silvestre_cuatro_esquinas_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_contraer_silvestre_cuatro_esquinas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_contraer_silvestre_cuatro_esquinas_01.webp",
+      "dimensiones": {
+        "ancho": 176,
+        "alto": 167
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "contraer",
+        "cuatro",
+        "esquinas",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_017",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_017.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_017.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "c3f0c696c0965e5882623716b4fc8f069ac3e4142f827479bc589717c0ac7eba"
+    },
+    {
+      "id": "botones__silvestre__boton_izquierda_silvestre_ornamento_flecha_larga_01",
+      "nombre": "Boton izquierda silvestre ornamento flecha larga 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_izquierda_silvestre_ornamento_flecha_larga_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_izquierda_silvestre_ornamento_flecha_larga_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_izquierda_silvestre_ornamento_flecha_larga_01.webp",
+      "dimensiones": {
+        "ancho": 299,
+        "alto": 127
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "izquierda",
+        "ornamento",
+        "flecha",
+        "larga",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_018",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_018.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_018.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "c99139475497180f889b529389f0740b87ddad8798458aae23ed4dc11e1f22a3"
+    },
+    {
+      "id": "botones__silvestre__boton_derecha_silvestre_ornamento_flecha_larga_01",
+      "nombre": "Boton derecha silvestre ornamento flecha larga 01",
+      "volumen": 3,
+      "grupo": "botones/silvestre",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/silvestre/boton_derecha_silvestre_ornamento_flecha_larga_01.png",
+      "webp": "assets/codex/botones/silvestre/boton_derecha_silvestre_ornamento_flecha_larga_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/silvestre/boton_derecha_silvestre_ornamento_flecha_larga_01.webp",
+      "dimensiones": {
+        "ancho": 297,
+        "alto": 127
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "silvestre",
+        "boton",
+        "derecha",
+        "ornamento",
+        "flecha",
+        "larga",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_019",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_019.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_019.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "f714165a6817fa577da25e1262a3d2c3c4128b1a6a1c872e689a52d5ed8356a2"
+    },
+    {
+      "id": "separadores__silvestre_gema_jade_01",
+      "nombre": "Silvestre gema jade 01",
+      "volumen": 3,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/silvestre_gema_jade_01.png",
+      "webp": "assets/codex/separadores/silvestre_gema_jade_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/silvestre_gema_jade_01.webp",
+      "dimensiones": {
+        "ancho": 424,
+        "alto": 100
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "silvestre",
+        "gema",
+        "jade",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_020",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_020.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_020.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "a78b54d8c17fc9bedcda5a19ecce092e3e65364bbda305eea322440492e82a16"
+    },
+    {
+      "id": "separadores__silvestre_flor_blanca_01",
+      "nombre": "Silvestre flor blanca 01",
+      "volumen": 3,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/silvestre_flor_blanca_01.png",
+      "webp": "assets/codex/separadores/silvestre_flor_blanca_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/silvestre_flor_blanca_01.webp",
+      "dimensiones": {
+        "ancho": 483,
+        "alto": 114
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "silvestre",
+        "flor",
+        "blanca",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_021",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_021.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_021.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "aa1c2040fcf1cd9f4358a7eec9835773f803eccca0fc0f31105bf7f69b62a90d"
+    },
+    {
+      "id": "separadores__silvestre_hojas_jade_01",
+      "nombre": "Silvestre hojas jade 01",
+      "volumen": 3,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/silvestre_hojas_jade_01.png",
+      "webp": "assets/codex/separadores/silvestre_hojas_jade_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/silvestre_hojas_jade_01.webp",
+      "dimensiones": {
+        "ancho": 533,
+        "alto": 90
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "silvestre",
+        "hojas",
+        "jade",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_022",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_022.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_022.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "5ce397bfba61ce5da1f408afbbe7729d73d09e7a9594988d373e36d22f05404b"
+    },
+    {
+      "id": "separadores__silvestre_lazo_vegetal_01",
+      "nombre": "Silvestre lazo vegetal 01",
+      "volumen": 3,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/silvestre_lazo_vegetal_01.png",
+      "webp": "assets/codex/separadores/silvestre_lazo_vegetal_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/silvestre_lazo_vegetal_01.webp",
+      "dimensiones": {
+        "ancho": 453,
+        "alto": 90
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "silvestre",
+        "lazo",
+        "vegetal",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_023",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_023.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_023.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "8da8d32bee5ecc7d1bdb736139d336f01b09807055e825f240c0733b56ea7728"
+    },
+    {
+      "id": "cartelas__silvestre_asta_ciervo_01",
+      "nombre": "Silvestre asta ciervo 01",
+      "volumen": 3,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/silvestre_asta_ciervo_01.png",
+      "webp": "assets/codex/cartelas/silvestre_asta_ciervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/silvestre_asta_ciervo_01.webp",
+      "dimensiones": {
+        "ancho": 511,
+        "alto": 232
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "silvestre",
+        "asta",
+        "ciervo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_024",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_024.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_024.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "8901a305f02ca65cfad8ccf1aa6a9a0b48a98208d6ba456552f21de8d22abd50"
+    },
+    {
+      "id": "cartelas__silvestre_rectangular_hiedra_01",
+      "nombre": "Silvestre rectangular hiedra 01",
+      "volumen": 3,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/silvestre_rectangular_hiedra_01.png",
+      "webp": "assets/codex/cartelas/silvestre_rectangular_hiedra_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/silvestre_rectangular_hiedra_01.webp",
+      "dimensiones": {
+        "ancho": 555,
+        "alto": 203
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "silvestre",
+        "rectangular",
+        "hiedra",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_025",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_025.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_025.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "28ad47b2fb8c55e9d8394fc2ee1057453d6c44a643ff6cf2efc59c7dd1ae8e99"
+    },
+    {
+      "id": "cartelas__silvestre_gema_hojas_01",
+      "nombre": "Silvestre gema hojas 01",
+      "volumen": 3,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/silvestre_gema_hojas_01.png",
+      "webp": "assets/codex/cartelas/silvestre_gema_hojas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/silvestre_gema_hojas_01.webp",
+      "dimensiones": {
+        "ancho": 453,
+        "alto": 182
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "silvestre",
+        "gema",
+        "hojas",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_026",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_026.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_026.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "b96db30f0eca28b14e893cdcc6383649e143d8aeb846b5708b288e35daa9ea5b"
+    },
+    {
+      "id": "emblemas__silvestre_ciervo_01",
+      "nombre": "Silvestre ciervo 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_ciervo_01.png",
+      "webp": "assets/codex/emblemas/silvestre_ciervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_ciervo_01.webp",
+      "dimensiones": {
+        "ancho": 253,
+        "alto": 269
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "ciervo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_027",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_027.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_027.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "b3172f3726f88fb875a58284c31d7517333065c53dc17f5c77d483a7da7c822c"
+    },
+    {
+      "id": "emblemas__silvestre_lobo_01",
+      "nombre": "Silvestre lobo 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_lobo_01.png",
+      "webp": "assets/codex/emblemas/silvestre_lobo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_lobo_01.webp",
+      "dimensiones": {
+        "ancho": 230,
+        "alto": 244
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "lobo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_028",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_028.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_028.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "fe6863ec7b3b692a3b4494a52cda5ea9e43c6736a41fd78020b0af3421ca5ef2"
+    },
+    {
+      "id": "emblemas__silvestre_buho_01",
+      "nombre": "Silvestre buho 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_buho_01.png",
+      "webp": "assets/codex/emblemas/silvestre_buho_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_buho_01.webp",
+      "dimensiones": {
+        "ancho": 201,
+        "alto": 246
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "buho",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_029",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_029.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_029.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "069d1011975d0dfff6ed8aea03430ed969ce3523d1b60a301c5fee7384c3316c"
+    },
+    {
+      "id": "emblemas__silvestre_arbol_raices_01",
+      "nombre": "Silvestre arbol raices 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_arbol_raices_01.png",
+      "webp": "assets/codex/emblemas/silvestre_arbol_raices_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_arbol_raices_01.webp",
+      "dimensiones": {
+        "ancho": 233,
+        "alto": 259
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "arbol",
+        "raices",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_030",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_030.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_030.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "9444bee1a7c15ad3ab1ccb756dd00067f6dd0dbecfa59a08abea39fd809e2120"
+    },
+    {
+      "id": "emblemas__silvestre_zorro_espiritual_01",
+      "nombre": "Silvestre zorro espiritual 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_zorro_espiritual_01.png",
+      "webp": "assets/codex/emblemas/silvestre_zorro_espiritual_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_zorro_espiritual_01.webp",
+      "dimensiones": {
+        "ancho": 203,
+        "alto": 244
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "zorro",
+        "espiritual",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_031",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_031.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_031.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "0752df72c4ab1ba5cbfa32bdbca37e00710ed4e82d0f2b0aac9c21ac121849f6"
+    },
+    {
+      "id": "emblemas__silvestre_flor_cristal_01",
+      "nombre": "Silvestre flor cristal 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_flor_cristal_01.png",
+      "webp": "assets/codex/emblemas/silvestre_flor_cristal_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_flor_cristal_01.webp",
+      "dimensiones": {
+        "ancho": 203,
+        "alto": 257
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "flor",
+        "cristal",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_032",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_032.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_032.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "730e0632627e09cad30292fec85823dc1f7e67cee8dcb7b2e99d27c77b484c18"
+    },
+    {
+      "id": "emblemas__silvestre_nudo_elfico_01",
+      "nombre": "Silvestre nudo elfico 01",
+      "volumen": 3,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/silvestre_nudo_elfico_01.png",
+      "webp": "assets/codex/emblemas/silvestre_nudo_elfico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/silvestre_nudo_elfico_01.webp",
+      "dimensiones": {
+        "ancho": 218,
+        "alto": 257
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "silvestre",
+        "nudo",
+        "elfico",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_silvestres_37_elemento_033",
+        "png": "png_individuales/botones/silvestre_01/botones_silvestres_37_elemento_033.png",
+        "webp": "webp_optimizados/botones/silvestre_01/botones_silvestres_37_elemento_033.webp",
+        "archivo_origen": "lamina_botones_silvestres_37.png"
+      },
+      "sha256_webp": "6ce24829842775f8ecfdfa06b5fbbba25a3af12ff7c71bc5c29b7fc62e7130b0"
+    },
+    {
+      "id": "botones__selvatico__boton_indice_selvatico_01",
+      "nombre": "Boton indice selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_indice_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_indice_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_indice_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 490,
+        "alto": 356
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "indice",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_indice",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_indice.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_indice.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "3a1aca9802d50a1f8fe092f1583fe5fbb49b59acf413a0826ff28f4342efc941"
+    },
+    {
+      "id": "botones__selvatico__boton_arriba_selvatico_01",
+      "nombre": "Boton arriba selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_arriba_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_arriba_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_arriba_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 366,
+        "alto": 324
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "arriba",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_arriba",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_arriba.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_arriba.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "1e2663862e6567c8f8dccab889ab01bc8e0d909d5b84451fb71c0389b00f0d9b"
+    },
+    {
+      "id": "botones__selvatico__boton_derecha_selvatico_01",
+      "nombre": "Boton derecha selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_derecha_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_derecha_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_derecha_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 551,
+        "alto": 331
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_derecha",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_derecha.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_derecha.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "4ebc923392a65757006740ad044277cfd2b276a3afe1eb88c1a019453e9d2f1f"
+    },
+    {
+      "id": "botones__selvatico__boton_izquierda_selvatico_01",
+      "nombre": "Boton izquierda selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_izquierda_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_izquierda_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_izquierda_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 519,
+        "alto": 327
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_izquierda",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_izquierda.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_izquierda.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "08d19dae90fdb40cce2a4a682ea7fc1408c7edeb6915109704cdd0a11c021217"
+    },
+    {
+      "id": "botones__selvatico__boton_cerrar_selvatico_01",
+      "nombre": "Boton cerrar selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_cerrar_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_cerrar_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_cerrar_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 339,
+        "alto": 339
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "cerrar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_cerrar",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_cerrar.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_cerrar.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "a0407835c6ca39d0105517071c03e6fec8c9c29b10a10eb13961435236b69a94"
+    },
+    {
+      "id": "botones__selvatico__boton_volver_selvatico_01",
+      "nombre": "Boton volver selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_volver_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_volver_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_volver_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 491,
+        "alto": 308
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "volver",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_volver",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_volver.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_volver.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "f0a3187ea2851aa687833f291a1fc9dddc863f46d7ce79d546d20a22f8abb8dc"
+    },
+    {
+      "id": "botones__selvatico__boton_abajo_selvatico_01",
+      "nombre": "Boton abajo selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_abajo_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_abajo_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_abajo_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 368,
+        "alto": 350
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "abajo",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_abajo",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_abajo.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_abajo.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "9e3fc4950f9b85efd9c91f573bac5592d34cd448d49e6ca65ce93b4c0bccaeb7"
+    },
+    {
+      "id": "botones__selvatico__boton_avanzar_selvatico_01",
+      "nombre": "Boton avanzar selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_avanzar_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_avanzar_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_avanzar_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 447,
+        "alto": 331
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "avanzar",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_avanzar",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_avanzar.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_avanzar.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "6ac32d0e96ecaf45a13b2c8c9c111567c26559c0148b55bbcaf4869121dfbbfe"
+    },
+    {
+      "id": "botones__selvatico__boton_menu_selvatico_01",
+      "nombre": "Boton menu selvatico 01",
+      "volumen": 3,
+      "grupo": "botones/selvatico",
+      "formato_preferido": "webp",
+      "png": "assets/codex/botones/selvatico/boton_menu_selvatico_01.png",
+      "webp": "assets/codex/botones/selvatico/boton_menu_selvatico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/botones/selvatico/boton_menu_selvatico_01.webp",
+      "dimensiones": {
+        "ancho": 374,
+        "alto": 374
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "botones",
+        "selvatico",
+        "boton",
+        "menu",
+        "01"
+      ],
+      "origen": {
+        "id": "botones_selvaticos_9_menu",
+        "png": "png_individuales/botones/selvatico_01/botones_selvaticos_9_menu.png",
+        "webp": "webp_optimizados/botones/selvatico_01/botones_selvaticos_9_menu.webp",
+        "archivo_origen": "lamina_botones_selvaticos_9.png"
+      },
+      "sha256_webp": "4a90bdc4f886edce162b8fe39e7f649af6e92ba0cb811f1ac393df7c743f8e15"
+    }
+  ]
+}

@@ -1,0 +1,2197 @@
+{
+  "volumen": 2,
+  "total": 78,
+  "recursos": [
+    {
+      "id": "separadores__brujula_plumas_01",
+      "nombre": "Brujula plumas 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/brujula_plumas_01.png",
+      "webp": "assets/codex/separadores/brujula_plumas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/brujula_plumas_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "brujula",
+        "plumas",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_brujula_y_plumas",
+        "png": "png_individuales/separadores/brujula_y_plumas.png",
+        "webp": "webp_optimizados/separadores/brujula_y_plumas.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/separador_brujula_y_plumas.png"
+      },
+      "sha256_webp": "44a8afbd4a3e99c061fcfe2e636bf5f674f84899c1240b7569ff26a17e3b6898"
+    },
+    {
+      "id": "separadores__craneo_astrolabio_01",
+      "nombre": "Craneo astrolabio 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/craneo_astrolabio_01.png",
+      "webp": "assets/codex/separadores/craneo_astrolabio_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/craneo_astrolabio_01.webp",
+      "dimensiones": {
+        "ancho": 2172,
+        "alto": 724
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "craneo",
+        "astrolabio",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_craneo_y_astrolabio",
+        "png": "png_individuales/separadores/craneo_y_astrolabio.png",
+        "webp": "webp_optimizados/separadores/craneo_y_astrolabio.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/separador_craneo_y_astrolabio.png"
+      },
+      "sha256_webp": "ca537d44cd082ff472310b8b28abb01c33c6f04247590c50d01eb11098c33ff9"
+    },
+    {
+      "id": "colecciones__juego_cuatro_esquinas_goticas_01",
+      "nombre": "Juego cuatro esquinas goticas 01",
+      "volumen": 2,
+      "grupo": "colecciones",
+      "formato_preferido": "webp",
+      "png": "assets/codex/colecciones/juego_cuatro_esquinas_goticas_01.png",
+      "webp": "assets/codex/colecciones/juego_cuatro_esquinas_goticas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/colecciones/juego_cuatro_esquinas_goticas_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "colecciones",
+        "juego",
+        "cuatro",
+        "esquinas",
+        "goticas",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_juego_esquinas_goticas",
+        "png": "png_individuales/ornamentos/juego_esquinas_goticas.png",
+        "webp": "webp_optimizados/ornamentos/juego_esquinas_goticas.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/esquinas_goticas_4_motivos.png"
+      },
+      "sha256_webp": "01e3ebca50141af3d55c85f410900c9a9d70401d3c2992ad78b9338d5388782c"
+    },
+    {
+      "id": "esquinas__gotica_estrella_01",
+      "nombre": "Gotica estrella 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/gotica_estrella_01.png",
+      "webp": "assets/codex/esquinas/gotica_estrella_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/gotica_estrella_01.webp",
+      "dimensiones": {
+        "ancho": 557,
+        "alto": 493
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "gotica",
+        "estrella",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_gotica_estrella",
+        "png": "png_individuales/esquinas/gotica_estrella.png",
+        "webp": "webp_optimizados/esquinas/gotica_estrella.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/esquinas_goticas_4_motivos.png"
+      },
+      "sha256_webp": "958c37241776d404cb552840398fb48cdd478710fbfd03870f3456553b4d0476"
+    },
+    {
+      "id": "esquinas__gotica_luna_01",
+      "nombre": "Gotica luna 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/gotica_luna_01.png",
+      "webp": "assets/codex/esquinas/gotica_luna_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/gotica_luna_01.webp",
+      "dimensiones": {
+        "ancho": 627,
+        "alto": 526
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "gotica",
+        "luna",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_gotica_luna",
+        "png": "png_individuales/esquinas/gotica_luna.png",
+        "webp": "webp_optimizados/esquinas/gotica_luna.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/esquinas_goticas_4_motivos.png"
+      },
+      "sha256_webp": "eefe7f69b09f03eca18c525ee08e77e9921ffebcc56dee1e89b1fc15283f9447"
+    },
+    {
+      "id": "esquinas__gotica_craneo_ciervo_01",
+      "nombre": "Gotica craneo ciervo 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/gotica_craneo_ciervo_01.png",
+      "webp": "assets/codex/esquinas/gotica_craneo_ciervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/gotica_craneo_ciervo_01.webp",
+      "dimensiones": {
+        "ancho": 626,
+        "alto": 522
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "gotica",
+        "craneo",
+        "ciervo",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_gotica_craneo_ciervo",
+        "png": "png_individuales/esquinas/gotica_craneo_ciervo.png",
+        "webp": "webp_optimizados/esquinas/gotica_craneo_ciervo.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/esquinas_goticas_4_motivos.png"
+      },
+      "sha256_webp": "d59785302da8d7857325295a37bd8e8fa5ef944500280f7742ce0e41b3f5a347"
+    },
+    {
+      "id": "esquinas__gotica_libro_pluma_01",
+      "nombre": "Gotica libro pluma 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/gotica_libro_pluma_01.png",
+      "webp": "assets/codex/esquinas/gotica_libro_pluma_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/gotica_libro_pluma_01.webp",
+      "dimensiones": {
+        "ancho": 653,
+        "alto": 511
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "gotica",
+        "libro",
+        "pluma",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_gotica_libro_pluma",
+        "png": "png_individuales/esquinas/gotica_libro_pluma.png",
+        "webp": "webp_optimizados/esquinas/gotica_libro_pluma.webp",
+        "archivo_origen": "Volumen_2/01_Ornamentos/esquinas_goticas_4_motivos.png"
+      },
+      "sha256_webp": "ec8b3ecdbd0a302c35648f871103fe4c11604866da27289fd3c1eaa69fd8565c"
+    },
+    {
+      "id": "marcos__pergamino_gotico_01",
+      "nombre": "Pergamino gotico 01",
+      "volumen": 2,
+      "grupo": "marcos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/marcos/pergamino_gotico_01.png",
+      "webp": "assets/codex/marcos/pergamino_gotico_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/marcos/pergamino_gotico_01.webp",
+      "dimensiones": {
+        "ancho": 1086,
+        "alto": 1449
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "marcos",
+        "pergamino",
+        "gotico",
+        "01"
+      ],
+      "origen": {
+        "id": "marcos_marco_pergamino_gotico",
+        "png": "png_individuales/marcos/marco_pergamino_gotico.png",
+        "webp": "webp_optimizados/marcos/marco_pergamino_gotico.webp",
+        "archivo_origen": "Volumen_2/02_Marcos/marco_pergamino_gotico.png"
+      },
+      "sha256_webp": "3372fc299beb2fa9447317b038a7771630a325e44763e52158cd00ba10c48323"
+    },
+    {
+      "id": "texturas__pergamino_01",
+      "nombre": "Pergamino 01",
+      "volumen": 2,
+      "grupo": "texturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/texturas/pergamino_01.png",
+      "webp": "assets/codex/texturas/pergamino_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/pergamino_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "texturas",
+        "pergamino",
+        "01"
+      ],
+      "origen": {
+        "id": "fondos_textura_pergamino",
+        "png": "png_individuales/fondos/textura_pergamino.png",
+        "webp": "webp_optimizados/fondos/textura_pergamino.webp",
+        "archivo_origen": "Volumen_2/03_Texturas/textura_pergamino_envejecido.png"
+      },
+      "sha256_webp": "a2b90ce9127d5dbf1016b5f458a9d4ca455eff69660613199d3e74575a94ae87"
+    },
+    {
+      "id": "texturas__cuero_oscuro_01",
+      "nombre": "Cuero oscuro 01",
+      "volumen": 2,
+      "grupo": "texturas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/texturas/cuero_oscuro_01.png",
+      "webp": "assets/codex/texturas/cuero_oscuro_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/cuero_oscuro_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "texturas",
+        "cuero",
+        "oscuro",
+        "01"
+      ],
+      "origen": {
+        "id": "fondos_textura_cuero_oscuro",
+        "png": "png_individuales/fondos/textura_cuero_oscuro.png",
+        "webp": "webp_optimizados/fondos/textura_cuero_oscuro.webp",
+        "archivo_origen": "Volumen_2/03_Texturas/textura_cuero_oscuro.png"
+      },
+      "sha256_webp": "b736d0c8c1645a66cbde1e03e0c19b09dfe68ef7725fb2a7f6af81733368285d"
+    },
+    {
+      "id": "colecciones__lamina_astrolabios_sellos_01",
+      "nombre": "Lamina astrolabios sellos 01",
+      "volumen": 2,
+      "grupo": "colecciones",
+      "formato_preferido": "webp",
+      "png": "assets/codex/colecciones/lamina_astrolabios_sellos_01.png",
+      "webp": "assets/codex/colecciones/lamina_astrolabios_sellos_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/colecciones/lamina_astrolabios_sellos_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "colecciones",
+        "lamina",
+        "astrolabios",
+        "sellos",
+        "01"
+      ],
+      "origen": {
+        "id": "laminas_ornamentos_astrolabios_y_sellos",
+        "png": "png_individuales/laminas/ornamentos_astrolabios_y_sellos.png",
+        "webp": "webp_optimizados/laminas/ornamentos_astrolabios_y_sellos.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "0bfe2130e8a29c899fded579fa8b6c200b18481bc4a704d1aa94abce5cefd48e"
+    },
+    {
+      "id": "separadores__estrella_brujula_01",
+      "nombre": "Estrella brujula 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/estrella_brujula_01.png",
+      "webp": "assets/codex/separadores/estrella_brujula_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/estrella_brujula_01.webp",
+      "dimensiones": {
+        "ancho": 621,
+        "alto": 138
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "estrella",
+        "brujula",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_estrella_brujula",
+        "png": "png_individuales/separadores/estrella_brujula.png",
+        "webp": "webp_optimizados/separadores/estrella_brujula.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "584b4498551dfc32f40e53ecbda48ca2fafc46b4ac59fd28ce8ed837d4a68ea9"
+    },
+    {
+      "id": "separadores__calavera_fases_lunares_01",
+      "nombre": "Calavera fases lunares 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/calavera_fases_lunares_01.png",
+      "webp": "assets/codex/separadores/calavera_fases_lunares_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/calavera_fases_lunares_01.webp",
+      "dimensiones": {
+        "ancho": 624,
+        "alto": 82
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "calavera",
+        "fases",
+        "lunares",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_calavera_lunas",
+        "png": "png_individuales/separadores/calavera_lunas.png",
+        "webp": "webp_optimizados/separadores/calavera_lunas.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "bd756b3825d334dccb8db8da2a8a6012b70e95d0f8ab73fa29bda805b93a8b16"
+    },
+    {
+      "id": "separadores__libro_alas_01",
+      "nombre": "Libro alas 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/libro_alas_01.png",
+      "webp": "assets/codex/separadores/libro_alas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/libro_alas_01.webp",
+      "dimensiones": {
+        "ancho": 619,
+        "alto": 126
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "libro",
+        "alas",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_libro_alado",
+        "png": "png_individuales/separadores/libro_alado.png",
+        "webp": "webp_optimizados/separadores/libro_alado.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "02e8e7b914664aa4a63320e5647106e39e6d0480fc5faff14e1ca86731d6a2d5"
+    },
+    {
+      "id": "separadores__pluma_dorada_01",
+      "nombre": "Pluma dorada 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/pluma_dorada_01.png",
+      "webp": "assets/codex/separadores/pluma_dorada_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/pluma_dorada_01.webp",
+      "dimensiones": {
+        "ancho": 622,
+        "alto": 83
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "pluma",
+        "dorada",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_pluma_dorada",
+        "png": "png_individuales/separadores/pluma_dorada.png",
+        "webp": "webp_optimizados/separadores/pluma_dorada.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "948371a5dd2364fa721b09d98615d829000f6130bf6dd7d91cebfcd319599467"
+    },
+    {
+      "id": "separadores__fases_lunares_01",
+      "nombre": "Fases lunares 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/fases_lunares_01.png",
+      "webp": "assets/codex/separadores/fases_lunares_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/fases_lunares_01.webp",
+      "dimensiones": {
+        "ancho": 619,
+        "alto": 61
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "fases",
+        "lunares",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_fases_lunares",
+        "png": "png_individuales/separadores/fases_lunares.png",
+        "webp": "webp_optimizados/separadores/fases_lunares.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "ad34a3744228db9686706e2aba5f55037f249e6cdc861390de565a5b196f7f6e"
+    },
+    {
+      "id": "astrolabios__circulo_estelar_01",
+      "nombre": "Circulo estelar 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/circulo_estelar_01.png",
+      "webp": "assets/codex/astrolabios/circulo_estelar_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/circulo_estelar_01.webp",
+      "dimensiones": {
+        "ancho": 284,
+        "alto": 280
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "circulo",
+        "estelar",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_circulo_estelar",
+        "png": "png_individuales/astrolabios/circulo_estelar.png",
+        "webp": "webp_optimizados/astrolabios/circulo_estelar.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "79663e3393f2b35296463737f013d2c14354c1d02516ce1693f780c5ce531615"
+    },
+    {
+      "id": "astrolabios__aguja_cristal_01",
+      "nombre": "Aguja cristal 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/aguja_cristal_01.png",
+      "webp": "assets/codex/astrolabios/aguja_cristal_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/aguja_cristal_01.webp",
+      "dimensiones": {
+        "ancho": 177,
+        "alto": 181
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "aguja",
+        "cristal",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_aguja_cristal",
+        "png": "png_individuales/astrolabios/aguja_cristal.png",
+        "webp": "webp_optimizados/astrolabios/aguja_cristal.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "42384284ec99d7d82ea348bfafa5a5a1f5d49785d43490f0be9cc7184ad04cee"
+    },
+    {
+      "id": "astrolabios__brujula_vientos_01",
+      "nombre": "Brujula vientos 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/brujula_vientos_01.png",
+      "webp": "assets/codex/astrolabios/brujula_vientos_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/brujula_vientos_01.webp",
+      "dimensiones": {
+        "ancho": 210,
+        "alto": 219
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "brujula",
+        "vientos",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_brujula_vientos",
+        "png": "png_individuales/astrolabios/brujula_vientos.png",
+        "webp": "webp_optimizados/astrolabios/brujula_vientos.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "e91d1ee456c4fcb0b051b39889f8500650195a3f3daeaec6085e064d1814e23d"
+    },
+    {
+      "id": "astrolabios__estrella_cuatro_puntas_01",
+      "nombre": "Estrella cuatro puntas 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/estrella_cuatro_puntas_01.png",
+      "webp": "assets/codex/astrolabios/estrella_cuatro_puntas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/estrella_cuatro_puntas_01.webp",
+      "dimensiones": {
+        "ancho": 138,
+        "alto": 130
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "estrella",
+        "cuatro",
+        "puntas",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_estrella_cuatro_puntas",
+        "png": "png_individuales/astrolabios/estrella_cuatro_puntas.png",
+        "webp": "webp_optimizados/astrolabios/estrella_cuatro_puntas.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "c515892639c1cc66a71f3f122d6445f91e4c3b736517f0de5e5bd0fa38e15169"
+    },
+    {
+      "id": "astrolabios__estrella_cruz_01",
+      "nombre": "Estrella cruz 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/estrella_cruz_01.png",
+      "webp": "assets/codex/astrolabios/estrella_cruz_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/estrella_cruz_01.webp",
+      "dimensiones": {
+        "ancho": 90,
+        "alto": 109
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "estrella",
+        "cruz",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_estrella_cruz",
+        "png": "png_individuales/astrolabios/estrella_cruz.png",
+        "webp": "webp_optimizados/astrolabios/estrella_cruz.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "2da84c51a53bed24b17bd09a7929ebb0479c17726dff280611eb8cc3c87514d8"
+    },
+    {
+      "id": "cartelas__rollo_pergamino_01",
+      "nombre": "Rollo pergamino 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/rollo_pergamino_01.png",
+      "webp": "assets/codex/cartelas/rollo_pergamino_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/rollo_pergamino_01.webp",
+      "dimensiones": {
+        "ancho": 376,
+        "alto": 151
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "rollo",
+        "pergamino",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_rollo_pergamino",
+        "png": "png_individuales/cartelas/rollo_pergamino.png",
+        "webp": "webp_optimizados/cartelas/rollo_pergamino.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "26f8f38b2fdbf80d81856e07974eb3ad8128dd06e04807866dfa1b2df548af25"
+    },
+    {
+      "id": "cartelas__pergamino_sello_01",
+      "nombre": "Pergamino sello 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/pergamino_sello_01.png",
+      "webp": "assets/codex/cartelas/pergamino_sello_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/pergamino_sello_01.webp",
+      "dimensiones": {
+        "ancho": 374,
+        "alto": 159
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "pergamino",
+        "sello",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_pergamino_sello",
+        "png": "png_individuales/cartelas/pergamino_sello.png",
+        "webp": "webp_optimizados/cartelas/pergamino_sello.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "65bc68b213979366c228c0d1bd3256837ed6a4505e00f0c1c04fb04f3eea5343"
+    },
+    {
+      "id": "cartelas__marco_rectangular_01",
+      "nombre": "Marco rectangular 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/marco_rectangular_01.png",
+      "webp": "assets/codex/cartelas/marco_rectangular_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/marco_rectangular_01.webp",
+      "dimensiones": {
+        "ancho": 405,
+        "alto": 140
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "marco",
+        "rectangular",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_marco_rectangular",
+        "png": "png_individuales/cartelas/marco_rectangular.png",
+        "webp": "webp_optimizados/cartelas/marco_rectangular.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "83434d2c5045eb9c825eea1fbad0fbd8f6f6719c9da7e870e08bf8bf796fbf4c"
+    },
+    {
+      "id": "sellos__lacre_rojo_fenix_01",
+      "nombre": "Lacre rojo fenix 01",
+      "volumen": 2,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/lacre_rojo_fenix_01.png",
+      "webp": "assets/codex/sellos/lacre_rojo_fenix_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_rojo_fenix_01.webp",
+      "dimensiones": {
+        "ancho": 149,
+        "alto": 157
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "lacre",
+        "rojo",
+        "fenix",
+        "01"
+      ],
+      "origen": {
+        "id": "sellos_sello_rojo_fenix",
+        "png": "png_individuales/sellos/sello_rojo_fenix.png",
+        "webp": "webp_optimizados/sellos/sello_rojo_fenix.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "5468f7c192785dc7b8d750b2ac9ba683462e9dec44fbfdcd16e531a962cbb432"
+    },
+    {
+      "id": "sellos__lacre_azul_estrella_01",
+      "nombre": "Lacre azul estrella 01",
+      "volumen": 2,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/lacre_azul_estrella_01.png",
+      "webp": "assets/codex/sellos/lacre_azul_estrella_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_azul_estrella_01.webp",
+      "dimensiones": {
+        "ancho": 140,
+        "alto": 150
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "lacre",
+        "azul",
+        "estrella",
+        "01"
+      ],
+      "origen": {
+        "id": "sellos_sello_azul_estrella",
+        "png": "png_individuales/sellos/sello_azul_estrella.png",
+        "webp": "webp_optimizados/sellos/sello_azul_estrella.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "56bac2c904b4c3652a0e6320a9bf05737a215c75d41ebc6b69ad57d24782d1de"
+    },
+    {
+      "id": "sellos__lacre_dorado_arbol_01",
+      "nombre": "Lacre dorado arbol 01",
+      "volumen": 2,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/lacre_dorado_arbol_01.png",
+      "webp": "assets/codex/sellos/lacre_dorado_arbol_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_dorado_arbol_01.webp",
+      "dimensiones": {
+        "ancho": 144,
+        "alto": 154
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "lacre",
+        "dorado",
+        "arbol",
+        "01"
+      ],
+      "origen": {
+        "id": "sellos_sello_oro_arbol",
+        "png": "png_individuales/sellos/sello_oro_arbol.png",
+        "webp": "webp_optimizados/sellos/sello_oro_arbol.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "67a7d0ca9a474793ce31bdcae92d691e821eaee3075098abdfb033b9654a9b8d"
+    },
+    {
+      "id": "tinta__mancha_negra_01",
+      "nombre": "Mancha negra 01",
+      "volumen": 2,
+      "grupo": "tinta",
+      "formato_preferido": "webp",
+      "png": "assets/codex/tinta/mancha_negra_01.png",
+      "webp": "assets/codex/tinta/mancha_negra_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/tinta/mancha_negra_01.webp",
+      "dimensiones": {
+        "ancho": 134,
+        "alto": 124
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "tinta",
+        "mancha",
+        "negra",
+        "01"
+      ],
+      "origen": {
+        "id": "tinta_mancha_negra",
+        "png": "png_individuales/tinta/mancha_negra.png",
+        "webp": "webp_optimizados/tinta/mancha_negra.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "496e1328c4dee2b3404251ca75da06dffda97c0e0b34421e374f08908b1d24b8"
+    },
+    {
+      "id": "tinta__anillo_tinta_01",
+      "nombre": "Anillo tinta 01",
+      "volumen": 2,
+      "grupo": "tinta",
+      "formato_preferido": "webp",
+      "png": "assets/codex/tinta/anillo_tinta_01.png",
+      "webp": "assets/codex/tinta/anillo_tinta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/tinta/anillo_tinta_01.webp",
+      "dimensiones": {
+        "ancho": 140,
+        "alto": 129
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "tinta",
+        "anillo",
+        "01"
+      ],
+      "origen": {
+        "id": "tinta_anillo_tinta",
+        "png": "png_individuales/tinta/anillo_tinta.png",
+        "webp": "webp_optimizados/tinta/anillo_tinta.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "5084af6d11c89fb585cca6f444321cdfdc977f5b99b0ec930772792f1cd4852d"
+    },
+    {
+      "id": "tinta__trazo_pluma_01",
+      "nombre": "Trazo pluma 01",
+      "volumen": 2,
+      "grupo": "tinta",
+      "formato_preferido": "webp",
+      "png": "assets/codex/tinta/trazo_pluma_01.png",
+      "webp": "assets/codex/tinta/trazo_pluma_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/tinta/trazo_pluma_01.webp",
+      "dimensiones": {
+        "ancho": 151,
+        "alto": 125
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "tinta",
+        "trazo",
+        "pluma",
+        "01"
+      ],
+      "origen": {
+        "id": "tinta_trazo_pluma",
+        "png": "png_individuales/tinta/trazo_pluma.png",
+        "webp": "webp_optimizados/tinta/trazo_pluma.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "2fe4072fda23bc6d3462ca180c2bfc4130c2c4d511065ed70cadd25279638b03"
+    },
+    {
+      "id": "astrolabios__constelaciones_01",
+      "nombre": "Constelaciones 01",
+      "volumen": 2,
+      "grupo": "astrolabios",
+      "formato_preferido": "webp",
+      "png": "assets/codex/astrolabios/constelaciones_01.png",
+      "webp": "assets/codex/astrolabios/constelaciones_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/astrolabios/constelaciones_01.webp",
+      "dimensiones": {
+        "ancho": 351,
+        "alto": 105
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "astrolabios",
+        "constelaciones",
+        "01"
+      ],
+      "origen": {
+        "id": "astrolabios_constelaciones",
+        "png": "png_individuales/astrolabios/constelaciones.png",
+        "webp": "webp_optimizados/astrolabios/constelaciones.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "a29b00b5f601fca4ad30e2d081e5114863fea9303e010614955087256d99d3b8"
+    },
+    {
+      "id": "ornamentos__cadenas_colgantes_01",
+      "nombre": "Cadenas colgantes 01",
+      "volumen": 2,
+      "grupo": "ornamentos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/ornamentos/cadenas_colgantes_01.png",
+      "webp": "assets/codex/ornamentos/cadenas_colgantes_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/ornamentos/cadenas_colgantes_01.webp",
+      "dimensiones": {
+        "ancho": 387,
+        "alto": 164
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "ornamentos",
+        "cadenas",
+        "colgantes",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_cadenas_colgantes",
+        "png": "png_individuales/ornamentos/cadenas_colgantes.png",
+        "webp": "webp_optimizados/ornamentos/cadenas_colgantes.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "9bdec98704add968ef2dc6097dbbaab152a7cb45fb59bbb10566cc37b6b83bde"
+    },
+    {
+      "id": "llaves__llave_ritual_01",
+      "nombre": "Llave ritual 01",
+      "volumen": 2,
+      "grupo": "llaves",
+      "formato_preferido": "webp",
+      "png": "assets/codex/llaves/llave_ritual_01.png",
+      "webp": "assets/codex/llaves/llave_ritual_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/llaves/llave_ritual_01.webp",
+      "dimensiones": {
+        "ancho": 100,
+        "alto": 200
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "llaves",
+        "llave",
+        "ritual",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_llave_ritual",
+        "png": "png_individuales/ornamentos/llave_ritual.png",
+        "webp": "webp_optimizados/ornamentos/llave_ritual.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "8b8f4ca79f8dc2c682be7be711346a8f02c808269ca0bc4918ce187a6e80d04e"
+    },
+    {
+      "id": "llaves__llave_astral_01",
+      "nombre": "Llave astral 01",
+      "volumen": 2,
+      "grupo": "llaves",
+      "formato_preferido": "webp",
+      "png": "assets/codex/llaves/llave_astral_01.png",
+      "webp": "assets/codex/llaves/llave_astral_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/llaves/llave_astral_01.webp",
+      "dimensiones": {
+        "ancho": 85,
+        "alto": 199
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "llaves",
+        "llave",
+        "astral",
+        "01"
+      ],
+      "origen": {
+        "id": "ornamentos_llave_astral",
+        "png": "png_individuales/ornamentos/llave_astral.png",
+        "webp": "webp_optimizados/ornamentos/llave_astral.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "5f1eb93064a41747258f099a3a18039c789bd921ae46f55335718873c678d54b"
+    },
+    {
+      "id": "objetos__reloj_arena_01",
+      "nombre": "Reloj arena 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/reloj_arena_01.png",
+      "webp": "assets/codex/objetos/reloj_arena_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/reloj_arena_01.webp",
+      "dimensiones": {
+        "ancho": 117,
+        "alto": 185
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "reloj",
+        "arena",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_reloj_arena",
+        "png": "png_individuales/objetos/reloj_arena.png",
+        "webp": "webp_optimizados/objetos/reloj_arena.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "10a1c3bb9f73512278a58dfc796670b9a80599f756051e181bf1d2869bedabe3"
+    },
+    {
+      "id": "objetos__esfera_armilar_01",
+      "nombre": "Esfera armilar 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/esfera_armilar_01.png",
+      "webp": "assets/codex/objetos/esfera_armilar_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/esfera_armilar_01.webp",
+      "dimensiones": {
+        "ancho": 157,
+        "alto": 188
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "esfera",
+        "armilar",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_esfera_armilar",
+        "png": "png_individuales/objetos/esfera_armilar.png",
+        "webp": "webp_optimizados/objetos/esfera_armilar.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "7d54706b4a046bda48758c0ae2062346acf3ce6a17109403be7e674f1ad6e719"
+    },
+    {
+      "id": "objetos__linterna_magica_01",
+      "nombre": "Linterna magica 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/linterna_magica_01.png",
+      "webp": "assets/codex/objetos/linterna_magica_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/linterna_magica_01.webp",
+      "dimensiones": {
+        "ancho": 105,
+        "alto": 193
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "linterna",
+        "magica",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_linterna_magica",
+        "png": "png_individuales/objetos/linterna_magica.png",
+        "webp": "webp_optimizados/objetos/linterna_magica.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "357d14b41a8ed5edfe17c0160dd82eea044a1f717ff51a15a5b0e902310f0ef8"
+    },
+    {
+      "id": "objetos__libro_grimorio_01",
+      "nombre": "Libro grimorio 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/libro_grimorio_01.png",
+      "webp": "assets/codex/objetos/libro_grimorio_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/libro_grimorio_01.webp",
+      "dimensiones": {
+        "ancho": 193,
+        "alto": 196
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "libro",
+        "grimorio",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_libro_grimorio",
+        "png": "png_individuales/objetos/libro_grimorio.png",
+        "webp": "webp_optimizados/objetos/libro_grimorio.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "b502b4e57e78764b0bfff8dc3c68760428cca7228e28c2ed501643e6d67b0901"
+    },
+    {
+      "id": "objetos__pila_libros_01",
+      "nombre": "Pila libros 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/pila_libros_01.png",
+      "webp": "assets/codex/objetos/pila_libros_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/pila_libros_01.webp",
+      "dimensiones": {
+        "ancho": 194,
+        "alto": 146
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "pila",
+        "libros",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_pila_libros",
+        "png": "png_individuales/objetos/pila_libros.png",
+        "webp": "webp_optimizados/objetos/pila_libros.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "1a3826ea74f2f1f8f5f382c1a521f9a8002cb41ec9b368b5b6ab68af55087562"
+    },
+    {
+      "id": "objetos__velas_encendidas_01",
+      "nombre": "Velas encendidas 01",
+      "volumen": 2,
+      "grupo": "objetos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/objetos/velas_encendidas_01.png",
+      "webp": "assets/codex/objetos/velas_encendidas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/velas_encendidas_01.webp",
+      "dimensiones": {
+        "ancho": 122,
+        "alto": 173
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "objetos",
+        "velas",
+        "encendidas",
+        "01"
+      ],
+      "origen": {
+        "id": "objetos_velas_encendidas",
+        "png": "png_individuales/objetos/velas_encendidas.png",
+        "webp": "webp_optimizados/objetos/velas_encendidas.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "51fd63629475ccd42a1ffad1b7289208fbd7d5e8a9746ee915034a54fc2aeb10"
+    },
+    {
+      "id": "esquinas__azul_izquierda_01",
+      "nombre": "Azul izquierda 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/azul_izquierda_01.png",
+      "webp": "assets/codex/esquinas/azul_izquierda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/azul_izquierda_01.webp",
+      "dimensiones": {
+        "ancho": 203,
+        "alto": 256
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "azul",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_azul_izquierda",
+        "png": "png_individuales/esquinas/esquina_azul_izquierda.png",
+        "webp": "webp_optimizados/esquinas/esquina_azul_izquierda.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "68dbbc1a613b1d2a3735598ff20f08e0587df358f804fc5dee10d9fb47bd22f2"
+    },
+    {
+      "id": "esquinas__hojas_derecha_01",
+      "nombre": "Hojas derecha 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/hojas_derecha_01.png",
+      "webp": "assets/codex/esquinas/hojas_derecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/hojas_derecha_01.webp",
+      "dimensiones": {
+        "ancho": 207,
+        "alto": 242
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "hojas",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_hojas_derecha",
+        "png": "png_individuales/esquinas/esquina_hojas_derecha.png",
+        "webp": "webp_optimizados/esquinas/esquina_hojas_derecha.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "e3012bcdc18b0338b6b32c7df60f8aaefcc6f21f2a8c806c69f922089a425e06"
+    },
+    {
+      "id": "emblemas__fauna_cuervo_01",
+      "nombre": "Fauna cuervo 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/fauna_cuervo_01.png",
+      "webp": "assets/codex/emblemas/fauna_cuervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/fauna_cuervo_01.webp",
+      "dimensiones": {
+        "ancho": 184,
+        "alto": 203
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "fauna",
+        "cuervo",
+        "01"
+      ],
+      "origen": {
+        "id": "fauna_cuervo",
+        "png": "png_individuales/fauna/cuervo.png",
+        "webp": "webp_optimizados/fauna/cuervo.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "761cf6fac5d1f8c4f32799eedc48f8a273fce041fa4a82051a0baac5a5cc1ff1"
+    },
+    {
+      "id": "emblemas__fauna_ciervo_01",
+      "nombre": "Fauna ciervo 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/fauna_ciervo_01.png",
+      "webp": "assets/codex/emblemas/fauna_ciervo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/fauna_ciervo_01.webp",
+      "dimensiones": {
+        "ancho": 169,
+        "alto": 233
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "fauna",
+        "ciervo",
+        "01"
+      ],
+      "origen": {
+        "id": "fauna_ciervo",
+        "png": "png_individuales/fauna/ciervo.png",
+        "webp": "webp_optimizados/fauna/ciervo.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "66633cdcddc8c11c5cc8a7c27f98e1a003dd4c25bed021bd9359ffb73833e249"
+    },
+    {
+      "id": "emblemas__castillo_01",
+      "nombre": "Castillo 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/castillo_01.png",
+      "webp": "assets/codex/emblemas/castillo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/castillo_01.webp",
+      "dimensiones": {
+        "ancho": 233,
+        "alto": 232
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "castillo",
+        "01"
+      ],
+      "origen": {
+        "id": "lugares_castillo",
+        "png": "png_individuales/lugares/castillo.png",
+        "webp": "webp_optimizados/lugares/castillo.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "d07c90cd8beedad11ab8cb6a155b0be3d77bd1c89eacc4823cafe8d51c5e8961"
+    },
+    {
+      "id": "emblemas__arbol_ancestral_01",
+      "nombre": "Arbol ancestral 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/arbol_ancestral_01.png",
+      "webp": "assets/codex/emblemas/arbol_ancestral_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/arbol_ancestral_01.webp",
+      "dimensiones": {
+        "ancho": 218,
+        "alto": 219
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "arbol",
+        "ancestral",
+        "01"
+      ],
+      "origen": {
+        "id": "fauna_arbol_ancestral",
+        "png": "png_individuales/fauna/arbol_ancestral.png",
+        "webp": "webp_optimizados/fauna/arbol_ancestral.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "26ff53fd4ca662a96880a995c236068ac340181ff2582206bec678d396efaf88"
+    },
+    {
+      "id": "emblemas__fauna_dragon_01",
+      "nombre": "Fauna dragon 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/fauna_dragon_01.png",
+      "webp": "assets/codex/emblemas/fauna_dragon_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/fauna_dragon_01.webp",
+      "dimensiones": {
+        "ancho": 188,
+        "alto": 224
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "fauna",
+        "dragon",
+        "01"
+      ],
+      "origen": {
+        "id": "fauna_dragon",
+        "png": "png_individuales/fauna/dragon.png",
+        "webp": "webp_optimizados/fauna/dragon.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "73d30ac89bde2d8c367df7de67b3c1dc2297d0e2e6bda7fa04291963909b3f8e"
+    },
+    {
+      "id": "emblemas__arcada_gotica_01",
+      "nombre": "Arcada gotica 01",
+      "volumen": 2,
+      "grupo": "emblemas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/emblemas/arcada_gotica_01.png",
+      "webp": "assets/codex/emblemas/arcada_gotica_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/arcada_gotica_01.webp",
+      "dimensiones": {
+        "ancho": 168,
+        "alto": 229
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "emblemas",
+        "arcada",
+        "gotica",
+        "01"
+      ],
+      "origen": {
+        "id": "lugares_arcada_gotica",
+        "png": "png_individuales/lugares/arcada_gotica.png",
+        "webp": "webp_optimizados/lugares/arcada_gotica.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_ornamentos_astrolabios_y_sellos.png"
+      },
+      "sha256_webp": "2c1cbae7337acd145a52f0506905d06de0ed1c769358d358034d2f660560680a"
+    },
+    {
+      "id": "colecciones__lamina_libros_marcadores_01",
+      "nombre": "Lamina libros marcadores 01",
+      "volumen": 2,
+      "grupo": "colecciones",
+      "formato_preferido": "webp",
+      "png": "assets/codex/colecciones/lamina_libros_marcadores_01.png",
+      "webp": "assets/codex/colecciones/lamina_libros_marcadores_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/colecciones/lamina_libros_marcadores_01.webp",
+      "dimensiones": {
+        "ancho": 1536,
+        "alto": 1024
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "colecciones",
+        "lamina",
+        "libros",
+        "marcadores",
+        "01"
+      ],
+      "origen": {
+        "id": "laminas_interfaz_libros_y_marcadores",
+        "png": "png_individuales/laminas/interfaz_libros_y_marcadores.png",
+        "webp": "webp_optimizados/laminas/interfaz_libros_y_marcadores.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "78c36f420ddf0e79d83f965b6577664bf28089a3443f5c4b5da366c0829b29ab"
+    },
+    {
+      "id": "libros__codice_cerrado_01",
+      "nombre": "Codice cerrado 01",
+      "volumen": 2,
+      "grupo": "libros",
+      "formato_preferido": "webp",
+      "png": "assets/codex/libros/codice_cerrado_01.png",
+      "webp": "assets/codex/libros/codice_cerrado_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/libros/codice_cerrado_01.webp",
+      "dimensiones": {
+        "ancho": 314,
+        "alto": 408
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "libros",
+        "codice",
+        "cerrado",
+        "01"
+      ],
+      "origen": {
+        "id": "libros_codice_cerrado",
+        "png": "png_individuales/libros/codice_cerrado.png",
+        "webp": "webp_optimizados/libros/codice_cerrado.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "b80d905edd22253903655c7789fa01212fee7e6e0a30fc0a732dec3fc63241e6"
+    },
+    {
+      "id": "libros__libro_abierto_01",
+      "nombre": "Libro abierto 01",
+      "volumen": 2,
+      "grupo": "libros",
+      "formato_preferido": "webp",
+      "png": "assets/codex/libros/libro_abierto_01.png",
+      "webp": "assets/codex/libros/libro_abierto_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/libros/libro_abierto_01.webp",
+      "dimensiones": {
+        "ancho": 557,
+        "alto": 377
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "libros",
+        "libro",
+        "abierto",
+        "01"
+      ],
+      "origen": {
+        "id": "libros_libro_abierto",
+        "png": "png_individuales/libros/libro_abierto.png",
+        "webp": "webp_optimizados/libros/libro_abierto.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "57c131958380d5d862fa3e61932445f3cf45c9350da6de4df788f41f3a2c73da"
+    },
+    {
+      "id": "paginas__pergamino_castillo_01",
+      "nombre": "Pergamino castillo 01",
+      "volumen": 2,
+      "grupo": "paginas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/paginas/pergamino_castillo_01.png",
+      "webp": "assets/codex/paginas/pergamino_castillo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/paginas/pergamino_castillo_01.webp",
+      "dimensiones": {
+        "ancho": 282,
+        "alto": 363
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "paginas",
+        "pergamino",
+        "castillo",
+        "01"
+      ],
+      "origen": {
+        "id": "paginas_pergamino_castillo",
+        "png": "png_individuales/paginas/pergamino_castillo.png",
+        "webp": "webp_optimizados/paginas/pergamino_castillo.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "fc8a93374d4291f3933d902f408ed951f18d49e49ceb2189d77e6b538ca92351"
+    },
+    {
+      "id": "paginas__pergamino_arbol_01",
+      "nombre": "Pergamino arbol 01",
+      "volumen": 2,
+      "grupo": "paginas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/paginas/pergamino_arbol_01.png",
+      "webp": "assets/codex/paginas/pergamino_arbol_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/paginas/pergamino_arbol_01.webp",
+      "dimensiones": {
+        "ancho": 271,
+        "alto": 365
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "paginas",
+        "pergamino",
+        "arbol",
+        "01"
+      ],
+      "origen": {
+        "id": "paginas_pergamino_arbol",
+        "png": "png_individuales/paginas/pergamino_arbol.png",
+        "webp": "webp_optimizados/paginas/pergamino_arbol.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "38a9e65f7200a8f7460c730c625967d897091e21a26eb87d4aa4524bb8293bbb"
+    },
+    {
+      "id": "marcos__vertical_azul_01",
+      "nombre": "Vertical azul 01",
+      "volumen": 2,
+      "grupo": "marcos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/marcos/vertical_azul_01.png",
+      "webp": "assets/codex/marcos/vertical_azul_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/marcos/vertical_azul_01.webp",
+      "dimensiones": {
+        "ancho": 353,
+        "alto": 398
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "marcos",
+        "vertical",
+        "azul",
+        "01"
+      ],
+      "origen": {
+        "id": "marcos_marco_vertical_azul",
+        "png": "png_individuales/marcos/marco_vertical_azul.png",
+        "webp": "webp_optimizados/marcos/marco_vertical_azul.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "f04f249d3ef78862dea3d5edadb577b075bf81a82c8c2be9fee1be7013697726"
+    },
+    {
+      "id": "esquinas__azul_superior_izquierda_01",
+      "nombre": "Azul superior izquierda 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/azul_superior_izquierda_01.png",
+      "webp": "assets/codex/esquinas/azul_superior_izquierda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/azul_superior_izquierda_01.webp",
+      "dimensiones": {
+        "ancho": 129,
+        "alto": 115
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "azul",
+        "superior",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_azul_superior_izquierda",
+        "png": "png_individuales/esquinas/esquina_azul_superior_izquierda.png",
+        "webp": "webp_optimizados/esquinas/esquina_azul_superior_izquierda.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "87d762a5eb7954fd21f8754980a496fa5524e2e417284da98bdb4e9e5fc7bf0a"
+    },
+    {
+      "id": "esquinas__azul_superior_derecha_01",
+      "nombre": "Azul superior derecha 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/azul_superior_derecha_01.png",
+      "webp": "assets/codex/esquinas/azul_superior_derecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/azul_superior_derecha_01.webp",
+      "dimensiones": {
+        "ancho": 126,
+        "alto": 120
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "azul",
+        "superior",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_azul_superior_derecha",
+        "png": "png_individuales/esquinas/esquina_azul_superior_derecha.png",
+        "webp": "webp_optimizados/esquinas/esquina_azul_superior_derecha.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "369c4bb42e9119eb69a8d78918b6f9d3e1c8ee1c6f200a60efe4e8f764df2f0a"
+    },
+    {
+      "id": "esquinas__azul_inferior_izquierda_01",
+      "nombre": "Azul inferior izquierda 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/azul_inferior_izquierda_01.png",
+      "webp": "assets/codex/esquinas/azul_inferior_izquierda_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/azul_inferior_izquierda_01.webp",
+      "dimensiones": {
+        "ancho": 129,
+        "alto": 136
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "azul",
+        "inferior",
+        "izquierda",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_azul_inferior_izquierda",
+        "png": "png_individuales/esquinas/esquina_azul_inferior_izquierda.png",
+        "webp": "webp_optimizados/esquinas/esquina_azul_inferior_izquierda.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "ed907d02d541f9fa17b50bf5db75ab45f84021b13bc0b4c8b872a0726e9766c6"
+    },
+    {
+      "id": "esquinas__azul_inferior_derecha_01",
+      "nombre": "Azul inferior derecha 01",
+      "volumen": 2,
+      "grupo": "esquinas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/esquinas/azul_inferior_derecha_01.png",
+      "webp": "assets/codex/esquinas/azul_inferior_derecha_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/azul_inferior_derecha_01.webp",
+      "dimensiones": {
+        "ancho": 126,
+        "alto": 135
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "esquinas",
+        "azul",
+        "inferior",
+        "derecha",
+        "01"
+      ],
+      "origen": {
+        "id": "esquinas_esquina_azul_inferior_derecha",
+        "png": "png_individuales/esquinas/esquina_azul_inferior_derecha.png",
+        "webp": "webp_optimizados/esquinas/esquina_azul_inferior_derecha.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "049aa91142bbe07bd2098198baa50134a39aa09e39cb9291b4abd461437403f0"
+    },
+    {
+      "id": "cabeceras__estrella_cinta_01",
+      "nombre": "Estrella cinta 01",
+      "volumen": 2,
+      "grupo": "cabeceras",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cabeceras/estrella_cinta_01.png",
+      "webp": "assets/codex/cabeceras/estrella_cinta_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cabeceras/estrella_cinta_01.webp",
+      "dimensiones": {
+        "ancho": 482,
+        "alto": 130
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cabeceras",
+        "estrella",
+        "cinta",
+        "01"
+      ],
+      "origen": {
+        "id": "cabeceras_estrella_cinta",
+        "png": "png_individuales/cabeceras/estrella_cinta.png",
+        "webp": "webp_optimizados/cabeceras/estrella_cinta.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "fec612a14fed8de14f5f3c3613d50946eacd36349bb21036c596c7251a688c97"
+    },
+    {
+      "id": "cabeceras__craneo_banderolas_01",
+      "nombre": "Craneo banderolas 01",
+      "volumen": 2,
+      "grupo": "cabeceras",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cabeceras/craneo_banderolas_01.png",
+      "webp": "assets/codex/cabeceras/craneo_banderolas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cabeceras/craneo_banderolas_01.webp",
+      "dimensiones": {
+        "ancho": 464,
+        "alto": 155
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cabeceras",
+        "craneo",
+        "banderolas",
+        "01"
+      ],
+      "origen": {
+        "id": "cabeceras_craneo_banners",
+        "png": "png_individuales/cabeceras/craneo_banners.png",
+        "webp": "webp_optimizados/cabeceras/craneo_banners.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "4a61af63e11bbda69b3070f710690c70d0f92f8fe52cf189d7cbc41f5043d476"
+    },
+    {
+      "id": "cabeceras__libro_velas_01",
+      "nombre": "Libro velas 01",
+      "volumen": 2,
+      "grupo": "cabeceras",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cabeceras/libro_velas_01.png",
+      "webp": "assets/codex/cabeceras/libro_velas_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cabeceras/libro_velas_01.webp",
+      "dimensiones": {
+        "ancho": 493,
+        "alto": 152
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cabeceras",
+        "libro",
+        "velas",
+        "01"
+      ],
+      "origen": {
+        "id": "cabeceras_libro_velas",
+        "png": "png_individuales/cabeceras/libro_velas.png",
+        "webp": "webp_optimizados/cabeceras/libro_velas.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "3acf1a5934f616270ae65aaefdd285d031a57d9127f9f0d3d11b3a91430aabde"
+    },
+    {
+      "id": "separadores__estrella_azul_01",
+      "nombre": "Estrella azul 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/estrella_azul_01.png",
+      "webp": "assets/codex/separadores/estrella_azul_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/estrella_azul_01.webp",
+      "dimensiones": {
+        "ancho": 330,
+        "alto": 76
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "estrella",
+        "azul",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_estrella_azul",
+        "png": "png_individuales/separadores/estrella_azul.png",
+        "webp": "webp_optimizados/separadores/estrella_azul.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "691a238471f5d8adb32571ea47e825dc79620a25f4eaa5655d69692ded57016c"
+    },
+    {
+      "id": "separadores__luna_01",
+      "nombre": "Luna 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/luna_01.png",
+      "webp": "assets/codex/separadores/luna_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/luna_01.webp",
+      "dimensiones": {
+        "ancho": 321,
+        "alto": 54
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "luna",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_luna",
+        "png": "png_individuales/separadores/luna.png",
+        "webp": "webp_optimizados/separadores/luna.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "5700778bb1be7ed6bfb411ad08882348c1b3d3b52a6348b46fa20f10c531f991"
+    },
+    {
+      "id": "separadores__gema_azul_01",
+      "nombre": "Gema azul 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/gema_azul_01.png",
+      "webp": "assets/codex/separadores/gema_azul_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/gema_azul_01.webp",
+      "dimensiones": {
+        "ancho": 318,
+        "alto": 69
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "gema",
+        "azul",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_gema_azul",
+        "png": "png_individuales/separadores/gema_azul.png",
+        "webp": "webp_optimizados/separadores/gema_azul.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "c12433255d7494cf63d633673dc313301d354b444fe810a108d929179edcc3b0"
+    },
+    {
+      "id": "separadores__reloj_arena_01",
+      "nombre": "Reloj arena 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/reloj_arena_01.png",
+      "webp": "assets/codex/separadores/reloj_arena_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/reloj_arena_01.webp",
+      "dimensiones": {
+        "ancho": 344,
+        "alto": 56
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "reloj",
+        "arena",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_reloj_arena",
+        "png": "png_individuales/separadores/reloj_arena.png",
+        "webp": "webp_optimizados/separadores/reloj_arena.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "ca59de8bf38bc527249a0777d98cb6ec5eaca39dca0d15eb362ea54397ff9660"
+    },
+    {
+      "id": "separadores__flor_lirio_01",
+      "nombre": "Flor lirio 01",
+      "volumen": 2,
+      "grupo": "separadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/separadores/flor_lirio_01.png",
+      "webp": "assets/codex/separadores/flor_lirio_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/flor_lirio_01.webp",
+      "dimensiones": {
+        "ancho": 331,
+        "alto": 66
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "separadores",
+        "flor",
+        "lirio",
+        "01"
+      ],
+      "origen": {
+        "id": "separadores_flor_lirio",
+        "png": "png_individuales/separadores/flor_lirio.png",
+        "webp": "webp_optimizados/separadores/flor_lirio.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "09faf7bf98d4348e45aa6ec99a9597adb9b983fe13375dad6a1c66382f93d4dc"
+    },
+    {
+      "id": "estandartes__estrella_01",
+      "nombre": "Estrella 01",
+      "volumen": 2,
+      "grupo": "estandartes",
+      "formato_preferido": "webp",
+      "png": "assets/codex/estandartes/estrella_01.png",
+      "webp": "assets/codex/estandartes/estrella_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/estandartes/estrella_01.webp",
+      "dimensiones": {
+        "ancho": 105,
+        "alto": 222
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "estandartes",
+        "estrella",
+        "01"
+      ],
+      "origen": {
+        "id": "estandartes_estrella",
+        "png": "png_individuales/estandartes/estrella.png",
+        "webp": "webp_optimizados/estandartes/estrella.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "2422864f12c781261b7d49e245cdc002d40b269830d5f51a78d448f61bf309c6"
+    },
+    {
+      "id": "estandartes__arbol_01",
+      "nombre": "Arbol 01",
+      "volumen": 2,
+      "grupo": "estandartes",
+      "formato_preferido": "webp",
+      "png": "assets/codex/estandartes/arbol_01.png",
+      "webp": "assets/codex/estandartes/arbol_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/estandartes/arbol_01.webp",
+      "dimensiones": {
+        "ancho": 104,
+        "alto": 221
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "estandartes",
+        "arbol",
+        "01"
+      ],
+      "origen": {
+        "id": "estandartes_arbol",
+        "png": "png_individuales/estandartes/arbol.png",
+        "webp": "webp_optimizados/estandartes/arbol.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "12cc2006acb3582b3d6dfc8d8594de769923cc9e09d5598cc0d0632dc0db4f20"
+    },
+    {
+      "id": "estandartes__dragon_01",
+      "nombre": "Dragon 01",
+      "volumen": 2,
+      "grupo": "estandartes",
+      "formato_preferido": "webp",
+      "png": "assets/codex/estandartes/dragon_01.png",
+      "webp": "assets/codex/estandartes/dragon_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/estandartes/dragon_01.webp",
+      "dimensiones": {
+        "ancho": 106,
+        "alto": 221
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "estandartes",
+        "dragon",
+        "01"
+      ],
+      "origen": {
+        "id": "estandartes_dragon",
+        "png": "png_individuales/estandartes/dragon.png",
+        "webp": "webp_optimizados/estandartes/dragon.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "94453fbd6def90610e94dd8be0abd2985d1651f315dccdf05b7d5b44a83065e0"
+    },
+    {
+      "id": "estandartes__castillo_01",
+      "nombre": "Castillo 01",
+      "volumen": 2,
+      "grupo": "estandartes",
+      "formato_preferido": "webp",
+      "png": "assets/codex/estandartes/castillo_01.png",
+      "webp": "assets/codex/estandartes/castillo_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/estandartes/castillo_01.webp",
+      "dimensiones": {
+        "ancho": 118,
+        "alto": 220
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "estandartes",
+        "castillo",
+        "01"
+      ],
+      "origen": {
+        "id": "estandartes_castillo",
+        "png": "png_individuales/estandartes/castillo.png",
+        "webp": "webp_optimizados/estandartes/castillo.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "fbcf608f00213310d8c817c2122396dd27b025d027111fa1746c19fd7ef0841d"
+    },
+    {
+      "id": "estandartes__libro_01",
+      "nombre": "Libro 01",
+      "volumen": 2,
+      "grupo": "estandartes",
+      "formato_preferido": "webp",
+      "png": "assets/codex/estandartes/libro_01.png",
+      "webp": "assets/codex/estandartes/libro_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/estandartes/libro_01.webp",
+      "dimensiones": {
+        "ancho": 103,
+        "alto": 220
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "estandartes",
+        "libro",
+        "01"
+      ],
+      "origen": {
+        "id": "estandartes_libro",
+        "png": "png_individuales/estandartes/libro.png",
+        "webp": "webp_optimizados/estandartes/libro.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "fa1d5994d9f19ce71337eb4dc9898325146d2d6a78c0c643afbfda0cfe9a33c6"
+    },
+    {
+      "id": "cartelas__placa_azul_01",
+      "nombre": "Placa azul 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/placa_azul_01.png",
+      "webp": "assets/codex/cartelas/placa_azul_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_azul_01.webp",
+      "dimensiones": {
+        "ancho": 245,
+        "alto": 109
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "placa",
+        "azul",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_placa_azul",
+        "png": "png_individuales/cartelas/placa_azul.png",
+        "webp": "webp_optimizados/cartelas/placa_azul.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "0ccbd0cfb99e4d1020938a1c4275a50cacae05f130352dd4ce4c55ffd833ad23"
+    },
+    {
+      "id": "cartelas__placa_roja_01",
+      "nombre": "Placa roja 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/placa_roja_01.png",
+      "webp": "assets/codex/cartelas/placa_roja_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_roja_01.webp",
+      "dimensiones": {
+        "ancho": 244,
+        "alto": 106
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "placa",
+        "roja",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_placa_roja",
+        "png": "png_individuales/cartelas/placa_roja.png",
+        "webp": "webp_optimizados/cartelas/placa_roja.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "e88ee011bd7d92aef5e5b8c30d75350220cdb3bedfb461aab274e383e3e10077"
+    },
+    {
+      "id": "cartelas__placa_verde_01",
+      "nombre": "Placa verde 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/placa_verde_01.png",
+      "webp": "assets/codex/cartelas/placa_verde_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_verde_01.webp",
+      "dimensiones": {
+        "ancho": 242,
+        "alto": 108
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "placa",
+        "verde",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_placa_verde",
+        "png": "png_individuales/cartelas/placa_verde.png",
+        "webp": "webp_optimizados/cartelas/placa_verde.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "b1d4bb25e499ba7629a26535d04d7fa745ecf98529476d08be940e8867ca150c"
+    },
+    {
+      "id": "cartelas__placa_oscura_01",
+      "nombre": "Placa oscura 01",
+      "volumen": 2,
+      "grupo": "cartelas",
+      "formato_preferido": "webp",
+      "png": "assets/codex/cartelas/placa_oscura_01.png",
+      "webp": "assets/codex/cartelas/placa_oscura_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_oscura_01.webp",
+      "dimensiones": {
+        "ancho": 240,
+        "alto": 116
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "cartelas",
+        "placa",
+        "oscura",
+        "01"
+      ],
+      "origen": {
+        "id": "cartelas_placa_oscura",
+        "png": "png_individuales/cartelas/placa_oscura.png",
+        "webp": "webp_optimizados/cartelas/placa_oscura.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "dca7d1e5b9109944d7f7808e06b567fa2c868af91016bf4872fc9638102defe3"
+    },
+    {
+      "id": "marcadores__pestanas_multicolor_01",
+      "nombre": "Pestanas multicolor 01",
+      "volumen": 2,
+      "grupo": "marcadores",
+      "formato_preferido": "webp",
+      "png": "assets/codex/marcadores/pestanas_multicolor_01.png",
+      "webp": "assets/codex/marcadores/pestanas_multicolor_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/marcadores/pestanas_multicolor_01.webp",
+      "dimensiones": {
+        "ancho": 192,
+        "alto": 232
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "marcadores",
+        "pestanas",
+        "multicolor",
+        "01"
+      ],
+      "origen": {
+        "id": "marcadores_pestanas_colores",
+        "png": "png_individuales/marcadores/pestanas_colores.png",
+        "webp": "webp_optimizados/marcadores/pestanas_colores.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "d6d43e58333b7d2afe0fcff42381b73a420fb41db71f77ca3a6c6b21d7b5553f"
+    },
+    {
+      "id": "sellos__lacre_rojo_brujula_01",
+      "nombre": "Lacre rojo brujula 01",
+      "volumen": 2,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/lacre_rojo_brujula_01.png",
+      "webp": "assets/codex/sellos/lacre_rojo_brujula_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_rojo_brujula_01.webp",
+      "dimensiones": {
+        "ancho": 152,
+        "alto": 246
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "lacre",
+        "rojo",
+        "brujula",
+        "01"
+      ],
+      "origen": {
+        "id": "sellos_sello_rojo_brujula",
+        "png": "png_individuales/sellos/sello_rojo_brujula.png",
+        "webp": "webp_optimizados/sellos/sello_rojo_brujula.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "06dffe9d62f270d6ed63a56f0988dbb8e2b47c39b5d7fca28d3da39778b6c2ab"
+    },
+    {
+      "id": "sellos__medallon_esfera_armilar_01",
+      "nombre": "Medallon esfera armilar 01",
+      "volumen": 2,
+      "grupo": "sellos",
+      "formato_preferido": "webp",
+      "png": "assets/codex/sellos/medallon_esfera_armilar_01.png",
+      "webp": "assets/codex/sellos/medallon_esfera_armilar_01.webp",
+      "url_github_pages": "https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/medallon_esfera_armilar_01.webp",
+      "dimensiones": {
+        "ancho": 178,
+        "alto": 208
+      },
+      "transparencia": true,
+      "palabras_clave": [
+        "sellos",
+        "medallon",
+        "esfera",
+        "armilar",
+        "01"
+      ],
+      "origen": {
+        "id": "sellos_medallon_armilar",
+        "png": "png_individuales/sellos/medallon_armilar.png",
+        "webp": "webp_optimizados/sellos/medallon_armilar.webp",
+        "archivo_origen": "Volumen_2/04_Laminas_Recortables/lamina_interfaz_libros_y_marcadores.png"
+      },
+      "sha256_webp": "a97fc365c91f33102e53760d9d5a9d0b67f09e42de792c37b3d83c5a3199ae8a"
+    }
+  ]
+}
