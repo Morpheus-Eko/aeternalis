@@ -1,6 +1,6 @@
 # Información General
 
-Los Altos Elfos son criaturas antiguas y recelosas de su cultura, pues, después de todo, no se sienten cómodos con las demás razas. Las únicas razas que toleran completamente son sus vasallos, los Yugen. Son astutos, pero, en ocasiones, su orgullo pesa más y guía sus acciones.
+Los Altos Elfos son criaturas antiguas y recelosas de su cultura, pues, después de todo, no se sienten cómodos con las demás razas. Entre los escasos pueblos con los que mantienen acuerdos prolongados se encuentran los Yūgen, cuya isla conserva su independencia frente a Eldoria y no mantiene juramento de vasallaje. Son astutos, pero, en ocasiones, su orgullo pesa más y guía sus acciones.
 
 Son un pueblo guerrero, aunque destacan por su excelente vista y agilidad como arqueros. Sin embargo, siendo sus hechiceros los más reconocidos, esto influenciado por los Salones Dorados, su mayor orgullo. No obstante, en lo que respecta a la milicia, son un pueblo muy variopinto, desde guerreros hasta arqueros. Siempre están listos para el ataque, siempre maquinando alguna estrategia para aprovechar lo que consideran suyo.
 

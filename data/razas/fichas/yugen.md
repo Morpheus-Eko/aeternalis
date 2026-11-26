@@ -1,4 +1,3 @@
-> PROPUESTA NARRATIVA EN REVISIÓN. Esta versión adapta el rework «Las Tres Costas y la Bendición de Eko»; nombres de clanes, ritos y costumbres permanecen sujetos a validación del equipo.
 
 # Información General
 
@@ -43,6 +42,14 @@ Entre los Yugen existe una frase amarga: cuando la isla conoce una paz prolongad
 De estatura promedio y ojos rasgados, los Yūgen comparten rasgos físicos comunes. Aunque existen excepciones, estas características predominan. A simple vista, un Yūgen es indistinguible de un humano.
 
 Su vestimenta varía desde armaduras yoroi hasta prendas tradicionales como hanbok, kimono y hanfu. La esperanza de vida aproximada es de 90 años. Estos datos físicos proceden de la ficha histórica y están sujetos a revisión junto con el rework.
+
+## El éxodo desde Nyde y la independencia de las Tres Costas
+
+En el año 232 de la Cuarta Era, la demostración mágica de Hajime Kimura se descontroló en Nyde y causó la muerte de los príncipes de Avalon y de numerosos habitantes. Eko concedió a Hiroko Bushida la primera manifestación de Kuro, y ella murió tras consumir su propia esencia levantando defensas para los supervivientes. Esta magia no procede de espíritus ni demonios.
+
+Fedross Lorrell IV ordenó perseguir a los habitantes de Nyde. Querëndir evitó la matanza y ofreció refugio temporal en Rhori’len, pero los Yūgen nunca se sometieron a Isilme. Tras un accidente con Kuro ocurrido en 234 y el posterior éxodo, fundaron asentamientos en una isla del mar de Ithar’iamil: Honthai en 236; Yüen y Yangseng en 237. Nishi y Shibao se desarrollaron posteriormente como ciudades insulares.
+
+Los Iwagiri, Hanamori y Shiranui conservaron gobiernos propios. En 252, la proclamación del Imperio de Eldoria no incorporó su isla. En la Guerra de Northia (932-934), algunas casas Yūgen combatieron junto a las fuerzas de Eldoria por tratados militares limitados, nunca por vasallaje. El general Shion Hattori murió en Elyssfor durante aquella campaña.
 
 # Cultura
 
@@ -112,7 +119,7 @@ Una paz imposible Ninguno de los tres clanes es lo bastante poderoso para somete
 
 ## Religión: los templos y el dios que no comprende
 
-Los Yugen reconocen la existencia de diversas divinidades de Aeternalis y conservan cultos familiares, ofrendas a los protectores del agua, del hogar y de las cosechas. Pero ninguna figura ocupa un lugar tan contradictorio en su conciencia colectiva como Eko, Aehnir vinculado al ciclo sin fin y a la rigidez: la permanencia de aquello que se resiste a cambiar.
+Los Yugen reconocen la existencia de diversas divinidades de Aeternalis y conservan cultos familiares, ofrendas a los protectores del agua, del hogar y de las cosechas. Pero ninguna figura ocupa un lugar tan contradictorio en su conciencia colectiva como Eko, Aehnir hijo de Istak, nacido de su curiosidad y asociado al caos y la locura. Su don nació de un impulso imprevisible por salvar a mortales sin comprender el precio de la esencia vital.
 
 No todos los Yugen lo consideran benévolo. Algunos templos le dedican altares de piedra negra sin imagen, porque sostienen que ningún rostro mortal podría representar correctamente su naturaleza. Otros lo muestran como una figura inmóvil que contempla la caída de las flores sin comprender por qué los pétalos no regresan a
 
@@ -120,7 +127,7 @@ No todos los Yugen lo consideran benévolo. Algunos templos le dedican altares d
 
 las ramas. Para sus sacerdotes más austeros, Eko no es un dios cruel; es un dios incapaz de entender la fragilidad de sus fieles.
 
-La primera bendición Cuando los antepasados de los Yugen huían de la persecución humana y buscaban un lugar donde sobrevivir, Eko contempló su desesperación. No comprendía por qué sus cuerpos envejecían, por qué el agotamiento los hacía caer ni por qué la pérdida de esencia debía impedirles seguir luchando. Deseoso de protegerlos, les concedió el poder de extraer su propia sustancia vital y convertirla en una materia negra, viscosa y moldeable que podía endurecerse hasta adquirir una resistencia extraordinaria.
+La primera bendición Cuando Hiroko Bushida intentaba salvar a los habitantes de Nyde en el año 232 de la Cuarta Era, Eko contempló la desesperación de aquellos mortales. No comprendía por qué sus cuerpos envejecían, por qué el agotamiento los hacía caer ni por qué la pérdida de esencia debía impedirles seguir luchando. Deseoso de protegerlos, les concedió el poder de extraer su propia sustancia vital y convertirla en una materia negra, viscosa y moldeable que podía endurecerse hasta adquirir una resistencia extraordinaria.
 
 Para Eko, la operación era sencilla. La esencia cambiaba de forma, pero continuaba existiendo. Lo que no comprendió fue que un mortal no puede perder indefinidamente partes de su propia esencia sin destruirse. Así nació una bendición que también era una maldición.
 
@@ -204,7 +211,7 @@ Los Yugen ensalzan el autocontrol, pero viven entre guerras fratricidas. Veneran
 
 Su sociedad encuentra en los templos espacios de silencio, contemplación y enseñanza; sin embargo, los mismos templos pueden alimentar la exclusión de los corrompidos o protegerlos contra sus propios vecinos. Los jóvenes sueñan con la fama de los espadachines de las canciones; sus padres temen que esa fama solo se alcance mediante una muerte temprana. En los valles los cerezos anuncian nuevas estaciones, pero los campos llevan todavía las cicatrices de la última guerra.
 
-Eko contempla a su pueblo desde una idea de permanencia que no coincide con la vida mortal. Para el dios, aquello que cambia de forma no desaparece. Para los Yugen, en cambio, cada manifestación de Kuro puede significar una despedida. Su gran tragedia es haber sobrevivido gracias a una bendición que los consume, y haber construido una cultura tan preocupada por la vergüenza que con frecuencia es incapaz de agradecer a quienes han pagado el precio de salvarla.
+Eko contempla a su pueblo con la curiosidad de su padre Istak y con el desconcierto del caos, sin comprender plenamente la fragilidad de la vida mortal. Para el dios, aquello que cambia de forma no desaparece. Para los Yugen, en cambio, cada manifestación de Kuro puede significar una despedida. Su gran tragedia es haber sobrevivido gracias a una bendición que los consume, y haber construido una cultura tan preocupada por la vergüenza que con frecuencia es incapaz de agradecer a quienes han pagado el precio de salvarla.
 
 «Una isla que sobrevivió al mundo y todavía no ha aprendido a perdonarse a sí misma».
 
