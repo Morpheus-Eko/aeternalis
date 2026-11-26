@@ -2,6 +2,15 @@
 
 **Estado:** Código publicado en GitHub, listo para instalar en Foroactivo. **No está instalado por esta publicación en el panel de administración del foro.** Se requiere pegar el HTML y el instalador únicos y comprobarlos visualmente dentro de Foroactivo.
 
+## Actualización editorial: Astillero v1.2 y Carta Náutica v1.1
+
+Desde el 26 de noviembre de 2026, las interfaces públicas mantienen una presentación editorial sin rótulos de «prueba», «simulación» ni avisos repetitivos de acreditación. Los controles utilizan «Actualizar configuración», «Tarifa reducida», «Trazar recorrido», «Hexágonos» y «Bitácora».
+
+**No se alteró el motor de requisitos, precios, rutas, datos de personajes ni se creó persistencia o transacción real.** Los aspectos técnicos (revisión de rutas marítimas y carácter temporal de los ajustes de pantalla) permanecen documentados aquí para mantenedores.
+
+**Versiones de caché:** `JS_CARGADOR_ASTILLERO.js?v=1.2.0` y `JS_CARGADOR_CARTA_NAVAL.js?v=1.1.0`. Si se está utilizando la línea breve de instalación en Foroactivo, su parámetro puede actualizarse a `JS_INSTALAR_ALMIRANTAZGO.js?v=1.0.1` para obtener el instalador nuevo.
+
+
 ## Vistas
 
 - **Vista conjunta:** https://morpheus-eko.github.io/aeternalis/almirantazgo-preview.html
