@@ -1,0 +1,1000 @@
+<!-- AE_LEAFLET_ATLAS_CSS_BEGIN -->
+<style id="ae-leaflet-css-source" type="text/css">
+/* ======================================================================
+   AETERNALIS · ATLAS LEAFLET v1.6 / CSS COMPLETO PARA h5
+   Hoja COMPLETA de reemplazo: no se debe apilar sobre CSS v1/v1.1.
+   Diseñada para Foroactivo (tema o página HTML independiente).
+   Alcance encapsulado en #aeternalis-atlas; no modifica otros temas.
+   ====================================================================== */
+
+/* 01. CONTENEDOR INDEPENDIENTE / SIN BARRAS LATERALES */
+body.ae-atlas-page { overflow: hidden !important; }
+#aeternalis-atlas {
+  --ae-gold: #c4a679;
+  --ae-gold-bright: #e3cca0;
+  --ae-bronze: #775d43;
+  --ae-text: #e7dfd2;
+  --ae-muted: #b2a89c;
+  --ae-line: rgba(202, 170, 117, .34);
+  --ae-panel: #19181a;
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147482000 !important;
+  display: block !important;
+  width: 100vw !important;
+  width: 100dvw !important;
+  height: 100vh !important;
+  height: 100dvh !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  transform: none !important;
+  float: none !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+  background: #0b0d10 !important;
+  color: var(--ae-text) !important;
+  font: 14px/1.55 Georgia, 'Times New Roman', serif;
+  text-align: left;
+  letter-spacing: normal;
+}
+#aeternalis-atlas,
+#aeternalis-atlas *,
+#aeternalis-atlas *::before,
+#aeternalis-atlas *::after { box-sizing: border-box; }
+#aeternalis-atlas [hidden] { display: none !important; }
+#aeternalis-atlas .ae-sr-only {
+  position: absolute !important; width: 1px; height: 1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* 02. MARCO GENERAL: barra, mapa y pie ocuparán la pantalla */
+#aeternalis-atlas .ae-atlas {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  isolation: isolate;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: #0b0d10;
+  overflow: hidden;
+  box-shadow: none;
+}
+#aeternalis-atlas .ae-atlas__toolbar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(10px, 2vw, 28px);
+  min-height: 75px;
+  padding: 12px clamp(14px, 2vw, 36px);
+  border-bottom: 1px solid var(--ae-line);
+  background: linear-gradient(110deg, #141316 0%, #232024 55%, #151417 100%);
+  box-shadow: 0 5px 22px rgba(0,0,0,.5);
+  z-index: 20;
+}
+#aeternalis-atlas .ae-atlas__brand { flex: 0 1 auto; min-width: 166px; }
+#aeternalis-atlas .ae-atlas__kicker {
+  display: block;
+  font: 700 10px/1.5 system-ui, sans-serif;
+  letter-spacing: .25em;
+  color: var(--ae-gold);
+}
+#aeternalis-atlas .ae-atlas__brand h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #f5e9d7;
+  font: 400 clamp(25px,2.6vw,38px)/1.08 Georgia, serif;
+  letter-spacing: .045em;
+  text-transform: none;
+}
+
+/* 03. BÚSQUEDA Y HERRAMIENTAS */
+#aeternalis-atlas .ae-atlas__search-box {
+  position: relative;
+  flex: 1 1 280px;
+  max-width: 560px;
+  min-width: 160px;
+}
+#aeternalis-atlas #ae-map-search {
+  display: block;
+  width: 100%;
+  height: 43px;
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid var(--ae-line);
+  border-radius: 4px;
+  outline: none;
+  background: #0d0d0f;
+  box-shadow: inset 0 1px 7px #0008;
+  color: #f3e8d7;
+  font: 13px/1.4 system-ui, sans-serif;
+}
+#aeternalis-atlas #ae-map-search:focus {
+  border-color: var(--ae-gold-bright);
+  box-shadow: 0 0 0 2px rgba(204,163,98,.2);
+}
+#aeternalis-atlas #ae-map-search::placeholder { color: #9b8e7f; }
+#aeternalis-atlas .ae-atlas__results {
+  position: absolute;
+  z-index: 50;
+  top: calc(100% + 7px);
+  left: 0; right: 0;
+  max-height: min(420px,60vh);
+  overflow-y: auto;
+  border: 1px solid var(--ae-gold);
+  background: #1a1718;
+  box-shadow: 0 16px 45px #000b;
+}
+#aeternalis-atlas .ae-atlas__results button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 15px;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #ffffff12;
+  border-radius: 0;
+  background: transparent;
+  color: #eee1ce;
+  font: 12px/1.4 system-ui, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+#aeternalis-atlas .ae-atlas__results button:hover,
+#aeternalis-atlas .ae-atlas__results button:focus-visible {
+  background: #57432e; color: #fff;
+}
+#aeternalis-atlas .ae-atlas__results small { font: 10px system-ui,sans-serif; color: #c6ad89; }
+#aeternalis-atlas .ae-atlas__results p { padding: 12px; margin: 0; }
+#aeternalis-atlas .ae-atlas__buttons { display:flex; align-items:center; gap:6px; flex:0 0 auto; }
+#aeternalis-atlas .ae-atlas__buttons button,
+#aeternalis-atlas .ae-atlas__buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--ae-line);
+  border-radius: 3px;
+  background: #242126;
+  color: #e9d7bd;
+  font: 400 23px/1 system-ui,sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .16s ease, border-color .16s ease;
+}
+#aeternalis-atlas .ae-atlas__buttons button:hover,
+#aeternalis-atlas .ae-atlas__buttons a:hover,
+#aeternalis-atlas .ae-atlas__buttons button:focus-visible,
+#aeternalis-atlas .ae-atlas__buttons a:focus-visible {
+  background: #5b432a; border-color: var(--ae-gold-bright); color: #fff;
+}
+#aeternalis-atlas .ae-atlas__buttons .ae-atlas__exit {
+  width: auto; min-width: 104px; padding: 0 13px;
+  gap: 6px; font: 600 12px system-ui,sans-serif;
+}
+
+/* 04. ÁREA DEL MAPA: FLEX REAL, SIN CÁLCULOS DE MARGEN NEGATIVO */
+#aeternalis-atlas .ae-atlas__viewport {
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #091019;
+  cursor: grab;
+  touch-action: none;
+  outline: none;
+}
+#aeternalis-atlas .ae-atlas__viewport.is-dragging { cursor: grabbing; }
+#aeternalis-atlas .ae-atlas__viewport:focus-visible { outline: 2px solid #d5b580; outline-offset: -3px; }
+#aeternalis-atlas .ae-atlas__world {
+  position: absolute;
+  left: 0; top: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+  user-select: none;
+  -webkit-user-select: none;
+}
+#aeternalis-atlas .ae-atlas__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0; padding: 0;
+  border: 0;
+  object-fit: fill;
+  pointer-events: none;
+  user-select: none;
+}
+#aeternalis-atlas .ae-atlas__regions,
+#aeternalis-atlas .ae-atlas__pins {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 05. REGIONES. Color individual por subregión; NO iluminar el reino entero. */
+#aeternalis-atlas .ae-atlas__regions { overflow: visible; }
+#aeternalis-atlas .ae-atlas__region {
+  --ae-region-rgb: 196,166,121;
+  fill: rgba(0,0,0,0);
+  stroke: rgba(0,0,0,0);
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  outline: none;
+  pointer-events: visiblePainted;
+  transition: fill .22s ease, stroke .22s ease, filter .22s ease;
+}
+#aeternalis-atlas .ae-atlas__region.is-highlighted,
+#aeternalis-atlas .ae-atlas__region:focus-visible {
+  fill: rgba(var(--ae-region-rgb), .22);
+  stroke: rgb(var(--ae-region-rgb));
+  stroke-width: 3;
+  filter: drop-shadow(0 0 6px rgba(var(--ae-region-rgb),.95));
+}
+/* PUNTO EXACTO: left/top son las coordenadas centrales del símbolo, no de la etiqueta. */
+#aeternalis-atlas .ae-atlas__pins {
+  pointer-events: none;
+  --ae-counterzoom: 1;
+}
+#aeternalis-atlas .ae-atlas__pin {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  flex: none;
+  /* Zona clicable conservada, aunque el icono visible es un 20% menor. */
+  width: 28px;
+  height: 28px;
+  max-width: none;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  opacity: .78;
+  color: #f7efe3;
+  white-space: nowrap;
+  pointer-events: auto;
+  cursor: pointer;
+  transform: translate(-50%,-50%) scale(var(--ae-counterzoom));
+  transform-origin: center center;
+  filter: drop-shadow(0 1px 2px #000a);
+  transition: opacity .16s ease, filter .16s ease;
+}
+#aeternalis-atlas .ae-atlas__pin:hover,
+#aeternalis-atlas .ae-atlas__pin:focus-visible {
+  z-index: 50;
+  opacity: 1;
+  filter: drop-shadow(0 0 7px #ffe1a8c9);
+  outline: none;
+}
+#aeternalis-atlas .ae-atlas__pin-icon {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 18.4px;
+  height: 18.4px;
+  border: 1px solid var(--ae-gold-bright);
+  border-radius: 50%;
+  background: linear-gradient(135deg,#40372f,#0d1016);
+  color: #e7d3ab;
+  box-shadow: 0 0 0 2px #0c0c0a88,0 2px 7px #000a;
+  transition: transform .17s ease, background .17s ease, box-shadow .17s ease;
+}
+#aeternalis-atlas .ae-atlas__pin-icon svg {
+  display:block;
+  width: 10.4px;
+  height: 10.4px;
+}
+#aeternalis-atlas .ae-atlas__pin:hover .ae-atlas__pin-icon,
+#aeternalis-atlas .ae-atlas__pin:focus-visible .ae-atlas__pin-icon {
+  transform: scale(1.23);
+  background: #7b5a32;
+  box-shadow: 0 0 0 2px #211810,0 0 13px #d6ab59;
+}
+#aeternalis-atlas .ae-atlas__pin--nordic .ae-atlas__pin-icon { border-color: #c0d9e6; color:#e0f1fb; }
+#aeternalis-atlas .ae-atlas__pin--human .ae-atlas__pin-icon { border-color: #e2b874; color:#f4d395; }
+#aeternalis-atlas .ae-atlas__pin--dwarf .ae-atlas__pin-icon { border-color: #dd9b69; color:#f6c39e; }
+#aeternalis-atlas .ae-atlas__pin--elf .ae-atlas__pin-icon { border-color: #94c4ac; color:#c9eed6; }
+#aeternalis-atlas .ae-atlas__pin--pirate .ae-atlas__pin-icon { border-color: #ce9da5; color:#f3ccd2; }
+#aeternalis-atlas .ae-atlas__pin--independent .ae-atlas__pin-icon { border-color:#a3b5c3; color:#d7e3e9; }
+#aeternalis-atlas .ae-atlas__pin-label {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 13px);
+  transform: translateX(-50%);
+  max-width: 156px;
+  padding: 2px 5px;
+  border: 1px solid #ffffff08;
+  border-radius: 3px;
+  background: rgba(11,12,16,.52);
+  color: #f4ecdd;
+  font: 600 9px/1.28 system-ui,sans-serif;
+  letter-spacing: .01em;
+  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: .78;
+  text-shadow: 0 1px 2px #000;
+  transition: opacity .17s ease, background .17s ease;
+}
+#aeternalis-atlas .ae-atlas__pin:hover .ae-atlas__pin-label,
+#aeternalis-atlas .ae-atlas__pin:focus-visible .ae-atlas__pin-label {
+  opacity: 1;
+  background: #19171bf5;
+  color: #fff5e6;
+}
+#aeternalis-atlas .ae-atlas__pin--elf .ae-atlas__pin-label { color:#d7f1e2; }
+#aeternalis-atlas .ae-atlas__pin--nordic .ae-atlas__pin-label { color:#dfecf5; }
+#aeternalis-atlas .ae-atlas__pin:focus-visible .ae-atlas__pin-label { outline: 2px solid var(--ae-gold); }
+
+/* 07. INDICACIONES, TOOLTIP Y PIE */
+#aeternalis-atlas .ae-atlas__tooltip {
+  position: absolute;
+  z-index: 18;
+  min-width: 150px;
+  max-width: 245px;
+  padding: 11px 14px;
+  border: 1px solid var(--ae-line);
+  background: rgba(22,20,23,.96);
+  box-shadow: 0 10px 28px #000b;
+  color: #f5e6cc;
+  pointer-events: none;
+}
+#aeternalis-atlas .ae-atlas__tooltip strong { display:block; font: 19px/1.3 Georgia,serif; }
+#aeternalis-atlas .ae-atlas__tooltip small { display:block; margin-top: 5px; color:#c3b19a; font:11px system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__instructions {
+  position:absolute;
+  left: 22px; bottom: 16px;
+  padding: 9px 14px;
+  border: 1px solid #c7a77655;
+  background: #161414dd;
+  color: #e7daca;
+  font: 11px system-ui,sans-serif;
+  box-shadow: 0 2px 15px #0009;
+  pointer-events:none;
+}
+#aeternalis-atlas .ae-atlas__instructions span { padding: 0 9px; color:var(--ae-gold); }
+#aeternalis-atlas .ae-atlas__footer {
+  display:flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  min-height: 45px;
+  padding: 8px clamp(14px,2vw,34px);
+  border-top: 1px solid var(--ae-line);
+  background: #171519;
+  color: #c9bbaa;
+  font:11px/1.5 system-ui,sans-serif;
+}
+#aeternalis-atlas .ae-atlas__legend { display: flex; align-items:center; flex-wrap:wrap; gap:12px; }
+#aeternalis-atlas .ae-atlas__legend span { display:inline-flex; align-items:center; gap:4px; }
+#aeternalis-atlas .ae-atlas__legend svg { width:14px; height:14px; color:#dfc8a4; }
+
+/* 08. VENTANA EMERGENTE PARA CIUDADES Y REINOS */
+body.ae-map-dialog-open { overflow:hidden !important; }
+#aeternalis-atlas .ae-atlas__modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483000;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding: 3vh 3vw;
+  background: rgba(5,5,9,.88);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+#aeternalis-atlas .ae-atlas__dialog {
+  position:relative;
+  width: min(1380px, 100%);
+  max-height: 94vh;
+  max-height: 94dvh;
+  margin:0;
+  overflow:auto;
+  border: 1px solid #aa8d5e;
+  border-radius: 2px;
+  background: linear-gradient(120deg,#262225,#131216 72%);
+  color: #eadfce;
+  box-shadow: 0 0 0 5px #0c0b0e,0 26px 85px #000e;
+}
+#aeternalis-atlas .ae-atlas__dialog::before {
+  content:"";
+  display:block;
+  position:sticky;
+  top:0;
+  z-index:1;
+  height:5px;
+  background: repeating-linear-gradient(90deg,#806141 0 20px,#c8a576 20px 24px,#3a2c26 24px 40px);
+}
+#aeternalis-atlas .ae-atlas__modal-close {
+  position:sticky;
+  float:right;
+  top:12px;
+  z-index:5;
+  display:grid;
+  place-items:center;
+  width:41px;height:41px;
+  margin:12px 14px -53px 0;
+  padding:0;
+  border:1px solid #bb9f70;
+  border-radius:50%;
+  background: #282124;
+  color:#f9e9cd;
+  font:19px system-ui,sans-serif;
+  cursor:pointer;
+}
+#aeternalis-atlas .ae-atlas__modal-close:hover { background:#704c32; }
+#aeternalis-atlas .ae-atlas__modal-grid {
+  display:grid;
+  grid-template-columns: minmax(260px, 34%) minmax(0, 1fr);
+  min-height: 440px;
+}
+#aeternalis-atlas .ae-atlas__modal-aside {
+  min-width:0;
+  padding:48px clamp(18px,2vw,32px) 32px;
+  border-right: 1px solid #a38b604c;
+  background: #1c1a1c;
+}
+#aeternalis-atlas .ae-atlas__art {
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:360px;
+  aspect-ratio:4/3;
+  object-fit:cover;
+  border:1px solid #a98e62;
+  background:#121214;
+  box-shadow:0 10px 32px #0008;
+}
+#aeternalis-atlas .ae-atlas__fallback-art {
+  display:flex;
+  flex-direction:column;
+  justify-content:end;
+  width:100%;
+  min-height:230px;
+  aspect-ratio:4/3;
+  border:1px solid #a98e62;
+  background-repeat:no-repeat;
+  background-size:390% auto;
+  background-color:#11141a;
+  box-shadow:0 10px 32px #0008;
+}
+#aeternalis-atlas .ae-atlas__fallback-art span {
+  display:block;
+  width:100%;
+  padding:9px;
+  background:#0a0b0dd4;
+  color:#e3d1b4;
+  text-align:center;
+  font:10px system-ui,sans-serif;
+}
+#aeternalis-atlas .ae-atlas__art-source { display:block; padding-top:6px; font:10px/1.4 system-ui,sans-serif; color:#a99b89; }
+#aeternalis-atlas .ae-atlas__facts {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  margin:20px 0 0;
+  border:1px solid #816c4b;
+}
+#aeternalis-atlas .ae-atlas__fact {
+  min-width:0;
+  padding:12px;
+  border-right:1px solid #80694b66;
+  border-bottom:1px solid #80694b66;
+}
+#aeternalis-atlas .ae-atlas__fact:nth-child(2n) { border-right:0; }
+#aeternalis-atlas .ae-atlas__fact:nth-last-child(-n+2) { border-bottom:0; }
+#aeternalis-atlas .ae-atlas__fact dt { margin:0; color:#d1b484; text-transform:uppercase; letter-spacing:.08em; font:700 10px system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__fact dd { margin:5px 0 0; color:#eee2d0; font:13px/1.5 Georgia,serif; overflow-wrap:anywhere; }
+#aeternalis-atlas .ae-atlas__panel-status { margin:13px 0 0; color:#b8a78d; font:11px/1.5 system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__modal-article {
+  min-width:0;
+  padding:52px clamp(24px,3.5vw,62px) 62px;
+}
+#aeternalis-atlas .ae-atlas__eyebrow { display:flex; gap:8px; align-items:center; color:#d3b585; letter-spacing:.16em; text-transform:uppercase; font:700 11px/1.5 system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__modal-article h2,
+#aeternalis-atlas .ae-atlas__archive h2 { margin:13px 0 0; padding:0; border:0; color:#f6e9d6; font:400 clamp(30px,3.4vw,56px)/1.14 Georgia,serif; text-transform:none; }
+#aeternalis-atlas .ae-atlas__city-subtitle { margin:11px 0 0; color:#c8ad85; font:italic 18px/1.5 Georgia,serif; }
+#aeternalis-atlas .ae-atlas__rule { height:1px; margin:22px 0 28px; background:linear-gradient(90deg,#a88c60,transparent); }
+#aeternalis-atlas .ae-atlas__prose { max-width:83ch; }
+#aeternalis-atlas .ae-atlas__modal-article p,
+#aeternalis-atlas .ae-atlas__archive p { margin:0 0 1.25em; color:#e0d6c9; font:16px/1.9 Georgia,serif; overflow-wrap:anywhere; hyphens:auto; text-align:justify; white-space:pre-line; }
+#aeternalis-atlas .ae-atlas__modal-article h3 { margin:30px 0 13px; color:#d8bb8d; font:400 24px/1.25 Georgia,serif; }
+#aeternalis-atlas .ae-atlas__modal-aside h3 { margin:24px 0 12px; font:400 20px/1.3 Georgia,serif; color:#decba8; }
+#aeternalis-atlas .ae-atlas__editor-note { padding:12px 15px; border-left:2px solid #ad8f5b; background:#e7c68d14; color:#c5b5a1 !important; font:12px/1.65 system-ui,sans-serif !important; text-align:left !important; }
+#aeternalis-atlas .ae-atlas__lore-aspects { display:grid; grid-template-columns: repeat(auto-fit,minmax(185px,1fr)); gap:10px; margin:17px 0 26px; }
+#aeternalis-atlas .ae-atlas__lore-aspects section { padding:17px; border:1px solid #be9e6652; background:#b3924f13; }
+#aeternalis-atlas .ae-atlas__lore-aspects h4 { margin:0 0 9px; color:#e1c18c; font:700 11px/1.4 system-ui,sans-serif; letter-spacing:.1em; text-transform:uppercase; }
+#aeternalis-atlas .ae-atlas__lore-aspects p { margin:0; font:14px/1.7 Georgia,serif; text-align:left; }
+#aeternalis-atlas .ae-atlas__source-note,
+#aeternalis-atlas .ae-atlas__lore-chapter { margin:18px 0; border:1px solid #a18a6158; background:#211e1e; }
+#aeternalis-atlas .ae-atlas__source-note summary,
+#aeternalis-atlas .ae-atlas__lore-chapter summary { padding:16px 19px; color:#e9d2b0; cursor:pointer; font:600 13px/1.4 system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__lore-chapter summary { font:400 20px/1.4 Georgia,serif; }
+#aeternalis-atlas .ae-atlas__source-note[open] summary,
+#aeternalis-atlas .ae-atlas__lore-chapter[open] summary { border-bottom:1px solid #a18a6158; background:#d6b68410; }
+#aeternalis-atlas .ae-atlas__lore-chapter .ae-atlas__prose { padding:20px 23px 7px; }
+#aeternalis-atlas .ae-atlas__source-note p { padding:13px 20px 22px; margin:0; }
+#aeternalis-atlas .ae-atlas__places-list { display:grid; gap:4px; max-height:380px; overflow:auto; }
+#aeternalis-atlas .ae-atlas__place-link { display:flex; justify-content:space-between; width:100%; margin:0; padding:10px 12px; border:1px solid #ffffff12; border-radius:0; background:#292427; color:#e7d8c1; text-align:left; font:12px/1.45 system-ui,sans-serif; cursor:pointer; }
+#aeternalis-atlas .ae-atlas__place-link:hover { background:#5c4630; color:#fff; }
+#aeternalis-atlas .ae-atlas__modal-grid--region .ae-atlas__modal-article { padding-bottom:70px; }
+
+/* 09. PANTALLA COMPLETA NATIVA Y ADAPTACIÓN A MÓVIL */
+#aeternalis-atlas .ae-atlas:fullscreen,
+#aeternalis-atlas .ae-atlas.is-expanded { width:100%; height:100%; margin:0; }
+#aeternalis-atlas .ae-atlas:fullscreen .ae-atlas__viewport,
+#aeternalis-atlas .ae-atlas.is-expanded .ae-atlas__viewport { flex:1 1 auto; height:auto !important; max-height:none !important; }
+@media (max-width: 800px) {
+  #aeternalis-atlas .ae-atlas__toolbar { flex-wrap:wrap; min-height:0; gap:9px; padding:9px 12px; }
+  #aeternalis-atlas .ae-atlas__brand { flex:1 1 auto; min-width:120px; }
+  #aeternalis-atlas .ae-atlas__brand h1 { font-size:25px; }
+  #aeternalis-atlas .ae-atlas__buttons { gap:4px; }
+  #aeternalis-atlas .ae-atlas__buttons button,
+  #aeternalis-atlas .ae-atlas__buttons a { width:34px; height:34px; font-size:19px; }
+  #aeternalis-atlas .ae-atlas__buttons .ae-atlas__exit { min-width:66px; padding:0 7px; font-size:10px; }
+  #aeternalis-atlas .ae-atlas__search-box { order:3; flex:1 1 100%; max-width:none; }
+  #aeternalis-atlas #ae-map-search { height:37px; }
+  #aeternalis-atlas .ae-atlas__instructions { bottom:8px; left:8px; right:8px; padding:7px; font-size:10px; text-align:center; }
+  #aeternalis-atlas .ae-atlas__footer { padding:6px 10px; min-height:0; font-size:10px; }
+  #aeternalis-atlas .ae-atlas__legend { gap:9px; }
+  #aeternalis-atlas .ae-atlas__modal-backdrop { padding:1vh 2vw; }
+  #aeternalis-atlas .ae-atlas__dialog { max-height:97dvh; }
+  #aeternalis-atlas .ae-atlas__modal-grid { grid-template-columns:1fr; }
+  #aeternalis-atlas .ae-atlas__modal-article { padding:40px 22px 29px; order:1; }
+  #aeternalis-atlas .ae-atlas__modal-aside { padding:20px; order:2; border-right:0; border-top:1px solid #a38b604c; }
+  #aeternalis-atlas .ae-atlas__modal-article p { font-size:15px; line-height:1.8; text-align:left; }
+  #aeternalis-atlas .ae-atlas__lore-chapter .ae-atlas__prose { padding:15px 16px 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #aeternalis-atlas .ae-atlas__region,
+  #aeternalis-atlas .ae-atlas__pin-icon { transition:none; }
+}
+
+/* 10. FICHAS V3: información extra y lectura extensa. */
+#aeternalis-atlas .ae-atlas__extra-facts { display:grid; gap:8px; margin-top:15px; }
+#aeternalis-atlas .ae-atlas__extra-facts div { display:flex; justify-content:space-between; align-items:baseline; gap:18px; padding:9px 0; border-bottom:1px solid #9f896034; }
+#aeternalis-atlas .ae-atlas__extra-facts dt { flex:0 0 43%; color:#ccac7c; text-transform:uppercase; letter-spacing:.06em; font:700 10px/1.4 system-ui,sans-serif; }
+#aeternalis-atlas .ae-atlas__extra-facts dd { margin:0; color:#dfd6c9; text-align:right; font:12px/1.5 Georgia,serif; }
+#aeternalis-atlas .ae-atlas__modal-article .ae-atlas__prose {max-width:90ch;}
+#aeternalis-atlas .ae-atlas__prose p { white-space:pre-line; }
+#aeternalis-atlas .ae-atlas__lore-chapter .ae-atlas__prose { max-width:none; }
+@media (prefers-reduced-motion:reduce) {
+  #aeternalis-atlas .ae-atlas__region,
+  #aeternalis-atlas .ae-atlas__pin,
+  #aeternalis-atlas .ae-atlas__pin-icon,
+  #aeternalis-atlas .ae-atlas__pin-label { transition:none; }
+}
+/* En dispositivos táctiles no mantener un tooltip de hover fijo. */
+@media (hover: none) {
+  #aeternalis-atlas .ae-atlas__tooltip { display: none !important; }
+}
+
+
+/* ===================================================================
+   AETERNALIS · ATLAS V4.0 · FICHAS CÍVICAS / PESTAÑAS
+   Se aloja completo y de forma exclusiva en la página auxiliar h5.
+   NO reemplazar los estilos del mapa. TODOS los selectores encapsulados.
+   =================================================================== */
+#aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__modal-article{padding-top:41px}
+#aeternalis-atlas .ae-atlas__city-v4{min-width:0}
+#aeternalis-atlas .ae-atlas__civic-tabs{position:relative;display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;margin:25px 0 27px;padding:4px 0 12px;border-bottom:1px solid #bb986166;scrollbar-width:thin;scrollbar-color:#a3875f #252126}
+#aeternalis-atlas .ae-atlas__civic-tabs button{flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;margin:0;border:1px solid #7b64485e;border-radius:3px 3px 0 0;background:linear-gradient(#2e292b,#201d20);color:#c2b3a2;font:600 11px/1.35 system-ui,sans-serif;letter-spacing:.02em;white-space:nowrap;cursor:pointer;transition:background .16s,border .16s,color .16s}
+#aeternalis-atlas .ae-atlas__civic-tabs button:hover{background:#41352c;color:#f5e6cd;border-color:#a58a64}
+#aeternalis-atlas .ae-atlas__civic-tabs button[aria-selected="true"]{background:linear-gradient(#675138,#4d3929);border-color:#d5ad73;color:#fff0d7;box-shadow:inset 0 -2px 0 #d9ba86}
+#aeternalis-atlas .ae-atlas__civic-tabs button:focus-visible{outline:2px solid #e3c796;outline-offset:2px}
+#aeternalis-atlas .ae-atlas__civic-panel{min-width:0;min-height:240px;animation:ae-civic-reveal .22s ease}
+#aeternalis-atlas .ae-atlas__civic-panel[hidden]{display:none!important}
+#aeternalis-atlas .ae-atlas__civic-panel>h3:first-child{margin:0 0 22px;color:#e2cba4;font:400 clamp(23px,2.5vw,31px)/1.25 Georgia,serif}
+#aeternalis-atlas .ae-atlas__city-banner{display:block;width:100%;max-height:280px;object-fit:cover;margin:0 0 23px;border:1px solid #9a7e56}
+#aeternalis-atlas .ae-atlas__civic-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0}
+#aeternalis-atlas .ae-atlas__civic-fact{display:flex;flex-direction:column;min-width:0;padding:14px 16px;border:1px solid #9c81534d;background:linear-gradient(105deg,#30292a,#252224)}
+#aeternalis-atlas .ae-atlas__civic-fact dt{margin:0 0 7px;color:#cba875;font:700 10px/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.07em}
+#aeternalis-atlas .ae-atlas__civic-fact dd{margin:0;color:#eee3d4;font:14px/1.55 Georgia,serif;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-atlas__civic-population{margin:0 0 18px}
+#aeternalis-atlas .ae-atlas__races-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+#aeternalis-atlas .ae-atlas__race-card{display:flex;align-items:center;justify-content:space-between;gap:9px;min-width:0;min-height:50px;padding:10px 12px;border:1px solid #a18b6466;border-left:3px solid var(--ae-race-color,#ac956d);background:#1b1a1d;color:var(--ae-race-color,#cfbc9a);font:600 12px/1.4 system-ui,sans-serif}
+#aeternalis-atlas .ae-atlas__race-card span:first-child{min-width:0;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-atlas__race-card span:nth-child(2){font-size:20px;line-height:1}
+#aeternalis-atlas .ae-atlas__race-card strong{font-size:13px;color:#f4e3c9;white-space:nowrap}
+#aeternalis-atlas .ae-atlas__metric-empty{color:#8f8982!important;font-weight:500}
+#aeternalis-atlas .ae-atlas__civic-disclaimer{margin:17px 0 0!important;color:#b09d84!important;font:12px/1.55 system-ui,sans-serif!important;text-align:left!important}
+#aeternalis-atlas .ae-atlas__strategic-table{border:1px solid #987a515f}
+#aeternalis-atlas .ae-atlas__strategic-row{display:grid;grid-template-columns:minmax(110px,24%) minmax(0,1fr);gap:21px;padding:22px 21px;border-bottom:1px solid #987a513f;background:#211e20}
+#aeternalis-atlas .ae-atlas__strategic-row:nth-child(even){background:#272326}
+#aeternalis-atlas .ae-atlas__strategic-row:last-child{border-bottom:0}
+#aeternalis-atlas .ae-atlas__strategic-row h4{margin:0;color:#d7b984;font:700 13px/1.5 system-ui,sans-serif}
+#aeternalis-atlas .ae-atlas__strategic-row .ae-atlas__prose p{margin:0;color:#dfd2c2;font:14px/1.8 Georgia,serif;text-align:left;white-space:normal}
+#aeternalis-atlas .ae-atlas__gold-tile{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:100px;padding:19px 24px;margin:0 0 17px;border:1px solid #b6996385;background:radial-gradient(circle at right,#56402b,#322822 54%,#1d1a1d);color:#ead4ac}
+#aeternalis-atlas .ae-atlas__gold-tile>div{display:flex;flex-direction:column;gap:5px}
+#aeternalis-atlas .ae-atlas__gold-tile span:first-child{font:700 13px/1.5 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em}
+#aeternalis-atlas .ae-atlas__gold-tile strong{font:400 34px/1.2 Georgia,serif}
+#aeternalis-atlas .ae-atlas__gold-icon{font-size:51px;opacity:.65}
+#aeternalis-atlas .ae-atlas__metrics-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+#aeternalis-atlas .ae-atlas__metric{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 27px auto;align-items:center;column-gap:10px;min-width:0;min-height:58px;padding:12px 15px;border:1px solid #8b735858;background:#231f23;color:#dfd7cc;font:600 13px/1.3 system-ui,sans-serif}
+#aeternalis-atlas .ae-atlas__metric .ae-atlas__metric-name{min-width:0;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-atlas__metric .ae-atlas__metric-symbol{color:#a98fbc;font-size:23px;text-align:center}
+#aeternalis-atlas .ae-atlas__metric strong{color:#ead6ba;font-variant-numeric:tabular-nums;white-space:nowrap}
+#aeternalis-atlas .ae-atlas__metric-bar{position:absolute;bottom:0;left:0;right:0;height:2px;background:#322a2c}
+#aeternalis-atlas .ae-atlas__metric-bar i{display:block;height:100%;background:#bda0d9}
+#aeternalis-atlas .ae-atlas__civic-lead{margin:0 0 23px!important;color:#c6b59c!important;font:italic 15px/1.75 Georgia,serif!important;text-align:left!important}
+#aeternalis-atlas .ae-atlas__civic-awaiting{padding:30px 25px;border:1px dashed #957a586a;background:#b3987210;color:#bdb0a2;font:14px/1.8 Georgia,serif;text-align:center}
+#aeternalis-atlas .ae-atlas__npc-grid{display:grid;gap:13px}
+#aeternalis-atlas .ae-atlas__npc-card{display:grid;grid-template-columns:110px minmax(0,1fr);gap:16px;padding:16px;border:1px solid #a3876259;background:linear-gradient(125deg,#30282a,#1d1b20)}
+#aeternalis-atlas .ae-atlas__npc-card img,#aeternalis-atlas .ae-atlas__npc-fallback{display:grid;place-items:center;width:110px;height:146px;object-fit:cover;border:1px solid #a78b5c;color:#a38a66;background:#1b191b;font-size:46px}
+#aeternalis-atlas .ae-atlas__npc-card h4{margin:2px 0 7px;color:#f2dcc0;font:400 25px/1.25 Georgia,serif}
+#aeternalis-atlas .ae-atlas__npc-card strong{color:#d2ab70;font:700 12px/1.5 system-ui,sans-serif;text-transform:uppercase}
+#aeternalis-atlas .ae-atlas__npc-card p{margin:12px 0 0;color:#c8baaa;font:14px/1.7 Georgia,serif;text-align:left}
+#aeternalis-atlas .ae-atlas__district-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+#aeternalis-atlas .ae-atlas__district-card{min-width:0;border:1px solid #ad8e615c;background:linear-gradient(125deg,#2b2526,#181719);overflow:hidden}
+#aeternalis-atlas .ae-atlas__district-card>img,#aeternalis-atlas .ae-atlas__district-fallback{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;width:100%;height:180px;object-fit:cover;border-bottom:1px solid #957a58;background:radial-gradient(circle,#4a3e38,#252126 70%);color:#bd9d70}
+#aeternalis-atlas .ae-atlas__district-fallback span{font-size:45px}
+#aeternalis-atlas .ae-atlas__district-fallback small{font:12px/1.5 Georgia,serif;color:#cbb69a}
+#aeternalis-atlas .ae-atlas__district-info{padding:20px 20px 8px}
+#aeternalis-atlas .ae-atlas__district-number{color:#bfa477;font:700 10px/1.6 system-ui,sans-serif;letter-spacing:.13em;text-transform:uppercase}
+#aeternalis-atlas .ae-atlas__district-card h4{margin:6px 0 15px;color:#f0dec5;font:400 23px/1.2 Georgia,serif}
+#aeternalis-atlas .ae-atlas__district-card p{margin:0 0 15px!important;color:#d7cabb!important;font:14px/1.8 Georgia,serif!important;text-align:left!important;hyphens:auto}
+@keyframes ae-civic-reveal{from{opacity:.65;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){
+  #aeternalis-atlas .ae-atlas__races-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  #aeternalis-atlas .ae-atlas__district-grid{grid-template-columns:1fr}
+}
+@media(max-width:800px){
+  #aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__modal-aside{order:2;padding:18px 21px 17px}
+  #aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__modal-article{order:1;padding:27px 19px 35px}
+  #aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__art{max-height:180px}
+  #aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__facts{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:9px}
+  #aeternalis-atlas .ae-atlas__modal-grid--civic .ae-atlas__fact{padding:7px}
+  #aeternalis-atlas .ae-atlas__civic-tabs{margin:17px 0;padding-bottom:9px}
+  #aeternalis-atlas .ae-atlas__civic-tabs button{padding:8px 12px;font-size:10px}
+  #aeternalis-atlas .ae-atlas__metrics-grid{grid-template-columns:1fr}
+  #aeternalis-atlas .ae-atlas__civic-facts{grid-template-columns:1fr}
+  #aeternalis-atlas .ae-atlas__strategic-row{grid-template-columns:1fr;gap:9px;padding:17px 15px}
+  #aeternalis-atlas .ae-atlas__npc-card{grid-template-columns:90px minmax(0,1fr)}
+  #aeternalis-atlas .ae-atlas__npc-card img,#aeternalis-atlas .ae-atlas__npc-fallback{width:90px;height:118px}
+}
+@media(max-width:420px){
+  #aeternalis-atlas .ae-atlas__races-grid{grid-template-columns:1fr}
+  #aeternalis-atlas .ae-atlas__npc-card{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){#aeternalis-atlas .ae-atlas__civic-panel{animation:none}}
+
+
+/* ================================================================
+   AETERNALIS · ATLAS LEAFLET v1.0 · OVERRIDES EXCLUSIVOS
+   ================================================================ */
+#aeternalis-atlas { color: #e9e0cd; font-family: Georgia, 'Times New Roman', serif; }
+#aeternalis-atlas .ae-atlas {height:100%;display:flex;flex-direction:column;min-height:0;background:#101a1e}
+#aeternalis-atlas .ae-atlas__toolbar {flex-shrink:0;gap:12px;z-index:920;position:relative}
+#aeternalis-atlas .ae-atlas__viewport {position:relative;flex:1;min-height:0;overflow:hidden;display:block;background:#16252c}
+#aeternalis-atlas #ae-leaflet-map {height:100%;width:100%;background:#15232b;outline:0}
+#aeternalis-atlas .leaflet-container{font-family:Georgia,serif;z-index:0;background:#18252d}
+#aeternalis-atlas .leaflet-control-attribution{font-size:9px;background:rgba(26,21,19,.8);color:#c8b493}
+#aeternalis-atlas .leaflet-control-attribution a{color:#e3c487}
+#aeternalis-atlas .leaflet-container a.leaflet-popup-close-button{color:#cfa879}
+#aeternalis-atlas .leaflet-bar a{background:#322d2a;color:#e0bd82;border-color:#634c31}
+#aeternalis-atlas .ae-leaf-hex-layer {pointer-events:none}
+#aeternalis-atlas .ae-leaf-region {cursor:pointer}
+#aeternalis-atlas .ae-leaf-pin {background:transparent;border:0}
+#aeternalis-atlas .ae-leaf-pin-wrap {display:flex;align-items:center;gap:5px;white-space:nowrap;transform:translate(-8px,-8px);filter:drop-shadow(0 2px 3px rgba(0,0,0,.95));}
+#aeternalis-atlas .ae-leaf-pin-dot{width:16px;height:16px;border-radius:50%;display:inline-grid;place-items:center;background:#312620;border:2px solid #bda87c;color:#e4d9c5;font-size:10px;line-height:1;flex:none}
+#aeternalis-atlas .ae-leaf-pin-label {display:none;font-size:12px;font-weight:bold;line-height:1.1;padding:3px 5px;background:rgba(20,18,19,.75);border-radius:4px;color:#eee1cf;max-width:148px;overflow:hidden;text-overflow:ellipsis}
+#aeternalis-atlas .ae-leaf-pin--nordic .ae-leaf-pin-dot{border-color:#83bfd9}
+#aeternalis-atlas .ae-leaf-pin--dwarf .ae-leaf-pin-dot{border-color:#cda25c}
+#aeternalis-atlas .ae-leaf-pin--human .ae-leaf-pin-dot{border-color:#e4ae7c}
+#aeternalis-atlas .ae-leaf-pin--elf .ae-leaf-pin-dot{border-color:#93cd9a}
+#aeternalis-atlas .ae-leaf-pin--pirate .ae-leaf-pin-dot{border-color:#de8c88}
+#aeternalis-atlas .ae-leaf-pin-wrap:hover .ae-leaf-pin-label{display:inline;background:#32291f;color:#fff}
+#aeternalis-atlas .ae-leaf-show-labels .ae-leaf-pin-label,#aeternalis-atlas .ae-leaf-editing .ae-leaf-pin-label{display:inline}
+#aeternalis-atlas .ae-leaf-pin--moving .ae-leaf-pin-dot {box-shadow:0 0 0 5px #dfbd6390}
+#aeternalis-atlas .ae-leaf-pin--moving .ae-leaf-pin-label {background:#573d24}
+#aeternalis-atlas .ae-atlas__toolbar button, #aeternalis-atlas .ae-atlas__toolbar select{cursor:pointer}
+#aeternalis-atlas .ae-leaf-toolbar-actions {display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+#aeternalis-atlas .ae-leaf-toolbar-actions button {font:600 11px Georgia,serif;color:#dbc49e;padding:8px 10px;background:#29231f;border:1px solid #82623f;border-radius:4px;cursor:pointer}
+#aeternalis-atlas .ae-leaf-toolbar-actions button[aria-pressed="true"]{background:#806038;color:#0e1011;border-color:#ceaa75}
+#aeternalis-atlas .ae-leaf-toolbar-actions button:hover {filter:brightness(1.2)}
+#aeternalis-atlas .ae-leaf-badge {position:absolute;bottom:14px;left:14px;z-index:780;padding:7px 11px;background:rgba(18,21,23,.91);border:1px solid #a78858;border-radius:4px;color:#e5d3b2;font:12px Georgia,serif;pointer-events:none}
+#aeternalis-atlas .ae-leaf-banner {position:absolute;top:12px;left:50%;transform:translateX(-50%);z-index:790;max-width:min(550px,90vw);color:#f3dfb5;background:rgba(26,24,24,.94);border:1px solid #b1915c;border-radius:5px;padding:9px 14px;box-shadow:0 6px 18px #0008;text-align:center;font-size:13px}
+#aeternalis-atlas .ae-leaf-side {position:absolute;top:12px;right:12px;z-index:800;width:min(365px,calc(100% - 22px));max-height:calc(100% - 28px);overflow-y:auto;overscroll-behavior:contain;background:#201d1cF2;border:1px solid #957950;border-radius:7px;color:#e7dbc4;box-shadow:0 12px 30px #000b;display:flex;flex-direction:column;gap:11px;padding:14px 14px 16px}
+#aeternalis-atlas .ae-leaf-side[hidden],#aeternalis-atlas .ae-atlas__modal-backdrop[hidden]{display:none!important}
+#aeternalis-atlas .ae-leaf-side h2 {font-size:20px;color:#e7ca92;margin:0;line-height:1.3}
+#aeternalis-atlas .ae-leaf-side h3 {font-size:15px;color:#dac69f;margin:7px 0 2px}
+#aeternalis-atlas .ae-leaf-side p {font:12px/1.5 Georgia,serif;color:#bdad95;margin:0}
+#aeternalis-atlas .ae-leaf-side label {display:block;font:11px Georgia,serif;color:#d9c69e;margin-bottom:3px}
+#aeternalis-atlas .ae-leaf-side select, #aeternalis-atlas .ae-leaf-side input,#aeternalis-atlas .ae-leaf-side textarea {display:block;box-sizing:border-box;width:100%;color:#f1e6d0;background:#342d29;border:1px solid #7e6346;border-radius:4px;font:13px Georgia,serif;padding:7px;min-width:0}
+#aeternalis-atlas .ae-leaf-side select option{background:#302a27;color:#eee}
+#aeternalis-atlas .ae-leaf-side input[type="checkbox"] {width:auto;display:inline}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-two {display:grid;grid-template-columns:1fr 1fr;gap:8px}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-row {display:flex;flex-wrap:wrap;gap:7px}
+#aeternalis-atlas .ae-leaf-side button {background:#59442e;color:#f1dfb9;border:1px solid #a78c66;border-radius:4px;padding:8px 10px;font:600 12px Georgia,serif;cursor:pointer}
+#aeternalis-atlas .ae-leaf-side button:hover{background:#755839}
+#aeternalis-atlas .ae-leaf-side button:disabled{opacity:.42;cursor:not-allowed}
+#aeternalis-atlas .ae-leaf-side code {color:#e9d4ab;font-size:12px}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-note {background:#292727;border-left:3px solid #9c7c4c;padding:9px;font:12px/1.5 Georgia,serif;white-space:pre-line}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-details {display:flex;flex-direction:column;gap:7px}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-divider {border-top:1px solid #6b5840;margin:4px 0}
+#aeternalis-atlas .ae-leaf-side small{font-size:10px;color:#b7a487}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-citation {color:#d1b78e}
+#aeternalis-atlas .ae-atlas__footer {flex-shrink:0;position:relative;z-index:800}
+#aeternalis-atlas .ae-atlas__results {z-index:1100}
+#aeternalis-atlas .ae-atlas__modal-backdrop{z-index:2147482600!important}
+#aeternalis-atlas .ae-leaf-status-err {color:#ffd7b9;background:#4e2927;border:1px solid #b0604f;padding:9px}
+@media(max-width:850px){
+ #aeternalis-atlas .ae-atlas__toolbar{flex-wrap:wrap;padding:8px;gap:6px}
+ #aeternalis-atlas .ae-leaf-toolbar-actions{order:3;width:100%}
+ #aeternalis-atlas .ae-leaf-side {top:7px;right:7px;max-height:75%;padding:11px}
+ #aeternalis-atlas .ae-leaf-pin-label{font-size:10px}
+ #aeternalis-atlas .ae-atlas__footer{font-size:9px}
+}
+@media(max-width:530px){
+ #aeternalis-atlas .ae-atlas__toolbar .ae-atlas__brand{display:none}
+ #aeternalis-atlas .ae-leaf-toolbar-actions button{padding:6px 8px;font-size:10px}
+ #aeternalis-atlas .ae-leaf-badge{bottom:6px;left:6px;max-width:calc(100% - 22px);font-size:10px}
+ #aeternalis-atlas .ae-leaf-side{max-height:80%}
+ #aeternalis-atlas .ae-atlas__footer .ae-atlas__legend{display:none}
+}
+
+/* ATLAS v1.2 — símbolos de jerarquía y herramientas de precisión */
+#aeternalis-atlas .ae-leaf-pin-dot{font-size:11px;font-weight:bold;border-width:1px;line-height:1}
+#aeternalis-atlas .ae-leaf-type--capital .ae-leaf-pin-dot{background:#3c2917;border-color:#f4d48f;color:#f4cf6c;font-size:17px;box-shadow:0 0 0 2px #1b1715,0 0 6px #e6ac57}
+#aeternalis-atlas .ae-leaf-type--ciudad .ae-leaf-pin-dot{background:#372921;border-color:#d6ab76;color:#eaa887;font-size:11px}
+#aeternalis-atlas .ae-leaf-type--pueblo .ae-leaf-pin-dot{background:#1f3030;border-color:#8dd9ce;color:#93e8df;font-size:10px}
+#aeternalis-atlas .ae-leaf-type--especial .ae-leaf-pin-dot{background:#2d243c;border-color:#c4afe8;color:#d3b9ff;font-size:13px}
+#aeternalis-atlas .ae-leaf-type--por_verificar .ae-leaf-pin-dot{background:#46251d;border-color:#e2a375;color:#f5c49c;font-size:10px}
+#aeternalis-atlas .ae-region-vertex{background:transparent;border:0}
+#aeternalis-atlas .ae-region-vertex-dot{width:20px;height:20px;display:grid;place-items:center;line-height:1;border-radius:5px;background:#f2d3a1;color:#342315;border:2px solid #543523;box-shadow:0 1px 8px #000a;font:700 10px Georgia,serif;cursor:move;user-select:none}
+#aeternalis-atlas .ae-region-vertex-dot:hover{background:#fff0b6;transform:scale(1.15)}
+
+
+/* ==================== AETERNALIS ATLAS LEAFLET v1.3 ====================
+   Red de caminos propuesta: estados y panel de validacion.
+   Selectores exclusivos del Atlas. CSS fuera del JS, alojado en h5-supermapa2-0.
+===================================================================== */
+#aeternalis-atlas .ae-leaf-side .ae-route-filter{display:flex;align-items:center;gap:8px;padding:10px 11px;margin:12px 0;border:1px solid #766247;background:rgba(200,168,103,.10);color:#f2ddad;font-size:12px;line-height:1.4;cursor:pointer}
+#aeternalis-atlas .ae-leaf-side .ae-route-filter input{width:16px;height:16px;accent-color:#e2ba78;flex:none}
+#aeternalis-atlas .ae-leaf-route-caution{margin:10px 0;padding:9px 11px;border-left:3px solid #d4a45c;background:rgba(176,111,41,.16);color:#f4d3a0;font-weight:600;font-size:12px;line-height:1.45}
+#aeternalis-atlas #ae-edge-detail{line-height:1.6;overflow-wrap:anywhere;color:#dfccad}
+#aeternalis-atlas #ae-edge-detail strong{color:#edc483}
+#aeternalis-atlas #ae-edge-count{display:block;margin:14px 0;color:#d2b88c;font:500 11px/1.4 Georgia,serif}
+#aeternalis-atlas #ae-edge-selected{width:100%;max-width:100%;font-size:12px}
+#aeternalis-atlas #ae-route-result{max-height:39vh;overflow:auto;scrollbar-width:thin}
+#aeternalis-atlas #ae-route-result .ae-leaf-note{font-size:12px;line-height:1.65}
+#aeternalis-atlas .ae-leaf-side h3{margin-top:16px;margin-bottom:8px}
+#aeternalis-atlas .ae-leaf-side button:focus-visible{outline:2px solid #efd49a;outline-offset:2px}
+@media(max-width:650px){#aeternalis-atlas #ae-route-result{max-height:34vh}}
+
+/* === AE-ATLAS v1.6 : REWORK INTEGRAL DE INTERFAZ === */
+/* =======================================
+   SUPERMAPA 1.6 / NUEVA INTERFAZ
+   Todos los estilos están limitados a #aeternalis-atlas
+   ======================================= */
+#aeternalis-atlas .ae-atlas__toolbar{display:flex;align-items:center;gap:14px;padding:10px 20px;background:linear-gradient(112deg,#111319 0%,#231f20 57%,#1a1717 100%);border-bottom:1px solid rgba(201,169,114,.52);box-shadow:0 3px 22px #000a;min-height:75px;box-sizing:border-box}
+#aeternalis-atlas .ae-atlas__toolbar .ae-atlas__brand{flex:0 0 auto;min-width:145px}
+#aeternalis-atlas .ae-atlas__search-box{flex:1 1 220px;max-width:430px;min-width:145px}
+#aeternalis-atlas #ae-map-search{height:44px;border-radius:9px;background:#151619;border-color:#78634a;font:500 13px/1.4 system-ui,sans-serif}
+#aeternalis-atlas .ae-leaf-toolbar-actions{display:flex;align-items:center;gap:7px;flex:0 1 auto;flex-wrap:wrap}
+#aeternalis-atlas .ae-leaf-toolbar-actions button,#aeternalis-atlas .ae-atlas__buttons button,#aeternalis-atlas .ae-atlas__buttons a{min-height:40px;display:inline-flex;justify-content:center;align-items:center;gap:6px;padding:9px 13px;border:1px solid #857053;border-radius:8px;color:#e8d9bb;background:linear-gradient(180deg,#322b29,#242021);font:600 12px/1.2 system-ui,sans-serif;white-space:nowrap;box-sizing:border-box;transition:background .16s,box-shadow .16s,border-color .16s}
+#aeternalis-atlas .ae-leaf-toolbar-actions button[aria-pressed="true"]{background:linear-gradient(#685134,#463928);border-color:#cfab73;color:#fff0cd}
+#aeternalis-atlas .ae-leaf-toolbar-actions .ae-toolbar-primary{background:linear-gradient(145deg,#ad8147,#775531);border-color:#e2b77c;color:#171310;font-weight:800;box-shadow:inset 0 1px rgba(255,255,255,.12),0 1px 9px #0005}
+#aeternalis-atlas .ae-leaf-toolbar-actions .ae-toolbar-primary[aria-pressed="true"]{background:linear-gradient(#e1bc82,#a77f48);color:#211b16}
+#aeternalis-atlas .ae-leaf-toolbar-actions button:hover,#aeternalis-atlas .ae-atlas__buttons button:hover{border-color:#e6bf82;filter:brightness(1.10)}
+#aeternalis-atlas .ae-cartographer-only[hidden]{display:none!important}
+#aeternalis-atlas .ae-atlas__footer{padding:7px 16px;background:linear-gradient(90deg,#211d1e,#17181b);border-top:1px solid #6e563b;gap:10px;color:#b7a993}
+#aeternalis-atlas .ae-leaf-badge{border-radius:8px;max-width:min(420px,calc(100% - 18px));background:#14181edf;border-color:#a9895d;font-size:11px}
+/* Evitar que el contenedor flex reduzca las fichas y superponga botones sobre el informe. */
+#aeternalis-atlas .ae-leaf-side > *{flex-shrink:0}
+/* PANEL DE EXPEDICIÓN */
+#aeternalis-atlas .ae-leaf-side{width:min(530px,calc(100% - 28px));min-width:0;box-sizing:border-box;top:15px;right:16px;max-height:calc(100% - 29px);padding:0 0 18px;gap:0;overflow-y:auto;overflow-x:hidden;border:1px solid #a08151;border-radius:13px;background:linear-gradient(165deg,#242126fa,#191a1efa 72%,#16191dfa);box-shadow:0 15px 45px #000c,0 0 0 1px #f3d09a15,inset 0 1px #f3d09a1a;scrollbar-color:#7e6245 #242125;scrollbar-width:thin}
+#aeternalis-atlas .ae-leaf-side > :not(.ae-route-head):not(.ae-route-form):not(.ae-route-output):not(.ae-route-footer-actions):not(.ae-route-method){margin-left:20px;margin-right:20px}
+#aeternalis-atlas .ae-route-head{position:relative;display:flex;justify-content:space-between;align-items:start;gap:10px;background:linear-gradient(140deg,#3d3028,#282124 70%,#252128);padding:19px 20px 17px;border-bottom:1px solid #816747;box-shadow:inset 0 1px #ffe3af24}
+#aeternalis-atlas .ae-route-kicker{display:block;color:#dfb980;letter-spacing:.17em;font:700 10px/1.3 system-ui,sans-serif;margin-bottom:6px}
+#aeternalis-atlas .ae-route-head h2{font:600 clamp(20px,2vw,25px)/1.12 Georgia,serif;color:#f3dfbd;margin:0}
+#aeternalis-atlas .ae-route-head p{font:12px/1.45 system-ui,sans-serif;color:#c6b59a;margin-top:8px}
+#aeternalis-atlas .ae-route-close{flex:0 0 38px;min-height:38px;border-radius:9px;background:#231f21;color:#f1dabb;border-color:#8b7152;font-size:16px}
+#aeternalis-atlas .ae-route-form{padding:17px 20px 15px;display:flex;flex-direction:column;gap:13px;background:linear-gradient(#2b2525aa,transparent);border-bottom:1px solid #77634e55}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;min-width:0}
+#aeternalis-atlas .ae-leaf-side .ae-leaf-two > div{min-width:0}
+#aeternalis-atlas .ae-leaf-side label{font:700 11px/1.4 system-ui,sans-serif;color:#d6bc91;letter-spacing:.025em;margin:0 0 6px}
+#aeternalis-atlas .ae-leaf-side select,#aeternalis-atlas .ae-leaf-side input:not([type="checkbox"]){height:45px;min-height:45px;width:100%;max-width:100%;min-width:0;padding:9px 12px;border:1px solid #8c7053;border-radius:8px;color:#f0e7d8;background:#282629;font:500 13px/1.25 system-ui,sans-serif;box-shadow:inset 0 1px 4px #0007}
+#aeternalis-atlas .ae-leaf-side select:focus-visible,#aeternalis-atlas .ae-leaf-side input:focus-visible{outline:2px solid #e8bd7e;outline-offset:2px}
+#aeternalis-atlas .ae-leaf-side select option{background:#242429;color:#f0e2ce}
+#aeternalis-atlas .ae-route-mode-field{min-width:0}
+#aeternalis-atlas .ae-route-form .ae-route-filter{display:flex;gap:10px;align-items:start;padding:12px 13px;border:1px solid #78664e;border-radius:9px;background:#bba07111;color:#e7d5b4;margin:0;line-height:1.5;cursor:pointer}
+#aeternalis-atlas .ae-route-form .ae-route-filter input{flex:0 0 18px;width:18px;height:18px;margin:2px 0 0;accent-color:#dcad6d}
+#aeternalis-atlas .ae-route-filter span{display:flex;flex-direction:column;gap:3px}
+#aeternalis-atlas .ae-route-filter strong{font:700 12px/1.3 system-ui,sans-serif;color:#e6d3b4}
+#aeternalis-atlas .ae-route-filter small{font:11px/1.4 system-ui,sans-serif;color:#ad9e89}
+#aeternalis-atlas .ae-route-actions{display:grid;grid-template-columns:minmax(0,1fr) 134px;gap:10px}
+#aeternalis-atlas .ae-leaf-side button{min-height:40px;padding:9px 13px;border-radius:8px;font:700 12px/1.3 system-ui,sans-serif;border-color:#8c6d4b}
+#aeternalis-atlas .ae-route-actions button{min-height:45px;display:flex;align-items:center;justify-content:center;gap:5px}
+#aeternalis-atlas .ae-route-actions .ae-button-main{background:linear-gradient(#c7a06a,#87603b);border-color:#e7c38e;color:#191512;font-weight:800;font-size:13px}
+#aeternalis-atlas .ae-route-actions .ae-button-main:hover{background:linear-gradient(#dfba85,#9c7448)}
+#aeternalis-atlas .ae-route-output{min-height:175px;max-height:none;overflow:visible;padding:17px 20px;color:#ede0c9}
+#aeternalis-atlas #ae-route-result{max-height:none;overflow:visible}
+#aeternalis-atlas .ae-route-empty{border:1px dashed #8c724b;border-radius:10px;padding:23px 18px;color:#dac8ac;text-align:center;background:#ae845110}
+#aeternalis-atlas .ae-route-empty strong{display:block;font:600 19px/1.3 Georgia,serif;color:#f3d7a3}
+#aeternalis-atlas .ae-route-empty p{font:12px/1.55 system-ui,sans-serif;margin:8px auto 0;max-width:345px}
+#aeternalis-atlas .ae-route-summary{border:1px solid #a08358;border-radius:12px;overflow:hidden;background:linear-gradient(160deg,#3d3229,#292528 55%,#24252a);box-shadow:0 8px 19px #0006}
+#aeternalis-atlas .ae-route-overline{font:700 10px/1.5 system-ui,sans-serif;letter-spacing:.13em;color:#d9b886;padding:13px 16px 4px}
+#aeternalis-atlas .ae-route-destinations{display:flex;align-items:center;flex-wrap:wrap;gap:6px;padding:4px 16px 13px;font:700 17px/1.3 Georgia,serif;color:#f3e6d2;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-route-destinations span{min-width:0}
+#aeternalis-atlas .ae-route-destinations .ae-route-separator{color:#ddbd80}
+#aeternalis-atlas .ae-route-time{background:#15171999;padding:15px 16px;display:flex;flex-direction:column;gap:6px;border-top:1px solid #a083574f;border-bottom:1px solid #a083574f}
+#aeternalis-atlas .ae-route-time-label{font:600 11px/1.3 system-ui,sans-serif;color:#b8aa96;text-transform:uppercase;letter-spacing:.06em}
+#aeternalis-atlas .ae-route-time strong{font:700 clamp(19px,2.1vw,25px)/1.17 Georgia,serif;color:#ffe0a3;font-variant-numeric:tabular-nums}
+#aeternalis-atlas .ae-route-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:12px 8px;gap:4px}
+#aeternalis-atlas .ae-route-metrics > div{display:flex;align-items:center;flex-direction:column;gap:2px;border-right:1px solid #f5ddb91e}
+#aeternalis-atlas .ae-route-metrics > div:last-child{border-right:0}
+#aeternalis-atlas .ae-route-metrics strong{font:700 21px/1.2 Georgia,serif;color:#f0c990;font-variant-numeric:tabular-nums}
+#aeternalis-atlas .ae-route-metrics span{font:600 10px/1.2 system-ui,sans-serif;color:#b5a795}
+#aeternalis-atlas .ae-route-state{padding:8px 12px;text-align:center;border-top:1px solid #ad926744;background:#5b735021;color:#c9e4b0;font:700 11px/1.4 system-ui,sans-serif}
+#aeternalis-atlas .ae-route-state--warning{background:#8c632229;color:#f0ca8e}
+#aeternalis-atlas .ae-route-stages{margin-top:17px}
+#aeternalis-atlas .ae-route-stages h3{font:600 19px/1.25 Georgia,serif;color:#f1d4a1;margin:0 0 13px;border-bottom:1px solid #91745155;padding:0 0 9px}
+#aeternalis-atlas .ae-route-stage-list{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+#aeternalis-atlas .ae-route-stage{display:grid;grid-template-columns:28px minmax(0,1fr);gap:9px;align-items:start;border:1px solid #75634d77;background:#30303599;padding:12px 10px;border-radius:10px}
+#aeternalis-atlas .ae-route-stage-index{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#a98251;color:#181413;font:800 12px/1 system-ui,sans-serif}
+#aeternalis-atlas .ae-route-stage-title{font:700 14px/1.3 Georgia,serif;color:#f0dfc1;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-route-stage-title span{color:#d0a975}
+#aeternalis-atlas .ae-route-stage-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin-top:8px}
+#aeternalis-atlas .ae-route-stage-meta span{font:500 11px/1.25 system-ui,sans-serif;color:#c6b9a5}
+#aeternalis-atlas .ae-route-stage-meta strong{font:700 12px/1.25 system-ui,sans-serif;color:#f4d092}
+#aeternalis-atlas .ae-route-stage-details{font:11px/1.55 system-ui,sans-serif;color:#aea99c;margin-top:6px}
+#aeternalis-atlas .ae-stage-penalty{display:inline-block;margin-left:4px;color:#d3b182;font-weight:700}
+#aeternalis-atlas .ae-stage-proposed{display:inline-block;background:#6e512b;color:#ffdbab;border-radius:5px;padding:2px 5px;margin-left:5px;font-weight:700}
+#aeternalis-atlas .ae-route-disclaimer{margin-top:14px;padding:12px;border-left:3px solid #a8895f;background:#997a4411;font:11px/1.65 system-ui,sans-serif;color:#c4b8a3}
+#aeternalis-atlas .ae-route-air-note{padding:12px 14px;border:1px solid #7a6954;border-radius:8px;background:#3a3344;font:12px/1.6 system-ui,sans-serif;color:#e4d4c6}
+#aeternalis-atlas .ae-route-footer-actions{padding:2px 20px 15px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:9px}
+#aeternalis-atlas .ae-route-footer-actions button{min-height:42px;white-space:normal}
+#aeternalis-atlas .ae-route-footer-actions button:first-child{border-color:#b49770;background:#493b32}
+#aeternalis-atlas .ae-route-method{margin:0 20px 8px;padding:12px 14px;border:1px solid #806d5080;border-radius:9px;background:#14171a77;color:#d5c2a8}
+#aeternalis-atlas .ae-route-method summary{font:700 12px/1.5 system-ui,sans-serif;cursor:pointer;color:#e3c99f}
+#aeternalis-atlas .ae-route-method p{font:11px/1.65 system-ui,sans-serif;color:#c4b4a0;margin-top:8px}
+/* Aeternalis v1.7 · Sigilos de hierro, bronce y pergamino envejecido.
+   Tamaños discretos: capital 23 px; ciudad 19 px; pueblo 15 px; enclaves 18-20 px.
+   Todos los estilos están aislados en #aeternalis-atlas. */
+#aeternalis-atlas .ae-map-marker{background:transparent!important;border:0!important;overflow:visible!important}
+#aeternalis-atlas .ae-map-marker .ae-leaf-pin-wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;width:1px;overflow:visible;transform:translate(-50%,-50%);filter:drop-shadow(0 1px 2px #030303be)}
+#aeternalis-atlas .ae-map-marker .ae-marker-medallion{
+ --ae-pin-size:19px;--ae-pin-tilt:0deg;
+ box-sizing:border-box;position:relative;display:grid;place-items:center;
+ width:var(--ae-pin-size);height:var(--ae-pin-size);min-width:var(--ae-pin-size);min-height:var(--ae-pin-size);
+ padding:1px;border:1px solid #78644b;border-radius:3px;
+ background:radial-gradient(ellipse at 38% 27%,#3b3228,#1c1a19 69%,#101112);
+ color:#bca889;line-height:1;box-shadow:inset 0 0 0 1px #08090a88,0 1px 2px #000b;
+ transform:rotate(var(--ae-pin-tilt));transition:transform .14s ease,border-color .14s ease;
+}
+/* Áreas de pulsación generosas, aunque la pieza sea pequeña. */
+#aeternalis-atlas .ae-map-marker .ae-marker-medallion::before{content:'';position:absolute;inset:-5px;background:transparent}
+#aeternalis-atlas .ae-map-marker .ae-marker-medallion svg{
+ box-sizing:border-box;width:calc(var(--ae-pin-size) * .64);height:calc(var(--ae-pin-size) * .64);
+ display:block;color:inherit;stroke:currentColor;transform:rotate(calc(-1 * var(--ae-pin-tilt)));
+ filter:drop-shadow(0 1px 0 #060708);pointer-events:none;max-width:none;max-height:none;
+}
+#aeternalis-atlas .ae-map-marker:hover .ae-marker-medallion,
+#aeternalis-atlas .ae-map-marker:focus .ae-marker-medallion{transform:rotate(var(--ae-pin-tilt)) scale(1.10);border-color:#b19a72;z-index:5;box-shadow:inset 0 0 0 1px #08090a88,0 1px 3px #000e}
+#aeternalis-atlas .ae-map-marker .ae-leaf-pin-label{
+ margin-top:3px;max-width:150px;width:max-content;min-width:max-content;
+ padding:3px 6px;background:#181512ee;border:1px solid #66543d;border-radius:3px;
+ font:600 10px/1.25 Georgia,'Times New Roman',serif;color:#cdbda2;
+ text-shadow:0 1px 1px #050505;text-align:center;white-space:normal;pointer-events:none;
+}
+/* Jerarquía cartográfica legible sin medallones luminosos */
+#aeternalis-atlas .ae-marker--capital .ae-marker-medallion{
+ --ae-pin-size:23px;--ae-pin-tilt:45deg;border-color:#97784b;color:#d4b47c;
+ background:radial-gradient(circle at 38% 27%,#51412e,#29241e 63%,#151412);
+ border-radius:2px;
+}
+#aeternalis-atlas .ae-marker--city .ae-marker-medallion{
+ --ae-pin-size:19px;color:#b6a17f;border-color:#776348;border-radius:3px;
+ background:linear-gradient(135deg,#35312b,#171818);
+}
+#aeternalis-atlas .ae-marker--village .ae-marker-medallion{
+ --ae-pin-size:15px;color:#a49679;border-color:#6e634f;border-radius:50%;
+ background:linear-gradient(#302e29,#191b1a);
+}
+#aeternalis-atlas .ae-marker--special .ae-marker-medallion{
+ --ae-pin-size:18px;--ae-pin-tilt:45deg;border-color:#7c6346;color:#ab8e6b;
+ background:linear-gradient(#352c25,#171819);
+}
+/* Colores muy contenidos: identidades diferentes, mismo universo fantástico. */
+#aeternalis-atlas .ae-leaf-pin--nordic .ae-marker-medallion{border-color:#596570;color:#a3a8a7}
+#aeternalis-atlas .ae-leaf-pin--dwarf .ae-marker-medallion{border-color:#836a48;color:#c1aa80}
+#aeternalis-atlas .ae-leaf-pin--human .ae-marker-medallion{border-color:#7c5d4a;color:#c0a388}
+#aeternalis-atlas .ae-leaf-pin--elf .ae-marker-medallion{border-color:#52664b;color:#a6ae89}
+#aeternalis-atlas .ae-leaf-pin--pirate .ae-marker-medallion{border-color:#70504d;color:#b39887}
+/* Capitales, por encima del color de facción, conservan bronce envejecido. */
+#aeternalis-atlas .ae-marker--capital .ae-marker-medallion{border-color:#97784b;color:#d4b47c}
+/* Los lugares singulares conservan glifos propios y discretas pátinas. */
+#aeternalis-atlas .ae-marker--golden-halls .ae-marker-medallion,
+#aeternalis-atlas .ae-marker--magic-academy .ae-marker-medallion{
+ --ae-pin-size:21px;border-color:#8b744c;color:#c4ac76;
+ background:linear-gradient(160deg,#373027,#1b191a);
+}
+#aeternalis-atlas .ae-marker--white-tower .ae-marker-medallion{
+ --ae-pin-size:21px;background:linear-gradient(160deg,#363a3b,#1c1e21);border-color:#85847b;color:#c7c3b5;
+}
+#aeternalis-atlas .ae-marker--labyrinth .ae-marker-medallion{
+ --ae-pin-size:20px;--ae-pin-tilt:45deg;background:linear-gradient(145deg,#332a37,#18181e);border-color:#6d5b6c;color:#b6a2aa;
+}
+#aeternalis-atlas .ae-marker--cave .ae-marker-medallion{
+ --ae-pin-size:19px;background:#232321;border-color:#65594b;color:#ac9d83;
+}
+#aeternalis-atlas .ae-marker--port .ae-marker-medallion{
+ --ae-pin-size:19px;background:#1c292c;border-color:#486669;color:#9aafac;
+}
+#aeternalis-atlas .ae-marker--fortress .ae-marker-medallion,
+#aeternalis-atlas .ae-marker--watchtower .ae-marker-medallion{
+ --ae-pin-size:20px;background:#262322;border-color:#78644e;color:#b7a68d;
+}
+#aeternalis-atlas .ae-marker--sanctuary .ae-marker-medallion{
+ --ae-pin-size:19px;background:#2b2426;border-color:#795b59;color:#c0a29a;
+}
+#aeternalis-atlas .ae-marker--ruins .ae-marker-medallion{
+ --ae-pin-size:17px;background:#232323;border-color:#625951;color:#a8a093;
+}
+/* Los puntos no clasificados parecen enclaves normales, sin interrogaciones.
+   La clasificación de datos permanece sin confirmar; solo cambia la imagen. */
+#aeternalis-atlas .ae-marker--provisional .ae-marker-medallion{opacity:.94}
+@media(max-width:620px){
+ #aeternalis-atlas .ae-map-marker .ae-leaf-pin-label{max-width:112px;font-size:9px}
+}
+/* Marcadores de la ruta calculada */
+#aeternalis-atlas .ae-route-stop-marker{background:none!important;border:0!important}
+#aeternalis-atlas .ae-route-stop-marker span{display:grid;place-items:center;width:22px;height:22px;border:1px solid #bca77f;border-radius:50%;background:#171e29;color:#f9e5bf;box-shadow:0 0 0 2px #0a0c0d,0 1px 4px #050505;font:700 10px/1 Georgia,serif}
+#aeternalis-atlas .ae-route-stop--start span{background:#206b47;color:#edffea}
+#aeternalis-atlas .ae-route-stop--end span{background:#8e392f;color:#fff0e9}
+/* Leyenda */
+#aeternalis-atlas .ae-map-legend-panel{box-sizing:border-box;position:absolute;top:15px;left:15px;z-index:805;width:min(330px,calc(100% - 30px));padding:16px;border:1px solid #a28862;border-radius:12px;background:#1d1e21f5;box-shadow:0 12px 40px #000b;color:#e9dcc5}
+#aeternalis-atlas .ae-map-legend-panel[hidden]{display:none!important}
+#aeternalis-atlas .ae-legend-title{display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 20px/1.2 Georgia,serif;color:#f1d4a2;border-bottom:1px solid #977b564f;padding-bottom:10px}
+#aeternalis-atlas .ae-legend-title button{border:1px solid #7e654a;border-radius:6px;color:#f2d9b2;background:#332c29;width:32px;height:32px}
+#aeternalis-atlas .ae-legend-entries{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:13px;font:500 12px/1.3 system-ui,sans-serif}
+#aeternalis-atlas .ae-legend-entries span{display:flex;align-items:center;gap:5px;min-width:0}
+#aeternalis-atlas .ae-legend-stroke{width:22px;display:inline-block;border-top:3px dashed #c5a46b}
+#aeternalis-atlas .ae-legend-sea{border-color:#5cbdd0}
+#aeternalis-atlas .ae-legend-trail{border-color:#b1a48b}
+#aeternalis-atlas .ae-legend-selected{border-style:solid;border-color:#ffe293;border-top-width:4px}
+#aeternalis-atlas .ae-map-legend-panel p{margin:12px 0 0;font:11px/1.5 system-ui,sans-serif;color:#c6baa9}
+/* Tablillas: texto original intacto, lectura más organizada */
+#aeternalis-atlas .ae-atlas__dialog{border-color:#c9a674;border-radius:14px;background:linear-gradient(125deg,#242123,#181a1d);box-shadow:0 20px 65px #000d}
+#aeternalis-atlas .ae-atlas__modal-article{background:linear-gradient(#2b2524,#201f22);color:#ecdfca;overflow-wrap:anywhere}
+#aeternalis-atlas .ae-atlas__modal-aside{background:linear-gradient(#211e1d,#151719)}
+#aeternalis-atlas .ae-atlas__modal-article h2{color:#f3dfbc}
+#aeternalis-atlas .ae-atlas__civic-tabs{display:flex;flex-wrap:wrap;gap:7px;overflow-x:visible;padding:0 0 13px;margin:19px 0 18px}
+#aeternalis-atlas .ae-atlas__civic-tabs button{flex:0 0 auto;min-height:41px;padding:9px 13px;border:1px solid #847056;border-radius:8px;font:700 11px/1.25 system-ui,sans-serif;white-space:normal;max-width:180px}
+#aeternalis-atlas .ae-atlas__civic-tabs button[aria-selected="true"]{background:linear-gradient(#916d43,#5f462e);color:#fff4d9;border-color:#ebbd82;box-shadow:inset 0 1px #fff2d52a}
+#aeternalis-atlas .ae-atlas__civic-panel{line-height:1.72}
+#aeternalis-atlas .ae-atlas__prose p{line-height:1.76;margin-bottom:1em;white-space:pre-wrap}
+#aeternalis-atlas .ae-atlas__civic-facts{gap:10px}
+#aeternalis-atlas .ae-atlas__metric{border-radius:9px;min-height:78px;box-sizing:border-box}
+#aeternalis-atlas .ae-atlas__metric-bar{border-radius:5px}
+#aeternalis-atlas .ae-atlas__connection-list{display:grid;grid-template-columns:1fr;gap:9px;margin-top:12px}
