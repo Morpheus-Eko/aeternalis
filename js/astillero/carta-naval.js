@@ -1,7 +1,6 @@
-/* AETERNALIS · Carta Náutica v1.0
- * Carta de TRABAJO: utiliza las posiciones públicas del Atlas, NO sus rutas terrestres.
- * No calcula trayectos navegables, distancias reales ni rutas automáticas.
- * El trazado libre y la retícula son ilustrativos; la cantidad de hexágonos es manual.
+/* AETERNALIS · Carta Náutica v1.1
+ * Coordenadas vinculadas al Atlas, sin reutilizar caminos terrestres.
+ * Editor de recorridos por puntos y recuento manual de hexágonos.
  * JS independiente, CSS en css/carta-naval.css. */
 (function () {
   'use strict';
@@ -31,11 +30,11 @@
   function option(value,label){var o=el('option','',label);o.value=value;return o;}
   function findPort(id){return state.ports.find(function(p){return p.id===id;})||null;}
   function hours(){return HRS[state.sails-1];}
-  function json(path){return fetch(BASE+path+'?v=1.0.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+' HTTP '+r.status);return r.json();});}
+  function json(path){return fetch(BASE+path+'?v=1.1.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+' HTTP '+r.status);return r.json();});}
   function clearPath(){state.waypoints=[];state.draft=false;state.drawMode=false;}
   function choose(id,role) {
     var port=findPort(id);
-    if(id && (!port || !port.endpoint)){state.notice='Este marcador es una referencia costera y no tiene embarque confirmado.';render();return;}
+    if(id && (!port || !port.endpoint)){state.notice='Selecciona un puerto o bahía para iniciar tu recorrido.';render();return;}
     if(role==='from') {
       state.from=id;
       if(id && id===state.to)state.to='';
@@ -47,7 +46,7 @@
     state.notice='';
     render();
   }
-  function portLabel(p){return p.name+' · '+(p.role==='faro'?'Faro':p.role==='bahia'?'Bahía':p.role==='astillero'?'Astillero':p.role==='costa'?'Costa':'Puerto')+(p.coordinateStatus==='provisional'?' (ubicación provisional)':'');}
+  function portLabel(p){return p.name+' · '+(p.role==='faro'?'Faro':p.role==='bahia'?'Bahía':p.role==='astillero'?'Astillero':p.role==='costa'?'Costa':'Puerto');}
   function gridPath(){
     if(gridData)return gridData;
     var W=state.mapWidth,H=state.mapHeight,r=62,dx=Math.sqrt(3)*r,dy=1.5*r,parts=[];
@@ -130,12 +129,12 @@
     });
     if(state.drawMode&&state.from&&state.to){
       stage.classList.add('is-drawing');
-      var hint=el('span','ae-cn-draw-hint','Haz clic en el mapa para añadir puntos de paso (sin validar tierra/agua)');
+      var hint=el('span','ae-cn-draw-hint','Haz clic en la carta para añadir puntos de paso');
       stage.appendChild(hint);
     }
     scroll.appendChild(stage);
     var foot=el('div','ae-cn-map-legend');
-    [['ae-cn-key is-from','Salida'],['ae-cn-key is-to','Destino'],['ae-cn-key is-reference','Faro / referencia'],['ae-cn-key is-provisional','Localización provisional']].forEach(function(k){
+    [['ae-cn-key is-from','Salida'],['ae-cn-key is-to','Destino'],['ae-cn-key is-reference','Faro / referencia']].forEach(function(k){
       var item=el('span','ae-cn-legend-item');item.appendChild(el('span',k[0]));item.appendChild(el('span','',k[1]));foot.appendChild(item);
     });
     var wrapper=el('div','ae-cn-cartography');wrapper.appendChild(scroll);wrapper.appendChild(foot);
@@ -144,7 +143,7 @@
   function makeCalculation(){
     var box=el('div','ae-cn-calculation');
     var head=el('h3','','Bitácora de travesía');box.appendChild(head);
-    box.appendChild(el('p','ae-cn-info','El mapa no cuenta hexágonos ni comprueba mares navegables. Ingresa únicamente un recuento obtenido de la cartografía aprobada.'));
+    box.appendChild(el('p','ae-cn-info','Selecciona el nivel de Velas e indica los hexágonos de tu travesía.'));
     var row=el('div','ae-cn-calculation-grid');
     var sailWrap=el('label','ae-cn-field');
     sailWrap.appendChild(el('span','ae-cn-label',state.synced?'Velas · sincronizadas con el Astillero':'Nivel de Velas'));
@@ -152,16 +151,16 @@
     [['1','I · 24 h/hex'],['2','II · 18 h/hex'],['3','III · 12 h/hex'],['4','Legendarias · 8 h/hex']].forEach(function(pair){sail.appendChild(option(pair[0],pair[1]));});
     sail.value=String(state.sails);sailWrap.appendChild(sail);row.appendChild(sailWrap);
     var hxWrap=el('label','ae-cn-field');
-    hxWrap.appendChild(el('span','ae-cn-label','Hexágonos (ingreso manual)'));
-    var hx=el('input','ae-cn-input');hx.type='number';hx.inputMode='numeric';hx.min='1';hx.max='999';hx.step='1';hx.placeholder='Sin recuento validado';
+    hxWrap.appendChild(el('span','ae-cn-label','Distancia en hexágonos'));
+    var hx=el('input','ae-cn-input');hx.type='number';hx.inputMode='numeric';hx.min='1';hx.max='999';hx.step='1';hx.placeholder='Número de hexágonos';
     hx.value=String(state.hexes);hx.dataset.action='hexes';
     hxWrap.appendChild(hx);row.appendChild(hxWrap);box.appendChild(row);
     var num=Number(state.hexes),valid=state.hexes!==''&&Number.isInteger(num)&&num>=1&&num<=999;
     var total=valid?num*hours():null;
     var output=el('div','ae-cn-calculation-result');
     output.appendChild(el('span','ae-cn-kicker','DURACIÓN BASE SEGÚN REGLAMENTO'));
-    output.appendChild(el('strong','',valid?total.toLocaleString('es-CL')+' horas · '+(total/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días':'Pendiente de recuento'));
-    output.appendChild(el('small','',valid?'Cálculo hipotético a partir de '+num+' hexágonos introducidos manualmente.':'Selecciona un recuento de hexágonos para estimar la duración.'));
+    output.appendChild(el('strong','',valid?total.toLocaleString('es-CL')+' horas · '+(total/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días':'Introduce la distancia'));
+    output.appendChild(el('small','',valid?'Duración para '+num+' hexágono'+(num===1?'':'s')+' de navegación.':'Indica cuántos hexágonos recorrerá tu navío.'));
     box.appendChild(output);
     return box;
   }
@@ -175,41 +174,38 @@
     head.appendChild(img('assets/naval/navegacion/brujula_borde_soga.webp','ae-cn-header-icon',''));
     head.appendChild(el('span','ae-cn-kicker','ALMIRANTAZGO DE AETERNALIS · CARTOGRAFÍA'));
     head.appendChild(el('h2','','Carta Náutica'));
-    head.appendChild(el('p','', 'Puertos, bahías y referencias costeras vinculados al Atlas. Traza un boceto marítimo sin modificar el Supermapa.'));
-    head.appendChild(el('span','ae-cn-warning','CARTA PROVISIONAL · Los trazados no representan rutas seguras ni oficiales'));
+    head.appendChild(el('p','', 'Explora los puertos y bahías de Aeternalis, diseña tu recorrido y consulta los tiempos de navegación.'));
     page.appendChild(head);
     var layout=el('div','ae-cn-layout');
     var controls=el('aside','ae-cn-side');
     controls.appendChild(el('h3','','Puertos y escalas'));
-    controls.appendChild(el('p','ae-cn-info','Los nombres y coordenadas se consultan directamente desde el Atlas. Las ubicaciones provisionales están señaladas.'));
+    controls.appendChild(el('p','ae-cn-info','Elige el puerto de origen y el destino de tu travesía.'));
     controls.appendChild(makeSelect('from','Puerto de salida'));
     controls.appendChild(makeSelect('to','Puerto de destino'));
     var chosen=el('div','ae-cn-chosen');
-    if(state.from){var p=findPort(state.from);if(p)chosen.appendChild(el('p','','Salida: '+p.name+(p.coordinateStatus==='provisional'?' · posición provisional':'')));}
-    if(state.to){var p=findPort(state.to);if(p)chosen.appendChild(el('p','','Destino: '+p.name+(p.coordinateStatus==='provisional'?' · posición provisional':'')));}
-    if(!state.from||!state.to)chosen.appendChild(el('p','','Selecciona dos puntos de embarque para preparar un boceto.'));
+    if(state.from){var p=findPort(state.from);if(p)chosen.appendChild(el('p','','Salida: '+p.name));}
+    if(state.to){var p=findPort(state.to);if(p)chosen.appendChild(el('p','','Destino: '+p.name));}
+    if(!state.from||!state.to)chosen.appendChild(el('p','','Selecciona dos puntos de embarque para diseñar el recorrido.'));
     controls.appendChild(chosen);
     var drawWrap=el('div','ae-cn-trace-controls');
-    var draw=button(state.drawMode?'Terminar edición del boceto':state.draft?'Seguir añadiendo escalas':'Dibujar boceto manual','toggle-draw','ae-cn-primary');
+    var draw=button(state.drawMode?'Terminar edición':state.draft?'Seguir añadiendo escalas':'Trazar recorrido','toggle-draw','ae-cn-primary');
     draw.disabled=!(state.from&&state.to);
     drawWrap.appendChild(draw);
     if(state.waypoints.length){
       drawWrap.appendChild(button('Deshacer último punto','undo-point','ae-cn-secondary'));
-      drawWrap.appendChild(el('p','ae-cn-hint',state.waypoints.length+' punto(s) de paso anotado(s) a mano; no se comprueba si son mar o tierra.'));
+      drawWrap.appendChild(el('p','ae-cn-hint',state.waypoints.length+' punto(s) de paso en la carta.'));
     }
-    var clear=button('Borrar boceto','clear-draw','ae-cn-secondary');clear.disabled=!state.draft&&!state.waypoints.length;drawWrap.appendChild(clear);
+    var clear=button('Borrar recorrido','clear-draw','ae-cn-secondary');clear.disabled=!state.draft&&!state.waypoints.length;drawWrap.appendChild(clear);
     controls.appendChild(drawWrap);
     var gridLabel=el('label','ae-cn-toggle');
     var gridCheckbox=el('input','');gridCheckbox.type='checkbox';gridCheckbox.dataset.action='grid';gridCheckbox.checked=state.showGrid;gridLabel.appendChild(gridCheckbox);
-    gridLabel.appendChild(el('span','','Mostrar retícula hexagonal orientativa (NO canónica)'));controls.appendChild(gridLabel);
+    gridLabel.appendChild(el('span','','Mostrar retícula hexagonal'));controls.appendChild(gridLabel);
     controls.appendChild(makeCalculation());
-    controls.appendChild(el('p','ae-cn-small','Ningún cambio se guarda ni se atribuye a personajes. La Carta Náutica no mueve barcos del Supermapa.'));
     layout.appendChild(controls);layout.appendChild(renderMap());
     page.appendChild(layout);
     var footer=el('footer','ae-cn-footer');
-    footer.appendChild(el('strong','','Estado cartográfico'));
-    footer.appendChild(el('p','',state.cfg.notice));
-    footer.appendChild(el('p','','Los caminos terrestres del Atlas no se usan para navegar. Las líneas discontinuas son bocetos de usuario y pueden atravesar tierra; requieren revisión administrativa.'));
+    footer.appendChild(el('strong','','Bitácora del Almirantazgo'));
+    footer.appendChild(el('p','','Cada puerto guarda una historia. Traza tu rumbo y prepara la siguiente expedición.'));
     if(state.notice){var notice=el('p','ae-cn-live',state.notice);notice.setAttribute('role','status');footer.appendChild(notice);}
     page.appendChild(footer);ROOT.appendChild(page);ROOT.setAttribute('data-ae-carta','ready');
     var newScroll=ROOT.querySelector('.ae-cn-scroll');
@@ -234,17 +230,17 @@
       if(action==='pin'){
         var p=findPort(b.dataset.value);
         if(!p){return;}
-        if(!p.endpoint){state.notice=p.name+' es referencia costera; no se usa como punto de embarque.';render();return;}
+        if(!p.endpoint){state.notice=p.name+' es una referencia de navegación. Elige un puerto o bahía.';render();return;}
         if(!state.from||state.from===p.id){choose(p.id,'from');}
         else if(!state.to||state.to===p.id){choose(p.id,'to');}
         else {choose(p.id,'from');}
       } else if(action==='toggle-draw'){
         if(!state.from||!state.to)return;
         state.draft=true;state.drawMode=!state.drawMode;
-        state.notice=state.drawMode?'Boceto habilitado: haz clic sobre el mapa para añadir puntos de paso.':'Edición finalizada: el trazo sigue siendo provisional.';
+        state.notice=state.drawMode?'Selecciona los puntos de paso en la carta.':'Recorrido actualizado.';
         render();focusOn('toggle-draw');
       } else if(action==='clear-draw'){
-        clearPath();state.notice='Se ha borrado el boceto, sin alterar las ubicaciones de los puertos.';render();focusOn('clear-draw');
+        clearPath();state.notice='Recorrido borrado.';render();focusOn('clear-draw');
       } else if(action==='undo-point'){
         state.waypoints.pop();state.notice='Último punto de paso retirado.';render();focusOn('undo-point');
       }
@@ -257,7 +253,7 @@
     if(!box.width||!box.height)return;
     var x=Math.max(0,Math.min(state.mapWidth,(ev.clientX-box.left)/box.width*state.mapWidth));
     var y=Math.max(0,Math.min(state.mapHeight,(ev.clientY-box.top)/box.height*state.mapHeight));
-    state.waypoints.push({x:x,y:y});state.notice='Punto registrado en el boceto. No implica que el agua sea navegable.';
+    state.waypoints.push({x:x,y:y});state.notice='Punto de paso añadido al recorrido.';
     render();
   });
   function syncFromAstillero(obj){
@@ -288,7 +284,7 @@
         state.cfg=config;state.atlas=atlas;state.ports=points;
         state.mapWidth=Number(atlas.map.width)||2048;state.mapHeight=Number(atlas.map.height)||1571;
         render();
-        window.AeternalisCartaNaval={version:'1.0.0',getState:function(){return {from:state.from,to:state.to,sails:state.sails,hexes:state.hexes,waypoints:state.waypoints.slice(),draft:state.draft};}};
+        window.AeternalisCartaNaval={version:'1.1.0',getState:function(){return {from:state.from,to:state.to,sails:state.sails,hexes:state.hexes,waypoints:state.waypoints.slice(),draft:state.draft};}};
       });
     }).catch(function(error){
       ROOT.setAttribute('data-ae-carta','error');
