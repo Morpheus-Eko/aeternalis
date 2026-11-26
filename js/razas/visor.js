@@ -158,6 +158,7 @@
     var token = ++state.request;
     var index = state.races.indexOf(race);
     modal.style.setProperty('--ae-rv-accent', race.color);
+    modal.setAttribute('data-ae-race', race.id); // Solo capa ornamental del rework 2.1.
     modal.style.setProperty('--ae-rv-portrait-width', Math.max(250, Math.min(460, race.portraitWidth || 370)) + 'px');
     modal.querySelector('.ae-rv-banner').src = race.hero;
     modal.querySelector('#ae-rv-title').textContent = race.name;
