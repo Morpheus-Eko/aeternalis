@@ -38,3 +38,19 @@ https://morpheus-eko.github.io/aeternalis/cronologia-preview.html
 - Este commit modifica el repositorio GitHub. **No instala de forma automática en Foroactivo**.
 - Los documentos fuente y la versión anterior se conservan; los cambios son aditivos.
 - Para futuras correcciones de textos, editar `data/cronologia/eras/id.md`. El índice de pasajes se genera automáticamente a partir de encabezados `##`.
+
+## Rework ornamental 3.1 (26 de noviembre de 2026)
+
+**Alcance:** solo presentación gráfica, sin cambios en los cinco textos, el orden de eras, el índice, los enlaces de respaldo o la navegación. Se conserva el CSS original y se añade al final un bloque aislado con marcador `AETERNALIS_ORNAMENTOS_CRONOLOGIA_V3_1`, fácil de revertir.
+
+- **Directorio:** esquinas de bronce, cabecera con estrella y cinta, divisor de reloj de arena, marcos reforzados y sello detrás de cada icono histórico. Se mantienen los fondos y emblemas de las cinco eras.
+- **Lector:** cantoneras de bronce, esfera armilar como marca de agua tenue, plumas y ornamentos de esquina, capitulares y separadores del Gran Códex, manteniendo legibilidad del pergamino.
+- **Manifiesto:** los tres `separadores` y el `sello` ahora apuntan a `assets/codex/` (WebP transparentes publicados).
+- **Rendimiento:** se reutilizan recursos existentes; no se incorporan hojas de sprites pesadas ni scripts nuevos. Los estilos permanecen aislados bajo `#aec-cronologia` y `#aec-chronicle-overlay`.
+- **Responsive:** motivos pequeños en pantallas estrechas; animaciones respetan `prefers-reduced-motion`.
+
+**Actualización en Foroactivo:** el instalador en `foroactivo/JS_INSTALAR_CRONOLOGIA_V3.js` enlaza al cargador `?v=3.1.0` y este solicita `css/cronologia-v3.css?v=3.1.0`. Si Foroactivo conserva el instalador anterior pegado en su panel, hay que sustituir su línea de instalación (o actualizar el parámetro `v`) para evitar el CSS guardado en caché. No es preciso alterar HTML ni pegar CSS en h4/h5.
+
+**Previsualización:** https://morpheus-eko.github.io/aeternalis/cronologia-preview.html
+
+Los emblemas, cantoneras y sellos añadidos son *elementos de interfaz*, no declaraciones canónicas de heráldica o símbolos oficiales de las eras.
