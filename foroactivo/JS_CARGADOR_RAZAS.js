@@ -3,7 +3,7 @@
 (function () {
   'use strict';
   var BASE = 'https://morpheus-eko.github.io/aeternalis/';
-  var VERSION = '2.0.0';
+  var VERSION = '2.1.0';
   function install() {
     if (!document.getElementById('ae-races-codex')) return;
     if (!document.getElementById('ae-races-visor-css')) {
