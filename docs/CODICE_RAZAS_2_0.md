@@ -15,7 +15,7 @@ Las ocho razas abren una **ventana modal dentro del índice**, sin navegar a la 
 
 1. Mantener la publicación original del directorio que contiene `id="ae-races-codex"` y las ocho tarjetas `ae-race-card--*`; **no** borrar ni cambiar sus enlaces a la ficha antigua (sirven como respaldo).
 2. En el panel de administración, sección Módulos → Gestión de los códigos JavaScript, **desactivar el cargador de razas v1.2** (el que solo leía CSS desde `/hNUM-css-razas`) para evitar duplicaciones.
-3. Crear o sustituir el JS del directorio con el contenido íntegro de `foroactivo/JS_CARGADOR_RAZAS.js`. Puede ejecutarse en todas las páginas porque comprueba `#ae-races-codex` antes de cargar.
+3. Crear o sustituir el JS del directorio con el código de `foroactivo/JS_UNA_LINEA_INSTALACION.js`, que únicamente carga el archivo `foroactivo/JS_CARGADOR_RAZAS.js` desde GitHub Pages. Puede ejecutarse en todas las páginas porque el cargador comprueba `#ae-races-codex` antes de activar el visor.
 4. No pegar CSS nuevo en h4 ni h5, ni modificar el CSS general del foro. Los estilos del modal viven en GitHub.
 5. Probar el índice: clic en cada tarjeta, cierre por ×, Esc o fuera; navegación anterior/siguiente; teclas izquierda/derecha; índice superior; diseño móvil.
 

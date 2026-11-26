@@ -20,7 +20,7 @@ Los acantilados y las montañas En uno de los extremos de la isla, la costa se a
 
 Los valles fértiles Desde las alturas descienden ríos rápidos que riegan una sucesión de valles templados. En sus terrazas se cultivan arroz donde el agua y el clima lo permiten, cereales, hortalizas y árboles frutales. Las acequias son cuidadas como bienes estratégicos: la destrucción de una compuerta puede arruinar una cosecha y precipitar la hambruna en aldeas densamente pobladas. Aquí prosperan los cerezos —incluidos los ornamentales que tiñen de flores los caminos— y los santuarios que administran la memoria de linajes desaparecidos.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   2                                                            AETERNALIS / PROPUESTA DE LORE
+
 
 La península y los islotes Hacia el sector más marítimo, la isla se prolonga en una península recortada, rodeada por canales, ensenadas e islotes menores. Las aldeas se levantan sobre terrazas costeras y puertos protegidos; los habitantes conocen las corrientes, las mareas y los arrecifes mejor que cualquier cartógrafo extranjero. Los islotes forman parte del dominio del tercer clan y constituyen puestos de vigía, refugios de navegación, puertos secundarios y enclaves pesqueros.
 
@@ -36,7 +36,7 @@ La densidad demográfica explica parte de la resistencia histórica del pueblo. 
 
 Entre los Yugen existe una frase amarga: cuando la isla conoce una paz prolongada, sus hijos crecen demasiado numerosos; cuando llega la guerra, ya hay demasiadas razones para combatirla.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   3                                                               AETERNALIS / PROPUESTA DE LORE
+
 
 # Apariencia y Edad
 
@@ -50,7 +50,7 @@ Su vestimenta varía desde armaduras yoroi hasta prendas tradicionales como hanb
 
 La sociedad Yugen no constituye una aristocracia unificada bajo una sola corona. Se ordena mediante relaciones feudales: jefes de clan, señores de fortalezas y territorios, casas vasallas, guerreros hereditarios, comunidades aldeanas y gremios que deben
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   4                                                          AETERNALIS / PROPUESTA DE LORE
+
 
 servicios a quienes protegen sus tierras. La pertenencia a un linaje determina obligaciones, permisos, expectativas de conducta y oportunidades de ascenso.
 
@@ -66,7 +66,7 @@ La situación de los mestizos Los Yugen mantienen una idea severa de pertenencia
 
 Este desprecio no es una verdad sobre los mestizos, sino una institución social injusta y profundamente arraigada. La misma isla que desconfía de ellos puede terminar dependiendo de un marinero mestizo, de un diplomático criado entre dos culturas o de un guerrero cuya lealtad supera la de los nobles que lo humillan. Esa contradicción ofrece conflictos importantes entre tradición, necesidad y mérito.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   5                                                                AETERNALIS / PROPUESTA DE LORE
+
 
 ## La Senda del Acero Quieto
 
@@ -92,7 +92,7 @@ El Día del Último Recurso Una ceremonia solemne recuerda a los mártires de Ku
 
 El entrenamiento y los kitsune La preparación física y militar acompaña a muchos Yugen desde la infancia. En las escuelas se enseñan las armas, la postura, el control de la respiración, la atención al entorno y la disciplina de grupo. Los guerreros destacados también aprenden a montar kitsune: grandes animales vulpinos criados para desplazarse con agilidad por senderos de ladera, bosques y pasos estrechos. No son espíritus ni invocaciones; su cría y adiestramiento requieren paciencia, alimentación costosa y cuidadores especializados. La posesión de un buen kitsune constituye motivo de prestigio y una ventaja táctica para mensajeros, exploradores y determinadas compañías de caballería ligera.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   10                                                           AETERNALIS / PROPUESTA DE LORE
+
 
 # División Política
 
@@ -116,7 +116,7 @@ Los Yugen reconocen la existencia de diversas divinidades de Aeternalis y conser
 
 No todos los Yugen lo consideran benévolo. Algunos templos le dedican altares de piedra negra sin imagen, porque sostienen que ningún rostro mortal podría representar correctamente su naturaleza. Otros lo muestran como una figura inmóvil que contempla la caída de las flores sin comprender por qué los pétalos no regresan a
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   6                                                         AETERNALIS / PROPUESTA DE LORE
+
 
 las ramas. Para sus sacerdotes más austeros, Eko no es un dios cruel; es un dios incapaz de entender la fragilidad de sus fieles.
 
@@ -138,7 +138,7 @@ Todo Yugen bendecido puede intentar aprender Kuro, aunque moldearlo con precisi�
 
 Por eso el uso de Kuro no está proscrito, pero sí cargado de vergüenza. Se enseña como último recurso, nunca como instrumento cotidiano de un duelo honorable. Un guerrero
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   7                                                                 AETERNALIS / PROPUESTA DE LORE
+
 
 que vence desenvainando su espada recibe el reconocimiento de sus pares. Quien necesita sacrificar su esencia para obtener la misma victoria puede ser visto como alguien que perdió el dominio de sí mismo o que no estuvo a la altura de la Senda del Acero Quieto.
 
@@ -152,11 +152,21 @@ Los veteranos que han usado Kuro son apartados a veces de las casas guerreras, m
 
 Anexo de reglas propuesto para el sistema de rol. Las cifras permiten discusión de equilibrio; se conserva el principio de coste permanente y ausencia de niveles.
 
-Manifestación · coste permanente                      Uso de Kuro
+Manifestaciones y coste irreversible de Corrupción (reglas propuestas para revisión):
 
-Tres a cinco proyectiles pequeños; ataque a Flechas Negras · 4 distancia que puede evitarse o bloquearse. Protección sólida temporal contra impactos; Escudo Negro · 8 puede quebrarse. Cuatro grandes proyectiles veloces de gran Agujas Negras · 10 capacidad perforante. Descarga de fragmentos rígidos contra Espinas Negras · 12 enemigos cercanos. Defensa moldeable: frontal, angular, parapeto o Muralla Negra · 16 semicírculo; volumen limitado. Cobertura reforzada de pequeña área, incluida Bastión Negro · 25 protección superior. Gólem enorme y mutable, activo hasta veinte Coloso Negro · 50 minutos.
+Flechas Negras · 4 puntos: Tres a cinco proyectiles pequeños; ataque a distancia que puede evitarse o bloquearse.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   8                                                         AETERNALIS / PROPUESTA DE LORE
+Escudo Negro · 8 puntos: Protección sólida temporal contra impactos; puede quebrarse.
+
+Agujas Negras · 10 puntos: Cuatro grandes proyectiles veloces de gran capacidad perforante.
+
+Espinas Negras · 12 puntos: Descarga de fragmentos rígidos contra enemigos cercanos.
+
+Muralla Negra · 16 puntos: Defensa moldeable —frontal, angular, parapeto o semicírculo— de volumen limitado.
+
+Bastión Negro · 25 puntos: Cobertura reforzada de pequeña área, incluida protección superior.
+
+Coloso Negro · 50 puntos: Gólem enorme y mutable, activo hasta veinte minutos.
 
 Kuro se limita a materializar materia física, temporal y destructible. No altera el tiempo, no controla almas ni voluntades y no invalida automáticamente la magia ajena. Las estructuras pueden recibir daño, ser evadidas o desbaratadas. La cantidad de materia y su resistencia dependen de la manifestación pagada: cambiar la forma de una Muralla Negra no aumenta el volumen de Kuro obtenido.
 
@@ -174,7 +184,7 @@ La práctica del Kuro concentra así una doble vergüenza. Utilizarlo es reconoc
 
 El memorial más severo no es el levantado para los muertos. Es la casa silenciosa donde permanecen quienes todavía viven, habiendo entregado demasiado para regresar a la vida que conocían.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   9                                                            AETERNALIS / PROPUESTA DE LORE
+
 
 ## Política exterior y supervivencia
 
@@ -190,7 +200,7 @@ Enanos, Amarant y otras potencias Con enanos y Amarant, la isla sostiene relacio
 
 Los Yugen ensalzan el autocontrol, pero viven entre guerras fratricidas. Veneran el sacrificio de sus mártires, pero apartan a quienes sobreviven a ese mismo sacrificio. Afirman que la fidelidad constituye la mayor virtud, pero los vasallos cambian de bandera cuando sus casas corren peligro. Desprecian a los mestizos por su origen, aunque dependen del comercio y de alianzas con pueblos a los que consideran inferiores o amenazantes.
 
-EL PUEBLO YUGEN · BORRADOR DE REWORK   |   11                                                          AETERNALIS / PROPUESTA DE LORE
+
 
 Su sociedad encuentra en los templos espacios de silencio, contemplación y enseñanza; sin embargo, los mismos templos pueden alimentar la exclusión de los corrompidos o protegerlos contra sus propios vecinos. Los jóvenes sueñan con la fama de los espadachines de las canciones; sus padres temen que esa fama solo se alcance mediante una muerte temprana. En los valles los cerezos anuncian nuevas estaciones, pero los campos llevan todavía las cicatrices de la última guerra.
 
