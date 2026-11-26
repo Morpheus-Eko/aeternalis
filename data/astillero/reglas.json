@@ -1,0 +1,220 @@
+{
+  "schema": "aeternalis-astillero-reglas-v1",
+  "version": "1.0.0",
+  "source": "Sistema de navegación.docx",
+  "status": "transcripcion_funcional",
+  "currency": "oro off-rol",
+  "baseShip": {
+    "level": 1,
+    "cost": 50,
+    "note": "Un personaje que justifique por historia la posesión (pirata, alto cargo de armada o distrito) puede iniciar con un barco básico sin pagar 50 oro, sujeto a validación administrativa."
+  },
+  "levels": [
+    "I",
+    "II",
+    "III",
+    "Legendario"
+  ],
+  "order": [
+    "velas",
+    "resistencia",
+    "tripulacion",
+    "ataque"
+  ],
+  "categories": [
+    {
+      "id": "velas",
+      "name": "Velas",
+      "summary": "Velocidad por hexágono",
+      "description": "Condiciona las horas necesarias para cruzar cada hexágono marítimo.",
+      "icon": "assets/naval/navegacion/icono_viento_maritimo.webp",
+      "levels": [
+        {
+          "level": 1,
+          "hoursPerHex": 24,
+          "description": "Velamen básico: 24 horas por hexágono.",
+          "cost": 0
+        },
+        {
+          "level": 2,
+          "hoursPerHex": 18,
+          "description": "Velamen mejorado: 18 horas por hexágono.",
+          "cost": 500,
+          "discountCost": 100,
+          "discount": "5 temas terminados entre puertos de Inlyria, Bahía Hirion y Bahía Calad; como mínimo uno en cada uno.",
+          "requirements": []
+        },
+        {
+          "level": 3,
+          "hoursPerHex": 12,
+          "description": "Velamen avanzado: 12 horas por hexágono. Incompatible con Resistencia III, salvo supuestos legendarios.",
+          "cost": 1500,
+          "discountCost": 300,
+          "discount": "10 temas terminados entre Faro Naminatsu, Yanse, Honthai y Nishi; como mínimo uno en cada uno.",
+          "requirements": [
+            {
+              "category": "tripulacion",
+              "min": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "hoursPerHex": 8,
+          "description": "Velas legendarias: 8 horas por hexágono. Compatible con Resistencia III y Legendaria.",
+          "cost": null,
+          "discountCost": null,
+          "event": "Evento especial en LXXXXX (localización pendiente de canon).",
+          "requirements": [
+            {
+              "category": "tripulacion",
+              "min": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resistencia",
+      "name": "Resistencia",
+      "summary": "Casco, defensa y mares",
+      "description": "Incrementa la envergadura, la resistencia y la capacidad de atravesar determinados mares.",
+      "icon": "assets/naval/progresion/blindaje_refuerzo_acero.webp",
+      "levels": [
+        {
+          "level": 1,
+          "description": "Casco básico.",
+          "cost": 0
+        },
+        {
+          "level": 2,
+          "description": "Defensa media: mayor embarcación y refuerzos en zonas críticas.",
+          "cost": 500,
+          "discountCost": 100,
+          "discount": "5 temas terminados entre Faro Crepuscular, Nyde, Lothom y Puerto Volker; como mínimo uno en cada uno.",
+          "requirements": []
+        },
+        {
+          "level": 3,
+          "description": "Defensa avanzada: mayor tamaño y refuerzos de acero. Incompatible con Velas III, salvo supuestos legendarios.",
+          "cost": 1500,
+          "discountCost": 300,
+          "discount": "10 temas terminados entre Eirae, Comarca Esmeralda, Marina y Puerto de la Luna; como mínimo uno en cada uno.",
+          "requirements": []
+        },
+        {
+          "level": 4,
+          "description": "Defensa legendaria: Corteza Negra y Metal Nihil. Compatible con Velas III y Legendarias.",
+          "cost": null,
+          "discountCost": null,
+          "event": "Evento especial en Verdanteyl o VXXXXXXX (segunda localización pendiente).",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "tripulacion",
+      "name": "Tripulación",
+      "summary": "Experiencia y mando de flotas",
+      "description": "Determina la pericia de los marineros y la cantidad de barcos auxiliares que puede liderar el capitán.",
+      "icon": "assets/naval/progresion/insignia_tripulacion_veterana.webp",
+      "levels": [
+        {
+          "level": 1,
+          "fleetAdditional": 0,
+          "description": "Marineros básicos. Sin barcos auxiliares por este nivel.",
+          "cost": 0
+        },
+        {
+          "level": 2,
+          "fleetAdditional": 0,
+          "description": "Marineros experimentados; habilita Velas III y Ataque III.",
+          "cost": 500,
+          "discountCost": 100,
+          "discount": "3 temas terminados en Altamar y uno en cada puerto: Costa Sangrienta, Puerto Ramera y Bahía Kraken.",
+          "requirements": []
+        },
+        {
+          "level": 3,
+          "fleetAdditional": 2,
+          "description": "Marineros veteranos, combate y reparaciones. Autoriza hasta 2 barcos adicionales de nivel máximo II.",
+          "cost": 2500,
+          "discountCost": 500,
+          "discount": "14 temas terminados entre Costa Sangrienta, Puerto Ramera y Bahía Kraken; al menos uno en cada puerto.",
+          "requirements": []
+        },
+        {
+          "level": 4,
+          "fleetAdditional": 4,
+          "description": "Tripulación legendaria: hasta 4 barcos adicionales con las mismas características del principal.",
+          "cost": null,
+          "discountCost": null,
+          "event": "Evento especial en AXXXXXXX (localización pendiente).",
+          "requirements": []
+        }
+      ]
+    },
+    {
+      "id": "ataque",
+      "name": "Poder de ataque",
+      "summary": "Armamento y abordaje",
+      "description": "Equipamiento ofensivo para enfrentamientos navales y criaturas de gran envergadura.",
+      "icon": "assets/naval/progresion/ballesta_de_cubierta.webp",
+      "levels": [
+        {
+          "level": 1,
+          "description": "Armamento básico: puñales, mazos y lanzas para abordajes.",
+          "cost": 0
+        },
+        {
+          "level": 2,
+          "description": "Espolón, 2 grandes ballestas de cubierta y corvus de abordaje.",
+          "cost": 500,
+          "discountCost": 100,
+          "discount": "6 temas terminados entre Salones Dorados, Ithar’iamil y Rhori’len; como mínimo uno en cada lugar.",
+          "requirements": []
+        },
+        {
+          "level": 3,
+          "description": "3 corvus reforzados, espolón reforzado, ballestas en cubierta y andana, además de bolas con cadena útiles frente a monstruos grandes.",
+          "cost": 1500,
+          "discountCost": 300,
+          "discount": "12 temas terminados en Fortaleza del Alba o Puerto del Sol; la distribución exacta debe validarla administración.",
+          "requirements": [
+            {
+              "category": "tripulacion",
+              "min": 2
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "description": "2 catapultas medianas, proyectiles pesados e incendiarios; máximo 5 unidades de cada tipo.",
+          "cost": null,
+          "discountCost": null,
+          "event": "Evento especial en Fortaleza del Alba + Enanos.",
+          "requirements": [
+            {
+              "category": "tripulacion",
+              "min": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "compatibility": {
+    "incompatiblePair": {
+      "velas": 3,
+      "resistencia": 3
+    },
+    "exception": "La incompatibilidad puntual desaparece cuando Velas o Resistencia alcanzan el nivel legendario. Los pasos intermedios continúan sujetos a validación."
+  },
+  "notes": [
+    "El prototipo es un simulador local y no compra, registra ni acredita mejoras.",
+    "Los descuentos solo pueden aplicarse previa acreditación administrativa de temas terminados. En la demostración, el selector de descuento representa una hipótesis.",
+    "Las mejoras legendarias carecen de precio ordinario y exigen evento especial.",
+    "No existen todavía rutas marítimas por hexágonos verificadas en el Supermapa; la duración indicada corresponde exclusivamente a un hexágono.",
+    "Las plazas y ubicaciones redactadas LXXXXX, VXXXXXXX y AXXXXXXX permanecen provisionales."
+  ]
+}
