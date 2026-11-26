@@ -739,3 +739,133 @@ html.aecm-open { overflow: hidden !important; }
     scroll-behavior: auto !important;
   }
 }
+
+
+/* AETERNALIS_ORNAMENTOS_CRONOLOGIA_V3_1 */
+/*
+ * Rework grafico 2026-11-26: recursos WebP transparentes del Gran Codex.
+ * Aditivo y aislado: NO altera narrativa, grid, eventos, accesibilidad ni JS.
+ * Los cuatro angulos permanecen decorativos, sin significado canonico.
+ */
+#aec-cronologia {
+  background-image:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp"),
+    radial-gradient(ellipse at 50% 0%, rgba(134,104,67,.19), transparent 65%),
+    linear-gradient(145deg,#25201c,#111315 56%,#1b1919);
+  background-position: left 7px top 7px, right 7px top 7px, left 7px bottom 7px, right 7px bottom 7px, center, center;
+  background-size: 72px auto, 72px auto, 72px auto, 72px auto, auto, auto;
+  background-repeat: no-repeat;
+  border-color: rgba(198,159,97,.59);
+  box-shadow: inset 0 0 0 4px #bd99500d, inset 0 0 58px #0008, 0 15px 36px #0007;
+}
+#aec-cronologia .aec-head { position:relative; padding-top:10px; }
+#aec-cronologia .aec-head::before {
+  content:""; display:block; width:185px; max-width:46%; height:46px;
+  margin:0 auto 10px; opacity:.73; pointer-events:none;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/cabeceras/estrella_cinta_01.webp") center / contain no-repeat;
+}
+#aec-cronologia .aec-kicker { color:#d3b88f; letter-spacing:.3em; }
+#aec-cronologia .aec-title { color:#f8ecd7; text-shadow:0 3px 19px #000d, 0 0 28px #b7975530; }
+#aec-cronologia .aec-ornament {
+  width:min(306px,75%); max-width:75%; height:36px; margin:11px auto 9px;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/reloj_arena_01.webp") center / contain no-repeat;
+}
+#aec-cronologia .aec-grid { gap:17px; }
+#aec-cronologia .aec-card {
+  border-radius:2px;
+  border-color:rgba(207,175,121,.43);
+  box-shadow:inset 0 0 0 3px #d6b47714, inset 0 0 26px #0009, 0 8px 23px #0007;
+}
+#aec-cronologia .aec-card::after {
+  inset:0; height:auto;
+  background:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp") right 5px top 5px / 52px auto no-repeat,
+    linear-gradient(90deg,transparent,var(--aec-accent),transparent) center bottom / 100% 2px no-repeat;
+  opacity:.64;
+}
+#aec-cronologia .aec-card:hover::after,
+#aec-cronologia .aec-card:focus-visible::after { opacity:1; }
+#aec-cronologia .aec-emblem {
+  border-radius:50%;
+  border-color:color-mix(in srgb,var(--aec-accent) 75%,#b9a27d);
+  background:
+    radial-gradient(circle,#121419d9 47%,#1e1a15b2 80%),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/medallon_esfera_armilar_01.webp") center / contain no-repeat;
+  box-shadow:0 0 0 3px #c3a5751b, 0 4px 12px #000b;
+}
+#aec-cronologia .aec-emblem img { width:48px; height:48px; max-width:48px; max-height:48px; }
+#aec-cronologia .aec-foot {
+  border-top:0; padding-top:30px; position:relative;
+}
+#aec-cronologia .aec-foot::before {
+  content:""; position:absolute; inset:0 0 auto; margin:auto;
+  width:min(220px,65%); height:25px; pointer-events:none; opacity:.78;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp") center / contain no-repeat;
+}
+/* Visor: encuadernacion metalica, paginas limpias y marginalia ilustrada */
+#aec-chronicle-overlay .aecm-dialog {
+  border-color:#c5a475;
+  box-shadow:0 30px 96px #000e, inset 0 0 0 5px #ad8b581b;
+}
+#aec-chronicle-overlay .aecm-dialog::before {
+  inset:5px; border:1px solid #d3ae6c29;
+  background-image:
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp"),
+    url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp");
+  background-position:left top,right top,left bottom,right bottom;
+  background-size:69px auto;
+  background-repeat:no-repeat;
+}
+#aec-chronicle-overlay .aecm-hero::after {
+  content:""; position:absolute; right:66px; bottom:8px; z-index:1;
+  width:130px; height:130px; opacity:.24; pointer-events:none;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/objetos/esfera_armilar_01.webp") center / contain no-repeat;
+}
+#aec-chronicle-overlay .aecm-side-mark {
+  display:block; flex:0 0 auto; width:49px; height:49px;
+  font-size:0; line-height:0; color:transparent; text-shadow:none;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/tinta/trazo_pluma_01.webp") center / contain no-repeat;
+  opacity:.82;
+}
+#aec-chronicle-overlay .aecm-side-mark.aecm-skull {
+  font-size:0;
+  background-image:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/gotica_craneo_ciervo_01.webp");
+}
+#aec-chronicle-overlay .aecm-rune { border:1px solid #c6a37280; box-shadow:0 0 0 3px #b9986330; }
+#aec-chronicle-overlay .aecm-parchment::before,
+#aec-chronicle-overlay .aecm-parchment::after {
+  content:""; width:31px; height:33px; top:25px; opacity:.58;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp") center / contain no-repeat;
+}
+#aec-chronicle-overlay .aecm-parchment::after {
+  background-image:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp");
+}
+#aec-chronicle-overlay .aecm-prose .aecm-section {
+  padding-right:96px;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp") right center / 90px auto no-repeat;
+}
+#aec-chronicle-overlay .aecm-endmark span {
+  width:155px; height:32px; margin:auto;
+  font-size:0; line-height:0;
+  background:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/estrella_brujula_01.webp") center / contain no-repeat;
+}
+@media (max-width:740px) {
+  #aec-cronologia { background-size:46px auto,46px auto,46px auto,46px auto,auto,auto; }
+  #aec-cronologia .aec-head::before { width:125px; height:31px; }
+  #aec-cronologia .aec-card::after {
+    background-size:34px auto,100% 2px;
+  }
+  #aec-chronicle-overlay .aecm-dialog::before { background-size:38px auto; }
+  #aec-chronicle-overlay .aecm-hero::after { right:43px; width:70px; height:70px; opacity:.15; }
+  #aec-chronicle-overlay .aecm-prose .aecm-section { padding-right:0; background:none; }
+}
+@media (prefers-reduced-motion:reduce) {
+  #aec-cronologia .aec-card,
+  #aec-cronologia .aec-card::after { transition:none !important; }
+}
+/* FIN_AETERNALIS_ORNAMENTOS_CRONOLOGIA_V3_1 */
