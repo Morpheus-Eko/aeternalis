@@ -31,7 +31,7 @@
   function option(value,label){var o=el('option','',label);o.value=value;return o;}
   function findPort(id){return state.ports.find(function(p){return p.id===id;})||null;}
   function hours(){return HRS[state.sails-1];}
-  function json(path){return fetch(BASE+path,{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+' HTTP '+r.status);return r.json();});}
+  function json(path){return fetch(BASE+path+'?v=1.0.0',{mode:'cors',credentials:'omit'}).then(function(r){if(!r.ok)throw Error(path+' HTTP '+r.status);return r.json();});}
   function clearPath(){state.waypoints=[];state.draft=false;state.drawMode=false;}
   function choose(id,role) {
     var port=findPort(id);
