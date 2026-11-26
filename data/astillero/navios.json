@@ -1,7 +1,7 @@
 {
   "schema": "aeternalis-astillero-navios-v1",
-  "version": "1.0.0",
-  "notice": "Aspecto ilustrativo; la procedencia cultural o el modelo visual no modifica atributos ni confiere privilegios narrativos.",
+  "version": "1.0.1",
+  "notice": "Apariencia ilustrativa; la procedencia cultural no cambia las cuatro estadísticas, ni constituye heráldica oficial. La familia antes llamada medievales se denomina humanos.",
   "ships": [
     {
       "id": "nordico",
@@ -31,10 +31,10 @@
       "emblem": "assets/naval/yugen/medallon_yugen_dragon_olas.webp"
     },
     {
-      "id": "medieval",
-      "label": "Navío medieval",
+      "id": "humanos",
+      "label": "Navíos humanos",
       "name": "Carraca del León",
-      "subtitle": "Galera fortificada · madera reforzada · blasón del león",
+      "subtitle": "Heráldica, astilleros e ingeniería de los reinos humanos",
       "accent": "#d2b17a",
       "image": "assets/naval/medievales/navio_medieval_carraca_leon.webp",
       "emblem": "assets/naval/medievales/escudo_naval_leon.webp"
