@@ -1,0 +1,154 @@
+/* AETERNALIS · Astillero 1.0 · CSS totalmente aislado del tema Foroactivo.
+   Ornamentos WebP desde la biblioteca GitHub. Sin CSS en JavaScript. */
+#ae-astillero {
+  --ae-na-gold:#caa56a;--ae-na-ink:#f4e8d4;--ae-na-muted:#bbad98;
+  --ae-na-accent:#a8c1cb;
+  position:relative;isolation:isolate;display:block;max-width:1200px;width:100%;
+  margin:25px auto 45px;padding:clamp(15px,3vw,38px);
+  color:var(--ae-na-ink);font-family:Georgia,'Times New Roman',serif;text-align:left;
+  border:1px solid #ae8959a9;border-radius:2px;
+  background:
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp') left 7px top 7px / 70px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp') right 7px top 7px / 70px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_izquierda_01.webp') left 7px bottom 7px / 70px auto no-repeat,
+    url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp') right 7px bottom 7px / 70px auto no-repeat,
+    radial-gradient(ellipse at 50% 1%,#8a64472d,transparent 53%),
+    linear-gradient(145deg,#27211c,#10171b 50%,#231f1a);
+  box-shadow:0 24px 56px #0008,inset 0 0 0 5px #b9974a12,inset 0 0 75px #0006;
+  container-type:inline-size;
+}
+#ae-astillero,#ae-astillero *,#ae-astillero *::before,#ae-astillero *::after{box-sizing:border-box;}
+#ae-astillero img{border:0;box-shadow:none;max-width:100%;object-fit:contain;}
+#ae-astillero button{font-family:Georgia,'Times New Roman',serif;cursor:pointer;}
+#ae-astillero button:disabled{cursor:not-allowed;opacity:.44;}
+#ae-astillero button:focus-visible,#ae-astillero input:focus-visible{outline:2px solid #f0d5a3;outline-offset:3px;}
+#ae-astillero .ae-na-page{max-width:1130px;margin:auto;}
+#ae-astillero .ae-na-head{text-align:center;position:relative;padding:0 12px 18px;}
+#ae-astillero .ae-na-compass{display:block;width:88px;height:88px;margin:0 auto 3px;filter:drop-shadow(0 6px 11px #000a);}
+#ae-astillero .ae-na-overline,#ae-astillero .ae-na-kicker{display:block;font:700 10px/1.4 Georgia,serif;letter-spacing:.27em;color:#d8b98a;text-transform:uppercase;}
+#ae-astillero .ae-na-title{font:normal clamp(33px,4.2vw,58px)/1.09 Georgia,serif;color:#f9e9cf;margin:9px 0 10px;padding:0;text-align:center;text-transform:none;text-shadow:0 3px 16px #000d;}
+#ae-astillero .ae-na-lead{font:italic 15px/1.65 Georgia,serif;color:#d2c4ae;margin:0 0 12px;}
+#ae-astillero .ae-na-demo{display:inline-block;margin:4px 0 0;padding:7px 12px;line-height:1.4;border:1px solid #9279536b;color:#d5bc96;background:#241b15a8;font-size:10px;letter-spacing:.11em;}
+#ae-astillero .ae-na-head::after{content:'';display:block;width:290px;max-width:65%;height:31px;margin:9px auto 0;opacity:.74;background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp') center / contain no-repeat;}
+#ae-astillero .ae-na-fleet-picker{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:0 0 16px;}
+#ae-astillero .ae-na-ship-choice{display:flex;align-items:center;justify-content:center;gap:9px;min-width:0;min-height:63px;padding:9px 8px;border:1px solid #a287606b;border-radius:3px;background:linear-gradient(155deg,#2d271fc9,#171b1de3);color:#c9baa5;font-size:12px;line-height:1.3;transition:background .2s,border-color .2s,box-shadow .2s;}
+#ae-astillero .ae-na-ship-choice-icon{flex:0 0 36px;width:36px;height:36px;filter:drop-shadow(0 3px 5px #0009);}
+#ae-astillero .ae-na-ship-choice.is-selected,#ae-astillero .ae-na-ship-choice:hover{border-color:#ddb880;color:#fff2d9;background:linear-gradient(155deg,#47382ac9,#1e2427ef);box-shadow:inset 0 0 0 2px #c59f6530,0 2px 12px #0005;}
+#ae-astillero .ae-na-hero{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(255px,1fr);overflow:hidden;border:1px solid #a78a5d9c;background:#111719;min-height:340px;box-shadow:0 14px 35px #0006,inset 0 0 0 3px #9f83431e;}
+#ae-astillero .ae-na-illustration{min-height:340px;position:relative;isolation:isolate;display:flex;align-items:center;justify-content:center;overflow:hidden;background:
+  radial-gradient(ellipse at 50% 75%,#5371833d,transparent 57%),
+  linear-gradient(180deg,#232c31 0%,#101f29 69%,#101418 100%);}
+#ae-astillero .ae-na-sea{position:absolute;inset:0;opacity:.28;pointer-events:none;background:
+  radial-gradient(ellipse at 65% 90%,#a5bdc3a3,transparent 39%),
+  repeating-linear-gradient(177deg,transparent 0 18px,#9db2b715 19px,transparent 21px 39px);}
+#ae-astillero .ae-na-illustration::before{content:'';position:absolute;inset:7px;z-index:2;border:1px solid #c9ad6952;pointer-events:none;background:
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp') left top / 43px auto no-repeat,
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp') right bottom / 43px auto no-repeat;}
+#ae-astillero .ae-na-vessel{display:block;position:relative;z-index:1;width:min(94%,710px);height:290px;margin:12px auto 35px;object-fit:contain;filter:drop-shadow(0 18px 16px #030a0bcc);transition:transform .3s;}
+#ae-astillero .ae-na-figure-note{position:absolute;z-index:4;left:15px;right:15px;bottom:11px;text-align:center;color:#d6c5a5;font:9px/1.4 Georgia,serif;letter-spacing:.09em;opacity:.85;text-shadow:0 2px 4px #000;}
+#ae-astillero .ae-na-ship-info{position:relative;display:flex;flex-direction:column;padding:25px clamp(18px,3vw,35px);border-left:1px solid #b7965c5d;background:
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/cuero_oscuro_01.webp') center / cover no-repeat,
+  linear-gradient(145deg,#302820,#181819);}
+#ae-astillero .ae-na-ship-info::before{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(120deg,#131515c5,#211d18d5);}
+#ae-astillero .ae-na-ship-info>*{z-index:1;}
+#ae-astillero .ae-na-crest{display:block;width:70px;height:70px;margin:0 0 12px;filter:drop-shadow(0 4px 10px #000a);}
+#ae-astillero .ae-na-ship-name{margin:10px 0 9px;padding:0;color:#f6e5cc;font:normal clamp(24px,2.7vw,38px)/1.15 Georgia,serif;text-shadow:0 3px 12px #0009;}
+#ae-astillero .ae-na-ship-sub{margin:0 0 16px;color:var(--ae-na-accent);font:italic 13px/1.6 Georgia,serif;}
+#ae-astillero .ae-na-meta{margin:0 0 9px;padding:0;border-top:1px solid #e0bd7752;}
+#ae-astillero .ae-na-meta-row{display:flex;justify-content:space-between;align-items:baseline;gap:15px;padding:10px 0;border-bottom:1px solid #e0bd7727;}
+#ae-astillero .ae-na-meta dt{margin:0;color:#b4a18a;font:12px/1.45 Georgia,serif;}
+#ae-astillero .ae-na-meta dd{margin:0;color:#f5e5c8;font:700 13px/1.45 Georgia,serif;text-align:right;}
+#ae-astillero .ae-na-hint{font:italic 11px/1.6 Georgia,serif;color:#b6a792;margin:10px 0 0;}
+#ae-astillero .ae-na-levels{margin:29px 0;}
+#ae-astillero .ae-na-section-title{margin:0;padding:0;color:#f4e5cc;font:normal 27px/1.24 Georgia,serif;}
+#ae-astillero .ae-na-section-sub{margin:5px 0 17px;color:#bba88e;font:italic 13px/1.6 Georgia,serif;}
+#ae-astillero .ae-na-tracks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;}
+#ae-astillero .ae-na-track{display:flex;position:relative;align-items:center;gap:10px;min-height:96px;min-width:0;padding:11px 12px;border:1px solid #987c597d;border-radius:2px;color:#f2e5d2;background:linear-gradient(145deg,#302a25,#161b1f);box-shadow:inset 0 0 0 3px #a88a4e10,0 6px 13px #0004;text-align:left;}
+#ae-astillero .ae-na-track.is-active,#ae-astillero .ae-na-track:hover{border-color:var(--ae-na-accent);background:linear-gradient(145deg,#3a3229,#1c2529);box-shadow:inset 0 0 0 2px #c0ab7540,0 5px 22px #0006;}
+#ae-astillero .ae-na-track-symbol{flex:0 0 46px;width:46px;height:58px;object-fit:contain;filter:drop-shadow(0 3px 9px #000c);}
+#ae-astillero .ae-na-track-text{display:flex;flex:1 1 0;flex-direction:column;min-width:0;gap:4px;}
+#ae-astillero .ae-na-track-text strong{font:700 14px/1.2 Georgia,serif;color:#f1dfc3;}
+#ae-astillero .ae-na-track-text span{font:11px/1.35 Georgia,serif;color:#b3a390;}
+#ae-astillero .ae-na-track-level{align-self:flex-start;color:#e5c48d;font:bold 13px/1.3 Georgia,serif;}
+#ae-astillero .ae-na-inspector{position:relative;margin-top:16px;padding:clamp(18px,2.8vw,31px);border:1px solid #a68d629e;background:
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp') left 6px top 6px / 50px auto no-repeat,
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp') right 6px bottom 6px / 50px auto no-repeat,
+  radial-gradient(ellipse at center top,#4b3c2d38,transparent 60%),
+  #1e1c1a;box-shadow:inset 0 0 0 4px #ba9b6618,0 9px 25px #0005;}
+#ae-astillero .ae-na-inspector-head{max-width:850px;margin:0 auto;text-align:center;}
+#ae-astillero .ae-na-inspector-head h3{font:normal 33px/1.17 Georgia,serif;color:#f5e6ce;margin:6px 0 8px;padding:0;}
+#ae-astillero .ae-na-inspector-head p{font:italic 13px/1.6 Georgia,serif;color:#cbbda7;margin:0;}
+#ae-astillero .ae-na-medals{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;max-width:790px;margin:15px auto 21px;padding:8px 0 13px;border-bottom:1px solid #c7a5704d;}
+#ae-astillero .ae-na-medal{display:flex;flex-direction:column;gap:3px;justify-content:center;align-items:center;opacity:.32;filter:grayscale(.45);}
+#ae-astillero .ae-na-medal.is-owned{opacity:.86;filter:none;}
+#ae-astillero .ae-na-medal.is-current{opacity:1;filter:drop-shadow(0 0 10px #d0ac6c6b);}
+#ae-astillero .ae-na-medal img{width:min(78px,95%);height:76px;object-fit:contain;}
+#ae-astillero .ae-na-medal span{font:600 12px/1.4 Georgia,serif;color:#e5cda5;}
+#ae-astillero .ae-na-upgrade-detail{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px;}
+#ae-astillero .ae-na-present,#ae-astillero .ae-na-next{padding:20px;min-width:0;background:linear-gradient(145deg,#191c1ed9,#30271fd1);border:1px solid #c19d635e;box-shadow:inset 0 0 0 2px #d7a55b10;}
+#ae-astillero .ae-na-next{border-color:#c9ad7598;}
+#ae-astillero .ae-na-detail-label{font:bold 10px/1.4 Georgia,serif;letter-spacing:.18em;color:#b6a083;}
+#ae-astillero .ae-na-level-heading{display:block;margin:8px 0 13px;color:#f4e0c3;font:normal 22px/1.3 Georgia,serif;}
+#ae-astillero .ae-na-present p,#ae-astillero .ae-na-next p{color:#cbbda6;margin:0 0 13px;font:13px/1.65 Georgia,serif;}
+#ae-astillero .ae-na-cost{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:13px 0;margin:10px 0;border-top:1px solid #b795605b;border-bottom:1px solid #b795605b;}
+#ae-astillero .ae-na-cost span{color:#ceb798;font-size:12px;}
+#ae-astillero .ae-na-cost strong{color:#f3d69a;font:700 18px/1.3 Georgia,serif;text-align:right;}
+#ae-astillero .ae-na-choice{display:flex;align-items:flex-start;gap:9px;margin:13px 0;cursor:pointer;color:#ebd6b5;font:12px/1.5 Georgia,serif;}
+#ae-astillero .ae-na-choice input{margin-top:3px;accent-color:#b88c54;flex:0 0 auto;}
+#ae-astillero .ae-na-rule-hint{font-style:italic!important;color:#ad9b85!important;font-size:11px!important;}
+#ae-astillero .ae-na-event{color:#e4ba83!important;font-size:12px!important;}
+#ae-astillero .ae-na-blockers{list-style:disc inside;padding:10px 13px;margin:9px 0;color:#e6aa9b;font:12px/1.6 Georgia,serif;background:#612e252a;border-left:2px solid #c17f6f;}
+#ae-astillero .ae-na-ok{color:#b1d0b3!important;font:italic 12px/1.5 Georgia,serif!important;}
+#ae-astillero .ae-na-primary,#ae-astillero .ae-na-secondary{border-radius:2px;transition:background .2s,border-color .2s,transform .2s;}
+#ae-astillero .ae-na-primary{display:block;width:100%;margin-top:16px;padding:12px 14px;border:1px solid #d8b577;background:linear-gradient(#8c663c,#4b3925);color:#fff3d8;font:bold 13px/1.35 Georgia,serif;letter-spacing:.05em;}
+#ae-astillero .ae-na-primary:not(:disabled):hover{background:linear-gradient(#a17b49,#59422c);transform:translateY(-1px);}
+#ae-astillero .ae-na-primary:disabled{background:#413c35;border-color:#7b7060;color:#c1b7a7;transform:none;}
+#ae-astillero .ae-na-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:19px 0 0;}
+#ae-astillero .ae-na-secondary{padding:9px 13px;border:1px solid #a7895e8c;background:#1c1c1c;color:#d6bea0;font-size:12px;}
+#ae-astillero .ae-na-secondary:not(:disabled):hover{border-color:#e2bb7d;color:#ffead0;}
+#ae-astillero .ae-na-travel{display:flex;align-items:center;gap:23px;margin:24px 0 0;padding:22px;border:1px solid #ad956e89;background:linear-gradient(145deg,#212a2a,#1d1b18);box-shadow:0 8px 20px #0004;}
+#ae-astillero .ae-na-travel-mark{width:100px;height:100px;flex:0 0 100px;filter:drop-shadow(0 5px 8px #0009);}
+#ae-astillero .ae-na-travel-main{flex:1;min-width:0;}
+#ae-astillero .ae-na-travel h3{margin:6px 0 13px;color:#f8e6c8;font:normal 25px/1.2 Georgia,serif;}
+#ae-astillero .ae-na-slider-label{display:block;margin-bottom:5px;color:#dbbea0;font:12px/1.5 Georgia,serif;}
+#ae-astillero .ae-na-range{display:block;max-width:550px;width:100%;accent-color:#b9905a;cursor:pointer;}
+#ae-astillero .ae-na-travel-time{display:block;color:#eacb93;font:normal 24px/1.2 Georgia,serif;margin:7px 0;}
+#ae-astillero .ae-na-footer{margin:23px 0 0;padding:15px 5px 0;border-top:1px solid #aa8c5a66;color:#b8a48c;font:italic 11px/1.6 Georgia,serif;text-align:center;}
+#ae-astillero .ae-na-footer p{margin:4px 0;}
+#ae-astillero .ae-na-status{padding:9px 12px;border:1px solid #c6a87961;color:#ecd3a5;background:#281f16;margin-top:16px;text-align:center;font:italic 12px/1.5 Georgia,serif;}
+#ae-astillero .ae-na-load-error{padding:28px;color:#eed4aa;font:16px/1.5 Georgia,serif;}
+@container (max-width:850px){
+  #ae-astillero .ae-na-tracks{grid-template-columns:repeat(2,minmax(0,1fr));}
+  #ae-astillero .ae-na-hero{grid-template-columns:minmax(0,1.2fr) minmax(220px,1fr);}
+  #ae-astillero .ae-na-ship-choice{flex-direction:column;gap:5px;font-size:11px;}
+}
+@container (max-width:620px){
+  #ae-astillero{background-size:43px auto,43px auto,43px auto,43px auto,auto,auto;}
+  #ae-astillero .ae-na-fleet-picker{gap:6px;}
+  #ae-astillero .ae-na-ship-choice{min-height:72px;padding:8px 3px;font-size:10px;}
+  #ae-astillero .ae-na-ship-choice-icon{width:36px;height:35px;flex-basis:35px;}
+  #ae-astillero .ae-na-hero{grid-template-columns:1fr;}
+  #ae-astillero .ae-na-illustration{min-height:245px;}
+  #ae-astillero .ae-na-vessel{height:205px;margin:10px auto 29px;}
+  #ae-astillero .ae-na-ship-info{border-left:0;border-top:1px solid #a8915a70;padding:22px;}
+  #ae-astillero .ae-na-crest{width:48px;height:48px;}
+  #ae-astillero .ae-na-upgrade-detail{grid-template-columns:1fr;}
+  #ae-astillero .ae-na-medal img{width:min(58px,92%);height:60px;}
+  #ae-astillero .ae-na-track{min-height:80px;padding:10px;}
+  #ae-astillero .ae-na-track-symbol{flex-basis:31px;width:31px;height:47px;}
+  #ae-astillero .ae-na-track-text strong{font-size:12px;}
+  #ae-astillero .ae-na-track-text span{font-size:10px;}
+  #ae-astillero .ae-na-travel{gap:12px;padding:16px;}
+  #ae-astillero .ae-na-travel-mark{width:55px;height:55px;flex-basis:55px;}
+  #ae-astillero .ae-na-travel-time{font-size:19px;}
+}
+@container (max-width:370px){
+  #ae-astillero .ae-na-ship-choice{font-size:9px;}
+  #ae-astillero .ae-na-tracks{gap:7px;}
+  #ae-astillero .ae-na-track{gap:6px;}
+  #ae-astillero .ae-na-track-symbol{display:none;}
+  #ae-astillero .ae-na-track-level{font-size:11px;}
+}
+@media (prefers-reduced-motion:reduce){
+  #ae-astillero *{transition:none!important;animation:none!important;scroll-behavior:auto!important;}
+}
