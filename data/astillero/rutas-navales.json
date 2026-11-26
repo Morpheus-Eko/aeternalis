@@ -1,0 +1,22 @@
+{
+  "schema": "aeternalis-rutas-maritimas-v1",
+  "version": "1.0.0",
+  "status": "sin_rutas_aprobadas",
+  "sourceAtlas": "data/atlas/manifest.json",
+  "governance": "Solo el personal autorizado del foro puede aprobar una ruta marítima canónica.",
+  "grid": {
+    "status": "pendiente_de_calibracion",
+    "geometry": "hexagonal",
+    "hexSizePx": null,
+    "origin": null,
+    "coordinateSystem": "atlas_logico_2048x1571",
+    "verified": false
+  },
+  "routes": [],
+  "notes": [
+    "No existen rutas marinas automáticas ni recuentos de hexágonos oficiales.",
+    "Los bocetos de la Carta Náutica son temporales, no se guardan y no se incorporan automáticamente aquí.",
+    "Las rutas terrestres de data/atlas/caminos.json no son marítimas ni deben reutilizarse para barcos.",
+    "Una ruta aprobada deberá guardar puerto origen/destino por ID del Atlas, hitos verificados, número de hexágonos, restricciones marítimas, autor y fecha de aprobación."
+  ]
+}
