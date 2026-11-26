@@ -1,0 +1,355 @@
+{
+  "schema": "aeternalis-zonas-maritimas-v1",
+  "version": "1.0.0",
+  "map": "Mapa_3.21(2).png",
+  "coordinateSystem": "2048x1571",
+  "notes": [
+    "Los nombres rotulo_del_mapa corresponden a textos visibles en la cartografía; nombre_descriptivo es una etiqueta editorial.",
+    "Las descripciones de vientos, peligros y oleaje son propuestas de ambientación editables y no asignan modificadores automáticos.",
+    "Los polígonos delimitan áreas cartográficas generales; su trazado no modifica el litoral ni las fronteras políticas."
+  ],
+  "regions": [
+    {
+      "id": "mar-del-invierno",
+      "name": "Mar del Invierno",
+      "status": "rotulo_del_mapa",
+      "color": "#8eb7cc",
+      "points": [
+        [
+          1582,
+          335
+        ],
+        [
+          1652,
+          288
+        ],
+        [
+          1745,
+          278
+        ],
+        [
+          1830,
+          225
+        ],
+        [
+          1994,
+          245
+        ],
+        [
+          1995,
+          517
+        ],
+        [
+          1935,
+          572
+        ],
+        [
+          1759,
+          513
+        ],
+        [
+          1640,
+          463
+        ],
+        [
+          1550,
+          425
+        ]
+      ],
+      "description": "La gran extensión septentrional ante Isla Negra y el litoral de Ávalon. Sus aguas abiertas enlazan la navegación del noreste y el entorno del Estrecho Brumoso.",
+      "weather": {
+        "wind": "Vientos fríos, ráfagas de frente y cambios bruscos de dirección.",
+        "waves": "Marejada abierta, oleaje largo cuando soplan los temporales.",
+        "currents": "Corrientes costeras junto a Isla Negra y el litoral oriental.",
+        "visibility": "Brumas persistentes en travesías próximas al estrecho.",
+        "dangers": "Bancos y rocas aisladas junto a los accesos de la Isla Negra."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.883,
+        "pixelArea": 106211,
+        "source": "Mapa_3.21(2).png"
+      }
+    },
+    {
+      "id": "mar-de-ithariamil",
+      "name": "Mar de Ithar’iamil",
+      "status": "rotulo_del_mapa",
+      "color": "#6db5c4",
+      "points": [
+        [
+          795,
+          570
+        ],
+        [
+          881,
+          534
+        ],
+        [
+          1020,
+          519
+        ],
+        [
+          1105,
+          617
+        ],
+        [
+          1075,
+          747
+        ],
+        [
+          1012,
+          825
+        ],
+        [
+          1001,
+          961
+        ],
+        [
+          1082,
+          1020
+        ],
+        [
+          1036,
+          1158
+        ],
+        [
+          909,
+          1225
+        ],
+        [
+          778,
+          1177
+        ],
+        [
+          721,
+          1093
+        ],
+        [
+          742,
+          928
+        ]
+      ],
+      "description": "Extenso mar occidental entre las costas de Bergheim e Isilme y los accesos occidentales de Isla Zafiro.",
+      "weather": {
+        "wind": "Brisas costeras cruzadas y corredores de viento abierto.",
+        "waves": "Oleaje moderado que gana altura en los espacios abiertos.",
+        "currents": "Deriva entre las bahías del oeste y los pasos de Isla Zafiro.",
+        "visibility": "Cambios de visibilidad por las brumas sobre el agua.",
+        "dangers": "Islotes, promontorios y escollos de las costas occidentales."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.926,
+        "pixelArea": 194034,
+        "source": "Mapa_3.21(2).png"
+      }
+    },
+    {
+      "id": "mar-sombrio",
+      "name": "Mar Sombrío",
+      "status": "rotulo_del_mapa",
+      "color": "#7194b5",
+      "points": [
+        [
+          55,
+          1185
+        ],
+        [
+          108,
+          1159
+        ],
+        [
+          129,
+          1283
+        ],
+        [
+          188,
+          1366
+        ],
+        [
+          333,
+          1438
+        ],
+        [
+          490,
+          1451
+        ],
+        [
+          625,
+          1490
+        ],
+        [
+          649,
+          1530
+        ],
+        [
+          55,
+          1530
+        ]
+      ],
+      "description": "Aguas meridionales frente a la costa occidental de Isilme y el archipiélago de Ushios.",
+      "weather": {
+        "wind": "Corrientes de aire variable y largas calmas entre ráfagas.",
+        "waves": "Mar tendida alternada con oleajes de dirección cambiante.",
+        "currents": "Corrientes superficiales en las aguas del extremo suroccidental.",
+        "visibility": "Neblina oscura en la lejanía y bancos de bruma.",
+        "dangers": "Isletas poco visibles y canales sinuosos cerca de Ushios."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.82,
+        "pixelArea": 78922,
+        "source": "Mapa_3.21(2).png"
+      }
+    },
+    {
+      "id": "aguas-archipielago-esclavos",
+      "name": "Aguas del Archipiélago de los Esclavos",
+      "status": "nombre_descriptivo",
+      "color": "#c3a18e",
+      "points": [
+        [
+          1525,
+          543
+        ],
+        [
+          1648,
+          503
+        ],
+        [
+          1813,
+          519
+        ],
+        [
+          1954,
+          588
+        ],
+        [
+          2008,
+          643
+        ],
+        [
+          2008,
+          868
+        ],
+        [
+          1803,
+          884
+        ],
+        [
+          1644,
+          841
+        ],
+        [
+          1500,
+          734
+        ]
+      ],
+      "description": "La red de islotes, bahías y corredores marítimos que rodea Costa Sangrienta, Puerto Ramera y Bahía Kraken.",
+      "weather": {
+        "wind": "Vientos entre islotes con rachas divergentes.",
+        "waves": "Oleaje roto por arrecifes y estrechos pasos.",
+        "currents": "Derivas de canal y mareas entre islas.",
+        "visibility": "Cambios de visibilidad tras los islotes más altos.",
+        "dangers": "Rocas sumergidas, pasos estrechos y posibles emboscadas corsarias."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.809,
+        "pixelArea": 154935,
+        "source": "Mapa_3.21(2).png"
+      }
+    },
+    {
+      "id": "golfo-de-kider",
+      "name": "Golfo de Kider",
+      "status": "rotulo_del_mapa",
+      "color": "#86b6ac",
+      "points": [
+        [
+          1420,
+          420
+        ],
+        [
+          1470,
+          384
+        ],
+        [
+          1520,
+          414
+        ],
+        [
+          1510,
+          472
+        ],
+        [
+          1460,
+          496
+        ],
+        [
+          1410,
+          470
+        ]
+      ],
+      "description": "Golfo próximo a las desembocaduras de los cursos de agua de las Llanuras de Archlond.",
+      "weather": {
+        "wind": "Brisas canalizadas por la costa y las desembocaduras.",
+        "waves": "Aguas más abrigadas que en alta mar, con chop en los pasos.",
+        "currents": "Corriente de río mezclada con flujo de marea.",
+        "visibility": "Bruma costera y bancos de vapor sobre aguas poco profundas.",
+        "dangers": "Bajos y bancos de arena en los accesos fluviales."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.668,
+        "pixelArea": 8435,
+        "source": "Mapa_3.21(2).png"
+      }
+    },
+    {
+      "id": "estrecho-brumoso",
+      "name": "Estrecho Brumoso",
+      "status": "rotulo_del_mapa",
+      "color": "#b3b4cf",
+      "points": [
+        [
+          1540,
+          355
+        ],
+        [
+          1600,
+          339
+        ],
+        [
+          1660,
+          354
+        ],
+        [
+          1740,
+          360
+        ],
+        [
+          1780,
+          418
+        ],
+        [
+          1680,
+          440
+        ],
+        [
+          1530,
+          424
+        ]
+      ],
+      "description": "Paso costero hacia los accesos de Isla Negra, enlazado con las ensenadas del noreste.",
+      "weather": {
+        "wind": "Vientos encajonados entre costa e isla.",
+        "waves": "Oleaje corto e irregular, más severo contra viento.",
+        "currents": "Corrientes aceleradas en los puntos de menor anchura.",
+        "visibility": "Niebla que se concentra sobre los recodos.",
+        "dangers": "Arrecifes, salientes rocosos y estrechamientos repentinos."
+      },
+      "analysis": {
+        "waterPixelRatio": 0.885,
+        "pixelArea": 18374,
+        "source": "Mapa_3.21(2).png"
+      }
+    }
+  ]
+}
