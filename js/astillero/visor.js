@@ -1,4 +1,4 @@
-/* AETERNALIS · Astillero 1.0 · Simulador de mejoras sin persistencia.
+/* AETERNALIS · Astillero 1.1 · Simulador de mejoras sin persistencia.
    CSS en css/astillero.css. Reglamento: data/astillero/reglas.json.
    NO realiza compras ni modifica personajes, temas o cuentas. */
 (function () {
@@ -82,7 +82,7 @@
     var ship = findShip(state.ship);
     page.style.setProperty('--ae-na-accent',ship.accent);
     var hero = elem('section','ae-na-hero');
-    var shipPanel = elem('div','ae-na-illustration');
+    var shipPanel = elem('div','ae-na-illustration' + (ship.imageMode === 'scene' ? ' is-scene' : ' is-sprite'));
     shipPanel.appendChild(elem('div','ae-na-sea'));
     shipPanel.appendChild(img(ship.image,'ae-na-vessel',ship.name));
     var figureNote = elem('span','ae-na-figure-note','ILUSTRACIÓN DE CATÁLOGO · No representa modificaciones físicas automáticas');
@@ -101,6 +101,9 @@
      });
     shipInfo.appendChild(meta);
     shipInfo.appendChild(elem('p','ae-na-hint','El diseño cultural es ornamental. No otorga bonificaciones raciales, navales ni mecánicas.'));
+    var nauticalLink = elem('a','ae-na-carta-link','Explorar Carta Náutica ↗');
+    nauticalLink.href = document.getElementById('ae-carta-naval') ? '#ae-carta-naval' : BASE + 'carta-naval-preview.html';
+    shipInfo.appendChild(nauticalLink);
     hero.appendChild(shipInfo);
     page.appendChild(hero);
 
@@ -213,6 +216,9 @@
     if(state.notice){var status=elem('p','ae-na-status',state.notice);status.setAttribute('role','status');page.appendChild(status);}
     ROOT.appendChild(page);
     ROOT.setAttribute('data-ae-astillero','ready');
+    if(window.AeternalisAstillero && typeof CustomEvent !== 'undefined' && typeof window.dispatchEvent === 'function') {
+      window.dispatchEvent(new CustomEvent('aeternalis:astillero-change',{detail:window.AeternalisAstillero.getState()}));
+    }
   }
   function refresh(action, value) {
     main();
@@ -268,9 +274,14 @@
   Promise.all([load('data/astillero/reglas.json'),load('data/astillero/navios.json')])
     .then(function(all){
       if(all[0].schema!=='aeternalis-astillero-reglas-v1'||all[1].schema!=='aeternalis-astillero-navios-v1')throw Error('Esquema incompatible');
-      if(all[0].categories.length!==4||all[1].ships.length!==4)throw Error('Catálogos incompletos');
-      state.rules=all[0];state.ships=all[1];main();
-      window.AeternalisAstillero={version:'1.0.0',reset:function(){ROOT.querySelector('[data-action="reset"]').click();}};
+      if(all[0].categories.length!==4||all[1].ships.length!==8)throw Error('Catálogos incompletos');
+      state.rules=all[0];state.ships=all[1];
+      window.AeternalisAstillero={
+        version:'1.1.0',
+        getState:function(){return {ship:state.ship,levels:Object.assign({},state.levels),hoursPerHex:state.rules.categories[0].levels[state.levels.velas-1].hoursPerHex};},
+        reset:function(){var b=ROOT.querySelector('[data-action="reset"]');if(b)b.click();}
+      };
+      main();
     })
     .catch(function(e){
       ROOT.setAttribute('data-ae-astillero','error');
