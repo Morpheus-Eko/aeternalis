@@ -1,4 +1,4 @@
-# Códice de la Salud · instalación v2.4.0
+# Códice de la Salud · instalación v2.5.0
 
 **Vista de pruebas:** https://morpheus-eko.github.io/aeternalis/codice-salud/
 
@@ -15,6 +15,7 @@
 - `js/codice-salud/visor.js`: motor de lectura de páginas discretas, Brújula Arcana con búsqueda, apuntes, atlas, navegación por teclado y calculadora 1d100.
 - `data/codice-salud/compendio.json`: contenido editorial propuesto de las ocho razas, mestizaje, territorios, hierbas y archivo gráfico.
 - `assets/medicina/atlas-recortes-v01/indice-visor-racial.json`: selección de 15 grupos raza/sexo con imágenes del atlas separadas por figura, detalle y retrato, sin duplicar imágenes.
+- `data/codice-salud/iconografia-clinica-v01.json`: láminas de plantas, anatomía para los expedientes y utensilios de tratamientos. Sin reglas ni cálculos nuevos.
 - `data/pestilencias/enfermedades.json`: **única fuente de reglas, modificadores y secuelas** de las tres enfermedades; no alterado.
 - `codice-salud/index.html`: demostración GitHub Pages sin Foroactivo.
 - `foroactivo/HTML_CODICE_SALUD_PEGAR.txt`: marcador HTML mínimo.
@@ -30,3 +31,7 @@ Las imágenes del índice anatómico se descargan de manera diferida; las ilustr
 `v2.4.0`: integración de atlas anatómico comparado, con 329 recortes y variantes transparentes disponibles en el repositorio; 15 grupos seleccionados para el visor y laboratorio actualizado. Sintaxis JS y rutas de los recursos seleccionados verificadas en GitHub. Pendiente prueba visual en Foroactivo.
 
 `v1.0.0`: primera implementación separada del antiguo sistema de Pestilencias. Se preserva expresamente el carácter provisional de las ilustraciones de Montaraces, Enanos, Amarant y Sin’hair, para reemplazarlas con láminas propias cuando estén validadas. La regla de mestizaje se transcribe tal como fue comunicada (sexo determinado por la raza de la madre); no se derivan tablas ni reglas adicionales sobre la raza del descendiente.
+
+## Comprobación editorial v2.5.0
+
+Gabinete de control visual: https://morpheus-eko.github.io/aeternalis/codice-salud/iconografia.html. Verificar allí la correspondencia entre cada dibujo y su leyenda antes de aprobarlo como representación definitiva. Son estudios de referencia, no un atlas clínico oficial del universo. La publicación de Foroactivo sigue usando solo los dos elementos HTML existentes; el nuevo gabinete es opcional y no debe instalarse en el foro.
