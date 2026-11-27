@@ -1,4 +1,4 @@
-/* AETERNALIS · Tomo de Medicina · Códice de la Salud v2.6.1 · Folios delimitados; CSS y datos separados. */
+/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.0.0 · Folios delimitados; CSS y datos separados. */
 (function initCodiceSalud(){
  'use strict';
  const root=document.getElementById('ae-codice-salud');
@@ -15,7 +15,7 @@
  const MED=BASE+'assets/medicina/atlas-v01/';
  const EMBLEM=BASE+'assets/pestilencias/';
  const SECTION_NAMES={guarda:'Preliminares',anatomia:'De la carne',linajes:'De la generación',territorios:'De aires y tierras',herbario:'Materia médica',pestilencias:'De las pestilencias',cuidados:'De los cuidados',atlas:'Archivo anatómico'};
- const state={pages:[],sections:[],current:0,drawer:false,loaded:false,report:null,vit:15,race:'humano',prior:0,potion:false,spell:false,sequela:0,statBase:40,statPenalty:25,statReport:null};
+ const state={pages:[],sections:[],current:-1,drawer:false,drawerMode:'index',loaded:false,report:null,vit:15,race:'humano',prior:0,potion:false,spell:false,sequela:0,statBase:40,statPenalty:25,statReport:null};
  let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),clinicalAssets={herbs:Object.create(null),diseases:Object.create(null),care:null},turning=false;
  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
  function url(path){return /^https?:\/\//.test(path||'')?path:BASE+path;}
@@ -79,14 +79,16 @@
  function field(name,text){return '<div class="ac-field"><dt>'+esc(name)+'</dt><dd>'+esc(text)+'</dd></div>';}
  function note(text){return '<aside class="ac-marginalia">'+esc(text)+'</aside>';}
  function add(section,type,title,props){state.pages.push(Object.assign({section,type,title},props||{}));}
+ function alignSpread(section){if(state.pages.length%2!==0)add(section,'interleaf','Del umbral de los folios',{subtitle:'Lámina de guarda',voice:'Archivo del facultativo',status:'Ornamento de capítulo'});}
  const HERB_THEMES={'Flor del vaho azul':'montaraces','Raicilla de escarcha':'montaraces','Alga de farol':'yugen','Pétalo de zafiro tardío':'yugen','Resina de lianas quietas':'amarant','Helecho de gota roja':'amarant','Candelaria de veta':'enanos','Brezo de trébol negro':'elfos','Yerba del sendero bajo':'norin','Corteza de luz oblicua':'sinhair','Sal de junco negro':'humanos'};
  const TERRITORY_THEMES={'De las montañas':'montaraces','De las minas y los talleres':'enanos','De los valles cultivados':'norin','De las Tres Costas':'yugen'};
  const ARCHIVE_THEMES={'Altos Elfos':'elfos','Humanos':'humanos','Nórin':'norin','Yūgen':'yugen'};
  function buildPages(){
   state.pages=[];state.sections=[];
-  add('guarda','cover','El Códice de la Salud',{subtitle:'Del arte de conocer la carne y sus dolencias',image:MED+'01_laminas_originales/humanos.webp',voice:'Una recopilación de cirujanos, boticarios, parteras, sacerdotes, chamanes y viajeros',text:['No todo mal tiene nombre ni toda mano conoce su remedio. Estas hojas conservan las observaciones que las eras dejaron en los cuerpos y en la memoria.'],status:'Obra médica de ficción · edición de estudio'});
   add('guarda','contents','Tabla de folios',{subtitle:'Índice de las materias',voice:'El archivista'});
+  add('guarda','cover','El Códice de la Salud',{subtitle:'Del arte de conocer la carne y sus dolencias',image:MED+'01_laminas_originales/humanos.webp',voice:'Una recopilación de cirujanos, boticarios, parteras, sacerdotes, chamanes y viajeros',text:['No todo mal tiene nombre ni toda mano conoce su remedio. Estas hojas conservan las observaciones que las eras dejaron en los cuerpos y en la memoria.'],status:'Obra médica de ficción · edición de estudio'});
   handbook.intros.forEach(n=>add('guarda','essay',n.title,{subtitle:n.subtitle,voice:n.voice,text:n.text,image:n.image,status:'Testimonio literario'}));
+   alignSpread('anatomia');
   handbook.races.forEach(r=>{
    add('anatomia','race-figure',r.title,{race:r,subtitle:r.subtitle,voice:r.voice,image:r.image,caption:r.status==='ilustración provisional'?'Imagen provisional; no es anatomía racial aprobada':'Lámina anatómica de estudio',status:r.status});
    add('anatomia','race-notes','Notas sobre '+r.title,{race:r,subtitle:'Del cuerpo, los hábitos y sus riesgos',voice:r.voice,image:r.detail,caption:r.detailTitle,status:r.status});
@@ -94,8 +96,14 @@
   handbook.lineage.forEach(x=>add('linajes','essay',x.title,{subtitle:x.subtitle,voice:x.voice,text:x.text,image:x.image,status:'Principio de mestizaje comunicado; glosas pendientes'}));
   handbook.environments.forEach(x=>add('territorios','territory',x.title,{theme:TERRITORY_THEMES[x.title]||'general',territory:x,subtitle:x.place,voice:x.narrator,image:x.image,status:'Observación geográfica, no regla de enfermedad'}));
   add('herbario','essay','De las hierbas humildes',{subtitle:'El uso no es la cura',voice:'Apostilla del boticario',text:['En toda comarca se encuentran hojas y raíces que reconfortan. La planta que alivia una herida no detiene todas las fiebres, y un remedio mal preparado puede perjudicar a quien debía auxiliar.','El catálogo siguiente pertenece a la materia médica imaginada para el mundo del foro. No altera atributos, no revierte secuelas reglamentadas y no se utiliza como guía sanitaria real.'],image:'assets/codex/paginas/pergamino_arbol_01.webp',status:'Herbario propuesto, sin ventajas automáticas'});
-   handbook.herbs.forEach((h,i)=>add('herbario','herb',h.name.replace(/\*/g,''),{theme:HERB_THEMES[h.name]||'general',herb:h,subtitle:i<4?'Hierbas de botica y camino':'Hierbas de comarca',voice:h.source,status:h.status,image:h.image,marginImage:h.detail,caption:h.imageStatus||'Ilustración botánica preliminar, pendiente de aprobación'}));
+  alignSpread('herbario');
+  handbook.herbs.forEach((h,i)=>{
+   const meta={theme:HERB_THEMES[h.name]||'general',herb:h,subtitle:i<4?'Hierbas de botica y camino':'Hierbas de comarca',voice:h.source,status:h.status,image:h.image,marginImage:h.detail,caption:h.imageStatus||'Ilustración botánica preliminar, pendiente de aprobación'};
+   add('herbario','herb-plate',h.name.replace(/\*/g,''),Object.assign({},meta,{subtitle:'Lámina del herbolario · dibujo de estudio'}));
+   add('herbario','herb',h.name.replace(/\*/g,''),meta);
+  });
   add('pestilencias','essay','De las enfermedades conocidas',{subtitle:'Las tres pestilencias reglamentadas',voice:'Del libro de afecciones del foro',text:['De las observaciones dispersas nacieron tres expedientes con reglas propias: la Fiebre de Driadem, el Canto de la Orquídea Marchita y la Sangrenegra. Se conservan aquí sus umbrales, modificadores y secuelas sin reinterpretación.','La calculadora no lanza dados oficiales ni modifica personajes; solo ayuda a comprender las probabilidades del reglamento. Las hipótesis sobre el origen de los males se presentan como testimonios, no como hechos probados.'],image:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp',status:'Reglamento existente'});
+   alignSpread('pestilencias');
    add('pestilencias','disease-table','Tabla general de pestilencias',{subtitle:'Umbrales y protecciones autorizadas',voice:'Concordancia del reglamento original',image:'assets/pestilencias/cabecera-codice-pestilencias.webp',status:'Datos reglamentarios'});
    add('pestilencias','race-matrix','Tabla de resistencias',{subtitle:'Modificadores raciales en la exposición',voice:'Cuadro de consulta del reglamento original',image:'assets/medicina/atlas-v01/01_laminas_originales/humanos.webp',status:'Datos reglamentarios'});
   rules.diseases.forEach(d=>{
@@ -114,7 +122,7 @@
   handbook.archives.forEach(a=>add('atlas','archive',a.title,{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,subtitle:'Planchas conservadas para cotejo',voice:'Archivo de dibujos médicos',image:a.image,caption:a.note,status:a.status}));
   let previous='';state.pages.forEach((p,i)=>{p.number=i+1;if(p.section!==previous){state.sections.push({id:p.section,title:SECTION_NAMES[p.section],page:i});previous=p.section;}});
  }
- function isSingle(){return (root.getBoundingClientRect?root.getBoundingClientRect().width:root.clientWidth||1300)<730;}
+ function isSingle(){return (root.getBoundingClientRect?root.getBoundingClientRect().width:root.clientWidth||1300)<1180;}
  function visibleFirst(){return isSingle()?state.current:Math.floor(state.current/2)*2;}
  function adjacentIndex(){return isSingle()?null:visibleFirst()+1;}
  function compassButton(){return '<button type="button" class="ac-compass" data-action="compass" aria-expanded="'+(state.drawer?'true':'false')+'" aria-controls="ac-compass-panel" aria-label="Abrir o cerrar la Brújula Arcana">'+img('assets/codex/botones/gotico/boton_menu_gotico_01.webp','')+'<span>Brújula Arcana</span></button>';}
@@ -171,7 +179,7 @@
  root.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&state.drawer){state.drawer=false;render();const b=root.querySelector('.ac-compass');if(b)b.focus();return;}if(ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;if(ev.target.closest('input,textarea,select,summary,[contenteditable="true"]'))return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){ev.preventDefault();navigate(visibleFirst()+(ev.key==='ArrowRight'?1:-1)*(isSingle()?1:2));}});
  let oldSingle=null;function resized(){if(!state.loaded)return;const now=isSingle();if(oldSingle!==now){oldSingle=now;render();}};
  if(window.addEventListener)window.addEventListener('resize',resized);
- function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'2.6.1',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
+ function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'3.0.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
  fetch(THEME_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(t=>{
   if(!t||t.published!==true||!Array.isArray(t.themes))return;
   for(const item of t.themes){
