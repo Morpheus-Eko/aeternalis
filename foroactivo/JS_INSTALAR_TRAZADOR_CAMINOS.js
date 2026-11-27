@@ -4,7 +4,7 @@
 (function(){
  'use strict';
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='1.1.0';
+ var VERSION='1.2.0';
  function mount(){
   if(new URLSearchParams(window.location.search).get('cartografo')!=='1')return;
   if(!document.getElementById('aeternalis-atlas'))return;
@@ -18,6 +18,17 @@
    s.src=BASE+'js/supermapa-trazador.js?v='+VERSION;
    s.onerror=function(){console.error('[Aeternalis] No se pudo cargar el Trazador de Caminos.');};
    (document.head||document.documentElement).appendChild(s);
+  }
+  if(!document.getElementById('ae-manual-caminos-css')){
+   var css=document.createElement('link');css.rel='stylesheet';css.id='ae-manual-caminos-css';
+   css.href=BASE+'css/supermapa-manual-caminos.css?v='+VERSION;
+   (document.head||document.documentElement).appendChild(css);
+  }
+  if(!document.getElementById('ae-manual-caminos-js')){
+   var m=document.createElement('script');m.id='ae-manual-caminos-js';m.defer=true;
+   m.src=BASE+'js/supermapa-manual-caminos.js?v='+VERSION;
+   m.onerror=function(){console.error('[Aeternalis] No se pudo cargar el editor manual de caminos.');};
+   (document.head||document.documentElement).appendChild(m);
   }
  }
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount,{once:true});else mount();
