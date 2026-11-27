@@ -73,7 +73,7 @@
   if(!parts.length)return '';
   return '<div class="ac-care-illustrations" aria-label="Protecciones reglamentadas: ilustración ornamental">'+parts.join('')+'</div>';
  }
- function diseaseMotif(d){return d.id==='fd'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp':d.id==='com'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/organos.webp':'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp';}
+ function diseaseMotif(d){return d.id==='fd'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp':d.id==='com'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp':'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp';}
  function paragraphs(items){return (items||[]).filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');}
  function label(text){return '<span class="ac-overline">'+esc(text)+'</span>';}
  function field(name,text){return '<div class="ac-field"><dt>'+esc(name)+'</dt><dd>'+esc(text)+'</dd></div>';}
@@ -159,7 +159,7 @@
  function tableOfContents(){
   const rows=state.sections.map((section,i)=>{
    const art=SECTION_ART[section.id]||SECTION_ART.guarda;
-   return '<button type="button" class="ac-index-entry" data-jump="'+section.page+'" title="Abrir '+esc(section.title)+'">'+img(art.icon,'','ac-index-entry__symbol')+'<span class="ac-index-entry__text"><strong>'+esc(section.title)+'</strong><em>Folio '+(section.page+1)+'</em></span><span class="ac-index-entry__rule" aria-hidden="true"></span></button>';
+   return '<button type="button" class="ac-index-entry" data-jump="'+section.page+'" title="Abrir '+esc(section.title)+'">'+'<span class="ac-index-entry__sigil"><span class="ac-index-entry__fallback" aria-hidden="true">✥</span>'+img(art.icon,'','ac-index-entry__symbol')+'</span><span class="ac-index-entry__text"><strong>'+esc(section.title)+'</strong><em>Folio '+(section.page+1)+'</em></span><span class="ac-index-entry__rule" aria-hidden="true"></span></button>';
   }).join('');
   return '<div class="ac-index-chapter"><div class="ac-index-ornaments" aria-hidden="true">'+img(INDEX_ART.left,'','ac-index-ornament--left')+img(INDEX_ART.right,'','ac-index-ornament--right')+img(INDEX_ART.corner,'','ac-index-ornament--corner')+'</div><div class="ac-index-cartouche">'+img(INDEX_ART.seal,'','ac-index-seal')+'<p>Las materias del facultativo</p></div><div class="ac-contents-list">'+rows+'</div><div class="ac-index-terminus" aria-hidden="true">'+img(INDEX_ART.footer,'')+'</div></div>';
  }
@@ -173,10 +173,10 @@
  function pathologyDeterioration(d,context){
   if(!d||d.id!=='fd')return '';
   const examples=context==='clinical'?
-   [{path:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp',label:'Alteración del tejido · analogía ilustrada'}]:
-   [{path:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_frontal.webp',label:'Deterioro corporal · estudio comparativo'},
-    {path:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp',label:'Deterioro pulmonar · estudio comparativo'}];
-  return '<aside class="ac-deterioration-study" aria-label="Referencias anatómicas de deterioro corporal"><p class="ac-deterioration-study__eyebrow">Cuaderno de alteraciones orgánicas</p><div class="ac-deterioration-study__plates">'+examples.map(a=>'<figure><a href="'+esc(url(a.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar estudio anatómico">'+img(a.path,a.label)+'</a><figcaption>'+esc(a.label)+'</figcaption></figure>').join('')+'</div><p class="ac-deterioration-study__caution">Grabados procedentes del antiguo archivo de anatomía no muerta, reutilizados únicamente para ilustrar deterioro del cuerpo. No representan una transformación en no muerto, ni una lesión o fase oficialmente confirmada de la Fiebre de Driadem.</p></aside>';
+   [{path:'assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/tejido_necrosado.webp',archive:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp',label:'Alteración del tejido · analogía ilustrada'}]:
+   [{path:'assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_frontal.webp',archive:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_frontal.webp',label:'Deterioro corporal · estudio comparativo'},
+    {path:'assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/pulmones_necrosados.webp',archive:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp',label:'Deterioro pulmonar · estudio comparativo'}];
+  return '<aside class="ac-deterioration-study" aria-label="Referencias anatómicas de deterioro corporal"><p class="ac-deterioration-study__eyebrow">Cuaderno de alteraciones orgánicas</p><div class="ac-deterioration-study__plates">'+examples.map(a=>'<figure><a href="'+esc(url(a.archive||a.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar estudio anatómico">'+img(a.path,a.label)+'</a><figcaption>'+esc(a.label)+'</figcaption></figure>').join('')+'</div><p class="ac-deterioration-study__caution">Grabados procedentes del antiguo archivo de anatomía no muerta, reutilizados únicamente para ilustrar deterioro del cuerpo. No representan una transformación en no muerto, ni una lesión o fase oficialmente confirmada de la Fiebre de Driadem.</p></aside>';
  }
  function archiveRace(p){
   const a=p.archive,r=handbook.races.find(x=>x.id===a.raceId),gender=r&&atlasGallery(r,'figura');
