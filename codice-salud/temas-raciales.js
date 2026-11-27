@@ -37,7 +37,7 @@ const book=$('ae-book');book.classList.remove('is-turning');void book.offsetWidt
 }
 function move(delta){position=(position+delta+entries.length)%entries.length;update();}
 $('ae-previous').addEventListener('click',()=>move(-1));$('ae-next').addEventListener('click',()=>move(1));
-Promise.all(urls.map(u=>fetch(u).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}))).then(([book,themes,index])=>{
+Promise.all(urls.map((u,i)=>fetch(u).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).catch(err=>{if(i===2)return null;throw err;}))).then(([book,themes,index])=>{
 if(!Array.isArray(book.races)||!Array.isArray(themes.themes))throw Error('Catálogos no compatibles');
 atlas=index&&index.schema==='aeternalis-medicina-indice-racial-v1'&&index.razas||{};
 const byRace=new Map(book.races.map(x=>[x.id,x]));
