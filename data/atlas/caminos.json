@@ -9304,5 +9304,337 @@
       "confidence": "sugerencia",
       "checked": "pendiente"
     }
+  },
+  {
+    "id": "atlas-avalon-costera-engerlass-volker",
+    "from": "place-028",
+    "to": "place-039",
+    "kind": "trail",
+    "terrain": "forest",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1736,
+        "y": 80.8
+      },
+      {
+        "x": 1736,
+        "y": 97
+      },
+      {
+        "x": 1722,
+        "y": 105.1
+      },
+      {
+        "x": 1722,
+        "y": 121.2
+      },
+      {
+        "x": 1722,
+        "y": 137.4
+      },
+      {
+        "x": 1736,
+        "y": 145.5
+      },
+      {
+        "x": 1750,
+        "y": 153.6
+      },
+      {
+        "x": 1764,
+        "y": 145.5
+      },
+      {
+        "x": 1778,
+        "y": 153.6
+      },
+      {
+        "x": 1792,
+        "y": 161.7
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_costera_avalon_2026_11_27",
+    "reason": "Camino punteado rojizo en Mapa 3.21; curva costera trazada por hexágonos y pendiente de validación cartográfica final.",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "rojo",
+      "method": "inspeccion_visual_puntos_y_red_hexagonal_con_penalizacion_agua",
+      "hexagons": 11,
+      "coastalWaterMaskPct": 8.3,
+      "confidence": "propuesta_visual",
+      "checked": "pendiente"
+    },
+    "priority": "normal"
+  },
+  {
+    "id": "atlas-avalon-costera-ahogado-kyder",
+    "from": "place-043",
+    "to": "place-046",
+    "kind": "trail",
+    "terrain": "normal",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1582,
+        "y": 299.1
+      },
+      {
+        "x": 1582,
+        "y": 315.2
+      },
+      {
+        "x": 1568,
+        "y": 323.3
+      },
+      {
+        "x": 1554,
+        "y": 315.2
+      },
+      {
+        "x": 1540,
+        "y": 323.3
+      },
+      {
+        "x": 1526,
+        "y": 315.2
+      },
+      {
+        "x": 1512,
+        "y": 323.3
+      },
+      {
+        "x": 1498,
+        "y": 331.4
+      },
+      {
+        "x": 1484,
+        "y": 339.5
+      },
+      {
+        "x": 1470,
+        "y": 347.6
+      },
+      {
+        "x": 1456,
+        "y": 355.6
+      },
+      {
+        "x": 1456,
+        "y": 371.8
+      },
+      {
+        "x": 1442,
+        "y": 363.7
+      },
+      {
+        "x": 1428,
+        "y": 371.8
+      },
+      {
+        "x": 1414,
+        "y": 363.7
+      },
+      {
+        "x": 1400,
+        "y": 371.8
+      },
+      {
+        "x": 1414,
+        "y": 379.9
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_costera_avalon_2026_11_27",
+    "reason": "Camino punteado rojizo en Mapa 3.21; curva costera trazada por hexágonos y pendiente de validación cartográfica final.",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "rojo",
+      "method": "inspeccion_visual_puntos_y_red_hexagonal_con_penalizacion_agua",
+      "hexagons": 18,
+      "coastalWaterMaskPct": 0,
+      "confidence": "propuesta_visual",
+      "checked": "pendiente"
+    },
+    "priority": "normal"
+  },
+  {
+    "id": "atlas-avalon-costera-alba-kyder",
+    "from": "place-049",
+    "to": "place-046",
+    "kind": "trail",
+    "terrain": "normal",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1204,
+        "y": 468.8
+      },
+      {
+        "x": 1204,
+        "y": 452.6
+      },
+      {
+        "x": 1218,
+        "y": 444.6
+      },
+      {
+        "x": 1232,
+        "y": 452.6
+      },
+      {
+        "x": 1246,
+        "y": 444.6
+      },
+      {
+        "x": 1260,
+        "y": 452.6
+      },
+      {
+        "x": 1274,
+        "y": 444.6
+      },
+      {
+        "x": 1288,
+        "y": 452.6
+      },
+      {
+        "x": 1302,
+        "y": 444.6
+      },
+      {
+        "x": 1302,
+        "y": 428.4
+      },
+      {
+        "x": 1302,
+        "y": 412.2
+      },
+      {
+        "x": 1288,
+        "y": 404.1
+      },
+      {
+        "x": 1288,
+        "y": 388
+      },
+      {
+        "x": 1288,
+        "y": 371.8
+      },
+      {
+        "x": 1302,
+        "y": 363.7
+      },
+      {
+        "x": 1316,
+        "y": 355.6
+      },
+      {
+        "x": 1330,
+        "y": 363.7
+      },
+      {
+        "x": 1344,
+        "y": 355.6
+      },
+      {
+        "x": 1358,
+        "y": 347.6
+      },
+      {
+        "x": 1372,
+        "y": 355.6
+      },
+      {
+        "x": 1386,
+        "y": 363.7
+      },
+      {
+        "x": 1400,
+        "y": 371.8
+      },
+      {
+        "x": 1414,
+        "y": 379.9
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_costera_avalon_2026_11_27",
+    "reason": "Camino punteado rojizo en Mapa 3.21; curva costera trazada por hexágonos y pendiente de validación cartográfica final.",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "rojo",
+      "method": "inspeccion_visual_puntos_y_red_hexagonal_con_penalizacion_agua",
+      "hexagons": 24,
+      "coastalWaterMaskPct": 0,
+      "confidence": "propuesta_visual",
+      "checked": "pendiente"
+    },
+    "priority": "normal"
+  },
+  {
+    "id": "atlas-avalon-costera-elyssfor-faro",
+    "from": "place-044",
+    "to": "place-042",
+    "kind": "trail",
+    "terrain": "mountain",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1666,
+        "y": 315.2
+      },
+      {
+        "x": 1680,
+        "y": 307.1
+      },
+      {
+        "x": 1680,
+        "y": 291
+      },
+      {
+        "x": 1694,
+        "y": 282.9
+      },
+      {
+        "x": 1708,
+        "y": 291
+      },
+      {
+        "x": 1722,
+        "y": 282.9
+      },
+      {
+        "x": 1736,
+        "y": 274.8
+      },
+      {
+        "x": 1750,
+        "y": 266.7
+      },
+      {
+        "x": 1764,
+        "y": 258.7
+      },
+      {
+        "x": 1764,
+        "y": 242.5
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_costera_avalon_2026_11_27",
+    "reason": "Camino punteado rojizo en Mapa 3.21; curva costera trazada por hexágonos y pendiente de validación cartográfica final.",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "rojo",
+      "method": "inspeccion_visual_puntos_y_red_hexagonal_con_penalizacion_agua",
+      "hexagons": 11,
+      "coastalWaterMaskPct": 8.3,
+      "confidence": "propuesta_visual",
+      "checked": "pendiente"
+    },
+    "priority": "normal"
   }
 ]
