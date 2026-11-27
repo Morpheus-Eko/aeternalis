@@ -21,7 +21,7 @@ function Heap(){this.a=[];}
 Heap.prototype.push=function(n){var a=this.a,i=a.length;a.push(n);while(i){var k=(i-1)>>1;if(a[k][0]<=n[0])break;a[i]=a[k];i=k;}a[i]=n;};
 Heap.prototype.pop=function(){var a=this.a,v=a[0],last=a.pop();if(a.length){var i=0;while(true){var k=2*i+1;if(k>=a.length)break;if(k+1<a.length&&a[k+1][0]<a[k][0])k++;if(last[0]<=a[k][0])break;a[i]=a[k];i=k;}a[i]=last;}return v;};
 Heap.prototype.size=function(){return this.a.length;};
-function start(host,evidence){
+function start(host,evidence,audit){
  if(window.__AETERNALIS_TRAZADOR_CAMINOS__)return;
  var L=window.L,map=host.map,D=host.data,grid=evidence.coordinateSystem;
  if(!L||!map||!D||!grid)throw Error('El Atlas no está inicializado');
@@ -32,20 +32,21 @@ function start(host,evidence){
  var all=new Map(evidence.cells.map(function(c){return [key(c),c];}));
  var list=host.getEdges().filter(function(e){return e.kind!=='sea'&&D.places.some(function(p){return p.id===e.from;})&&D.places.some(function(p){return p.id===e.to;});});
  var byEdge=new Map(list.map(function(e){return [e.id,e];}));
+ var auditById=new Map(((audit&&audit.routes)||[]).map(function(e){return [e.id,e];}));
  var byCity=new Map(D.places.map(function(p){return [p.id,p];}));
  var state={active:false,evidence:true,mode:'inspect',edgeId:list.length?list[0].id:'',points:[],waypoints:[],blocked:[],lastCell:null,quality:null};
  var group=L.layerGroup(),selectedLayer=L.layerGroup(),cursorLayer=L.layerGroup(),evidenceLayer=null;
  var button=document.createElement('button');button.type='button';button.id='ae-toggle-trazador';button.textContent='⌁ Calcar caminos';button.setAttribute('aria-pressed','false');button.title='Analizar y corregir caminos siguiendo los hexágonos';toolbar.appendChild(button);
  var panel=document.createElement('aside');panel.id='ae-trazador-panel';panel.className='ae-trazador-panel';panel.hidden=true;viewport.appendChild(panel);
  panel.innerHTML=`<header class="ae-trazador-head"><span>ATLAS DE LOS REINOS · MODO CARTÓGRAFO</span><button id="ae-trazador-close" type="button" aria-label="Cerrar trazador">✕</button><h2>Caminos del mapa</h2><p>Reconstruye las rutas punteadas, hexágono por hexágono.</p></header>
- <div class="ae-trazador-scroll"><section class="ae-trazador-section"><h3>Conexión del Atlas</h3><label for="ae-trazador-edge">Tramo a examinar</label><select id="ae-trazador-edge"></select><button id="ae-trazador-plan" class="ae-trazador-primary" type="button">Detectar recorrido</button><div id="ae-trazador-summary" class="ae-trazador-summary" aria-live="polite"></div></section>
+ <div class="ae-trazador-scroll"><section class="ae-trazador-section"><h3>Conexión del Atlas</h3><label for="ae-trazador-edge">Tramo a examinar</label><select id="ae-trazador-edge"></select><button id="ae-trazador-plan" class="ae-trazador-primary" type="button">Detectar recorrido</button><button type="button" id="ae-trazador-next-risk">Siguiente tramo que requiere revisión</button><div id="ae-trazador-summary" class="ae-trazador-summary" aria-live="polite"></div></section>
  <section class="ae-trazador-section"><h3>Inspección de hexágonos</h3><label class="ae-trazador-check"><input id="ae-trazador-pigment" type="checkbox" checked> Mostrar puntos detectados</label><label for="ae-trazador-mode">Acción al pulsar el mapa</label><select id="ae-trazador-mode"><option value="inspect">Inspeccionar hexágono</option><option value="waypoint">Obligar a pasar por aquí</option><option value="block">Bloquear / desbloquear hexágono</option></select><div class="ae-trazador-buttons"><button type="button" id="ae-trazador-undo">Quitar último paso</button><button type="button" id="ae-trazador-clear">Limpiar correcciones</button></div><div id="ae-trazador-cell" class="ae-trazador-cell" aria-live="polite">Selecciona un hexágono del mapa para consultar los pigmentos y la continuidad del camino.</div></section>
  <section class="ae-trazador-section"><h3>Revisión y publicación</h3><p class="ae-trazador-muted">Los caminos propuestos permanecen sin confirmar. La aceptación modifica únicamente tu borrador local; exporta el JSON para publicarlo.</p><button type="button" class="ae-trazador-primary" id="ae-trazador-accept">Aceptar trazado revisado</button><button type="button" id="ae-trazador-apply">Aplicar al Atlas local</button><button type="button" id="ae-trazador-export">Exportar cartografía revisada (JSON)</button><button type="button" id="ae-trazador-import">Importar correcciones</button><input type="file" id="ae-trazador-file" accept=".json,application/json" hidden><div id="ae-trazador-save-note" class="ae-trazador-muted"></div></section>
  <p class="ae-trazador-foot">Mapa 3.21 · Radio hexagonal ${R} · Detección cromática orientativa. Una coincidencia de pigmento no demuestra por sí sola la existencia de una ruta.</p></div>`;
  var get=function(id){return document.getElementById('ae-trazador-'+id);};
  var dropdown=get('edge');
  var ordered=list.slice().sort(function(a,b){var A=byCity.get(a.from),B=byCity.get(a.to);return ((A&&A.name)||'').localeCompare((B&&B.name)||'','es');});
- ordered.forEach(function(e){var a=byCity.get(e.from),b=byCity.get(e.to),op=document.createElement('option');op.value=e.id;op.textContent=(a?a.name:e.from)+' → '+(b?b.name:e.to)+' · '+(e.kind==='road'?'camino':'senda');dropdown.appendChild(op);});
+ ordered.forEach(function(e){var a=byCity.get(e.from),b=byCity.get(e.to),op=document.createElement('option');op.value=e.id;var auditRow=auditById.get(e.id);var badge=auditRow?(auditRow.status==='sin_continuidad'?' · SIN CONTINUIDAD':auditRow.confidence==='baja'?' · REVISAR':auditRow.confidence==='alta'?' · COINCIDENCIA ALTA':' · COINCIDENCIA MEDIA'):'';op.textContent=(a?a.name:e.from)+' → '+(b?b.name:e.to)+' · '+(e.kind==='road'?'camino':'senda')+badge;dropdown.appendChild(op);});
  dropdown.value=state.edgeId;
  function center(c){return [R*1.5*c[0],S*(c[1]+c[0]/2)];}
  function pos(c){var p=center(c);return L.latLng(-p[1],p[0]);}
@@ -124,6 +125,7 @@ function start(host,evidence){
  get('mode').addEventListener('change',function(e){state.mode=e.target.value;});
  dropdown.addEventListener('change',function(){select(dropdown.value);warning('');});
  get('plan').addEventListener('click',function(){refresh(true);});
+ get('next-risk').addEventListener('click',function(){var flagged=ordered.filter(function(e){var a=auditById.get(e.id);return a&&(a.status==='sin_continuidad'||a.confidence==='baja')&&!storage.accepted[e.id];});if(!flagged.length){warning('No quedan tramos de baja coincidencia pendientes en la auditoría.');return;}var index=flagged.findIndex(function(e){return e.id===state.edgeId;});select(flagged[(index+1)%flagged.length].id);refresh(true);warning('Revisión prioritaria: tramo con trazado débil o sin continuidad detectada.');});
  get('undo').addEventListener('click',function(){state.waypoints.pop();localEdit();refresh(false);});
  get('clear').addEventListener('click',function(){if(!window.confirm('¿Quitar los puntos obligatorios y bloqueos del tramo?'))return;state.waypoints=[];state.blocked=[];localEdit();refresh(false);});
  get('accept').addEventListener('click',function(){if(!state.quality||!state.points.length)return;if(!window.confirm('¿Has contrastado esta ruta con los puntos dibujados? La aprobación es manual y se guardará en este navegador.'))return;storage.accepted[state.edgeId]={path:state.points.map(function(c){return c.slice();}),coverage:state.quality.coverage,grade:state.quality.grade,approvedAt:new Date().toISOString(),source:'Mapa_3.21(2).png'};keep();refresh(false);warning('Tramo aprobado. Puedes exportar el JSON para integrarlo a la cartografía.');});
@@ -138,12 +140,12 @@ function start(host,evidence){
   localEdit();refresh(false);
  });
  showLayers();
- window.__AETERNALIS_TRAZADOR_CAMINOS__={version:'1.0.0',stats:evidence.stats,getState:function(){return {edgeId:state.edgeId,active:state.active,mode:state.mode,waypoints:state.waypoints.length,blocked:state.blocked.length,quality:state.quality&&{hexes:state.quality.hexes,coverage:state.quality.coverage,grade:state.quality.grade},acceptedCount:Object.keys(storage.accepted).length};},analyze:function(id){if(!byEdge.has(id))return null;state.edgeId=id;state.waypoints=[];state.blocked=[];return route();},getEvidence:function(q,r){return sample([q,r]);}};
+ window.__AETERNALIS_TRAZADOR_CAMINOS__={version:'1.1.0',stats:evidence.stats,auditStats:audit&&audit.statistics,getState:function(){return {edgeId:state.edgeId,active:state.active,mode:state.mode,waypoints:state.waypoints.length,blocked:state.blocked.length,quality:state.quality&&{hexes:state.quality.hexes,coverage:state.quality.coverage,grade:state.quality.grade},acceptedCount:Object.keys(storage.accepted).length};},analyze:function(id){if(!byEdge.has(id))return null;state.edgeId=id;state.waypoints=[];state.blocked=[];return route();},getEvidence:function(q,r){return sample([q,r]);}};
  if(new URLSearchParams(location.search).get('caminos')==='1'){state.active=true;showLayers();select(state.edgeId);}
 }
 var attempts=0;
 function wait(){var api=window.__AE_ATLAS_LEAFLET_DEBUG__;
- if(api&&api.map&&api.data&&api.getEdges&&window.L){clearInterval(timer);fetch(ROOT+DATA+'?v=1.0.0').then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(function(d){if(d.schema!=='aeternalis-caminos-evidencia-v1')throw Error('Datos incompatibles');start(api,d);}).catch(function(err){console.error('[Aeternalis caminos]',err);window.__AETERNALIS_TRAZADOR_LOADING__=false;});return;}
+ if(api&&api.map&&api.data&&api.getEdges&&window.L){clearInterval(timer);Promise.all([fetch(ROOT+DATA+'?v=1.1.0').then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}),fetch(ROOT+'data/atlas/caminos-auditoria.json?v=1.1.0').then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();})]).then(function(d){if(d[0].schema!=='aeternalis-caminos-evidencia-v1'||d[1].schema!=='aeternalis-auditoria-caminos-v1')throw Error('Datos incompatibles');start(api,d[0],d[1]);}).catch(function(err){console.error('[Aeternalis caminos]',err);window.__AETERNALIS_TRAZADOR_LOADING__=false;});return;}
  if(++attempts>100){clearInterval(timer);window.__AETERNALIS_TRAZADOR_LOADING__=false;console.warn('[Aeternalis caminos] El Atlas no está disponible');}
 }
 var timer=setInterval(wait,350);wait();
