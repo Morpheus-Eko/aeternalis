@@ -35,8 +35,16 @@ Se mapearon tres pigmentos que faltaban: **blanco**, **verde oscuro** y **negro*
 - [Metodología y conexiones incorporadas](docs/VERDANTEYL_RUTAS_PUNTEADAS_2026_11_27.md)
 - [Evidencia de pigmentos](data/atlas/caminos-pigmentos-verdanteyl-elfos.json) y [trazados candidatos](data/atlas/caminos-rutas-sur-candidatas.json)
 
+## Corrección del litoral élfico y Verdanteyl · 27 de noviembre de 2026
+
+Se reconstruyeron **20 tramos** sobre los puntos impresos, incluso donde las letras del mapa ocultan parte del camino: **Comarca Esmeralda → Molino Blanco → Dulcesidra → Eirae → Guardia Zytheria → Fohn’Veridan** y las costas de **Fallenor, Galanor e Ithar’iamil**. Se agregaron cinco enlaces y se retiraron dos atajos redundantes; el Atlas tiene ahora **170 conexiones**, manteniendo las 31 travesías marítimas sin cambios. El nombre de `place-309` se corrigió de *Silvanys* a **Sylvanis** según el raster.
+
+- [Supermapa con los caminos de costa](https://morpheus-eko.github.io/aeternalis/supermapa-rutas-preview.html)
+- [Auditoría de caminos costeros y criterio de interpolación bajo nombres](docs/REVISION_LITORAL_GALANOR_ITHARIAMIL_2026_11_27.md)
+- [Secuencias de hexágonos y anclajes](data/atlas/caminos-trazados-costeros-2026-11-27.json)
+
 ## Estado
-Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **167 conexiones** actuales del Atlas son propuestas, no carreteras confirmadas; 23 cuentan con geometría cartográfica adicional revisable.
+Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **170 conexiones** actuales del Atlas son propuestas, no carreteras confirmadas; 20 trazados litorales fueron revisados y los demás conservan el estado correspondiente a su auditoría.
 
 ## Carpetas
 - `data/atlas/localidades/`: fichas completas de ciudades, pueblos y lugares singulares, agrupadas por territorio para edición colaborativa.
