@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v3.3.0
+# Aeternalis · Tomo de Medicina v3.6.0
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,7 +11,7 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.3.0` y `js/codice-salud/visor.js?v=3.3.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.6.0` y `js/codice-salud/visor.js?v=3.6.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
@@ -156,3 +156,13 @@ Se eliminó el **fallback automático de una misma glosa por sección**, así co
 Se añadieron 21 glosas específicas de páginas, con 19 firmas distintas; se reescribieron las ocho notas del archivo racial para evitar fórmulas repetidas y se distinguieron los comentarios de dos láminas de deterioro de Driadem. El fichero narrativo `data/codice-salud/apostillas-facultativo-v01.json` está en **v1.2.0** y contiene **115 textos distintos en su catálogo** (incluidas entradas legadas no reutilizadas automáticamente).
 
 **Validación con lector simulado:** 105 folios, 53 pliegos, 103 glosas efectivamente mostradas en su recorrido único; **103 textos diferentes, ninguna glosa duplicada**. Todas tienen firma. El panel lateral Notas muestra la apostilla concreta o informa que no se conserva ninguna para esa página. Las reglas y las calculadoras siguen intactas. Pendiente la inspección en navegador Foroactivo real.
+
+## Fase 9 · Archivo anatómico a doble página · v3.6.0
+
+El **Archivo Anatómico** ya no repite las descripciones de la anatomía racial: se presenta como ocho pliegos de dos láminas cada uno. El orden es **varón en la hoja izquierda y mujer en la derecha** para elfos, humanos, Nórin, Yūgen, montaraces, enanos y Sin'hair; las **Amarant**, exclusivamente femeninas, tienen dos planchas de modelos femeninos diferentes.
+
+**Láminas:** las 16 fuentes originales WebP completas, sin recortes, están indexadas en `data/codice-salud/archivo-laminas-completas-v01.json?v=1.1.0`. Se verificaron contra el árbol de GitHub. Cada folio incluye una nota breve distinta y la firma del dibujante o facultativo con localidad, sin repetir el lore racial.
+
+**Navegación y otras correcciones:** marcador **Índice** en primer lugar entre las pestañas del canto; en la sección de Pestilencias, el antiguo asset con texto incrustado es reemplazado por un frontispicio de libros y filigranas, con títulos reales en HTML. Todas las novedades se cargan desde el maestro `3.6.0`; no necesitan cambios en el contenedor HTML de Foroactivo.
+
+**Validación con visor simulado:** 114 folios, 8 pares de atlas, 16 imágenes completas y 16 notas distintas. El orden de los sexos y la primera posición del marcador Índice pasaron las comprobaciones. Falta una inspección visual en el navegador real de Foroactivo.
