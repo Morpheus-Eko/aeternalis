@@ -52,3 +52,14 @@ Los nueve recursos visuales WebP están publicados en `assets/medicina/tomo-v02/
 `assets/medicina/tomo-v02/catalogo-tematico.json` contiene el estado de publicación, integridad de cada imagen y rutas utilizadas por el visor. Al abrir el libro aparece primero la cubierta **sin títulos impresos**; pulsarla abre el índice. En las páginas anatómicas cambia el fondo según la raza. El movimiento de hojas 3D se aplica a cambios adyacentes; el salto directo desde el índice no realiza giros encadenados. Se respeta `prefers-reduced-motion`.
 
 Botones de retroceder y avanzar: imágenes sin rótulos visibles, tamaño equivalente, accesibles por nombre ARIA. Los mecanismos y las ilustraciones deberán comprobarse también en Foroactivo, donde la hoja de estilo del tema puede condicionar los tamaños.
+
+
+## Fase 2 · Hojas raciales temáticas
+
+La cubierta, los ocho fondos raciales WebP y sus hashes se encuentran en `assets/medicina/tomo-v02/catalogo-tematico.json`. Cada tema añade ahora dos referencias reutilizadas del inventario de Codex: `ornament` y `divider`, con un `accent` común para encabezados, campos y notas marginales. No hay títulos ni datos raciales pintados sobre las imágenes.
+
+**Laboratorio visual:** [Comparar los ocho folios](./temas-raciales.html). Este visor independiente utiliza `temas-raciales.html`, `temas-raciales.css` y `temas-raciales.js`; permite revisar las ocho ornamentaciones y las láminas anatómicas sin recorrer el tomo ni modificar fichas.
+
+En el visor principal, la raza se aplica a las dos páginas anatómicas de cada pueblo y a los capítulos de entorno, herbario y archivo cuando existe una adscripción territorial inequívoca. Las materias interraciales conservan el pergamino general para no sugerir que una sola raza les pertenece. La visualización no implica que las cualidades médicas provisionales sean canónicas.
+
+La Fase 2 es una actualización visual. Las animaciones de paso, la paginación, los cálculos 1d100 y el reglamento original de pestilencias permanecen separados de estos assets.
