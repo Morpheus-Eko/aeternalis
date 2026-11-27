@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-26-supermapa-con-carta-naval-v2",
+  "revision": "2026-11-26-supermapa-caminos-hexagonal-v1",
   "counts": {
     "places": 118,
     "regions": 24,
@@ -8,7 +8,14 @@
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
-    "nauticalPoints": 17
+    "nauticalPoints": 17,
+    "landHexesInspected": 8801,
+    "landHexesWithPigment": 2027,
+    "landRoadsAudited": 134,
+    "landRoadsHigh": 66,
+    "landRoadsMedium": 26,
+    "landRoadsLow": 34,
+    "landRoadsDisconnected": 8
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -33,8 +40,10 @@
       "routes": "data/atlas/naval/rutas-por-agua.json",
       "regions": "data/atlas/naval/zonas-maritimas.json",
       "ports": "data/atlas/naval/puertos.json"
-    }
+    },
+    "roadEvidence": "data/atlas/caminos-evidencia.json",
+    "roadAudit": "data/atlas/caminos-auditoria.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Datos territoriales existentes intactos. La Carta Náutica es una capa adicional para el Supermapa: nodos de agua detectados sobre Mapa 3.21, rutas que siguen el pigmento azul y polígonos marítimos editables. No reemplaza caminos ni regiones terrestres."
+  "note": "118 localidades, 24 regiones y 165 conexiones originales intactas. 134 tramos terrestres auditados por hexágonos: 66 alta coincidencia cromática, 26 media, 34 baja y 8 sin continuidad. Todos permanecen como propuestas hasta revisión manual. Edición por JS independiente del Supermapa."
 }
