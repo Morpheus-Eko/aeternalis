@@ -50,4 +50,8 @@ Próximas iteraciones propuestas: relación visual con el Supermapa, imágenes e
 
 ## Criterio definitivo de assets · 27/11/2026
 
-Todos los títulos, subtítulos, etiquetas, pestañas, botones y textos se renderizan como HTML y heredan la familia tipográfica del foro. **Está prohibido usar imágenes con títulos o palabras incrustadas como controles.** Los assets de esta sección se reservan para símbolos sin texto, bustos, estudios anatómicos de distintas razas, dibujos de patologías, ilustraciones marginales y elementos decorativos. El visor v1.2 elimina la cabecera con letras dibujadas, los botones rotulados como imagen y el botón gráfico de cálculo. El índice conserva momentáneamente los emblemas existentes como elementos ilustrativos, que podrán sustituirse por bustos sin textos incrustados.
+**Solo los títulos y encabezados usan texto editable con la tipografía del foro.** Las pestañas de Síntomas, Exposición y Expediente, así como Calcular exposición, conservan sus assets gráficos. Los controles para avanzar, retroceder y regresar al índice son piezas ilustradas del repertorio gótico de Aeternalis. Los bustos, esquemas anatómicos y dibujos de enfermedades se reservarán para las páginas del libro. Las normas se mantienen en el archivo JSON.
+
+## Navegación de libro v1.3
+
+Los controles se cargan desde `assets/codex/botones/gotico/`: `boton_avanzar_gotico_01.webp`, `boton_retroceder_gotico_02.webp`, `boton_indice_gotico_01.webp`. La navegación es bidireccional y mantiene el pliego y expediente seleccionados sin borrar datos de VIT, raza o exposición. Se agregaron etiquetas ARIA y se conserva el acceso mediante teclado.
