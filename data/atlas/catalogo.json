@@ -1,9 +1,9 @@
 {
   "map": {
-    "src": "https://2img.net/i.imgur.com/sS5W8pV.jpeg",
+    "src": "https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.1",
     "width": 2048,
     "height": 1571,
-    "rasterDisplay": "Alta resolución de 4100 × 3146, coordenadas lógicas 2048 × 1571",
+    "rasterDisplay": "Mapa 3.3 (2048 × 1571). Respaldo automático 3.21 hasta publicar la imagen en GitHub.",
     "newRasterPending": {
       "filename": "Mapa_3.3.png",
       "variants": [
@@ -13,7 +13,8 @@
       "logicalWidth": 2048,
       "logicalHeight": 1571,
       "status": "pendiente_de_publicacion_en_github"
-    }
+    },
+    "fallback": "https://2img.net/i.imgur.com/sS5W8pV.jpeg"
   },
   "kingdomNames": {
     "arcadia": "Sacro Imperio de Arcadia",
