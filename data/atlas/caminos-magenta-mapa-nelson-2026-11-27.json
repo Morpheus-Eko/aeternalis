@@ -1,0 +1,470 @@
+{
+  "schema": "aeternalis-caminos-magenta-v1",
+  "revision": "2026-11-27",
+  "sourceRaster": "Mapa_Nelson.png (entregado por el usuario, no publicado como asset)",
+  "logicalCanvas": {
+    "width": 2048,
+    "height": 1571
+  },
+  "method": "deteccion HSV del pigmento magenta y búsqueda de camino de costo mínimo sobre distancia a píxeles magenta; simplificación poligonal (tolerancia aproximada 3.5 px); sólo se aceptaron caminos con alta correspondencia y extremos próximos a la red magenta",
+  "statistics": {
+    "totalEdges": 167,
+    "terrestrialEdges": 136,
+    "marineEdgesPreserved": 31,
+    "updatedRoads": 101,
+    "pendingInspection": 35,
+    "updatedGeometries": 101
+  },
+  "updatedRoutes": [
+    {
+      "id": "base-001",
+      "controlPoints": 2
+    },
+    {
+      "id": "base-002",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-004",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-005",
+      "controlPoints": 15
+    },
+    {
+      "id": "base-007",
+      "controlPoints": 1
+    },
+    {
+      "id": "base-008",
+      "controlPoints": 3
+    },
+    {
+      "id": "base-009",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-010",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-011",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-012",
+      "controlPoints": 12
+    },
+    {
+      "id": "base-013",
+      "controlPoints": 2
+    },
+    {
+      "id": "base-014",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-015",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-016",
+      "controlPoints": 10
+    },
+    {
+      "id": "base-017",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-018",
+      "controlPoints": 3
+    },
+    {
+      "id": "base-019",
+      "controlPoints": 14
+    },
+    {
+      "id": "base-020",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-024",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-025",
+      "controlPoints": 1
+    },
+    {
+      "id": "base-026",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-028",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-031",
+      "controlPoints": 2
+    },
+    {
+      "id": "base-033",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-034",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-036",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-037",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-038",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-039",
+      "controlPoints": 1
+    },
+    {
+      "id": "base-040",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-043",
+      "controlPoints": 10
+    },
+    {
+      "id": "base-045",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-046",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-047",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-048",
+      "controlPoints": 10
+    },
+    {
+      "id": "base-050",
+      "controlPoints": 11
+    },
+    {
+      "id": "base-051",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-052",
+      "controlPoints": 15
+    },
+    {
+      "id": "base-053",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-054",
+      "controlPoints": 1
+    },
+    {
+      "id": "base-055",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-056",
+      "controlPoints": 2
+    },
+    {
+      "id": "base-057",
+      "controlPoints": 1
+    },
+    {
+      "id": "base-058",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-063",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-064",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-068",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-069",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-070",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-075",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-076",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-077",
+      "controlPoints": 11
+    },
+    {
+      "id": "base-078",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-079",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-080",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-081",
+      "controlPoints": 13
+    },
+    {
+      "id": "base-088",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-089",
+      "controlPoints": 19
+    },
+    {
+      "id": "base-090",
+      "controlPoints": 13
+    },
+    {
+      "id": "base-091",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-092",
+      "controlPoints": 2
+    },
+    {
+      "id": "base-093",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-094",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-095",
+      "controlPoints": 13
+    },
+    {
+      "id": "base-096",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-099",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-100",
+      "controlPoints": 4
+    },
+    {
+      "id": "base-101",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-102",
+      "controlPoints": 16
+    },
+    {
+      "id": "base-103",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-104",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-105",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-106",
+      "controlPoints": 5
+    },
+    {
+      "id": "base-107",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-108",
+      "controlPoints": 29
+    },
+    {
+      "id": "base-109",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-111",
+      "controlPoints": 15
+    },
+    {
+      "id": "base-112",
+      "controlPoints": 21
+    },
+    {
+      "id": "base-113",
+      "controlPoints": 11
+    },
+    {
+      "id": "base-115",
+      "controlPoints": 21
+    },
+    {
+      "id": "base-117",
+      "controlPoints": 7
+    },
+    {
+      "id": "base-121",
+      "controlPoints": 8
+    },
+    {
+      "id": "base-122",
+      "controlPoints": 9
+    },
+    {
+      "id": "base-123",
+      "controlPoints": 14
+    },
+    {
+      "id": "base-124",
+      "controlPoints": 11
+    },
+    {
+      "id": "base-125",
+      "controlPoints": 6
+    },
+    {
+      "id": "base-126",
+      "controlPoints": 16
+    },
+    {
+      "id": "base-127",
+      "controlPoints": 21
+    },
+    {
+      "id": "base-132",
+      "controlPoints": 12
+    },
+    {
+      "id": "base-133",
+      "controlPoints": 23
+    },
+    {
+      "id": "base-134",
+      "controlPoints": 3
+    },
+    {
+      "id": "atlas-ver-001",
+      "controlPoints": 6
+    },
+    {
+      "id": "atlas-ver-002",
+      "controlPoints": 10
+    },
+    {
+      "id": "atlas-costera-001",
+      "controlPoints": 8
+    },
+    {
+      "id": "atlas-elf-coast-001",
+      "controlPoints": 9
+    },
+    {
+      "id": "atlas-elf-coast-004",
+      "controlPoints": 9
+    },
+    {
+      "id": "atlas-avalon-costera-engerlass-volker",
+      "controlPoints": 6
+    },
+    {
+      "id": "atlas-avalon-costera-ahogado-kyder",
+      "controlPoints": 5
+    },
+    {
+      "id": "atlas-avalon-costera-alba-kyder",
+      "controlPoints": 16
+    },
+    {
+      "id": "atlas-avalon-costera-elyssfor-faro",
+      "controlPoints": 4
+    },
+    {
+      "id": "yugen-violeta-yukishima-tetsumori",
+      "controlPoints": 7
+    }
+  ],
+  "pendingHighMatchButNeedsVisualInspection": [
+    "base-044",
+    "atlas-elf-coast-003",
+    "atlas-elf-coast-006"
+  ],
+  "pendingWithoutReliableMagentaTrace": [
+    "base-003",
+    "base-006",
+    "base-027",
+    "base-029",
+    "base-030",
+    "base-032",
+    "base-035",
+    "base-041",
+    "base-049",
+    "base-059",
+    "base-060",
+    "base-061",
+    "base-065",
+    "base-066",
+    "base-067",
+    "base-073",
+    "base-074",
+    "base-082",
+    "base-083",
+    "base-084",
+    "base-085",
+    "base-086",
+    "base-087",
+    "base-098",
+    "base-110",
+    "base-114",
+    "base-116",
+    "base-118",
+    "base-119",
+    "base-120",
+    "base-131",
+    "base-165"
+  ],
+  "notes": [
+    "No se declara ninguna ruta como oficial ni confirmada por esta detección automática.",
+    "Se mantienen las 35 conexiones restantes para revisión, sin inventar un trazado nuevo donde la evidencia magenta es ambigua o falta.",
+    "El raster subido por el usuario y el Mapa 3.3 coinciden en resolución y registro espacial (2048 x 1571).",
+    "Los valores status y kind originales, la red marítima y los nombres de localidades no se alteran.",
+    "Cualquier camino terrestre aún no representado como arista entre dos localidades requiere trazado y validación adicional."
+  ]
+}

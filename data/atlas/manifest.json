@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-mapa-3-3-yugen-naval-v3-3-1",
+  "revision": "2026-11-27-trazado-magenta-mapa-nelson-v1",
   "counts": {
     "places": 121,
     "regions": 26,
@@ -29,7 +29,9 @@
     "navalLegacyRecords": 31,
     "avalonNewCoastalRoads": 4,
     "yugenCities": 3,
-    "navAccessPendingValidation": 10
+    "navAccessPendingValidation": 10,
+    "roadTracedMagenta": 101,
+    "roadPendingMagentaReview": 35
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -62,10 +64,11 @@
     "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json",
     "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json",
     "untracedRoadArchive": "data/atlas/caminos-sin-trazado.json",
-    "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
+    "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json",
+    "roadMagentaAudit": "data/atlas/caminos-magenta-mapa-nelson-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Se sincronizaron 121 localidades, 26 regiones, el camino Yūgen único y 55 escalas náuticas. La URL pública prioriza Mapa 3.3.webp, con respaldo automático del mapa 3.21 mientras se publica el archivo binario.",
+  "note": "Se han recalculado 101 geometrías terrestres siguiendo los caminos magenta del Mapa_Nelson.png, alineado al raster 2048x1571. 35 aristas conservan su geometría anterior por falta de calco automático fiable. Las 31 conexiones marítimas y el número total de aristas permanecen intactos.",
   "navalReview": {
     "sourceRaster": "Mapa_3.21(2).png",
     "pendingRaster": "Mapa_3.3.png",
