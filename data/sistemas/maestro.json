@@ -16,7 +16,8 @@
     "progresion": true,
     "navalAtlas": true,
     "cartografo": true,
-    "pestilencias": true
+    "pestilencias": true,
+    "salud": true
   },
   "notes": [
     "cartografo solo se inicia cuando URL incluye ?cartografo=1, ?dibujar=1 o ?caminos=1",
@@ -24,6 +25,7 @@
     "No activar simultáneamente cargadores individuales antiguos junto al maestro: se pueden duplicar las escuchas y eventos",
     "El CSS del Atlas y Bestiario fue trasladado a GitHub; las páginas auxiliares h4/h5 se conservan como respaldo.",
     "La configuración local opcional window.AETERNALIS_MAESTRO_CONFIG.modules tiene precedencia.",
-    "pestilencias: el Códice sólo se carga si una publicación contiene <div id=\"ae-pestilencias\"></div>; CSS/JS y JSON residen en GitHub. La URL /pestilencias/ contiene una vista de pruebas independiente."
+    "pestilencias: el Códice sólo se carga si una publicación contiene <div id=\"ae-pestilencias\"></div>; CSS/JS y JSON residen en GitHub. La URL /pestilencias/ contiene una vista de pruebas independiente.",
+    "salud: libro anatómico en /codice-salud/; carga CSS/JS y el compendio JSON únicamente si la publicación contiene <div id=\"ae-codice-salud\"></div>, sin afectar la página de pestilencias original."
   ]
 }
