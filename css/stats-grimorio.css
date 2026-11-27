@@ -1,0 +1,87 @@
+/* AETERNALIS · GRIMORIO DE ESTADÍSTICAS V1
+   Pegar en una página HTML nueva SIN cabecera/pie.
+   Solo afecta a #aeg-stats-grimoire. */
+
+#aeg-stats-grimoire {
+  --aeg-ink: #ded2be;
+  --aeg-gold: #d4af72;
+  --aeg-edge: rgba(212,175,114,.46);
+  display: block; position: relative; box-sizing: border-box;
+  width:100%; max-width:1100px; margin:16px auto 28px; padding:0;
+  border:1px solid var(--aeg-edge); color:var(--aeg-ink);
+  background: #151018 url('https://i.postimg.cc/kgGQ48Rc/fondo-cuero-grimorio.jpg') center top / cover no-repeat;
+  box-shadow:0 10px 40px #0008, inset 0 0 70px #09070bc0;
+  font-size:15px; line-height:1.7; text-align:left;
+}
+#aeg-stats-grimoire *, #aeg-stats-grimoire *::before,#aeg-stats-grimoire *::after {box-sizing:border-box}
+#aeg-stats-grimoire img {max-width:100%;border:0}
+#aeg-stats-grimoire p {margin:0 0 12px;line-height:1.72}
+#aeg-stats-grimoire .aeg-cover {position:relative;overflow:hidden; padding:34px 22px 32px; text-align:center; border-bottom:1px solid #bda06f79;
+ background: radial-gradient(ellipse at 50% 0%,#503c6699,transparent 70%),linear-gradient(#12101844,#0b0915c0);}
+#aeg-stats-grimoire .aeg-eyebrow {color:#d0b78e; font:600 11px/1.5 Georgia,serif; letter-spacing:.24em; text-transform:uppercase; margin:0 0 15px}
+/* El título adopta deliberadamente la tipografía propia de .tamtt en la skin. */
+#aeg-stats-grimoire .aeg-book-title.tamtt {display:flex;align-items:center;justify-content:center;gap:15px;flex-wrap:wrap;
+ width:auto;max-width:100%;padding:0;margin:0 auto; border:0;background:none;box-shadow:none;
+ color:#e9d5b6; font-size:clamp(25px,4vw,46px); line-height:1.2; text-shadow:0 2px 10px #000b;}
+#aeg-stats-grimoire .aeg-book-title.tamtt span {font-family:inherit;font-size:inherit; font-weight:inherit; letter-spacing:.025em;}
+#aeg-stats-grimoire .aeg-cover-sigil {display:inline-block; width:58px;height:58px;object-fit:contain;flex:none;
+ filter:drop-shadow(0 0 12px #9f60d9aa)}
+#aeg-stats-grimoire .aeg-cover-subtitle {font:italic 13px/1.6 Georgia,serif;letter-spacing:.025em;color:#b9a9bf;margin:15px 0 0}
+#aeg-stats-grimoire .aeg-page {position:relative; padding:28px clamp(15px,3.5vw,45px) 46px; isolation:isolate;}
+#aeg-stats-grimoire .aeg-page::before {content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+ background:linear-gradient(#141014ef,#18131bdc), url('https://i.postimg.cc/6pPdG3d4/pergamino-arcano-claro.jpg') center top / 100% auto repeat-y;opacity:.96}
+#aeg-stats-grimoire .aeg-page::after {content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;opacity:.06;
+ background:url('https://i.postimg.cc/HsVn8t3t/sello-arcano-marca-agua.png') center 50%/ min(80%,500px) auto no-repeat}
+#aeg-stats-grimoire .aeg-intro {display:flex;gap:16px; align-items:flex-start; padding:18px 20px; margin-bottom:32px;
+ background:#0e0c12b8;border:1px solid #bda06f66;border-left:3px solid var(--aeg-gold); box-shadow:inset 0 0 25px #0005}
+#aeg-stats-grimoire .aeg-intro p {margin:0;color:#e4dacf;line-height:1.75}
+#aeg-stats-grimoire .aeg-intro-mark {font-size:32px;line-height:1;color:#dabb88}
+#aeg-stats-grimoire .aeg-section {margin:37px 0 0}
+#aeg-stats-grimoire .aeg-section-title {margin:0;padding:0;color:#d9c5a3;border:none;
+ font:inherit; font-family:inherit; font-size:clamp(21px,3vw,28px); font-weight:700;line-height:1.3;text-align:center}
+#aeg-stats-grimoire .aeg-divider {display:block; width:min(85%,520px);height:24px;margin:9px auto 20px;object-fit:contain;opacity:.85}
+#aeg-stats-grimoire .aeg-section-hint {text-align:center;color:#bbaea5;font-size:13px;margin:0 0 20px}
+#aeg-stats-grimoire .aeg-stat-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+#aeg-stats-grimoire .aeg-stat {--aeg-accent:#bc8063;min-width:0;display:flex;align-items:center;gap:10px;padding:11px 12px;min-height:94px;
+ border:1px solid color-mix(in srgb,var(--aeg-accent) 55%,transparent); background:linear-gradient(120deg,#100e12e8,#201824cb);
+ box-shadow:inset 0 0 17px #0008;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+#aeg-stats-grimoire .aeg-stat:hover {transform:translateY(-2px);border-color:var(--aeg-accent);box-shadow:0 0 18px color-mix(in srgb,var(--aeg-accent) 23%,transparent)}
+#aeg-stats-grimoire .aeg-stat img {width:65px;height:65px;object-fit:contain;flex:0 0 65px}
+#aeg-stats-grimoire .aeg-stat span {flex:1;min-width:0;color:#f0e6d7;font-size:16px;font-weight:700;overflow-wrap:anywhere}
+#aeg-stats-grimoire .aeg-stat b {color:var(--aeg-accent);font-size:12px;letter-spacing:.08em}
+#aeg-stats-grimoire .aeg-red {--aeg-accent:#c66c67}
+#aeg-stats-grimoire .aeg-green {--aeg-accent:#79ad78}
+#aeg-stats-grimoire .aeg-blue {--aeg-accent:#86bbd4}
+#aeg-stats-grimoire .aeg-gold {--aeg-accent:#d4b36d}
+#aeg-stats-grimoire .aeg-purple {--aeg-accent:#b58cdd}
+#aeg-stats-grimoire .aeg-entries {display:grid;gap:12px}
+#aeg-stats-grimoire .aeg-entry {--aeg-accent:#c6a97d;display:grid;grid-template-columns:74px minmax(0,1fr);gap:15px;align-items:start;
+ padding:17px 20px;border:1px solid #bfa47542;border-left:3px solid var(--aeg-accent);
+ background:linear-gradient(120deg,#0d0e14e6,#201b20d8);box-shadow:inset 0 0 25px #0006}
+#aeg-stats-grimoire .aeg-entry>img {width:70px;height:70px;object-fit:contain}
+#aeg-stats-grimoire .aeg-entry h3 {margin:0 0 8px;color:var(--aeg-accent);font-size:18px;font-weight:800;line-height:1.3}
+#aeg-stats-grimoire .aeg-entry h3 span {color:#e6d8be;font-weight:500}
+#aeg-stats-grimoire .aeg-entry p {margin:0;color:#d7cdc2;text-align:justify;line-height:1.7;hyphens:auto}
+#aeg-stats-grimoire .aeg-rank-grid {display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+#aeg-stats-grimoire .aeg-rank-grid figure {margin:0;background:#120f15dd;border:1px solid #a88e674f;padding:8px;min-width:0;text-align:center}
+#aeg-stats-grimoire .aeg-rank-grid figure img {display:block;width:100%;aspect-ratio:1.6;object-fit:cover;object-position:center}
+#aeg-stats-grimoire .aeg-rank-grid figcaption {display:flex;flex-direction:column;gap:4px;padding:8px 0 3px;color:#d8cabb;font-size:11px;line-height:1.35}
+#aeg-stats-grimoire .aeg-rank-grid figcaption b {color:#e5ce9e;font-size:13px}
+#aeg-stats-grimoire .aeg-book-footer {text-align:center;letter-spacing:.2em;color:#b9a17c;font-size:11px;padding:16px 8px;border-top:1px solid #a2855850;background:#0a080da8}
+@media(max-width:800px) {
+ #aeg-stats-grimoire .aeg-stat-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+ #aeg-stats-grimoire .aeg-rank-grid {grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:520px) {
+ #aeg-stats-grimoire .aeg-page {padding:18px 12px 28px}
+ #aeg-stats-grimoire .aeg-stat-grid {grid-template-columns:1fr}
+ #aeg-stats-grimoire .aeg-stat {min-height:75px}
+ #aeg-stats-grimoire .aeg-stat img {width:54px;height:54px;flex-basis:54px}
+ #aeg-stats-grimoire .aeg-entry {grid-template-columns:52px minmax(0,1fr);gap:10px;padding:13px 11px}
+ #aeg-stats-grimoire .aeg-entry>img {width:51px;height:51px}
+ #aeg-stats-grimoire .aeg-entry p {text-align:left}
+ #aeg-stats-grimoire .aeg-rank-grid {grid-template-columns:repeat(2,minmax(0,1fr))}
+ #aeg-stats-grimoire .aeg-intro {padding:12px;gap:8px}
+ #aeg-stats-grimoire .aeg-cover-sigil {width:45px;height:45px}
+}
+@media(prefers-reduced-motion:reduce) {#aeg-stats-grimoire .aeg-stat {transition:none}}
