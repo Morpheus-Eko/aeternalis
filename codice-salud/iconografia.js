@@ -1,13 +1,13 @@
-/* Aeternalis · laboratorio iconográfico v1.1.0 · no altera datos del juego */
+/* Aeternalis · laboratorio iconográfico v1.2.0 · no altera datos del juego */
 (()=>{
  'use strict';
  const $=id=>document.getElementById(id),root=$('ae-gallery'),status=$('ae-status'),search=$('ae-find');
  const data={view:'herbs',query:'',herbs:[],diseases:[],icon:null,rules:null};
- const valid=path=>typeof path==='string'&&( /^assets\/(medicina|codex|pestilencias)\/[a-zA-Z0-9_/-]+\.webp$/.test(path)|| /^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)\.svg$/.test(path) )&&!path.includes('..');
- const image=(path,caption)=>{
+ const valid=path=>typeof path==='string'&&( /^assets\/(medicina|codex|pestilencias)\/[a-zA-Z0-9_/-]+\.webp$/.test(path)|| /^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)(?:_tinta)?\.svg$/.test(path) )&&!path.includes('..');
+ const image=(path,caption,archival)=>{
   if(!valid(path))return null;
   const figure=document.createElement('figure'),link=document.createElement('a'),img=document.createElement('img'),text=document.createElement('figcaption');
-  link.href='../'+path;link.target='_blank';link.rel='noopener noreferrer';link.title='Ampliar grabado';
+  link.href='../'+(valid(archival)?archival:path);link.target='_blank';link.rel='noopener noreferrer';link.title='Ampliar grabado';
   img.src='../'+path;img.loading='lazy';img.decoding='async';img.alt=caption;
   text.textContent=caption;link.appendChild(img);figure.append(link,text);return figure;
  };
@@ -18,7 +18,7 @@
  };
  const imageBand=(article,items)=>{
   const band=document.createElement('div');band.className='gabinete__plates';
-  for(const item of items){const f=image(item.path,item.label);if(f)band.appendChild(f);}
+  for(const item of items){if(!item)continue;const f=image(item.path,item.label,item.archival);if(f)band.appendChild(f);}
   if(band.childElementCount)article.appendChild(band);
  };
  const filtered=(name)=>name.toLocaleLowerCase('es').includes(data.query);
@@ -69,7 +69,7 @@
  Promise.all([
   fetch('../data/codice-salud/compendio.json?v=2.0.0'),
   fetch('../data/pestilencias/enfermedades.json?v=1.4.0'),
-  fetch('../data/codice-salud/iconografia-clinica-v01.json?v=1.1.0')
+  fetch('../data/codice-salud/iconografia-clinica-v01.json?v=1.2.0')
  ].map(r=>r.then(x=>{if(!x.ok)throw Error('HTTP '+x.status);return x.json();})))
  .then(([book,rules,icon])=>{
   if(!Array.isArray(book.herbs)||!Array.isArray(rules.diseases)||icon.schema!=='aeternalis-codice-salud-iconografia-v1')throw Error('Catálogos incompatibles');
