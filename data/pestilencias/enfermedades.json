@@ -1,0 +1,194 @@
+{
+  "schema": "aeternalis-pestilencias-v1",
+  "version": "1.0.0",
+  "title": "El Códice de las Pestilencias",
+  "source": "Sistema de enfermedades (En construccion).docx, páginas 1–11; transcripción editorial abreviada con reglas originales preservadas",
+  "rules": {
+    "die": 100,
+    "vitModifier": true,
+    "bonusPerPriorExposure": 5,
+    "potion": "Poción de Ouriler",
+    "spell": "Velo de Astarax",
+    "immunityAt": 5,
+    "stageAccumulation": "Al no superar el umbral modificado se suma un Contador de Secuela.",
+    "calculatorDisclaimer": "Calculadora orientativa; no lanza dados oficiales ni modifica una ficha del personaje.",
+    "ambiguities": [
+      "El reglamento exige cinco exposiciones para inmunidad, pero no precisa expresamente si la quinta tirada se resuelve antes o después de adquirirla.",
+      "La Sangrenegra progresa en temas posteriores a la primera exposición; la frecuencia de las tiradas subsiguientes requiere validación del staff."
+    ]
+  },
+  "races": [
+    {
+      "id": "humano",
+      "label": "Humano"
+    },
+    {
+      "id": "montaraz",
+      "label": "Montaraz"
+    },
+    {
+      "id": "sinhair",
+      "label": "Sinhair"
+    },
+    {
+      "id": "amarant",
+      "label": "Amarant"
+    },
+    {
+      "id": "otra",
+      "label": "Otra raza"
+    }
+  ],
+  "diseases": [
+    {
+      "id": "fd",
+      "code": "FD",
+      "name": "Fiebre de Driadem",
+      "subtitle": "La Muerte Verde",
+      "region": "Sur y este del Verdanteyl",
+      "origin": "Descrita al sur de Driadem",
+      "emblem": "emblema-fiebre-driadem.webp",
+      "tone": "verdigris",
+      "color": "#8f9c68",
+      "target": 75,
+      "immunity": 5,
+      "deathAt": 4,
+      "potion": 10,
+      "spell": 15,
+      "raceBonus": {
+        "humano": -10,
+        "montaraz": -10,
+        "sinhair": 15,
+        "amarant": 15,
+        "otra": 0
+      },
+      "summary": "Fiebre elevada, tos húmeda con secreciones verdosas y pústulas de exudado maloliente. En fases avanzadas aparecen larvas blanquecinas y convulsiones terminales.",
+      "narrative": "Fue estudiada por primera vez al sur de Driadem. En Seri’Asak recibe el nombre de «La Muerte Verde». El cuadro comienza con fiebre, expectoración verdosa y pústulas en la espalda; posteriormente, las lesiones albergan larvas, la piel adquiere tonos enfermizos y pueden sobrevenir convulsiones mortales.",
+      "uncertainty": "El origen exacto se desconoce. Las Amarant de Punta Veneno sospechan de un gusano rojizo de las ciénagas al este de las Ruinas de las Lágrimas; las Sinhair señalan a un mosquito de los manglares al sur de las tierras del Clan Vah’Amay y al este de las del Clan Vah’Irak. Ambas explicaciones son hipótesis del lore.",
+      "exposure": "Al crear un tema en el sur o este del Verdanteyl se considera infectado al personaje y se le asigna una exposición. La tirada 1d100 se resuelve al terminar el tema.",
+      "immunityText": "Tras al menos cinco exposiciones se alcanza inmunidad. La infección puede volver a manifestarse, pero solo con síntomas anecdóticos, a discreción del jugador.",
+      "stages": [
+        {
+          "count": 1,
+          "title": "Tos persistente",
+          "effect": "Tos con expectoración verdosa y pérdida leve de capacidad pulmonar durante al menos dos estaciones. AGI −33 % mientras persista."
+        },
+        {
+          "count": 2,
+          "title": "Pústulas recurrentes",
+          "effect": "El cuadro anterior se extiende al menos un año on-rol, con pústulas y fiebre ocasional. DES −33 % adicional mientras persista."
+        },
+        {
+          "count": 3,
+          "title": "Secuelas irreversibles",
+          "effect": "Los efectos anteriores se vuelven permanentes."
+        },
+        {
+          "count": 4,
+          "title": "Desenlace mortal",
+          "effect": "Convulsiones violentas, detención cardíaca y muerte del personaje."
+        }
+      ]
+    },
+    {
+      "id": "com",
+      "code": "COM",
+      "name": "Canto de la Orquídea Marchita",
+      "subtitle": "El silencio de Ushios",
+      "region": "Interior de Ushios",
+      "origin": "Relatado por Malakor Niellis",
+      "emblem": "emblema-canto-orquidea-marchita.webp",
+      "tone": "orquidea",
+      "color": "#a68ba4",
+      "target": 85,
+      "immunity": 5,
+      "deathAt": 3,
+      "potion": 20,
+      "spell": 5,
+      "raceBonus": {
+        "humano": 15,
+        "montaraz": 0,
+        "sinhair": 0,
+        "amarant": 0,
+        "otra": 0
+      },
+      "summary": "Manchas púrpuras semejantes a orquídeas marchitas, fatiga creciente y alteraciones de la voz que pueden culminar en mutismo e insuficiencia respiratoria.",
+      "narrative": "Se conoce por los escasos supervivientes de las tierras corrompidas de Ushios. Malakor Niellis reunió testimonios en el infame «Libro de las Cenizas». Su presencia se manifiesta con manchas púrpuras, ronquera y agotamiento cada vez más intenso hasta perder el habla y, en fases finales, la capacidad de respirar.",
+      "uncertainty": "Ni la vía de adquisición ni el contagio entre personas están demostrados. Niellis propuso que el polen de la llamada Orquídea Necrótica, una flor parasitaria que drena vitalidad mediante su esencia mágica, fuera responsable; se trata de una teoría.",
+      "exposure": "Al crear un tema de exploración que se adentra desde la costa de Ushios hacia su interior, el personaje queda infectado y recibe una exposición. La tirada 1d100 se hace al cerrar el tema.",
+      "immunityText": "Tras al menos cinco exposiciones se alcanza inmunidad y la infección deja de afectar al personaje, según el texto original.",
+      "stages": [
+        {
+          "count": 1,
+          "title": "La voz marchita",
+          "effect": "Persisten aproximadamente doce manchas florales. Ronquera durante un año on-rol; MAG −33 % mientras dure la ronquera."
+        },
+        {
+          "count": 2,
+          "title": "Mutismo",
+          "effect": "Pérdida permanente del habla."
+        },
+        {
+          "count": 3,
+          "title": "Asfixia final",
+          "effect": "Muerte por imposibilidad de respirar."
+        }
+      ]
+    },
+    {
+      "id": "sn",
+      "code": "SN",
+      "name": "Sangrenegra",
+      "subtitle": "El Lamento de Reeve",
+      "region": "Tramas de Reeve y Alto Reeve",
+      "origin": "Conocida en Ávalon",
+      "emblem": "emblema-sangrenegra.webp",
+      "tone": "sangre",
+      "color": "#ba7367",
+      "target": 60,
+      "immunity": 5,
+      "deathAt": 5,
+      "potion": 10,
+      "spell": 15,
+      "raceBonus": {
+        "humano": 10,
+        "montaraz": -25,
+        "sinhair": -20,
+        "amarant": -20,
+        "otra": -20
+      },
+      "summary": "Melancolía, pesadillas, alucinaciones auditivas y hemorragias progresivas con sangre oscura, contagiosa en estadios avanzados.",
+      "narrative": "En Ávalon se conoce como Sangrenegra, o Lamento de Reeve. Una melancolía profunda da paso a sueños perturbadores y a alucinaciones de llantos. La sangre se oscurece, aparecen lágrimas sanguinolentas y el cuadro puede terminar en hemorragias incontrolables.",
+      "uncertainty": "El contacto con sangre negra causa contagio. En el sistema off-rol también es relevante el veneno creado en Alto Reeve. A diferencia de las otras enfermedades, el progreso continúa en temas posteriores a la primera exposición, como un veneno.",
+      "exposure": "La participación en temas canon asociados a Reeve con contacto con sangre negra o con el veneno de Alto Reeve produce una exposición. Después de la primera, el cuadro puede progresar en temas posteriores.",
+      "immunityText": "Tras al menos cinco exposiciones se alcanza inmunidad y la enfermedad deja de afectar al personaje, según el texto original.",
+      "stages": [
+        {
+          "count": 1,
+          "title": "Pesadillas y melancolía",
+          "effect": "Síntomas al menos una estación. En Montaraces se mezcla con ira y FUE +50 % mientras dure el efecto."
+        },
+        {
+          "count": 2,
+          "title": "Agotamiento crónico",
+          "effect": "Pesadillas frecuentes por al menos dos estaciones; AGI −25 % mientras persista. En Montaraces continúa el efecto FUE."
+        },
+        {
+          "count": 3,
+          "title": "Voces del lamento",
+          "effect": "Fatiga y pesadillas durante al menos un año, con alucinaciones auditivas. PER −25 % adicional mientras persista; continúa el efecto Montaraz."
+        },
+        {
+          "count": 4,
+          "title": "Lágrimas de sangre",
+          "effect": "Las secuelas anteriores se vuelven permanentes; comienza el sangrado ocular contagioso y se pierde el beneficio de FUE para Montaraces."
+        },
+        {
+          "count": 5,
+          "title": "Hemorragia final",
+          "effect": "Muerte del personaje por hemorragias."
+        }
+      ]
+    }
+  ]
+}
