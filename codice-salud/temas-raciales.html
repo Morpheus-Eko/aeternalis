@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aeternalis · Laboratorio de folios raciales del Tomo de Medicina">
+<title>Aeternalis · Estudio de folios raciales</title>
+<link rel="stylesheet" href="./temas-raciales.css?v=1.0.0">
+<script defer src="./temas-raciales.js?v=1.0.0"></script>
+</head>
+<body>
+<main class="atelier" id="ae-fase2">
+  <header class="atelier__header">
+    <span class="overline">Aeternalis · Tomo de Medicina</span>
+    <h1>Estudio de folios raciales</h1>
+    <p>Vista de arquitectura visual. Las imágenes de los fondos son assets; los textos y las láminas anatómicas se cargan desde el Códice.</p>
+  </header>
+  <nav class="race-index" aria-label="Elegir tema racial" id="ae-race-menu"></nav>
+  <div class="reader">
+    <button class="page-control" id="ae-previous" type="button" aria-label="Raza anterior"><img src="../assets/codex/botones/gotico/boton_retroceder_gotico_02.webp" alt=""></button>
+    <div class="book" id="ae-book" aria-live="polite">
+      <div class="spread">
+        <article class="folio" id="ae-folio-left">
+          <div class="folio__inside">
+            <header class="folio__header">
+              <span class="folio__kicker">Estudio anatómico · Libro II</span>
+              <img class="folio__crest" id="ae-crest-left" alt="" aria-hidden="true">
+              <h2 id="ae-race-name">El libro se abre</h2>
+              <p class="folio__subtitle" id="ae-race-subtitle"></p>
+            </header>
+            <div class="folio__body">
+              <p class="folio__intro" id="ae-shape"></p>
+              <dl class="folio__facts">
+                <div><dt>Proporción</dt><dd id="ae-measure"></dd></div>
+                <div><dt>Hábitat</dt><dd id="ae-habitat"></dd></div>
+                <div><dt>Duración de la vida</dt><dd id="ae-life"></dd></div>
+              </dl>
+              <aside class="folio__marginalia" id="ae-habits"></aside>
+            </div>
+            <footer class="folio__foot"><span>Apuntes del compilador</span><img class="folio__divider" id="ae-divider-left" alt="" aria-hidden="true"></footer>
+          </div>
+        </article>
+        <article class="folio" id="ae-folio-right">
+          <div class="folio__inside">
+            <header class="folio__header">
+              <span class="folio__kicker">Lámina anatómica</span>
+              <img class="folio__crest" id="ae-crest-right" alt="" aria-hidden="true">
+              <h2>De la carne y sus riesgos</h2>
+            </header>
+            <div class="folio__body">
+              <figure class="folio__anatomy"><a id="ae-figure-link" target="_blank" rel="noopener noreferrer"><img id="ae-figure" alt=""></a><figcaption id="ae-caption"></figcaption></figure>
+              <p id="ae-risks"></p>
+              <small class="folio__warning" id="ae-status"></small>
+            </div>
+            <footer class="folio__foot"><span>Anatomía comparada</span><img class="folio__divider" id="ae-divider-right" alt="" aria-hidden="true"></footer>
+          </div>
+        </article>
+      </div>
+    </div>
+    <button class="page-control" id="ae-next" type="button" aria-label="Raza siguiente"><img src="../assets/codex/botones/gotico/boton_avanzar_gotico_01.webp" alt=""></button>
+  </div>
+  <p class="atelier__note" id="ae-race-status" role="status">Preparando el archivo anatómico…</p>
+  <footer class="atelier__footer"><a href="./">Volver al Tomo de Medicina</a> · Esta vista no modifica reglas ni fichas de personajes.</footer>
+</main>
+</body>
+</html>
