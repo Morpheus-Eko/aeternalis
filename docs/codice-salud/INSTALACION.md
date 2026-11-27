@@ -22,7 +22,7 @@
 
 ## Lectura y accesibilidad
 
-En escritorio ancho se presentan dos folios; con menos de 1.180 px de ancho del visor aparece uno solo. El texto no tiene desplazamiento interior: el folio aumenta de altura si el contenido lo requiere. Las flechas están a los costados y las cintas de capítulo a la derecha. No hay paginación automática de bloques largos. La brújula y las notas se despliegan a petición, sin panel fijo junto al texto.
+En escritorio ancho se presentan dos folios; con menos de 1.070 px de ancho del visor aparece uno solo. El texto no tiene desplazamiento interior: el folio aumenta de altura si el contenido lo requiere. Las flechas están a los costados y las cintas de capítulo a la derecha. No hay paginación automática de bloques largos. La brújula y las notas se despliegan a petición, sin panel fijo junto al texto.
 
 Las imágenes del índice anatómico se descargan de manera diferida; las ilustraciones de los folios usan `loading="lazy"`. Al pulsar una imagen se abre su lámina a mayor resolución. El Códice no almacena datos personales ni modifica personajes. Las reglas de pestilencias son reales dentro de la ficción; las hipótesis, riesgos ambientales, anatomías preliminares y plantas inventadas **no representan habilidades mecánicas aprobadas**.
 
@@ -48,4 +48,4 @@ En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.0
 
 El libro intenta usar hasta 1.800 px de la ventana y centrarse respecto del viewport aun cuando el tema de Foroactivo tenga una columna principal más estrecha. **Si algún ancestro del mensaje tiene `overflow:hidden`, puede recortar los cantos o las pestañas:** revisar esta situación dentro del tema concreto sin alterar a ciegas el CSS global del foro.
 
-Pruebas funcionales con DOM simulado verifican flechas gemelas, once marcadores, índice ilustrado a la izquierda, láminas botánicas a la izquierda, notas a la derecha, vista de un folio bajo 1.180 px, acciones de abrir/cerrar y herramientas y notas. Falta inspección visual real en Foroactivo y ajustar el grosor de las cintas según el ancho efectivo de la publicación.
+Pruebas funcionales con DOM simulado verifican flechas gemelas, once marcadores, índice ilustrado a la izquierda, láminas botánicas a la izquierda, notas a la derecha, vista de un folio bajo 1.070 px, acciones de abrir/cerrar y herramientas y notas. Falta inspección visual real en Foroactivo y ajustar el grosor de las cintas según el ancho efectivo de la publicación.
