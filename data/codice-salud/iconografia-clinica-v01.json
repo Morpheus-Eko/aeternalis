@@ -1,0 +1,245 @@
+{
+  "schema": "aeternalis-codice-salud-iconografia-v1",
+  "version": "1.0.0",
+  "status": "estudio_editorial_no_canon",
+  "note": "Índice de grabados existentes para el tomo. Ninguna ilustración acredita por sí misma anatomía, morfología botánica, manifestación patológica, causa o eficacia clínica canónicas; los assets no modifican el reglamento.",
+  "assetPolicy": {
+    "texts": "texto HTML con tipografía heredada de Foroactivo",
+    "assets": "grabados WebP ya publicados",
+    "transparency": "selección conservadora; tinta solo cuando se encuentra en catálogo",
+    "visibility": "carga diferida por folio",
+    "officialRules": "data/pestilencias/enfermedades.json"
+  },
+  "herbs": {
+    "h-01": {
+      "name": "Llantén de bruma · Folium nebularis",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-02": {
+      "name": "Campanilla de agua · Tincta rivularis",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-03": {
+      "name": "Hoja de tres inviernos · Viridia triquetra",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": false
+    },
+    "h-04": {
+      "name": "Barba de pozo · Musculus putei",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_mortero.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-05": {
+      "name": "Flor del vaho azul",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-06": {
+      "name": "Raicilla de escarcha",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-07": {
+      "name": "Alga de farol",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-08": {
+      "name": "Pétalo de zafiro tardío",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-09": {
+      "name": "Resina de lianas quietas",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-10": {
+      "name": "Helecho de gota roja",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-11": {
+      "name": "Candelaria de veta",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-12": {
+      "name": "Brezo de trébol negro",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-13": {
+      "name": "Yerba del sendero bajo",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_mortero_de_piedra.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-14": {
+      "name": "Corteza de luz oblicua",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-15": {
+      "name": "Sal de junco negro",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": true
+    },
+    "h-16": {
+      "name": "Avena de hierro",
+      "principal": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
+      "instrument": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "source": "lámina botánica de estudio",
+      "status": "ilustración no identificativa; especie pendiente de validación",
+      "instrumentStatus": "útil de botica ilustrativo; la herramienta no acredita la preparación particular",
+      "sourceMatch": false
+    }
+  },
+  "diseases": {
+    "fd": {
+      "name": "Fiebre de Driadem",
+      "seal": "assets/pestilencias/emblema-fiebre-driadem.webp",
+      "anatomy": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp",
+        "label": "Aparato respiratorio · estudio anatómico general"
+      },
+      "detail": {
+        "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/piel_seccion.webp",
+        "label": "Tejido cutáneo · referencia para la lectura de síntomas"
+      },
+      "consequence": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp",
+        "label": "Corazón · estudio del órgano, no lesión acreditada"
+      },
+      "disclaimer": "Los grabados muestran órganos generales: no representan muestras diagnósticas de la Fiebre de Driadem."
+    },
+    "com": {
+      "name": "Canto de la Orquídea Marchita",
+      "seal": "assets/pestilencias/emblema-canto-orquidea-marchita.webp",
+      "anatomy": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/piel_seccion.webp",
+        "label": "Piel · estudio general de referencia"
+      },
+      "detail": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp",
+        "label": "Pulmones · referencia a las alteraciones de la respiración"
+      },
+      "consequence": {
+        "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/pulmones.webp",
+        "label": "Estudio respiratorio · sin diagnóstico propio"
+      },
+      "disclaimer": "Las manchas descritas en el reglamento no están reproducidas aquí como imagen patológica canónica."
+    },
+    "sn": {
+      "name": "Sangrenegra",
+      "seal": "assets/pestilencias/emblema-sangrenegra.webp",
+      "anatomy": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/ojo.webp",
+        "label": "Ojo · anatomía de consulta, no muestra de Sangrenegra"
+      },
+      "detail": {
+        "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cerebro.webp",
+        "label": "Cerebro · estudio anatómico no etiológico"
+      },
+      "consequence": {
+        "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/corazon.webp",
+        "label": "Corazón · dibujo general de circulación"
+      },
+      "disclaimer": "Las imágenes de órganos no representan sangre infectada ni establecen mecanismos de contagio."
+    }
+  },
+  "care": {
+    "potion": {
+      "path": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_frasco.webp",
+      "label": "Frasco de botica",
+      "note": "Iconografía genérica; no representa una fórmula oficial de Ouriler"
+    },
+    "spell": {
+      "path": "assets/codex/sellos/sello_arcano_01.webp",
+      "label": "Sello de práctica arcana",
+      "note": "Emblema ornamental, no sello oficial del Velo de Astarax"
+    },
+    "followup": {
+      "path": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_mano_con_vendaje.webp",
+      "label": "Vendaje y atención de campaña",
+      "note": "Grabado de cuidado narrativo; no cura reglamentaria"
+    }
+  }
+}
