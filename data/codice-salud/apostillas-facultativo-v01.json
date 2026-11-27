@@ -1,153 +1,345 @@
 {
   "schema": "aeternalis-codice-glosas-v1",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "title": "Apostillas de médicos y herbolarios de Aeternalis",
-  "editorial": "Cada nota está vinculada a un folio, planta, raza, enfermedad o herramienta concreta. No se usa ninguna glosa genérica de respaldo: cuando no exista una entrada, no se presenta una glosa. Autores y episodios son ficticios, sin modificar el reglamento.",
+  "editorial": "Cada apostilla está firmada con nombre o autor desconocido, oficio y procedencia de un asentamiento existente en el Atlas de Aeternalis. Los cargos y nombres personales se han creado para la ambientación; los nombres de lugares se validaron contra data/atlas/localidades. No modifica reglas.",
   "sections": {
     "guarda": {
       "text": "He reunido estas páginas para los que ponen la mano sobre una frente ardiente y prefieren preguntar antes que juzgar. Cada trazo es memoria de una visita.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Isolde de Miralba, compiladora del códice de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "compiladora del códice"
+      }
     },
     "anatomia": {
       "text": "En ningún cuerpo basta una sola mirada. El dibujo consigna lo observado, y el enfermo enseña lo que la línea no alcanza.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Aelir Vaes, anatomista de Rhori’len",
+      "provenance": {
+        "place": "Rhori’len",
+        "place_id": "place-085",
+        "atlas_path": "data/atlas/localidades/isilme.json",
+        "role": "anatomista"
+      }
     },
     "linajes": {
       "text": "La descendencia trae relatos que no caben en un árbol pintado. Antes de pronunciarse sobre la sangre, escuchad la historia de la casa.",
-      "author": "Aelir Vaes, anatomista de los lindes"
+      "author": "Evania Sorel, partera de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "partera"
+      }
     },
     "territorios": {
       "text": "El clima deja huellas sobre la piel, pero el lugar del accidente merece el mismo cuidado que la herida.",
-      "author": "Hedrik Varn, médico de los pasos de Bergheim"
+      "author": "Bjorn, Capa Negra de Mossgard",
+      "provenance": {
+        "place": "Mossgard",
+        "place_id": "place-008",
+        "atlas_path": "data/atlas/localidades/bergheim.json",
+        "role": "Capa Negra"
+      }
     },
     "herbario": {
       "text": "Una planta posee nombre en más de un pueblo. Prefiero conservar un dibujo y dos relatos antes que perderla por una disputa de palabras.",
-      "author": "Talia Cendal, boticaria del camino"
+      "author": "Talia Cendal, boticaria de Dulcesidra",
+      "provenance": {
+        "place": "Dulcesidra",
+        "place_id": "place-306",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "boticaria"
+      }
     },
     "pestilencias": {
       "text": "He descrito lo que otros vieron antes de mí. No añadiré al dolor de un enfermo una certeza inventada por la prisa.",
-      "author": "Autor desconocido"
+      "author": "Neral de las Tintas, escribano sanitario de Driadem",
+      "provenance": {
+        "place": "Driadem",
+        "place_id": "place-075",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "escribano sanitario"
+      }
     },
     "cuidados": {
       "text": "No toda asistencia cura; algunas manos solamente impiden que el sufrimiento sea una soledad más grande.",
-      "author": "Maela Zarzaverde, curandera de las huertas"
+      "author": "Haru, sacerdotisa de Kazehara",
+      "provenance": {
+        "place": "Kazehara",
+        "place_id": "place-318",
+        "atlas_path": "data/atlas/localidades/yugen.json",
+        "role": "sacerdotisa"
+      }
     },
     "atlas": {
       "text": "Las ocho razas han merecido aquí sus propias páginas. Ninguna puede reducirse a la silueta que deja una sola lámina.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Gloim, líder de expedición de Dhalgrim",
+      "provenance": {
+        "place": "Dhalgrim",
+        "place_id": "place-003",
+        "atlas_path": "data/atlas/localidades/kargast.json",
+        "role": "líder de expedición"
+      }
     }
   },
   "races": {
     "elfos": {
       "figure": {
         "text": "La finura de las orejas y del talle engaña al ojo apresurado. He encontrado cicatrices antiguas bajo ropas magníficas: una vida extensa da tiempo a muchas heridas, no dispensa de ellas.",
-        "author": "Aelir Vaes, anatomista de los lindes"
+        "author": "Aelir Vaes, anatomista de Rhori’len",
+        "provenance": {
+          "place": "Rhori’len",
+          "place_id": "place-085",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "anatomista"
+        }
       },
       "notes": {
         "text": "Quien observa solo la mesa de un bosque concluye pronto que todos comen lo mismo. Más útil es escuchar al enfermo: la costumbre explica mejor algunos malestares que su sangre.",
-        "author": "Aelir Vaes, anatomista de los lindes"
+        "author": "Vaelor Syth, médico de campaña de Ifnolir",
+        "provenance": {
+          "place": "Ifnolir",
+          "place_id": "place-080",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "médico de campaña"
+        }
       },
       "archive": {
         "text": "He prolongado el trazo de las orejas en dos generaciones de modelos distintos. Ninguna línea me ha permitido medir la paciencia con que soportan una herida antigua.",
-        "author": "Elion Dareth, retratista de los bosques"
+        "author": "Elion Dareth, retratista de Aurelith",
+        "provenance": {
+          "place": "Aurelith",
+          "place_id": "place-079",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "retratista"
+        }
       }
     },
     "montaraces": {
       "figure": {
         "text": "Los huesos largos y el pecho ancho impresionan al aprendiz. Sin embargo, el frío conserva el silencio de las heridas: he visto a cazadores robustos confesar una vieja lesión solo junto al fuego.",
-        "author": "Hedrik Varn, médico de los pasos de Bergheim"
+        "author": "Bjorn, Capa Negra de Mossgard",
+        "provenance": {
+          "place": "Mossgard",
+          "place_id": "place-008",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "Capa Negra"
+        }
       },
       "notes": {
         "text": "En el deshielo regresan los hombres y mujeres con manos agrietadas, hombros fatigados y vendajes endurecidos. Pregúntese siempre por la última cacería antes de examinar el pulso.",
-        "author": "Hedrik Varn, médico de los pasos de Bergheim"
+        "author": "Borin Ceniza, médico de forja de Neithem",
+        "provenance": {
+          "place": "Neithem",
+          "place_id": "place-001",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "médico de forja"
+        }
       },
       "archive": {
         "text": "He necesitado una hoja mayor para recoger las proporciones de esta pareja de montaña. Las cicatrices de los brazos hablan tanto del oficio como las medidas de sus huesos.",
-        "author": "Hedrik Varn, médico de los pasos de Bergheim"
+        "author": "Sigrun Halda, herbolaria de montaña de Ulfvik",
+        "provenance": {
+          "place": "Ulfvik",
+          "place_id": "place-101",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "herbolaria de montaña"
+        }
       }
     },
     "yugen": {
       "figure": {
         "text": "La semejanza con el cuerpo humano ordinario exige más paciencia, no menos. La señal verdadera de una dolencia suele hallarse en la historia del paciente antes que en su rostro.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Haru, sacerdotisa de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "sacerdotisa"
+        }
       },
       "notes": {
         "text": "He visto que algunos llaman Kuro a cualquier marca oscura. No se debe hacer diagnóstico por rumor; primero se describe la forma, luego su aparición y por último aquello que el paciente recuerda.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Naori Sen, observadora de las costas de Tetsumori",
+        "provenance": {
+          "place": "Tetsumori",
+          "place_id": "place-317",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "observadora de las costas"
+        }
       },
       "archive": {
         "text": "El ángulo del rostro y el porte del cuerpo recuerdan a otros pueblos, pero en el dibujo he conservado las particularidades de esta paciente sin recurrir a rumores sobre el Kuro.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Kaede, botánica de los santuarios de Yukishima",
+        "provenance": {
+          "place": "Yukishima",
+          "place_id": "place-316",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "botánica de los santuarios"
+        }
       }
     },
     "enanos": {
       "figure": {
         "text": "No confundáis brevedad de talla con debilidad de constitución. Los hombros del minero y las manos del herrero cuentan un oficio entero sin necesidad de abrir la boca.",
-        "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
+        "author": "Gloim, líder de expedición de Dhalgrim",
+        "provenance": {
+          "place": "Dhalgrim",
+          "place_id": "place-003",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "líder de expedición"
+        }
       },
       "notes": {
         "text": "Si un enano llega con tos, examinad la mina antes de culpar a sus pulmones. La veta, el humo, el polvo y el aire retenido son testigos silenciosos del padecimiento.",
-        "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
+        "author": "Rúrik Piedrahonda, cirujano de galerías de Dhalgrim",
+        "provenance": {
+          "place": "Dhalgrim",
+          "place_id": "place-003",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "cirujano de galerías"
+        }
       },
       "archive": {
         "text": "La estatura puede engañar al retratista que nunca entró en una fragua. Coloqué las manos cerca del yunque: así se leen mejor los dedos y sus antiguas quemaduras.",
-        "author": "Borin Ceniza, médico de las forjas"
+        "author": "Borin Ceniza, médico de forja de Neithem",
+        "provenance": {
+          "place": "Neithem",
+          "place_id": "place-001",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "médico de forja"
+        }
       }
     },
     "humanos": {
       "figure": {
         "text": "He dibujado cinco rostros de una misma aldea sin encontrar dos iguales. Este es el defecto de toda lámina: parece definitiva apenas se moja la tinta.",
-        "author": "Isolde de Miralba, escribana del cuerpo"
+        "author": "Isolde de Miralba, compiladora del códice de Eirae",
+        "provenance": {
+          "place": "Eirae",
+          "place_id": "place-059",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "compiladora del códice"
+        }
       },
       "notes": {
         "text": "Pregunto por el pozo del que beben, las jornadas en los caminos y el lugar donde duermen. En ocasiones, la respuesta está en la vivienda y no bajo la piel.",
-        "author": "Isolde de Miralba, escribana del cuerpo"
+        "author": "Mireya Lorn, médica itinerante de Archlond",
+        "provenance": {
+          "place": "Archlond",
+          "place_id": "place-037",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "médica itinerante"
+        }
       },
       "archive": {
         "text": "Puse frente a frente a un marinero y a una agricultora. No hallé en sus manos ni en sus hombros un patrón que bastara para hablar en nombre de todos los humanos.",
-        "author": "Fael Orin, dibujante de anatomías"
+        "author": "Fael Orin, dibujante anatómico de Aurelith",
+        "provenance": {
+          "place": "Aurelith",
+          "place_id": "place-079",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "dibujante anatómico"
+        }
       }
     },
     "norin": {
       "figure": {
         "text": "Los pies descubiertos merecen una lámina propia. La planta endurecida por los caminos y la tierra guarda señales que la bota de otros pueblos esconde.",
-        "author": "Maela Zarzaverde, curandera de las huertas"
+        "author": "Maela Zarzaverde, curandera de Comarca Esmeralda",
+        "provenance": {
+          "place": "Comarca Esmeralda",
+          "place_id": "place-060",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "curandera"
+        }
       },
       "notes": {
         "text": "El cuidado de la huerta enseña a notar las estaciones. Entre los Nórin, la mano del labrador reconoce antes que yo cuándo una convalecencia necesita reposo.",
-        "author": "Maela Zarzaverde, curandera de las huertas"
+        "author": "Talia Cendal, boticaria de Dulcesidra",
+        "provenance": {
+          "place": "Dulcesidra",
+          "place_id": "place-306",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "boticaria"
+        }
       },
       "archive": {
         "text": "Para que el aprendiz comprenda la escala de esta lámina, he dibujado los pies junto al cuerpo entero. Allí la vida descalza deja una escritura que los guantes no ocultan.",
-        "author": "Maela Zarzaverde, curandera de las huertas"
+        "author": "Nolin Hojalarga, agricultor y curandero de Molino Blanco",
+        "provenance": {
+          "place": "Molino Blanco",
+          "place_id": "place-097",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "agricultor y curandero"
+        }
       }
     },
     "sinhair": {
       "figure": {
         "text": "No hay un único perfil Sin’hair. Los clanes varían tanto en sus semblantes que sería deshonesto encerrar su anatomía en la cara de un solo modelo.",
-        "author": "Eshara de las Sendas, herbolaria viajera"
+        "author": "Eshara de las Sendas, herbolaria viajera de Fedethrill",
+        "provenance": {
+          "place": "Fedethrill",
+          "place_id": "place-074",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "herbolaria viajera"
+        }
       },
       "notes": {
         "text": "Las señales de tinta, las cicatrices de caza y las costumbres del clan deben anotarse por separado. Una marca ceremonial no es una lesión, aunque se le parezca.",
-        "author": "Eshara de las Sendas, herbolaria viajera"
+        "author": "Sariel de la Marisma, cartógrafa y sanadora de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "cartógrafa y sanadora"
+        }
       },
       "archive": {
         "text": "En estos dos cuerpos nada autoriza a confundir el clan con una sola fisonomía. Por eso dejé espacio para registrar tinta ceremonial, cicatrices y el nombre de su portador.",
-        "author": "Eshara de las Sendas, herbolaria viajera"
+        "author": "Lethari Vah, boticaria del clan de Coriel",
+        "provenance": {
+          "place": "Coriel",
+          "place_id": "place-077",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "boticaria del clan"
+        }
       }
     },
     "amarant": {
       "figure": {
         "text": "En mis cuadernos figuran únicamente mujeres Amarant, altas y de porte singular. Compararlas con sus linajes de origen ilumina las semejanzas, pero jamás sustituye la observación.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Serah Venn, cronista de la selva de Alandra",
+        "provenance": {
+          "place": "Alandra",
+          "place_id": "place-072",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "cronista de la selva"
+        }
       },
       "notes": {
         "text": "En la selva, la humedad permanece bajo vendas aparentemente secas. He aprendido a mirar primero las manos y los brazos de quienes vuelven de las lianas.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Lysandra Ori, boticaria de guardia de Guardia Zytheria",
+        "provenance": {
+          "place": "Guardia Zytheria",
+          "place_id": "place-068",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "boticaria de guardia"
+        }
       },
       "archive": {
         "text": "Solo mujeres Amarant figuran en este registro. El porte y la forma de las orejas se aprecian mejor de frente, antes de que las sombras del follaje alteren sus perfiles.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Adria Vael, vigía de la selva de Fohn’Veridan",
+        "provenance": {
+          "place": "Fohn’Veridan",
+          "place_id": "place-069",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "vigía de la selva"
+        }
       }
     }
   },
@@ -155,381 +347,894 @@
     "h-01": {
       "plate": {
         "text": "Machacad las hojas solo después de lavarlas. La película brillante que cubre la planta al alba desaparece con el sol; yo la dibujo antes de arrancarla.",
-        "author": "Talia Cendal, boticaria del camino"
+        "author": "Talia Cendal, boticaria de Dulcesidra",
+        "provenance": {
+          "place": "Dulcesidra",
+          "place_id": "place-306",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "boticaria"
+        }
       },
       "page": {
         "text": "El llantén acompaña bien a los caminantes que regresan con pequeñas raspaduras. El barro oculto bajo una hoja hace más daño que la demora del boticario.",
-        "author": "Talia Cendal, boticaria del camino"
+        "author": "Maela Zarzaverde, curandera de Comarca Esmeralda",
+        "provenance": {
+          "place": "Comarca Esmeralda",
+          "place_id": "place-060",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "curandera"
+        }
       }
     },
     "h-02": {
       "plate": {
         "text": "He visto estas flores doblarse en el aire del arroyo sin quebrarse. Conviene dibujar el tallo entero antes de secarlo, pues el herbolario lo confunde con facilidad.",
-        "author": "Lior de los Arroyos, herbolario"
+        "author": "Lior de los Arroyos, herbolario de Riwer",
+        "provenance": {
+          "place": "Riwer",
+          "place_id": "place-030",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "herbolario"
+        }
       },
       "page": {
         "text": "Su aroma ligero llega primero que el vapor. Si el enfermo respira con trabajo, prefiero apartar la vasija y escuchar su pecho antes que insistir en la costumbre.",
-        "author": "Lior de los Arroyos, herbolario"
+        "author": "Evania Sorel, partera de Eirae",
+        "provenance": {
+          "place": "Eirae",
+          "place_id": "place-059",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "partera"
+        }
       }
     },
     "h-03": {
       "plate": {
         "text": "La hoja parece sencilla hasta que se observa el envés ceniciento. Las tres puntas se distinguen mejor al trasluz que sobre la mesa.",
-        "author": "Mestre Adran, curandero itinerante"
+        "author": "Eshara de las Sendas, herbolaria viajera de Fedethrill",
+        "provenance": {
+          "place": "Fedethrill",
+          "place_id": "place-074",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "herbolaria viajera"
+        }
       },
       "page": {
         "text": "El amargor es una advertencia tan clara como cualquier palabra. Al viajero exhausto le ofrezco primero agua y descanso; la infusión no reemplaza la comida.",
-        "author": "Mestre Adran, curandero itinerante"
+        "author": "Mireya Lorn, médica itinerante de Archlond",
+        "provenance": {
+          "place": "Archlond",
+          "place_id": "place-037",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "médica itinerante"
+        }
       }
     },
     "h-04": {
       "plate": {
         "text": "Ninguna barba de pozo es igual cuando la sombra es profunda. El filamento retiene gotitas diminutas, motivo suficiente para conservar un dibujo de su textura.",
-        "author": "Autor desconocido"
+        "author": "Adran de las Pozas, recolector de musgos de Engerlass",
+        "provenance": {
+          "place": "Engerlass",
+          "place_id": "place-028",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "recolector de musgos"
+        }
       },
       "page": {
         "text": "La compresa fresca reconforta, pero el musgo del muro trae consigo aquello que el ojo no ve. Dejo escrito en rojo: limpiadlo antes de acercarlo a la piel.",
-        "author": "Autor desconocido"
+        "author": "Silven Hal, escribano de rutas de Torvask",
+        "provenance": {
+          "place": "Torvask",
+          "place_id": "place-018",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "escribano de rutas"
+        }
       }
     },
     "h-05": {
       "plate": {
         "text": "Solo se abre durante un deshielo breve y he perdido tres viajes por llegar demasiado pronto. La flor azul no parece temer al viento.",
-        "author": "Yrsa Ventisca, médica de los puertos altos"
+        "author": "Bjorn, Capa Negra de Mossgard",
+        "provenance": {
+          "place": "Mossgard",
+          "place_id": "place-008",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "Capa Negra"
+        }
       },
       "page": {
         "text": "La almohadilla templada alivia la rigidez del caminante; la misma expedición para recoger pétalos puede costarle más dolor que el que pretende evitar.",
-        "author": "Yrsa Ventisca, médica de los puertos altos"
+        "author": "Yrsa Ventisca, sanadora de montaña de Valgard",
+        "provenance": {
+          "place": "Valgard",
+          "place_id": "place-020",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "sanadora de montaña"
+        }
       }
     },
     "h-06": {
       "plate": {
         "text": "La raíz de escarcha tiñe los dedos de rojo aun después del lavado. Al cortarla, su olor punzante llena la estancia.",
-        "author": "Hedrik Varn, médico de Bergheim"
+        "author": "Sigrun Halda, herbolaria de montaña de Ulfvik",
+        "provenance": {
+          "place": "Ulfvik",
+          "place_id": "place-101",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "herbolaria de montaña"
+        }
       },
       "page": {
         "text": "No he visto que devuelva la fuerza a nadie. Sí he visto a los viajeros acercar las manos a su taza caliente y hablar por fin de lo ocurrido en el camino.",
-        "author": "Hedrik Varn, médico de Bergheim"
+        "author": "Borin Ceniza, médico de forja de Neithem",
+        "provenance": {
+          "place": "Neithem",
+          "place_id": "place-001",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "médico de forja"
+        }
       }
     },
     "h-07": {
       "plate": {
         "text": "En noches sin luna su brillo es escaso, como el de un farol remoto bajo el agua. Conviene extender la fronda sobre un paño claro para dibujarla.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Naori Sen, observadora de las costas de Tetsumori",
+        "provenance": {
+          "place": "Tetsumori",
+          "place_id": "place-317",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "observadora de las costas"
+        }
       },
       "page": {
         "text": "El agua de la ensenada importa más que la belleza del alga. He desechado frondas magníficas por haberse criado donde desemboca un desagüe.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Haru, sacerdotisa de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "sacerdotisa"
+        }
       }
     },
     "h-08": {
       "plate": {
         "text": "Su floración dura menos que una visita al santuario. Dibujé el color antes del alba, pues la luz del mediodía lo vuelve pálido.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Kaede, botánica de los santuarios de Yukishima",
+        "provenance": {
+          "place": "Yukishima",
+          "place_id": "place-316",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "botánica de los santuarios"
+        }
       },
       "page": {
         "text": "En las mesas rituales se emplea como perfume de las manos. El buen agua hervida sigue siendo el verdadero auxilio de una limpieza cuidadosa.",
-        "author": "Naori Sen, observadora de las Tres Costas"
+        "author": "Haru, sacerdotisa de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "sacerdotisa"
+        }
       }
     },
     "h-09": {
       "plate": {
         "text": "La resina cae transparente y pronto parece una lágrima de vidrio. Recojo una muestra sobre tela para mostrar cómo cambia con el aire.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Serah Venn, cronista de la selva de Alandra",
+        "provenance": {
+          "place": "Alandra",
+          "place_id": "place-072",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "cronista de la selva"
+        }
       },
       "page": {
         "text": "Sobre la tela puede oponer cierta resistencia a la humedad; sobre la carne abierta puede convertirse en un segundo tormento. No confundáis las superficies.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Lysandra Ori, boticaria de guardia de Guardia Zytheria",
+        "provenance": {
+          "place": "Guardia Zytheria",
+          "place_id": "place-068",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "boticaria de guardia"
+        }
       }
     },
     "h-10": {
       "plate": {
         "text": "Las nervaduras rojas se quiebran bajo un pincel torpe. Las esporas quedan flotando incluso cuando el helecho parece inmóvil.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Adria Vael, vigía de la selva de Fohn’Veridan",
+        "provenance": {
+          "place": "Fohn’Veridan",
+          "place_id": "place-069",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "vigía de la selva"
+        }
       },
       "page": {
         "text": "El alivio de un picor dura poco cuando el polvo de esporas alcanza los ojos. Siempre aparto la hoja del rostro antes de preparar el baño.",
-        "author": "Serah Venn, cronista de las aguas altas"
+        "author": "Serah Venn, cronista de la selva de Alandra",
+        "provenance": {
+          "place": "Alandra",
+          "place_id": "place-072",
+          "atlas_path": "data/atlas/localidades/elenya.json",
+          "role": "cronista de la selva"
+        }
       }
     },
     "h-11": {
       "plate": {
         "text": "La candelaria de veta se reconoce por su palidez entre la piedra seca. No todo lo que crece junto al mineral está hecho para el estómago.",
-        "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
+        "author": "Gloim, líder de expedición de Dhalgrim",
+        "provenance": {
+          "place": "Dhalgrim",
+          "place_id": "place-003",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "líder de expedición"
+        }
       },
       "page": {
         "text": "He marcado frascos y vendas con su polvo, pero jamás lo llevaría a la boca. La utilidad de un hongo puede residir en ordenar un botiquín.",
-        "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
+        "author": "Rúrik Piedrahonda, cirujano de galerías de Dhalgrim",
+        "provenance": {
+          "place": "Dhalgrim",
+          "place_id": "place-003",
+          "atlas_path": "data/atlas/localidades/kargast.json",
+          "role": "cirujano de galerías"
+        }
       }
     },
     "h-12": {
       "plate": {
         "text": "Los brotes se ennegrecen bajo las ramas más altas; al llevarlos al sol parecen plantas distintas. Guardé una muestra de cada sombra.",
-        "author": "Aelir Vaes, anatomista de los lindes"
+        "author": "Aelir Vaes, anatomista de Rhori’len",
+        "provenance": {
+          "place": "Rhori’len",
+          "place_id": "place-085",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "anatomista"
+        }
       },
       "page": {
         "text": "El olor fuerte disimula otros olores, pero no sana aquello que los produce. Escuchad a quien no lo soporta; también la nariz merece reposo.",
-        "author": "Aelir Vaes, anatomista de los lindes"
+        "author": "Vaelor Syth, médico de campaña de Ifnolir",
+        "provenance": {
+          "place": "Ifnolir",
+          "place_id": "place-080",
+          "atlas_path": "data/atlas/localidades/isilme.json",
+          "role": "médico de campaña"
+        }
       }
     },
     "h-13": {
       "plate": {
         "text": "Es una hierba tan baja que la pisamos antes de encontrarla. Su hoja redonda merece una lupa más que un gran lienzo.",
-        "author": "Maela Zarzaverde, curandera de las huertas"
+        "author": "Maela Zarzaverde, curandera de Comarca Esmeralda",
+        "provenance": {
+          "place": "Comarca Esmeralda",
+          "place_id": "place-060",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "curandera"
+        }
       },
       "page": {
         "text": "La sopa ligera ha ayudado a más convalecientes de los que puedo contar. No afirmo que obre milagros: a veces alimentarse ya es una victoria.",
-        "author": "Maela Zarzaverde, curandera de las huertas"
+        "author": "Nolin Hojalarga, agricultor y curandero de Molino Blanco",
+        "provenance": {
+          "place": "Molino Blanco",
+          "place_id": "place-097",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "agricultor y curandero"
+        }
       }
     },
     "h-14": {
       "plate": {
         "text": "La savia brilla como cristal entre las fisuras de la corteza. Me gusta dibujar primero el árbol completo y después una sola grieta.",
-        "author": "Eshara de las Sendas, herbolaria viajera"
+        "author": "Eshara de las Sendas, herbolaria viajera de Fedethrill",
+        "provenance": {
+          "place": "Fedethrill",
+          "place_id": "place-074",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "herbolaria viajera"
+        }
       },
       "page": {
         "text": "La cuerda abre surcos en la piel de quien viaja. He visto que una compresa húmeda ofrece descanso si se retira antes de secarse sobre la herida.",
-        "author": "Eshara de las Sendas, herbolaria viajera"
+        "author": "Lethari Vah, boticaria del clan de Coriel",
+        "provenance": {
+          "place": "Coriel",
+          "place_id": "place-077",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "boticaria del clan"
+        }
       }
     },
     "h-15": {
       "plate": {
         "text": "Los cristales nacen junto a los juncos oscuros y parecen sal común hasta mirarlos muy de cerca. Su sequedad es parte de su virtud para conservar.",
-        "author": "Isolde de Miralba, escribana del cuerpo"
+        "author": "Sariel de la Marisma, cartógrafa y sanadora de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "cartógrafa y sanadora"
+        }
       },
       "page": {
         "text": "Conservo vendas lejos de la humedad, no las froto con sal sobre la carne. Un ayudante aprendió esta diferencia después de oír gritar a un soldado.",
-        "author": "Isolde de Miralba, escribana del cuerpo"
+        "author": "Mireya Lorn, médica itinerante de Archlond",
+        "provenance": {
+          "place": "Archlond",
+          "place_id": "place-037",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "médica itinerante"
+        }
       }
     },
     "h-16": {
       "plate": {
         "text": "La espiga de bronce resiste al viento y a los suelos mezquinos. La dibujé con su vaina intacta para que no se confundiera con otras avenas.",
-        "author": "Talia Cendal, boticaria del camino"
+        "author": "Talia Cendal, boticaria de Dulcesidra",
+        "provenance": {
+          "place": "Dulcesidra",
+          "place_id": "place-306",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "boticaria"
+        }
       },
       "page": {
         "text": "Tras una molienda paciente, las gachas sostienen a quien recupera el apetito. El grano duro no premia la prisa del cocinero.",
-        "author": "Talia Cendal, boticaria del camino"
+        "author": "Garett de la Mesa Gris, calculista sanitario de Eirae",
+        "provenance": {
+          "place": "Eirae",
+          "place_id": "place-059",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "calculista sanitario"
+        }
       }
     }
   },
   "diseases": {
     "fd": {
-      "author": "Maese Odran Galver, médico de Driadem",
       "illustration": {
         "text": "Cuando las lesiones toman el verde de las aguas estancadas, el dibujante debe registrar cada borde antes de limpiar la piel. El color cambia con la luz y engaña al ojo.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Ilyra Vah, dibujante de heridas de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "dibujante de heridas"
+        }
       },
       "disease": {
         "text": "La tos anuncia al enfermo antes de que llegue a la puerta. He ordenado anotar el color de las secreciones, la fiebre y el primer día en que aparecieron pústulas.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Odran Galver, médico de campaña de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "médico de campaña"
+        }
       },
       "clinical": {
         "text": "La espalda revela lo que el rostro intenta ocultar. Pido a los ayudantes que observen las lesiones con luz oblicua y no separen el relato del paciente de lo que sus ojos encuentran.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Asa del Río, médica de campaña de Fedethrill",
+        "provenance": {
+          "place": "Fedethrill",
+          "place_id": "place-074",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "médica de campaña"
+        }
       },
       "stages": {
         "text": "En los casos tardíos el deterioro parece avanzar por jornadas enteras. No es una sola herida: es el cansancio de la carne entera sometida a la fiebre.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Tarek Vah, cirujano de Coriel",
+        "provenance": {
+          "place": "Coriel",
+          "place_id": "place-077",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "cirujano"
+        }
       },
       "theory": {
         "text": "He oído hablar de gusanos rojos y de insectos de manglar. Los dos relatos merecen escribirse; ninguno debe convertirse en certeza por la fuerza de la repetición.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Sariel de la Marisma, cartógrafa y sanadora de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "cartógrafa y sanadora"
+        }
       },
       "exposure": {
         "text": "A cada viajero pregunto dónde durmió, de qué agua bebió y quién compartió su refugio. El mapa de su marcha suele ser tan valioso como el del cuerpo.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Bjorn, Capa Negra de Mossgard",
+        "provenance": {
+          "place": "Mossgard",
+          "place_id": "place-008",
+          "atlas_path": "data/atlas/localidades/bergheim.json",
+          "role": "Capa Negra"
+        }
       },
       "calculate": {
         "text": "Anoto cada exposición en una línea distinta. Una cifra puede ayudar al escriba a ordenar el libro, pero ninguna cuenta sustituye la observación del enfermo.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Neral de las Tintas, escribano sanitario de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "escribano sanitario"
+        }
       },
       "care": {
         "text": "Lavad las manos, cambiad los paños húmedos y procurad que el febril descanse. No he visto que un vendaje por sí solo devuelva a la piel su antiguo estado.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Vaira Cendal, sanadora del hospicio de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "sanadora del hospicio"
+        }
       },
       "deterioro": {
         "text": "Recuperé estas láminas de cuerpos muy deteriorados para comparar la pérdida de tejido. No sostengo que el enfermo se vuelva un muerto viviente; solo comparo aquello que la carne deja ver.",
-        "author": "Maese Odran Galver, médico de Driadem"
+        "author": "Odran Galver, médico de campaña de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "médico de campaña"
+        }
       },
       "deterioroStages": {
         "text": "En los últimos folios comparo el pecho fatigado con dibujos de tejidos muy deteriorados. Pido al lector que observe la pérdida de color y no atribuya a la semejanza una causa común.",
-        "author": "Alda Verin, dibujante del lazareto"
+        "author": "Alda Verin, dibujante del lazareto de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "dibujante del lazareto"
+        }
       }
     },
     "com": {
-      "author": "Ilaria Ves, copista de las Cenizas",
       "illustration": {
         "text": "Las manchas recuerdan flores abatidas, pero nunca son idénticas. Conviene dibujar la primera antes de que nuevas señales borren su contorno.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Ilaria Ves, copista de mareas de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "copista de mareas"
+        }
       },
       "disease": {
         "text": "No confundáis el silencio del enfermo con su voluntad. En algunos la voz se apaga de manera tan lenta que sus amigos dejan de notar la pérdida.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Haru, sacerdotisa de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "sacerdotisa"
+        }
       },
       "clinical": {
         "text": "Me siento frente al paciente y espero. Aun una palabra apenas audible dice más que una descripción apresurada del cuello.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Naori Sen, observadora de las costas de Tetsumori",
+        "provenance": {
+          "place": "Tetsumori",
+          "place_id": "place-317",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "observadora de las costas"
+        }
       },
       "stages": {
         "text": "He conocido a quienes continuaban escribiendo cuando ya no podían pronunciar su propio nombre. Dejad una tablilla cerca del lecho.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Akiro, cirujano de montaña de Yukishima",
+        "provenance": {
+          "place": "Yukishima",
+          "place_id": "place-316",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "cirujano de montaña"
+        }
       },
       "theory": {
         "text": "La flor necrótica es una explicación hermosa y terrible. Su belleza no demuestra que sea culpable: de las hipótesis se aprende también a desconfiar.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Kaede, botánica de los santuarios de Yukishima",
+        "provenance": {
+          "place": "Yukishima",
+          "place_id": "place-316",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "botánica de los santuarios"
+        }
       },
       "exposure": {
         "text": "Quienes regresan de Ushios cuentan historias incompatibles. Registraré todas, pero distinguiré la ruta seguida de los temores que les provoca el recuerdo.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Mina del Oleaje, navegante de Puerto de la Luna",
+        "provenance": {
+          "place": "Puerto de la Luna",
+          "place_id": "place-054",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "navegante"
+        }
       },
       "calculate": {
         "text": "El cuaderno de exposición contiene cifras, aunque la voz no pueda medirse del mismo modo. Cada observación debe conservar su fecha.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Neral de las Tintas, escribano sanitario de Driadem",
+        "provenance": {
+          "place": "Driadem",
+          "place_id": "place-075",
+          "atlas_path": "data/atlas/localidades/seriasak.json",
+          "role": "escribano sanitario"
+        }
       },
       "care": {
         "text": "Cuando la voz se vuelve un murmullo, ofreced papel, gesto y paciencia. La pérdida de la palabra no significa pérdida del pensamiento.",
-        "author": "Ilaria Ves, copista de las Cenizas"
+        "author": "Ise de la Costa, sanadora de puerto de Kazehara",
+        "provenance": {
+          "place": "Kazehara",
+          "place_id": "place-318",
+          "atlas_path": "data/atlas/localidades/yugen.json",
+          "role": "sanadora de puerto"
+        }
       }
     },
     "sn": {
-      "author": "Mara de Reeve, observadora del hospicio",
       "illustration": {
         "text": "La sangre oscurecida no es tinta, aunque en la lámpara lo parezca. He hecho dibujar las lágrimas como se ven, sin exagerarlas para espantar al lector.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Mara de Reeve, observadora del hospicio de Alto Reeve",
+        "provenance": {
+          "place": "Alto Reeve",
+          "place_id": "place-033",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "observadora del hospicio"
+        }
       },
       "disease": {
         "text": "La tristeza precede a las señales que otros reconocen. Preguntad al enfermo qué sueña y qué escucha antes de buscar las manchas en su ropa.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Elira del Cuarto Lecho, cuidadora del hospicio de Bajo Reeve",
+        "provenance": {
+          "place": "Bajo Reeve",
+          "place_id": "place-035",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "cuidadora del hospicio"
+        }
       },
       "clinical": {
         "text": "Las noches se hacen largas para quien oye lamentos donde los demás oyen viento. No llaméis mentira a la experiencia del paciente.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Solenne de la Torre, cuidadora de Alto Reeve",
+        "provenance": {
+          "place": "Alto Reeve",
+          "place_id": "place-033",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "cuidadora"
+        }
       },
       "stages": {
         "text": "Las manchas en el lienzo y las lágrimas oscuras obligan a mirar los estadios con cuidado. Las observaciones anteriores deben mantenerse a la vista.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Oren Harl, anatomista de Nyde",
+        "provenance": {
+          "place": "Nyde",
+          "place_id": "place-031",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "anatomista"
+        }
       },
       "theory": {
         "text": "Conozco los rumores del veneno nacido en Alto Reeve. Lo que se sabe del contacto con sangre negra exige prudencia aun cuando su origen siga rodeado de voces.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Mara de Reeve, observadora del hospicio de Alto Reeve",
+        "provenance": {
+          "place": "Alto Reeve",
+          "place_id": "place-033",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "observadora del hospicio"
+        }
       },
       "exposure": {
         "text": "Si una venda se ha impregnado de sangre oscura, nadie debe tocarla sin cuidado. El registro del contacto importa tanto como la memoria del dolor.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Bela Lorn, sanadora de Liff",
+        "provenance": {
+          "place": "Liff",
+          "place_id": "place-032",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "sanadora"
+        }
       },
       "calculate": {
         "text": "Quien vuelve al camino puede arrastrar una dolencia anterior. El libro debe seguirle de una estancia a otra y no comenzar de cero con cada viaje.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Garett de la Mesa Gris, calculista sanitario de Eirae",
+        "provenance": {
+          "place": "Eirae",
+          "place_id": "place-059",
+          "atlas_path": "data/atlas/localidades/ennor.json",
+          "role": "calculista sanitario"
+        }
       },
       "care": {
         "text": "Que un enfermo llore sangre no lo convierte en una criatura. Llevadle paños limpios, compañía y un lugar donde dormir lejos del bullicio.",
-        "author": "Mara de Reeve, observadora del hospicio"
+        "author": "Hermana Alda de los Vendajes, cuidadora de Alto Reeve",
+        "provenance": {
+          "place": "Alto Reeve",
+          "place_id": "place-033",
+          "atlas_path": "data/atlas/localidades/avalon.json",
+          "role": "cuidadora"
+        }
       }
     }
   },
   "general": {
     "table": {
       "text": "Dejar las cifras juntas permite comparar tres cuadernos sin mezclarlos. Quien busque una respuesta debe volver después al expediente del enfermo.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Elda de los Cuadernos, archivera de expedientes de Driadem",
+      "provenance": {
+        "place": "Driadem",
+        "place_id": "place-075",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "archivera de expedientes"
+      }
     },
     "matrix": {
       "text": "Las tablas describen el cálculo de exposición, pero los síntomas solo se conocen al escuchar a quien los padece.",
-      "author": "Autor desconocido"
+      "author": "Haru, sacerdotisa de Kazehara",
+      "provenance": {
+        "place": "Kazehara",
+        "place_id": "place-318",
+        "atlas_path": "data/atlas/localidades/yugen.json",
+        "role": "sacerdotisa"
+      }
     },
     "attributes": {
       "text": "He contado los efectos de la fatiga al subir escaleras y al sostener el instrumental. El escriba deberá anotar con claridad las variaciones de cada atributo.",
-      "author": "Maese Odran Galver, médico de Driadem"
+      "author": "Gloim, líder de expedición de Dhalgrim",
+      "provenance": {
+        "place": "Dhalgrim",
+        "place_id": "place-003",
+        "atlas_path": "data/atlas/localidades/kargast.json",
+        "role": "líder de expedición"
+      }
     },
     "faq": {
       "text": "El mejor cuaderno deja sitio al margen para las preguntas de mañana. No todo lo que sabemos hoy merece encerrarse en una respuesta definitiva.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Isolde de Miralba, compiladora del códice de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "compiladora del códice"
+      }
     }
   },
   "pages": {
     "El Códice de la Salud": {
       "text": "Este libro nació del desacuerdo de muchas manos. He dejado juntos los relatos del cirujano, la partera y el boticario para que nadie confunda mi voz con la única verdadera.",
-      "author": "Isolde de Miralba, compiladora del códice"
+      "author": "Isolde de Miralba, compiladora del códice de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "compiladora del códice"
+      }
     },
     "Advertencia del compilador": {
       "text": "Al copiar los testimonios he conservado los nombres de quienes aceptaron firmarlos. Otros pidieron permanecer ocultos: no por ello dejaré de escuchar sus observaciones.",
-      "author": "Neral de las Tintas, escribano de hospicio"
+      "author": "Neral de las Tintas, escribano sanitario de Driadem",
+      "provenance": {
+        "place": "Driadem",
+        "place_id": "place-075",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "escribano sanitario"
+      }
     },
     "Del arte de mirar": {
       "text": "Dos enfermos con fiebre semejante pueden haber caminado por tierras opuestas. La lámpara ilumina la carne, pero una pregunta oportuna ilumina su historia.",
-      "author": "Mireya Lorn, médica itinerante"
+      "author": "Mireya Lorn, médica itinerante de Archlond",
+      "provenance": {
+        "place": "Archlond",
+        "place_id": "place-037",
+        "atlas_path": "data/atlas/localidades/avalon.json",
+        "role": "médica itinerante"
+      }
     },
     "Del deber de escribir las dudas": {
       "text": "Si mañana una nueva observación contradice mi registro, que el siguiente facultativo añada una hoja y no arranque la anterior. Así se vuelve más útil un cuaderno.",
-      "author": "Autor desconocido"
+      "author": "Autor desconocido, manuscrito conservado en Jorundathr",
+      "provenance": {
+        "place": "Jorundathr",
+        "place_id": "place-010",
+        "atlas_path": "data/atlas/localidades/bergheim.json",
+        "role": "manuscrito conservado en"
+      }
     },
     "De la generación entre estirpes": {
       "text": "He asistido partos que las casas nobles prohibieron nombrar. El cuerpo de la madre no conoce los decretos de una corte; el deber de la partera sigue siendo recibir al recién nacido.",
-      "author": "Evania Sorel, partera de la ribera"
+      "author": "Evania Sorel, partera de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "partera"
+      }
     },
     "De la herencia y el nombre": {
       "text": "Un apellido puede cambiarse con un juramento y una sangre puede mezclarse a través de generaciones. No pretendo deducir la forma de un niño por el blasón de sus padres.",
-      "author": "Maese Toren Val, registrador de nacimientos"
+      "author": "Toren Val, registrador de nacimientos de Atanner",
+      "provenance": {
+        "place": "Atanner",
+        "place_id": "place-029",
+        "atlas_path": "data/atlas/localidades/avalon.json",
+        "role": "registrador de nacimientos"
+      }
     },
     "De las montañas": {
       "text": "Una pierna entumecida por la nieve parece sana junto al hogar hasta que vuelve el dolor. Pregunto cuánto duró el regreso y quién ayudó a bajar al herido.",
-      "author": "Yrsa Ventisca, sanadora de los pasos"
+      "author": "Yrsa Ventisca, sanadora de montaña de Valgard",
+      "provenance": {
+        "place": "Valgard",
+        "place_id": "place-020",
+        "atlas_path": "data/atlas/localidades/bergheim.json",
+        "role": "sanadora de montaña"
+      }
     },
     "De las minas y los talleres": {
       "text": "Antes de auscultar al fundidor acerco el oído a la chimenea apagada. El humo del taller conserva secretos que los pulmones llevan durante años.",
-      "author": "Borin Ceniza, médico de las forjas"
+      "author": "Borin Ceniza, médico de forja de Neithem",
+      "provenance": {
+        "place": "Neithem",
+        "place_id": "place-001",
+        "atlas_path": "data/atlas/localidades/kargast.json",
+        "role": "médico de forja"
+      }
     },
     "Del manglar y las marismas": {
       "text": "En la ciénaga el zumbido parece venir de todas partes. He señalado en mis mapas dónde dormían los caminantes que regresaron con fiebre, sin proclamar aún cuál insecto los alcanzó.",
-      "author": "Sariel de la Marisma, cartógrafa y sanadora"
+      "author": "Sariel de la Marisma, cartógrafa y sanadora de Driadem",
+      "provenance": {
+        "place": "Driadem",
+        "place_id": "place-075",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "cartógrafa y sanadora"
+      }
     },
     "De los valles cultivados": {
       "text": "Después de la siega encuentro dedos llagados y pies abiertos por piedras pequeñas. El mejor remedio comienza a veces con detener el trabajo al caer la tarde.",
-      "author": "Maela Zarzaverde, curandera de las huertas"
+      "author": "Maela Zarzaverde, curandera de Comarca Esmeralda",
+      "provenance": {
+        "place": "Comarca Esmeralda",
+        "place_id": "place-060",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "curandera"
+      }
     },
     "De las Tres Costas": {
       "text": "El remero acostumbra callar las heridas hasta alcanzar puerto. Una herida salada no cicatriza por el solo hecho de haber cruzado el mar.",
-      "author": "Naori Sen, observadora de las Tres Costas"
+      "author": "Naori Sen, observadora de las costas de Tetsumori",
+      "provenance": {
+        "place": "Tetsumori",
+        "place_id": "place-317",
+        "atlas_path": "data/atlas/localidades/yugen.json",
+        "role": "observadora de las costas"
+      }
     },
     "Del bosque y sus sendas": {
       "text": "El herbolario guarda plantas bellísimas que ningún viajero debería probar. Conservo juntos el dibujo de la hoja y la advertencia de quien se equivocó al reconocerla.",
-      "author": "Eshara de las Sendas, herbolaria viajera"
+      "author": "Eshara de las Sendas, herbolaria viajera de Fedethrill",
+      "provenance": {
+        "place": "Fedethrill",
+        "place_id": "place-074",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "herbolaria viajera"
+      }
     },
     "De las hierbas humildes": {
       "text": "La hierba que se consigue junto al camino también merece un nombre y una estación en el registro. No siempre es la más rara la que mejor acompaña al enfermo.",
-      "author": "Talia Cendal, boticaria del camino"
+      "author": "Talia Cendal, boticaria de Dulcesidra",
+      "provenance": {
+        "place": "Dulcesidra",
+        "place_id": "place-306",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "boticaria"
+      }
     },
     "De las enfermedades conocidas": {
       "text": "He separado los tres expedientes porque ninguna pestilencia merece ser confundida con otra. Los signos escritos aquí fueron recogidos por voces distintas y en lugares distintos.",
-      "author": "Odran Galver, médico de Driadem"
+      "author": "Odran Galver, médico de campaña de Driadem",
+      "provenance": {
+        "place": "Driadem",
+        "place_id": "place-075",
+        "atlas_path": "data/atlas/localidades/seriasak.json",
+        "role": "médico de campaña"
+      }
     },
     "Del alivio y sus límites": {
       "text": "Un sanador no fracasa por sentarse al lado del paciente sin conocer la cura. La compañía, el paño limpio y la palabra prudente también tienen su lugar en una jornada de enfermedad.",
-      "author": "Elira del Cuarto Lecho, cuidadora del hospicio"
+      "author": "Elira del Cuarto Lecho, cuidadora del hospicio de Bajo Reeve",
+      "provenance": {
+        "place": "Bajo Reeve",
+        "place_id": "place-035",
+        "atlas_path": "data/atlas/localidades/avalon.json",
+        "role": "cuidadora del hospicio"
+      }
     },
     "De las hojas del dibujante": {
       "text": "Cada lámina lleva la huella de una mano y de una lámpara. Donde el trazo parezca demasiado seguro, comparadlo con el cuerpo vivo antes de creerle.",
-      "author": "Fael Orin, dibujante de anatomías"
+      "author": "Fael Orin, dibujante anatómico de Aurelith",
+      "provenance": {
+        "place": "Aurelith",
+        "place_id": "place-079",
+        "atlas_path": "data/atlas/localidades/isilme.json",
+        "role": "dibujante anatómico"
+      }
     },
     "Consulta del reglamento 1": {
       "text": "Las cuentas admiten instrumentos que aún no he visto fabricar. Dejo el margen abierto para que quien descubra uno anote su nombre y procedencia.",
-      "author": "Garett de la Mesa Gris, calculista"
+      "author": "Garett de la Mesa Gris, calculista sanitario de Eirae",
+      "provenance": {
+        "place": "Eirae",
+        "place_id": "place-059",
+        "atlas_path": "data/atlas/localidades/ennor.json",
+        "role": "calculista sanitario"
+      }
     },
     "Consulta del reglamento 2": {
       "text": "Cuando un viajero describe dos jornadas como si hubieran sido una, el registro pierde su orden. He aprendido a fechar cada salida antes de anotar sus riesgos.",
-      "author": "Silven Hal, escribano de rutas"
+      "author": "Silven Hal, escribano de rutas de Torvask",
+      "provenance": {
+        "place": "Torvask",
+        "place_id": "place-018",
+        "atlas_path": "data/atlas/localidades/bergheim.json",
+        "role": "escribano de rutas"
+      }
     },
     "Consulta del reglamento 3": {
       "text": "El vigor de ayer no desaparece de la memoria del cuerpo cuando hoy pesa una secuela. Anoto ambas cifras en columnas diferentes para no confundirlas.",
-      "author": "Borin Ceniza, médico de las forjas"
+      "author": "Borin Ceniza, médico de forja de Neithem",
+      "provenance": {
+        "place": "Neithem",
+        "place_id": "place-001",
+        "atlas_path": "data/atlas/localidades/kargast.json",
+        "role": "médico de forja"
+      }
     },
     "Consulta del reglamento 4": {
       "text": "He visto a muchos buscar una cura donde solo había esperanza. Mientras no la encontremos, prefiero prometer cuidados y no remedios inexistentes.",
-      "author": "Hermana Alda de los Vendajes, cuidadora"
+      "author": "Hermana Alda de los Vendajes, cuidadora de Alto Reeve",
+      "provenance": {
+        "place": "Alto Reeve",
+        "place_id": "place-033",
+        "atlas_path": "data/atlas/localidades/avalon.json",
+        "role": "cuidadora"
+      }
     },
     "Consulta del reglamento 5": {
       "text": "Las crónicas cuentan quién cayó en el camino; los herederos recuerdan lo que el caído dejó tras de sí. Ambas cuentas merecen permanecer separadas en el libro.",
-      "author": "Autor desconocido"
+      "author": "Autor desconocido, registro hallado en Puerto Volker",
+      "provenance": {
+        "place": "Puerto Volker",
+        "place_id": "place-039",
+        "atlas_path": "data/atlas/localidades/avalon.json",
+        "role": "registro hallado en"
+      }
     }
+  },
+  "signatureSource": {
+    "schema": "aeternalis-mapa-localidades",
+    "validated": "2026-11-27",
+    "maps": [
+      "data/atlas/localidades/bergheim.json",
+      "data/atlas/localidades/yugen.json",
+      "data/atlas/localidades/kargast.json",
+      "data/atlas/localidades/elenya.json",
+      "data/atlas/localidades/seriasak.json",
+      "data/atlas/localidades/isilme.json",
+      "data/atlas/localidades/ennor.json",
+      "data/atlas/localidades/avalon.json",
+      "data/atlas/localidades/piratas.json"
+    ],
+    "contributors": 50,
+    "unique_places": 33,
+    "place_id_field": "provenance.place_id"
   }
 }
