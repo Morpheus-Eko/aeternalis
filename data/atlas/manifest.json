@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-caminos-costeros-galanor-ithariamil-v3",
+  "revision": "2026-11-27-supermapa-solo-caminos-trazados-v18",
   "counts": {
     "places": 118,
     "regions": 24,
-    "roads": 170,
+    "roads": 162,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
@@ -20,7 +20,13 @@
     "roadAdditionalLinks": 2,
     "coastalRoutesRevised": 20,
     "coastalNewConnections": 5,
-    "coastalRedundantRemoved": 2
+    "coastalRedundantRemoved": 2,
+    "roadTracedLand": 131,
+    "roadProposalsFromOldStraights": 97,
+    "roadWithoutLandTraceArchived": 8,
+    "landConnectedPoints": 103,
+    "landDisconnectedPoints": 15,
+    "navalLegacyRecords": 31
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -50,8 +56,9 @@
     "roadAudit": "data/atlas/caminos-auditoria.json",
     "roadPigments": "data/atlas/caminos-pigmentos-verdanteyl-elfos.json",
     "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json",
-    "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json"
+    "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json",
+    "untracedRoadArchive": "data/atlas/caminos-sin-trazado.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Atlas con 118 localidades, 24 regiones y 170 conexiones propuestas. Revisión costera: Comarca Esmeralda, Eirae–Guardia Zytheria–Fohn’Veridan y litoral de Galanor/Ithar’iamil; 20 trazados reconstruidos (15 anteriores, 5 enlaces nuevos), 2 atajos duplicados eliminados. 31 rutas marítimas intactas. El nombre Sylvanis se ajustó al rótulo del mapa."
+  "note": "Supermapa completo: 131 rutas terrestres con vértices cartográficos (34 previas y 97 recuperadas de auditoría), sin rectas entre asentamientos. Ocho conexiones anteriores no justificadas como camino terrestre se conservan en archivo y se excluyen de rutas activas. Los 31 registros marítimos permanecen intactos como datos históricos pero se ocultan de la capa terrestre y se gestionan por Carta Náutica. 103 de 118 localidades tienen al menos una conexión terrestre; 15 carecen de camino terrestre visible o se ubican en islas/áreas aisladas. Todas las rutas terrestres siguen marcadas como propuestas hasta su revisión final."
 }
