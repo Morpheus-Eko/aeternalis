@@ -7,6 +7,7 @@
  const BASE='https://morpheus-eko.github.io/aeternalis/';
  const DATA=BASE+'data/codice-salud/compendio.json?v=2.0.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
+ const ANATOMY_DATA=BASE+'assets/medicina/atlas-recortes-v01/indice-visor-racial.json?v=1.0.0';
  const DISEASE=BASE+'data/pestilencias/enfermedades.json?v=1.4.0';
  const ART=BASE+'assets/codex/botones/gotico/';
  const SCULPT=BASE+'assets/codex/esculturas/';
@@ -14,12 +15,27 @@
  const EMBLEM=BASE+'assets/pestilencias/';
  const SECTION_NAMES={guarda:'Preliminares',anatomia:'De la carne',linajes:'De la generación',territorios:'De aires y tierras',herbario:'Materia médica',pestilencias:'De las pestilencias',cuidados:'De los cuidados',atlas:'Archivo anatómico'};
  const state={pages:[],sections:[],current:0,drawer:false,loaded:false,report:null,vit:15,race:'humano',prior:0,potion:false,spell:false,sequela:0,statBase:40,statPenalty:25,statReport:null};
- let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),turning=false;
+ let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),turning=false;
  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
  function url(path){return /^https?:\/\//.test(path||'')?path:BASE+path;}
  function img(path,alt,extra){return '<img src="'+esc(url(path))+'" alt="'+esc(alt||'')+'" loading="lazy" decoding="async"'+(extra?' class="'+extra+'"':'')+'>';}
  function imageFigure(path,caption,variant){if(!path)return '';return '<figure class="ac-figure '+(variant?'ac-figure--'+variant:'')+'"><a href="'+esc(url(path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar ilustración">'+img(path,caption)+'</a><figcaption>'+esc(caption||'Lámina de consulta · ampliar ilustración')+'</figcaption></figure>';}
  function insetFigure(path,caption){if(!path)return '';return '<figure class="ac-inset-art"><a href="'+esc(url(path))+'" target="_blank" rel="noopener noreferrer" title="Examinar grabado">'+img(path,caption)+'</a><figcaption>'+esc(caption||'Estudio ilustrado')+'</figcaption></figure>';}
+
+ function isAtlasImage(path){return typeof path==='string'&&/^assets\/medicina\/atlas-recortes-v01\/(recortes|tinta_transparente)\/[a-z0-9_/-]+\.webp$/.test(path)&&!path.includes('..');}
+ function atlasGallery(r,kind){
+  const group=anatomyAssets[r.id];if(!group)return '';
+  const items=[];
+  for(const sex of ['femenino','masculino']){
+   const item=group[sex]&&group[sex][kind],path=item&&(kind==='figura'?item.pergamino:item.tinta);
+   if(!isAtlasImage(path))continue;
+   const label=sex==='femenino'?'Mujer':'Hombre',subject=kind==='figura'?'Estudio de la figura':item.tipo==='esqueleto'?'Estudio del esqueleto':'Detalle anatómico';
+   const desc=label+' · '+subject+' · '+r.title;
+   items.push('<figure class="ac-atlas-card"><a href="'+esc(url(path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar grabado">'+img(path,desc)+'</a><figcaption><strong>'+esc(label)+'</strong><span>'+esc(subject)+'</span></figcaption></figure>');
+  }
+  if(!items.length)return '';
+  return '<div class="ac-atlas-grid ac-atlas-grid--'+kind+(items.length===1?' ac-atlas-grid--single':'')+'" role="group" aria-label="Atlas comparado · '+esc(r.title)+'">'+items.join('')+'</div>';
+ }
  function diseaseMotif(d){return d.id==='fd'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp':d.id==='com'?'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/organos.webp':'assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp';}
  function paragraphs(items){return (items||[]).filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');}
  function label(text){return '<span class="ac-overline">'+esc(text)+'</span>';}
@@ -68,8 +84,8 @@
  function navButton(action,asset,text,disabled){return '<button type="button" class="ac-turn" data-action="'+action+'" aria-label="'+esc(text)+'" title="'+esc(text)+'" '+(disabled?'disabled':'')+'>'+img('assets/codex/botones/gotico/'+asset,'')+'</button>';}
  function tableOfContents(){return '<div class="ac-contents-list">'+state.sections.map(s=>'<button type="button" data-jump="'+s.page+'"><span>'+esc(s.title)+'</span><em>folio '+(s.page+1)+'</em></button>').join('')+'</div>'+note('Las hojas pueden abrirse desde el índice, desde la Brújula Arcana o mediante los controles artísticos de paso de página.');}
  function cover(p){return '<div class="ac-cover-ornament">✥ · ✥ · ✥</div><p class="ac-cover-sub">'+esc(p.subtitle)+'</p>'+imageFigure(p.image,'Antigua plancha anatómica, conservada entera','cover')+paragraphs(p.text)+note('Las enfermedades reglamentadas conservan sus reglas originales; el resto es saber narrativo, no ventaja estadística.');}
- function anatomy(p){const r=p.race;return imageFigure(p.image,p.caption,'anatomy')+insetFigure(r.inset||r.detail,'Detalle anatómico · lámina de estudio')+'<dl class="ac-facts">'+field('Proporción',r.measure)+field('Duración de la vida',r.life)+field('Territorios',r.habitat)+'</dl>'+paragraphs([r.shape])+((p.status==='ilustración provisional')?note('La imagen es un recurso de trabajo provisional; todavía no constituye lámina anatómica canónica.'):'');}
- function raceNotes(p){const r=p.race;return imageFigure(p.image,p.caption,'detail')+'<h3>Costumbres y entorno</h3>'+paragraphs([r.habits])+'<h3>Riesgos observados</h3>'+paragraphs([r.risks])+note('La exposición ambiental no equivale a enfermedad genética ni a una resistencia mecánica no prevista.');}
+ function anatomy(p){const r=p.race,plates=atlasGallery(r,'figura'),female=anatomyAssets[r.id]&&anatomyAssets[r.id].femenino,margin=female&&female.detalle&&female.detalle.tinta;return (plates||imageFigure(p.image,p.caption,'anatomy'))+insetFigure(isAtlasImage(margin)?margin:(r.inset||r.detail),'Detalle anatómico · lámina de estudio')+'<dl class="ac-facts">'+field('Proporción',r.measure)+field('Duración de la vida',r.life)+field('Territorios',r.habitat)+'</dl>'+paragraphs([r.shape])+note('Grabados comparativos de estudio: no establecen por sí mismos características biológicas o reglas nuevas.');}
+ function raceNotes(p){const r=p.race,details=atlasGallery(r,'detalle');return (details||imageFigure(p.image,p.caption,'detail'))+'<h3>Costumbres y entorno</h3>'+paragraphs([r.habits])+'<h3>Riesgos observados</h3>'+paragraphs([r.risks])+note('La exposición ambiental no equivale a enfermedad genética ni a una resistencia mecánica no prevista. Grabados anatómicos provisionales.');}
  function herbPage(p){const h=p.herb;return imageFigure(p.image,p.caption,'botanical')+insetFigure(p.marginImage,'Detalle de botica · estudio preliminar')+'<dl class="ac-facts">'+field('Hábitat',h.region)+field('Aspecto',h.description)+field('Preparación tradicional',h.preparation)+field('Uso referido',h.usage)+field('Límite',h.limits)+field('Precaución',h.risk)+'</dl>'+note(h.illustrationNote||'Lámina provisional, sin efecto mecánico.')+note('Sin efecto automático en estadísticas, secuelas o la corrupción del Kuro.');}
  function diseasePage(p){const d=p.disease;return imageFigure(p.image,d.name+' · sello patológico','seal')+paragraphs([d.narrative,d.summary])+note('Lugar de exposición: '+d.region+'. Umbral: resultado de 1d100 más modificadores estrictamente mayor que '+d.target+'.');}
  function stagesPage(p){const d=p.disease;return imageFigure(p.image,'Estudio anatómico de las secuelas','detail')+'<p>Al no superar el umbral modificado se añade un contador de secuela.</p><ol class="ac-stage-list">'+d.stages.map(s=>'<li><strong>'+esc(s.count+'. '+s.title)+'</strong><p>'+esc(s.effect)+'</p></li>').join('')+'</ol>'+note('Límite mortal: '+d.deathAt+' secuelas. Inmunidad prevista después de al menos cinco exposiciones; el orden exacto de resolución de la quinta requiere interpretación del staff.');}
@@ -126,6 +142,20 @@
    if(typeof item.path==='string'&&item.path.startsWith('assets/medicina/tomo-v02/')&&item.path.endsWith('.webp')&&!item.path.includes('..'))themeAssets[item.id]=BASE+item.path;
    const valid=(v)=>typeof v==='string'&&v.startsWith('assets/codex/')&&v.endsWith('.webp')&&!v.includes('..');
    if(valid(item.ornament)&&valid(item.divider)&&/^#[0-9a-fA-F]{6}$/.test(item.accent||''))themeDecor[item.id]={ornament:BASE+item.ornament,divider:BASE+item.divider,accent:item.accent};
+  }
+  if(state.loaded)render();
+ }).catch(()=>{});
+ fetch(ANATOMY_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
+  if(!index||index.schema!=='aeternalis-medicina-indice-racial-v1'||!index.razas)return;
+  for(const [race,sexes] of Object.entries(index.razas)){
+   if(!handbook||!handbook.races.some(r=>r.id===race)||!sexes||typeof sexes!=='object')continue;
+   const validSexes={};
+   for(const sex of ['femenino','masculino']){
+    if(race==='amarant'&&sex==='masculino')continue;
+    const record=sexes[sex];
+    if(record&&record.figura&&isAtlasImage(record.figura.pergamino))validSexes[sex]=record;
+   }
+   anatomyAssets[race]=validSexes;
   }
   if(state.loaded)render();
  }).catch(()=>{});
