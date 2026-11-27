@@ -1,4 +1,4 @@
-/* Aeternalis · Tomo de Medicina v2.5.0 — encapsulado para Foroactivo. */
+/* Aeternalis · Tomo de Medicina v2.6.0 — encapsulado para Foroactivo. */
 #ae-codice-salud{--ac-ink:#473223;--ac-dark:#121811;--ac-brass:#baa06f;--ac-paper:#e9d5ae;display:block;width:100%;min-width:0;container-type:inline-size;color:#e6d4b3;box-sizing:border-box}
 #ae-codice-salud *{box-sizing:border-box}
 #ae-codice-salud button,#ae-codice-salud input,#ae-codice-salud select{font:inherit}
@@ -478,4 +478,29 @@
  #ae-codice-salud .ac-care-illustration{padding:6px 4px}
  #ae-codice-salud .ac-herbal-apparatus{padding:7px 9px;gap:8px}
  #ae-codice-salud .ac-herbal-apparatus img{height:75px}
+}
+
+/* v2.6 · láminas originales de las tres pestilencias, pintadas en SVG sin texto incrustado */
+#ae-codice-salud .ac-pathology-art{--ac-pathology-accent:#81715d;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(8px,1.15vw,15px);min-width:0;margin:10px 0 16px;align-items:start}
+#ae-codice-salud .ac-pathology-art--fd{--ac-pathology-accent:#586a52}
+#ae-codice-salud .ac-pathology-art--com{--ac-pathology-accent:#775573}
+#ae-codice-salud .ac-pathology-art--sn{--ac-pathology-accent:#6a3e45}
+#ae-codice-salud .ac-pathology-art--single{grid-template-columns:minmax(0,1fr);max-width:275px;margin:10px auto 16px}
+#ae-codice-salud .ac-patology-plate,
+#ae-codice-salud .ac-patology-plate{margin:0;min-width:0;border:1px solid var(--ac-pathology-accent);background:linear-gradient(120deg,#ddc7a3,#cdb18a);padding:6px 6px 8px;box-shadow:inset 0 0 0 2px #f7e5c260,0 3px 10px #39270f28;display:flex;flex-direction:column;gap:7px;align-items:stretch}
+#ae-codice-salud .ac-patology-plate a{display:block;min-width:0;outline-offset:3px}
+#ae-codice-salud .ac-patology-plate img{display:block;width:100%;height:clamp(160px,25vh,260px);max-width:100%;object-fit:contain;transition:filter .18s ease,transform .18s ease;filter:sepia(.08)}
+#ae-codice-salud .ac-patology-plate a:hover img{filter:sepia(.0) contrast(1.07);transform:scale(1.012)}
+#ae-codice-salud .ac-patology-plate figcaption{font-family:inherit;color:#573e2b;font-size:clamp(11px,.96vw,13px);line-height:1.44;font-style:italic;text-align:center;overflow-wrap:break-word}
+#ae-codice-salud .ac-pathology-art--single .ac-patology-plate img{height:clamp(165px,28vh,285px)}
+@container (max-width:415px){
+ #ae-codice-salud .ac-pathology-art{gap:7px}
+ #ae-codice-salud .ac-patology-plate{padding:4px 4px 7px;gap:5px}
+ #ae-codice-salud .ac-patology-plate img{height:clamp(120px,22vh,180px)}
+ #ae-codice-salud .ac-patology-plate figcaption{font-size:11px}
+ #ae-codice-salud .ac-pathology-art--single .ac-patology-plate img{height:210px}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-codice-salud .ac-patology-plate img{transition:none}
+ #ae-codice-salud .ac-patology-plate a:hover img{transform:none}
 }
