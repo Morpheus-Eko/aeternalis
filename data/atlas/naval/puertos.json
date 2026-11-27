@@ -1,110 +1,393 @@
 {
   "schema": "aeternalis-puertos-atlas-v1",
-  "version": "2.0.0",
+  "version": "3.3.0",
   "source": "data/atlas/manifest.json",
-  "description": "Puertos y referencias de navegación enlazados a localidades del Supermapa por ID.",
+  "description": "Escalas portuarias, litorales y fluviales. La condición de escala no implica muelle ni que el río sea navegable en toda su extensión.",
   "ports": [
     {
       "id": "place-017",
       "role": "astillero",
       "endpoint": true,
-      "note": "Grimskar, tradición de astilleros navales de Bergheim."
+      "note": "Grimskar, tradición de astilleros navales de Bergheim.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-018",
       "role": "puerto",
       "endpoint": true,
-      "note": "Torvask, bahía de comercio y neutralidad de Bergheim."
+      "note": "Torvask, bahía de comercio y neutralidad de Bergheim.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-039",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada."
+      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-040",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada."
+      "note": "Puerto en la Isla de la Reina; coordenada del Atlas calibrada.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-042",
       "role": "faro",
-      "endpoint": false,
-      "note": "Referencia de navegación, no embarcadero verificable."
+      "endpoint": true,
+      "note": "Referencia de navegación, no embarcadero verificable.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-043",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto del Ahogado, cartografía del Atlas."
+      "note": "Puerto del Ahogado, cartografía del Atlas.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-051",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto del Sol, norte de las Islas Zafiro."
+      "note": "Puerto del Sol, norte de las Islas Zafiro.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-052",
       "role": "bahia",
       "endpoint": true,
-      "note": "Bahía Coral: coordenadas provisionales, acceso naval por confirmar."
+      "note": "Bahía Coral: coordenadas provisionales, acceso naval por confirmar.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-054",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto de la Luna, sur de las Islas Zafiro."
+      "note": "Puerto de la Luna, sur de las Islas Zafiro.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-055",
       "role": "puerto",
       "endpoint": true,
-      "note": "Marina, sur de las Islas Zafiro."
+      "note": "Marina, sur de las Islas Zafiro.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-061",
       "role": "puerto",
       "endpoint": true,
-      "note": "Puerto Ramera, Archipiélago de los Esclavos. Coordenada provisional."
+      "note": "Puerto Ramera, Archipiélago de los Esclavos. Coordenada provisional.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-062",
       "role": "costa",
-      "endpoint": false,
-      "note": "Costa Sangrienta: marcador costero del Atlas, no un embarcadero verificado."
+      "endpoint": true,
+      "note": "Costa Sangrienta: marcador costero del Atlas, no un embarcadero verificado.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-063",
       "role": "bahia",
       "endpoint": true,
-      "note": "Bahía Kraken, Archipiélago de los Esclavos. Coordenada provisional."
+      "note": "Bahía Kraken, Archipiélago de los Esclavos. Coordenada provisional.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-014",
       "role": "faro",
-      "endpoint": false,
-      "note": "Faro Durgath, referencia costera."
+      "endpoint": true,
+      "note": "Faro Durgath, referencia costera.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-081",
       "role": "puerto",
       "endpoint": true,
-      "note": "Inlyria figura como puerto en el reglamento de navegación."
+      "note": "Inlyria figura como puerto en el reglamento de navegación.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-093",
       "role": "bahia",
       "endpoint": true,
-      "note": "Bahía Calad, coordenada provisional."
+      "note": "Bahía Calad, coordenada provisional.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
     },
     {
       "id": "place-094",
       "role": "bahia",
       "endpoint": true,
-      "note": "Bahía Hirion, coordenada provisional."
+      "note": "Bahía Hirion, coordenada provisional.",
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
+    },
+    {
+      "id": "place-310",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-089",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-308",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-307",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-315",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-085",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-084",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-314",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-016",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-015",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-012",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-305",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-103",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-049",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-047",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-035",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-036",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-045",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-044",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-058",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-064",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-065",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-067",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-070",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-068",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-069",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-072",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-071",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-073",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "poi-santuario-eradil",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-095",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-092",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-057",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-050",
+      "role": "costa",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-059",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-306",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-060",
+      "role": "ribera",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "place-318",
+      "role": "puerto",
+      "endpoint": true,
+      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
+      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
     }
   ]
 }
