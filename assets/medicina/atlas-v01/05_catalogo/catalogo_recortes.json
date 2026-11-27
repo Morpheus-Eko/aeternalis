@@ -1,0 +1,1582 @@
+{
+  "version": "0.1",
+  "nota": "Todos los archivos fuente completos estan conservados. No interpretar anotaciones generadas como lore canonico.",
+  "total_figuras": 105,
+  "figuras": [
+    {
+      "id": "humanos/cuerpo_frontal",
+      "raza": "humanos",
+      "figura": "cuerpo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/cuerpo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/cuerpo_frontal.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        474,
+        123,
+        753,
+        827
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/cuerpo_dorsal",
+      "raza": "humanos",
+      "figura": "cuerpo_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/cuerpo_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/cuerpo_dorsal.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        776,
+        130,
+        1071,
+        815
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/esqueleto",
+      "raza": "humanos",
+      "figura": "esqueleto",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/esqueleto.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/esqueleto.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        58,
+        213,
+        243,
+        735
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/musculatura",
+      "raza": "humanos",
+      "figura": "musculatura",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/musculatura.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/musculatura.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        248,
+        218,
+        449,
+        744
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/craneo_lateral",
+      "raza": "humanos",
+      "figura": "craneo_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/craneo_lateral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/craneo_lateral.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        129,
+        40,
+        345,
+        220
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/craneo_frontal",
+      "raza": "humanos",
+      "figura": "craneo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/craneo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/craneo_frontal.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        350,
+        51,
+        509,
+        223
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/corazon",
+      "raza": "humanos",
+      "figura": "corazon",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/corazon.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/corazon.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1028,
+        20,
+        1219,
+        269
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/pulmones",
+      "raza": "humanos",
+      "figura": "pulmones",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/pulmones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/pulmones.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1209,
+        54,
+        1403,
+        274
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/ojo",
+      "raza": "humanos",
+      "figura": "ojo",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/ojo.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/ojo.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1301,
+        275,
+        1490,
+        364
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/cerebro",
+      "raza": "humanos",
+      "figura": "cerebro",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/cerebro.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/cerebro.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1302,
+        369,
+        1471,
+        529
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/higado_estomago",
+      "raza": "humanos",
+      "figura": "higado_estomago",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/higado_estomago.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/higado_estomago.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1043,
+        271,
+        1277,
+        413
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/intestinos",
+      "raza": "humanos",
+      "figura": "intestinos",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/intestinos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/intestinos.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1150,
+        346,
+        1301,
+        529
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/rinones",
+      "raza": "humanos",
+      "figura": "rinones",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/rinones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/rinones.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1075,
+        398,
+        1197,
+        552
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/torso_visceral",
+      "raza": "humanos",
+      "figura": "torso_visceral",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/torso_visceral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/torso_visceral.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1031,
+        561,
+        1278,
+        949
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/columna",
+      "raza": "humanos",
+      "figura": "columna",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/columna.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/columna.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        33,
+        653,
+        131,
+        905
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/mano_huesos",
+      "raza": "humanos",
+      "figura": "mano_huesos",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/mano_huesos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/mano_huesos.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        238,
+        731,
+        513,
+        957
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/piel_seccion",
+      "raza": "humanos",
+      "figura": "piel_seccion",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/piel_seccion.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/piel_seccion.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        1305,
+        718,
+        1464,
+        862
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "humanos/corpusculo_alquimico",
+      "raza": "humanos",
+      "figura": "corpusculo_alquimico",
+      "archivo_pergamino": "02_figuras_pergamino/humanos/corpusculo_alquimico.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/humanos/corpusculo_alquimico.webp",
+      "fuente": "01_laminas_originales/humanos.png",
+      "rectangulo_xyxy": [
+        665,
+        780,
+        871,
+        997
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/cuerpo_frontal",
+      "raza": "altos_elfos",
+      "figura": "cuerpo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/cuerpo_frontal.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        72,
+        38,
+        344,
+        732
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/cuerpo_dorsal",
+      "raza": "altos_elfos",
+      "figura": "cuerpo_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/cuerpo_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/cuerpo_dorsal.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        337,
+        37,
+        547,
+        727
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/retrato_perfil",
+      "raza": "altos_elfos",
+      "figura": "retrato_perfil",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/retrato_perfil.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/retrato_perfil.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        552,
+        32,
+        841,
+        307
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/cabeza_muscular",
+      "raza": "altos_elfos",
+      "figura": "cabeza_muscular",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/cabeza_muscular.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/cabeza_muscular.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        978,
+        35,
+        1181,
+        533
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/esqueleto",
+      "raza": "altos_elfos",
+      "figura": "esqueleto",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/esqueleto.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/esqueleto.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1195,
+        51,
+        1510,
+        548
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/craneo_lateral",
+      "raza": "altos_elfos",
+      "figura": "craneo_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/craneo_lateral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/craneo_lateral.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        558,
+        317,
+        789,
+        503
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/oreja",
+      "raza": "altos_elfos",
+      "figura": "oreja",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/oreja.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/oreja.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        779,
+        299,
+        970,
+        443
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/ojo",
+      "raza": "altos_elfos",
+      "figura": "ojo",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/ojo.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/ojo.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        535,
+        649,
+        796,
+        776
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/organos",
+      "raza": "altos_elfos",
+      "figura": "organos",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/organos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/organos.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        801,
+        472,
+        1024,
+        899
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/pulmones",
+      "raza": "altos_elfos",
+      "figura": "pulmones",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/pulmones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/pulmones.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1060,
+        538,
+        1249,
+        730
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/corazon",
+      "raza": "altos_elfos",
+      "figura": "corazon",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/corazon.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/corazon.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1039,
+        731,
+        1245,
+        935
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/rinones",
+      "raza": "altos_elfos",
+      "figura": "rinones",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/rinones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/rinones.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1252,
+        775,
+        1408,
+        965
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/columna",
+      "raza": "altos_elfos",
+      "figura": "columna",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/columna.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/columna.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1236,
+        535,
+        1317,
+        807
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/manos",
+      "raza": "altos_elfos",
+      "figura": "manos",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/manos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/manos.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        93,
+        737,
+        494,
+        958
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/craneo_frontal",
+      "raza": "altos_elfos",
+      "figura": "craneo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/craneo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/craneo_frontal.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        667,
+        441,
+        841,
+        638
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "altos_elfos/tejido",
+      "raza": "altos_elfos",
+      "figura": "tejido",
+      "archivo_pergamino": "02_figuras_pergamino/altos_elfos/tejido.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/altos_elfos/tejido.webp",
+      "fuente": "01_laminas_originales/altos_elfos.png",
+      "rectangulo_xyxy": [
+        1262,
+        558,
+        1491,
+        768
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/cuerpo_frontal",
+      "raza": "norin",
+      "figura": "cuerpo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/norin/cuerpo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/cuerpo_frontal.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        117,
+        89,
+        351,
+        613
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/cuerpo_dorsal",
+      "raza": "norin",
+      "figura": "cuerpo_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/norin/cuerpo_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/cuerpo_dorsal.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        359,
+        92,
+        568,
+        609
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/musculatura",
+      "raza": "norin",
+      "figura": "musculatura",
+      "archivo_pergamino": "02_figuras_pergamino/norin/musculatura.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/musculatura.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        600,
+        89,
+        786,
+        604
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/esqueleto",
+      "raza": "norin",
+      "figura": "esqueleto",
+      "archivo_pergamino": "02_figuras_pergamino/norin/esqueleto.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/esqueleto.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        787,
+        104,
+        995,
+        614
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/craneo_lateral",
+      "raza": "norin",
+      "figura": "craneo_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/norin/craneo_lateral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/craneo_lateral.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1018,
+        66,
+        1245,
+        250
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/manos",
+      "raza": "norin",
+      "figura": "manos",
+      "archivo_pergamino": "02_figuras_pergamino/norin/manos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/manos.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1256,
+        99,
+        1483,
+        294
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/pulmones",
+      "raza": "norin",
+      "figura": "pulmones",
+      "archivo_pergamino": "02_figuras_pergamino/norin/pulmones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/pulmones.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1041,
+        243,
+        1265,
+        416
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/digestivo",
+      "raza": "norin",
+      "figura": "digestivo",
+      "archivo_pergamino": "02_figuras_pergamino/norin/digestivo.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/digestivo.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1036,
+        400,
+        1237,
+        602
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/pies",
+      "raza": "norin",
+      "figura": "pies",
+      "archivo_pergamino": "02_figuras_pergamino/norin/pies.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/pies.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1241,
+        322,
+        1512,
+        509
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/pie_huesos",
+      "raza": "norin",
+      "figura": "pie_huesos",
+      "archivo_pergamino": "02_figuras_pergamino/norin/pie_huesos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/pie_huesos.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1257,
+        513,
+        1490,
+        621
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/retrato_frente",
+      "raza": "norin",
+      "figura": "retrato_frente",
+      "archivo_pergamino": "02_figuras_pergamino/norin/retrato_frente.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/retrato_frente.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        96,
+        651,
+        309,
+        850
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/retrato_perfil",
+      "raza": "norin",
+      "figura": "retrato_perfil",
+      "archivo_pergamino": "02_figuras_pergamino/norin/retrato_perfil.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/retrato_perfil.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        301,
+        659,
+        453,
+        850
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/retrato_dorsal",
+      "raza": "norin",
+      "figura": "retrato_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/norin/retrato_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/retrato_dorsal.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        441,
+        648,
+        604,
+        856
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/escala_comparativa",
+      "raza": "norin",
+      "figura": "escala_comparativa",
+      "archivo_pergamino": "02_figuras_pergamino/norin/escala_comparativa.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/escala_comparativa.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        22,
+        315,
+        111,
+        521
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/posturas_comparativas",
+      "raza": "norin",
+      "figura": "posturas_comparativas",
+      "archivo_pergamino": "02_figuras_pergamino/norin/posturas_comparativas.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/posturas_comparativas.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        651,
+        641,
+        943,
+        850
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/proporcion_vitruviana",
+      "raza": "norin",
+      "figura": "proporcion_vitruviana",
+      "archivo_pergamino": "02_figuras_pergamino/norin/proporcion_vitruviana.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/proporcion_vitruviana.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        954,
+        623,
+        1237,
+        858
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/rodilla_cadera",
+      "raza": "norin",
+      "figura": "rodilla_cadera",
+      "archivo_pergamino": "02_figuras_pergamino/norin/rodilla_cadera.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/rodilla_cadera.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        1235,
+        637,
+        1477,
+        791
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "norin/iconografia_pastoral",
+      "raza": "norin",
+      "figura": "iconografia_pastoral",
+      "archivo_pergamino": "02_figuras_pergamino/norin/iconografia_pastoral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/norin/iconografia_pastoral.webp",
+      "fuente": "01_laminas_originales/norin.png",
+      "rectangulo_xyxy": [
+        383,
+        840,
+        1182,
+        1003
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/cuerpo_frontal",
+      "raza": "yugen",
+      "figura": "cuerpo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/cuerpo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/cuerpo_frontal.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        76,
+        60,
+        328,
+        659
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/cuerpo_dorsal",
+      "raza": "yugen",
+      "figura": "cuerpo_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/cuerpo_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/cuerpo_dorsal.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        338,
+        58,
+        559,
+        660
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/esqueleto",
+      "raza": "yugen",
+      "figura": "esqueleto",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/esqueleto.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/esqueleto.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        562,
+        59,
+        795,
+        657
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/craneo_lateral",
+      "raza": "yugen",
+      "figura": "craneo_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/craneo_lateral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/craneo_lateral.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        781,
+        54,
+        1054,
+        266
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/craneo_frontal",
+      "raza": "yugen",
+      "figura": "craneo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/craneo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/craneo_frontal.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1048,
+        59,
+        1182,
+        238
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/ojo",
+      "raza": "yugen",
+      "figura": "ojo",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/ojo.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/ojo.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1187,
+        59,
+        1446,
+        224
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/organos",
+      "raza": "yugen",
+      "figura": "organos",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/organos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/organos.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        804,
+        253,
+        1027,
+        607
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/corazon",
+      "raza": "yugen",
+      "figura": "corazon",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/corazon.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/corazon.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1022,
+        245,
+        1192,
+        397
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/circulatorio",
+      "raza": "yugen",
+      "figura": "circulatorio",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/circulatorio.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/circulatorio.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1177,
+        229,
+        1352,
+        400
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/columna",
+      "raza": "yugen",
+      "figura": "columna",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/columna.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/columna.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1340,
+        228,
+        1446,
+        559
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/mano",
+      "raza": "yugen",
+      "figura": "mano",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/mano.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/mano.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1014,
+        402,
+        1177,
+        605
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/mano_huesos",
+      "raza": "yugen",
+      "figura": "mano_huesos",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/mano_huesos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/mano_huesos.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1183,
+        406,
+        1343,
+        603
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/retrato_frontal",
+      "raza": "yugen",
+      "figura": "retrato_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/retrato_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/retrato_frontal.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        87,
+        665,
+        291,
+        864
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/retrato_perfil",
+      "raza": "yugen",
+      "figura": "retrato_perfil",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/retrato_perfil.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/retrato_perfil.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        287,
+        652,
+        447,
+        867
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/retrato_dorsal",
+      "raza": "yugen",
+      "figura": "retrato_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/retrato_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/retrato_dorsal.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        441,
+        658,
+        603,
+        866
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/musculos_articulaciones",
+      "raza": "yugen",
+      "figura": "musculos_articulaciones",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/musculos_articulaciones.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/musculos_articulaciones.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        612,
+        615,
+        1151,
+        746
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/tejido",
+      "raza": "yugen",
+      "figura": "tejido",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/tejido.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/tejido.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        608,
+        733,
+        1077,
+        857
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/kuro_mano_y_marcas",
+      "raza": "yugen",
+      "figura": "kuro_mano_y_marcas",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/kuro_mano_y_marcas.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        1187,
+        561,
+        1517,
+        868
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "yugen/paisaje_tres_costas",
+      "raza": "yugen",
+      "figura": "paisaje_tres_costas",
+      "archivo_pergamino": "02_figuras_pergamino/yugen/paisaje_tres_costas.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/yugen/paisaje_tres_costas.webp",
+      "fuente": "01_laminas_originales/yugen.png",
+      "rectangulo_xyxy": [
+        324,
+        864,
+        1144,
+        1007
+      ],
+      "canon": "ilustracion_sin_mecanicas"
+    },
+    {
+      "id": "anatomia_no_muerta/cuerpo_frontal",
+      "raza": "anatomia_no_muerta",
+      "figura": "cuerpo_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/cuerpo_frontal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_frontal.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        423,
+        72,
+        758,
+        911
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/cuerpo_dorsal",
+      "raza": "anatomia_no_muerta",
+      "figura": "cuerpo_dorsal",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        781,
+        82,
+        1090,
+        906
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/craneo_lateral",
+      "raza": "anatomia_no_muerta",
+      "figura": "craneo_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/craneo_lateral.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/craneo_lateral.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        95,
+        37,
+        377,
+        302
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/cabeza_necrosada",
+      "raza": "anatomia_no_muerta",
+      "figura": "cabeza_necrosada",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/cabeza_necrosada.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/cabeza_necrosada.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        20,
+        258,
+        312,
+        582
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/busto_necrosado",
+      "raza": "anatomia_no_muerta",
+      "figura": "busto_necrosado",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/busto_necrosado.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/busto_necrosado.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        18,
+        569,
+        316,
+        963
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/hueso_femur",
+      "raza": "anatomia_no_muerta",
+      "figura": "hueso_femur",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/hueso_femur.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/hueso_femur.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        312,
+        590,
+        404,
+        877
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/corazon_necrosado",
+      "raza": "anatomia_no_muerta",
+      "figura": "corazon_necrosado",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/corazon_necrosado.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/corazon_necrosado.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1028,
+        38,
+        1214,
+        267
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/pulmones_necrosados",
+      "raza": "anatomia_no_muerta",
+      "figura": "pulmones_necrosados",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/pulmones_necrosados.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1198,
+        71,
+        1421,
+        264
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/higado_estomago",
+      "raza": "anatomia_no_muerta",
+      "figura": "higado_estomago",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/higado_estomago.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/higado_estomago.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1057,
+        283,
+        1231,
+        401
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/intestinos",
+      "raza": "anatomia_no_muerta",
+      "figura": "intestinos",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/intestinos.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/intestinos.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1116,
+        374,
+        1227,
+        576
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/esqueleto",
+      "raza": "anatomia_no_muerta",
+      "figura": "esqueleto",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/esqueleto.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/esqueleto.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1203,
+        267,
+        1437,
+        884
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/columna",
+      "raza": "anatomia_no_muerta",
+      "figura": "columna",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/columna.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/columna.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1419,
+        266,
+        1514,
+        632
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/tejido_necrosado",
+      "raza": "anatomia_no_muerta",
+      "figura": "tejido_necrosado",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/tejido_necrosado.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1037,
+        774,
+        1256,
+        904
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "anatomia_no_muerta/celulas",
+      "raza": "anatomia_no_muerta",
+      "figura": "celulas",
+      "archivo_pergamino": "02_figuras_pergamino/anatomia_no_muerta/celulas.webp",
+      "archivo_transparente": "03_figuras_tinta_transparente/anatomia_no_muerta/celulas.webp",
+      "fuente": "01_laminas_originales/anatomia_no_muerta.png",
+      "rectangulo_xyxy": [
+        1030,
+        620,
+        1239,
+        769
+      ],
+      "canon": "estudio_patologico_no_raza"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_humanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_humanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_humanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        0,
+        0,
+        508,
+        483
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_altos_elfos",
+      "raza": "archivo_comparado",
+      "figura": "panel_altos_elfos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_altos_elfos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        510,
+        0,
+        1020,
+        483
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_enanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_enanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_enanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        1023,
+        0,
+        1536,
+        483
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_hobbits",
+      "raza": "archivo_comparado",
+      "figura": "panel_hobbits",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_hobbits.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        0,
+        486,
+        508,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_nordicos",
+      "raza": "archivo_comparado",
+      "figura": "panel_nordicos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_nordicos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        510,
+        486,
+        1020,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_01/panel_amarant",
+      "raza": "archivo_comparado",
+      "figura": "panel_amarant",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_01_panel_amarant.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_01.png",
+      "rectangulo_xyxy": [
+        1023,
+        486,
+        1536,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_humanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_humanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_humanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        0,
+        0,
+        382,
+        500
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_altos_elfos",
+      "raza": "archivo_comparado",
+      "figura": "panel_altos_elfos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_altos_elfos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        385,
+        0,
+        764,
+        500
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_enanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_enanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        767,
+        0,
+        1148,
+        500
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_no_muertos",
+      "raza": "archivo_comparado",
+      "figura": "panel_no_muertos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_no_muertos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        1151,
+        0,
+        1536,
+        500
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_hobbits",
+      "raza": "archivo_comparado",
+      "figura": "panel_hobbits",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_hobbits.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        0,
+        502,
+        382,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_nordicos",
+      "raza": "archivo_comparado",
+      "figura": "panel_nordicos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        385,
+        502,
+        764,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_amarant",
+      "raza": "archivo_comparado",
+      "figura": "panel_amarant",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        767,
+        502,
+        1148,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_02/panel_comparativo",
+      "raza": "archivo_comparado",
+      "figura": "panel_comparativo",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_02_panel_comparativo.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_02.png",
+      "rectangulo_xyxy": [
+        1151,
+        502,
+        1536,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_humanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_humanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_humanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        0,
+        0,
+        510,
+        505
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_altos_elfos",
+      "raza": "archivo_comparado",
+      "figura": "panel_altos_elfos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_altos_elfos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        513,
+        0,
+        1022,
+        505
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_enanos",
+      "raza": "archivo_comparado",
+      "figura": "panel_enanos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_enanos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        1024,
+        0,
+        1536,
+        505
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_hobbits",
+      "raza": "archivo_comparado",
+      "figura": "panel_hobbits",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_hobbits.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        0,
+        509,
+        510,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_nordicos",
+      "raza": "archivo_comparado",
+      "figura": "panel_nordicos",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_nordicos.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        513,
+        509,
+        1022,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    },
+    {
+      "id": "laminas_comparadas_03/panel_amarant",
+      "raza": "archivo_comparado",
+      "figura": "panel_amarant",
+      "archivo_pergamino": "04_laminas_comparadas_archivo/laminas_comparadas_03_panel_amarant.webp",
+      "archivo_transparente": null,
+      "fuente": "01_laminas_originales/laminas_comparadas_03.png",
+      "rectangulo_xyxy": [
+        1024,
+        509,
+        1536,
+        1024
+      ],
+      "canon": "NO_CANONICO_texto_generado_no_validado"
+    }
+  ]
+}
