@@ -8,7 +8,7 @@ Biblioteca pública para reutilizar imágenes y ornamentos en Foroactivo, nuevas
 - [Repositorio de recursos](https://github.com/Morpheus-Eko/aeternalis/tree/main/assets)
 
 ## Qué contiene
-- **480 recursos alojados en GitHub** y 143 referencias externas según el catálogo central (623 registros). Las colecciones originales de Brújula (17), Grimorio (24), Monturas (43) y Runas (6) ya estaban presentes, con sus WebP y SVG disponibles.
+- **489 recursos alojados en GitHub** y 143 referencias externas según el catálogo central (632 registros). Las colecciones originales de Brújula (17), Grimorio (24), Monturas (43) y Runas (6) ya estaban presentes, con sus WebP y SVG disponibles.
 - **61 ornamentos de Bestiario** conservados en Imgur con ID y URL.
 - **80 ilustraciones de criaturas** conservadas en Imgur y referenciadas por nombre, tomo y región.
 - **2 imágenes cartográficas externas** referenciadas desde el motor del Atlas.
@@ -33,3 +33,5 @@ Biblioteca pública para reutilizar imágenes y ornamentos en Foroactivo, nuevas
 - No se alteró ninguno de los HTML/CSS/JS activos de Foroactivo, Atlas o Bestiario.
 - Los paquetes originales se mantienen en la Biblioteca de archivos asociada a los trabajos anteriores.
 - GitHub Pages puede tardar en publicar commits nuevos; recargar el explorador tras la publicación.
+
+- [Códice de las Pestilencias](pestilencias/) — 9 assets WebP: cabecera, fondo, botones y emblemas.

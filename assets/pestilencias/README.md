@@ -4,7 +4,7 @@ Biblioteca reservada para los **9 assets originales e individualizados** del nue
 
 ## Estado
 
-**Pendiente únicamente de subida de los nueve binarios WebP.** El catálogo y los nombres definitivos ya están publicados, pero el visor del foro no debe enlazar todavía estos archivos. No se han alterado el CSS ni el JS maestro.
+**Publicados los nueve WebP en la rama `main`.** Todos tienen rutas públicas para GitHub Pages. No se alteró el CSS ni el JS maestro.
 
 ## Subida
 

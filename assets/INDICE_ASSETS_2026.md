@@ -1,6 +1,6 @@
 # Biblioteca de recursos gráficos · Aeternalis
 
-Índice general actualizado el **27 de noviembre de 2026**. Catálogo estructurado: [assets/catalogo.json](catalogo.json), con **623 entradas**, de las cuales **480 están alojadas en GitHub** y 143 son referencias externas.
+Índice general actualizado el **27 de noviembre de 2026**. Catálogo estructurado: [assets/catalogo.json](catalogo.json), con **632 entradas**, de las cuales **489 están alojadas en GitHub** y 143 son referencias externas.
 
 - [Explorador visual](index.html) — buscar ilustraciones, iconos y ornamentos.
 - [Códex · 218 recursos](codex/catalogo.json) — armas, esculturas, sellos, marcos, pergaminos, botones.
@@ -12,3 +12,5 @@
 - [Mapa de correspondencias históricas](historicos-migracion.json) — reutilizar cada asset de los códigos originales, sin volver a subir duplicados.
 
 Las ilustraciones originales siguen identificadas por su URL externa en el mapa histórico. Solo se consideran archivados físicamente los archivos efectivamente presentes en `assets/`. Las imágenes nuevas no cambian las reglas narrativas, estadísticas ni de navegación.
+
+- [Códice de las Pestilencias · 9 assets](pestilencias/) — recursos visuales del nuevo módulo.

@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-pestilencias-assets-v1",
-  "revision": "2026-11-27",
+  "revision": "2026-11-27-publicado",
   "categoria": "pestilencias",
   "total": 9,
-  "estado": "binarios_webp_pendientes_de_subida",
-  "nota": "Catálogo preparado. Los recursos gráficos NO se considerarán disponibles hasta que se suban los nueve archivos WebP a esta carpeta. Los archivos fuentes y paquetes descargables están disponibles en la conversación de creación.",
+  "estado": "publicado-github",
+  "nota": "Los nueve WebP individuales ya están alojados en GitHub (rama main).",
   "prefix": "assets/pestilencias/",
   "resources": [
     {
@@ -14,7 +14,9 @@
       "height": 1448,
       "alpha": false,
       "sha256_prefix": "8c617a93faae",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/fondo-hoja-tratado-medico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/fondo-hoja-tratado-medico.webp"
     },
     {
       "file": "cabecera-codice-pestilencias.webp",
@@ -23,7 +25,9 @@
       "height": 724,
       "alpha": true,
       "sha256_prefix": "354b735323ae",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/cabecera-codice-pestilencias.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/cabecera-codice-pestilencias.webp"
     },
     {
       "file": "boton-sintomas.webp",
@@ -32,7 +36,9 @@
       "height": 247,
       "alpha": true,
       "sha256_prefix": "280d7968ce00",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/boton-sintomas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-sintomas.webp"
     },
     {
       "file": "boton-exposicion.webp",
@@ -41,7 +47,9 @@
       "height": 236,
       "alpha": true,
       "sha256_prefix": "89665224538d",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/boton-exposicion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-exposicion.webp"
     },
     {
       "file": "boton-expediente.webp",
@@ -50,7 +58,9 @@
       "height": 238,
       "alpha": true,
       "sha256_prefix": "00d4c02ca69e",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/boton-expediente.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-expediente.webp"
     },
     {
       "file": "boton-calcular-exposicion.webp",
@@ -59,7 +69,9 @@
       "height": 292,
       "alpha": true,
       "sha256_prefix": "29df2c6808b9",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/boton-calcular-exposicion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-calcular-exposicion.webp"
     },
     {
       "file": "emblema-fiebre-driadem.webp",
@@ -68,7 +80,9 @@
       "height": 1254,
       "alpha": true,
       "sha256_prefix": "c11373293b74",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/emblema-fiebre-driadem.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-fiebre-driadem.webp"
     },
     {
       "file": "emblema-canto-orquidea-marchita.webp",
@@ -77,7 +91,9 @@
       "height": 1254,
       "alpha": true,
       "sha256_prefix": "ea151e334bd0",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/emblema-canto-orquidea-marchita.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-canto-orquidea-marchita.webp"
     },
     {
       "file": "emblema-sangrenegra.webp",
@@ -86,7 +102,9 @@
       "height": 1254,
       "alpha": true,
       "sha256_prefix": "826510bc47b2",
-      "status": "pending_upload"
+      "status": "published",
+      "path": "assets/pestilencias/emblema-sangrenegra.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-sangrenegra.webp"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "schema": "aeternalis-assets-v1",
-  "revision": "2026-11-26-biblioteca-naval-pack-v3",
+  "revision": "2026-11-27-incluye-codice-pestilencias",
   "baseUrl": "https://morpheus-eko.github.io/aeternalis/",
   "descripcion": "Biblioteca central de recursos gráficos reutilizables del proyecto Aeternalis",
-  "total": 623,
+  "total": 632,
   "totalesPorCategoria": {
     "atlas": 2,
     "bestiario": 69,
@@ -14,7 +14,8 @@
     "monturas": 43,
     "naval": 156,
     "razas": 8,
-    "runas": 6
+    "runas": 6,
+    "pestilencias": 9
   },
   "notas": [
     "Los archivos de assets/** viven en GitHub Pages y pueden reutilizarse con su URL.",
@@ -16353,6 +16354,231 @@
       "tipo": "archivo",
       "descripcion": "WebP con alfa real: ornamento recortado; verificar bordes de la ilustración antes de su uso final.",
       "sistema": "decoracion"
+    },
+    {
+      "id": "pestilencias-fondo-hoja-tratado-medico",
+      "nombre": "Fondo de pergamino médico",
+      "categoria": "pestilencias",
+      "subcategoria": "fondos",
+      "ruta": "assets/pestilencias/fondo-hoja-tratado-medico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/fondo-hoja-tratado-medico.webp",
+      "formato": "image/webp",
+      "transparencia": false,
+      "dimensiones": [
+        1086,
+        1448
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "fondos"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-cabecera-codice-pestilencias",
+      "nombre": "Cabecera del Códice",
+      "categoria": "pestilencias",
+      "subcategoria": "cabeceras",
+      "ruta": "assets/pestilencias/cabecera-codice-pestilencias.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/cabecera-codice-pestilencias.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        2172,
+        724
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "cabeceras"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-boton-sintomas",
+      "nombre": "Síntomas",
+      "categoria": "pestilencias",
+      "subcategoria": "botones",
+      "ruta": "assets/pestilencias/boton-sintomas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-sintomas.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        855,
+        247
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "botones"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-boton-exposicion",
+      "nombre": "Exposición",
+      "categoria": "pestilencias",
+      "subcategoria": "botones",
+      "ruta": "assets/pestilencias/boton-exposicion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-exposicion.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        856,
+        236
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "botones"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-boton-expediente",
+      "nombre": "Expediente",
+      "categoria": "pestilencias",
+      "subcategoria": "botones",
+      "ruta": "assets/pestilencias/boton-expediente.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-expediente.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        855,
+        238
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "botones"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-boton-calcular-exposicion",
+      "nombre": "Calcular exposición",
+      "categoria": "pestilencias",
+      "subcategoria": "botones",
+      "ruta": "assets/pestilencias/boton-calcular-exposicion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/boton-calcular-exposicion.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        1213,
+        292
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "botones"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-emblema-fiebre-driadem",
+      "nombre": "Fiebre de Driadem",
+      "categoria": "pestilencias",
+      "subcategoria": "enfermedades",
+      "ruta": "assets/pestilencias/emblema-fiebre-driadem.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-fiebre-driadem.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        1254,
+        1254
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "enfermedades"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-emblema-canto-orquidea-marchita",
+      "nombre": "Canto de la Orquídea Marchita",
+      "categoria": "pestilencias",
+      "subcategoria": "enfermedades",
+      "ruta": "assets/pestilencias/emblema-canto-orquidea-marchita.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-canto-orquidea-marchita.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        1233,
+        1254
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "enfermedades"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
+    },
+    {
+      "id": "pestilencias-emblema-sangrenegra",
+      "nombre": "Sangrenegra",
+      "categoria": "pestilencias",
+      "subcategoria": "enfermedades",
+      "ruta": "assets/pestilencias/emblema-sangrenegra.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/pestilencias/emblema-sangrenegra.webp",
+      "formato": "image/webp",
+      "transparencia": true,
+      "dimensiones": [
+        1254,
+        1254
+      ],
+      "fuente_archivo": "aeternalis-pestilencias-subida-github.zip",
+      "estado": "alojado-github",
+      "etiquetas": [
+        "pestilencias",
+        "codice",
+        "medicina",
+        "enfermedades"
+      ],
+      "tipo": "archivo",
+      "descripcion": "Recurso gráfico del Códice de las Pestilencias, optimizado para web.",
+      "sistema": "codice-pestilencias"
     }
   ]
 }
