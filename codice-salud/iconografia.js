@@ -1,9 +1,9 @@
-/* Aeternalis · laboratorio iconográfico v1.0.0 · no altera datos del juego */
+/* Aeternalis · laboratorio iconográfico v1.1.0 · no altera datos del juego */
 (()=>{
  'use strict';
  const $=id=>document.getElementById(id),root=$('ae-gallery'),status=$('ae-status'),search=$('ae-find');
  const data={view:'herbs',query:'',herbs:[],diseases:[],icon:null,rules:null};
- const valid=path=>typeof path==='string'&&/^assets\/(medicina|codex|pestilencias)\/[a-zA-Z0-9_/-]+\.webp$/.test(path)&&!path.includes('..');
+ const valid=path=>typeof path==='string'&&( /^assets\/(medicina|codex|pestilencias)\/[a-zA-Z0-9_/-]+\.webp$/.test(path)|| /^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)\.svg$/.test(path) )&&!path.includes('..');
  const image=(path,caption)=>{
   if(!valid(path))return null;
   const figure=document.createElement('figure'),link=document.createElement('a'),img=document.createElement('img'),text=document.createElement('figcaption');
@@ -36,10 +36,11 @@
  function diseaseCards(){
   return data.diseases.filter(d=>filtered(d.name)).map(d=>{
    const item=data.icon.diseases[d.id],a=card(d.name,d.region,'disease');
-   if(item)imageBand(a,[
-    {path:item.seal,label:'Sello del expediente'},
-    item.anatomy,item.detail,item.consequence]);
-   a.appendChild(paragraph('Umbral de exposición: superar '+d.target+' en 1d100 modificado.','gabinete__field'),paragraph(item&&item.disclaimer||'Grabados no diagnósticos.','gabinete__warning'));
+   if(item)imageBand(a,item.specific?[
+    item.specific.patient,item.specific.signs,item.specific.organ,
+    {path:item.seal,label:'Sello del expediente'}
+   ]:[{path:item.seal,label:'Sello del expediente'},item.anatomy,item.detail,item.consequence]);
+   a.appendChild(paragraph('Umbral de exposición: superar '+d.target+' en 1d100 modificado.','gabinete__field'),paragraph(item&&(item.specificDisclaimer||item.disclaimer)||'Grabados no diagnósticos.','gabinete__warning'));
    return a;
   });
  }
@@ -48,7 +49,8 @@
   if(!c)return rows;
   for(const d of data.diseases.filter(d=>filtered(d.name)||!data.query)){
    const a=card('Cuidados · '+d.name,'Las bonificaciones proceden del reglamento original; las imágenes son genéricas.','care');
-   imageBand(a,[c.potion,c.spell,c.followup]);
+   const specific=data.icon.diseases[d.id]&&data.icon.diseases[d.id].specific;
+   imageBand(a,[...(specific?[specific.care]:[]),c.potion,c.spell,c.followup]);
    a.appendChild(paragraph(data.rules.potion+' +'+d.potion+' · '+data.rules.spell+' +'+d.spell,'gabinete__field'),paragraph('Los vendajes y utensilios no curan ni revierten secuelas automáticamente.','gabinete__warning'));
    rows.push(a);
   }
@@ -67,7 +69,7 @@
  Promise.all([
   fetch('../data/codice-salud/compendio.json?v=2.0.0'),
   fetch('../data/pestilencias/enfermedades.json?v=1.4.0'),
-  fetch('../data/codice-salud/iconografia-clinica-v01.json?v=1.0.0')
+  fetch('../data/codice-salud/iconografia-clinica-v01.json?v=1.1.0')
  ].map(r=>r.then(x=>{if(!x.ok)throw Error('HTTP '+x.status);return x.json();})))
  .then(([book,rules,icon])=>{
   if(!Array.isArray(book.herbs)||!Array.isArray(rules.diseases)||icon.schema!=='aeternalis-codice-salud-iconografia-v1')throw Error('Catálogos incompatibles');
