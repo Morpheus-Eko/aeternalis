@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-codice-salud-v1",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "title": "Tomo de Medicina · El Códice de la Salud",
   "notice": "Compendio ficticio. Salvo las reglas existentes de pestilencias, toda hipótesis médica o herbario es material narrativo y no crea estadísticas.",
   "intros": [
@@ -492,65 +492,71 @@
   ],
   "archives": [
     {
+      "id": "elfos",
       "title": "Altos Elfos",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/altos_elfos.webp",
-      "note": "Observación original, lámina anatómica ilustrativa",
-      "status": "ilustración de estudio"
+      "image": "assets/medicina/atlas-recortes-v01/recortes/elfos/femenino/elfos_femenino_B/figura_frontal.webp",
+      "raceId": "elfos",
+      "note": "Estudio anatómico comparado de Altos Elfos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
+      "id": "humanos",
       "title": "Humanos",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/humanos.webp",
-      "note": "Observación general",
-      "status": "ilustración de estudio"
+      "image": "assets/medicina/atlas-recortes-v01/recortes/humanos/femenino/humanos_femenino_B/figura_frontal.webp",
+      "raceId": "humanos",
+      "note": "Estudio anatómico comparado de Humanos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
+      "id": "norin",
       "title": "Nórin",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/norin.webp",
-      "note": "Observación general",
-      "status": "ilustración de estudio"
+      "image": "assets/medicina/atlas-recortes-v01/recortes/norin/femenino/norin_femenino_A/figura_frontal.webp",
+      "raceId": "norin",
+      "note": "Estudio anatómico comparado de Nórin: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
+      "id": "yugen",
       "title": "Yūgen",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/yugen.webp",
-      "note": "Observación general",
-      "status": "ilustración de estudio"
+      "image": "assets/medicina/atlas-recortes-v01/recortes/yugen/femenino/yugen_femenino_A/figura_frontal.webp",
+      "raceId": "yugen",
+      "note": "Estudio anatómico comparado de Yūgen: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
-      "title": "Anatomía no muerta",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/anatomia_no_muerta.webp",
-      "note": "Estado patológico, no raza adicional",
-      "status": "ilustración de estudio"
+      "id": "montaraces",
+      "title": "Montaraces",
+      "image": "assets/medicina/atlas-recortes-v01/recortes/montaraces/femenino/montaraces_femenino_A/figura_frontal.webp",
+      "raceId": "montaraces",
+      "note": "Estudio anatómico comparado de Montaraces: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
-      "title": "Comparativa I",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_01.webp",
-      "note": "Material preliminar con afirmaciones por revisar",
-      "status": "archivo no canonizado"
+      "id": "enanos",
+      "title": "Enanos",
+      "image": "assets/medicina/atlas-recortes-v01/recortes/enanos/femenino/enanos_femenino_B/figura_frontal.webp",
+      "raceId": "enanos",
+      "note": "Estudio anatómico comparado de Enanos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
-      "title": "Comparativa II",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_02.webp",
-      "note": "Material preliminar con afirmaciones por revisar",
-      "status": "archivo no canonizado"
+      "id": "sinhair",
+      "title": "Sin'hair",
+      "image": "assets/medicina/atlas-recortes-v01/recortes/sinhair/femenino/sinhair_femenino_A/figura_completa.webp",
+      "raceId": "sinhair",
+      "note": "Estudio anatómico comparado de Sin'hair: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     },
     {
-      "title": "Comparativa III",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_03.webp",
-      "note": "Material preliminar con afirmaciones por revisar",
-      "status": "archivo no canonizado"
-    },
-    {
-      "title": "Orco — archivo descartado",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_orco.webp",
-      "note": "No corresponde al catálogo de razas del foro",
-      "status": "archivo no canonizado"
-    },
-    {
-      "title": "Reptiliano — archivo descartado",
-      "image": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_reptiliano.webp",
-      "note": "No corresponde al catálogo de razas del foro",
-      "status": "archivo no canonizado"
+      "id": "amarant",
+      "title": "Amarant",
+      "image": "assets/medicina/atlas-recortes-v01/recortes/amarant/femenino/amarant_femenino_B/figura_frontal.webp",
+      "raceId": "amarant",
+      "note": "Estudio anatómico femenino de las Amarant. La raza es exclusivamente femenina; material ilustrativo de revisión, no anatomía canónica.",
+      "status": "ilustración de estudio — pendiente de validación"
     }
   ],
-  "editorialRevision": "Libro médico unificado: atlas racial, herbario ilustrado, pestilencias, herramientas y cuidados narrativos. Conserva reglamento de pestilencias sin alterarlo."
+  "editorialRevision": {
+    "atlasArchive": "2026-11-27: el archivo anatómico contiene solo las ocho razas vigentes. Se retiran del índice comparativas no canónicas, orcos, reptilianos y anatomía no muerta como raza. Las láminas de deterioro no muerto quedan disponibles solamente como referencias patológicas no literales en la Fiebre de Driadem."
+  }
 }
