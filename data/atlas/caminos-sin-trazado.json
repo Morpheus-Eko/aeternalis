@@ -1,0 +1,112 @@
+{
+  "schema": "aeternalis-caminos-sin-trazado-v1",
+  "revision": "2026-11-27",
+  "source": "data/atlas/caminos.json",
+  "description": "Ocho conexiones históricas entre localidades que no poseen trayectoria terrestre continua reproducible en los datos visuales de Mapa 3.21. Se retiran del grafo navegable, se mantienen para estudio; no se afirma que nunca existan accesos marítimos o pasos especiales.",
+  "roads": [
+    {
+      "id": "base-021",
+      "to": "place-018",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-017"
+    },
+    {
+      "id": "base-022",
+      "to": "place-017",
+      "kind": "road",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+      "priority": "alta",
+      "from": "place-016"
+    },
+    {
+      "id": "base-023",
+      "to": "place-017",
+      "kind": "trail",
+      "terrain": "mountain",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Conexión secundaria regional propuesta",
+      "priority": "normal",
+      "from": "place-015"
+    },
+    {
+      "id": "base-042",
+      "to": "place-042",
+      "kind": "trail",
+      "terrain": "forest",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-041"
+    },
+    {
+      "id": "base-062",
+      "to": "place-051",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-050"
+    },
+    {
+      "id": "base-097",
+      "to": "poi-santuario-eradil",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+      "priority": "normal",
+      "from": "place-095"
+    },
+    {
+      "id": "base-128",
+      "to": "place-051",
+      "kind": "road",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Corredor estratégico o regional a validar; no canonizado",
+      "priority": "alta",
+      "from": "place-049"
+    },
+    {
+      "id": "base-163",
+      "to": "place-092",
+      "kind": "trail",
+      "terrain": "normal",
+      "climate": "normal",
+      "via": [],
+      "status": "propuesta",
+      "origin": "red_inicial_2026_11",
+      "reason": "Acceso provisional a enclave especial; confirmar si existe paso o desembarco",
+      "priority": "revision_geografica",
+      "from": "place-095"
+    }
+  ]
+}
