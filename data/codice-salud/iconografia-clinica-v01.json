@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-codice-salud-iconografia-v1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "status": "estudio_editorial_no_canon",
   "note": "Índice de grabados existentes para el tomo. Ninguna ilustración acredita por sí misma anatomía, morfología botánica, manifestación patológica, causa o eficacia clínica canónicas; los assets no modifican el reglamento.",
   "assetPolicy": {
@@ -191,24 +191,28 @@
       "disclaimer": "Los grabados muestran órganos generales: no representan muestras diagnósticas de la Fiebre de Driadem.",
       "specific": {
         "patient": {
-          "path": "assets/medicina/patologias-v01/fd_paciente.svg",
+          "path": "assets/medicina/patologias-v01/fd_paciente_tinta.svg",
           "label": "Enfermo con fiebre y tos húmeda · estudio de taller",
-          "editorial": "grabado original interpretativo"
+          "editorial": "grabado original interpretativo",
+          "archival": "assets/medicina/patologias-v01/fd_paciente.svg"
         },
         "signs": {
-          "path": "assets/medicina/patologias-v01/fd_signos.svg",
+          "path": "assets/medicina/patologias-v01/fd_signos_tinta.svg",
           "label": "Pústulas verdosas y exudación · estudio esquemático",
-          "editorial": "estudio ilustrativo, no imagen patológica oficial"
+          "editorial": "estudio ilustrativo, no imagen patológica oficial",
+          "archival": "assets/medicina/patologias-v01/fd_signos.svg"
         },
         "organ": {
-          "path": "assets/medicina/patologias-v01/fd_organo.svg",
+          "path": "assets/medicina/patologias-v01/fd_organo_tinta.svg",
           "label": "Pulmones · compromiso respiratorio descrito",
-          "editorial": "esquema anatómico, no mecanismo demostrado"
+          "editorial": "esquema anatómico, no mecanismo demostrado",
+          "archival": "assets/medicina/patologias-v01/fd_organo.svg"
         },
         "care": {
-          "path": "assets/medicina/patologias-v01/fd_cuidados.svg",
+          "path": "assets/medicina/patologias-v01/fd_cuidados_tinta.svg",
           "label": "Botica y vendaje · acompañamiento narrativo, no cura",
-          "editorial": "cuidados paliativos narrativos sin modificador"
+          "editorial": "cuidados paliativos narrativos sin modificador",
+          "archival": "assets/medicina/patologias-v01/fd_cuidados.svg"
         }
       },
       "specificDisclaimer": "Estudios vectoriales originales para el Códice de la Salud: ilustran síntomas y cuidados sin establecer diagnósticos, efectos mecánicos ni cura de las secuelas."
@@ -231,24 +235,28 @@
       "disclaimer": "Las manchas descritas en el reglamento no están reproducidas aquí como imagen patológica canónica.",
       "specific": {
         "patient": {
-          "path": "assets/medicina/patologias-v01/com_paciente.svg",
+          "path": "assets/medicina/patologias-v01/com_paciente_tinta.svg",
           "label": "Ronquera y agotamiento del viajero · estudio de taller",
-          "editorial": "grabado original interpretativo"
+          "editorial": "grabado original interpretativo",
+          "archival": "assets/medicina/patologias-v01/com_paciente.svg"
         },
         "signs": {
-          "path": "assets/medicina/patologias-v01/com_signos.svg",
+          "path": "assets/medicina/patologias-v01/com_signos_tinta.svg",
           "label": "Manchas con apariencia de orquídeas marchitas",
-          "editorial": "estudio ilustrativo, no imagen patológica oficial"
+          "editorial": "estudio ilustrativo, no imagen patológica oficial",
+          "archival": "assets/medicina/patologias-v01/com_signos.svg"
         },
         "organ": {
-          "path": "assets/medicina/patologias-v01/com_organo.svg",
+          "path": "assets/medicina/patologias-v01/com_organo_tinta.svg",
           "label": "Garganta y laringe · esquema funcional de estudio",
-          "editorial": "esquema anatómico, no mecanismo demostrado"
+          "editorial": "esquema anatómico, no mecanismo demostrado",
+          "archival": "assets/medicina/patologias-v01/com_organo.svg"
         },
         "care": {
-          "path": "assets/medicina/patologias-v01/com_cuidados.svg",
+          "path": "assets/medicina/patologias-v01/com_cuidados_tinta.svg",
           "label": "Mesa clínica · observación y alivio narrativo",
-          "editorial": "cuidados paliativos narrativos sin modificador"
+          "editorial": "cuidados paliativos narrativos sin modificador",
+          "archival": "assets/medicina/patologias-v01/com_cuidados.svg"
         }
       },
       "specificDisclaimer": "Estudios vectoriales originales para el Códice de la Salud: ilustran síntomas y cuidados sin establecer diagnósticos, efectos mecánicos ni cura de las secuelas."
@@ -271,24 +279,28 @@
       "disclaimer": "Las imágenes de órganos no representan sangre infectada ni establecen mecanismos de contagio.",
       "specific": {
         "patient": {
-          "path": "assets/medicina/patologias-v01/sn_paciente.svg",
+          "path": "assets/medicina/patologias-v01/sn_paciente_tinta.svg",
           "label": "Melancolía y lágrimas oscuras · estudio de taller",
-          "editorial": "grabado original interpretativo"
+          "editorial": "grabado original interpretativo",
+          "archival": "assets/medicina/patologias-v01/sn_paciente.svg"
         },
         "signs": {
-          "path": "assets/medicina/patologias-v01/sn_signos.svg",
+          "path": "assets/medicina/patologias-v01/sn_signos_tinta.svg",
           "label": "Manchas y trazas de sangre oscura · esquema no diagnóstico",
-          "editorial": "estudio ilustrativo, no imagen patológica oficial"
+          "editorial": "estudio ilustrativo, no imagen patológica oficial",
+          "archival": "assets/medicina/patologias-v01/sn_signos.svg"
         },
         "organ": {
-          "path": "assets/medicina/patologias-v01/sn_organo.svg",
+          "path": "assets/medicina/patologias-v01/sn_organo_tinta.svg",
           "label": "Corazón y vasos · representación simbólica",
-          "editorial": "esquema anatómico, no mecanismo demostrado"
+          "editorial": "esquema anatómico, no mecanismo demostrado",
+          "archival": "assets/medicina/patologias-v01/sn_organo.svg"
         },
         "care": {
-          "path": "assets/medicina/patologias-v01/sn_cuidados.svg",
+          "path": "assets/medicina/patologias-v01/sn_cuidados_tinta.svg",
           "label": "Vendajes y asistencia · sin revocar efectos reglamentarios",
-          "editorial": "cuidados paliativos narrativos sin modificador"
+          "editorial": "cuidados paliativos narrativos sin modificador",
+          "archival": "assets/medicina/patologias-v01/sn_cuidados.svg"
         }
       },
       "specificDisclaimer": "Estudios vectoriales originales para el Códice de la Salud: ilustran síntomas y cuidados sin establecer diagnósticos, efectos mecánicos ni cura de las secuelas."
@@ -312,10 +324,10 @@
     }
   },
   "specificArt": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "grabados_originales_esquematicos",
     "root": "assets/medicina/patologias-v01/",
-    "format": "SVG 640x800, sin texto inscrito; tipografía exclusivamente HTML del visor",
+    "format": "Dos variantes por ilustración: SVG de tinta transparente sin fondo ni marco, y SVG archivístico sobre pergamino (ambas 640×800, sin texto inscrito).",
     "scope": "Las tres enfermedades del reglamento: pacientes, signos, órgano de estudio y cuidados.",
     "caveat": "Interpretaciones visuales no diagnósticas; no fijan etiología, tratamiento eficaz, secuelas ni reglas adicionales."
   }
