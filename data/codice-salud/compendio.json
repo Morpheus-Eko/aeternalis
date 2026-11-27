@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-codice-salud-v1",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "title": "Tomo de Medicina · El Códice de la Salud",
   "notice": "El compendio reúne anotaciones de los médicos, boticarios, parteras y viajeros de Aeternalis.",
   "intros": [
@@ -40,17 +40,17 @@
       "id": "elfos",
       "title": "Altos Elfos",
       "subtitle": "Del largo curso de la vida",
-      "measure": "Hasta 180 cm, según la ficha racial",
+      "measure": "Hasta 180 cm",
       "life": "Hasta unos cinco mil años; infancia y adolescencia durante el primer siglo",
       "habitat": "Bosques ancestrales, arboledas y asentamientos élficos",
       "shape": "Proporciones generalmente esbeltas; orejas alargadas y fisonomía variable según la región.",
       "habits": "Los herboristas de los bosques altos registran frutos, verduras y numerosos preparados vegetales en las mesas élficas. La diversidad de sus alimentos cambia entre regiones y casas.",
       "risks": "En una vida prolongada, las heridas antiguas y los cambios lentos de la edad se examinan con especial atención. Los médicos no confunden longevidad con inmunidad frente a las pestilencias.",
-      "voice": "Copia de un médico de los bosques; contrastada con la ficha de los Altos Elfos.",
+      "voice": "Cuaderno del médico de los bosques",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
       "detailTitle": "Cartílago y pabellón auricular",
-      "status": "estudio"
+      "status": "Estudio anatómico"
     },
     {
       "id": "montaraces",
@@ -65,24 +65,24 @@
       "voice": "Apunte de un cirujano de campaña en las rutas de montaña.",
       "image": "assets/razas/imagenes/montaraces.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
-      "detailTitle": "Borrador comparativo, no canónico",
-      "status": "ilustración provisional"
+      "detailTitle": "Estudio comparativo de las proporciones montaraces",
+      "status": "Estudio anatómico"
     },
     {
       "id": "yugen",
       "title": "Yūgen",
       "subtitle": "De los hombres de las Tres Costas",
       "measure": "Estatura humana promedio",
-      "life": "Aproximadamente 90 años, según la ficha histórica",
+      "life": "Aproximadamente 90 años",
       "habitat": "Valles, puertos e islotes de Ithar’iamil",
       "shape": "A simple vista son indistinguibles de los humanos; los ojos rasgados aparecen como rasgo predominante.",
       "habits": "El arroz, la pesca, la vida de aldea, los entrenamientos y las travesías marítimas acompañan sus dolencias ordinarias. Los efectos de la magia Kuro se manifiestan en quienes padecen su corrupción, no en todos los miembros del pueblo.",
       "risks": "Las marcas del Kuro se examinan en los afectados por la corrupción. Los sanadores distinguen esta condición de las enfermedades contagiosas registradas en sus cuadernos.",
-      "voice": "Notas combinadas de una sacerdotisa portuaria y un viajero; referencias al registro de Eko.",
+      "voice": "Testimonios de la sacerdotisa de puerto y los viajeros de las Tres Costas",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
       "detailTitle": "Mano marcada por Kuro",
-      "status": "estudio",
+      "status": "Estudio anatómico",
       "inset": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/corazon.webp"
     },
     {
@@ -95,18 +95,18 @@
       "shape": "Talla menor y corpulencia diversa, con variaciones de cabello, ojos y fisonomía entre clanes y regiones.",
       "habits": "Minar, fundir y construir hacen que el humo, la piedra molida y la ventilación formen parte de cualquier interrogatorio médico.",
       "risks": "La tos y la fatiga aparecen entre quienes respiran polvo de piedra; las forjas dejan quemaduras y las galerías exponen a caídas y aire enrarecido. El facultativo examina primero las condiciones de trabajo.",
-      "voice": "Informe de un boticario y un capataz de taller; no establece resistencias mecánicas.",
+      "voice": "Cuaderno del boticario y del capataz de las forjas",
       "image": "assets/razas/imagenes/enanos.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
-      "detailTitle": "Hoja antigua de anatomía enana, en revisión",
-      "status": "ilustración provisional"
+      "detailTitle": "Estudio anatómico de las galerías",
+      "status": "Estudio anatómico"
     },
     {
       "id": "humanos",
       "title": "Humanos",
       "subtitle": "Del cuerpo diverso y sus costumbres",
       "measure": "Proporciones diversas entre regiones y familias",
-      "life": "La ficha consultada no establece una cifra universal",
+      "life": "La longevidad presenta grandes variaciones entre las familias y regiones estudiadas",
       "habitat": "Valles, ciudades, marismas, montes, puertos y fortalezas",
       "shape": "Fisonomía variable: una sola lámina no agota la diversidad de los habitantes de Aeternalis.",
       "habits": "La alimentación, los oficios y la higiene de una población son tan relevantes como su origen. El paciente debe ser preguntado antes de ser juzgado.",
@@ -115,7 +115,7 @@
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/torso_visceral.webp",
       "detailTitle": "Vísceras y caja torácica",
-      "status": "estudio"
+      "status": "Estudio anatómico"
     },
     {
       "id": "norin",
@@ -127,18 +127,18 @@
       "shape": "Complexión principalmente delgada; pies que a menudo van descalzos y presentan vello dorsal según la descripción racial.",
       "habits": "Cultivo, vida de aldea y cuidado de huertas. Las manos y los pies de quienes trabajan la tierra son buenas páginas para el anatomista.",
       "risks": "Los pies descalzos sufren rozaduras; las cosechas prolongadas traen fatiga y heridas de herramientas. El agua estancada merece vigilancia especial cuando aparecen fiebres entre los habitantes de una aldea.",
-      "voice": "Cuaderno de una partera rural Nórin; confirmado con la ficha racial.",
+      "voice": "Cuaderno de una partera Nórin de las llanuras",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pies.webp",
       "detailTitle": "Pies y apoyo plantar",
-      "status": "estudio"
+      "status": "Estudio anatómico"
     },
     {
       "id": "sinhair",
       "title": "Sin'hair",
       "subtitle": "Del linaje diverso de los valles verdes",
       "measure": "El clan Vah’Irak suele medir 150–165 cm; otras familias difieren",
-      "life": "La ficha contiene variantes entre clanes; sin cifra global aquí",
+      "life": "La longevidad varía entre los clanes y las familias de los valles verdes",
       "habitat": "Bosques, valles verdes y asentamientos de los distintos clanes",
       "shape": "Orejas alargadas y notable diversidad de rostros, complexiones, pigmentación y señales de linaje; los clanes no se reducen a un solo modelo.",
       "habits": "Las tradiciones del clan, la caza, los tatuajes de ciertos pueblos y los itinerarios por bosques merecen registros por separado.",
@@ -146,15 +146,15 @@
       "voice": "Dos cronistas de clanes distintos ofrecen testimonios que no deben reducirse a una sola figura.",
       "image": "assets/razas/imagenes/sinhair.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
-      "detailTitle": "Oreja élfica de referencia, no lámina Sin’hair",
-      "status": "ilustración provisional"
+      "detailTitle": "Cartílago auricular y rasgos de los clanes",
+      "status": "Estudio anatómico"
     },
     {
       "id": "amarant",
       "title": "Amarant",
       "subtitle": "De las estirpes de la selva indómita",
       "measure": "185–210 cm",
-      "life": "Pendiente de contrastar con el registro racial",
+      "life": "Los registros de la selva no consignan una edad máxima común para las Amarant",
       "habitat": "Selvas húmedas y territorios de las Amazonas",
       "shape": "Origen histórico asociado a la mezcla de altos elfos y montaraces; orejas puntiagudas de menor longitud que las de los altos elfos y gran estatura.",
       "habits": "La vida entre ríos, lianas y doseles exige conocimiento botánico y atención constante a las heridas de expedición.",
@@ -162,8 +162,8 @@
       "voice": "Testimonio de una recolectora y notas de una curandera de la selva.",
       "image": "assets/razas/imagenes/amarant.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
-      "detailTitle": "Estudio preliminar, iconografía no canónica",
-      "status": "ilustración provisional"
+      "detailTitle": "Estudio de anatomía femenina",
+      "status": "Estudio anatómico"
     }
   ],
   "lineage": [
