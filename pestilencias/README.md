@@ -47,3 +47,7 @@ Próximas iteraciones propuestas: relación visual con el Supermapa, imágenes e
 - Notas y secuelas mediante elementos `details`/`summary`, compatibles con teclado y sin añadir dependencias externas.
 - Compatibilidad con calculadora 1d100, libro de secuelas y enlace al JS maestro; el contenido normativo en JSON no se modifica.
 - Versión de CSS/JS 1.1.0 para invalidar la caché de GitHub Pages / Foroactivo.
+
+## Criterio definitivo de assets · 27/11/2026
+
+Todos los títulos, subtítulos, etiquetas, pestañas, botones y textos se renderizan como HTML y heredan la familia tipográfica del foro. **Está prohibido usar imágenes con títulos o palabras incrustadas como controles.** Los assets de esta sección se reservan para símbolos sin texto, bustos, estudios anatómicos de distintas razas, dibujos de patologías, ilustraciones marginales y elementos decorativos. El visor v1.2 elimina la cabecera con letras dibujadas, los botones rotulados como imagen y el botón gráfico de cálculo. El índice conserva momentáneamente los emblemas existentes como elementos ilustrativos, que podrán sustituirse por bustos sin textos incrustados.

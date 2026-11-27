@@ -1,4 +1,4 @@
-/* AETERNALIS · Códice de las Pestilencias v1.1 · CSS y reglamento separados. */
+/* AETERNALIS · Códice de las Pestilencias v1.2 · CSS y reglamento separados. */
 (function codexModule(){
 'use strict';
 const root=document.getElementById('ae-pestilencias');
@@ -28,9 +28,9 @@ function badge(item,index){
  '<span class="aep-entry__link" aria-hidden="true">Abrir legajo <b>›</b></span></button>';
 }
 function tabs(){
- const labels=[['sintomas','boton-sintomas.webp','Síntomas'],['exposicion','boton-exposicion.webp','Exposición'],['expediente','boton-expediente.webp','Expediente']];
- return '<nav class="aep-tabbar" aria-label="Pliegos del expediente">'+labels.map(([key,img,label])=>
- '<button type="button" class="aep-tab '+(state.tab===key?'is-active':'')+'" data-tab="'+key+'" aria-current="'+(state.tab===key?'page':'false')+'" aria-label="Abrir pliego: '+label+'"><img src="'+ASSET+img+'" alt="'+label+'" loading="lazy"></button>').join('')+'</nav>';
+ const labels=[['sintomas','Síntomas'],['exposicion','Exposición'],['expediente','Expediente']];
+ return '<nav class="aep-tabbar" aria-label="Pliegos del expediente">'+labels.map(([key,label])=>
+ '<button type="button" class="aep-tab '+(state.tab===key?'is-active':'')+'" data-tab="'+key+'" aria-current="'+(state.tab===key?'page':'false')+'" aria-label="Abrir pliego: '+label+'"><span aria-hidden="true" class="aep-tab__mark">✥</span><span>'+label+'</span></button>').join('')+'</nav>';
 }
 function symptoms(){
  const disease=d();
@@ -58,7 +58,7 @@ function exposure(){
  '<fieldset><legend>Protecciones declaradas</legend>'+
  '<label class="aep-check"><input type="checkbox" data-field="potion" '+(state.potion?'checked':'')+'><span>Poción de Ouriler <b>+'+disease.potion+'</b></span></label>'+
  '<label class="aep-check"><input type="checkbox" data-field="spell" '+(state.spell?'checked':'')+'><span>Velo de Astarax <b>+'+disease.spell+'</b></span></label></fieldset></div>'+
- '<button type="button" class="aep-calc" data-action="calculate" aria-label="Calcular exposición"><img src="'+ASSET+'boton-calcular-exposicion.webp" alt="Calcular exposición"></button>'+
+ '<button type="button" class="aep-calc" data-action="calculate"><span aria-hidden="true">✥</span> Calcular exposición <span aria-hidden="true">›</span></button>'+
  '<div class="aep-result" id="aep-result" aria-live="polite">'+(state.report?reportMarkup(state.report):'<p>Completa la muestra y activa la placa para conocer el modificador y la probabilidad de superar el umbral.</p>')+'</div>'+
  '<p class="aep-smallprint">'+esc(state.data.rules.calculatorDisclaimer)+'</p></div>';
 }
@@ -118,7 +118,7 @@ function render(){
  root.dataset.aepBoot='ready';
  root.innerHTML='<section class="aep-gabinete '+(state.mode==='indice'?'aep-gabinete--index':'aep-gabinete--reading')+'" aria-label="El Códice de las Pestilencias">'+
  '<header class="aep-header"><span class="aep-header__overline">AETERNALIS · TRATADO DE AFECCIONES</span>'+
- '<img src="'+ASSET+'cabecera-codice-pestilencias.webp" alt="El Códice de las Pestilencias" decoding="async">'+
+ '<h1 class="aep-header__title">El Códice de las Pestilencias</h1>'+
  '<p>No todo mal tiene nombre. No todo nombre conduce a una cura.</p></header>'+
  (state.mode==='indice'?indexPage():readerPage())+
  '<footer class="aep-footer"><span>EL CÓDICE DE LAS PESTILENCIAS</span><span>Manuscrito bajo observación · Edición en construcción</span></footer>'+
@@ -164,7 +164,7 @@ function load(){
  root.innerHTML='<p class="aep-loading" role="status">Abriendo los expedientes lacrados…</p>';
  fetch(DATA,{mode:'cors',credentials:'omit',cache:'default'}).then(response=>{if(!response.ok)throw Error('HTTP '+response.status);return response.json();})
  .then(data=>{if(data.schema!=='aeternalis-pestilencias-v1'||!Array.isArray(data.diseases)||data.diseases.length!==3)throw Error('Datos del Códice no compatibles');
- state.data=data;render();window.AeternalisCodicePestilencias={version:'1.1.0',getState:()=>({disease:state.id,tab:state.tab,loaded:true})};})
+ state.data=data;render();window.AeternalisCodicePestilencias={version:'1.2.0',getState:()=>({disease:state.id,tab:state.tab,loaded:true})};})
  .catch(e=>{root.dataset.aepBoot='error';root.innerHTML='<div class="aep-error" role="alert"><h2>No se pudo abrir el Códice.</h2><p>'+esc(e.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/Pestilencias]',e)});
 }
 root.addEventListener('click',ev=>{if(ev.target.closest('[data-action="retry"]'))load()});
