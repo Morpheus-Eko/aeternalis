@@ -1,4 +1,4 @@
-/* Aeternalis · Tomo de Medicina v3.1.0 — encapsulado para Foroactivo. */
+/* Aeternalis · Tomo de Medicina v3.2.0 — encapsulado para Foroactivo. */
 #ae-codice-salud{--ac-ink:#473223;--ac-dark:#121811;--ac-brass:#baa06f;--ac-paper:#e9d5ae;display:block;width:100%;min-width:0;container-type:inline-size;color:#e6d4b3;box-sizing:border-box}
 #ae-codice-salud *{box-sizing:border-box}
 #ae-codice-salud button,#ae-codice-salud input,#ae-codice-salud select{font:inherit}
@@ -970,4 +970,43 @@
  #ae-codice-salud .ac-leaf[data-layout="archive"] .ac-atlas-grid{gap:6px}
  #ae-codice-salud .ac-leaf[data-layout="archive"] .ac-atlas-card{padding:6px}
  #ae-codice-salud .ac-leaf[data-layout="archive"] .ac-atlas-card img{max-height:245px!important}
+}
+
+/* APOSTILLAS DEL FACULTATIVO v3.2 · tinta manuscrita, firmas y papel */
+#ae-codice-salud .ac-marginalia.ac-marginalia--signed{
+ position:relative;clear:both;display:flex;flex-direction:column;
+ margin:17px 0 15px!important;padding:15px 19px!important;
+ border:1px solid #90704e96!important;border-left:3px solid #9b7248!important;
+ border-radius:2px 5px 5px 2px!important;
+ background:linear-gradient(105deg,#bd976756,#ead8b373 40%,#e9d3ac5b)!important;
+ box-shadow:inset 0 0 0 3px #f6e6c43e,0 3px 7px #5e472a1e;
+ color:#604831!important;max-width:100%;
+}
+#ae-codice-salud .ac-marginalia__heading{
+ display:flex;align-items:center;gap:8px;border-bottom:1px solid #ae8d6399;
+ padding:0 0 8px;margin:0 0 8px;
+ color:#7b5739;letter-spacing:.09em;font-size:12px;font-weight:700;font-style:normal;
+}
+#ae-codice-salud .ac-marginalia__heading img{
+ width:31px!important;height:29px!important;max-width:31px!important;
+ max-height:29px!important;object-fit:contain;opacity:.7;filter:sepia(.35);
+}
+#ae-codice-salud .ac-marginalia .ac-marginalia__handwriting{
+ font-family:inherit!important;font-size:clamp(15px,1.08vw,18px)!important;
+ font-style:italic!important;line-height:1.61!important;
+ color:#4c3727!important;margin:2px 0 11px!important;
+ white-space:normal;overflow-wrap:break-word;
+}
+#ae-codice-salud .ac-marginalia__signature{
+ border-top:1px solid #9b78544a;padding-top:8px;margin-top:auto;
+ font-family:inherit;font-size:clamp(12px,.9vw,15px);
+ font-style:italic;font-weight:600;line-height:1.42;
+ color:#6f4e31;text-align:right;
+}
+#ae-codice-salud .ac-drawer--notes .ac-marginalia--signed{padding:13px!important}
+#ae-codice-salud .ac-drawer--notes .ac-marginalia .ac-marginalia__handwriting{font-size:15px!important}
+@container(max-width:600px){
+ #ae-codice-salud .ac-marginalia.ac-marginalia--signed{padding:10px 11px!important;margin:13px 0 12px!important}
+ #ae-codice-salud .ac-marginalia .ac-marginalia__handwriting{font-size:15px!important;line-height:1.55!important}
+ #ae-codice-salud .ac-marginalia__signature{font-size:12px}
 }
