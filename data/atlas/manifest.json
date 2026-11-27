@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-kale-ifnolir-camino-montana-y-bosque",
+  "revision": "2026-11-27-optimizar-cache-cargador-atlas-1",
   "counts": {
     "places": 122,
     "regions": 26,
@@ -121,5 +121,11 @@
       "controlPoints": 7,
       "geometry": "calco_magentas"
     }
+  },
+  "performance": {
+    "source": "foroactivo/SUPERMAPA_CARGADOR_PARA_FOROACTIVO.js",
+    "strategy": "Manifiesto no-store, datos y núcleo con versión estable de manifiesto y caché del navegador; un reintento breve ante error de red.",
+    "reason": "Evitar que ?v=Date.now() y cache:no-store descarguen de nuevo 16 archivos del Atlas en cada apertura",
+    "date": "2026-11-27"
   }
 }
