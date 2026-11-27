@@ -1,4 +1,4 @@
-# Códice de la Salud · instalación v2.6.1
+# Códice de la Salud · instalación v3.0.0
 
 **Vista de pruebas:** https://morpheus-eko.github.io/aeternalis/codice-salud/
 
@@ -22,7 +22,7 @@
 
 ## Lectura y accesibilidad
 
-En escritorio se presentan dos folios, en contenedores de Foroactivo estrechos uno solo. Las páginas no se extienden más allá del pergamino: el área de papel incorpora scroll propio si el texto sobrepasa el espacio disponible, pero la navegación principal avanza de folio en folio. La navegación gráfica usa assets góticos ya publicados. La brújula despliega índice y bustos a petición, sin panel fijo junto al texto.
+En escritorio ancho se presentan dos folios; con menos de 1.180 px de ancho del visor aparece uno solo. El texto no tiene desplazamiento interior: el folio aumenta de altura si el contenido lo requiere. Las flechas están a los costados y las cintas de capítulo a la derecha. No hay paginación automática de bloques largos. La brújula y las notas se despliegan a petición, sin panel fijo junto al texto.
 
 Las imágenes del índice anatómico se descargan de manera diferida; las ilustraciones de los folios usan `loading="lazy"`. Al pulsar una imagen se abre su lámina a mayor resolución. El Códice no almacena datos personales ni modifica personajes. Las reglas de pestilencias son reales dentro de la ficción; las hipótesis, riesgos ambientales, anatomías preliminares y plantas inventadas **no representan habilidades mecánicas aprobadas**.
 
@@ -38,6 +38,14 @@ Gabinete de control visual: https://morpheus-eko.github.io/aeternalis/codice-sal
 
 ## Grabados de enfermedades v2.6.1
 
-Las doce figuras originales de `assets/medicina/patologias-v01/` están disponibles en dos versiones cada una (archivística con papel y tinta transparente). El libro las carga desde el catálogo `iconografia-clinica-v01.json?v=1.2.0` mediante el motor `visor.js?v=2.6.1`. El maestro usa los identificadores `ae-codice-salud-css-v261` y `ae-codice-salud-js-v261` para evitar reutilizar revisiones antiguas.
+Las doce figuras originales de `assets/medicina/patologias-v01/` están disponibles en dos versiones cada una (archivística con papel y tinta transparente). El libro las carga desde el catálogo `iconografia-clinica-v01.json?v=1.2.0` mediante el motor `visor.js?v=3.0.0`. El maestro usa los identificadores `ae-codice-salud-css-v30` y `ae-codice-salud-js-v30` para evitar reutilizar revisiones antiguas.
 
 Para que aparezca **dentro del foro**, confirmar ambos extremos: (a) JS maestro instalado globalmente a partir de `foroactivo/JS_UNICO_MAESTRO_PEGAR.js`; (b) un mensaje HTML con `<div class="hidethisprofile"></div><div id="ae-codice-salud"></div>`. No hace falta añadir los SVG uno a uno ni tocar el CSS base del foro. No se ha comprobado la configuración administrativa de Foroactivo durante esta edición.
+
+## Instalación v3.0.0: arquitectura
+
+En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.0.0` antes de `js/codice-salud/visor.js?v=3.0.0` cuando un tema contiene `#ae-codice-salud`. No hace falta reescribir el HTML de las publicaciones antiguas ni copiar los CSS manualmente.
+
+El libro intenta usar hasta 1.800 px de la ventana y centrarse respecto del viewport aun cuando el tema de Foroactivo tenga una columna principal más estrecha. **Si algún ancestro del mensaje tiene `overflow:hidden`, puede recortar los cantos o las pestañas:** revisar esta situación dentro del tema concreto sin alterar a ciegas el CSS global del foro.
+
+Pruebas funcionales con DOM simulado verifican flechas gemelas, once marcadores, índice ilustrado a la izquierda, láminas botánicas a la izquierda, notas a la derecha, vista de un folio bajo 1.180 px, acciones de abrir/cerrar y herramientas y notas. Falta inspección visual real en Foroactivo y ajustar el grosor de las cintas según el ancho efectivo de la publicación.
