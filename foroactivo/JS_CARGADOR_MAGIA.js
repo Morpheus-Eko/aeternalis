@@ -4,7 +4,7 @@
 
   // Sustituir la ruta por la URL real de TU página HTML de CSS de Magia.
   // Ejemplo: "/h7-css-codice-de-magia" (es solo un ejemplo).
-  var CSS_PAGE = "https://morpheus-eko.github.io/aeternalis/css/magia-codice.css?v=1.1.0";
+  var CSS_PAGE = "https://morpheus-eko.github.io/aeternalis/css/magia-codice.css?v=2.0.0";
   var ROOT = "aem-magic-codex";
   var STYLE_ID = "aem-magic-codex-styles-v11";
   var INICIO = "/* AEM_CSS_INICIO_V11 */";

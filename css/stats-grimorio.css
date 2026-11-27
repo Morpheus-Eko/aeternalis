@@ -9,7 +9,7 @@
   display: block; position: relative; box-sizing: border-box;
   width:100%; max-width:1100px; margin:16px auto 28px; padding:0;
   border:1px solid var(--aeg-edge); color:var(--aeg-ink);
-  background: #151018 url('https://i.postimg.cc/kgGQ48Rc/fondo-cuero-grimorio.jpg') center top / cover no-repeat;
+  background: #151018 url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/fondo-cuero-grimorio.webp') center top / cover no-repeat;
   box-shadow:0 10px 40px #0008, inset 0 0 70px #09070bc0;
   font-size:15px; line-height:1.7; text-align:left;
 }
@@ -29,9 +29,9 @@
 #aeg-stats-grimoire .aeg-cover-subtitle {font:italic 13px/1.6 Georgia,serif;letter-spacing:.025em;color:#b9a9bf;margin:15px 0 0}
 #aeg-stats-grimoire .aeg-page {position:relative; padding:28px clamp(15px,3.5vw,45px) 46px; isolation:isolate;}
 #aeg-stats-grimoire .aeg-page::before {content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
- background:linear-gradient(#141014ef,#18131bdc), url('https://i.postimg.cc/6pPdG3d4/pergamino-arcano-claro.jpg') center top / 100% auto repeat-y;opacity:.96}
+ background:linear-gradient(#141014ef,#18131bdc), url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/pergamino-arcano-claro.webp') center top / 100% auto repeat-y;opacity:.96}
 #aeg-stats-grimoire .aeg-page::after {content:"";position:absolute;z-index:-1;inset:0;pointer-events:none;opacity:.06;
- background:url('https://i.postimg.cc/HsVn8t3t/sello-arcano-marca-agua.png') center 50%/ min(80%,500px) auto no-repeat}
+ background:url('https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/sello-arcano-marca-agua.webp') center 50%/ min(80%,500px) auto no-repeat}
 #aeg-stats-grimoire .aeg-intro {display:flex;gap:16px; align-items:flex-start; padding:18px 20px; margin-bottom:32px;
  background:#0e0c12b8;border:1px solid #bda06f66;border-left:3px solid var(--aeg-gold); box-shadow:inset 0 0 25px #0005}
 #aeg-stats-grimoire .aeg-intro p {margin:0;color:#e4dacf;line-height:1.75}
@@ -85,3 +85,19 @@
  #aeg-stats-grimoire .aeg-cover-sigil {width:45px;height:45px}
 }
 @media(prefers-reduced-motion:reduce) {#aeg-stats-grimoire .aeg-stat {transition:none}}
+
+
+/* AETERNALIS · GRIMORIO ESTADÍSTICO V2 — Pergamino y filigrana de bronce */
+#aeg-stats-grimoire{--aeg-edge:#d0ad777f;border-radius:8px;overflow:hidden;max-width:1170px;box-shadow:0 24px 65px #080509d9,inset 0 0 0 1px #f3d9a927}
+#aeg-stats-grimoire .aeg-cover{isolation:isolate;background:radial-gradient(circle at 50% 0%,#49306555,transparent 68%),linear-gradient(#14101bed,#0b0915ee)}
+#aeg-stats-grimoire .aeg-cover::before,#aeg-stats-grimoire .aeg-cover::after{content:"";position:absolute;top:5px;width:87px;height:87px;pointer-events:none;background-size:contain;background-repeat:no-repeat;opacity:.57}
+#aeg-stats-grimoire .aeg-cover::before{left:5px;background-image:url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp')}
+#aeg-stats-grimoire .aeg-cover::after{right:5px;background-image:url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp')}
+#aeg-stats-grimoire .aeg-stat{border-radius:6px;box-shadow:inset 0 1px #ffffff12,0 6px 15px #08040a88;transition:transform .2s ease,border-color .2s ease}
+#aeg-stats-grimoire .aeg-stat img,#aeg-stats-grimoire .aeg-entry>img{filter:drop-shadow(0 3px 5px #0008)}
+#aeg-stats-grimoire .aeg-entry{border-radius:6px;box-shadow:inset 0 1px #ffffff0f}
+#aeg-stats-grimoire .aeg-rank-grid figure{border-radius:5px;overflow:hidden;border-color:#b9986480;box-shadow:0 3px 12px #0007}
+#aeg-stats-grimoire .aeg-rank-grid figure img{object-fit:contain!important}
+@media(max-width:700px){#aeg-stats-grimoire .aeg-cover::before,#aeg-stats-grimoire .aeg-cover::after{width:45px;height:45px;opacity:.3}}
+@media(prefers-reduced-motion:reduce){#aeg-stats-grimoire .aeg-stat{transition:none!important}}
+
