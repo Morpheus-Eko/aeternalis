@@ -736,7 +736,7 @@
 #ae-codice-salud .ac-drawer__return{border:1px solid #a68a5a;background:#47372a;color:#f2dcbb;padding:10px 12px}
 #ae-codice-salud .ac-colophon{font-size:11px;padding-top:10px}
 
-@container (max-width:1179px){
+@container (max-width:1069px){
  #ae-codice-salud .ac-spread{grid-template-columns:minmax(0,1fr)!important}
  #ae-codice-salud .ac-spread::after{display:none!important}
  #ae-codice-salud .ac-leaf{min-height:760px}
