@@ -179,3 +179,20 @@
  #ae-codice-salud .ac-clinical-list li{padding-left:32px}
  #ae-codice-salud .ac-med-table{min-width:440px}
 }
+
+
+/* LECTURA PROTAGONISTA: el texto prima sobre barras de navegación o decoración. */
+#ae-codice-salud .ac-leaf__body p{font-size:clamp(17px,1.52vw,20px)!important;line-height:1.73!important}
+#ae-codice-salud .ac-field dd{font-size:clamp(15px,1.23vw,18px);line-height:1.61}
+#ae-codice-salud .ac-field dt{font-size:14px;line-height:1.55}
+#ae-codice-salud .ac-stage-list li p{font-size:17px!important;line-height:1.62!important}
+#ae-codice-salud .ac-mast h1{font-size:clamp(27px,2.75vw,41px)!important}
+#ae-codice-salud .ac-leaf{height:clamp(730px,79vh,940px)}
+@container(max-width:750px){
+ #ae-codice-salud .ac-leaf__body p{font-size:18px!important;line-height:1.69!important}
+ #ae-codice-salud .ac-leaf{height:clamp(710px,80vh,900px)}
+}
+@container(max-width:460px){
+ #ae-codice-salud .ac-leaf__body p{font-size:17px!important}
+ #ae-codice-salud .ac-leaf{height:clamp(690px,78vh,880px)}
+}
