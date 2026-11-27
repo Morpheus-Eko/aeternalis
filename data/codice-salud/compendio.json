@@ -1,7 +1,7 @@
 {
   "schema": "aeternalis-codice-salud-v1",
-  "version": "1.0.0",
-  "title": "El Códice de la Salud",
+  "version": "2.0.0",
+  "title": "Tomo de Medicina · El Códice de la Salud",
   "notice": "Compendio ficticio. Salvo las reglas existentes de pestilencias, toda hipótesis médica o herbario es material narrativo y no crea estadísticas.",
   "intros": [
     {
@@ -82,7 +82,8 @@
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
       "detailTitle": "Mano marcada por Kuro",
-      "status": "estudio"
+      "status": "estudio",
+      "inset": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/corazon.webp"
     },
     {
       "id": "enanos",
@@ -242,7 +243,11 @@
       "limits": "no cierra cortes hondos, no esteriliza heridas infectadas y no reemplaza la cura de un cirujano",
       "risk": "el material vegetal sucio puede empeorar la herida",
       "source": "cuadernos de parteras rurales",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-02",
@@ -254,7 +259,11 @@
       "limits": "no trata infecciones pulmonares graves ni neutraliza tóxicos inhalados",
       "risk": "el vapor puede irritar a quien ya tiene dificultad respiratoria",
       "source": "herbolarios de feria",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-03",
@@ -266,7 +275,11 @@
       "limits": "no corrige envenenamientos, enfermedades del hígado ni hambruna",
       "risk": "su sabor amargo induce náusea en algunos enfermos",
       "source": "testimonios de mesoneros y sanadoras",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-04",
@@ -278,7 +291,11 @@
       "limits": "no cura heridas por sí mismo",
       "risk": "puede albergar hongos; no se aplica directamente sobre heridas abiertas",
       "source": "cirujanos itinerantes",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-05",
@@ -290,7 +307,11 @@
       "limits": "nunca sustituye calor, abrigo y alimento ante el enfriamiento peligroso",
       "risk": "recolección en risco y confusión con una variedad irritante",
       "source": "curanderos de las Cuatro Montañas",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-06",
@@ -302,7 +323,11 @@
       "limits": "no impide congelación, infección ni muerte por exposición",
       "risk": "en exceso provoca ardor y malestar estomacal",
       "source": "refugios de pastores",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-07",
@@ -314,7 +339,11 @@
       "limits": "no revierte corrupción del Kuro ni heridas profundas",
       "risk": "los ejemplares de aguas contaminadas irritan",
       "source": "parteras de aldeas costeras",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-08",
@@ -326,7 +355,11 @@
       "limits": "la flor no purifica agua sucia ni constituye antídoto",
       "risk": "puede ocasionar dermatitis de contacto",
       "source": "sacerdotisas de tres puertos",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-09",
@@ -338,7 +371,11 @@
       "limits": "no sustituye sutura ni cura infección",
       "risk": "el calor intensifica su poder irritante",
       "source": "recolectoras de doseles",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-10",
@@ -350,7 +387,11 @@
       "limits": "no neutraliza venenos ni parásitos",
       "risk": "esporas crudas irritan ojos y vías respiratorias",
       "source": "shamanes y exploradores",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-11",
@@ -362,7 +403,11 @@
       "limits": "no elimina polvo de los pulmones",
       "risk": "inhalación de esporas en las cuevas",
       "source": "boticarios de taller",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-12",
@@ -374,7 +419,11 @@
       "limits": "no combate por sí solo putrefacción o infección",
       "risk": "algunos pacientes no toleran el olor",
       "source": "herboristas del bosque",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-13",
@@ -386,7 +435,11 @@
       "limits": "no restituye sangre ni sustituye reposo y dieta completa",
       "risk": "tiende a marchitarse con rapidez y pierde calidad",
       "source": "cocina comunal Nórin",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-14",
@@ -398,7 +451,11 @@
       "limits": "no acelera sobrenaturalmente la regeneración de tejidos",
       "risk": "adhesión de restos de corteza si se deja secar sobre una herida",
       "source": "caminantes de los valles",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-15",
@@ -410,7 +467,11 @@
       "limits": "no desinfecta tejidos humanos ni cura fiebres",
       "risk": "uso directo en heridas abiertas causa dolor y lesión",
       "source": "marineros y saladores",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     },
     {
       "id": "h-16",
@@ -422,7 +483,11 @@
       "limits": "no sustituye cirugía, curación mágica ni elimina secuelas",
       "risk": "el grano crudo es indigesto",
       "source": "hospitales de campaña",
-      "status": "propuesta narrativa; no efecto automático"
+      "status": "propuesta narrativa; no efecto automático",
+      "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
+      "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
+      "imageStatus": "Estudio botánico provisional; no identificación de especie",
+      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
     }
   ],
   "archives": [
@@ -486,5 +551,6 @@
       "note": "No corresponde al catálogo de razas del foro",
       "status": "archivo no canonizado"
     }
-  ]
+  ],
+  "editorialRevision": "Libro médico unificado: atlas racial, herbario ilustrado, pestilencias, herramientas y cuidados narrativos. Conserva reglamento de pestilencias sin alterarlo."
 }
