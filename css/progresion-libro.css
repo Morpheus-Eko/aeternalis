@@ -68,4 +68,12 @@
 }
 @media (prefers-reduced-motion:reduce) {#aep-progress-book .aep-level {transition:none;}}
 #aep-progress-book .aep-cover p {color:#c4d6df!important;text-align:center!important;font:italic 14px/1.5 Georgia,serif!important;}
+
+/* AETERNALIS · PROGRESIÓN — acompañamiento visual v1.1 (sin modificar reglas) */
+#aep-progress-book{border-color:#a48c6d;box-shadow:0 22px 54px #000a,inset 0 0 0 1px #d6b78133;background-image:radial-gradient(ellipse at 50% 0,#5a687136,transparent 58%),linear-gradient(105deg,#0c1018,#352c23 6%,#15181e 11%,#11151b 90%,#403124 96%,#0b0f14)}
+#aep-progress-book .aep-cover{isolation:isolate}
+#aep-progress-book .aep-cover::after{content:"";display:block;width:min(200px,52%);height:50px;margin:6px auto 0;background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/runas_gema_central_01.webp') center/contain no-repeat;opacity:.78;pointer-events:none}
+#aep-progress-book :is(button,a):focus-visible{outline:2px solid #c99d62!important;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){#aep-progress-book *{scroll-behavior:auto!important}}
+
 /* AEP_PROGRESION_CSS_FIN */

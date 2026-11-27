@@ -72,39 +72,23 @@
   function reportError(root, message, error) {
     console.error(DEBUG, message, error || '');
     root.textContent = 'No se pudo cargar el Libro de Monturas. ' + message +
-      ' Revisa la consola del navegador (F12) y comprueba el bloque CSS en h4.';
+      ' Revisa la consola del navegador (F12) y comprueba el CSS publicado en GitHub Pages.';
     root.setAttribute('role','alert');
   }
 
-  // Lee solo el CSS de Monturas: la página h4 contiene otros estilos que NO deben inyectarse aquí.
+
+  // El navegador carga la hoja enlazada sin fetch(), compatible con Foroactivo y GitHub Pages.
   function fetchBookCSS() {
-    return fetch(CSS_URL, { credentials:'same-origin', cache:'no-store' })
-      .then(function (res) {
-        if (!res.ok) throw new Error('La página CSS devolvió HTTP ' + res.status);
-        return res.text();
-      })
-      .then(function (raw) {
-        // La página puede contener CSS plano, una etiqueta <style> o HTML generado por Foroactivo.
-        const parsed = new DOMParser().parseFromString(raw, 'text/html');
-        const container = parsed.querySelector('style#am-book-v3-source');
-        let source = container ? container.textContent : raw;
-        let start = source.indexOf(CSS_START);
-        let end = source.indexOf(CSS_END, start + CSS_START.length);
-        if (start < 0 || end < 0) {
-          throw new Error('No aparecen las marcas AM_BOOK_V3_CSS_START / END dentro de ' + CSS_URL);
-        }
-        let css = source.slice(start + CSS_START.length, end);
-        // Si Foroactivo escapa el contenido en el HTML, recuperamos caracteres originales.
-        if (/&(?:lt|gt|amp|quot|#39);/.test(css)) {
-          const textarea = document.createElement('textarea');
-          textarea.innerHTML = css;
-          css = textarea.value;
-        }
-        if (css.length < 300 || css.indexOf('#am-app') < 0) {
-          throw new Error('El bloque de Monturas está vacío o no contiene #am-app.');
-        }
-        return css;
-      });
+    if(document.getElementById(STYLE_ID)) return Promise.resolve();
+    return new Promise((resolve,reject)=>{
+      const link=document.createElement('link');
+      link.id=STYLE_ID;
+      link.rel='stylesheet';
+      link.href=CSS_URL;
+      link.onload=resolve;
+      link.onerror=()=>{link.remove();reject(new Error('No se pudo cargar el CSS del Libro de Monturas desde GitHub Pages.'));};
+      (document.head||document.documentElement).appendChild(link);
+    });
   }
 
   function start() {
@@ -112,20 +96,14 @@
     if (!root || root.dataset.amV3Started === 'yes') return;
     root.dataset.amV3Started = 'yes';
     root.setAttribute('aria-label', 'Cargando libro de monturas');
-    fetchBookCSS().then(function (css) {
-      if (!document.getElementById(STYLE_ID)) {
-        const style = document.createElement('style');
-        style.id = STYLE_ID;
-        style.textContent = css;
-        document.head.appendChild(style);
-      }
+    fetchBookCSS().then(function () {
       // Evita que los contenedores estrechos/transformados de la skin recorten el libro.
       if (root.parentElement !== document.body) document.body.appendChild(root);
       document.body.classList.add('am-v3-open');
       root.innerHTML = MARKUP;
       root.removeAttribute('aria-label');
       initBook(root);
-      console.info(DEBUG, 'Libro montado; CSS de h4 aplicado.');
+      console.info(DEBUG, 'Libro 3.4 montado; CSS y assets alojados en GitHub.');
     }).catch(function (err) {
       reportError(root, err && err.message ? err.message : 'Error desconocido.', err);
     });

@@ -325,34 +325,26 @@
     return true;
   }
 
+
   async function ensureStyles() {
     if (document.getElementById(CSS_STYLE_ID)) return;
-    if (window.__AES_STATS_PREVIEW__) return;
-    if (cssInDocument()) return;
-    const controller = new AbortController();
-    const watchdog = setTimeout(() => controller.abort(), 12000);
-    try {
-      const response = await fetch(CSS_URL, {
-        credentials: 'same-origin',
-        cache: 'no-store',
-        signal: controller.signal
-      });
-      if (!response.ok) throw new Error('La página h4 devolvió HTTP ' + response.status);
-      const css = extractModuleCSS(await response.text());
-      const style = document.createElement('style');
-      style.id = CSS_STYLE_ID;
-      style.textContent = css;
-      document.head.appendChild(style);
-    } finally {
-      clearTimeout(watchdog);
-    }
+    // Se carga como stylesheet externo para evitar bloqueos CORS de fetch() desde Foroactivo.
+    await new Promise((resolve, reject) => {
+      const link=document.createElement('link');
+      link.id=CSS_STYLE_ID;
+      link.rel='stylesheet';
+      link.href=CSS_URL;
+      link.onload=resolve;
+      link.onerror=()=>{link.remove();reject(new Error('No se pudo cargar el CSS de la Brújula desde GitHub Pages.'));};
+      (document.head||document.documentElement).appendChild(link);
+    });
   }
 
   async function begin() {
     const root = findRoot();
     if (!root || root.dataset.aesBoot === '1' || root.dataset.aesBoot === 'pending') return;
     root.dataset.aesBoot = 'pending';
-    root.textContent = 'JavaScript activo. Cargando los estilos de la Brújula Arcana desde h4…';
+    root.textContent = 'Cargando los estilos actualizados de la Brújula Arcana desde GitHub…';
     try {
       await ensureStyles();
       // El tema puede haberse reemplazado dinámicamente mientras se descargaba h4.
@@ -365,16 +357,16 @@
       render(root);
       root.dataset.aesBoot = '1';
       root.removeAttribute('role');
-      console.info(PREFIX, 'Calculadora v1.1 activa; 9 atributos, 6 razas; CSS externo h4.');
+      console.info(PREFIX, 'Calculadora 2.0 activa; 9 atributos, 6 razas; assets y CSS desde GitHub.');
     } catch (error) {
       const summary = /AES_STATS_V1_START|CSS de estadísticas/.test(String(error.message))
-        ? 'No encuentro el bloque CSS completo de Estadísticas en la página auxiliar h4.'
+        ? 'No se pudo cargar el CSS de Estadísticas desde GitHub.'
         : /aborted|abort/i.test(String(error.message))
-          ? 'La página auxiliar h4 tardó demasiado en responder.'
+          ? 'La hoja de estilos alojada en GitHub no respondió.'
           : 'No se pudo cargar el CSS o inicializar la calculadora.';
       userFacingError(root, summary,
         'Detalle: ' + (error && error.message ? error.message : String(error))
-        + ' · Comprueba la página h4 y que la gestión de JavaScript esté activada.');
+        + ' · Comprueba la conexión con GitHub Pages y que la gestión de JavaScript esté activada.');
       console.error(PREFIX, error);
     }
   }
