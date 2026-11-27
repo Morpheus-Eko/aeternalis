@@ -67,7 +67,9 @@ El almacenamiento de correcciones es **localStorage**, no una escritura automát
 
 El cargador **`foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js`** añade de forma selectiva CSS y JS solo en páginas con `#aeternalis-atlas`. Necesita el Atlas Leaflet v1.7 con la interfaz pública `window.__AE_ATLAS_LEAFLET_DEBUG__`. Para aplicar la geometría directamente al Atlas, debe utilizarse el motor de GitHub actualizado que expone `updateEdgeVia`.
 
-En **Panel de Administración → Módulos → Gestión de los códigos JavaScript**, agregar la versión completa del cargador anterior; activar donde se encuentre el Supermapa. No reemplazar el CSS de la página h5; no modificar h4 ni las páginas del Astillero.
+En **Panel de Administración → Módulos → Gestión de los códigos JavaScript**, agregar la versión completa del cargador anterior; activar donde se encuentre el Supermapa.
+
+**Activación de Cartógrafo:** abrir el mapa con el parámetro `?cartografo=1` (o `&cartografo=1` si ya hay otros parámetros). El instalador no descarga los 8.801 hexágonos ni muestra el botón «Calcar caminos» durante las visitas ordinarias. El parámetro no constituye autenticación: las ediciones son locales, y la publicación real de los JSON requiere permisos de GitHub. No reemplazar el CSS de la página h5; no modificar h4 ni las páginas del Astillero.
 
 **Vista previa con el mapa completo, la Carta Náutica y el trazador:**
 
