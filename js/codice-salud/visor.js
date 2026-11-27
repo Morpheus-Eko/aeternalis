@@ -1,4 +1,4 @@
-/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.1.0 · Folios delimitados; CSS y datos separados. */
+/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.2.0 · Folios delimitados; CSS y datos separados. */
 (function initCodiceSalud(){
  'use strict';
  const root=document.getElementById('ae-codice-salud');
@@ -6,6 +6,7 @@
  root.dataset.acsBoot='loading';
  const BASE='https://morpheus-eko.github.io/aeternalis/';
  const DATA=BASE+'data/codice-salud/compendio.json?v=2.1.0';
+ const GLOSSES_DATA=BASE+'data/codice-salud/apostillas-facultativo-v01.json?v=1.0.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
  const ANATOMY_DATA=BASE+'assets/medicina/atlas-recortes-v01/indice-visor-racial.json?v=1.0.0';
  const CLINICAL_DATA=BASE+'data/codice-salud/iconografia-clinica-v01.json?v=1.2.0';
@@ -16,7 +17,7 @@
  const EMBLEM=BASE+'assets/pestilencias/';
  const SECTION_NAMES={guarda:'Preliminares',anatomia:'De la carne',linajes:'De la generación',territorios:'De aires y tierras',herbario:'Materia médica',pestilencias:'De las pestilencias',cuidados:'De los cuidados',atlas:'Archivo anatómico'};
  const state={pages:[],sections:[],current:-1,drawer:false,drawerMode:'index',loaded:false,report:null,vit:15,race:'humano',prior:0,potion:false,spell:false,sequela:0,statBase:40,statPenalty:25,statReport:null};
- let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),clinicalAssets={herbs:Object.create(null),diseases:Object.create(null),care:null},turning=false;
+ let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),apostillas={sections:{},races:{},herbs:{},diseases:{},general:{}},clinicalAssets={herbs:Object.create(null),diseases:Object.create(null),care:null},turning=false;
  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
  function url(path){return /^https?:\/\//.test(path||'')?path:BASE+path;}
  function img(path,alt,extra){return '<img src="'+esc(url(path))+'" alt="'+esc(alt||'')+'" loading="lazy" decoding="async"'+(extra?' class="'+extra+'"':'')+'>';}
@@ -47,7 +48,7 @@
   const record=clinicalAssets.diseases[d.id];if(!record)return '';
   const panels=roles.map(role=>archivalPlate(record[role],role)).filter(Boolean);
   if(!panels.length)return '';
-  return '<div class="ac-clinical-studies'+(panels.length===1?' ac-clinical-studies--single':'')+'" role="group" aria-label="Grabados anatómicos para '+esc(d.name)+'">'+panels.join('')+'</div>'+note(record.disclaimer||'Grabados anatómicos ilustrativos, no diagnóstico.');
+  return '<div class="ac-clinical-studies'+(panels.length===1?' ac-clinical-studies--single':'')+'" role="group" aria-label="Grabados anatómicos para '+esc(d.name)+'">'+panels.join('')+'</div>';
  }
 
  function isSpecificMedicalArt(path){return typeof path==='string'&&/^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)(?:_tinta)?\.svg$/.test(path);}
@@ -60,16 +61,16 @@
    panels.push('<figure class="ac-patology-plate ac-patology-plate--'+role+'"><a href="'+esc(url(isSpecificMedicalArt(item.archival)?item.archival:item.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar grabado clínico">'+img(item.path,item.label||'Estudio patológico de '+d.name)+'</a><figcaption>'+esc(item.label||'Grabado clínico')+'</figcaption></figure>');
   }
   if(!panels.length)return '';
-  return '<div class="ac-pathology-art ac-pathology-art--'+esc(d.id)+(panels.length===1?' ac-pathology-art--single':'')+'" role="group" aria-label="Láminas originales sobre '+esc(d.name)+'">'+panels.join('')+'</div>'+note(group.specificDisclaimer||'Grabado editorial, no observación oficial ni tratamiento curativo.');
+  return '<div class="ac-pathology-art ac-pathology-art--'+esc(d.id)+(panels.length===1?' ac-pathology-art--single':'')+'" role="group" aria-label="Láminas originales sobre '+esc(d.name)+'">'+panels.join('')+'</div>';
  }
  function herbInstrument(h){
   const item=clinicalAssets.herbs[h.id];if(!item||!isClinicalAsset(item.instrument))return '';
-  return '<aside class="ac-herbal-apparatus"><a href="'+esc(url(item.instrument))+'" target="_blank" rel="noopener noreferrer" title="Ampliar objeto de botica">'+img(item.instrument,'Mortero, frasco o utensilio de botica de archivo')+'</a><p><strong>Mesa del herbolario</strong><span>Objeto de botica ilustrativo. No acredita la identidad de la planta, su preparación exacta ni efectos de curación.</span></p></aside>';
+  return '<aside class="ac-herbal-apparatus"><a href="'+esc(url(item.instrument))+'" target="_blank" rel="noopener noreferrer" title="Ampliar objeto de botica">'+img(item.instrument,'Mortero, frasco o utensilio de botica de archivo')+'</a><p><strong>Mesa del herbolario</strong><span>Una muestra del instrumental que suele hallarse junto a los frascos y las hierbas del camino.</span></p></aside>';
  }
  function careInstruments(d){
   const care=clinicalAssets.care;if(!care)return '';
   const pairs=[[care.potion,rules.rules.potion,d.potion],[care.spell,rules.rules.spell,d.spell]];
-  const parts=pairs.filter(([item])=>item&&isClinicalAsset(item.path)).map(([item,name,value])=>'<figure class="ac-care-illustration"><a href="'+esc(url(item.path))+'" target="_blank" rel="noopener noreferrer" title="Consultar iconografía de archivo">'+img(item.path,item.label||name)+'</a><figcaption><strong>'+esc(name)+' · +'+esc(value)+'</strong><span>'+esc(item.note||'Ilustración de archivo, no emblema oficial')+'</span></figcaption></figure>');
+  const parts=pairs.filter(([item])=>item&&isClinicalAsset(item.path)).map(([item,name,value])=>'<figure class="ac-care-illustration"><a href="'+esc(url(item.path))+'" target="_blank" rel="noopener noreferrer" title="Consultar iconografía de archivo">'+img(item.path,item.label||name)+'</a><figcaption><strong>'+esc(name)+' · +'+esc(value)+'</strong><span>'+esc('Anotación del libro de botica')+'</span></figcaption></figure>');
   if(!parts.length)return '';
   return '<div class="ac-care-illustrations" aria-label="Protecciones reglamentadas: ilustración ornamental">'+parts.join('')+'</div>';
  }
@@ -77,7 +78,32 @@
  function paragraphs(items){return (items||[]).filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');}
  function label(text){return '<span class="ac-overline">'+esc(text)+'</span>';}
  function field(name,text){return '<div class="ac-field"><dt>'+esc(name)+'</dt><dd>'+esc(text)+'</dd></div>';}
- function note(text){return '<aside class="ac-marginalia">'+esc(text)+'</aside>';}
+ function note(text,author){
+  const body=typeof text==='string'&&text.trim()?text.trim():'El cuerpo cuenta una historia que la tinta no alcanza a recoger por entero.';
+  const signature=typeof author==='string'&&author.trim()?author.trim():'Autor desconocido';
+  return '<aside class="ac-marginalia ac-marginalia--signed" aria-label="Apostilla del facultativo"><div class="ac-marginalia__heading">'+img('assets/codex/separadores/pluma_dorada_01.webp','')+'<span>Nota del facultativo</span></div><p class="ac-marginalia__handwriting">«'+esc(body)+'»</p><footer class="ac-marginalia__signature">— '+esc(signature)+'</footer></aside>';
+ }
+ function glossRecord(record){
+  const r=record&&typeof record==='object'?record:{};
+  return note(r.text||'Conservo este apunte para quien deba estudiar el mismo caso después de mí.',r.author||'Autor desconocido');
+ }
+ function glossDisease(d,kind){
+  const group=d&&apostillas.diseases[d.id],record=group&&group[kind],author=group&&group.author;
+  return glossRecord(record&&typeof record==='object'?record:{text:'El estado del paciente se comprende mejor cuando cada cambio se compara con el anterior.',author:author||'Autor desconocido'});
+ }
+ function glossGeneral(kind){
+  const r=apostillas.general&&apostillas.general[kind];
+  return glossRecord(r||apostillas.sections&&apostillas.sections.guarda);
+ }
+ function glossPage(p,kind){
+  if(p.race){const row=apostillas.races&&apostillas.races[p.race.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.anatomia);}
+  if(p.archive&&p.archive.raceId){const row=apostillas.races&&apostillas.races[p.archive.raceId];return glossRecord(row&&row.archive||apostillas.sections&&apostillas.sections.atlas);}
+  if(p.herb){const row=apostillas.herbs&&apostillas.herbs[p.herb.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.herbario);}
+  if(p.disease)return glossDisease(p.disease,kind);
+  const r=apostillas.sections&&apostillas.sections[p.section||'guarda'];
+  return glossRecord(r);
+ }
+
  function add(section,type,title,props){state.pages.push(Object.assign({section,type,title},props||{}));}
  function alignSpread(section){if(state.pages.length%2!==0)add(section,'interleaf','Del umbral de los folios',{subtitle:'Lámina de guarda',voice:'Archivo del facultativo',status:'Ornamento de capítulo'});}
  const HERB_THEMES={'Flor del vaho azul':'montaraces','Raicilla de escarcha':'montaraces','Alga de farol':'yugen','Pétalo de zafiro tardío':'yugen','Resina de lianas quietas':'amarant','Helecho de gota roja':'amarant','Candelaria de veta':'enanos','Brezo de trébol negro':'elfos','Yerba del sendero bajo':'norin','Corteza de luz oblicua':'sinhair','Sal de junco negro':'humanos'};
