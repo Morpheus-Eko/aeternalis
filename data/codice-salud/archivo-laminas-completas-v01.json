@@ -1,0 +1,241 @@
+{
+  "schema": "aeternalis-medical-full-plates-v1",
+  "version": "1.0.0",
+  "source": "assets/medicina/atlas-recortes-v01/manifest.json",
+  "purpose": "Exhibir en el Archivo Anatómico las planchas completas existentes; se reserva una plancha por folio y dos folios por raza",
+  "editorial": "Archivo pictórico de Aeternalis; se conservan los originales WebP completos sin modificar su composición",
+  "races": {
+    "elfos": {
+      "title": "Altos Elfos",
+      "folios": [
+        {
+          "id": "elfos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/elfos_femenino_B.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ]
+        },
+        {
+          "id": "elfos_masculino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/elfos_masculino_A.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "humanos": {
+      "title": "Humanos",
+      "folios": [
+        {
+          "id": "humanos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/humanos_femenino_B.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ]
+        },
+        {
+          "id": "humano_masculino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/humano_masculino_A.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "norin": {
+      "title": "Nórin",
+      "folios": [
+        {
+          "id": "norin_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/norin_femenino_A.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "norin_masculino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/norin_masculino_A.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "yugen": {
+      "title": "Yūgen",
+      "folios": [
+        {
+          "id": "yugen_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/yugen_femenino_A.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "yugen_masculino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/yugen_masculino_B.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "montaraces": {
+      "title": "Montaraces",
+      "folios": [
+        {
+          "id": "montaraces_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/montaraces_femenino_A.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "montaraces_masculino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/montaraces_masculino_A.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "enanos": {
+      "title": "Enanos",
+      "folios": [
+        {
+          "id": "enanos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/enanos_femenino_B.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ]
+        },
+        {
+          "id": "enanos_masculino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/enanos_masculino_B.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "sinhair": {
+      "title": "Sin'hair",
+      "folios": [
+        {
+          "id": "sinhair_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/sinhair_femenino_A.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 0.9138719512195121,
+          "originalDimensions": [
+            1199,
+            1312
+          ]
+        },
+        {
+          "id": "sinhair_masculino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/sinhair_masculino_A.webp",
+          "caption": "Lámina completa · anatomía masculina",
+          "sex": "masculino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Conjunto de láminas femeninas y masculinas."
+    },
+    "amarant": {
+      "title": "Amarant",
+      "folios": [
+        {
+          "id": "amarant_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/amarant_femenino_B.webp",
+          "caption": "Lámina completa · anatomía femenina",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ]
+        },
+        {
+          "id": "amarant_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/amarant_femenino_A.webp",
+          "caption": "Lámina completa · segundo estudio femenino",
+          "sex": "femenino",
+          "aspect": 0.7336065573770492,
+          "originalDimensions": [
+            1074,
+            1464
+          ]
+        }
+      ],
+      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
+      "note": "Las dos planchas representan mujeres Amarant."
+    }
+  }
+}
