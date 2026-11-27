@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-caminos-verdanteyl-elfos-v2",
+  "revision": "2026-11-27-caminos-costeros-galanor-ithariamil-v3",
   "counts": {
     "places": 118,
     "regions": 24,
-    "roads": 167,
+    "roads": 170,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
@@ -17,7 +17,10 @@
     "landRoadsLow": 34,
     "landRoadsDisconnected": 8,
     "roadPigmentRoutes": 23,
-    "roadAdditionalLinks": 2
+    "roadAdditionalLinks": 2,
+    "coastalRoutesRevised": 20,
+    "coastalNewConnections": 5,
+    "coastalRedundantRemoved": 2
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -46,8 +49,9 @@
     "roadEvidence": "data/atlas/caminos-evidencia.json",
     "roadAudit": "data/atlas/caminos-auditoria.json",
     "roadPigments": "data/atlas/caminos-pigmentos-verdanteyl-elfos.json",
-    "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json"
+    "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json",
+    "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Atlas conservado: 118 localidades, 24 regiones y 167 conexiones propuestas. 23 tramos con geometría punteada adicional (9 blancos, 5 verde oscuro, 9 negros); dos nuevas conexiones forestales en Verdanteyl. Los otros 144 tramos originales se mantienen intactos; ningún trayecto se confirma automáticamente."
+  "note": "Atlas con 118 localidades, 24 regiones y 170 conexiones propuestas. Revisión costera: Comarca Esmeralda, Eirae–Guardia Zytheria–Fohn’Veridan y litoral de Galanor/Ithar’iamil; 20 trazados reconstruidos (15 anteriores, 5 enlaces nuevos), 2 atajos duplicados eliminados. 31 rutas marítimas intactas. El nombre Sylvanis se ajustó al rótulo del mapa."
 }
