@@ -56,4 +56,4 @@ El visor carga adicionalmente `data/codice-salud/apostillas-facultativo-v01.json
 
 La plantilla HTML de Foroactivo sigue sin cambios (`#ae-codice-salud`). El maestro activa el CSS/JS revisados mediante los identificadores `ae-codice-salud-css-v32` y `ae-codice-salud-js-v32`. El contenedor solo necesita tener instalado el maestro global ya existente.
 
-Comprobaciones realizadas con DOM simulado y árbol GitHub: ocho razas vigentes, 105 folios, 95 textos individuales de apostilla, 201 apariciones firmadas en el recorrido de todas las páginas, y JS sintácticamente válido. Falta comprobar en el navegador real del foro la paginación y el aspecto final.
+Comprobaciones realizadas con DOM simulado y árbol GitHub: ocho razas vigentes, 105 folios, 93 textos individuales de apostilla, 201 apariciones firmadas en el recorrido de todas las páginas, y JS sintácticamente válido. Falta comprobar en el navegador real del foro la paginación y el aspecto final.
