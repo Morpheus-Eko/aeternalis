@@ -257,7 +257,30 @@ function start(root){
  if(saved.hex){hex={...hex,...saved.hex}};
  if(Array.isArray(saved.edges)){
   const old=saved.edges.filter(validEdge);
-  if((saved.networkVersion||0)>=13){edges=old;} // Conservar las eliminaciones y confirmaciones del usuario
+  if((saved.networkVersion||0)>=13){
+    edges=old; // Conservar los tramos eliminados, editados y aprobados del usuario.
+    if((saved.networkVersion||0)<16){
+      // Incorporar SOLO la geometría de nuevos puntos punteados a aristas todavía no editadas.
+      // No reemplazar puntos intermedios existentes ni confirmaciones locales.
+      const byId=new Map(edges.map(e=>[e.id,e]));
+      for(const published of INITIAL_EDGES){
+        const local=byId.get(published.id);
+        if(!local){
+          if(published.id.startsWith('atlas-ver-')){
+            edges.push({...published,via:[...(published.via||[])]});
+          }
+          continue;
+        }
+        if(published.cartographicEvidence && published.via?.length &&
+           !local.via?.length && local.status==='propuesta' &&
+           ['red_inicial_2026_11','trazado_raster_verdanteyl_2026_11'].includes(local.origin||'')){
+          local.via=[...published.via];
+          local.cartographicEvidence=published.cartographicEvidence;
+          local.reason=published.reason;
+        }
+      }
+    }
+   }
   else { // Migrar borradores antiguos sin borrar la red inicial
    const byKey=new Map(edges.map(e=>[[e.from,e.to].sort().join('|'),e]));
    for(const e of old)byKey.set([e.from,e.to].sort().join('|'),{...e,status:e.status||'confirmada'});
@@ -266,7 +289,7 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:15,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:16,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
  // Lattice calculated from the old hex-image (flat-top): horizontal q step ~14 and vertical r step ~16 logical units.
  function hexWorld(q,r){const R=hex.radius;return {x:hex.phaseX+1.5*R*q,y:hex.phaseY+Math.sqrt(3)*R*(r+q/2)}}
  function hexFromXY(x,y){const R=hex.radius;const u=x-hex.phaseX,v=y-hex.phaseY;
