@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-medicina-temas-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "assetRoot": "assets/medicina/tomo-v02/",
   "published": true,
   "status": "published",
-  "note": "9 archivos WebP binarios alojados y verificados en GitHub. Las ilustraciones son fondos de folio; ningún texto está impreso en las imágenes.",
+  "note": "9 archivos WebP de portada/folios publicados. Los emblemas y separadores referenciados reutilizan assets existentes del Códice. No hay texto ni reglas grabadas en los fondos.",
   "themes": [
     {
       "id": "cubierta",
@@ -26,7 +26,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_humanos.webp",
       "sha": "ad9961679879c1f2b0f085fd81801969c2e7e972",
-      "bytes": 324710
+      "bytes": 324710,
+      "ornament": "assets/codex/emblemas/castillo_01.webp",
+      "divider": "assets/codex/separadores/pluma_dorada_01.webp",
+      "accent": "#79523c"
     },
     {
       "id": "elfos",
@@ -37,7 +40,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_altos_elfos.webp",
       "sha": "d0566ecd84445f9ae1a7fb01c18dea41cca94339",
-      "bytes": 375498
+      "bytes": 375498,
+      "ornament": "assets/codex/emblemas/arbol_ancestral_01.webp",
+      "divider": "assets/codex/separadores/silvestre_lazo_vegetal_01.webp",
+      "accent": "#476c55"
     },
     {
       "id": "montaraces",
@@ -48,7 +54,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_montaraces.webp",
       "sha": "cd812401c91bad0ab56e7721bb1ce503bf3b2630",
-      "bytes": 357282
+      "bytes": 357282,
+      "ornament": "assets/codex/emblemas/silvestre_lobo_01.webp",
+      "divider": "assets/codex/separadores/runas_gema_central_01.webp",
+      "accent": "#536d7a"
     },
     {
       "id": "yugen",
@@ -59,7 +68,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_yugen.webp",
       "sha": "f5be4777c68926813a7e34082c3ff04b710a3ea4",
-      "bytes": 351616
+      "bytes": 351616,
+      "ornament": "assets/codex/emblemas/silvestre_zorro_espiritual_01.webp",
+      "divider": "assets/codex/separadores/luna_01.webp",
+      "accent": "#753e3a"
     },
     {
       "id": "enanos",
@@ -70,7 +82,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_enanos.webp",
       "sha": "b397f2f0055758149df1f3b1cf9831cb09da6b90",
-      "bytes": 344666
+      "bytes": 344666,
+      "ornament": "assets/codex/emblemas/arcada_gotica_01.webp",
+      "divider": "assets/codex/separadores/gema_azul_01.webp",
+      "accent": "#826036"
     },
     {
       "id": "norin",
@@ -81,7 +96,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_norin.webp",
       "sha": "f2352ab7ba24495b920b316eef77bf967c1393f3",
-      "bytes": 346170
+      "bytes": 346170,
+      "ornament": "assets/codex/emblemas/silvestre_flor_cristal_01.webp",
+      "divider": "assets/codex/separadores/silvestre_flor_blanca_01.webp",
+      "accent": "#70814d"
     },
     {
       "id": "sinhair",
@@ -92,7 +110,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_sinhair.webp",
       "sha": "070d8066accc47d90c12d2e56caca84319ad029b",
-      "bytes": 341936
+      "bytes": 341936,
+      "ornament": "assets/codex/emblemas/silvestre_arbol_raices_01.webp",
+      "divider": "assets/codex/separadores/silvestre_hojas_jade_01.webp",
+      "accent": "#6c7951"
     },
     {
       "id": "amarant",
@@ -103,7 +124,10 @@
       "ready": true,
       "path": "assets/medicina/tomo-v02/pagina_amarant.webp",
       "sha": "8ca80d56899b987b1855e23def16771d3305c043",
-      "bytes": 368714
+      "bytes": 368714,
+      "ornament": "assets/codex/emblemas/silvestre_nudo_elfico_01.webp",
+      "divider": "assets/codex/separadores/craneo_plumas_01.webp",
+      "accent": "#6c4248"
     }
   ]
 }
