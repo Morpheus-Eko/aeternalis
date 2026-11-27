@@ -1,4 +1,4 @@
-# El Códice de las Pestilencias · Interfaz v1.4
+# El Códice de las Pestilencias · Interfaz v1.5
 
 ## Una experiencia propia, no una variante del Astillero
 
@@ -74,4 +74,12 @@ Solo **los títulos** se renderizan en texto heredando la tipografía del foro. 
 
 No es necesario modificar la publicación existente: si contiene `<div class="hidethisprofile"></div><div id="ae-pestilencias"></div>`, el JS maestro inicializa la versión nueva. El visor no realiza modificaciones de personajes, no almacena su ficha y no tira dados oficiales.
 
-La versión del JS maestro para Pestilencias se actualizó a `1.4.0`, lo que también actualiza el CSS cuando se carga el módulo. La URL de demostración independiente incorpora `?v=1.4.0` para el mismo fin.
+La versión del JS maestro para Pestilencias se actualizó inicialmente a `1.4.0`, para cargar el libro abierto. En la versión 1.5, el maestro carga `?v=1.5.0` tanto para el CSS como para el JS.
+
+## Lectura continua · v1.5
+
+La presentación sigue siendo un libro abierto con dos hojas. La navegación ilustrada recorre **nueve folios consecutivos**: tres capítulos por cada una de las tres enfermedades. Al terminar las secuelas de una afección, el botón «Avanzar» continúa con el capítulo de síntomas de la siguiente. Al cerrar el último folio regresa al índice. «Volver al índice» permanece siempre disponible y el índice de la página izquierda permite saltar a cualquier legajo.
+
+Las flechas izquierda y derecha del teclado también cambian folios mientras el lector tenga el foco. Los campos de la calculadora y los controles editables quedan excluidos de ese atajo. Se conserva el foco del control al pasar página para facilitar lectura sin ratón. En móvil, el libro se apila en una sola columna y la lectura utiliza el desplazamiento vertical habitual, sin un scroll interior que oculte contenidos.
+
+La calculadora 1d100, modificadores, secuelas, preguntas frecuentes, reglas JSON, assets gráficos y la integración con Foroactivo permanecen intactos.
