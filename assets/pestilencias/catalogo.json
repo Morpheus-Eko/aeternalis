@@ -1,0 +1,92 @@
+{
+  "schema": "aeternalis-pestilencias-assets-v1",
+  "revision": "2026-11-27",
+  "categoria": "pestilencias",
+  "total": 9,
+  "estado": "binarios_webp_pendientes_de_subida",
+  "nota": "Catálogo preparado. Los recursos gráficos NO se considerarán disponibles hasta que se suban los nueve archivos WebP a esta carpeta. Los archivos fuentes y paquetes descargables están disponibles en la conversación de creación.",
+  "prefix": "assets/pestilencias/",
+  "resources": [
+    {
+      "file": "fondo-hoja-tratado-medico.webp",
+      "name": "Fondo de pergamino médico",
+      "width": 1086,
+      "height": 1448,
+      "alpha": false,
+      "sha256_prefix": "8c617a93faae",
+      "status": "pending_upload"
+    },
+    {
+      "file": "cabecera-codice-pestilencias.webp",
+      "name": "Cabecera del Códice",
+      "width": 2172,
+      "height": 724,
+      "alpha": true,
+      "sha256_prefix": "354b735323ae",
+      "status": "pending_upload"
+    },
+    {
+      "file": "boton-sintomas.webp",
+      "name": "Síntomas",
+      "width": 855,
+      "height": 247,
+      "alpha": true,
+      "sha256_prefix": "280d7968ce00",
+      "status": "pending_upload"
+    },
+    {
+      "file": "boton-exposicion.webp",
+      "name": "Exposición",
+      "width": 856,
+      "height": 236,
+      "alpha": true,
+      "sha256_prefix": "89665224538d",
+      "status": "pending_upload"
+    },
+    {
+      "file": "boton-expediente.webp",
+      "name": "Expediente",
+      "width": 855,
+      "height": 238,
+      "alpha": true,
+      "sha256_prefix": "00d4c02ca69e",
+      "status": "pending_upload"
+    },
+    {
+      "file": "boton-calcular-exposicion.webp",
+      "name": "Calcular exposición",
+      "width": 1213,
+      "height": 292,
+      "alpha": true,
+      "sha256_prefix": "29df2c6808b9",
+      "status": "pending_upload"
+    },
+    {
+      "file": "emblema-fiebre-driadem.webp",
+      "name": "Fiebre de Driadem",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "sha256_prefix": "c11373293b74",
+      "status": "pending_upload"
+    },
+    {
+      "file": "emblema-canto-orquidea-marchita.webp",
+      "name": "Canto de la Orquídea Marchita",
+      "width": 1233,
+      "height": 1254,
+      "alpha": true,
+      "sha256_prefix": "ea151e334bd0",
+      "status": "pending_upload"
+    },
+    {
+      "file": "emblema-sangrenegra.webp",
+      "name": "Sangrenegra",
+      "width": 1254,
+      "height": 1254,
+      "alpha": true,
+      "sha256_prefix": "826510bc47b2",
+      "status": "pending_upload"
+    }
+  ]
+}
