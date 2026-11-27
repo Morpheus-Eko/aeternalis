@@ -1,9 +1,9 @@
-/* AETERNALIS · Capa marítima del SUPERMAPA v2.0.
+/* AETERNALIS · Capa marítima del SUPERMAPA v3.3.
    CSS y JavaScript independientes. Sólo se ejecuta cuando el Atlas está presente. */
 (function(){
  'use strict';
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='2.0.0';
+ var VERSION='3.3.0';
  function start(){
    if(!document.getElementById('aeternalis-atlas'))return;
    if(!document.getElementById('ae-supermapa-naval-css')){
