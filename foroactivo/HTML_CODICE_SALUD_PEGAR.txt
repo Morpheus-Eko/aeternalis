@@ -1,0 +1,6 @@
+<!-- AETERNALIS · CÓDICE DE LA SALUD
+     Pegar este HTML en un mensaje de Foroactivo donde se desee mostrar el libro.
+     Requiere el cargador maestro de Aeternalis actualizado. No mezclar con
+     el contenedor antiguo de pestilencias en la misma publicación. -->
+<div class="hidethisprofile"></div>
+<div id="ae-codice-salud"></div>
