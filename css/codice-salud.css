@@ -1,4 +1,4 @@
-/* Aeternalis · Tomo de Medicina v3.6.0 — encapsulado para Foroactivo. */
+/* Aeternalis · Tomo de Medicina v3.7.0 — encapsulado para Foroactivo. */
 #ae-codice-salud{--ac-ink:#473223;--ac-dark:#121811;--ac-brass:#baa06f;--ac-paper:#e9d5ae;display:block;width:100%;min-width:0;container-type:inline-size;color:#e6d4b3;box-sizing:border-box}
 #ae-codice-salud *{box-sizing:border-box}
 #ae-codice-salud button,#ae-codice-salud input,#ae-codice-salud select{font:inherit}
@@ -1161,4 +1161,38 @@
  #ae-codice-salud .ac-archive-marginal-note{padding:8px 10px}
  #ae-codice-salud .ac-archive-marginal-note p{font-size:13px!important;line-height:1.43!important}
  #ae-codice-salud .ac-archive-marginal-note>div{font-size:11px}
+}
+
+/* ESTILO EDITORIAL · VOZ DEL CÓDICE V3.7
+   La narración del mundo se mantiene como texto común;
+   las precisiones de reglas se distinguen como Off rol en cursivas. */
+#ae-codice-salud .ac-leaf__body p.ac-offrol,
+#ae-codice-salud .ac-leaf__body li p.ac-offrol{
+ display:block;clear:both;
+ max-width:100%;
+ margin:11px 0 14px!important;
+ padding:8px 11px 8px 14px;
+ border-left:2px solid #8e765777;
+ background:linear-gradient(90deg,#bea47b22,transparent 83%);
+ color:#72583f!important;
+ font-family:inherit!important;
+ font-size:clamp(13px,.96vw,16px)!important;
+ font-weight:400!important;
+ line-height:1.56!important;
+ text-align:left;
+ overflow-wrap:break-word;
+}
+#ae-codice-salud .ac-leaf__body .ac-offrol em{
+ display:inline;font-family:inherit!important;
+ color:inherit!important;font-style:italic!important;line-height:inherit;
+}
+#ae-codice-salud .ac-leaf__body .ac-offrol strong{
+ font-family:inherit!important;color:#5c4630!important;
+ font-style:italic!important;font-weight:700!important;
+}
+#ae-codice-salud .ac-leaf__body .ac-stage-list .ac-offrol{
+ margin:7px 0 12px!important;padding:7px 10px;
+}
+@container(max-width:600px){
+ #ae-codice-salud .ac-leaf__body p.ac-offrol{font-size:13px!important;line-height:1.52!important;padding:7px 9px!important}
 }
