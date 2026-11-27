@@ -292,8 +292,22 @@ body.aep-preview{background:radial-gradient(ellipse at 50% 0%,#32392b,#10120f 40
 }
 
 
+/* Navegación accesible y aspecto de pliego continuo (v1.5). */
+#ae-pestilencias .aep-illustrated-turn:focus-visible,
+#ae-pestilencias .aep-tab:focus-visible,
+#ae-pestilencias .aep-book-index__item:focus-visible,
+#ae-pestilencias .aep-entry:focus-visible,
+#ae-pestilencias .aep-bookbar__back:focus-visible{
+ outline:3px solid #a36c29;outline-offset:3px;
+ box-shadow:0 0 0 5px #f2dca6a3;
+}
+@media(max-width:680px){
+ #ae-pestilencias .aep-page-turn .aep-page-turn__folio{
+  font-size:10px;max-width:120px;text-align:center;line-height:1.45
+ }
+}
 /* ============================================================================
- AETERNALIS · CÓDICE DE LAS PESTILENCIAS v1.4 · VOLUMEN ABIERTO
+ AETERNALIS · CÓDICE DE LAS PESTILENCIAS v1.5 · VOLUMEN ABIERTO
  Diseñado sobre el reglamento original. Toda la lectura usa HTML; los bustos,
  emblemas y botones son assets ya alojados en GitHub.
  ============================================================================ */
