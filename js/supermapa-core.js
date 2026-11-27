@@ -824,7 +824,17 @@ const fact=(label,value) => `<div class="ae-atlas__fact"><dt>${esc(label)}</dt><
  if(type==='pin'){const p=cityById.get(id);map.flyTo(XY(p.x,p.y),Math.max(map.getZoom(),.5),{duration:.6});openCity(p)}else openRegion(regionById.get(id));});
  document.addEventListener('pointerdown',e=>{if(!e.target.closest('.ae-atlas__search-box'))closeResults()});
  // Emit diagnostic interface for offline quality assurance only.
- window.__AE_ATLAS_LEAFLET_DEBUG__={map,data:D,hexFromXY,hexWorld,hexDistance,polyHexDistance,edgeCost,findNetworkRoute,getEdges:()=>edges,getInitialEdges:()=>INITIAL_EDGES,getNetworkStatus:()=>({total:edges.length,confirmed:edges.filter(e=>e.status==='confirmada').length})};
+ function updateEdgeVia(id,via,approve){
+  const e=edges.find(x=>x.id===id&&x.kind!=='sea');
+  if(!e || !Array.isArray(via) || via.length>1400 || !via.every(p=>p&&Number.isFinite(p.x)&&Number.isFinite(p.y)&&p.x>=0&&p.x<=D.map.width&&p.y>=0&&p.y<=D.map.height))return false;
+  e.via=via.map(p=>({x:+p.x.toFixed(1),y:+p.y.toFixed(1)}));
+  if(approve===true){e.status='confirmada';e.origin='mapa_321_revision_manual';e.reason='Geometría hexagonal revisada manualmente sobre mapa 3.21.';}
+  saveDraft();rerenderRoutes();if(editorEnabled)renderEditorPanel();
+  return true;
+ }
+ window.__AE_ATLAS_LEAFLET_DEBUG__={map,data:D,hexFromXY,hexWorld,hexDistance,polyHexDistance,edgeCost,findNetworkRoute,
+  getEdges:()=>edges,getInitialEdges:()=>INITIAL_EDGES,getCurrentHex:()=>({...hex}),isEditing:()=>editorEnabled,updateEdgeVia,
+  getNetworkStatus:()=>({total:edges.length,confirmed:edges.filter(e=>e.status==='confirmada').length})};
 }
 afterRoot(boot);
 })();
