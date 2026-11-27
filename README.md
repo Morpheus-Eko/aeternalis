@@ -14,6 +14,7 @@ El nuevo **Tomo de Medicina — Códice de la Salud** reúne 88 folios ilustrado
 - [Documentación, fuentes y guía de instalación](codice-salud/README.md)
 - [HTML mínimo para Foroactivo](foroactivo/HTML_CODICE_SALUD_PEGAR.txt)
 - [Manifiesto de atlas anatómico](assets/medicina/atlas-v01/05_catalogo/manifest_publico.json) y [manifiesto de herbario](assets/medicina/herbario-v01/04_catalogo/manifest_publico.json)
+- [Atlas anatómico separado: 329 recortes, 329 transparencias y 21 láminas](assets/medicina/atlas-recortes-v01/README.md) · [catálogo visual](assets/medicina/atlas-recortes-v01/catalogo_visual.html)
 
 **Integridad editorial:** los grabados botánicos y algunas láminas raciales son estudios preliminares, no nuevas reglas. La fuente reglamentaria de las pestilencias permanece sin modificaciones.
 
