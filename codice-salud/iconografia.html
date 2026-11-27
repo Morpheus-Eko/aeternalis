@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="Aeternalis · laboratorio de grabados clínicos para el Tomo de Medicina">
+ <title>Gabinete de ilustraciones · Códice de la Salud</title>
+ <link rel="stylesheet" href="./iconografia.css?v=1.0.0">
+ <script defer src="./iconografia.js?v=1.0.0"></script>
+</head>
+<body>
+ <main class="gabinete" id="ae-gabinete">
+  <header class="gabinete__header">
+   <span class="gabinete__eyebrow">AETERNALIS · ARCHIVO DEL FACULTATIVO</span>
+   <h1>Gabinete de ilustraciones clínicas</h1>
+   <p>Examen editorial de las láminas del herbario, los expedientes patológicos y la mesa de cuidados. Los dibujos son estudios provisionales: no constituyen imágenes diagnósticas, taxonomías aprobadas ni reglas nuevas.</p>
+   <a href="./">Volver al Tomo de Medicina</a>
+  </header>
+  <nav class="gabinete__filters" aria-label="Examinar las colecciones">
+   <button type="button" data-view="herbs" aria-pressed="true">Materia médica · 16 plantas</button>
+   <button type="button" data-view="diseases" aria-pressed="false">Expedientes · 3 pestilencias</button>
+   <button type="button" data-view="care" aria-pressed="false">Instrumentos y cuidados</button>
+  </nav>
+  <div class="gabinete__search"><label for="ae-find">Buscar ficha en la colección</label><input id="ae-find" type="search" placeholder="Nombre de planta o enfermedad" autocomplete="off"></div>
+  <p class="gabinete__status" id="ae-status" role="status">Leyendo los catálogos publicados…</p>
+  <section class="gabinete__grid" id="ae-gallery" aria-label="Láminas de la colección"></section>
+  <footer class="gabinete__footer">Fuentes: atlas y herbario de Aeternalis publicados en GitHub. Los gráficos conservan su clasificación editorial y pueden ampliarse.</footer>
+ </main>
+</body>
+</html>
