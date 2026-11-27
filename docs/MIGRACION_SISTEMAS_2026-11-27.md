@@ -30,3 +30,9 @@ Supermapa, rutas terrestres y Carta Náutica; Astillero y Almirantazgo; Bestiari
 2. Versionar integralmente el texto de Sistema de magia (1).docx y revisar contradicciones con el nuevo lore Yūgen antes de declarar canon nuevo.
 3. Crear un manifiesto de reglas de avance basado en fuentes completas, no estimar tablas de XP ni costes faltantes.
 4. Inspeccionar si existen tienda, inventario, oficios, calendario de eventos y otras secciones fuera del repositorio.
+
+## Segunda etapa: magia y progresión
+
+- Magia: `foroactivo/HTML_MAGIA_CODICE.html` y `css/magia-codice.css`, recuperados de la publicación compacta y del CSS v1.1. Cargador de CSS GitHub: `foroactivo/JS_CARGADOR_MAGIA.js`; demostración: `magia-codice-preview.html`.
+- Reglamentación íntegra de magia: `data/reglamentos/magia/sistema-magia-original.md`, transcripción sin reescritura de las 32 páginas del archivo «Sistema de magia (1).docx». Es una copia documental para revisión, no una revalidación automática del canon.
+- Progresión: `css/progresion-libro.css` y `foroactivo/JS_CARGADOR_PROGRESION.js` están versionados; **no se encontró aún el HTML original** de `#aep-progress-book`. No se instaló un libro ficticio ni se inventó tabla de experiencia. `data/reglamentos/progresion/estado.json` guarda únicamente reglas mencionadas anteriormente como *pendientes de cotejo*.

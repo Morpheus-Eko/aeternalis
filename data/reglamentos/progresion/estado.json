@@ -1,0 +1,13 @@
+{
+  "schema": "aeternalis-progresion-source-status-v1",
+  "status": "parcial_sin_html_original",
+  "files": {
+    "css": "css/progresion-libro.css",
+    "loader": "foroactivo/JS_CARGADOR_PROGRESION.js"
+  },
+  "unverifiedRulesFromPriorDiscussions": {
+    "statsPerLevel": 3,
+    "volPointsPerTenLevels": 10
+  },
+  "notes": "Se recuperó el CSS original del Libro Nórdico de Progresión y su cargador, pero no el cuerpo HTML del libro ni una tabla completa de XP en los archivos consultados. Las reglas resumidas de discusiones anteriores deben cotejarse antes de activarlas."
+}

@@ -1,0 +1,79 @@
+/* AEM_CSS_INICIO_V11 */
+/* ==================================================================
+ AETERNALIS · CÓDICE ARCANO / SISTEMA DE MAGIA v1
+ Encapsulado por #aem-magic-codex. No afecta otras fichas ni el Atlas.
+ ================================================================== */
+#aem-magic-codex { --aem-ink:#d4cad7;--aem-muted:#a79da9;--aem-gold:#c5ab85;--aem-lilac:#bd9ce9;--aem-blue:#8dd5ff;--aem-line:rgba(186,150,211,.28);position:relative;max-width:1180px;margin:0 auto;color:var(--aem-ink);}
+#aem-magic-codex,#aem-magic-codex *,#aem-magic-codex *::before,#aem-magic-codex *::after{box-sizing:border-box;}
+/* Mantener la imagen de cabecera e incorporar un marco sutil. */
+#aem-magic-codex .aem-magic-hero{position:relative;isolation:isolate;margin:0;overflow:hidden;min-height:230px;border:1px solid rgba(199,172,122,.36);box-shadow:inset 0 0 38px #08070cae,0 12px 25px #0005;background:#101018;}
+#aem-magic-codex .aem-magic-hero::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(to top,rgba(11,8,17,.68),transparent 60%),linear-gradient(90deg,rgba(12,8,20,.25),transparent);}
+#aem-magic-codex .aem-magic-hero img{display:block;width:100%;height:clamp(230px,27vw,345px);max-width:100%;object-fit:cover;object-position:top;}
+#aem-magic-codex .aem-magic-hero .imgcbz-text{position:absolute;z-index:2;inset:auto 0 20px 0;width:max-content;max-width:94%;margin:auto;padding:10px 25px;border:1px solid rgba(200,170,116,.26);background:rgba(12,9,19,.65);backdrop-filter:blur(4px);text-shadow:0 2px 10px #000;}
+#aem-magic-codex .aem-magic-content{position:relative;isolation:isolate;margin:0;padding:clamp(22px,4vw,52px);background:radial-gradient(ellipse at top,rgba(91,59,138,.18),transparent 51%),linear-gradient(170deg,#1b1721,#111016 58%,#18131d);border:1px solid rgba(190,153,210,.26);border-top:0;box-shadow:inset 0 0 60px #09090c8c;overflow:hidden;}
+#aem-magic-codex .aem-magic-content::before{content:"";position:absolute;inset:0;z-index:-1;background-image:url('https://i.postimg.cc/HsVn8t3t/sello-arcano-marca-agua.png');background-repeat:no-repeat;background-position:center 35%;background-size:min(80%,680px);opacity:.035;filter:grayscale(1);pointer-events:none;}
+/* Título y bienvenida */
+#aem-magic-codex .aem-magic-intro{position:relative;max-width:850px;margin:0 auto;text-align:center;padding:0 8px 2px;}
+#aem-magic-codex .aem-magic-intro__seal{width:84px;height:84px;margin:0 auto 8px;filter:drop-shadow(0 0 10px #7a4dcc55);}
+#aem-magic-codex .aem-magic-intro__seal img{width:100%;height:100%;display:block;object-fit:contain;}
+#aem-magic-codex .aem-magic-eyebrow{display:block;font-size:11px;font-weight:600;line-height:1.5;font-family:inherit;letter-spacing:.24em;color:#b9a4d9;text-transform:uppercase;}
+#aem-magic-codex .aem-magic-intro__title,#aem-magic-codex .aem-magic-section-title{font-family:inherit;color:#e9d7f6;line-height:1.2;text-shadow:0 2px 13px #0009;}
+#aem-magic-codex .aem-magic-intro__title{font-size:clamp(24px,3vw,37px);font-weight:600;margin:8px 0 19px;border:0;padding:0;}
+#aem-magic-codex .aem-magic-intro p{margin:0 auto 13px;max-width:790px;color:#c9c2cb;font-size:clamp(14px,1.25vw,16px);line-height:1.8;text-align:center;}
+#aem-magic-codex .aem-magic-intro p strong{color:#e8d8fa;}
+#aem-magic-codex .aem-magic-ornament{height:31px;max-width:560px;margin:13px auto 25px;overflow:hidden;opacity:.8;}
+#aem-magic-codex .aem-magic-ornament img{display:block;width:100%;height:100%;object-fit:contain;}
+/* Tres indicadores orientativos, no nuevas reglas */
+#aem-magic-codex .aem-magic-overview{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;max-width:970px;margin:0 auto 38px;}
+#aem-magic-codex .aem-magic-overview>div{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;min-height:113px;padding:15px 10px;border:1px solid rgba(170,144,202,.3);background:linear-gradient(135deg,rgba(50,38,72,.5),rgba(10,12,24,.8));box-shadow:inset 0 1px 0 #ffffff0d;text-align:center;}
+#aem-magic-codex .aem-magic-overview__kicker{font:600 10px/1.3 system-ui,sans-serif;letter-spacing:.14em;color:#9ca9c5;}
+#aem-magic-codex .aem-magic-overview strong{font:600 clamp(19px,2vw,29px)/1.1 Georgia,serif;color:#e4d3fb;text-shadow:0 0 12px #b59cff50;}
+#aem-magic-codex .aem-magic-overview small{font:400 11px/1.4 system-ui,sans-serif;color:#a9a5b0;}
+#aem-magic-codex .aem-magic-section-title{display:flex;align-items:center;justify-content:center;gap:16px;padding:0;margin:0 0 24px;font-size:clamp(23px,2.5vw,31px);text-align:center;border:0;}
+#aem-magic-codex .aem-magic-section-title:before,#aem-magic-codex .aem-magic-section-title:after{content:"";flex:1 1 auto;max-width:180px;height:1px;background:linear-gradient(90deg,transparent,#a88bc7);}
+#aem-magic-codex .aem-magic-section-title:after{transform:scaleX(-1);}
+/* Fichas narrativas: dos columnas en escritorio, una en móvil. */
+#aem-magic-codex .aem-magic-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;align-items:stretch;}
+#aem-magic-codex .aem-rule{position:relative;min-width:0;margin:0;padding:0 0 18px;border:1px solid var(--aem-line);border-top:2px solid rgba(171,129,220,.54);background:linear-gradient(160deg,#252032f0,#16141df7 55%,#14121bf7);box-shadow:0 12px 26px #0003,inset 0 1px 0 #ffffff0c;overflow:hidden;transition:border-color .22s ease,box-shadow .22s ease,transform .22s ease;}
+#aem-magic-codex .aem-rule:hover{border-color:rgba(158,198,243,.7);box-shadow:0 8px 26px #0006,0 0 17px rgba(104,130,227,.16);transform:translateY(-2px);}
+#aem-magic-codex .aem-rule::after{content:"";position:absolute;right:-30px;bottom:-45px;width:130px;height:130px;border:1px solid rgba(168,133,204,.07);border-radius:50%;pointer-events:none;box-shadow:0 0 0 18px rgba(168,133,204,.025);}
+#aem-magic-codex .aem-rule__head{display:flex;align-items:center;gap:14px;min-height:105px;padding:18px 18px 12px;border-bottom:1px solid rgba(177,142,204,.16);background:linear-gradient(90deg,rgba(84,56,114,.19),transparent);}
+#aem-magic-codex .aem-rule__seal{position:relative;display:grid;place-items:center;flex:0 0 66px;width:66px;height:66px;border:1px solid rgba(190,163,223,.35);border-radius:9px;overflow:hidden;background:linear-gradient(135deg,#252137,#0b0c16);box-shadow:0 0 12px #0606127a;}
+#aem-magic-codex .aem-rule__fallback{position:absolute;inset:0;display:grid;place-items:center;color:#a8c6f1;font:32px/1 serif;}#aem-magic-codex .aem-rule__seal img{position:relative;z-index:1;display:block;width:100%;height:100%;object-fit:cover;object-position:center;}
+#aem-magic-codex .aem-rule__headtext{min-width:0;flex:1;}
+#aem-magic-codex .aem-rule__number{display:block;margin:0 0 6px;color:#b79dcb;font:600 10px/1.3 system-ui,sans-serif;letter-spacing:.15em;text-transform:uppercase;}
+#aem-magic-codex .aem-rule__title{margin:0;padding:0;border:0;color:#f0e2f5;font-family:inherit;font-size:clamp(17px,1.7vw,23px);line-height:1.22;font-weight:600;text-align:left;}
+#aem-magic-codex .aem-rule__rune{align-self:flex-start;font:26px/1 serif;color:#a7c5ef55;text-shadow:0 0 7px #77a9d75c;}
+#aem-magic-codex .aem-rule__copy{padding:17px 20px 0;color:#c9c0cb;font-family:inherit;font-size:14px;line-height:1.74;font-weight:400;}
+#aem-magic-codex .aem-rule__copy p{padding:0;margin:0 0 13px;text-align:left;color:inherit;font:inherit;}
+#aem-magic-codex .aem-rule__copy strong{font-weight:700;color:#e1d5f0;}
+#aem-magic-codex .aem-rule__copy em{color:#bea5e7;font-style:italic;}
+#aem-magic-codex .aem-rule__copy u{text-decoration-color:#bc9de5;text-underline-offset:3px;}
+#aem-magic-codex .aem-rule__insignia,#aem-magic-codex .aem-rule__note{margin-top:11px;padding:10px 13px;background:#151925a8;border-left:2px solid #819cd4;color:#a7c8de;font:500 12px/1.5 system-ui,sans-serif;}
+#aem-magic-codex .aem-stages,#aem-magic-codex .aem-elements{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 0;}
+#aem-magic-codex .aem-stages span,#aem-magic-codex .aem-elements span{padding:6px 9px;color:#d9c9e7;border:1px solid rgba(178,136,215,.3);background:#34274355;font:600 11px/1.25 system-ui,sans-serif;}
+#aem-magic-codex .aem-stages .aem-stages__legend{border-color:#a18c57;color:#e7cf95;background:#79663a30;}
+#aem-magic-codex .aem-elements span:nth-child(1){color:#96d8f1;border-color:#96d8f155;}
+#aem-magic-codex .aem-elements span:nth-child(2){color:#edaa8f;border-color:#edaa8f55;}
+#aem-magic-codex .aem-elements span:nth-child(3){color:#cbbb9c;border-color:#cbbb9c55;}
+#aem-magic-codex .aem-elements span:nth-child(4){color:#afe1c0;border-color:#afe1c055;}
+#aem-magic-codex .aem-choice,#aem-magic-codex .aem-equation{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin:17px 0 8px;color:#e6d7ef;}
+#aem-magic-codex .aem-choice span,#aem-magic-codex .aem-equation span,#aem-magic-codex .aem-equation strong{padding:8px 10px;border:1px solid #735a8d72;background:#171522;font:600 12px/1.3 system-ui,sans-serif;text-align:center;}
+#aem-magic-codex .aem-choice b{color:#b2d3fa;}
+#aem-magic-codex .aem-choice i,#aem-magic-codex .aem-equation b{font:italic 13px Georgia,serif;color:#ad9abc;}
+#aem-magic-codex .aem-equation strong{color:#b1e7ff;border-color:#5488ac87;}
+#aem-magic-codex .aem-magic-ending{margin:29px auto 0;text-align:center;max-width:620px;color:#b9aaba;}
+#aem-magic-codex .aem-magic-ending img{display:block;max-width:100%;width:430px;height:35px;object-fit:contain;margin:0 auto 10px;opacity:.8;}
+#aem-magic-codex .aem-magic-ending p{margin:0;font:italic 14px/1.6 Georgia,serif;}
+@media (max-width:830px){#aem-magic-codex .aem-magic-rules{grid-template-columns:1fr;}#aem-magic-codex .aem-magic-content{padding:26px 18px;}#aem-magic-codex .aem-magic-overview{gap:7px;}}
+@media (max-width:530px){#aem-magic-codex .aem-magic-overview{grid-template-columns:1fr;}#aem-magic-codex .aem-magic-overview>div{min-height:74px;}#aem-magic-codex .aem-rule__head{gap:10px;padding:14px 12px 10px;}#aem-magic-codex .aem-rule__seal{width:54px;height:54px;flex-basis:54px;}#aem-magic-codex .aem-rule__copy{padding:14px 14px 0;}#aem-magic-codex .aem-magic-hero img{height:205px;}#aem-magic-codex .aem-magic-hero .imgcbz-text{padding:8px 15px;font-size:24px;}}
+@media (prefers-reduced-motion:reduce){#aem-magic-codex .aem-rule{transition:none;}}
+
+
+/* v1.1: límites de seguridad adicionales frente a estilos globales del foro */
+#aem-magic-codex .aem-rule__seal img{max-width:100%!important;max-height:100%!important;}
+#aem-magic-codex .aem-magic-intro__seal img{max-width:84px!important;max-height:84px!important;}
+#aem-magic-codex .aem-magic-ornament img{max-height:31px!important;}
+#aem-magic-codex .aem-magic-ending img{max-height:35px!important;}
+
+/* AEM_CSS_FIN_V11 */
