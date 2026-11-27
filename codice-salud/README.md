@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v3.0.0
+# Aeternalis · Tomo de Medicina v3.0.1
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,7 +11,7 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.0.0` y `js/codice-salud/visor.js?v=3.0.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.0.1` y `js/codice-salud/visor.js?v=3.0.1`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
