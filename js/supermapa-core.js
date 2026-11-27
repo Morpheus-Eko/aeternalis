@@ -259,7 +259,7 @@ function start(root){
   const old=saved.edges.filter(validEdge);
   if((saved.networkVersion||0)>=13){
     edges=old; // Conservar los tramos eliminados, editados y aprobados del usuario.
-    if((saved.networkVersion||0)<18){
+    if((saved.networkVersion||0)<19){
       const publishedIds=new Set(INITIAL_EDGES.map(e=>e.id));
       const obsolete=new Set(['base-021','base-022','base-023','base-042','base-062','base-097','base-128','base-163','base-129','base-130']);
       edges=edges.filter(e=>{
@@ -298,9 +298,9 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:18,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
- if(saved&&(saved.networkVersion||0)<18){
-   try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V18';
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:19,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ if(saved&&(saved.networkVersion||0)<19){
+   try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V19';
      if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
    }catch(e){console.warn('[Atlas] No se pudo respaldar la red previa',e)}
    saveDraft();
@@ -566,7 +566,7 @@ function start(root){
   const a=cityById.get(byId('ae-edge-from').value),b=cityById.get(byId('ae-edge-to').value);
   draftLine=L.polyline([XY(a.x,a.y),...pendingVia.map(p=>XY(p.x,p.y)),XY(b.x,b.y)],{color:'#ffce69',weight:4,dashArray:'8 6'}).addTo(map)}
  map.on('click',ev=>{if(editorEnabled&&addingRegionVertex){const point=pointFromEvent(ev);addRegionVertex(point.x,point.y);return}if(!editorEnabled||!drawing)return;const point=pointFromEvent(ev);pendingVia.push(point);renderDraftLine();byId('ae-edge-hint').textContent=`Puntos intermedios: ${pendingVia.length}. Guardar tramo para incorporarlo a la red.`});
- function exportDraft(){const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};const info={version:1,networkVersion:18,coordinateSystem:'Aeternalis logical 2048x1571',rasterHighResolution:'4100x3146',hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,warning:'TODOS los tramos iniciales son propuestas, no rutas canónicas. Comprobar puertos, pasos, caminos y posiciones.'};
+ function exportDraft(){const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};const info={version:1,networkVersion:19,coordinateSystem:'Aeternalis logical 2048x1571',rasterHighResolution:'4100x3146',hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,warning:'TODOS los tramos iniciales son propuestas, no rutas canónicas. Comprobar puertos, pasos, caminos y posiciones.'};
   const file=new Blob([JSON.stringify(info,null,2)],{type:'application/json'});const uri=URL.createObjectURL(file);const a=document.createElement('a');a.href=uri;a.download='Aeternalis_Cartografia_Caminos.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(uri),1500)}
  function importDraft(ev){const file=ev.target.files?.[0];if(!file)return;file.text().then(s=>{const v=JSON.parse(s);if(v.version!==1||!Array.isArray(v.edges)||!v.cities||!v.hex)throw Error('Formato de datos no reconocido');
   edges=v.edges.filter(validEdge);hex=v.hex;currentRoute=null;selectedEdgeId='';
