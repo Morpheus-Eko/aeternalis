@@ -31,7 +31,9 @@
    var toolbar=document.querySelector('#aeternalis-atlas .ae-leaf-toolbar-actions');
    var viewport=document.getElementById('ae-map-viewport');
    if(!toolbar||!viewport)return;
-   var R=9.3333, SQRT3=Math.sqrt(3), H=SQRT3*R;
+   var grid=typeof api.getCurrentHex==='function'?api.getCurrentHex():{radius:9.3333,phaseX:0,phaseY:0};
+   var R=Number(grid.radius)||9.3333, PX=Number(grid.phaseX)||0, PY=Number(grid.phaseY)||0;
+   var SQRT3=Math.sqrt(3), H=SQRT3*R;
    var W=D.map.width||2048,HEIGHT=D.map.height||1571, evidence=new Map();
    var sites=D.places.filter(function(p){return !p.atlasArchiveReason&&Number.isFinite(p.x)&&Number.isFinite(p.y);})
      .slice().sort(function(a,b){return a.name.localeCompare(b.name,'es');});
@@ -40,11 +42,11 @@
    var originalById=new Map(original.map(function(e){return [e.id,e];}));
    var state={active:false,drawing:false,selected:'',waterOverride:false};
    function key(c){return c[0]+','+c[1];}
-   function center(c){return [1.5*R*c[0],H*(c[1]+c[0]/2)];}
+   function center(c){return [PX+1.5*R*c[0],PY+H*(c[1]+c[0]/2)];}
    function loc(c){var a=center(c);return L.latLng(-a[1],a[0]);}
    function hexDistance(a,b){var q=a[0]-b[0],r=a[1]-b[1];return Math.max(Math.abs(q),Math.abs(r),Math.abs(q+r));}
    function cubeRound(q,r){var y=-q-r,x=Math.round(q),z=Math.round(r),ry=Math.round(y),dx=Math.abs(x-q),dy=Math.abs(ry-y),dz=Math.abs(z-r);if(dx>dy&&dx>dz)x=-ry-z;else if(dy>dz)ry=-x-z;else z=-x-ry;return [x,z];}
-   function atXY(x,y){return cubeRound(2*x/(3*R),(-x/3+y/SQRT3)/R);}
+   function atXY(x,y){var u=x-PX,v=y-PY;return cubeRound(2*u/(3*R),(-u/3+v/SQRT3)/R);}
    function within(c){var a=center(c);return a[0]>=0&&a[0]<=W&&a[1]>=0&&a[1]<=HEIGHT;}
    function line(a,b){
      var n=hexDistance(a,b);if(n>350)return null;
@@ -146,7 +148,7 @@
      g('clear').disabled=!d||!d.hexPath.length;
      g('delete').disabled=!d;
      g('reviewed').checked=!!(d&&d.checked);
-     g('reviewed').disabled=!d;
+     g('reviewed').disabled=!d||!d.finished;
      g('start').textContent=state.drawing?'Dibujando: pulsa sobre el mapa':'Empezar / continuar dibujo';
      g('pause').disabled=!state.drawing;
      g('status').classList.toggle('is-drawing',state.drawing);
@@ -203,7 +205,7 @@
      if(!segment){notify('La pincelada es demasiado larga. Agrega puntos intermedios.');return false;}
      segment=segment.slice(1);
      if(!segment.length){
-       if(finishing&&d.hexPath.length>1){d.finished=true;d.checked=false;state.drawing=false;save(d);return true;}
+       if(finishing&&d.hexPath.length>1){d.strokes.push(d.hexPath.length);d.finished=true;d.checked=false;state.drawing=false;save(d);return true;}
        notify('Ese hexágono ya es el último punto del camino.');return false;
      }
      if(d.hexPath.length+segment.length>MAX_CELLS){notify('Máximo 1.400 hexágonos por camino. Divide el trazado en varios tramos.');return false;}
@@ -254,7 +256,7 @@
      });
      if(!routes.length){notify('Todavía no hay dibujos que exportar.');return;}
      var output={schema:'aeternalis-caminos-manuales-v1',version:1,generatedAt:new Date().toISOString(),
-       map:'Mapa_3.21(2).png',coordinateSystem:{width:W,height:HEIGHT,hexRadius:R,phaseX:0,phaseY:0},
+       map:'Mapa_3.21(2).png',coordinateSystem:{width:W,height:HEIGHT,hexRadius:R,phaseX:PX,phaseY:PY},
        status:'borrador_para_revision',notice:'No se han modificado ni confirmado automáticamente las rutas publicadas. El autor compartirá este JSON para integrar los caminos al Atlas.',
        summary:countInfo(),routes:routes};
      var file=new Blob([JSON.stringify(output,null,2)],{type:'application/json;charset=utf-8'});
@@ -301,12 +303,19 @@
    g('file').addEventListener('change',function(){importJSON(g('file').files&&g('file').files[0]);g('file').value='';});
    map.on('click',function(ev){
      if(!state.active||!state.drawing)return;
+     if((document.getElementById('ae-toggle-trazador')?.getAttribute('aria-pressed')==='true')||(typeof api.isEditing==='function'&&api.isEditing()))return;
      var at=atXY(ev.latlng.lng,-ev.latlng.lat);
      appendCell(at,false);
    });
    fetch(ROOT+'data/atlas/caminos-evidencia.json?v=1.2.0').then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();})
      .then(function(d){if(d.schema==='aeternalis-caminos-evidencia-v1'&&Array.isArray(d.cells)){
-       d.cells.forEach(function(c){evidence.set(key(c),c);});notify('Malla terrestre cargada. Ya puedes seguir los caminos del mapa.');updateUI();
+       if(Math.abs(R-9.3333)>.01||Math.abs(PX)>.01||Math.abs(PY)>.01){
+         notify('La retícula del Atlas está recalibrada. Puedes dibujar, pero la evidencia cromática corresponde a la retícula original; no se usarán bloqueos automáticos.');
+       }else{
+         d.cells.forEach(function(c){evidence.set(key(c),c);});
+         notify('Malla terrestre cargada. Ya puedes seguir los caminos del mapa.');
+       }
+       updateUI();
      }}).catch(function(e){notify('La máscara de suelo no está disponible. Se permite dibujar sin verificación automática de cruces.');console.warn('[Caminos manuales]',e);});
    renderChoices();setActive(false);
    window.__AETERNALIS_CAMINOS_MANUALES__={
