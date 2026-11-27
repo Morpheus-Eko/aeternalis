@@ -1,0 +1,1527 @@
+{
+  "schema": "aeternalis-herbario-atlas-1",
+  "version": "1.0",
+  "base": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/",
+  "description": "Catálogo de imágenes botánicas preparatorias, NO constituyen fichas canónicas de dieciséis especies.",
+  "counts": {
+    "laminas": 13,
+    "figuras_pergamino": 102,
+    "figuras_tinta": 62,
+    "catalogos": 12
+  },
+  "caution": "Los PNG originales de mayor resolución están respaldados en Aeternalis_Herbario_Assets_Separados_v01.zip; este repositorio publica WebP para el foro.",
+  "assets": [
+    {
+      "path": "01_laminas_originales/fuente_01_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_01_violetas_de_estudio.webp",
+      "bytes": 744670,
+      "sha": "fd6e56a41a60d05732db29f0acb9ae5e52144ae7",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_02_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_02_violetas_de_estudio.webp",
+      "bytes": 735104,
+      "sha": "c44e2f980917febdd81f042468443b2bcdaa369b",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_03_campanilla_de_agua_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_03_campanilla_de_agua_provisional.webp",
+      "bytes": 796690,
+      "sha": "e7bcfe48bdf97e2e455b6f943e6fcd90bd0680ee",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_04_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_04_violetas_de_estudio.webp",
+      "bytes": 739060,
+      "sha": "8a0e5df351bd5f96d5986d69926d6c1b9bfeab98",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_05_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_05_violetas_de_estudio.webp",
+      "bytes": 685308,
+      "sha": "57be7495b6013e7caa672f2ae09d588019429513",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_06_llanten_de_bruma_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_06_llanten_de_bruma_provisional.webp",
+      "bytes": 722586,
+      "sha": "be6f359c8385ca41c4eb2d3e473575e0967f6587",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_07_llanten_de_bruma_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_07_llanten_de_bruma_provisional.webp",
+      "bytes": 687386,
+      "sha": "e530b99deee87483b1915983a4003d21ffddc0c8",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_08_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_08_violetas_de_estudio.webp",
+      "bytes": 786316,
+      "sha": "8c5b6158c5d579c55bae9f6d8175c345cc424041",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_09_campanilla_de_agua_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_09_campanilla_de_agua_provisional.webp",
+      "bytes": 759942,
+      "sha": "aa9bf5ff470373c297db085b2b54a6cc5e452d3a",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_10_llanten_de_bruma_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_10_llanten_de_bruma_provisional.webp",
+      "bytes": 729678,
+      "sha": "d6d7f53a37eb687f6617f9a5f019f6fafc0c44ea",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_11_raicilla_de_escarcha_provisional.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_11_raicilla_de_escarcha_provisional.webp",
+      "bytes": 712936,
+      "sha": "4012cdd862eb82cfd29be66f477d4468319b5ed1",
+      "category": "01_laminas_originales",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "01_laminas_originales/fuente_12_violetas_de_estudio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_12_violetas_de_estudio.webp",
+      "bytes": 631042,
+      "sha": "e463c4c484ca4713c53a26e1420cbf7c947e5be6",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "01_laminas_originales/fuente_13_enredadera_carmesi_no_canon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/01_laminas_originales/fuente_13_enredadera_carmesi_no_canon.webp",
+      "bytes": 752978,
+      "sha": "5156b408767ec9884aefb0464f50b9b9054df83b",
+      "category": "01_laminas_originales",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "04_catalogo/catalogo_recortes.csv",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/catalogo_recortes.csv",
+      "bytes": 38692,
+      "sha": "b9f21c3f5ac0d6c094f959cb8b021b2d7209abc5",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/catalogo_recortes.json",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/catalogo_recortes.json",
+      "bytes": 70531,
+      "sha": "dc369c1279e2a2ab8f1ffb7351fa12c6bdb8abe6",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_pergamino_01.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_pergamino_01.jpg",
+      "bytes": 391408,
+      "sha": "cfcb879e0f50ba64401113c841f888507eded114",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_pergamino_02.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_pergamino_02.jpg",
+      "bytes": 404486,
+      "sha": "091b1e095a0e9d1d5a74cfd0942666cf3fb30018",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_pergamino_03.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_pergamino_03.jpg",
+      "bytes": 448416,
+      "sha": "7da904b9a9b6913626707a48093a220c7dd26cb4",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_pergamino_04.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_pergamino_04.jpg",
+      "bytes": 439639,
+      "sha": "121e81b473b8e2139534f65849d7bb407817e15b",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_pergamino_05.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_pergamino_05.jpg",
+      "bytes": 130392,
+      "sha": "75235d0d0a29a057e08cf9470262592181490791",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_tinta_01.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_tinta_01.jpg",
+      "bytes": 276081,
+      "sha": "85c71309d04c4b5818b48a85366e93eb42175b92",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_tinta_02.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_tinta_02.jpg",
+      "bytes": 301014,
+      "sha": "ed6625edf3cd8508caf59d3b0c248f5b3c3de486",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_tinta_03.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_tinta_03.jpg",
+      "bytes": 316129,
+      "sha": "b092a6f1ee42cd6d710a7f941d41a85bf8b7ddf4",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_tinta_04.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_tinta_04.jpg",
+      "bytes": 346141,
+      "sha": "57d70824f47bc845ee1d1eef04427eb4512afd20",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "04_catalogo/muestrario_tinta_05.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/04_catalogo/muestrario_tinta_05.jpg",
+      "bytes": 102531,
+      "sha": "00e45dddbf748efe6177e25f2a522c6af0191bac",
+      "category": "04_catalogo",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "bytes": 14818,
+      "sha": "e7529837b66bf620bb76fd5883af4fadc6ccfb71",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "bytes": 17042,
+      "sha": "7c776eb0fb5c93a0a3ead4ccbb1ad608e4244f74",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "bytes": 56694,
+      "sha": "c84eabb80c97eb13a8aba5ba5c0de0bba4bf49ac",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
+      "bytes": 178604,
+      "sha": "fbcc7b5f79d9044f3c7ed54d16dfd4239e32fb86",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
+      "bytes": 19360,
+      "sha": "7407bb970a46d06d83b9ba9bebedaea6fd9d4b26",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "bytes": 63104,
+      "sha": "e2f5aa837b3c2ee843b79953e4c7a0414bf26c86",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_curandero.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_curandero.webp",
+      "bytes": 50300,
+      "sha": "655bae0ea59660fb4096e13885802c186d4f6392",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
+      "bytes": 23892,
+      "sha": "97d89b73f02b39b5ec7646a087c1167ef341d83e",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_frasco.webp",
+      "bytes": 24038,
+      "sha": "f65f237f8106b40bd6111dff4281eaccc6f679c4",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
+      "bytes": 16340,
+      "sha": "67c152e49d26a3b051bb40bc397ee75bfa4885b7",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_infusion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_infusion.webp",
+      "bytes": 21546,
+      "sha": "f1cb309c420cd2f7f7783d02397794f400cd5713",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "bytes": 27084,
+      "sha": "a374182d2db6b3c8c895576aedccf6eb4dd6dff2",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "bytes": 68184,
+      "sha": "d5d1afd188b1362e739d20ebcd78812e8509d929",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "bytes": 154628,
+      "sha": "b4fedfe701a96d5287955996349e8defc8380edb",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "bytes": 39650,
+      "sha": "28d46034694c6fa5876c3fe611455423c287b6ab",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_frontal.webp",
+      "bytes": 30670,
+      "sha": "1974dcf9c0427bcaa4f46a8cc1c9b279a431dabc",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "bytes": 27262,
+      "sha": "4fecdd189af0712d088e8cc339307255d32c32c3",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "bytes": 26610,
+      "sha": "39a03a3e25f52545cb4085206f4aea7d8df76389",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "bytes": 35746,
+      "sha": "f399073c1df01d9aad8f49032aae77e8455a1b5b",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_mortero_y_frasco.webp",
+      "bytes": 46392,
+      "sha": "7ba903ba5ec680414e70214ac2852c64c33144fd",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "bytes": 38600,
+      "sha": "de6bf3f04b7f3fdcade6c058b2abeb06ae7cc4df",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "bytes": 240212,
+      "sha": "64bc729c32bbe13acd92b31db40a4fc58639505e",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
+      "bytes": 32932,
+      "sha": "3e21af474394bdf4dfba52a90ade3c772bd4bfd2",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "bytes": 17804,
+      "sha": "b2df93b96a09523062e8d53eee68d97a1944fb73",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "bytes": 18102,
+      "sha": "c48434c5360287a6d3a66f2a6505935e223a31cf",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_inflorescencia.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_inflorescencia.webp",
+      "bytes": 34878,
+      "sha": "3f9eca44bcdbb2d80ad922d748e4958571a936ca",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "bytes": 51820,
+      "sha": "d5994e22477d7c3d9f31d17db0db96d5337b16da",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "bytes": 209646,
+      "sha": "d7f87c4052b1fe01015140a9ad16daa2a030ddd4",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_raiz_detalle.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_raiz_detalle.webp",
+      "bytes": 37486,
+      "sha": "75f9fda4af2a59fa977fc4d40f641dfca0235904",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "bytes": 77762,
+      "sha": "5428c35cadabf8057c8a46e36048b8066a077ea2",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_flor.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_flor.webp",
+      "bytes": 17836,
+      "sha": "22a4c45af28de3139fe537ba2b5df8ee37eef551",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_frasco_medicinal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_frasco_medicinal.webp",
+      "bytes": 17224,
+      "sha": "23b4cfd64f84a35840ff0546114eb088854f1343",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_hojas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_hojas.webp",
+      "bytes": 29490,
+      "sha": "c0853ac120e0382d978d075703298cbda9e4faf2",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "bytes": 21420,
+      "sha": "b75a1b1545e1dc0963e7e3bc9b192c7693b8cc05",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_mano_con_vendaje.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_mano_con_vendaje.webp",
+      "bytes": 26688,
+      "sha": "ca60eedb45e7c3a65230cac803729966c8e0bbb8",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_mortero_de_piedra.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_mortero_de_piedra.webp",
+      "bytes": 20932,
+      "sha": "0f4d2c6c241ca59dddcd08e84fe1c69fe9a0f4e4",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "bytes": 139426,
+      "sha": "5411868f8eccc9961a8deefdae6fccfea9a11770",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
+      "bytes": 18724,
+      "sha": "54d0c48183cc5795708894a8e97650eb2430caa6",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_frasco.webp",
+      "bytes": 20474,
+      "sha": "681ab0e32ce10c1b45cd2e0888e0bdcf25b70295",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_hoja.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_hoja.webp",
+      "bytes": 29204,
+      "sha": "252d8bf4f021e4d06bd936597f5c69f5c8238bcf",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
+      "bytes": 21078,
+      "sha": "825eee2476d14195e82596d130fc92297af77963",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_mortero.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_mortero.webp",
+      "bytes": 27240,
+      "sha": "efebdacb5d12ad7ba015170a1cf38b377ec0f824",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_paisaje_ribera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_paisaje_ribera.webp",
+      "bytes": 82132,
+      "sha": "70d644e455bcb5aadaa81aad126f1f4c62c6e969",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "bytes": 214374,
+      "sha": "215c24b203f8ebeb88468f15a6139d9f2bf81244",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "bytes": 32444,
+      "sha": "58c9b7552c9e8281e7db41b8b83496e6767fc3ec",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_frontal.webp",
+      "bytes": 27958,
+      "sha": "c1f1507331d77e03fef63761f910aeecbd28d8ea",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "bytes": 29740,
+      "sha": "fc95767e045746a23a9f270aff449f153e6855f5",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_hoja_enves.webp",
+      "bytes": 40576,
+      "sha": "8c7ef771050c42334911bf6730c8f8605863867f",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_mortero_y_frasco.webp",
+      "bytes": 27410,
+      "sha": "bd8350503be92946d079c88cafa3708bc4ab673b",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
+      "bytes": 280232,
+      "sha": "e7553cbbc8d352c35dc596d42c57e5c15a036841",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
+      "bytes": 37158,
+      "sha": "18be32c29b10cf06871afa299370bae3cce7d7b0",
+      "category": "02_figuras_pergamino",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_capullos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_capullos.webp",
+      "bytes": 24548,
+      "sha": "927784a6377a126b046c38b133dcf15dc878cc90",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_flor_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_flor_corte.webp",
+      "bytes": 32464,
+      "sha": "5e2950bb3947bf8758aa93216523e61a1d7435b3",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_flor_frontal.webp",
+      "bytes": 44918,
+      "sha": "9a58cc5a74dd4f7a783e88a1f9c4bc87c5e528b5",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_fruto_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_fruto_semillas.webp",
+      "bytes": 24548,
+      "sha": "b39d8655b03124705e92cf3a54f4372252b05e25",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_hoja_enves.webp",
+      "bytes": 31314,
+      "sha": "5d9b492d0c956cfb252e2553439057484d68c4b6",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_planta_completa.webp",
+      "bytes": 258536,
+      "sha": "0cca39997654b44d69494c2aa35f5699db868674",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f01_raiz_detalle.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f01_raiz_detalle.webp",
+      "bytes": 38358,
+      "sha": "4f109d69f410d80eca62c010980e295bd3f29867",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_brotes.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_brotes.webp",
+      "bytes": 22888,
+      "sha": "40d864127e29bf2659b0b3842fd401912d039c32",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_corte_raiz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_corte_raiz.webp",
+      "bytes": 37032,
+      "sha": "cbece585471d2d9549e7e88caff4c3a19684ec55",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_estambres.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_estambres.webp",
+      "bytes": 13630,
+      "sha": "1872e3d6684015aff9ace3b6eeaafc42fdf9b62d",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_flor_frontal.webp",
+      "bytes": 23888,
+      "sha": "fb28b2cb01105ff0fa3b09c2db42e1454f8a7c56",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_flor_lateral.webp",
+      "bytes": 24782,
+      "sha": "5e4e2f2ffa29234d919fca7b464c624f24b731a3",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_hoja_enves.webp",
+      "bytes": 31076,
+      "sha": "06cb6bd51b590c77c4b6fa1dedbc2ee635b83db6",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
+      "bytes": 35638,
+      "sha": "4c9ef7da94870235b23d5b6ffcf3a1fd78100bd0",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_planta_completa.webp",
+      "bytes": 304778,
+      "sha": "501ede0bfcdf6bc22a8844149a7c4794db31aad5",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
+      "bytes": 39794,
+      "sha": "19fbd0b95aaf70fe24a8dcd8b313c3146489c0aa",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
+      "bytes": 17194,
+      "sha": "7b855b9cf21496c2dafd5eae1dfbc382566625db",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_flor_frontal.webp",
+      "bytes": 30930,
+      "sha": "55b976850b7cbdacd3afe81a98b8f2245af9de39",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_flor_seccion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_flor_seccion.webp",
+      "bytes": 32552,
+      "sha": "bce49d7495ff0f0d54234a024a32988e6a29860d",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_fruto_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_fruto_semillas.webp",
+      "bytes": 19072,
+      "sha": "6c24a978c6a291fed2603275ab4dfca610030c55",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
+      "bytes": 36766,
+      "sha": "e6b529f3ce834e663d423ca7e50a7e12c103f57c",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_hoja_haz.webp",
+      "bytes": 37338,
+      "sha": "f927d35721c2423086a93f6e005858a2d6a36fbf",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "bytes": 57528,
+      "sha": "834bbaedc90e3646fc4551208fa0b123045bda9e",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
+      "bytes": 212782,
+      "sha": "826d5c00443cfbae66591d49fc30f0791356f1bf",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f04_raices_medicinales.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_raices_medicinales.webp",
+      "bytes": 39522,
+      "sha": "63c0cc0ec1c839bce9e0cc53bd4168eb854ce7c2",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_capullos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_capullos.webp",
+      "bytes": 23258,
+      "sha": "9e8723bccca1d045b0f70e56b2d657f7cbe497df",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_flor_frontal.webp",
+      "bytes": 29282,
+      "sha": "b153176995b68aab9db24a0586e2bbbc689524d4",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_flor_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_flor_perfil.webp",
+      "bytes": 27904,
+      "sha": "66bbdf294e467edce5349fa2fdf52b4eacdd8705",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_frutos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_frutos.webp",
+      "bytes": 35344,
+      "sha": "811a3f4e207e2de8120def61a0eac4d82b10a100",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_hoja_enves.webp",
+      "bytes": 30630,
+      "sha": "58b3b939ef4cdac4b2e0f38611e87f8d4cbb3b18",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
+      "bytes": 29168,
+      "sha": "d18c6c147f215814e52a37fbbc28f3d2a759143b",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "bytes": 56466,
+      "sha": "687a85dd47348687c18344f21d93fffc54d5b00a",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_planta_completa.webp",
+      "bytes": 281490,
+      "sha": "75616d1989645bc1b0303fcf7bec2ea738cd5c1c",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "bytes": 33136,
+      "sha": "5e22c3efc82c50bd7ba70df8bbd21787f6ad867f",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_capullos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_capullos.webp",
+      "bytes": 23018,
+      "sha": "9fcf22931c032c6528992b0bcdece09cf0b27903",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_flor_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_flor_corte.webp",
+      "bytes": 25050,
+      "sha": "30c462f857352d6cf5efcaa9bd1932b24556bdb2",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
+      "bytes": 30286,
+      "sha": "1dd53205dca41ad9ec3b49915a42533b8d939058",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_fruto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_fruto.webp",
+      "bytes": 21904,
+      "sha": "3aa65dfa56067097275638e7a6ec82892ff939a9",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
+      "bytes": 36786,
+      "sha": "a61e76750d29e0eb864341a5e3d70f3659310e9e",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_hoja_haz.webp",
+      "bytes": 40010,
+      "sha": "272763ad99afe49a2293fc7e04076dd999cca88d",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "bytes": 63508,
+      "sha": "272d81d9e155d4a12fff7179c87d4d3f6932ede0",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
+      "bytes": 319336,
+      "sha": "2d5fe25bbe7cf7675202c97237063e8dec6c39b4",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f08_raiz_rodajas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_raiz_rodajas.webp",
+      "bytes": 42342,
+      "sha": "0a891132d3398c43928a93daae79b07cc9384f85",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_capullos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_capullos.webp",
+      "bytes": 18928,
+      "sha": "2d6bac610083e13d97a33a3f359972ae08050222",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_flor_frontal.webp",
+      "bytes": 24640,
+      "sha": "8ba7ded11bbda44a6d124470ded0032c67014418",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_flor_lateral.webp",
+      "bytes": 25324,
+      "sha": "e13141d8b5afab8368c143365f38e051e5bd3158",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_hoja_enves.webp",
+      "bytes": 36142,
+      "sha": "d7f60aef7c053c97ac81b9205e8f7563774898dd",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "bytes": 39792,
+      "sha": "e604afba21e425f4f2f86bce04c5d95f2e27f0a3",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_planta_completa.webp",
+      "bytes": 256248,
+      "sha": "d29f947113d47ce2fd77df5fea420281c06e34bb",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_raiz_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_raiz_corte.webp",
+      "bytes": 30962,
+      "sha": "276ad34d439381fa079c3a58e31183dd3a0c7659",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "02_figuras_pergamino/violetas_de_estudio/f12_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f12_semillas.webp",
+      "bytes": 23878,
+      "sha": "1a53226fbff4c57b5f1fcaae47a9bd23fa565978",
+      "category": "02_figuras_pergamino",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "bytes": 9498,
+      "sha": "69e796b00ffb3d55209c7451df1f33073142b5ed",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "bytes": 10696,
+      "sha": "da43f0d0df455dec7f52071da3d9e04d71c02e40",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "bytes": 27698,
+      "sha": "499a5d3cc7bfbe31d7d1ec8073bf3211e162ecd4",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "bytes": 14316,
+      "sha": "dcfa728909003c57ca6feab6a34c951b1c3a9ef7",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_curandero.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_curandero.webp",
+      "bytes": 36190,
+      "sha": "4fc75025255d9b6fb813346db596673b25f6d912",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_frasco.webp",
+      "bytes": 10868,
+      "sha": "ec75662b263f959e4bffb49aec6948f4e7a344c0",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_mortero.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_mortero.webp",
+      "bytes": 5338,
+      "sha": "28681d21b768555e3d2426a78dd78a36abfb58fd",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "bytes": 51506,
+      "sha": "f221aa251f614e1fdc3593aad0c8bded41585e09",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "bytes": 73582,
+      "sha": "c749de81de857965cea93d0c74c88c6d439d47b8",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "bytes": 20520,
+      "sha": "f5d9855fdd04c57e59f312dac66a2752ba761249",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "bytes": 11340,
+      "sha": "0ecc4a80c24ea7cd7857893c11cc252c4ce84622",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "bytes": 17634,
+      "sha": "1580fef41dceaa451b509f1fe1598d935b72fbb7",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "bytes": 26848,
+      "sha": "8e11f714225b9953aa97b54cd92432a2b628fd3d",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "bytes": 25096,
+      "sha": "1faf91f8fe929db193021a77808062c02265584e",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "bytes": 139352,
+      "sha": "11ed9b61749d7056c785e4a3dd661c6c7980fabb",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "bytes": 9840,
+      "sha": "c1e6d2f8bad1f9c2248ff8edbc7938f5c630bea4",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "bytes": 11502,
+      "sha": "a37761a353949b4d6245ac39a70df0bcdef3894b",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "bytes": 7250,
+      "sha": "8bc078e76cf05dbd28588ac7991ecaf69f86b099",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "bytes": 85744,
+      "sha": "4b645b56c06caecad2e6b9bcab1bea66892a6e27",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "bytes": 35396,
+      "sha": "8a3621eae7c7ab36f122558487a060da7ce06dd0",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "bytes": 13616,
+      "sha": "c806948fd17063988e78c28970fb9332e49bdd43",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "bytes": 12180,
+      "sha": "f57c063774ffab7f063f9b2b8cc74a3d7c0e1a02",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "bytes": 96126,
+      "sha": "57d5c8ea7ed7caebc7367ef34a937c6051123f8f",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_frasco.webp",
+      "bytes": 12086,
+      "sha": "2ff4adfdd2703b3d29b6d1cbe3a4af9f4940487d",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "bytes": 90934,
+      "sha": "c1c6d5601a7a13c6f053202731cab86ad340738c",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "bytes": 9576,
+      "sha": "c8b9021c740464d3fc3abf8bdb1e0d617bc0caaf",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "bytes": 11824,
+      "sha": "d055882e5e1801089ed556eb5dbaa90f2f14a8bb",
+      "category": "03_figuras_tinta_transparente",
+      "status": "ilustracion_preliminar"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f01_flor_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f01_flor_corte.webp",
+      "bytes": 17884,
+      "sha": "302f596a758f49d8dcdf98bc90283bdfb3b9b9cd",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f01_fruto_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f01_fruto_semillas.webp",
+      "bytes": 9876,
+      "sha": "a39e453789eaefe6bc09caa8bf373e9e6355f081",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f01_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f01_hoja_enves.webp",
+      "bytes": 12558,
+      "sha": "33d3c469cc8a96860b1ddb147714046a467dce8e",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f01_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f01_planta_completa.webp",
+      "bytes": 107608,
+      "sha": "4924070faae5e9031c32f58503f19191abbbebd0",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_brotes.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_brotes.webp",
+      "bytes": 17084,
+      "sha": "afa6600c246afab12453a927638d04367ed63767",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_corte_raiz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_corte_raiz.webp",
+      "bytes": 19938,
+      "sha": "52bb2aa9c0e5e7a3f1c3823ca495fdbaeecbe23e",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_estambres.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_estambres.webp",
+      "bytes": 7850,
+      "sha": "8a1e7aa8ecd902637cd893738af05f501b47604d",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_frontal.webp",
+      "bytes": 16988,
+      "sha": "3f13e430e2eae1f1cc29c72b857ff347e60da238",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_lateral.webp",
+      "bytes": 15502,
+      "sha": "79b2b675e9cc6fe5ce7827e1ce4305c49bb3888c",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
+      "bytes": 16792,
+      "sha": "78bdb9cf4742b8847637931468c8f8fb89893dd1",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_haz.webp",
+      "bytes": 29974,
+      "sha": "c2857e0c2b19c08a4c2e0af625aecd2b42f2be3e",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
+      "bytes": 163076,
+      "sha": "ac9fa1c5a8fd4c54ab4c96a6f3c3496ff4397660",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
+      "bytes": 14360,
+      "sha": "640c46718963b34149ad2ccd3c2a736122555ad4",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_seccion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_seccion.webp",
+      "bytes": 15014,
+      "sha": "a0804329c7d0ef97a51ff99166c8f3eff9bfc541",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f04_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_hoja_haz.webp",
+      "bytes": 16436,
+      "sha": "3e64719a5ae5d9c846e99d30e484e0b2dda86e5c",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "bytes": 36190,
+      "sha": "9d9c7a1e7ca212c84445f8faa5cc44129f77e361",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f04_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_planta_completa.webp",
+      "bytes": 90464,
+      "sha": "f902c914054965e3cfe5b7eca62a111a2f10570f",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_frontal.webp",
+      "bytes": 19950,
+      "sha": "61e783644eb6770a0929d6ac1a8946459ed52846",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_perfil.webp",
+      "bytes": 15684,
+      "sha": "6b201148e1968b73304fc9311b08ac556fb9b29c",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_frutos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_frutos.webp",
+      "bytes": 17590,
+      "sha": "753ce8927b009dc301a38564d2474aa3bb7f1b0b",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_hoja_enves.webp",
+      "bytes": 20454,
+      "sha": "7a22777c3bb8a46b4943fb48579111d11987f2ed",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "bytes": 38452,
+      "sha": "76b522f357054549e3d3331bc17c4275ca192c07",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_planta_completa.webp",
+      "bytes": 175748,
+      "sha": "6ec9fffaba848b592bcd698f5156e7bb93a2fcac",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "bytes": 12420,
+      "sha": "14e35b385df80629ac2661c04abedf72b9a74b9d",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_capullos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_capullos.webp",
+      "bytes": 5136,
+      "sha": "68777583371a7d5b52cf8a9cc23445678936cfda",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
+      "bytes": 18066,
+      "sha": "e98a129cf33f3e77bd75ce492d1916b55c57cec2",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_fruto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_fruto.webp",
+      "bytes": 6428,
+      "sha": "84e2155a0117b0b7fe621a95d9322b5b70aa2594",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_hoja_haz.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_hoja_haz.webp",
+      "bytes": 26004,
+      "sha": "ede3c57a7f5c109bd5d4dc76597922c84f75c86e",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "bytes": 29112,
+      "sha": "3725c1b0dc074482c22fbf23806039b21efa908f",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f08_planta_completa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_planta_completa.webp",
+      "bytes": 182550,
+      "sha": "6ed3aea2867edc75c606bf581383aaec3ff47bce",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f12_flor_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f12_flor_lateral.webp",
+      "bytes": 9082,
+      "sha": "5e1226aa2bf79f55cad5410c649af722fc22f2c8",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f12_hoja_enves.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f12_hoja_enves.webp",
+      "bytes": 13064,
+      "sha": "c08e136abeaf283978b57f8248e38d29771beed3",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "bytes": 11778,
+      "sha": "c61f3769fa2578555c277647a327af0d4f707203",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f12_raiz_corte.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f12_raiz_corte.webp",
+      "bytes": 9542,
+      "sha": "1e17192f6e6b799d64076161129e4ce793d099c6",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    },
+    {
+      "path": "03_figuras_tinta_transparente/violetas_de_estudio/f12_semillas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f12_semillas.webp",
+      "bytes": 14422,
+      "sha": "436277d6f5c532b56b53742d6903287f6e1df83b",
+      "category": "03_figuras_tinta_transparente",
+      "status": "estudio_no_canonico"
+    }
+  ]
+}
