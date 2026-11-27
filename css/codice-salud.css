@@ -1,4 +1,4 @@
-/* Aeternalis · Tomo de Medicina v2.6.1 — encapsulado para Foroactivo. */
+/* Aeternalis · Tomo de Medicina v3.0.0 — encapsulado para Foroactivo. */
 #ae-codice-salud{--ac-ink:#473223;--ac-dark:#121811;--ac-brass:#baa06f;--ac-paper:#e9d5ae;display:block;width:100%;min-width:0;container-type:inline-size;color:#e6d4b3;box-sizing:border-box}
 #ae-codice-salud *{box-sizing:border-box}
 #ae-codice-salud button,#ae-codice-salud input,#ae-codice-salud select{font:inherit}
@@ -502,4 +502,285 @@
 @media(prefers-reduced-motion:reduce){
  #ae-codice-salud .ac-patology-plate img{transition:none}
  #ae-codice-salud .ac-patology-plate a:hover img{transform:none}
+}
+
+/* ====================================================================
+   ARQUITECTURA DEL CÓDICE 3.0 · reemplazo de la barra inferior
+   Doble página y folios reales, sin desplazamiento interior.
+   Los assets se usan en fondos tenues, cantos, cartelas y marcadores.
+   ==================================================================== */
+
+/* El libro se centra en la ventana incluso cuando el mensaje del foro es estrecho. */
+#ae-codice-salud{
+ position:relative;left:50%;transform:translateX(-50%);
+ width:min(1800px,calc(100vw - 24px))!important;max-width:none!important;
+ margin-inline:0!important;overflow:visible!important;
+}
+#ae-codice-salud .ac-shell{
+ max-width:none!important;width:100%!important;
+ padding:clamp(7px,1.1vw,16px)!important;
+ border-color:#674f32;
+ background:radial-gradient(ellipse at 50% 0%,#3d49334a,transparent 70%),linear-gradient(145deg,#1c241b,#111713 64%,#271d18);
+}
+#ae-codice-salud .ac-mast{padding:4px 9px 8px!important;margin-bottom:0;max-width:100%}
+#ae-codice-salud .ac-mast h1{font-size:clamp(23px,2.3vw,35px)!important;margin:3px 0!important}
+#ae-codice-salud .ac-mast p{font-size:clamp(12px,1vw,15px)!important;margin:0!important}
+#ae-codice-salud .ac-toolbar{
+ max-width:none!important;min-height:52px;margin:0 20px 8px!important;
+ display:flex;justify-content:space-between;align-items:center;
+}
+#ae-codice-salud .ac-toolbar>.ac-turn,
+#ae-codice-salud .ac-toolbar .ac-compass{
+ flex:none!important;width:58px!important;height:58px!important;
+ min-width:58px!important;padding:0!important;margin:0!important;
+ display:flex!important;align-items:center;justify-content:center;
+ border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;
+}
+#ae-codice-salud .ac-toolbar>.ac-turn img,
+#ae-codice-salud .ac-toolbar .ac-compass img{
+ display:block;width:54px!important;height:54px!important;max-height:none!important;
+ object-fit:contain!important;
+}
+#ae-codice-salud .ac-toolbar .ac-compass span{display:none!important}
+#ae-codice-salud .ac-toolbar__progress{font-size:12px;letter-spacing:.035em}
+#ae-codice-salud .ac-stage{max-width:none!important;position:relative;width:100%}
+#ae-codice-salud .ac-book-assembly{position:relative;margin:0 clamp(45px,4.5vw,80px);min-width:0}
+#ae-codice-salud .ac-volume{
+ width:100%;min-width:0;margin:0;padding:clamp(6px,.9vw,14px)!important;
+ position:relative;overflow:visible;
+}
+#ae-codice-salud .ac-spread{
+ display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;
+ align-items:stretch;gap:0;perspective:1800px;
+}
+/* La página crece con lo que se escribe; ya no hay barras de scroll dentro del libro. */
+#ae-codice-salud .ac-leaf,
+#ae-codice-salud .ac-leaf:nth-child(2){
+ position:relative;isolation:isolate;min-width:0;
+ min-height:clamp(790px,68vw,1080px);height:auto!important;overflow:hidden;
+ padding:clamp(12px,1.2vw,20px)!important;
+ background:radial-gradient(ellipse at 48% 12%,#fcf1d8 0%,#eeddbb 58%,#d6b88f 100%)!important;
+ box-shadow:inset 10px 0 36px #6a483e35,inset -12px 0 25px #5b3b2b28;
+}
+#ae-codice-salud .ac-leaf[data-art-ready="1"]{
+ background:radial-gradient(ellipse at 48% 12%,#fcf1d8 0%,#eeddbb 58%,#d6b88f 100%)!important;
+}
+/* La antigua página racial se conserva como una impresión difusa bajo el papel. */
+#ae-codice-salud .ac-leaf::before{
+ content:"";position:absolute;z-index:0;inset:0;pointer-events:none;
+ background-image:var(--ac-folio-art,none);background-position:center;background-repeat:no-repeat;background-size:100% 100%;
+ opacity:.12;filter:blur(7px) sepia(.35) saturate(.6);
+}
+/* Lámina de la materia: marca de agua casi invisible, nunca sobre el texto. */
+#ae-codice-salud .ac-leaf::after{
+ content:"";position:absolute;z-index:0;inset:15% 12% 13%;
+ background:var(--ac-topic-watermark,none) center/contain no-repeat;
+ filter:blur(5px) grayscale(.30) sepia(.75);
+ opacity:.075;mix-blend-mode:multiply;pointer-events:none;
+}
+#ae-codice-salud .ac-leaf__frame,
+#ae-codice-salud .ac-leaf[data-art-ready="1"] .ac-leaf__frame{
+ position:relative;z-index:1;width:100%;height:100%;min-height:760px;
+ display:flex;flex-direction:column;align-items:stretch;gap:10px;
+ padding:clamp(35px,3.1vw,54px) clamp(29px,2.7vw,49px) clamp(32px,3vw,50px)!important;
+ border:1px solid #9270507f!important;outline:1px solid #f4e4c96a!important;outline-offset:4px!important;
+ background:linear-gradient(180deg,#f6e8ca16,transparent 15%,transparent 85%,#d6ad7220);
+}
+#ae-codice-salud .ac-leaf__body{
+ flex:1 1 auto;min-height:auto!important;max-height:none!important;
+ padding:12px 0 24px!important;overflow:visible!important;
+ scrollbar-width:none!important;overscroll-behavior:auto!important;
+ position:relative;z-index:1;
+}
+#ae-codice-salud .ac-leaf__heading{
+ position:relative;z-index:1;padding-right:58px!important;
+ min-height:0!important;border-bottom:1px solid #9b76508b;
+}
+#ae-codice-salud .ac-leaf__heading h2{
+ font-size:clamp(23px,1.96vw,33px)!important;line-height:1.2!important;
+ text-shadow:none!important;overflow-wrap:break-word;
+}
+#ae-codice-salud .ac-leaf__body p{
+ font-size:clamp(17px,1.16vw,20px)!important;
+ line-height:1.7!important;
+ hyphens:auto;overflow-wrap:break-word;
+}
+#ae-codice-salud .ac-leaf__foot{
+ margin-top:auto;position:relative;z-index:1;border-top-color:#9c7858ac;
+}
+#ae-codice-salud .ac-leaf__frame::after{display:none}
+#ae-codice-salud .ac-folio-corner{
+ position:absolute;top:13px;right:clamp(14px,2.1vw,35px);
+ width:clamp(42px,3.5vw,62px);height:clamp(42px,3.5vw,62px);
+ opacity:.66;pointer-events:none;z-index:2;
+}
+#ae-codice-salud .ac-folio-corner img{width:100%;height:100%;object-fit:contain;filter:sepia(.4) saturate(.62)}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading::after{opacity:.2}
+
+/* Navegación física en los cantos, a media altura; idéntico asset en espejo. */
+#ae-codice-salud .ac-edge-controls{position:absolute;inset:0;z-index:35;pointer-events:none}
+#ae-codice-salud .ac-edge-controls .ac-turn{
+ position:absolute;top:53%;width:94px!important;height:94px!important;
+ min-width:94px!important;min-height:94px!important;padding:0!important;
+ display:flex!important;align-items:center;justify-content:center;
+ background:transparent!important;border:0!important;box-shadow:none!important;
+ filter:drop-shadow(0 4px 4px #100d0a8a);pointer-events:auto;
+ transform:translateY(-50%)!important;transition:filter .17s,opacity .17s,transform .17s!important;
+}
+#ae-codice-salud .ac-edge-controls .ac-turn--prev{left:-72px}
+#ae-codice-salud .ac-edge-controls .ac-turn--next{right:-72px}
+#ae-codice-salud .ac-edge-controls .ac-turn img{
+ display:block!important;width:82px!important;height:82px!important;
+ max-width:82px!important;max-height:82px!important;object-fit:contain!important;
+}
+#ae-codice-salud .ac-edge-controls .ac-turn--prev img{transform:scaleX(-1)}
+#ae-codice-salud .ac-edge-controls .ac-turn:hover:not(:disabled){filter:brightness(1.23) drop-shadow(0 5px 5px #100d0aa2)!important;transform:translateY(-50%) scale(1.075)!important}
+#ae-codice-salud .ac-edge-controls .ac-turn:disabled{opacity:.21!important;pointer-events:none}
+
+/* Cintas que salen del canto exterior del libro. En rojo, oro y bronce. */
+#ae-codice-salud .ac-page-markers{
+ position:absolute;z-index:31;right:-44px;top:4.8%;width:50px;
+ display:flex;flex-direction:column;align-items:stretch;gap:4px;
+}
+#ae-codice-salud .ac-page-marker{
+ --ac-tab-dark:#652e30;--ac-tab-bright:#bb7772;
+ width:50px!important;height:33px!important;min-height:33px!important;position:relative;
+ display:flex!important;align-items:center;justify-content:center;
+ background:linear-gradient(90deg,#241710 0%,var(--ac-tab-dark) 21%,var(--ac-tab-bright) 70%,#6d4232 100%)!important;
+ border:1px solid #e1b785aa!important;border-left:3px solid #38251b!important;
+ box-shadow:2px 3px 4px #150e0a88!important;border-radius:2px 10px 10px 2px;
+ padding:2px 6px!important;color:#f7ead4!important;overflow:visible;
+ transform:translateX(0)!important;transition:transform .18s ease,filter .18s ease;
+}
+#ae-codice-salud .ac-page-marker--gold{--ac-tab-dark:#725326;--ac-tab-bright:#c7a65f}
+#ae-codice-salud .ac-page-marker--bronze{--ac-tab-dark:#61452f;--ac-tab-bright:#a78159}
+#ae-codice-salud .ac-page-marker--utility{margin-top:5px;border-top:2px solid #e6c997!important}
+#ae-codice-salud .ac-page-marker img{width:26px!important;height:26px!important;object-fit:contain;filter:drop-shadow(0 1px 1px #180d0ab8)}
+#ae-codice-salud .ac-page-marker.is-active{transform:translateX(9px)!important;filter:brightness(1.16)}
+#ae-codice-salud .ac-page-marker:hover{transform:translateX(8px)!important;filter:brightness(1.25)}
+#ae-codice-salud .ac-page-marker>span{
+ position:absolute;right:100%;top:50%;transform:translateY(-50%);
+ padding:7px 10px;white-space:nowrap;pointer-events:none;
+ font-size:12px;line-height:1.2;font-family:inherit;
+ color:#f4e7c7;background:#32261c;border:1px solid #c2a06a;
+ opacity:0;visibility:hidden;transition:opacity .15s;
+}
+#ae-codice-salud .ac-page-marker:hover>span,
+#ae-codice-salud .ac-page-marker:focus-visible>span{opacity:1;visibility:visible}
+#ae-codice-salud .ac-page-marker:focus-visible{outline:3px solid #edcc87;outline-offset:3px}
+
+/* Índice ornamental de la hoja izquierda, sin imágenes-título. */
+#ae-codice-salud .ac-leaf[data-layout="contents"] .ac-leaf__body{padding-top:0!important}
+#ae-codice-salud .ac-index-chapter{position:relative;min-height:560px;padding:48px 4px 24px}
+#ae-codice-salud .ac-index-ornaments{position:absolute;inset:0;pointer-events:none}
+#ae-codice-salud .ac-index-ornaments img{position:absolute;max-width:none;filter:sepia(.55) saturate(.6);opacity:.32;object-fit:contain}
+#ae-codice-salud .ac-index-ornament--left{width:85px;height:140px;left:-17px;top:0}
+#ae-codice-salud .ac-index-ornament--right{width:80px;height:110px;right:-11px;bottom:15px}
+#ae-codice-salud .ac-index-ornament--corner{width:72px;height:72px;right:-13px;top:-10px;opacity:.45!important}
+#ae-codice-salud .ac-index-cartouche{position:relative;z-index:1;text-align:center;margin:0 0 17px}
+#ae-codice-salud .ac-index-seal{display:block;width:54px!important;height:54px!important;margin:0 auto 6px!important;filter:sepia(.25) saturate(.7)}
+#ae-codice-salud .ac-index-cartouche p{font-size:17px!important;font-style:italic!important;color:#674b34!important;margin:0 0 12px!important}
+#ae-codice-salud .ac-contents-list{
+ position:relative;z-index:1;display:grid;grid-template-columns:1fr;
+ gap:8px;margin:0 11px!important;
+}
+#ae-codice-salud .ac-contents-list .ac-index-entry{
+ display:grid!important;grid-template-columns:48px minmax(0,1fr) 16px;
+ gap:10px;align-items:center;min-height:67px;
+ padding:9px 12px!important;
+ color:#3f2d21!important;text-align:left;
+ border:1px solid #9d754a8c!important;border-radius:2px!important;
+ background:linear-gradient(90deg,#c19b6742,#f5e5c6a8 35%,#cba46b47),
+ url('https://morpheus-eko.github.io/aeternalis/assets/codex/cartelas/placa_navegacion_medieval_01.webp') center/100% 100% no-repeat!important;
+ box-shadow:inset 0 0 0 2px #f9eac659,0 2px 4px #4b34221d;
+}
+#ae-codice-salud .ac-index-entry:hover{filter:brightness(1.08);border-color:#74532d!important}
+#ae-codice-salud .ac-index-entry__symbol{display:block!important;width:43px!important;height:43px!important;object-fit:contain;filter:sepia(.20)}
+#ae-codice-salud .ac-index-entry__text{min-width:0;display:flex;flex-direction:column;gap:2px}
+#ae-codice-salud .ac-index-entry__text strong{font-size:clamp(15px,1.18vw,20px);line-height:1.25}
+#ae-codice-salud .ac-index-entry__text em{font-size:12px!important;font-style:italic;color:#805c3e;white-space:normal!important}
+#ae-codice-salud .ac-index-entry__rule{
+ width:16px;height:36px;background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp') center/contain no-repeat;
+ opacity:.48;
+}
+#ae-codice-salud .ac-index-terminus{width:145px;margin:22px auto 0;opacity:.7;pointer-events:none}
+#ae-codice-salud .ac-index-terminus img{width:100%;height:33px;object-fit:contain}
+
+/* Las figuras permanecen en la hoja ilustrada, no delante de los comentarios clínicos. */
+#ae-codice-salud .ac-folio-display .ac-atlas-grid{margin:12px auto 18px;max-width:680px}
+#ae-codice-salud .ac-atlas-card img{max-height:clamp(210px,25vh,300px)!important}
+#ae-codice-salud .ac-leaf[data-layout="race-notes"] .ac-inset-art,
+#ae-codice-salud .ac-leaf[data-layout="herb"] .ac-inset-art{width:clamp(90px,20%,128px);margin-left:17px}
+#ae-codice-salud .ac-leaf[data-layout="herb-plate"] .ac-figure--botanical img{max-height:clamp(340px,52vh,620px)!important;max-width:85%!important}
+#ae-codice-salud .ac-leaf[data-layout="herb-plate"] .ac-herb-caption{
+ display:flex;align-items:center;gap:9px;border-top:1px solid #ac8158a0;
+ padding:8px 0;margin:8px 0 16px;font-style:italic;color:#60462b;
+}
+#ae-codice-salud .ac-herb-caption img{width:58px;height:46px;object-fit:contain;flex:none}
+#ae-codice-salud .ac-herb-caption p{font-size:14px!important;margin:0!important}
+#ae-codice-salud .ac-clinical-aside{float:right;clear:right;width:min(26%,155px);margin:4px 0 12px 14px}
+#ae-codice-salud .ac-clinical-aside .ac-pathology-art{max-width:100%;display:block;margin:0}
+#ae-codice-salud .ac-clinical-aside .ac-patology-plate{padding:0;border:0;box-shadow:none}
+#ae-codice-salud .ac-clinical-aside .ac-patology-plate img{height:170px}
+#ae-codice-salud .ac-clinical-aside .ac-patology-plate figcaption{font-size:10px}
+#ae-codice-salud .ac-interleaf{display:flex;min-height:470px;align-items:center;justify-content:center;flex-direction:column;gap:24px;opacity:.76}
+#ae-codice-salud .ac-interleaf>img{width:min(55%,220px);max-height:265px;object-fit:contain}
+#ae-codice-salud .ac-interleaf__line{width:65%}
+#ae-codice-salud .ac-interleaf__line img{width:100%;height:45px;object-fit:contain}
+#ae-codice-salud .ac-interleaf p{text-align:center;font-style:italic!important;max-width:260px!important}
+
+/* El panel auxiliar se ancla al marco, sin tapar el índice por defecto. */
+#ae-codice-salud .ac-drawer{z-index:40;right:58px;top:100px;max-height:min(76vh,780px);overflow:auto}
+#ae-codice-salud .ac-drawer--notes>img{width:78px;height:64px;margin:4px auto 13px}
+#ae-codice-salud .ac-drawer--notes h3{font-family:inherit;color:#f3dbaf;font-size:21px}
+#ae-codice-salud .ac-drawer__return{border:1px solid #a68a5a;background:#47372a;color:#f2dcbb;padding:10px 12px}
+#ae-codice-salud .ac-colophon{font-size:11px;padding-top:10px}
+
+@container (max-width:1179px){
+ #ae-codice-salud .ac-spread{grid-template-columns:minmax(0,1fr)!important}
+ #ae-codice-salud .ac-spread::after{display:none!important}
+ #ae-codice-salud .ac-leaf{min-height:760px}
+ #ae-codice-salud .ac-leaf__frame{min-height:730px;padding:36px clamp(23px,5vw,52px) 44px!important}
+ #ae-codice-salud .ac-book-assembly{margin:0 clamp(32px,5vw,56px)}
+ #ae-codice-salud .ac-edge-controls .ac-turn{width:76px!important;height:76px!important;min-width:76px!important;min-height:76px!important}
+ #ae-codice-salud .ac-edge-controls .ac-turn img{width:70px!important;height:70px!important}
+ #ae-codice-salud .ac-edge-controls .ac-turn--prev{left:-49px}
+ #ae-codice-salud .ac-edge-controls .ac-turn--next{right:-49px}
+ #ae-codice-salud .ac-page-markers{right:-32px;top:4%}
+ #ae-codice-salud .ac-page-marker{width:40px!important;height:31px!important;min-height:31px!important}
+ #ae-codice-salud .ac-page-marker img{width:24px!important;height:24px!important}
+}
+@container (max-width:600px){
+ #ae-codice-salud .ac-shell{padding:5px!important}
+ #ae-codice-salud .ac-mast h1{font-size:25px!important}
+ #ae-codice-salud .ac-mast>span{font-size:9px}
+ #ae-codice-salud .ac-mast p{font-size:12px!important}
+ #ae-codice-salud .ac-book-assembly{margin:0 31px}
+ #ae-codice-salud .ac-volume{padding:5px!important}
+ #ae-codice-salud .ac-leaf{padding:8px!important;min-height:700px}
+ #ae-codice-salud .ac-leaf__frame{min-height:680px;padding:24px 18px 36px!important}
+ #ae-codice-salud .ac-leaf h2{font-size:24px!important}
+ #ae-codice-salud .ac-leaf__body p{font-size:16px!important;line-height:1.6!important}
+ #ae-codice-salud .ac-toolbar>.ac-turn,#ae-codice-salud .ac-toolbar .ac-compass{width:45px!important;height:45px!important;min-width:45px!important}
+ #ae-codice-salud .ac-toolbar>.ac-turn img,#ae-codice-salud .ac-toolbar .ac-compass img{width:43px!important;height:43px!important}
+ #ae-codice-salud .ac-edge-controls .ac-turn{width:57px!important;height:57px!important;min-width:57px!important;min-height:57px!important}
+ #ae-codice-salud .ac-edge-controls .ac-turn img{width:52px!important;height:52px!important}
+ #ae-codice-salud .ac-edge-controls .ac-turn--prev{left:-37px}
+ #ae-codice-salud .ac-edge-controls .ac-turn--next{right:-37px}
+ #ae-codice-salud .ac-page-markers{right:-25px;gap:3px;top:3%}
+ #ae-codice-salud .ac-page-marker{width:34px!important;height:29px!important;min-height:29px!important}
+ #ae-codice-salud .ac-page-marker img{width:21px!important;height:21px!important}
+ #ae-codice-salud .ac-index-chapter{padding-top:36px}
+ #ae-codice-salud .ac-contents-list{margin:0!important;gap:7px}
+ #ae-codice-salud .ac-contents-list .ac-index-entry{grid-template-columns:35px minmax(0,1fr) 0;min-height:61px;padding:8px 6px!important;gap:8px}
+ #ae-codice-salud .ac-index-entry__symbol{width:33px!important;height:33px!important}
+ #ae-codice-salud .ac-index-entry__rule{display:none}
+ #ae-codice-salud .ac-index-entry__text strong{font-size:15px}
+ #ae-codice-salud .ac-index-ornament--left{width:60px;opacity:.2}
+ #ae-codice-salud .ac-clinical-aside{width:24%;margin-left:8px}
+ #ae-codice-salud .ac-clinical-aside .ac-patology-plate img{height:130px}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-codice-salud .ac-edge-controls .ac-turn,
+ #ae-codice-salud .ac-page-marker{transition:none!important}
 }
