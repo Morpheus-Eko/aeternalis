@@ -40,7 +40,7 @@
    var city=new Map(sites.map(function(p){return [p.id,p];}));
    var original=api.getEdges().filter(function(e){return e.kind!=='sea'&&city.has(e.from)&&city.has(e.to);});
    var originalById=new Map(original.map(function(e){return [e.id,e];}));
-   var state={active:false,drawing:false,selected:'',waterOverride:false};
+   var state={active:false,drawing:false,selected:'',waterOverride:true};
    function key(c){return c[0]+','+c[1];}
    function center(c){return [PX+1.5*R*c[0],PY+H*(c[1]+c[0]/2)];}
    function loc(c){var a=center(c);return L.latLng(-a[1],a[0]);}
@@ -88,7 +88,7 @@
      '<button type="button" class="ae-mc-primary" id="ae-mc-start">Empezar / continuar dibujo</button>'+
      '<div class="ae-mc-two"><button type="button" id="ae-mc-finish">Finalizar cerca del destino</button><button type="button" id="ae-mc-undo">Deshacer última pincelada</button></div>'+
      '<div class="ae-mc-two"><button type="button" id="ae-mc-pause">Pausar para navegar</button><button type="button" id="ae-mc-clear">Borrar trazado</button></div>'+
-     '<label class="ae-mc-check"><input id="ae-mc-water" type="checkbox"> Permitir cruces de hexágonos no clasificados como suelo (puentes, pasos o errores del mapa)</label>'+
+     '<label class="ae-mc-check"><input id="ae-mc-water" type="checkbox" checked> Permitir cruces de hexágonos no clasificados como suelo (puentes, pasos o errores del mapa)</label>'+
      '<div class="ae-mc-status" id="ae-mc-status" aria-live="polite"></div></section>'+
      '<section><h3>Compartir el resultado</h3><p class="ae-mc-tip">Los dibujos se guardan en este navegador y se exportan aunque estén incompletos. No se altera ninguna ruta publicada.</p>'+
      '<label class="ae-mc-check"><input type="checkbox" id="ae-mc-reviewed"> He revisado personalmente este trazado sobre el mapa</label>'+
