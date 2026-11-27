@@ -207,67 +207,86 @@ body.aep-preview{background:radial-gradient(ellipse at 50% 0%,#32392b,#10120f 40
 @media(prefers-reduced-motion:reduce){
  #ae-pestilencias .aep-entry,#ae-pestilencias .aep-tab,#ae-pestilencias .aep-calc{transition:none;transform:none}
 }
-
-
-/* v1.2 · Toda la tipografía proviene de Foroactivo.
- * Ningún título, pestaña, botón ni subtítulo es imagen.
- * Conserva solo las ilustraciones para enfermedad y medicina.
- */
-#ae-pestilencias,
-#ae-pestilencias :where(*, *::before, *::after){
- font-family:inherit!important;
-}
+/* v1.3 · Títulos tipográficos del foro y navegación ilustrada con assets góticos. */
+#ae-pestilencias{font-family:inherit!important}
+#ae-pestilencias .aep-header__title,
+#ae-pestilencias .aep-volume__index-head h1,
+#ae-pestilencias .aep-volume__reader-head h2,
+#ae-pestilencias .aep-entry__text strong,
+#ae-pestilencias .aep-sheet h3,
+#ae-pestilencias .aep-sheet h4{font-family:inherit!important}
 #ae-pestilencias .aep-header__title{
- margin:17px auto 9px;
- max-width:1000px;
- color:#ead5a6;
- font-size:clamp(31px,4.2vw,60px);
- font-style:normal;
- font-weight:700;
- line-height:1.1;
- text-wrap:balance;
- text-shadow:0 4px 15px #0009;
+ font-family:inherit!important;font-size:clamp(31px,4.2vw,60px);
+ font-weight:700;line-height:1.1;text-wrap:balance;color:#ead5a6;
+ text-shadow:0 4px 15px #0009;margin:17px auto 9px
 }
 #ae-pestilencias .aep-header{padding:16px 5px 25px}
 #ae-pestilencias .aep-header p{margin:10px auto 0}
-#ae-pestilencias .aep-tabbar{
- display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px
+#ae-pestilencias .aep-bookbar__back{
+ display:flex;align-items:center;gap:7px;padding:0 8px 0 0;
+ min-height:49px;border:0;background:transparent!important;
+ color:#e9d4ae;font-size:13px;box-shadow:none
 }
-#ae-pestilencias .aep-tab{
- display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;
- width:100%;min-height:50px;padding:10px 9px;
- border:1px solid #8c6a42;border-bottom:2px solid #a38253;
- border-radius:4px 4px 1px 1px;
- color:#e6d4b3;background:linear-gradient(170deg,#55402b,#241d1c);
- font-size:clamp(13px,1.35vw,18px);font-weight:700;line-height:1.25;
- filter:none;box-shadow:inset 0 1px 0 #f0ce9040,0 4px 10px #0007;
+#ae-pestilencias .aep-bookbar__back img{
+ width:52px;height:49px;object-fit:contain;filter:drop-shadow(0 3px 5px #000b)
 }
-#ae-pestilencias .aep-tab:hover{
- filter:none;transform:translateY(-2px);
- color:#fff2cc;background:linear-gradient(170deg,#755436,#38291f);
+#ae-pestilencias .aep-bookbar__back:hover{
+ background:transparent!important;color:#fff0cb;filter:brightness(1.12)
 }
-#ae-pestilencias .aep-tab.is-active{
- filter:none;color:#fff0cc;background:linear-gradient(170deg,#6e522c,#403323);
- border-color:#c6a46f;border-bottom:3px solid var(--aep-disease);
- box-shadow:inset 0 1px 0 #eed4a553,0 0 15px #cb9e4540;
+#ae-pestilencias .aep-page-turn{
+ display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+ align-items:center;gap:10px;padding:17px 4px 8px
 }
-#ae-pestilencias .aep-tab__mark{color:#dfc493;font-size:15px}
+#ae-pestilencias .aep-page-turn .aep-page-turn__folio{
+ display:block;margin:auto;padding:8px 9px;max-width:160px;
+ color:#bca789;letter-spacing:.1em;font-size:11px;line-height:1.45;
+ text-align:center;border-top:1px solid #a7895c55;border-bottom:1px solid #a7895c55
+}
+#ae-pestilencias .aep-page-turn button.aep-illustrated-turn{
+ display:flex;flex-direction:column;align-items:center;justify-content:center;
+ min-width:0;min-height:104px;gap:4px;padding:2px 4px;
+ border:0!important;background:none!important;box-shadow:none!important;
+ color:#e8d4b4!important;text-align:center;
+ transition:filter .18s ease,transform .18s ease
+}
+#ae-pestilencias .aep-illustrated-turn img{
+ display:block;width:clamp(90px,14vw,184px);
+ height:clamp(63px,9vw,106px);object-fit:contain;
+ filter:drop-shadow(0 4px 6px #000b)
+}
+#ae-pestilencias .aep-illustrated-turn span{
+ display:block;max-width:210px;font-size:clamp(10px,1.1vw,14px);
+ line-height:1.3;white-space:normal;color:#dfcbab
+}
+#ae-pestilencias .aep-illustrated-turn--previous{justify-self:start}
+#ae-pestilencias .aep-illustrated-turn--next{justify-self:end}
+#ae-pestilencias .aep-page-turn button.aep-illustrated-turn:hover{
+ background:none!important;filter:brightness(1.16);transform:translateY(-3px)
+}
+#ae-pestilencias .aep-page-turn button.aep-illustrated-turn:active{transform:translateY(0)}
+#ae-pestilencias .aep-tab{border:1px solid transparent;background:transparent;filter:brightness(.75) saturate(.8)}
+#ae-pestilencias .aep-tab img{width:100%;height:auto;max-height:70px}
+#ae-pestilencias .aep-tab:hover,#ae-pestilencias .aep-tab.is-active{
+ filter:brightness(1.1) saturate(1.04);background:radial-gradient(ellipse,#cbb37b16,transparent 75%)
+}
 #ae-pestilencias .aep-calc{
- display:flex;align-items:center;justify-content:center;gap:12px;
- width:min(100%,430px);min-height:58px;
- padding:13px 20px;border:1px solid #c09b62;border-radius:4px;
- color:#eed9b0;background:linear-gradient(170deg,#64432a,#35251d);
- font-size:clamp(16px,1.8vw,20px);font-weight:700;
- box-shadow:inset 0 1px 0 #f5d99d55,0 5px 9px #3b2a2070;
+ display:block;width:min(100%,430px);min-height:0;padding:0;
+ border:none;background:transparent;box-shadow:none;
+ filter:drop-shadow(0 4px 8px #37261966)
 }
+#ae-pestilencias .aep-calc img{display:block;width:100%;height:auto}
 #ae-pestilencias .aep-calc:hover{
- color:#fff1ce;background:linear-gradient(170deg,#876039,#503221);
- filter:brightness(1.04);transform:translateY(-1px)
+ filter:brightness(1.12) drop-shadow(0 6px 12px #37261999)
 }
-@media(max-width:600px){
- #ae-pestilencias .aep-header__title{font-size:clamp(29px,7vw,40px)}
- #ae-pestilencias .aep-tabbar{gap:5px}
- #ae-pestilencias .aep-tab{padding:9px 4px;font-size:12px;min-height:44px;gap:3px}
- #ae-pestilencias .aep-tab__mark{display:none}
- #ae-pestilencias .aep-calc{font-size:16px}
+@media(max-width:650px){
+ #ae-pestilencias .aep-header__title{font-size:clamp(28px,7vw,40px)}
+ #ae-pestilencias .aep-page-turn{gap:3px;padding:13px 0 5px}
+ #ae-pestilencias .aep-illustrated-turn img{width:clamp(73px,22vw,112px);height:64px}
+ #ae-pestilencias .aep-illustrated-turn span{font-size:10px;max-width:115px}
+ #ae-pestilencias .aep-page-turn .aep-page-turn__folio{font-size:9px;letter-spacing:0;padding:4px}
+ #ae-pestilencias .aep-bookbar__back img{width:40px}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-pestilencias .aep-illustrated-turn{transition:none}
+ #ae-pestilencias .aep-page-turn button.aep-illustrated-turn:hover{transform:none}
 }
