@@ -6,19 +6,15 @@ Biblioteca reservada para los **9 assets originales e individualizados** del nue
 
 **Publicados los nueve WebP en la rama `main`.** Todos tienen rutas públicas para GitHub Pages. No se alteró el CSS ni el JS maestro.
 
-## Subida
+## Uso en el foro
 
-1. Descargar y descomprimir el archivo **aeternalis-pestilencias-subida-github.zip** de la conversación de trabajo.
-2. Abrir esta carpeta en GitHub y pulsar **Add file → Upload files**.
-3. Seleccionar los nueve archivos `.webp` de la carpeta descomprimida `assets/pestilencias/` (sin cambiar sus nombres).
-4. Confirmar la subida y comprobar que los nueve archivos se ven en GitHub.
-5. Actualizar los estados del catálogo a `published` e incorporarlos al índice global cuando se verifiquen los archivos publicados.
+Los nueve WebP están publicados y están registrados en `assets/catalogo.json` y en este directorio. No es necesario volver a cargarlos a GitHub.
 
 La ruta final para el código del foro es `https://morpheus-eko.github.io/aeternalis/assets/pestilencias/NOMBRE.webp`.
 
 El **paquete de originales PNG** se entrega por separado para conservar máxima resolución y futuras modificaciones. No conviene cargarlos todos en las páginas del foro.
 
-## Recursos previstos
+## Recursos publicados
 
 - `fondo-hoja-tratado-medico.webp` — Fondo de pergamino médico · 1086 × 1448
 - `cabecera-codice-pestilencias.webp` — Cabecera del Códice · 2172 × 724 · transparencia
