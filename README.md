@@ -25,7 +25,7 @@ El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-cam
 - [Cargador selectivo para Foroactivo](foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js)
 - [Evidencia hexagonal](data/atlas/caminos-evidencia.json) y [revisión de 134 rutas](data/atlas/caminos-auditoria.json)
 
-**Dibujo manual:** [Abrir editor de caminos para el autor](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&dibujar=1). Permite crear caminos entre ciudades, marcar las curvas hexágono por hexágono, deshacer trazos y exportar un JSON con rutas terminadas o incompletas para posterior integración. Instala usando [el cargador v1.2 del trazador](foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js).
+**Dibujo manual:** [Abrir editor de caminos para el autor](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&dibujar=1). Permite crear caminos entre ciudades, marcar las curvas hexágono por hexágono, deshacer trazos y exportar un JSON con rutas terminadas o incompletas para posterior integración. Instala usando [el cargador v1.3 del trazador](foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js).
 
 ## Estado
 Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **165 conexiones** del Atlas son propuestas, no carreteras confirmadas.
