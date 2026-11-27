@@ -1,4 +1,4 @@
-/* AETERNALIS · Códice de las Pestilencias v1.4 · CSS y reglamento separados. */
+/* AETERNALIS · Códice de las Pestilencias v1.5 · CSS y reglamento separados. */
 (function codexModule(){
 'use strict';
 const root=document.getElementById('ae-pestilencias');
@@ -8,7 +8,8 @@ const BASE='https://morpheus-eko.github.io/aeternalis/';
 const ASSET=BASE+'assets/pestilencias/';
 const NAV=BASE+'assets/codex/botones/gotico/';
 const CODEX=BASE+'assets/codex/esculturas/';
-const DATA=BASE+'data/pestilencias/enfermedades.json?v=1.4.0';
+const DATA=BASE+'data/pestilencias/enfermedades.json?v=1.5.0';
+const TABS=['sintomas','exposicion','expediente'];
 const state={data:null,id:'fd',tab:'sintomas',mode:'indice',race:'humano',vit:15,prior:0,potion:false,spell:false,sequela:0,report:null,message:''};
 function esc(value){return String(value==null?'':value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function d(){return state.data.diseases.find(item=>item.id===state.id)||state.data.diseases[0];}
@@ -95,7 +96,7 @@ function indexPage(){
  const entries=state.data.diseases.map(badge).join('');
  return '<main class="aep-volume aep-volume--index" aria-label="Índice de las pestilencias">'+
  '<div class="aep-volume__index-head"><span class="aep-kicker">VOLUMEN I · ARCHIVO SANITARIO DE AETERNALIS</span><h1>Índice de las afecciones</h1>'+
- '<p>'+esc(state.data.introduction[0])+'</p><p>'+esc(state.data.introduction[1])+'</p><p>Elige uno de los legajos lacrados para examinar las notas del médico y las reglas de exposición.</p>'+
+ '<p>'+esc(state.data.introduction[0])+'</p><p>'+esc(state.data.introduction[1])+'</p><p>Elige uno de los legajos lacrados para examinar las notas del médico y las reglas de exposición. Los nueve folios también pueden recorrerse de manera continua.</p>'+
  '<div class="aep-ink-divider" aria-hidden="true">✥　✥　✥</div></div>'+
  '<div class="aep-entry-list">'+entries+'</div>'+
  '<aside class="aep-index-marginalia"><b>ADVERTENCIA DEL ARCHIVISTA</b><p>Las notas conservan los límites del conocimiento de quienes las escribieron. El origen de algunas afecciones sigue siendo una conjetura. Ninguna de estas páginas sustituye las resoluciones del staff ni los dados oficiales.</p></aside>'+
@@ -125,10 +126,12 @@ function bustGallery(){
  '<figcaption>Estatuaria comparativa del Códex · representaciones artísticas, no estudios clínicos.</figcaption></figure>';
 }
 function readerPage(){
- const item=d(),next=state.tab==='sintomas'?'exposicion':state.tab==='exposicion'?'expediente':'indice';
- const nextTitle=next==='exposicion'?'Abrir pliego II: Exposición':next==='expediente'?'Abrir pliego III: Expediente':'Cerrar legajo y volver al índice';
- const previousTitle=state.tab==='sintomas'?'Volver al índice':state.tab==='exposicion'?'Volver a pliego I: Síntomas':'Volver a pliego II: Exposición';
- const previousAction=state.tab==='sintomas'?'index':'previous';
+ const item=d();
+ const position=state.data.diseases.findIndex(candidate=>candidate.id===state.id)*TABS.length+TABS.indexOf(state.tab);
+ const total=state.data.diseases.length*TABS.length;
+ const first=position===0,last=position===total-1;
+ const previousTitle=first?'Volver al índice':state.tab==='sintomas'?'Volver al legajo anterior':'Volver al pliego anterior';
+ const nextTitle=last?'Cerrar el volumen y volver al índice':state.tab==='expediente'?'Continuar al siguiente legajo':'Avanzar al siguiente pliego';
  return '<div class="aep-bookbar"><button class="aep-bookbar__back" type="button" data-action="index" aria-label="Volver al índice"><img src="'+NAV+'boton_indice_gotico_01.webp" alt="" loading="lazy" decoding="async"><span>Volver al índice</span></button>'+
  '<span>REGISTRO '+esc(item.code)+' · LEGAJO BAJO CUSTODIA</span></div>'+
  '<main class="aep-volume aep-volume--reader" aria-label="Expediente médico de '+esc(item.name)+'">'+
@@ -150,10 +153,10 @@ function readerPage(){
  '<article class="aep-sheet" aria-label="'+(state.tab==='sintomas'?'Observaciones clínicas':state.tab==='exposicion'?'Cámara de exposición':'Expediente de secuelas')+'">'+
  '<div class="aep-sheet__intro">'+chapter()+'</div></article>'+
  '<nav class="aep-page-turn" aria-label="Navegación entre pliegos">'+
- bookTurn(previousAction,previousAction==='index'?'boton_indice_gotico_01.webp':'boton_retroceder_gotico_02.webp',previousTitle,'previous')+
- '<span class="aep-page-turn__folio">EL CÓDICE · '+(state.tab==='sintomas'?'PLIEGO I':state.tab==='exposicion'?'PLIEGO II':'PLIEGO III')+'</span>'+
- bookTurn(next==='indice'?'index':'next',next==='indice'?'boton_indice_gotico_01.webp':'boton_avanzar_gotico_01.webp',nextTitle,'next')+'</nav>'+
- '<p class="aep-reader-disclaimer">Esta consulta no sustituye las tiradas oficiales ni las decisiones del staff.</p>'+
+ bookTurn(first?'index':'previous',first?'boton_indice_gotico_01.webp':'boton_retroceder_gotico_02.webp',previousTitle,'previous')+
+ '<span class="aep-page-turn__folio">FOLIO '+(position+1)+' DE '+total+' · '+(state.tab==='sintomas'?'PLIEGO I':state.tab==='exposicion'?'PLIEGO II':'PLIEGO III')+'</span>'+
+ bookTurn(last?'index':'next',last?'boton_indice_gotico_01.webp':'boton_avanzar_gotico_01.webp',nextTitle,'next')+'</nav>'+
+ '<p class="aep-reader-disclaimer">Los folios continúan de una afección a la siguiente. Puedes usar las flechas izquierda y derecha mientras el libro tiene el foco. Esta consulta no sustituye las tiradas oficiales ni las decisiones del staff.</p>'+
  '</section></div></main>';
 }
 
@@ -177,6 +180,24 @@ function returnToTop(){
 }
 
 function notify(message){state.message=message;const n=root.querySelector('#aep-feedback');if(n)n.textContent=message;}
+function turnPage(direction){
+ const position=state.data.diseases.findIndex(item=>item.id===state.id)*TABS.length+TABS.indexOf(state.tab);
+ const next=position+direction;
+ if(next<0||next>=state.data.diseases.length*TABS.length){
+  state.mode='indice';state.tab=TABS[0];
+ }else{
+  const entry=state.data.diseases[Math.floor(next/TABS.length)];
+  if(entry.id!==state.id)state.sequela=0;
+  state.id=entry.id;state.tab=TABS[next%TABS.length];state.mode='lectura';
+ }
+ state.report=null;state.message='';render();returnToTop();
+}
+root.addEventListener('keydown',function(ev){
+ if(state.mode!=='lectura'||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;
+ if(ev.key!=='ArrowLeft'&&ev.key!=='ArrowRight')return;
+ if(ev.target.closest('input,select,textarea,summary,[contenteditable="true"]'))return;
+ ev.preventDefault();turnPage(ev.key==='ArrowRight'?1:-1);
+});
 root.addEventListener('click',function(ev){
  const select=ev.target.closest('[data-disease]');
  if(select){state.id=select.dataset.disease;state.mode='lectura';state.tab='sintomas';state.sequela=0;state.report=null;state.message='';render();returnToTop();return;}
@@ -185,8 +206,8 @@ root.addEventListener('click',function(ev){
  const action=ev.target.closest('[data-action]');
  if(!action)return;
  if(action.dataset.action==='index'){state.mode='indice';state.tab='sintomas';state.message='';state.report=null;render();returnToTop();return;}
- if(action.dataset.action==='next'){state.tab=state.tab==='sintomas'?'exposicion':'expediente';state.report=null;state.message='';render();returnToTop();return;}
- if(action.dataset.action==='previous'){state.tab=state.tab==='expediente'?'exposicion':'sintomas';state.report=null;state.message='';render();returnToTop();return;}
+ if(action.dataset.action==='next'){turnPage(1);return;}
+ if(action.dataset.action==='previous'){turnPage(-1);return;}
  if(action.dataset.action==='calculate'){state.report=calc();const n=root.querySelector('#aep-result');if(n)n.innerHTML=reportMarkup(state.report);notify('Cálculo orientativo actualizado.');return;}
  if(action.dataset.action==='copy'){
   const disease=d(),effect=state.sequela>0?disease.stages[state.sequela-1].effect:'Sin secuelas.';
@@ -210,7 +231,7 @@ function load(){
  root.innerHTML='<p class="aep-loading" role="status">Abriendo los expedientes lacrados…</p>';
  fetch(DATA,{mode:'cors',credentials:'omit',cache:'default'}).then(response=>{if(!response.ok)throw Error('HTTP '+response.status);return response.json();})
  .then(data=>{if(data.schema!=='aeternalis-pestilencias-v1'||!Array.isArray(data.diseases)||data.diseases.length!==3)throw Error('Datos del Códice no compatibles');
- state.data=data;render();window.AeternalisCodicePestilencias={version:'1.4.0',getState:()=>({disease:state.id,tab:state.tab,loaded:true})};})
+ state.data=data;render();window.AeternalisCodicePestilencias={version:'1.5.0',getState:()=>({disease:state.id,tab:state.tab,loaded:true})};})
  .catch(e=>{root.dataset.aepBoot='error';root.innerHTML='<div class="aep-error" role="alert"><h2>No se pudo abrir el Códice.</h2><p>'+esc(e.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/Pestilencias]',e)});
 }
 root.addEventListener('click',ev=>{if(ev.target.closest('[data-action="retry"]'))load()});
