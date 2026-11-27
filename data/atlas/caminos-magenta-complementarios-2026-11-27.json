@@ -1,0 +1,53 @@
+{
+  "schema": "aeternalis-correcciones-terrestres-complementarias-v1",
+  "revision": "2026-11-27",
+  "source": "Mapa_Nelson.png (magenta) y Mapa_3.3.png (rótulos y ríos)",
+  "town": {
+    "id": "place-319",
+    "name": "Ouriler",
+    "x": 440,
+    "y": 1195
+  },
+  "routes": [
+    {
+      "id": "atlas-ouriler-eryelia",
+      "from": "place-319",
+      "to": "place-315",
+      "controlPoints": 7,
+      "reason": "Camino costero arbolado de Ouriler a Er’yelia, siguiendo los puntos magenta y rodeando los entrantes del litoral."
+    },
+    {
+      "id": "atlas-ouriler-rhori",
+      "from": "place-319",
+      "to": "place-085",
+      "controlPoints": 13,
+      "reason": "Acceso de Ouriler hacia el corredor septentrional del bosque de Galanor; calco del trazado magenta."
+    },
+    {
+      "id": "atlas-lothom-volker-costa-sur",
+      "from": "place-041",
+      "to": "place-039",
+      "controlPoints": 8,
+      "reason": "Carretera litoral al sur del Bosque de la Niebla entre Lothom y Puerto Volker; sigue la ribera y evita el paso por las montañas."
+    },
+    {
+      "id": "atlas-ifnolir-fjord-norte",
+      "from": "place-080",
+      "to": "place-022",
+      "controlPoints": 7,
+      "reason": "Ramal hacia el noroeste desde Ifnolir y los pasos de Fjjord, siguiendo el eje de puntos magenta."
+    },
+    {
+      "id": "atlas-ifnolir-fjellgard-norte",
+      "from": "place-080",
+      "to": "place-013",
+      "controlPoints": 9,
+      "reason": "Ramal hacia el norte desde Ifnolir a Fortaleza Fjellgard por los pasos montañosos existentes en el mapa."
+    }
+  ],
+  "notes": [
+    "El camino Lothom-Puerto Volker sigue el borde sur del bosque, no el paso septentrional existente.",
+    "Se mantienen las geometrías terrestres de la revisión precedente salvo los nuevos tramos.",
+    "Las rutas marítimas se revisan por separado; no se consideran automáticamente navegables todos los cauces azules."
+  ]
+}

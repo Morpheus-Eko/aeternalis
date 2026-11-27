@@ -680,5 +680,28 @@
     "symbolNote": "Glifo elf_golden: 7×7 píxeles, área=43, relleno=0.88",
     "cartographyReview": "precalibrado_2048",
     "revisionDelta": 27.3
+  },
+  {
+    "id": "place-319",
+    "name": "Ouriler",
+    "x": 440,
+    "y": 1195,
+    "faction": "elf",
+    "description": "",
+    "population": "",
+    "climate": "",
+    "biome": "Bosque templado y costa",
+    "race": "Altos elfos",
+    "loreStatus": "pendiente",
+    "regionId": "isilme-ithariamil",
+    "kind": "Pueblo",
+    "coordinateStatus": "calibrado_en_imagen_2048",
+    "sourceScheme": "Rótulo y marcador visibles en Mapa_3.3.png, corroborados con la versión de caminos magenta Mapa_Nelson.png.",
+    "sourceX": 440,
+    "sourceY": 1195,
+    "symbolType": "pueblo",
+    "symbolNote": "Marcador dorado al oeste de Er’yelia; dimensiones y topología aproximadas a partir del raster.",
+    "cartographyReview": "raster_3_3_revisado_2026_11_27",
+    "revisionDelta": 0
   }
 ]

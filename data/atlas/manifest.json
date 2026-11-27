@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-trazado-magenta-mapa-nelson-v1",
+  "revision": "2026-11-27-ouriler-lothom-ifnolir-y-navegacion-revision",
   "counts": {
-    "places": 121,
+    "places": 122,
     "regions": 26,
-    "roads": 167,
+    "roads": 172,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 111,
@@ -30,8 +30,9 @@
     "avalonNewCoastalRoads": 4,
     "yugenCities": 3,
     "navAccessPendingValidation": 10,
-    "roadTracedMagenta": 101,
-    "roadPendingMagentaReview": 35
+    "roadTracedMagenta": 106,
+    "roadPendingMagentaReview": 35,
+    "roadNewMagentaConnections": 5
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -65,10 +66,11 @@
     "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json",
     "untracedRoadArchive": "data/atlas/caminos-sin-trazado.json",
     "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json",
-    "roadMagentaAudit": "data/atlas/caminos-magenta-mapa-nelson-2026-11-27.json"
+    "roadMagentaAudit": "data/atlas/caminos-magenta-mapa-nelson-2026-11-27.json",
+    "roadMagentaComplement": "data/atlas/caminos-magenta-complementarios-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Se han recalculado 101 geometrías terrestres siguiendo los caminos magenta del Mapa_Nelson.png, alineado al raster 2048x1571. 35 aristas conservan su geometría anterior por falta de calco automático fiable. Las 31 conexiones marítimas y el número total de aristas permanecen intactos.",
+  "note": "Ouriler incorporado desde Mapa 3.3 y cinco caminos terrestres nuevos siguiendo el magenta: dos de Ouriler, Lothom–Puerto Volker por el litoral sur y dos hacia el norte desde Ifnolir. Se conserva el resto de la red, pendiente de revisión adicional de tramos incompletos y navegación.",
   "navalReview": {
     "sourceRaster": "Mapa_3.21(2).png",
     "pendingRaster": "Mapa_3.3.png",

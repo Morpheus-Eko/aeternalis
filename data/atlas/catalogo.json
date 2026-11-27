@@ -37,7 +37,7 @@
     "archivedLoreExcluded": true,
     "geo": "Mapa 3.3: Yūgen reintroducidos; raster adjunto y aún no alojado públicamente.",
     "counts": {
-      "pins": 119,
+      "pins": 120,
       "canonCities": 75
     },
     "v3": true,
@@ -190,6 +190,7 @@
     "place-312",
     "place-313",
     "place-314",
+    "place-319",
     "place-315",
     "poi-santuario-eradil",
     "poi-laberinto-ataras",

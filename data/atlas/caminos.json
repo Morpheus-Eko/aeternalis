@@ -8264,5 +8264,286 @@
       "confidence": "alta_en_raster",
       "status": "geometria_recalculada"
     }
+  },
+  {
+    "id": "atlas-ouriler-eryelia",
+    "from": "place-319",
+    "to": "place-315",
+    "kind": "trail",
+    "terrain": "forest",
+    "via": [
+      [
+        462,
+        1192
+      ],
+      [
+        493,
+        1157
+      ],
+      [
+        522,
+        1162
+      ],
+      [
+        529,
+        1170
+      ],
+      [
+        543,
+        1166
+      ],
+      [
+        572,
+        1187
+      ],
+      [
+        581,
+        1207
+      ]
+    ],
+    "reason": "Camino costero arbolado de Ouriler a Er’yelia, siguiendo los puntos magenta y rodeando los entrantes del litoral.",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_visual_y_dijkstra_sobre_puntos_magenta",
+      "confidence": "alta_en_raster",
+      "checked": "pendiente_validacion_manual",
+      "status": "geometria_recalculada"
+    }
+  },
+  {
+    "id": "atlas-ouriler-rhori",
+    "from": "place-319",
+    "to": "place-085",
+    "kind": "trail",
+    "terrain": "forest",
+    "via": [
+      [
+        462,
+        1192
+      ],
+      [
+        493,
+        1157
+      ],
+      [
+        522,
+        1162
+      ],
+      [
+        532,
+        1170
+      ],
+      [
+        553,
+        1147
+      ],
+      [
+        571,
+        1145
+      ],
+      [
+        578,
+        1123
+      ],
+      [
+        591,
+        1117
+      ],
+      [
+        598,
+        1106
+      ],
+      [
+        583,
+        1053
+      ],
+      [
+        593,
+        1022
+      ],
+      [
+        606,
+        1012
+      ],
+      [
+        631,
+        1016
+      ]
+    ],
+    "reason": "Acceso de Ouriler hacia el corredor septentrional del bosque de Galanor; calco del trazado magenta.",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_visual_y_dijkstra_sobre_puntos_magenta",
+      "confidence": "alta_en_raster",
+      "checked": "pendiente_validacion_manual",
+      "status": "geometria_recalculada"
+    }
+  },
+  {
+    "id": "atlas-lothom-volker-costa-sur",
+    "from": "place-041",
+    "to": "place-039",
+    "kind": "road",
+    "terrain": "forest",
+    "via": [
+      [
+        1660,
+        227
+      ],
+      [
+        1671,
+        226
+      ],
+      [
+        1686,
+        238
+      ],
+      [
+        1716,
+        231
+      ],
+      [
+        1737,
+        209
+      ],
+      [
+        1746,
+        210
+      ],
+      [
+        1756,
+        196
+      ],
+      [
+        1790,
+        189
+      ]
+    ],
+    "reason": "Carretera litoral al sur del Bosque de la Niebla entre Lothom y Puerto Volker; sigue la ribera y evita el paso por las montañas.",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_visual_y_dijkstra_sobre_puntos_magenta",
+      "confidence": "alta_en_raster",
+      "checked": "pendiente_validacion_manual",
+      "status": "geometria_recalculada"
+    }
+  },
+  {
+    "id": "atlas-ifnolir-fjord-norte",
+    "from": "place-080",
+    "to": "place-022",
+    "kind": "trail",
+    "terrain": "mountain",
+    "via": [
+      [
+        513,
+        776
+      ],
+      [
+        499,
+        717
+      ],
+      [
+        490,
+        704
+      ],
+      [
+        495,
+        644
+      ],
+      [
+        505,
+        629
+      ],
+      [
+        431,
+        611
+      ],
+      [
+        410,
+        614
+      ]
+    ],
+    "reason": "Ramal hacia el noroeste desde Ifnolir y los pasos de Fjjord, siguiendo el eje de puntos magenta.",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_visual_y_dijkstra_sobre_puntos_magenta",
+      "confidence": "alta_en_raster",
+      "checked": "pendiente_validacion_manual",
+      "status": "geometria_recalculada"
+    }
+  },
+  {
+    "id": "atlas-ifnolir-fjellgard-norte",
+    "from": "place-080",
+    "to": "place-013",
+    "kind": "trail",
+    "terrain": "mountain",
+    "via": [
+      [
+        514,
+        778
+      ],
+      [
+        503,
+        749
+      ],
+      [
+        499,
+        717
+      ],
+      [
+        490,
+        704
+      ],
+      [
+        490,
+        671
+      ],
+      [
+        508,
+        614
+      ],
+      [
+        530,
+        604
+      ],
+      [
+        533,
+        585
+      ],
+      [
+        552,
+        552
+      ]
+    ],
+    "reason": "Ramal hacia el norte desde Ifnolir a Fortaleza Fjellgard por los pasos montañosos existentes en el mapa.",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_visual_y_dijkstra_sobre_puntos_magenta",
+      "confidence": "alta_en_raster",
+      "checked": "pendiente_validacion_manual",
+      "status": "geometria_recalculada"
+    }
   }
 ]
