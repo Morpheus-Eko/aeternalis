@@ -6,6 +6,17 @@ Repositorio público de contenido y código del mundo de rol **Aeternalis**.
 **CSS auxiliar del Supermapa (h5, no vista del mapa):** https://aeternalis.foroactivo.com/h5-supermapa2-0  
 **Sitio de datos (cuando se active GitHub Pages):** https://morpheus-eko.github.io/aeternalis/
 
+## Tomo de Medicina · v2.0
+
+El nuevo **Tomo de Medicina — Códice de la Salud** reúne 88 folios ilustrados: anatomía de ocho razas, dieciséis entradas botánicas de estudio, observaciones y mecánicas de las tres pestilencias del reglamento, dos tablas comparativas, calculadoras y un capítulo de cuidados. El antiguo módulo de Pestilencias se conserva para compatibilidad con publicaciones anteriores.
+
+- [Abrir el Tomo de Medicina](https://morpheus-eko.github.io/aeternalis/codice-salud/)
+- [Documentación, fuentes y guía de instalación](codice-salud/README.md)
+- [HTML mínimo para Foroactivo](foroactivo/HTML_CODICE_SALUD_PEGAR.txt)
+- [Manifiesto de atlas anatómico](assets/medicina/atlas-v01/05_catalogo/manifest_publico.json) y [manifiesto de herbario](assets/medicina/herbario-v01/04_catalogo/manifest_publico.json)
+
+**Integridad editorial:** los grabados botánicos y algunas láminas raciales son estudios preliminares, no nuevas reglas. La fuente reglamentaria de las pestilencias permanece sin modificaciones.
+
 ## Carta Náutica integrada al Supermapa · v2.0
 
 La Carta Náutica funciona como **capa de Leaflet en el Supermapa**, no como parte del Astillero. Incluye **5.965 hexágonos de agua**, **14 corredores precalculados**, **6 polígonos de mares** y planificación dinámica de viajes entre **14 puertos**.
