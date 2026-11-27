@@ -75,6 +75,15 @@ function start(root){
  const esc=escapeText;
  const regionById=new Map(D.regions.map(r=>[r.id,r]));
  const ORIGINAL_COORDS=Object.fromEntries(D.places.map(p=>[p.id,{x:p.x,y:p.y}]));
+  const STALE_PIN_COORDS=Object.freeze({
+    'place-319':{x:440,y:1195},
+    'place-094':{x:729,y:1402}
+  });
+  function isStaleMapPin(id,pos){
+    const prior=STALE_PIN_COORDS[id];
+    return !!(prior&&pos&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&Math.abs(pos.x-prior.x)<1&&Math.abs(pos.y-prior.y)<1);
+  }
+
  const ORIGINAL_REGIONS=Object.fromEntries(D.regions.map(r=>[r.id,r.points]));
  const cityById=new Map(D.places.map(c=>[c.id,c]));
  const factionNames={nordic:'Montaraces',human:'Humanos',dwarf:'Enanos',elf:'Elfos',pirate:'Archipiélago',yugen:'Yūgen',independent:'Territorio independiente'};
@@ -276,7 +285,7 @@ function start(root){
    edges=[...byKey.values()];
   }
  }
-  if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
+  if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&!isStaleMapPin(id,pos)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
  function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:19,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
  if(saved&&(saved.networkVersion||0)<19){
@@ -564,7 +573,7 @@ function start(root){
   edges=v.edges.filter(validEdge);hex=v.hex;currentRoute=null;selectedEdgeId='';
   if(v.regions){for(const [id,raw] of Object.entries(v.regions)){const r=regionById.get(id);if(!r||typeof raw!=='string')continue;const pts=raw.split(/\s+/).filter(Boolean).map(a=>a.split(',').map(Number));if(pts.length<3||pts.some(p=>p.length!==2||p.some(n=>!Number.isFinite(n))))continue;writePoints(r,pts)}renderRegionVertices();}
 
-  for(const [id,pos] of Object.entries(v.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}
+  for(const [id,pos] of Object.entries(v.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&!isStaleMapPin(id,pos)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}
   redrawGrid();rerenderRoutes();saveDraft();renderEditorPanel();banner('Borrador importado correctamente.',3200);
  }).catch(err=>banner('Error de importación: '+err.message,5000));ev.target.value=''}
  function togglePanel(name,force){const route=name==='route',panel=route?routePanel:editorPanel,btn=byId(route?'ae-toggle-route':'ae-toggle-editor');

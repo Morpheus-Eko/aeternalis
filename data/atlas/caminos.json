@@ -7813,29 +7813,22 @@
       {
         "x": 686,
         "y": 1398.3
-      },
-      {
-        "x": 700,
-        "y": 1406.4
-      },
-      {
-        "x": 714,
-        "y": 1414.5
       }
     ],
     "status": "propuesta",
     "origin": "revision_cartografica_costera_2026_11",
-    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades. Llegada ajustada al símbolo de Bahía Hirion en el mapa.",
     "priority": "normal",
     "cartographicEvidence": {
-      "source": "Mapa_3.21(2).png",
+      "source": "Mapa_3.3.png / Mapa_Nelson.png",
       "pigment": "negro",
       "method": "calcado_guiado_por_puntos_y_hexagonos",
       "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
       "hexagons": 11,
       "waterMaskPct": 8.3,
       "confidence": "sugerencia",
-      "checked": "pendiente"
+      "checked": "extremo_situado_en_marcador_impreso",
+      "status": "extremo_recalibrado"
     }
   },
   {
@@ -7899,39 +7892,44 @@
         "y": 1317.5
       },
       {
-        "x": 714,
-        "y": 1333.7
+        "x": 708,
+        "y": 1326
       },
       {
-        "x": 728,
-        "y": 1341.8
+        "x": 699,
+        "y": 1340
       },
       {
-        "x": 728,
-        "y": 1357.9
+        "x": 690,
+        "y": 1355
       },
       {
-        "x": 728,
-        "y": 1374.1
+        "x": 686,
+        "y": 1371
       },
       {
-        "x": 728,
-        "y": 1390.3
+        "x": 686,
+        "y": 1388
+      },
+      {
+        "x": 687,
+        "y": 1399
       }
     ],
     "status": "propuesta",
     "origin": "revision_cartografica_costera_2026_11",
-    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades. Llegada ajustada al símbolo de Bahía Hirion en el mapa.",
     "priority": "normal",
     "cartographicEvidence": {
-      "source": "Mapa_3.21(2).png",
+      "source": "Mapa_3.3.png / Mapa_Nelson.png",
       "pigment": "negro",
       "method": "calcado_guiado_por_puntos_y_hexagonos",
       "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
       "hexagons": 19,
       "waterMaskPct": 5,
       "confidence": "sugerencia",
-      "checked": "pendiente"
+      "checked": "extremo_situado_en_marcador_impreso",
+      "status": "extremo_recalibrado"
     }
   },
   {

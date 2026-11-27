@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-caminos-puntos-xy-fix",
+  "revision": "2026-11-27-ouriler-hirion-precise-position",
   "counts": {
     "places": 122,
     "regions": 26,
@@ -82,5 +82,35 @@
     "maskPatch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
     "waterPatchHexes": 1558,
     "rivers": "Los cauces interiores estrechos se excluyen de rutas navegables hasta validar calado, anchura y continuidad."
+  },
+  "mapPinCalibration": {
+    "source": "Mapa_3.3.png",
+    "changes": [
+      {
+        "id": "place-319",
+        "name": "Ouriler",
+        "from": [
+          440,
+          1195
+        ],
+        "to": [
+          475,
+          1223
+        ]
+      },
+      {
+        "id": "place-094",
+        "name": "Bahía Hirion",
+        "from": [
+          729,
+          1402
+        ],
+        "to": [
+          690,
+          1408
+        ]
+      }
+    ],
+    "note": "Centro del símbolo dorado. Se descartan posiciones históricas idénticas almacenadas en localStorage, conservando ajustes manuales diferentes."
   }
 }

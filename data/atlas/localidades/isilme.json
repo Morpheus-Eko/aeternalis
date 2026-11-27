@@ -440,8 +440,8 @@
   {
     "id": "place-094",
     "name": "Bahía Hirion",
-    "x": 729,
-    "y": 1402,
+    "x": 690,
+    "y": 1408,
     "faction": "elf",
     "description": "",
     "population": "",
@@ -459,19 +459,24 @@
       2102
     ],
     "sourceScheme": "Documento vigente «Esquema Personalización Ciudades y Conflicto»; párrafos originales, sin recortes.",
-    "coordinateStatus": "provisional",
+    "coordinateStatus": "calibrado_en_imagen_2048",
     "extraFacts": [
       [
         "Territorio",
         "Valle de Ithar’iamil"
       ]
     ],
-    "sourceX": 729,
-    "sourceY": 1402,
+    "sourceX": 690,
+    "sourceY": 1408,
     "symbolType": "especial",
-    "symbolNote": "Punto especial reactivado a petición del autor; coordenadas pendientes de comprobación cartográfica fina",
-    "cartographyReview": "visible_pendiente_revision_icono",
-    "revisionDelta": 0
+    "symbolNote": "Punto especial reactivado a petición del autor; coordenadas pendientes de comprobación cartográfica fina · Centro del círculo dorado de Bahía Hirion en la punta costera.",
+    "cartographyReview": "verificado_marcador_dorado_mapa_3_3_2026_11_27",
+    "revisionDelta": 0,
+    "previousMapPosition": {
+      "x": 729,
+      "y": 1402,
+      "reason": "El marcador Leaflet estaba desplazado del círculo dorado original"
+    }
   },
   {
     "id": "place-307",
@@ -684,8 +689,8 @@
   {
     "id": "place-319",
     "name": "Ouriler",
-    "x": 440,
-    "y": 1195,
+    "x": 475,
+    "y": 1223,
     "faction": "elf",
     "description": "",
     "population": "",
@@ -697,11 +702,16 @@
     "kind": "Pueblo",
     "coordinateStatus": "calibrado_en_imagen_2048",
     "sourceScheme": "Rótulo y marcador visibles en Mapa_3.3.png, corroborados con la versión de caminos magenta Mapa_Nelson.png.",
-    "sourceX": 440,
-    "sourceY": 1195,
+    "sourceX": 475,
+    "sourceY": 1223,
     "symbolType": "pueblo",
-    "symbolNote": "Marcador dorado al oeste de Er’yelia; dimensiones y topología aproximadas a partir del raster.",
-    "cartographyReview": "raster_3_3_revisado_2026_11_27",
-    "revisionDelta": 0
+    "symbolNote": "Marcador dorado al oeste de Er’yelia; dimensiones y topología aproximadas a partir del raster. · Centro del círculo dorado de Ouriler en el bosque, fuera del acantilado.",
+    "cartographyReview": "verificado_marcador_dorado_mapa_3_3_2026_11_27",
+    "revisionDelta": 0,
+    "previousMapPosition": {
+      "x": 440,
+      "y": 1195,
+      "reason": "El marcador Leaflet estaba desplazado del círculo dorado original"
+    }
   }
 ]
