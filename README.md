@@ -18,7 +18,7 @@ La Carta Náutica funciona como **capa de Leaflet en el Supermapa**, no como par
 
 ## Caminos originales y editor de hexágonos
 
-El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente**. La auditoría de 134 conexiones fue la primera etapa; la segunda incorporó geometría a 21 conexiones preexistentes y agregó dos nuevos enlaces.
+El [trazador histórico de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente**. La auditoría de 134 conexiones fue la primera etapa; la segunda incorporó geometría a 21 conexiones preexistentes y agregó dos nuevos enlaces.
 
 - [Vista previa: Atlas + Carta Náutica + Caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1)
 - [Metodología, prioridades y manual de instalación](docs/AUDITORIA_Y_TRAZADOR_CAMINOS_3_21.md)
@@ -37,14 +37,24 @@ Se mapearon tres pigmentos que faltaban: **blanco**, **verde oscuro** y **negro*
 
 ## Corrección del litoral élfico y Verdanteyl · 27 de noviembre de 2026
 
-Se reconstruyeron **20 tramos** sobre los puntos impresos, incluso donde las letras del mapa ocultan parte del camino: **Comarca Esmeralda → Molino Blanco → Dulcesidra → Eirae → Guardia Zytheria → Fohn’Veridan** y las costas de **Fallenor, Galanor e Ithar’iamil**. Se agregaron cinco enlaces y se retiraron dos atajos redundantes; el Atlas tiene ahora **170 conexiones**, manteniendo las 31 travesías marítimas sin cambios. El nombre de `place-309` se corrigió de *Silvanys* a **Sylvanis** según el raster.
+Se reconstruyeron **20 tramos** sobre los puntos impresos, incluso donde las letras del mapa ocultan parte del camino: **Comarca Esmeralda → Molino Blanco → Dulcesidra → Eirae → Guardia Zytheria → Fohn’Veridan** y las costas de **Fallenor, Galanor e Ithar’iamil**. En esa fase se agregaron cinco enlaces y se retiraron dos atajos redundantes, alcanzando temporalmente 170 conexiones; la revisión posterior depuró ocho trazados sin continuidad y dejó **162 registros**. El nombre de `place-309` se corrigió de *Silvanys* a **Sylvanis** según el raster.
 
 - [Supermapa con los caminos de costa](https://morpheus-eko.github.io/aeternalis/supermapa-rutas-preview.html)
 - [Auditoría de caminos costeros y criterio de interpolación bajo nombres](docs/REVISION_LITORAL_GALANOR_ITHARIAMIL_2026_11_27.md)
 - [Secuencias de hexágonos y anclajes](data/atlas/caminos-trazados-costeros-2026-11-27.json)
 
+## Supermapa completo: solo rutas trazadas · 27 de noviembre de 2026
+
+El mapa general muestra **131 caminos terrestres hexagonales**, incluidas **97 reconstrucciones** de los antiguos enlaces rectos. Se retiraron 8 propuestas sin continuidad terrestre documentada y se conservaron para revisión separada. Las 31 conexiones marítimas históricas ya no se dibujan como rectas sobre el Atlas: su representación corresponde a la Carta Náutica.
+
+**103 de las 118 localidades** tienen conexión terrestre trazada; las 15 restantes no se enlazan artificialmente cuando no hay camino cartográfico (incluyen puertos, islas y enclaves apartados).
+
+- [Abrir Supermapa completo con caminos trazados](https://morpheus-eko.github.io/aeternalis/supermapa-rutas-preview.html)
+- [Auditoría del reemplazo de líneas rectas y lista de localidades sin caminos](docs/SUPERMAPA_CAMINOS_SIN_RECTAS_2026-11-27.md)
+- [Archivo de conexiones sin trazado terrestre](data/atlas/caminos-sin-trazado.json)
+
 ## Estado
-Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **170 conexiones** actuales del Atlas son propuestas, no carreteras confirmadas; 20 trazados litorales fueron revisados y los demás conservan el estado correspondiente a su auditoría.
+Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Tras integrar los recorridos hexagonales, el Atlas conserva **162 conexiones** (131 terrestres trazadas y 31 registros marítimos históricos) y deja de dibujar las antiguas rectas.
 
 ## Carpetas
 - `data/atlas/localidades/`: fichas completas de ciudades, pueblos y lugares singulares, agrupadas por territorio para edición colaborativa.
