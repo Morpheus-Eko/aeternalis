@@ -434,12 +434,53 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 140,
+        "y": 1180.1
+      },
+      {
+        "x": 140,
+        "y": 1163.9
+      },
+      {
+        "x": 140,
+        "y": 1147.8
+      },
+      {
+        "x": 140,
+        "y": 1131.6
+      },
+      {
+        "x": 140,
+        "y": 1115.4
+      },
+      {
+        "x": 140,
+        "y": 1099.3
+      },
+      {
+        "x": 140,
+        "y": 1083.1
+      },
+      {
+        "x": 126,
+        "y": 1075
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-089"
+    "from": "place-089",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 80,
+      "confidence": "sugerencia",
+      "hexagons": 9,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-035",
@@ -460,12 +501,53 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 140,
+        "y": 1180.1
+      },
+      {
+        "x": 154,
+        "y": 1172
+      },
+      {
+        "x": 168,
+        "y": 1163.9
+      },
+      {
+        "x": 182,
+        "y": 1155.9
+      },
+      {
+        "x": 196,
+        "y": 1147.8
+      },
+      {
+        "x": 210,
+        "y": 1139.7
+      },
+      {
+        "x": 224,
+        "y": 1131.6
+      },
+      {
+        "x": 238,
+        "y": 1123.5
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-089"
+    "from": "place-089",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 50,
+      "confidence": "sugerencia",
+      "hexagons": 9,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-037",
@@ -486,12 +568,61 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 126,
+        "y": 1075
+      },
+      {
+        "x": 140,
+        "y": 1083.1
+      },
+      {
+        "x": 154,
+        "y": 1091.2
+      },
+      {
+        "x": 168,
+        "y": 1099.3
+      },
+      {
+        "x": 168,
+        "y": 1115.4
+      },
+      {
+        "x": 182,
+        "y": 1123.5
+      },
+      {
+        "x": 196,
+        "y": 1131.6
+      },
+      {
+        "x": 210,
+        "y": 1123.5
+      },
+      {
+        "x": 224,
+        "y": 1131.6
+      },
+      {
+        "x": 238,
+        "y": 1123.5
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Conexión secundaria regional propuesta",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-310"
+    "from": "place-310",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 92,
+      "confidence": "sugerencia",
+      "hexagons": 11,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-039",
@@ -876,12 +1007,53 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1190,
+        "y": 1139.7
+      },
+      {
+        "x": 1176,
+        "y": 1131.6
+      },
+      {
+        "x": 1162,
+        "y": 1123.5
+      },
+      {
+        "x": 1162,
+        "y": 1107.4
+      },
+      {
+        "x": 1176,
+        "y": 1099.3
+      },
+      {
+        "x": 1176,
+        "y": 1083.1
+      },
+      {
+        "x": 1162,
+        "y": 1075
+      },
+      {
+        "x": 1162,
+        "y": 1058.9
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-097"
+    "from": "place-097",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "verde_oscuro",
+      "coverage": 90,
+      "confidence": "sugerencia",
+      "hexagons": 9,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-069",
@@ -889,12 +1061,77 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1050,
+        "y": 1220.5
+      },
+      {
+        "x": 1064,
+        "y": 1228.6
+      },
+      {
+        "x": 1078,
+        "y": 1220.5
+      },
+      {
+        "x": 1092,
+        "y": 1228.6
+      },
+      {
+        "x": 1106,
+        "y": 1220.5
+      },
+      {
+        "x": 1106,
+        "y": 1204.3
+      },
+      {
+        "x": 1120,
+        "y": 1212.4
+      },
+      {
+        "x": 1134,
+        "y": 1204.3
+      },
+      {
+        "x": 1148,
+        "y": 1212.4
+      },
+      {
+        "x": 1162,
+        "y": 1220.5
+      },
+      {
+        "x": 1176,
+        "y": 1212.4
+      },
+      {
+        "x": 1190,
+        "y": 1204.3
+      },
+      {
+        "x": 1190,
+        "y": 1188.2
+      },
+      {
+        "x": 1190,
+        "y": 1172
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-060"
+    "from": "place-060",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "verde_oscuro",
+      "coverage": 81,
+      "confidence": "sugerencia",
+      "hexagons": 15,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-070",
@@ -902,12 +1139,69 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1148,
+        "y": 889.1
+      },
+      {
+        "x": 1148,
+        "y": 905.3
+      },
+      {
+        "x": 1162,
+        "y": 913.4
+      },
+      {
+        "x": 1176,
+        "y": 921.4
+      },
+      {
+        "x": 1176,
+        "y": 937.6
+      },
+      {
+        "x": 1176,
+        "y": 953.8
+      },
+      {
+        "x": 1176,
+        "y": 969.9
+      },
+      {
+        "x": 1176,
+        "y": 986.1
+      },
+      {
+        "x": 1176,
+        "y": 1002.3
+      },
+      {
+        "x": 1162,
+        "y": 1010.4
+      },
+      {
+        "x": 1162,
+        "y": 1026.5
+      },
+      {
+        "x": 1148,
+        "y": 1034.6
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-059"
+    "from": "place-059",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "verde_oscuro",
+      "coverage": 100,
+      "confidence": "sugerencia",
+      "hexagons": 13,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-071",
@@ -967,12 +1261,77 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1876,
+        "y": 953.8
+      },
+      {
+        "x": 1862,
+        "y": 961.9
+      },
+      {
+        "x": 1862,
+        "y": 978
+      },
+      {
+        "x": 1848,
+        "y": 986.1
+      },
+      {
+        "x": 1834,
+        "y": 994.2
+      },
+      {
+        "x": 1834,
+        "y": 1010.4
+      },
+      {
+        "x": 1820,
+        "y": 1018.4
+      },
+      {
+        "x": 1806,
+        "y": 1010.4
+      },
+      {
+        "x": 1792,
+        "y": 1018.4
+      },
+      {
+        "x": 1778,
+        "y": 1026.5
+      },
+      {
+        "x": 1764,
+        "y": 1018.4
+      },
+      {
+        "x": 1750,
+        "y": 1026.5
+      },
+      {
+        "x": 1750,
+        "y": 1042.7
+      },
+      {
+        "x": 1736,
+        "y": 1050.8
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-067"
+    "from": "place-067",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 75,
+      "confidence": "sugerencia",
+      "hexagons": 15,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-076",
@@ -980,12 +1339,77 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1302,
+        "y": 961.9
+      },
+      {
+        "x": 1302,
+        "y": 978
+      },
+      {
+        "x": 1316,
+        "y": 986.1
+      },
+      {
+        "x": 1330,
+        "y": 994.2
+      },
+      {
+        "x": 1344,
+        "y": 1002.3
+      },
+      {
+        "x": 1358,
+        "y": 1010.4
+      },
+      {
+        "x": 1372,
+        "y": 1018.4
+      },
+      {
+        "x": 1386,
+        "y": 1026.5
+      },
+      {
+        "x": 1400,
+        "y": 1034.6
+      },
+      {
+        "x": 1414,
+        "y": 1042.7
+      },
+      {
+        "x": 1428,
+        "y": 1050.8
+      },
+      {
+        "x": 1428,
+        "y": 1066.9
+      },
+      {
+        "x": 1442,
+        "y": 1075
+      },
+      {
+        "x": 1456,
+        "y": 1083.1
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-068"
+    "from": "place-068",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 44,
+      "confidence": "sugerencia",
+      "hexagons": 15,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-077",
@@ -1006,12 +1430,89 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1582,
+        "y": 897.2
+      },
+      {
+        "x": 1582,
+        "y": 913.4
+      },
+      {
+        "x": 1568,
+        "y": 921.4
+      },
+      {
+        "x": 1568,
+        "y": 937.6
+      },
+      {
+        "x": 1568,
+        "y": 953.8
+      },
+      {
+        "x": 1568,
+        "y": 969.9
+      },
+      {
+        "x": 1568,
+        "y": 986.1
+      },
+      {
+        "x": 1568,
+        "y": 1002.3
+      },
+      {
+        "x": 1568,
+        "y": 1018.4
+      },
+      {
+        "x": 1568,
+        "y": 1034.6
+      },
+      {
+        "x": 1554,
+        "y": 1042.7
+      },
+      {
+        "x": 1540,
+        "y": 1050.8
+      },
+      {
+        "x": 1540,
+        "y": 1066.9
+      },
+      {
+        "x": 1526,
+        "y": 1075
+      },
+      {
+        "x": 1512,
+        "y": 1066.9
+      },
+      {
+        "x": 1498,
+        "y": 1075
+      },
+      {
+        "x": 1484,
+        "y": 1066.9
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-065"
+    "from": "place-065",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 58,
+      "confidence": "sugerencia",
+      "hexagons": 18,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-079",
@@ -1019,12 +1520,65 @@
     "kind": "trail",
     "terrain": "jungle",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1456,
+        "y": 1357.9
+      },
+      {
+        "x": 1470,
+        "y": 1366
+      },
+      {
+        "x": 1470,
+        "y": 1382.2
+      },
+      {
+        "x": 1470,
+        "y": 1398.3
+      },
+      {
+        "x": 1470,
+        "y": 1414.5
+      },
+      {
+        "x": 1470,
+        "y": 1430.7
+      },
+      {
+        "x": 1470,
+        "y": 1446.8
+      },
+      {
+        "x": 1470,
+        "y": 1463
+      },
+      {
+        "x": 1484,
+        "y": 1471.1
+      },
+      {
+        "x": 1498,
+        "y": 1463
+      },
+      {
+        "x": 1512,
+        "y": 1471.1
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-073"
+    "from": "place-073",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 85,
+      "confidence": "sugerencia",
+      "hexagons": 12,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-080",
@@ -1032,12 +1586,69 @@
     "kind": "road",
     "terrain": "jungle",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1568,
+        "y": 1212.4
+      },
+      {
+        "x": 1554,
+        "y": 1220.5
+      },
+      {
+        "x": 1540,
+        "y": 1228.6
+      },
+      {
+        "x": 1540,
+        "y": 1244.8
+      },
+      {
+        "x": 1540,
+        "y": 1260.9
+      },
+      {
+        "x": 1526,
+        "y": 1269
+      },
+      {
+        "x": 1512,
+        "y": 1277.1
+      },
+      {
+        "x": 1498,
+        "y": 1285.2
+      },
+      {
+        "x": 1484,
+        "y": 1293.3
+      },
+      {
+        "x": 1470,
+        "y": 1301.3
+      },
+      {
+        "x": 1470,
+        "y": 1317.5
+      },
+      {
+        "x": 1470,
+        "y": 1333.7
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-072"
+    "from": "place-072",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 57,
+      "confidence": "sugerencia",
+      "hexagons": 13,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-081",
@@ -1045,12 +1656,89 @@
     "kind": "trail",
     "terrain": "jungle",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1344,
+        "y": 1180.1
+      },
+      {
+        "x": 1358,
+        "y": 1188.2
+      },
+      {
+        "x": 1372,
+        "y": 1180.1
+      },
+      {
+        "x": 1386,
+        "y": 1188.2
+      },
+      {
+        "x": 1400,
+        "y": 1196.3
+      },
+      {
+        "x": 1400,
+        "y": 1212.4
+      },
+      {
+        "x": 1414,
+        "y": 1220.5
+      },
+      {
+        "x": 1428,
+        "y": 1228.6
+      },
+      {
+        "x": 1442,
+        "y": 1236.7
+      },
+      {
+        "x": 1442,
+        "y": 1252.8
+      },
+      {
+        "x": 1456,
+        "y": 1260.9
+      },
+      {
+        "x": 1470,
+        "y": 1269
+      },
+      {
+        "x": 1484,
+        "y": 1277.1
+      },
+      {
+        "x": 1484,
+        "y": 1293.3
+      },
+      {
+        "x": 1470,
+        "y": 1301.3
+      },
+      {
+        "x": 1470,
+        "y": 1317.5
+      },
+      {
+        "x": 1470,
+        "y": 1333.7
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-071"
+    "from": "place-071",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 68,
+      "confidence": "sugerencia",
+      "hexagons": 18,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-082",
@@ -1071,12 +1759,61 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1904,
+        "y": 1406.4
+      },
+      {
+        "x": 1918,
+        "y": 1398.3
+      },
+      {
+        "x": 1932,
+        "y": 1390.3
+      },
+      {
+        "x": 1946,
+        "y": 1382.2
+      },
+      {
+        "x": 1960,
+        "y": 1374.1
+      },
+      {
+        "x": 1974,
+        "y": 1366
+      },
+      {
+        "x": 1974,
+        "y": 1349.8
+      },
+      {
+        "x": 1974,
+        "y": 1333.7
+      },
+      {
+        "x": 1988,
+        "y": 1325.6
+      },
+      {
+        "x": 1988,
+        "y": 1309.4
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-076"
+    "from": "place-076",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 100,
+      "confidence": "sugerencia",
+      "hexagons": 11,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-084",
@@ -1084,12 +1821,57 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1890,
+        "y": 1220.5
+      },
+      {
+        "x": 1904,
+        "y": 1228.6
+      },
+      {
+        "x": 1918,
+        "y": 1236.7
+      },
+      {
+        "x": 1932,
+        "y": 1244.8
+      },
+      {
+        "x": 1946,
+        "y": 1252.8
+      },
+      {
+        "x": 1960,
+        "y": 1244.8
+      },
+      {
+        "x": 1960,
+        "y": 1260.9
+      },
+      {
+        "x": 1974,
+        "y": 1269
+      },
+      {
+        "x": 1974,
+        "y": 1285.2
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-104"
+    "from": "place-104",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 91,
+      "confidence": "sugerencia",
+      "hexagons": 10,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-085",
@@ -1188,12 +1970,45 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 238,
+        "y": 1301.3
+      },
+      {
+        "x": 238,
+        "y": 1285.2
+      },
+      {
+        "x": 252,
+        "y": 1277.1
+      },
+      {
+        "x": 252,
+        "y": 1260.9
+      },
+      {
+        "x": 266,
+        "y": 1252.8
+      },
+      {
+        "x": 280,
+        "y": 1244.8
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-308"
+    "from": "place-308",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 88,
+      "confidence": "sugerencia",
+      "hexagons": 7,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-093",
@@ -1214,12 +2029,61 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 392,
+        "y": 1357.9
+      },
+      {
+        "x": 378,
+        "y": 1349.8
+      },
+      {
+        "x": 378,
+        "y": 1333.7
+      },
+      {
+        "x": 364,
+        "y": 1325.6
+      },
+      {
+        "x": 350,
+        "y": 1317.5
+      },
+      {
+        "x": 350,
+        "y": 1301.3
+      },
+      {
+        "x": 336,
+        "y": 1293.3
+      },
+      {
+        "x": 322,
+        "y": 1285.2
+      },
+      {
+        "x": 308,
+        "y": 1277.1
+      },
+      {
+        "x": 294,
+        "y": 1269
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "normal",
-    "from": "place-307"
+    "from": "place-307",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 100,
+      "confidence": "sugerencia",
+      "hexagons": 11,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-095",
@@ -1435,12 +2299,57 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 252,
+        "y": 1131.6
+      },
+      {
+        "x": 252,
+        "y": 1147.8
+      },
+      {
+        "x": 266,
+        "y": 1155.9
+      },
+      {
+        "x": 280,
+        "y": 1163.9
+      },
+      {
+        "x": 280,
+        "y": 1180.1
+      },
+      {
+        "x": 294,
+        "y": 1188.2
+      },
+      {
+        "x": 294,
+        "y": 1204.3
+      },
+      {
+        "x": 294,
+        "y": 1220.5
+      },
+      {
+        "x": 294,
+        "y": 1236.7
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Paso interregional propuesto; confirmar acceso terrestre y ubicación",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-311"
+    "from": "place-311",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 73,
+      "confidence": "sugerencia",
+      "hexagons": 10,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-112",
@@ -1513,12 +2422,77 @@
     "kind": "road",
     "terrain": "jungle",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1484,
+        "y": 1066.9
+      },
+      {
+        "x": 1498,
+        "y": 1075
+      },
+      {
+        "x": 1512,
+        "y": 1083.1
+      },
+      {
+        "x": 1526,
+        "y": 1075
+      },
+      {
+        "x": 1540,
+        "y": 1066.9
+      },
+      {
+        "x": 1554,
+        "y": 1075
+      },
+      {
+        "x": 1554,
+        "y": 1091.2
+      },
+      {
+        "x": 1568,
+        "y": 1099.3
+      },
+      {
+        "x": 1568,
+        "y": 1115.4
+      },
+      {
+        "x": 1568,
+        "y": 1131.6
+      },
+      {
+        "x": 1568,
+        "y": 1147.8
+      },
+      {
+        "x": 1568,
+        "y": 1163.9
+      },
+      {
+        "x": 1582,
+        "y": 1172
+      },
+      {
+        "x": 1582,
+        "y": 1188.2
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Corredor estratégico a validar: camino principal todavía NO confirmado",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-069"
+    "from": "place-069",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 88,
+      "confidence": "sugerencia",
+      "hexagons": 15,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-118",
@@ -1552,12 +2526,49 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1848,
+        "y": 1487.2
+      },
+      {
+        "x": 1862,
+        "y": 1479.2
+      },
+      {
+        "x": 1876,
+        "y": 1471.1
+      },
+      {
+        "x": 1890,
+        "y": 1463
+      },
+      {
+        "x": 1890,
+        "y": 1446.8
+      },
+      {
+        "x": 1904,
+        "y": 1438.8
+      },
+      {
+        "x": 1904,
+        "y": 1422.6
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Paso interregional propuesto; confirmar acceso terrestre y ubicación",
+    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-077"
+    "from": "place-077",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "coverage": 78,
+      "confidence": "sugerencia",
+      "hexagons": 8,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-121",
@@ -1669,12 +2680,137 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1148,
+        "y": 889.1
+      },
+      {
+        "x": 1148,
+        "y": 905.3
+      },
+      {
+        "x": 1162,
+        "y": 913.4
+      },
+      {
+        "x": 1176,
+        "y": 921.4
+      },
+      {
+        "x": 1176,
+        "y": 937.6
+      },
+      {
+        "x": 1176,
+        "y": 953.8
+      },
+      {
+        "x": 1176,
+        "y": 969.9
+      },
+      {
+        "x": 1176,
+        "y": 986.1
+      },
+      {
+        "x": 1176,
+        "y": 1002.3
+      },
+      {
+        "x": 1176,
+        "y": 1018.4
+      },
+      {
+        "x": 1162,
+        "y": 1026.5
+      },
+      {
+        "x": 1148,
+        "y": 1034.6
+      },
+      {
+        "x": 1148,
+        "y": 1050.8
+      },
+      {
+        "x": 1162,
+        "y": 1058.9
+      },
+      {
+        "x": 1162,
+        "y": 1075
+      },
+      {
+        "x": 1148,
+        "y": 1083.1
+      },
+      {
+        "x": 1148,
+        "y": 1099.3
+      },
+      {
+        "x": 1134,
+        "y": 1107.4
+      },
+      {
+        "x": 1134,
+        "y": 1123.5
+      },
+      {
+        "x": 1134,
+        "y": 1139.7
+      },
+      {
+        "x": 1134,
+        "y": 1155.9
+      },
+      {
+        "x": 1120,
+        "y": 1163.9
+      },
+      {
+        "x": 1106,
+        "y": 1172
+      },
+      {
+        "x": 1092,
+        "y": 1180.1
+      },
+      {
+        "x": 1092,
+        "y": 1196.3
+      },
+      {
+        "x": 1078,
+        "y": 1204.3
+      },
+      {
+        "x": 1078,
+        "y": 1220.5
+      },
+      {
+        "x": 1064,
+        "y": 1228.6
+      },
+      {
+        "x": 1050,
+        "y": 1220.5
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Corredor estratégico o regional a validar; no canonizado",
+    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-059"
+    "from": "place-059",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "verde_oscuro",
+      "coverage": 84,
+      "confidence": "sugerencia",
+      "hexagons": 30,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-130",
@@ -1682,12 +2818,101 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 1148,
+        "y": 889.1
+      },
+      {
+        "x": 1148,
+        "y": 905.3
+      },
+      {
+        "x": 1162,
+        "y": 913.4
+      },
+      {
+        "x": 1176,
+        "y": 921.4
+      },
+      {
+        "x": 1176,
+        "y": 937.6
+      },
+      {
+        "x": 1176,
+        "y": 953.8
+      },
+      {
+        "x": 1176,
+        "y": 969.9
+      },
+      {
+        "x": 1176,
+        "y": 986.1
+      },
+      {
+        "x": 1162,
+        "y": 994.2
+      },
+      {
+        "x": 1148,
+        "y": 1002.3
+      },
+      {
+        "x": 1148,
+        "y": 1018.4
+      },
+      {
+        "x": 1148,
+        "y": 1034.6
+      },
+      {
+        "x": 1162,
+        "y": 1042.7
+      },
+      {
+        "x": 1162,
+        "y": 1058.9
+      },
+      {
+        "x": 1162,
+        "y": 1075
+      },
+      {
+        "x": 1162,
+        "y": 1091.2
+      },
+      {
+        "x": 1162,
+        "y": 1107.4
+      },
+      {
+        "x": 1162,
+        "y": 1123.5
+      },
+      {
+        "x": 1176,
+        "y": 1131.6
+      },
+      {
+        "x": 1190,
+        "y": 1139.7
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Corredor estratégico o regional a validar; no canonizado",
+    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
     "priority": "alta",
-    "from": "place-059"
+    "from": "place-059",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "verde_oscuro",
+      "coverage": 91,
+      "confidence": "sugerencia",
+      "hexagons": 21,
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-131",
@@ -2143,5 +3368,193 @@
     "reason": "Acceso provisional a enclave especial; confirmar si existe paso o desembarco",
     "priority": "revision_geografica",
     "from": "poi-laberinto-ataras"
+  },
+  {
+    "id": "atlas-ver-001",
+    "from": "place-069",
+    "to": "place-070",
+    "kind": "trail",
+    "terrain": "forest",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1484,
+        "y": 1066.9
+      },
+      {
+        "x": 1498,
+        "y": 1075
+      },
+      {
+        "x": 1512,
+        "y": 1066.9
+      },
+      {
+        "x": 1526,
+        "y": 1075
+      },
+      {
+        "x": 1540,
+        "y": 1066.9
+      },
+      {
+        "x": 1554,
+        "y": 1075
+      },
+      {
+        "x": 1568,
+        "y": 1083.1
+      },
+      {
+        "x": 1582,
+        "y": 1075
+      },
+      {
+        "x": 1596,
+        "y": 1083.1
+      },
+      {
+        "x": 1610,
+        "y": 1075
+      },
+      {
+        "x": 1624,
+        "y": 1066.9
+      },
+      {
+        "x": 1638,
+        "y": 1075
+      },
+      {
+        "x": 1652,
+        "y": 1066.9
+      },
+      {
+        "x": 1666,
+        "y": 1058.9
+      },
+      {
+        "x": 1680,
+        "y": 1050.8
+      },
+      {
+        "x": 1694,
+        "y": 1042.7
+      },
+      {
+        "x": 1708,
+        "y": 1050.8
+      }
+    ],
+    "status": "propuesta",
+    "origin": "trazado_raster_verdanteyl_2026_11",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 95,
+      "confidence": "sugerencia",
+      "hexagons": 18,
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-ver-002",
+    "from": "place-071",
+    "to": "place-072",
+    "kind": "trail",
+    "terrain": "forest",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1344,
+        "y": 1180.1
+      },
+      {
+        "x": 1358,
+        "y": 1188.2
+      },
+      {
+        "x": 1372,
+        "y": 1180.1
+      },
+      {
+        "x": 1386,
+        "y": 1188.2
+      },
+      {
+        "x": 1400,
+        "y": 1196.3
+      },
+      {
+        "x": 1414,
+        "y": 1204.3
+      },
+      {
+        "x": 1428,
+        "y": 1196.3
+      },
+      {
+        "x": 1442,
+        "y": 1204.3
+      },
+      {
+        "x": 1456,
+        "y": 1212.4
+      },
+      {
+        "x": 1470,
+        "y": 1220.5
+      },
+      {
+        "x": 1484,
+        "y": 1212.4
+      },
+      {
+        "x": 1498,
+        "y": 1220.5
+      },
+      {
+        "x": 1498,
+        "y": 1236.7
+      },
+      {
+        "x": 1512,
+        "y": 1244.8
+      },
+      {
+        "x": 1512,
+        "y": 1228.6
+      },
+      {
+        "x": 1526,
+        "y": 1220.5
+      },
+      {
+        "x": 1540,
+        "y": 1228.6
+      },
+      {
+        "x": 1554,
+        "y": 1220.5
+      },
+      {
+        "x": 1568,
+        "y": 1212.4
+      }
+    ],
+    "status": "propuesta",
+    "origin": "trazado_raster_verdanteyl_2026_11",
+    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "blanco",
+      "coverage": 95,
+      "confidence": "sugerencia",
+      "hexagons": 20,
+      "checked": "pendiente"
+    }
   }
 ]
