@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v2.5
+# Aeternalis · Tomo de Medicina v2.6.1
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -96,3 +96,23 @@ Los textos de los folios y rótulos son HTML con la tipografía heredada de Foro
 **Gabinete de revisión:** [Examinar ilustraciones clínicas](./iconografia.html). Permite filtrar por plantas, enfermedades y mesa de cuidados, ampliar los grabados y revisar la pertinencia editorial antes de aprobar o sustituir imágenes. No modifica el antiguo Códice de Pestilencias ni introduce páginas adicionales en el tomo.
 
 **Validación:** sintaxis JS correcta para visor, maestro y gabinete; rutas presentes en GitHub; hash del reglamento `data/pestilencias/enfermedades.json` sin cambios. Queda pendiente la prueba visual en un tema real de Foroactivo y la aprobación artística de las ilustraciones provisionales.
+
+## Fase 5 · Grabados patológicos originales · v2.6.1
+
+Se incorporaron **24 archivos SVG** para las tres pestilencias: doce láminas completas sobre pergamino (`*_paciente.svg`, `*_signos.svg`, `*_organo.svg`, `*_cuidados.svg`) y doce reproducciones de **tinta transparente** (`*_tinta.svg`), sin textos incrustados. Las figuras, separadas por enfermedad, se encuentran en `assets/medicina/patologias-v01/` y están referenciadas desde `data/codice-salud/iconografia-clinica-v01.json` (versión 1.2.0). Se trata de **grabados vectoriales esquemáticos**, no imágenes clínicas realistas ni ilustraciones aprobadas como canon.
+
+Las ilustraciones se usan del siguiente modo:
+- Folio de enfermedad: paciente y signos visibles.
+- Notas clínicas: paciente y órgano o sistema simbólico.
+- Folio de secuelas: signos y órgano.
+- Cuidados: mesa de botica ilustrativa por enfermedad y protecciones conservadas sin cambios.
+
+La navegación y las calculadoras del Códice se mantienen. Los textos visibles siguen siendo HTML con tipografía heredada; los SVG no contienen leyendas ni títulos. Los diagramas se superponen directamente al pergamino mediante sus variantes con alfa y ofrecen enlace de ampliación a la versión archivística de cada lámina.
+
+### Implementación en Foroactivo
+
+El cargador maestro `js/aeternalis-maestro.js` incluye ahora la revisión `2.6.1` del módulo Salud. **Siempre que ese cargador ya esté instalado en el foro y una publicación contenga** `<div id="ae-codice-salud"></div>`, el nuevo visor se descargará desde GitHub Pages automáticamente al abrir la publicación. Para una nueva publicación, utilizar `foroactivo/HTML_CODICE_SALUD_PEGAR.txt` y no copiar la aplicación completa dentro del editor.
+
+La actualización en GitHub **no garantiza por sí sola** la presencia del contenedor en un tema real ni demuestra que el editor de Foroactivo contenga el cargador maestro. Por ello, la implementación pública en Foroactivo aún requiere comprobación visual dentro de un tema de prueba.
+
+**Verificaciones de entrega:** 24 rutas SVG disponibles en el repositorio; fuentes de reglas de las tres enfermedades sin modificar; revisión de sintaxis JavaScript de visor, maestro y gabinete completada.
