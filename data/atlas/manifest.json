@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-26-supermapa-caminos-hexagonal-v1",
+  "revision": "2026-11-27-caminos-verdanteyl-elfos-v2",
   "counts": {
     "places": 118,
     "regions": 24,
-    "roads": 165,
+    "roads": 167,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
@@ -15,7 +15,9 @@
     "landRoadsHigh": 66,
     "landRoadsMedium": 26,
     "landRoadsLow": 34,
-    "landRoadsDisconnected": 8
+    "landRoadsDisconnected": 8,
+    "roadPigmentRoutes": 23,
+    "roadAdditionalLinks": 2
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -42,8 +44,10 @@
       "ports": "data/atlas/naval/puertos.json"
     },
     "roadEvidence": "data/atlas/caminos-evidencia.json",
-    "roadAudit": "data/atlas/caminos-auditoria.json"
+    "roadAudit": "data/atlas/caminos-auditoria.json",
+    "roadPigments": "data/atlas/caminos-pigmentos-verdanteyl-elfos.json",
+    "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "118 localidades, 24 regiones y 165 conexiones originales intactas. 134 tramos terrestres auditados por hexágonos: 66 alta coincidencia cromática, 26 media, 34 baja y 8 sin continuidad. Todos permanecen como propuestas hasta revisión manual. Edición por JS independiente del Supermapa."
+  "note": "Atlas conservado: 118 localidades, 24 regiones y 167 conexiones propuestas. 23 tramos con geometría punteada adicional (9 blancos, 5 verde oscuro, 9 negros); dos nuevas conexiones forestales en Verdanteyl. Los otros 144 tramos originales se mantienen intactos; ningún trayecto se confirma automáticamente."
 }
