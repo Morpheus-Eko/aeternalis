@@ -447,3 +447,35 @@
  #ae-codice-salud .ac-atlas-card{padding:4px 3px 7px}
  #ae-codice-salud .ac-atlas-card img{max-height:155px}
 }
+
+/* Iconografía clínica editorial v2.5 · grabados, instrumentos y notas sin texto dentro de los assets */
+#ae-codice-salud .ac-clinical-studies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:clamp(7px,1.1vw,13px);margin:8px 0 13px;min-width:0}
+#ae-codice-salud .ac-clinical-studies--single{grid-template-columns:minmax(0,1fr);max-width:290px;margin:7px auto 13px}
+#ae-codice-salud .ac-clinical-plate{min-width:0;margin:0;padding:8px 7px 9px;display:flex;flex-direction:column;align-items:center;gap:6px;border:1px solid #aa87596a;background:linear-gradient(145deg,#e1cca344,#b9986835);box-shadow:inset 0 0 0 2px #f8e8c34d}
+#ae-codice-salud .ac-clinical-plate a{display:flex;align-items:center;justify-content:center;min-width:0;max-width:100%;width:100%;min-height:100px;outline-offset:3px}
+#ae-codice-salud .ac-clinical-plate img{width:100%;max-width:100%;max-height:clamp(133px,21vh,205px);object-fit:contain;mix-blend-mode:multiply;filter:sepia(.08) contrast(1.09);transition:filter .15s}
+#ae-codice-salud .ac-clinical-plate a:hover img{filter:sepia(.03) contrast(1.16)}
+#ae-codice-salud .ac-clinical-plate figcaption{font-family:inherit;font-style:italic;text-align:center;font-size:clamp(11px,.97vw,13px);line-height:1.45;color:#665039;max-width:100%;overflow-wrap:break-word}
+#ae-codice-salud .ac-clinical-plate--consequence img{max-height:clamp(150px,23vh,225px)}
+#ae-codice-salud .ac-herbal-apparatus{display:flex;align-items:center;gap:12px;clear:both;margin:11px 0 17px;padding:9px 12px;border:1px solid #9e805a77;border-left:3px solid #8d704c;background:linear-gradient(95deg,#bda17a34,transparent);min-width:0}
+#ae-codice-salud .ac-herbal-apparatus>a{display:block;flex:0 0 clamp(72px,22%,113px);min-width:0;outline-offset:3px}
+#ae-codice-salud .ac-herbal-apparatus img{width:100%;height:95px;object-fit:contain;mix-blend-mode:multiply}
+#ae-codice-salud .ac-herbal-apparatus p{display:flex;flex-direction:column;gap:3px;flex:1 1 auto;min-width:0;margin:0!important;font-family:inherit!important;font-size:clamp(12px,1vw,14px)!important;line-height:1.5!important;color:#5c462d!important}
+#ae-codice-salud .ac-herbal-apparatus strong{font-weight:700;color:#543a25}
+#ae-codice-salud .ac-care-illustrations{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;min-width:0;margin:7px 0 17px}
+#ae-codice-salud .ac-care-illustration{margin:0;padding:8px 7px 9px;min-width:0;display:flex;align-items:center;flex-direction:column;gap:5px;text-align:center;border-top:2px solid #9b7650b3;border-bottom:1px solid #9b765077;background:#d4b48930}
+#ae-codice-salud .ac-care-illustration>a{display:flex;align-items:center;justify-content:center;max-width:100%;width:100%;height:104px;outline-offset:3px}
+#ae-codice-salud .ac-care-illustration img{max-height:104px;width:100%;object-fit:contain;filter:sepia(.14);mix-blend-mode:multiply}
+#ae-codice-salud .ac-care-illustration figcaption{display:grid;gap:5px;max-width:100%;font-family:inherit;color:#5f4631}
+#ae-codice-salud .ac-care-illustration strong{font-size:clamp(12px,1vw,14px);line-height:1.4}
+#ae-codice-salud .ac-care-illustration span{font-size:clamp(11px,.91vw,12px);line-height:1.45;font-style:italic}
+@container (max-width:410px){
+ #ae-codice-salud .ac-clinical-studies{gap:6px}
+ #ae-codice-salud .ac-clinical-plate{padding:5px 4px 8px}
+ #ae-codice-salud .ac-clinical-plate img{max-height:150px}
+ #ae-codice-salud .ac-clinical-plate figcaption{font-size:11px}
+ #ae-codice-salud .ac-care-illustrations{gap:6px}
+ #ae-codice-salud .ac-care-illustration{padding:6px 4px}
+ #ae-codice-salud .ac-herbal-apparatus{padding:7px 9px;gap:8px}
+ #ae-codice-salud .ac-herbal-apparatus img{height:75px}
+}
