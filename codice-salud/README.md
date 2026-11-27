@@ -137,7 +137,7 @@ El módulo permanece encapsulado en `#ae-codice-salud`. No modificar el CSS base
 
 Las casillas al pie de los folios ya no son avisos de revisión. Se transformaron en **notas manuscritas narrativas**, con pequeña ornamentación de pluma, observación del autor y firma de personaje ficticio (o `Autor desconocido`).
 
-**Fuente:** `data/codice-salud/apostillas-facultativo-v01.json`. Registra **95 apostillas** independientes: 24 para las 8 razas, 32 para las 16 plantas, 27 para las 3 enfermedades, 8 para las secciones y 4 para herramientas generales.
+**Fuente:** `data/codice-salud/apostillas-facultativo-v01.json`. Registra **93 apostillas** independientes: 24 para las 8 razas, 32 para las 16 plantas, 25 para las 3 enfermedades, 8 para las secciones y 4 para herramientas generales.
 
 - Cada raza tiene una observación para el grabado, otra para costumbres o riesgos, y una para su archivo.
 - Cada planta tiene un comentario visual de herbolario y otro sobre preparación, cuidado o recolección.
