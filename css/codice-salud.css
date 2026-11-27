@@ -430,3 +430,20 @@
  #ae-codice-salud .ac-leaf[data-theme]::before,
  #ae-codice-salud .ac-leaf[data-theme]::after{animation:none!important}
 }
+
+/* Atlas anatómico comparado · imágenes de estudio separadas, textos con tipografía del foro */
+#ae-codice-salud .ac-atlas-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(7px,1.2vw,15px);margin:7px 0 17px;align-items:start;max-width:100%}
+#ae-codice-salud .ac-atlas-grid--single{grid-template-columns:minmax(0,1fr);max-width:290px;margin-left:auto;margin-right:auto}
+#ae-codice-salud .ac-atlas-card{min-width:0;max-width:100%;margin:0;padding:7px 7px 9px;background:linear-gradient(160deg,#d9c39845,#b58d5840);border:1px solid #9e79524f;box-shadow:inset 0 0 0 2px #f3e2c246;text-align:center}
+#ae-codice-salud .ac-atlas-card a{display:flex;justify-content:center;align-items:center;min-height:130px;max-width:100%;outline-offset:3px}
+#ae-codice-salud .ac-atlas-card img{display:block;width:100%;max-width:100%;max-height:clamp(160px,25vh,275px);object-fit:contain;margin:auto;mix-blend-mode:multiply;filter:sepia(.09) contrast(1.09);transition:filter .15s}
+#ae-codice-salud .ac-atlas-card a:hover img{filter:sepia(.03) contrast(1.17)}
+#ae-codice-salud .ac-atlas-card figcaption{display:flex;flex-wrap:wrap;justify-content:center;gap:3px 9px;margin-top:6px;font-family:inherit;color:#6a4d35;font-size:clamp(11px,1vw,13px);line-height:1.35}
+#ae-codice-salud .ac-atlas-card figcaption strong{font-weight:700}
+#ae-codice-salud .ac-atlas-card figcaption span{font-style:italic}
+#ae-codice-salud .ac-atlas-grid--detalle .ac-atlas-card img{max-height:clamp(125px,19vh,205px)}
+@container (max-width:410px){
+ #ae-codice-salud .ac-atlas-grid{gap:6px}
+ #ae-codice-salud .ac-atlas-card{padding:4px 3px 7px}
+ #ae-codice-salud .ac-atlas-card img{max-height:155px}
+}
