@@ -1,7 +1,7 @@
 /*
  AETERNALIS · SUPERMAPA LEAFLET v1.7 · sigilos medievales, red de caminos y navegación provisional
  HTML: <div class="hidethisprofile"></div><div id="aeternalis-atlas"></div>
- CSS: sustituir el contenido del Atlas en https://aeternalis.foroactivo.com/h5-supermapa2-0. No usar h4.
+ CSS: css/supermapa-core.css desde GitHub; no requiere la página auxiliar h5.
  Coordenadas cartográficas: 2048 × 1571, independientes de la resolución de la imagen.
  La red contiene conexiones PROPUESTAS, sujetas a validación con los mapas; ninguna equivale a vía oficial.
  Modo Cartógrafo: cambios locales y exportación JSON (NO escribe en el foro automáticamente).
@@ -9,7 +9,7 @@
 (()=>{
 'use strict';
 const CONFIG={
- CSS_PAGE:(location.hostname.endsWith('github.io')?'/aeternalis/css/supermapa-v1.7-h5.html':'/h5-supermapa2-0'), CSS_ID:'ae-leaflet-css-source',
+ CSS_URL:'https://morpheus-eko.github.io/aeternalis/css/supermapa-core.css?v=1.0.0',
  LEAFLET_CSS:'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
  LEAFLET_CDN:['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'],
  STORAGE_KEY:'AETERNALIS_CARTOGRAFIA_BORRADOR_V16_EXPLORADOR',
@@ -32,34 +32,13 @@ function afterRoot(callback){
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',apply,{once:true});
 }
 function loadAtlasCSSFromH5(){
- // Acepta el CSS de h5 dentro de <style id="ae-leaflet-css-source">.
- // Compatibilidad con páginas HTML antiguas que muestran CSS como texto bruto.
+ // Un solo archivo CSS completo en GitHub; sin dependencia del HTML auxiliar h5.
  if(document.getElementById('ae-leaflet-active-css'))return Promise.resolve();
- return fetch(CONFIG.CSS_PAGE,{credentials:'same-origin',cache:'no-cache'}).then(response=>{
-  if(!response.ok)throw Error('La página h5 devolvió HTTP '+response.status);
-  return response.text();
- }).then(html=>{
-  const doc=new DOMParser().parseFromString(html,'text/html');
-  let css=doc.getElementById(CONFIG.CSS_ID)?.textContent||'';
-  if(!css){
-   const marker=html.match(/<!--\s*AE_LEAFLET_ATLAS_CSS_BEGIN\s*-->\s*<style[^>]*>([\s\S]*?)<\/style>\s*<!--\s*AE_LEAFLET_ATLAS_CSS_END\s*-->/i);
-   if(marker)css=marker[1];
-  }
-  if(!css){
-   const element=[...doc.querySelectorAll('style')].find(s=>s.textContent?.includes('#aeternalis-atlas'));
-   if(element)css=element.textContent;
-  }
-  if(!css){
-   // Página h5 con CSS sin etiqueta <style> (como algunas páginas existentes).
-   const text=doc.body?.textContent||'';
-   if(text.includes('#aeternalis-atlas')&&text.includes('{')&&text.includes('}'))css=text;
-  }
-  css=css.replace(/^\uFEFF/,'').trim();
-  if(!css || !css.includes('#aeternalis-atlas'))throw Error('No se encontró CSS del Atlas en h5. Pega el archivo CSS completo para h5, incluyendo el <style id="ae-leaflet-css-source">.');
-  const style=document.createElement('style');
-  style.id='ae-leaflet-active-css';
-  style.textContent=css;
-  document.head.appendChild(style);
+ return new Promise((resolve,reject)=>{
+  const link=document.createElement('link');link.rel='stylesheet';link.id='ae-leaflet-active-css';
+  link.href=CONFIG.CSS_URL;
+  link.onload=resolve;link.onerror=()=>{link.remove();reject(Error('No se pudo cargar el CSS del Atlas desde GitHub Pages.'));};
+  (document.head||document.documentElement).appendChild(link);
  });
 }
 function leafletCSS(){if(document.getElementById('ae-leaflet-lib-css'))return;
@@ -79,7 +58,7 @@ function boot(root){
  document.body.classList.add('ae-atlas-page');
  root.innerHTML='<div class="ae-leaf-status-err" style="padding:20px;background:#221e1b;color:#f0d9ad">Iniciando Atlas Leaflet de Aeternalis…</div>';
  Promise.all([loadAtlasCSSFromH5(),loadLeaflet()]).then(()=>start(root)).catch(err=>{
- root.innerHTML='<div class="ae-leaf-status-err" style="padding:24px;background:#321e1c;color:#f4d5b5">No se pudo iniciar el Atlas: '+escapeText(err.message)+'<p>Verifica el CSS de h5, que los cargadores anteriores estén desactivados y que los CDN de Leaflet sean accesibles.</p></div>';
+ root.innerHTML='<div class="ae-leaf-status-err" style="padding:24px;background:#321e1c;color:#f4d5b5">No se pudo iniciar el Atlas: '+escapeText(err.message)+'<p>Verifica el CSS en GitHub Pages, los cargadores anteriores y los CDN de Leaflet.</p></div>';
  console.error('[Aeternalis Leaflet]',err);});
 }
 function escapeText(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}

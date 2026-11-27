@@ -1,7 +1,7 @@
 /*
  AETERNALIS — BESTIARIO INTERACTIVO 2.0 · GITHUB PAGES
  HTML de la publicación: <div class="hidethisprofile"></div><div id="aeb-bestiary"></div>
- CSS: bloque <style id="aeb-bestiary-css"> de /h4-mapa-kawaii-css.
+ CSS: css/bestiario.css alojado en GitHub; no depende de h4.
  Instalar SIN etiquetas <script> en Gestión de JavaScript, preferentemente «En los temas».
  NO instalar el motor antiguo ni los dos catálogos regionales. Este motor
  se carga desde GitHub Pages después de descargar ocho tomos JSON.
@@ -10,7 +10,7 @@
 'use strict';
 if (window.__AEB_BESTIARY_ENGINE_V11__ || window.__AEB_BESTIARY_ENGINE_GITHUB_V2__) return;
 window.__AEB_BESTIARY_ENGINE_GITHUB_V2__=true;
-const ROOT_ID='aeb-bestiary', CSS_PAGE='/h4-mapa-kawaii-css', STYLE_ID='aeb-bestiary-injected-css';
+const ROOT_ID='aeb-bestiary', STYLE_ID='aeb-bestiary-injected-css';
 const REGION={
   bergheim:{name:'Bergheim',subtitle:'Cuatro montañas · Crónicas de los Ojopiedras',cover:4,paper:3,prev:20,next:13,separator:5,marker:24,emblem:21,chapter:'Cuadernos de las Cuatro Montañas',descriptions:['Fauna de bosques y montañas','Habitantes de los riscos','Ecos de piedra y aguas oscuras','Los fiordos, el abismo y los cielos']},
   yugen:{name:'Yūgen',subtitle:'Bosques, santuarios, costas y tormentas',cover:2,paper:1,prev:59,next:60,separator:45,marker:53,emblem:54,chapter:'Cuadernos de las Islas Yūgen',descriptions:['Los senderos del cerezo, la piedra y el barro','Barrancos, bosques antiguos y santuarios','Turberas, ríos y monstruos del litoral','Mar abierto, arrecifes y cielos']}
@@ -62,21 +62,13 @@ function statusMessage(message,kind){
   app.innerHTML='<div class="aeb-error '+(kind||'')+'"><h3>Bestiario de Aeternalis</h3><p>'+escapeHtml(message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';
 }
 function fetchStyles(){
-  if(document.getElementById(STYLE_ID))return Promise.resolve();
-  return fetch(CSS_PAGE,{credentials:'same-origin',cache:'no-store'}).then(r=>{
-    if(!r.ok)throw Error('La página h4 devolvió HTTP '+r.status);return r.text();
-  }).then(html=>{
-    let doc=new DOMParser().parseFromString(html,'text/html');
-    let node=doc.getElementById('aeb-bestiary-css');
-    let css=node?node.textContent:'';
-    if(!css){
-      let from=html.indexOf('/* AEB_BESTIARY_CSS_START */');
-      let to=html.indexOf('/* AEB_BESTIARY_CSS_END */',from+10);
-      if(from>=0&&to>from)css=html.slice(from,to);
-    }
-    if(!css || !css.includes('#aeb-bestiary')||css.length<800)throw Error('Falta el bloque <style id="aeb-bestiary-css"> de este bestiario en h4.');
-    let style=document.createElement('style');style.id=STYLE_ID;style.textContent=css;document.head.appendChild(style);
-  });
+ if(document.getElementById(STYLE_ID))return Promise.resolve();
+ return new Promise((resolve,reject)=>{
+  const link=document.createElement('link');link.rel='stylesheet';link.id=STYLE_ID;
+  link.href='https://morpheus-eko.github.io/aeternalis/css/bestiario.css?v=2.1.0';
+  link.onload=resolve;link.onerror=()=>{link.remove();reject(Error('No fue posible cargar el CSS del Bestiario desde GitHub.'));};
+  (document.head||document.documentElement).appendChild(link);
+ });
 }
 // Los tomos se leen como JSON legible desde GitHub Pages antes de iniciar el motor.
 async function loadVolume(region,volume){
@@ -258,7 +250,7 @@ function attemptStart(){
   if(app)return;
   const root=document.getElementById(ROOT_ID);if(!root)return;
   app=root;
-  app.textContent='Cargando estilos del bestiario desde h4…';
+  app.textContent='Cargando estilos del Bestiario desde GitHub…';
   registerEvents();
   fetchStyles().then(()=>{renderLauncher();}).catch(err=>{console.error('[Aeternalis/bestiario]',err);statusMessage(err.message,'aeb-failed');});
 }
