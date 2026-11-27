@@ -180,7 +180,7 @@ function returnToTop(){
 }
 
 function notify(message){state.message=message;const n=root.querySelector('#aep-feedback');if(n)n.textContent=message;}
-function turnPage(direction){
+function turnPage(direction,retainFocus){
  const position=state.data.diseases.findIndex(item=>item.id===state.id)*TABS.length+TABS.indexOf(state.tab);
  const next=position+direction;
  if(next<0||next>=state.data.diseases.length*TABS.length){
@@ -191,12 +191,17 @@ function turnPage(direction){
   state.id=entry.id;state.tab=TABS[next%TABS.length];state.mode='lectura';
  }
  state.report=null;state.message='';render();returnToTop();
+ if(retainFocus){
+  const target=state.mode==='indice'?root.querySelector('[data-disease]'):
+   root.querySelector(direction>0?'[data-action="next"]':'[data-action="previous"]');
+  if(target){try{target.focus({preventScroll:true});}catch(_){target.focus();}}
+ }
 }
 root.addEventListener('keydown',function(ev){
  if(state.mode!=='lectura'||ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;
  if(ev.key!=='ArrowLeft'&&ev.key!=='ArrowRight')return;
  if(ev.target.closest('input,select,textarea,summary,[contenteditable="true"]'))return;
- ev.preventDefault();turnPage(ev.key==='ArrowRight'?1:-1);
+ ev.preventDefault();turnPage(ev.key==='ArrowRight'?1:-1,true);
 });
 root.addEventListener('click',function(ev){
  const select=ev.target.closest('[data-disease]');
