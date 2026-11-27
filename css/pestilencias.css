@@ -1,149 +1,209 @@
-/* AETERNALIS · Códice de las Pestilencias 1.0
- * Gabinete de cuarentena: lenguaje visual clínico/ocultista, no astillero.
- * CSS totalmente aislado bajo #ae-pestilencias.
- */
-body.aep-preview{margin:0;padding:14px;min-height:100vh;background:radial-gradient(ellipse at 50% -15%,#35362b 0%,transparent 65%),linear-gradient(135deg,#080a0b,#15120e 54%,#08090a);color:#decbaa}
-#ae-pestilencias{--aep-brass:#b48c54;--aep-paper:#e5d6ae;--aep-ink:#322c22;--aep-disease:#8f9c68;display:block;max-width:1460px;width:100%;margin:20px auto 50px;font-family:Georgia,'Times New Roman',serif;text-align:left;isolation:isolate;color:#ded3bc}
-#ae-pestilencias,#ae-pestilencias *,#ae-pestilencias *::before,#ae-pestilencias *::after{box-sizing:border-box}
-#ae-pestilencias img{display:block;max-width:100%;height:auto;box-shadow:none;border:0}
-#ae-pestilencias button,#ae-pestilencias select,#ae-pestilencias input{font:inherit}
+/* AETERNALIS · EL CÓDICE DE LAS PESTILENCIAS · v1.1
+   Índice de folios y lectura médica progresiva. CSS exclusivo de #ae-pestilencias.
+   Nunca modifica estilos globales de Foroactivo, Astillero o Supermapa.
+*/
+body.aep-preview{background:radial-gradient(ellipse at 50% 0%,#32392b,#10120f 40%,#090b0b 90%);min-height:100vh;margin:0;padding:12px;color:#dac8a4}
+#ae-pestilencias{--aep-paper:#e2cea5;--aep-ink:#392c20;--aep-disease:#8f9c68;--aep-copper:#947348;position:relative;display:block;width:100%;max-width:1460px;margin:24px auto 50px;color:#e1d4b6;font-family:Georgia,'Times New Roman',serif;text-align:left;isolation:isolate}
+#ae-pestilencias *,#ae-pestilencias *::before,#ae-pestilencias *::after{box-sizing:border-box}
+#ae-pestilencias img{display:block;max-width:100%;height:auto;border:0;box-shadow:none;object-fit:contain}
+#ae-pestilencias button,#ae-pestilencias select,#ae-pestilencias input{font-family:Georgia,'Times New Roman',serif}
 #ae-pestilencias button{cursor:pointer}
-#ae-pestilencias button:focus-visible,#ae-pestilencias select:focus-visible,#ae-pestilencias input:focus-visible{outline:2px solid #e9d3a2;outline-offset:3px}
-#ae-pestilencias .aep-gabinete{position:relative;overflow:hidden;padding:clamp(16px,2.7vw,34px);background:
-radial-gradient(circle at 50% 2%,#3941376b,transparent 37%),radial-gradient(circle at 1% 75%,#452d2b55,transparent 45%),linear-gradient(145deg,#141813,#090d0f 45%,#191515);
-border:1px solid #8a684e;outline:4px solid #070909;box-shadow:0 0 0 7px #56452d61,0 22px 90px #000b,inset 0 0 90px #000e}
-#ae-pestilencias .aep-gabinete::before{content:"";position:absolute;inset:10px;pointer-events:none;opacity:.45;border:1px solid #8c774a5a;background:repeating-linear-gradient(90deg,transparent 0 19px,#b3915820 19px 20px);mask-image:linear-gradient(#000 0 1px,transparent 1px 98%,#000 100%)}
-#ae-pestilencias .aep-header{text-align:center;padding:13px 0 17px;position:relative;z-index:1}
-#ae-pestilencias .aep-header__overline,#ae-pestilencias .aep-kicker{display:block;color:#b5ae89;font:700 10px/1.4 Georgia,serif;letter-spacing:.19em;text-transform:uppercase}
-#ae-pestilencias .aep-header__overline{letter-spacing:.36em;margin:4px 0 7px}
-#ae-pestilencias .aep-header img{display:block;width:min(100%,850px);max-height:280px;object-fit:contain;margin:0 auto;filter:drop-shadow(0 10px 22px #000b)}
-#ae-pestilencias .aep-header p{margin:0 auto 13px;color:#afab98;font:italic 14px/1.5 Georgia,serif;letter-spacing:.03em}
-#ae-pestilencias .aep-layout{display:grid;grid-template-columns:minmax(218px,260px) minmax(0,1fr) minmax(197px,225px);align-items:start;gap:clamp(11px,1.6vw,24px);position:relative;z-index:1}
-#ae-pestilencias .aep-index,#ae-pestilencias .aep-sidebar{position:relative;min-width:0;overflow:hidden;border:1px solid #8b704f80;background:linear-gradient(153deg,#2a2520 0%,#151c1c 42%,#100f11 85%);box-shadow:inset 0 0 0 3px #b7a0770b,0 9px 20px #0008}
-#ae-pestilencias .aep-index::before,#ae-pestilencias .aep-sidebar::before{content:"";display:block;height:8px;background:repeating-linear-gradient(90deg,#9f774b 0 16px,#332b24 16px 20px,#9f774b 20px 24px,#221c1b 24px 29px);opacity:.43}
-#ae-pestilencias .aep-index{padding:0 9px 14px}
-#ae-pestilencias .aep-index__head{text-align:center;margin:0 1px 11px;padding:16px 8px 18px;border-bottom:1px solid #9d805849}
-#ae-pestilencias .aep-index__head span{display:block;color:#9da88c;letter-spacing:.20em;font:700 9px/1.4 Georgia,serif}
-#ae-pestilencias .aep-index__head strong{display:block;color:#e2cc9e;font:normal 23px/1.15 Georgia,serif;margin:9px 0 7px}
-#ae-pestilencias .aep-index__head small{color:#b2ac9a;font:italic 11px/1.3 Georgia,serif}
-#ae-pestilencias .aep-case{width:100%;text-align:left;display:grid;grid-template-columns:64px 1fr 10px;gap:8px;align-items:center;border:1px solid #927a5c3f;border-left:3px solid transparent;background:linear-gradient(90deg,#252522,#161b1b);padding:8px 7px 8px 4px;margin:7px 0;color:#d9c9a6;min-height:88px;transition:background .15s,border-color .15s,box-shadow .15s;box-shadow:inset 0 0 16px #0005}
-#ae-pestilencias .aep-case:hover,#ae-pestilencias .aep-case.is-active{border-color:#a99065;border-left-color:var(--aep-disease);background:linear-gradient(97deg,#34362e,#1d211c);box-shadow:inset 0 0 22px #c4a26b0e,0 0 0 1px #a58c6040}
-#ae-pestilencias .aep-case__seal{display:grid;place-items:center;width:62px;height:64px;background:radial-gradient(circle,#53564070,transparent 66%)}
-#ae-pestilencias .aep-case__seal img{width:60px;height:60px;object-fit:contain;filter:drop-shadow(0 2px 3px #000c)}
-#ae-pestilencias .aep-case__copy{display:block;min-width:0}
-#ae-pestilencias .aep-case__copy small{display:block;font:700 8px/1.3 Georgia,serif;letter-spacing:.06em;color:#999e88}
-#ae-pestilencias .aep-case__copy strong{display:block;line-height:1.17;font-size:14px;margin:5px 0;color:#e7d7b5;overflow-wrap:anywhere}
-#ae-pestilencias .aep-case__copy em{display:block;font:italic 10px/1.3 Georgia,serif;color:#a89c83}
-#ae-pestilencias .aep-case__arrow{color:var(--aep-disease);font-size:22px}
-#ae-pestilencias .aep-index__end{text-align:center;margin:18px 11px 12px;padding:11px 0 3px;color:#a6a18b;font:italic 12px/1.6 Georgia,serif;border-top:1px dashed #977a4b55}
-#ae-pestilencias .aep-dossier{position:relative;min-width:0;background:linear-gradient(180deg,#1e211e,#141919 26%,#241d1a);border:1px solid #94764a99;padding:12px;box-shadow:inset 0 0 0 3px #99835311,0 12px 25px #0009}
-#ae-pestilencias .aep-dossier__top{position:relative;min-height:145px;display:grid;grid-template-columns:minmax(0,1fr) 143px;gap:9px;align-items:center;padding:13px 10px 11px 16px;background:linear-gradient(110deg,#262825c9,#171d1dbd);border:1px solid #937d5f48;border-bottom:2px double #8a7d566b}
-#ae-pestilencias .aep-dossier__top h2{font:normal clamp(23px,2.8vw,36px)/1.09 Georgia,serif;margin:9px 0 6px;color:#ebdcc2;text-shadow:0 2px 5px #000b;overflow-wrap:anywhere}
-#ae-pestilencias .aep-dossier__top p{margin:0 0 13px;font:italic 14px/1.4 Georgia,serif;color:#baaa8c}
-#ae-pestilencias .aep-dossier__tags{display:flex;flex-wrap:wrap;gap:6px}
-#ae-pestilencias .aep-dossier__tags span{padding:5px 7px;font:700 9px/1.3 Georgia,serif;letter-spacing:.035em;border:1px solid #9479536b;background:#0b0e0d91;color:#d4c6a8}
-#ae-pestilencias .aep-dossier__emblem{width:143px;max-height:148px;object-fit:contain;filter:drop-shadow(0 8px 12px #000c)}
-#ae-pestilencias .aep-tabbar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;padding:11px 1px 8px}
-#ae-pestilencias .aep-tab{padding:0;margin:0;min-width:0;min-height:48px;border:1px solid transparent;background:transparent;filter:grayscale(.27) brightness(.72);transition:filter .16s,transform .16s}
-#ae-pestilencias .aep-tab img{width:100%;height:auto;max-height:90px;object-fit:contain}
-#ae-pestilencias .aep-tab:hover,#ae-pestilencias .aep-tab.is-active{filter:none;transform:translateY(-2px)}
-#ae-pestilencias .aep-tab.is-active{background:radial-gradient(ellipse at center,#cbb37b18,transparent 70%);border-bottom:2px solid var(--aep-disease)}
-#ae-pestilencias .aep-sheet{position:relative;min-height:670px;padding:clamp(95px,13vw,130px) clamp(22px,6.6%,75px) 120px;overflow:hidden;color:var(--aep-ink);background:url('https://morpheus-eko.github.io/aeternalis/assets/pestilencias/fondo-hoja-tratado-medico.webp') center top/100% auto no-repeat,linear-gradient(#d4bd92,#c3ad80 72%,#b39b70);border:1px solid #79643f;box-shadow:inset 0 0 0 1px #e8d1a662,inset 0 0 45px #51412e91}
-#ae-pestilencias .aep-sheet__intro{position:relative;z-index:1;max-width:670px;margin:0 auto;min-width:0;padding:15px clamp(4px,1.3vw,20px) 18px;background:linear-gradient(180deg,#e4d1a18f,#dfc69f4d 75%,transparent);text-shadow:0 1px #eee0c445}
-#ae-pestilencias .aep-sheet .aep-kicker{color:#765130}
-#ae-pestilencias .aep-sheet h3{font:normal clamp(23px,2.4vw,31px)/1.1 Georgia,serif;margin:9px 0 19px;padding:0 0 12px;color:#3c3024;border-bottom:1px solid #8d654389}
-#ae-pestilencias .aep-sheet h4{font:700 clamp(17px,1.8vw,21px)/1.2 Georgia,serif;color:#543b29;margin:27px 0 9px;padding:0 0 4px;border-bottom:1px solid #9a7e564f}
-#ae-pestilencias .aep-sheet p{font:normal 14px/1.75 Georgia,serif;color:#382e23;margin:0 0 14px}
-#ae-pestilencias .aep-dropcap:first-letter{float:left;font:normal 49px/.85 Georgia,serif;color:#5e4227;margin:5px 7px 0 0}
-#ae-pestilencias .aep-highlight{padding:12px 15px;border-left:3px solid #796346;background:#67503a22;font-style:italic!important}
-#ae-pestilencias .aep-stage-list{list-style:none;counter-reset:none;display:grid;gap:10px;padding:0;margin:10px 0}
-#ae-pestilencias .aep-stage{display:grid;grid-template-columns:43px 1fr;gap:11px;padding:10px 11px;background:#c2a7784a;border:1px solid #7e65415e}
-#ae-pestilencias .aep-stage__number{display:grid;place-items:center;align-self:start;width:39px;height:40px;background:#463329;color:#f1d5a0;font:700 16px/1 Georgia,serif;border:1px solid #7b6643}
-#ae-pestilencias .aep-stage strong{font:700 15px/1.3 Georgia,serif;color:#51372a}
-#ae-pestilencias .aep-stage p{font:normal 13px/1.65 Georgia,serif;margin:3px 0 0}
-#ae-pestilencias .aep-stage.is-fatal{border-color:#8749459e;background:#6f362b1b}
-#ae-pestilencias .aep-stage.is-fatal .aep-stage__number{background:#6d3931;color:#f7dfd2}
-#ae-pestilencias .aep-rule{padding:13px;background:#f0d6a948!important;border:1px solid #96784f8f;font-size:13px!important}
-#ae-pestilencias .aep-form{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;align-items:start;margin:17px 0}
-#ae-pestilencias .aep-form>label,#ae-pestilencias .aep-counter{display:grid;gap:6px;font:700 13px/1.45 Georgia,serif;color:#483527}
-#ae-pestilencias .aep-form input[type="number"],#ae-pestilencias .aep-form select,#ae-pestilencias .aep-counter select{display:block;width:100%;min-height:40px;border:1px solid #847250;background:#eee0bc;color:#33291e;padding:8px 9px;border-radius:2px;appearance:auto;box-shadow:inset 0 2px 5px #4b392321}
-#ae-pestilencias .aep-form fieldset{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:9px;border:1px solid #91764e91;padding:12px;margin:0;background:#d5bc9235}
-#ae-pestilencias .aep-form legend{font:700 12px/1 Georgia,serif;padding:0 6px}
-#ae-pestilencias .aep-check{display:flex;align-items:center;gap:7px;flex:1 1 165px;font:normal 13px/1.5 Georgia,serif;color:#473526}
-#ae-pestilencias .aep-check input{accent-color:#536142;width:17px;height:17px}
-#ae-pestilencias .aep-check b{color:#5e683f}
-#ae-pestilencias .aep-calc{display:block;width:min(100%,360px);margin:22px auto 14px;border:none;padding:0;background:none;filter:drop-shadow(0 5px 7px #24191183);transition:filter .14s,transform .14s}
-#ae-pestilencias .aep-calc img{width:100%;height:auto}
-#ae-pestilencias .aep-calc:hover{filter:brightness(1.13) drop-shadow(0 7px 9px #24191196);transform:translateY(-2px)}
-#ae-pestilencias .aep-result{min-height:78px;padding:14px;background:#a9947440;border:1px dashed #7e6846;margin:12px 0}
-#ae-pestilencias .aep-result p{margin:0}
-#ae-pestilencias .aep-result__numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:10px}
-#ae-pestilencias .aep-result__numbers>div{min-width:0;display:grid;gap:4px;padding:7px;background:#57432f19;border-bottom:2px solid #785437}
-#ae-pestilencias .aep-result__numbers small{color:#735634;letter-spacing:.08em;font:700 9px/1.3 Georgia,serif}
-#ae-pestilencias .aep-result__numbers b{color:#4b3024;font:700 clamp(14px,1.9vw,20px)/1.2 Georgia,serif;overflow-wrap:anywhere}
-#ae-pestilencias .aep-smallprint{font-size:11px!important;font-style:italic!important;color:#705c47!important}
-#ae-pestilencias .aep-counter{margin:17px 0}
-#ae-pestilencias .aep-prognosis{margin:16px 0 22px;padding:16px;background:linear-gradient(140deg,#c9b083c2,#ead4ad70);border-left:4px solid #885941}
-#ae-pestilencias .aep-prognosis h4{margin:8px 0 11px}
-#ae-pestilencias .aep-copy{display:inline-flex;justify-content:center;align-items:center;min-height:43px;padding:9px 15px;color:#e6d4b7;border:1px solid #8c764f;background:linear-gradient(#503c2c,#302a27);font-size:13px}
-#ae-pestilencias .aep-copy:hover{background:linear-gradient(#6f5033,#4c3628)}
-#ae-pestilencias .aep-dossier__foot{display:flex;justify-content:space-between;gap:6px;flex-wrap:wrap;padding:11px 3px 3px;color:#a99c7d;letter-spacing:.08em;font:700 9px/1.4 Georgia,serif}
-#ae-pestilencias .aep-sidebar{padding:0 16px 18px}
-#ae-pestilencias .aep-sidebar>.aep-kicker{margin-top:17px;color:#9caa8f}
-#ae-pestilencias .aep-sidebar h3{font:normal 23px/1.14 Georgia,serif;color:#e3cfaa;margin:10px 0 15px}
-#ae-pestilencias .aep-sidebar p{font:normal 12px/1.75 Georgia,serif;color:#c5b7a0;margin:0 0 17px}
-#ae-pestilencias .aep-stat{display:flex;justify-content:space-between;align-items:baseline;gap:7px;padding:11px 0;border-top:1px solid #94724f54}
-#ae-pestilencias .aep-stat span{color:#aea792;font:normal 11px/1.35 Georgia,serif}
-#ae-pestilencias .aep-stat strong{color:#e2cfaa;font:700 13px/1.25 Georgia,serif;text-align:right}
-#ae-pestilencias .aep-sidebar__notice{padding:12px;border:1px solid #7c6744;background:#0a0c0b94;color:#bca98d!important;font-style:italic!important}
-#ae-pestilencias .aep-seal{display:grid;place-items:center;padding:8px;text-align:center;color:#857851;font-size:30px;border:1px dashed #89704a58}
-#ae-pestilencias .aep-seal small{font:700 9px/1.2 Georgia,serif;letter-spacing:.2em}
-#ae-pestilencias .aep-footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;margin:17px 0 0;padding:16px 7px 3px;border-top:1px solid #967c5569;color:#a9a083;font:700 10px/1.4 Georgia,serif;letter-spacing:.06em}
-#ae-pestilencias .aep-feedback{margin:6px 4px 0;min-height:16px;color:#becc9f;font:italic 11px/1.5 Georgia,serif}
-#ae-pestilencias .aep-loading,#ae-pestilencias .aep-error{padding:50px 24px;text-align:center;background:#181c1b;border:1px solid #78603f;color:#dfceb0;min-height:200px}
-#ae-pestilencias .aep-error button{margin:12px;padding:10px 18px;border:1px solid #b49462;background:#40352a;color:#f2e1c2}
-@media(max-width:1130px){
- #ae-pestilencias .aep-layout{grid-template-columns:minmax(175px,220px) minmax(0,1fr)}
- #ae-pestilencias .aep-sidebar{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px 17px}
- #ae-pestilencias .aep-sidebar>.aep-kicker,#ae-pestilencias .aep-sidebar h3,#ae-pestilencias .aep-sidebar>p,#ae-pestilencias .aep-sidebar__notice{grid-column:1/-1}
- #ae-pestilencias .aep-sidebar .aep-seal{display:none}
+#ae-pestilencias button:focus-visible,#ae-pestilencias input:focus-visible,#ae-pestilencias select:focus-visible,#ae-pestilencias summary:focus-visible{outline:3px solid #a3ad74;outline-offset:3px}
+#ae-pestilencias .aep-gabinete{position:relative;overflow:hidden;min-width:0;padding:clamp(13px,2.5vw,36px);background:radial-gradient(ellipse at 50% 5%,#3c3c3157,transparent 55%),linear-gradient(140deg,#18201c,#090e0d 48%,#211c1a);border:1px solid #94734b;box-shadow:inset 0 0 0 4px #b49b6812,inset 0 0 110px #0008,0 21px 80px #000c}
+#ae-pestilencias .aep-gabinete::before{content:"";position:absolute;inset:10px;pointer-events:none;border:1px solid #ae8a5363;opacity:.5}
+#ae-pestilencias .aep-header{position:relative;z-index:1;text-align:center;max-width:1100px;margin:0 auto;padding:6px 0 20px}
+#ae-pestilencias .aep-header__overline,#ae-pestilencias .aep-kicker{display:block;font:700 11px/1.45 Georgia,serif;letter-spacing:.17em;text-transform:uppercase}
+#ae-pestilencias .aep-header__overline{color:#afa98a;letter-spacing:.29em}
+#ae-pestilencias .aep-header img{width:min(94%,740px);max-height:230px;margin:3px auto 0;filter:drop-shadow(0 7px 20px #000a)}
+#ae-pestilencias .aep-header p{margin:-4px auto 0;color:#c5b698;font:italic clamp(14px,1.45vw,18px)/1.5 Georgia,serif}
+#ae-pestilencias .aep-kicker{color:#735535}
+
+/* Un único volumen central. El resto de la interfaz ya no compite con la lectura. */
+#ae-pestilencias .aep-volume{position:relative;z-index:1;max-width:1100px;width:100%;margin:20px auto 0;border:1px solid #78613f;box-shadow:0 18px 50px #0009,inset 0 0 0 5px #25170d18}
+#ae-pestilencias .aep-volume--index{max-width:1030px;padding:clamp(35px,5vw,76px) clamp(21px,5.5vw,82px) clamp(30px,4vw,60px);color:var(--aep-ink);background:radial-gradient(ellipse at 50% 0%,#efe0bdc4,transparent 65%),linear-gradient(98deg,#bda37b,#e4d0a9 8%,#e8d4ac 90%,#a88a61);border:12px solid #30271f;outline:1px solid #a18b5b}
+#ae-pestilencias .aep-volume--index::before{content:"";position:absolute;inset:12px;pointer-events:none;border:1px solid #99744b5e}
+#ae-pestilencias .aep-volume__index-head{text-align:center;max-width:770px;margin:0 auto 31px}
+#ae-pestilencias .aep-volume__index-head h1{margin:14px 0 14px;font:normal clamp(36px,4vw,55px)/1.1 Georgia,serif;letter-spacing:-.018em;color:#3d2b20;text-transform:none;text-shadow:0 1px #fff1c572}
+#ae-pestilencias .aep-volume__index-head p{margin:0 auto;max-width:680px;color:#4b3b2b;font:normal clamp(17px,1.55vw,19px)/1.8 Georgia,serif}
+#ae-pestilencias .aep-ink-divider{text-align:center;margin:22px auto 0;font-size:16px;letter-spacing:.35em;color:#82633c}
+#ae-pestilencias .aep-entry-list{display:grid;gap:13px;max-width:920px;margin:0 auto}
+#ae-pestilencias .aep-entry{width:100%;min-width:0;display:grid;grid-template-columns:60px 112px minmax(0,1fr) auto;align-items:center;gap:16px;min-height:143px;padding:14px 24px 14px 16px;text-align:left;background:linear-gradient(100deg,#cab0889c,#efdfbb8c);border:1px solid #997753a8;border-left:4px solid #88663f;color:#352a20;box-shadow:inset 0 0 23px #8c69431b,0 3px 6px #5e472b18;transition:background .17s ease,transform .17s ease,border-color .17s ease}
+#ae-pestilencias .aep-entry:hover{background:linear-gradient(100deg,#d4ba89,#f5e6c5);border-color:#755436;transform:translateX(3px)}
+#ae-pestilencias .aep-entry__number{font:italic 36px/1 Georgia,serif;color:#8b6440;text-align:center;border-right:1px solid #9578556b;padding-right:8px}
+#ae-pestilencias .aep-entry__seal{display:grid;place-items:center}
+#ae-pestilencias .aep-entry__seal img{width:108px;height:108px;filter:drop-shadow(0 6px 6px #44301e55)}
+#ae-pestilencias .aep-entry__text{display:block;min-width:0}
+#ae-pestilencias .aep-entry__text small{display:block;font:700 11px/1.45 Georgia,serif;letter-spacing:.11em;text-transform:uppercase;color:#775b40}
+#ae-pestilencias .aep-entry__text strong{display:block;margin:5px 0 6px;font:normal clamp(22px,2.15vw,29px)/1.16 Georgia,serif;color:#3c2e23;overflow-wrap:anywhere}
+#ae-pestilencias .aep-entry__text em{display:block;max-width:600px;font:italic clamp(13px,1.24vw,16px)/1.5 Georgia,serif;color:#64503b}
+#ae-pestilencias .aep-entry__link{display:block;min-width:100px;text-align:right;font:italic 14px/1.2 Georgia,serif;color:#755535;white-space:nowrap}
+#ae-pestilencias .aep-entry__link b{margin-left:4px;font-size:27px;vertical-align:middle}
+#ae-pestilencias .aep-index-marginalia{max-width:770px;margin:32px auto 16px;padding:20px 25px;background:#91765214;border-top:1px solid #9c80548f;border-bottom:1px solid #9c80548f}
+#ae-pestilencias .aep-index-marginalia b{display:block;color:#76563a;font:700 12px/1.5 Georgia,serif;letter-spacing:.12em}
+#ae-pestilencias .aep-index-marginalia p{margin:7px 0 0;color:#554333;font:italic 16px/1.7 Georgia,serif}
+#ae-pestilencias .aep-index-foot{text-align:center;color:#876d4c;letter-spacing:.15em;font:700 10px/1.4 Georgia,serif;padding-top:7px}
+
+/* Expediente abierto: pliego a página ancha. */
+#ae-pestilencias .aep-bookbar{position:relative;z-index:1;max-width:1100px;display:flex;justify-content:space-between;align-items:center;gap:12px;margin:17px auto 0;padding:0 8px}
+#ae-pestilencias .aep-bookbar__back{padding:10px 14px;border:1px solid #8e7652;background:#241f19;color:#edd6a5;font:700 14px/1.3 Georgia,serif;transition:background .15s}
+#ae-pestilencias .aep-bookbar__back:hover{background:#433226}
+#ae-pestilencias .aep-bookbar>span{font:700 10px/1.35 Georgia,serif;letter-spacing:.16em;text-align:right;color:#b6a68b}
+#ae-pestilencias .aep-volume--reader{background:linear-gradient(90deg,#201810,#31271e 2%,#241b15 98%,#15100c);padding:clamp(9px,1.8vw,22px)}
+#ae-pestilencias .aep-volume__reader-head{min-width:0;display:flex;align-items:center;gap:24px;padding:10px clamp(12px,2.3vw,28px) 18px;border-bottom:1px solid #ad8f5c75}
+#ae-pestilencias .aep-volume__emblem{width:clamp(90px,11vw,149px);height:clamp(90px,11vw,149px);flex:0 0 auto;filter:drop-shadow(0 5px 10px #0009)}
+#ae-pestilencias .aep-volume__reader-head>div{min-width:0}
+#ae-pestilencias .aep-volume__reader-head .aep-kicker{color:#c6a777}
+#ae-pestilencias .aep-volume__reader-head h2{margin:9px 0 5px;font:normal clamp(28px,3.4vw,43px)/1.12 Georgia,serif;color:#f2e2c5;overflow-wrap:anywhere}
+#ae-pestilencias .aep-volume__reader-head p{margin:0;font:italic 17px/1.45 Georgia,serif;color:#bcae94}
+#ae-pestilencias .aep-ribbon{display:flex;flex-wrap:wrap;gap:9px;margin:0 12px 5px;padding:11px 12px 13px;border-bottom:1px solid #8d785578}
+#ae-pestilencias .aep-ribbon span{padding:4px 10px;background:#121713;border:1px solid #88714f6f;color:#cdbf9b;font:normal 12px/1.4 Georgia,serif}
+#ae-pestilencias .aep-tabbar{display:flex;justify-content:center;align-items:center;gap:clamp(6px,1.3vw,18px);padding:10px 10px 14px}
+#ae-pestilencias .aep-tab{display:block;width:min(31%,235px);min-width:0;border:1px solid transparent;padding:3px 4px;background:none;filter:brightness(.66) saturate(.7);transition:filter .16s ease,transform .16s ease,border-color .16s}
+#ae-pestilencias .aep-tab img{width:100%;height:auto;max-height:70px}
+#ae-pestilencias .aep-tab:hover,#ae-pestilencias .aep-tab.is-active{filter:brightness(1.09) saturate(1.03);transform:translateY(-2px)}
+#ae-pestilencias .aep-tab.is-active{border-bottom:2px solid var(--aep-disease)}
+
+/* Pliego real de lectura: 18–20px, interlineado 1.8 y ancho de texto centrado. */
+#ae-pestilencias .aep-sheet{position:relative;isolation:isolate;overflow:hidden;min-height:820px;padding:clamp(142px,17vw,220px) clamp(20px,7%,95px) clamp(100px,13vw,170px);color:var(--aep-ink);background:linear-gradient(90deg,#c1a47a 0%,#e1c99e 6%,#e6d4ac 50%,#ddc196 94%,#b39570 100%);border:1px solid #8f6d42;box-shadow:inset 0 0 0 2px #e9d7b065,inset 0 0 52px #70553466}
+#ae-pestilencias .aep-sheet::before{content:"";position:absolute;z-index:-1;left:0;top:0;width:100%;height:min(100%,1600px);pointer-events:none;background:url('https://morpheus-eko.github.io/aeternalis/assets/pestilencias/fondo-hoja-tratado-medico.webp') center top/100% auto no-repeat;opacity:.98}
+#ae-pestilencias .aep-sheet__intro{position:relative;max-width:850px;margin:0 auto;padding:6px clamp(2px,1.5vw,15px) 38px;background:linear-gradient(180deg,#e3cda283,#e3cda28f 70%,#dcc39b45);text-shadow:0 1px #ffedcb41}
+#ae-pestilencias .aep-sheet__intro .aep-sheet__intro{padding:0;background:transparent}
+#ae-pestilencias .aep-sheet .aep-kicker{color:#795636;font-size:12px;letter-spacing:.17em}
+#ae-pestilencias .aep-sheet h3{font:normal clamp(30px,3.5vw,43px)/1.16 Georgia,serif;color:#3c2a1e;margin:10px 0 24px;padding-bottom:13px;border-bottom:1px solid #8b6c4591}
+#ae-pestilencias .aep-sheet h4{font:normal clamp(24px,2.7vw,30px)/1.2 Georgia,serif;color:#5a3d27;margin:31px 0 12px;padding-bottom:8px;border-bottom:1px solid #9879527a}
+#ae-pestilencias .aep-sheet p{font:normal clamp(18px,1.65vw,20px)/1.82 Georgia,'Times New Roman',serif!important;color:#3d3025;margin:0 0 21px;overflow-wrap:break-word}
+#ae-pestilencias .aep-dropcap:first-letter{float:left;font:normal 69px/.85 Georgia,serif;color:#604126;margin:9px 11px 0 0}
+#ae-pestilencias .aep-prose-lead{font-size:clamp(19px,1.8vw,21px)!important}
+#ae-pestilencias .aep-pullquote{margin:26px 0 32px!important;padding:16px 24px!important;font:italic clamp(18px,1.72vw,21px)/1.65 Georgia,serif!important;color:#62462e!important;border-left:4px solid #795a37;background:#b3916234}
+#ae-pestilencias .aep-manuscript-division{margin:35px 0 17px;text-align:center;border-top:1px solid #a5845c80;position:relative}
+#ae-pestilencias .aep-manuscript-division span{display:inline-block;position:relative;top:-10px;padding:0 13px;background:#ddc59e;color:#795e3a;letter-spacing:.1em;font:700 12px/1.3 Georgia,serif}
+#ae-pestilencias .aep-note{margin:13px 0;border:1px solid #9c7b549e;background:#ba9c7242;color:#4d3928;box-shadow:inset 0 0 0 1px #f4deac1c}
+#ae-pestilencias .aep-note summary{display:flex;align-items:center;gap:15px;padding:18px 16px;min-height:69px;list-style:none;cursor:pointer;font:700 clamp(17px,1.8vw,21px)/1.38 Georgia,serif;color:#4c3220}
+#ae-pestilencias .aep-note summary::-webkit-details-marker{display:none}
+#ae-pestilencias .aep-note summary::after{content:"＋";flex:0 0 auto;margin-left:auto;color:#745337;font:normal 26px/1 Georgia,serif}
+#ae-pestilencias .aep-note[open]>summary::after{content:"−"}
+#ae-pestilencias .aep-note:hover{border-color:#745132;background:#c2a77c69}
+#ae-pestilencias .aep-note[open]{border-color:#715033;background:#c6a77c57}
+#ae-pestilencias .aep-note__number{display:grid;flex:0 0 44px;place-items:center;width:44px;height:44px;color:#f0dcaf;background:#60452d;border:1px solid #886446;font:normal 22px/1 Georgia,serif}
+#ae-pestilencias .aep-note__hint{margin-left:auto;white-space:nowrap;color:#7f6242;font:italic 13px/1.3 Georgia,serif}
+#ae-pestilencias .aep-note summary::after{margin-left:0}
+#ae-pestilencias .aep-note[open] .aep-note__hint{display:none}
+#ae-pestilencias .aep-note__body{padding:19px 24px 20px 28px;border-top:1px solid #b49b775c;box-shadow:inset 4px 0 #8d6a4666}
+#ae-pestilencias .aep-note__body p{margin-bottom:0}
+#ae-pestilencias .aep-note--chapter{border-left:4px solid #775339}
+#ae-pestilencias .aep-note__nested{margin-top:18px;padding-left:12px;border-left:2px solid #98734e70}
+#ae-pestilencias .aep-note--stage summary{font-size:clamp(16px,1.6vw,19px);padding:12px;min-height:58px}
+#ae-pestilencias .aep-note--stage .aep-note__number{width:34px;height:34px;flex-basis:34px;font-size:17px}
+#ae-pestilencias .aep-note--stage .aep-note__body{padding:13px 15px 16px}
+#ae-pestilencias .aep-note.is-fatal{border-color:#8a5040aa}
+#ae-pestilencias .aep-note.is-fatal .aep-note__number{background:#743f36}
+#ae-pestilencias .aep-handwriting{margin:40px auto 0;padding:12px 14px;text-align:center;color:#856348;font:italic 18px/1.5 Georgia,serif;transform:rotate(-.7deg);border-top:1px dashed #ac88604d;max-width:660px}
+
+/* Segundo y tercer pliego: herramientas médicas legibles, no paneles de mejoras. */
+#ae-pestilencias .aep-rule{padding:18px 22px;background:#a7876040;border-left:4px solid #82603e;color:#483325!important;font-size:17px!important}
+#ae-pestilencias .aep-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:28px auto}
+#ae-pestilencias .aep-form>label,#ae-pestilencias .aep-counter{display:grid;gap:9px;color:#4b3829;font:700 16px/1.4 Georgia,serif}
+#ae-pestilencias .aep-form input[type=number],#ae-pestilencias .aep-form select,#ae-pestilencias .aep-counter select{display:block;width:100%;min-height:52px;border:1px solid #896947;background:#f0dfbd;color:#3a2b20;padding:12px 13px;font:normal 18px/1.2 Georgia,serif;box-shadow:inset 0 2px 5px #4a342a23}
+#ae-pestilencias .aep-form fieldset{display:flex;flex-wrap:wrap;gap:13px;grid-column:1/-1;margin:0;padding:18px;border:1px solid #9e7b4c8e;background:#c4a87c2e}
+#ae-pestilencias .aep-form legend{padding:0 8px;color:#59412c;font:700 17px/1.3 Georgia,serif}
+#ae-pestilencias .aep-check{display:flex;align-items:center;gap:12px;flex:1 1 210px;color:#453124;font:normal 17px/1.5 Georgia,serif}
+#ae-pestilencias .aep-check input{width:22px;height:22px;accent-color:#515d39}
+#ae-pestilencias .aep-check b{color:#546134}
+#ae-pestilencias .aep-calc{display:block;width:min(100%,430px);margin:30px auto 18px;padding:0;border:0;background:none;filter:drop-shadow(0 4px 8px #37261966);transition:filter .15s,transform .15s}
+#ae-pestilencias .aep-calc img{width:100%}
+#ae-pestilencias .aep-calc:hover{filter:brightness(1.14) drop-shadow(0 5px 12px #37261991);transform:translateY(-2px)}
+#ae-pestilencias .aep-result{min-height:85px;margin:20px 0;padding:20px;background:#aa8c613d;border:1px dashed #8d6c4d}
+#ae-pestilencias .aep-result p{margin:0!important;font-size:17px!important}
+#ae-pestilencias .aep-result__numbers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:18px}
+#ae-pestilencias .aep-result__numbers>div{min-width:0;display:grid;gap:7px;padding:15px 10px;background:#7f644136;border-bottom:3px solid #87603a}
+#ae-pestilencias .aep-result__numbers small{color:#6b5036;font:700 11px/1.35 Georgia,serif;letter-spacing:.09em}
+#ae-pestilencias .aep-result__numbers b{font:700 clamp(16px,2.4vw,25px)/1.2 Georgia,serif;color:#4b3023;overflow-wrap:anywhere}
+#ae-pestilencias .aep-smallprint{font-size:14px!important;color:#76583d!important;font-style:italic!important}
+#ae-pestilencias .aep-counter{margin:20px 0 23px}
+#ae-pestilencias .aep-prognosis{padding:22px;margin:18px 0 24px;background:#c2a57c4f;border-left:5px solid #785337}
+#ae-pestilencias .aep-prognosis h4{margin:9px 0 12px}
+#ae-pestilencias .aep-copy{padding:14px 22px;min-height:49px;background:linear-gradient(#5a432f,#352b24);color:#edd8af;border:1px solid #a88656;font:700 15px/1.4 Georgia,serif}
+#ae-pestilencias .aep-copy:hover{background:linear-gradient(#725236,#463125)}
+#ae-pestilencias .aep-page-turn{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:22px 8px 5px}
+#ae-pestilencias .aep-page-turn>span{color:#b09c7b;letter-spacing:.15em;font:700 11px/1.4 Georgia,serif}
+#ae-pestilencias .aep-page-turn button{padding:12px 18px;min-height:45px;border:1px solid #b2915b;background:linear-gradient(#4f3b2c,#28251f);font:700 16px/1.35 Georgia,serif;color:#f0d9ac;text-align:right}
+#ae-pestilencias .aep-page-turn button:hover{background:linear-gradient(#745238,#493427)}
+#ae-pestilencias .aep-page-turn button span{font-size:24px;vertical-align:middle;padding-left:7px}
+#ae-pestilencias .aep-reader-disclaimer{margin:14px 7px 0;color:#a99a7e;text-align:center;font:italic 13px/1.5 Georgia,serif}
+#ae-pestilencias .aep-footer{position:relative;z-index:1;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;max-width:1100px;margin:28px auto 0;border-top:1px solid #9f82575c;padding:16px 6px 0;color:#a99d81;font:700 11px/1.3 Georgia,serif;letter-spacing:.07em}
+#ae-pestilencias .aep-feedback{position:relative;z-index:1;text-align:center;margin:7px 4px 0;min-height:12px;font:italic 13px/1.4 Georgia,serif;color:#c6d4a5}
+#ae-pestilencias .aep-loading,#ae-pestilencias .aep-error{padding:70px 24px;text-align:center;min-height:220px;background:#161c18;border:1px solid #876844;color:#f1dbb6}
+#ae-pestilencias .aep-error button{background:#37291d;border:1px solid #b29461;color:#e9d5b0;padding:10px 17px}
+
+@media(max-width:940px){
+ #ae-pestilencias .aep-volume--index{padding:40px 32px;border-width:8px}
+ #ae-pestilencias .aep-entry{grid-template-columns:48px 90px 1fr;gap:12px}
+ #ae-pestilencias .aep-entry__seal img{width:86px;height:86px}
+ #ae-pestilencias .aep-entry__link{grid-column:3;min-width:0;text-align:left;font-size:12px}
+ #ae-pestilencias .aep-sheet{padding:clamp(110px,18vw,180px) 6% 105px}
+ #ae-pestilencias .aep-sheet p{font-size:18px!important}
 }
-@media(max-width:760px){
- #ae-pestilencias{margin:0 auto 20px}
+@media(max-width:650px){
+ #ae-pestilencias{margin:0 auto 24px}
  #ae-pestilencias .aep-gabinete{padding:12px 9px}
- #ae-pestilencias .aep-header__overline{letter-spacing:.15em}
- #ae-pestilencias .aep-layout{display:flex;flex-direction:column;gap:12px}
- #ae-pestilencias .aep-index{width:100%;padding:0 10px 10px}
- #ae-pestilencias .aep-index__head{padding:12px 5px}
- #ae-pestilencias .aep-index__head strong{font-size:18px}
- #ae-pestilencias .aep-index__end{display:none}
- #ae-pestilencias .aep-case{display:inline-grid;vertical-align:top;width:calc(33.333% - 8px);margin:5px 3px 5px 2px;grid-template-columns:36px 1fr;gap:3px;padding:7px 4px;min-height:99px}
- #ae-pestilencias .aep-case__seal{width:36px;height:40px}
- #ae-pestilencias .aep-case__seal img{width:36px;height:40px}
- #ae-pestilencias .aep-case__copy small,#ae-pestilencias .aep-case__copy em,#ae-pestilencias .aep-case__arrow{display:none}
- #ae-pestilencias .aep-case__copy strong{font-size:11px;margin:0;line-height:1.25}
- #ae-pestilencias .aep-dossier,#ae-pestilencias .aep-sidebar{width:100%}
- #ae-pestilencias .aep-dossier{padding:7px}
- #ae-pestilencias .aep-dossier__top{grid-template-columns:minmax(0,1fr) 94px;min-height:110px;padding:10px}
- #ae-pestilencias .aep-dossier__top h2{font-size:clamp(21px,5vw,28px)}
- #ae-pestilencias .aep-dossier__emblem{width:94px}
- #ae-pestilencias .aep-dossier__tags span{font-size:8px}
- #ae-pestilencias .aep-tabbar{gap:4px;padding:9px 0}
- #ae-pestilencias .aep-sheet{padding:90px 7% 75px;min-height:480px;background-size:100% auto}
- #ae-pestilencias .aep-sheet__intro{padding:12px 6px;background:#dfcda19e}
- #ae-pestilencias .aep-sheet p{font-size:13px}
- #ae-pestilencias .aep-form{gap:9px}
- #ae-pestilencias .aep-result__numbers{gap:4px}
+ #ae-pestilencias .aep-header{padding-bottom:11px}
+ #ae-pestilencias .aep-header__overline{font-size:9px;letter-spacing:.15em}
+ #ae-pestilencias .aep-header img{width:100%;max-height:130px}
+ #ae-pestilencias .aep-header p{font-size:13px;padding:0 9px}
+ #ae-pestilencias .aep-volume{margin-top:15px}
+ #ae-pestilencias .aep-volume--index{padding:29px 15px 31px;border-width:5px}
+ #ae-pestilencias .aep-volume__index-head h1{font-size:33px}
+ #ae-pestilencias .aep-volume__index-head p{font-size:16px;line-height:1.65}
+ #ae-pestilencias .aep-entry{grid-template-columns:24px 63px 1fr;gap:8px;min-height:116px;padding:10px 8px}
+ #ae-pestilencias .aep-entry__number{font-size:23px;padding-right:4px}
+ #ae-pestilencias .aep-entry__seal img{width:61px;height:68px}
+ #ae-pestilencias .aep-entry__text small{font-size:9px}
+ #ae-pestilencias .aep-entry__text strong{font-size:19px;line-height:1.15}
+ #ae-pestilencias .aep-entry__text em{font-size:12px;line-height:1.45}
+ #ae-pestilencias .aep-entry__link{font-size:11px}
+ #ae-pestilencias .aep-index-marginalia{padding:15px}
+ #ae-pestilencias .aep-index-marginalia p{font-size:15px}
+ #ae-pestilencias .aep-bookbar{margin-top:11px}
+ #ae-pestilencias .aep-bookbar>span{font-size:8px;letter-spacing:.04em}
+ #ae-pestilencias .aep-bookbar__back{font-size:12px;padding:10px}
+ #ae-pestilencias .aep-volume--reader{padding:7px}
+ #ae-pestilencias .aep-volume__reader-head{padding:7px;gap:10px}
+ #ae-pestilencias .aep-volume__emblem{width:74px;height:74px}
+ #ae-pestilencias .aep-volume__reader-head .aep-kicker{font-size:8px}
+ #ae-pestilencias .aep-volume__reader-head h2{font-size:clamp(21px,5.3vw,30px);margin:3px 0}
+ #ae-pestilencias .aep-volume__reader-head p{font-size:13px}
+ #ae-pestilencias .aep-ribbon{margin:0 4px;padding:9px 4px;gap:5px}
+ #ae-pestilencias .aep-ribbon span{font-size:10px;padding:4px 5px}
+ #ae-pestilencias .aep-tabbar{gap:4px;padding:9px 2px}
+ #ae-pestilencias .aep-tab{width:33.33%;padding:0}
+ #ae-pestilencias .aep-sheet{min-height:600px;padding:clamp(93px,21vw,142px) 5% 87px}
+ #ae-pestilencias .aep-sheet__intro{padding:7px 3px 30px}
+ #ae-pestilencias .aep-sheet h3{font-size:clamp(25px,6vw,33px)}
+ #ae-pestilencias .aep-sheet h4{font-size:24px}
+ #ae-pestilencias .aep-sheet p{font-size:17px!important;line-height:1.75!important}
+ #ae-pestilencias .aep-prose-lead{font-size:18px!important}
+ #ae-pestilencias .aep-pullquote{padding:12px!important}
+ #ae-pestilencias .aep-note summary{gap:8px;padding:12px 8px;font-size:16px}
+ #ae-pestilencias .aep-note__number{width:32px;height:32px;flex-basis:32px;font-size:16px}
+ #ae-pestilencias .aep-note__hint{font-size:10px}
+ #ae-pestilencias .aep-note__body{padding:14px 12px}
+ #ae-pestilencias .aep-note__nested{padding-left:5px}
+ #ae-pestilencias .aep-form{grid-template-columns:1fr;gap:12px}
+ #ae-pestilencias .aep-form fieldset{grid-column:1}
+ #ae-pestilencias .aep-result__numbers{gap:5px}
  #ae-pestilencias .aep-result__numbers small{font-size:8px}
- #ae-pestilencias .aep-sidebar{display:block}
+ #ae-pestilencias .aep-result__numbers b{font-size:15px}
+ #ae-pestilencias .aep-page-turn{flex-direction:column;align-items:stretch}
+ #ae-pestilencias .aep-page-turn button{text-align:center}
 }
-@media(max-width:410px){
- #ae-pestilencias .aep-case{grid-template-columns:1fr;text-align:center}
- #ae-pestilencias .aep-case__seal{margin:auto}
- #ae-pestilencias .aep-dossier__top{grid-template-columns:minmax(0,1fr) 72px}
- #ae-pestilencias .aep-dossier__emblem{width:72px}
- #ae-pestilencias .aep-form{grid-template-columns:1fr}
+@media(max-width:385px){
+ #ae-pestilencias .aep-entry__number{display:none}
+ #ae-pestilencias .aep-entry{grid-template-columns:55px 1fr}
+ #ae-pestilencias .aep-entry__link{grid-column:2}
+ #ae-pestilencias .aep-entry__seal img{width:54px;height:58px}
+ #ae-pestilencias .aep-note__hint{display:none}
  #ae-pestilencias .aep-result__numbers{grid-template-columns:1fr}
- #ae-pestilencias .aep-result__numbers>div{grid-template-columns:1fr 1fr;align-items:center}
 }
-@media(prefers-reduced-motion:reduce){#ae-pestilencias *,#ae-pestilencias *::before,#ae-pestilencias *::after{scroll-behavior:auto!important;transition:none!important}}
+@media(prefers-reduced-motion:reduce){
+ #ae-pestilencias .aep-entry,#ae-pestilencias .aep-tab,#ae-pestilencias .aep-calc{transition:none;transform:none}
+}
