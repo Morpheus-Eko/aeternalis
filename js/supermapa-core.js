@@ -9,7 +9,7 @@
 (()=>{
 'use strict';
 const CONFIG={
- CSS_URL:'https://morpheus-eko.github.io/aeternalis/css/supermapa-core.css?v=1.0.0',
+ CSS_URL:'https://morpheus-eko.github.io/aeternalis/css/supermapa-core.css?v=1.1.0',
  LEAFLET_CSS:'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css',
  LEAFLET_CDN:['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'],
  STORAGE_KEY:'AETERNALIS_CARTOGRAFIA_BORRADOR_V16_EXPLORADOR',
