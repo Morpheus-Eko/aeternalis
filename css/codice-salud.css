@@ -1,4 +1,4 @@
-/* Aeternalis · Códice de la Salud v1.0.0 — encapsulado para Foroactivo. */
+/* Aeternalis · Tomo de Medicina v2.0.0 — encapsulado para Foroactivo. */
 #ae-codice-salud{--ac-ink:#473223;--ac-dark:#121811;--ac-brass:#baa06f;--ac-paper:#e9d5ae;display:block;width:100%;min-width:0;container-type:inline-size;color:#e6d4b3;box-sizing:border-box}
 #ae-codice-salud *{box-sizing:border-box}
 #ae-codice-salud button,#ae-codice-salud input,#ae-codice-salud select{font:inherit}
@@ -141,3 +141,41 @@
  #ae-codice-salud .ac-drawer{top:95px;max-height:75vh;right:8px}
 }
 @media(prefers-reduced-motion:reduce){#ae-codice-salud .ac-turn,#ae-codice-salud .ac-compass,#ae-codice-salud .ac-figure img{transition:none}#ae-codice-salud .ac-turn:hover{transform:none}}
+
+/* TOMO DE MEDICINA · v2.0 · Tablas, materia botánica y anotaciones de margen.
+   Tipografía heredada íntegramente del foro; las láminas no forman títulos. */
+#ae-codice-salud .ac-figure--botanical{margin:9px auto 17px}
+#ae-codice-salud .ac-figure--botanical img{max-height:clamp(220px,34vh,370px);width:auto;max-width:min(100%,390px);mix-blend-mode:multiply}
+#ae-codice-salud .ac-inset-art{float:right;clear:right;width:clamp(93px,31%,152px);margin:4px 0 15px 17px;padding:5px 4px 7px;border-top:1px solid #ae8557;border-bottom:1px solid #ae8557;text-align:center;position:relative;z-index:1}
+#ae-codice-salud .ac-inset-art a{display:block;max-width:100%;outline-offset:3px}
+#ae-codice-salud .ac-inset-art img{display:block;margin:0 auto;width:100%;height:auto;max-height:174px;object-fit:contain;mix-blend-mode:multiply;filter:sepia(.15) contrast(1.08)}
+#ae-codice-salud .ac-inset-art figcaption{margin-top:4px;font-size:10px;line-height:1.36;font-style:italic;color:#755638}
+#ae-codice-salud .ac-leaf__body::after{content:"";display:block;clear:both}
+#ae-codice-salud .ac-table-scroll{max-width:100%;overflow-x:auto;overflow-y:hidden;margin:14px 0 19px;border:1px solid #a9885c;scrollbar-width:thin}
+#ae-codice-salud .ac-med-table{border-collapse:collapse;width:100%;min-width:425px;background:#faedcd70;color:#4a3322;font:inherit;font-size:13px;line-height:1.55}
+#ae-codice-salud .ac-med-table caption{font:inherit;font-size:13px;font-weight:700;padding:9px 8px 10px;color:#583c26;background:#d7b98a80;text-align:left}
+#ae-codice-salud .ac-med-table th,#ae-codice-salud .ac-med-table td{padding:9px 8px;border-right:1px solid #ae916a82;border-bottom:1px solid #ae916a8a;vertical-align:top;text-align:left;white-space:normal}
+#ae-codice-salud .ac-med-table thead th{font-weight:700;background:#bca17a66}
+#ae-codice-salud .ac-med-table tbody th{font-weight:700;min-width:125px}
+#ae-codice-salud .ac-med-table tbody tr:nth-child(even){background:#b8a0751e}
+#ae-codice-salud .ac-med-table tr:last-child th,#ae-codice-salud .ac-med-table tr:last-child td{border-bottom:0}
+#ae-codice-salud .ac-med-table th:last-child,#ae-codice-salud .ac-med-table td:last-child{border-right:0}
+#ae-codice-salud .ac-clinical-list{list-style:none;margin:13px 0 16px;padding:0;counter-reset:clinical}
+#ae-codice-salud .ac-clinical-list li{position:relative;padding:12px 8px 12px 42px;margin:0 0 12px;border-bottom:1px dashed #9a785484;counter-increment:clinical}
+#ae-codice-salud .ac-clinical-list li::before{content:counter(clinical,decimal-leading-zero);position:absolute;left:0;top:11px;color:#956b42;font-size:18px;font-style:italic}
+#ae-codice-salud .ac-clinical-list li strong{font:inherit;font-weight:700;color:#533823}
+#ae-codice-salud .ac-clinical-list li p{margin:6px 0 0}
+#ae-codice-salud .ac-leaf__body h3{font-family:inherit!important}
+#ae-codice-salud .ac-leaf__body .ac-med-table{font-family:inherit!important}
+#ae-codice-salud .ac-figure--botanical a:focus-visible,#ae-codice-salud .ac-inset-art a:focus-visible{outline:2px solid #936338;outline-offset:2px}
+@container(max-width:750px){
+ #ae-codice-salud .ac-inset-art{width:100px;margin-left:11px}
+ #ae-codice-salud .ac-med-table{font-size:12px}
+ #ae-codice-salud .ac-med-table th,#ae-codice-salud .ac-med-table td{padding:7px 6px}
+}
+@container(max-width:480px){
+ #ae-codice-salud .ac-inset-art{width:83px;margin-left:9px}
+ #ae-codice-salud .ac-inset-art figcaption{font-size:9px}
+ #ae-codice-salud .ac-clinical-list li{padding-left:32px}
+ #ae-codice-salud .ac-med-table{min-width:440px}
+}
