@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v2.6.1
+# Aeternalis · Tomo de Medicina v3.0.0
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,11 +11,11 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=2.5.0` y `js/codice-salud/visor.js?v=2.5.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.0.0` y `js/codice-salud/visor.js?v=3.0.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
-- **88 folios** organizados en ocho secciones.
+- **107 folios** organizados en ocho secciones.
 - **8 razas**, con estudio del cuerpo, rasgos, hábitos y riesgos ambientales. Las láminas que no correspondan a anatomías aprobadas mantienen la advertencia editorial.
 - **16 plantas** descritas e ilustradas con una lámina principal y un detalle de archivo. Algunas imágenes son aproximaciones **preliminares**, nunca una identificación botánica canónica.
 - **3 pestilencias reglamentadas**: Fiebre de Driadem, Canto de la Orquídea Marchita y Sangrenegra, cada una con historia clínica, exposición, calculadora, secuelas y etiologías disputadas.
@@ -73,7 +73,7 @@ La Fase 2 es una actualización visual. Las animaciones de paso, la paginación,
 
 El tomo utiliza ahora la biblioteca de ilustraciones anatómicas separadas, además de las láminas y ornamentos anteriores. El catálogo global `assets/medicina/atlas-recortes-v01/manifest.json` comprende **329 recortes individuales**, sus **329 variantes de tinta transparente** y **21 fuentes WebP**.
 
-El archivo `assets/medicina/atlas-recortes-v01/indice-visor-racial.json` contiene una selección editorial legible por el visor; **no copia ni duplica los archivos de imagen**. Se presenta en las hojas «De la carne»: las fichas incluyen las figuras de mujer y hombre cuando la raza cuenta con ambos sexos, y en la hoja de notas se ven detalles anatómicos comparados. Se mantiene la imagen original como reserva si falla el índice y los grabados pueden ampliarse.
+El archivo `assets/medicina/atlas-recortes-v01/indice-visor-racial.json` contiene una selección editorial legible por el visor; **no copia ni duplica los archivos de imagen**. Se presenta en las hojas «De la carne»: las fichas incluyen las figuras de mujer y hombre cuando la raza cuenta con ambos sexos, y en la hoja derecha las notas toman prioridad, con un detalle anatómico marginal. Se mantiene la imagen original como reserva si falla el índice y los grabados pueden ampliarse.
 
 - **Amarant:** exclusivamente femeninas; no existe opción masculina en el índice.
 - **Nórin:** se seleccionan provisionalmente las fuentes A, más próximas a las proporciones hobbit. Las B quedan archivadas para eventual revisión.
@@ -116,3 +116,19 @@ El cargador maestro `js/aeternalis-maestro.js` incluye ahora la revisión `2.6.1
 La actualización en GitHub **no garantiza por sí sola** la presencia del contenedor en un tema real ni demuestra que el editor de Foroactivo contenga el cargador maestro. Por ello, la implementación pública en Foroactivo aún requiere comprobación visual dentro de un tema de prueba.
 
 **Verificaciones de entrega:** 24 rutas SVG disponibles en el repositorio; fuentes de reglas de las tres enfermedades sin modificar; revisión de sintaxis JavaScript de visor, maestro y gabinete completada.
+
+## Fase 6 · Arquitectura de libro abierto · v3.0.0
+
+La versión 3 sustituye la composición de barras por una arquitectura de códice de dos hojas: **el índice a la izquierda al abrir el libro** y la introducción a la derecha; las anatomías y las fichas del herbario se organizan en pliegos de **grabado a la izquierda y escritura a la derecha**. Las enfermedades también reservan pliegos de ilustración y apuntes clínicos. Los contenidos escritos no se cambian en los JSON.
+
+- **Anchura:** hasta 1.800 px, con centrado relativo a la ventana para salir de mensajes de Foroactivo estrechos cuando el contenedor externo lo permite.
+- **Flechas laterales:** un único asset gótico de dirección se utiliza en los dos cantos del tomo, invertido horizontalmente para retroceder; mismo tamaño de caja, alto, ornamento y posición vertical del 50 %. Se elimina la barra inferior.
+- **Cintas y pestañas:** once señaladores de colores rojo, oro y bronce sobresalen del canto derecho; ocho enlazan con los capítulos y tres abren Índice, Herramientas (calculadora de exposición) y Notas del facultativo. En lectores de pantalla tienen etiquetas específicas y su estado activo se señala visualmente.
+- **Índice izquierdo:** cartelas decoradas, grabados, emblemas por capítulo, lacre y separador de filigrana; títulos y numeración permanecen como texto HTML.
+- **Fondo:** las páginas raciales y la ilustración del tema pasan a dos capas de agua y tinta con desenfoque y opacidad reducida. No se dibujan delante del texto. Los recortes anatómicos siguen siendo visibles únicamente en los folios cuya finalidad es ilustrar.
+- **Lectura:** se elimina el scroll interno de `.ac-leaf__body`. Las hojas adaptan su altura a la extensión del contenido, sin truncarlo. La división automática de un caso excesivamente largo en hojas físicas adicionales aún no forma parte de este motor: requiere medición tipográfica en Foroactivo para evitar cortes arbitrarios.
+- **Responsive:** libro doble a partir de 1.180 px de ancho real del visor; por debajo se presenta una sola hoja. El cambio concuerda entre la detección JS y las reglas CSS.
+
+El módulo permanece encapsulado en `#ae-codice-salud`. No modificar el CSS base de Foroactivo ni instalar de nuevo el maestro si ya está activo. Las imágenes, sus rótulos, las calculadoras y las reglas se obtienen de fuentes separadas como antes.
+
+**Pruebas completadas:** arranque, apertura, cierre, navegación a herbario y enfermedad, pestañas de índice/herramientas/notas, un folio móvil y navegación mediante API, con DOM simulado; sintaxis de JavaScript correcta, CSS con llaves equilibradas y referencias nuevas de assets existentes. **Pendiente:** comparación visual en un tema real, y verificar si el contenedor externo del tema recorta el libro ampliado.
