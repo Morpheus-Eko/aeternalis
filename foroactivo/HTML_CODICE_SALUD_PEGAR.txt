@@ -1,4 +1,4 @@
-<!-- AETERNALIS · TOMO DE MEDICINA v2.6.1
+<!-- AETERNALIS · TOMO DE MEDICINA v3.0.0
      Pegar este HTML en un mensaje de Foroactivo donde se desee mostrar el nuevo libro médico ilustrado.
      Requiere el cargador maestro de Aeternalis actualizado. No mezclar con
      el contenedor antiguo de pestilencias en la misma publicación. -->
