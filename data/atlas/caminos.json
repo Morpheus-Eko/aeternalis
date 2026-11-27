@@ -395,12 +395,43 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 112,
+        "y": 808.3
+      },
+      {
+        "x": 112,
+        "y": 824.5
+      },
+      {
+        "x": 112,
+        "y": 840.6
+      },
+      {
+        "x": 126,
+        "y": 848.7
+      },
+      {
+        "x": 140,
+        "y": 856.8
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-025"
+    "from": "place-025",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 6,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-032",
@@ -408,12 +439,47 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 252,
+        "y": 921.4
+      },
+      {
+        "x": 266,
+        "y": 929.5
+      },
+      {
+        "x": 280,
+        "y": 937.6
+      },
+      {
+        "x": 280,
+        "y": 953.8
+      },
+      {
+        "x": 280,
+        "y": 969.9
+      },
+      {
+        "x": 280,
+        "y": 986.1
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-087"
+    "from": "place-087",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 7,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-033",
@@ -436,24 +502,28 @@
     "climate": "normal",
     "via": [
       {
-        "x": 140,
+        "x": 112,
         "y": 1180.1
       },
       {
-        "x": 140,
+        "x": 112,
         "y": 1163.9
       },
       {
-        "x": 140,
+        "x": 112,
         "y": 1147.8
       },
       {
-        "x": 140,
+        "x": 112,
         "y": 1131.6
       },
       {
-        "x": 140,
+        "x": 112,
         "y": 1115.4
+      },
+      {
+        "x": 126,
+        "y": 1107.4
       },
       {
         "x": 140,
@@ -470,15 +540,17 @@
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-089",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "negro",
-      "coverage": 80,
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 10,
+      "waterMaskPct": 0,
       "confidence": "sugerencia",
-      "hexagons": 9,
       "checked": "pendiente"
     }
   },
@@ -1009,28 +1081,24 @@
     "climate": "normal",
     "via": [
       {
-        "x": 1190,
-        "y": 1139.7
+        "x": 1176,
+        "y": 1147.8
       },
       {
         "x": 1176,
         "y": 1131.6
       },
       {
-        "x": 1162,
-        "y": 1123.5
+        "x": 1176,
+        "y": 1115.4
       },
       {
         "x": 1162,
         "y": 1107.4
       },
       {
-        "x": 1176,
-        "y": 1099.3
-      },
-      {
-        "x": 1176,
-        "y": 1083.1
+        "x": 1162,
+        "y": 1091.2
       },
       {
         "x": 1162,
@@ -1043,15 +1111,17 @@
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-097",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "verde_oscuro",
-      "coverage": 90,
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 8,
+      "waterMaskPct": 0,
       "confidence": "sugerencia",
-      "hexagons": 9,
       "checked": "pendiente"
     }
   },
@@ -1064,7 +1134,7 @@
     "via": [
       {
         "x": 1050,
-        "y": 1220.5
+        "y": 1236.7
       },
       {
         "x": 1064,
@@ -1076,11 +1146,7 @@
       },
       {
         "x": 1092,
-        "y": 1228.6
-      },
-      {
-        "x": 1106,
-        "y": 1220.5
+        "y": 1212.4
       },
       {
         "x": 1106,
@@ -1088,48 +1154,42 @@
       },
       {
         "x": 1120,
-        "y": 1212.4
+        "y": 1196.3
       },
       {
         "x": 1134,
-        "y": 1204.3
-      },
-      {
-        "x": 1148,
-        "y": 1212.4
-      },
-      {
-        "x": 1162,
-        "y": 1220.5
-      },
-      {
-        "x": 1176,
-        "y": 1212.4
-      },
-      {
-        "x": 1190,
-        "y": 1204.3
-      },
-      {
-        "x": 1190,
         "y": 1188.2
       },
       {
-        "x": 1190,
+        "x": 1134,
         "y": 1172
+      },
+      {
+        "x": 1148,
+        "y": 1163.9
+      },
+      {
+        "x": 1162,
+        "y": 1155.9
+      },
+      {
+        "x": 1176,
+        "y": 1147.8
       }
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-060",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "verde_oscuro",
-      "coverage": 81,
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 12,
+      "waterMaskPct": 0,
       "confidence": "sugerencia",
-      "hexagons": 15,
       "checked": "pendiente"
     }
   },
@@ -1165,41 +1225,47 @@
         "y": 953.8
       },
       {
-        "x": 1176,
-        "y": 969.9
+        "x": 1190,
+        "y": 961.9
       },
       {
-        "x": 1176,
-        "y": 986.1
+        "x": 1190,
+        "y": 978
+      },
+      {
+        "x": 1190,
+        "y": 994.2
       },
       {
         "x": 1176,
         "y": 1002.3
       },
       {
-        "x": 1162,
-        "y": 1010.4
+        "x": 1176,
+        "y": 1018.4
       },
       {
-        "x": 1162,
-        "y": 1026.5
-      },
-      {
-        "x": 1148,
+        "x": 1176,
         "y": 1034.6
+      },
+      {
+        "x": 1162,
+        "y": 1042.7
       }
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-059",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "verde_oscuro",
-      "coverage": 100,
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 14,
+      "waterMaskPct": 0,
       "confidence": "sugerencia",
-      "hexagons": 13,
       "checked": "pendiente"
     }
   },
@@ -1341,8 +1407,8 @@
     "climate": "normal",
     "via": [
       {
-        "x": 1302,
-        "y": 961.9
+        "x": 1288,
+        "y": 969.9
       },
       {
         "x": 1302,
@@ -1354,60 +1420,70 @@
       },
       {
         "x": 1330,
-        "y": 994.2
+        "y": 978
       },
       {
         "x": 1344,
-        "y": 1002.3
+        "y": 986.1
       },
       {
         "x": 1358,
-        "y": 1010.4
+        "y": 978
       },
       {
         "x": 1372,
-        "y": 1018.4
+        "y": 986.1
       },
       {
         "x": 1386,
-        "y": 1026.5
+        "y": 994.2
       },
       {
         "x": 1400,
-        "y": 1034.6
+        "y": 986.1
       },
       {
         "x": 1414,
-        "y": 1042.7
+        "y": 994.2
+      },
+      {
+        "x": 1428,
+        "y": 1002.3
+      },
+      {
+        "x": 1428,
+        "y": 1018.4
+      },
+      {
+        "x": 1428,
+        "y": 1034.6
       },
       {
         "x": 1428,
         "y": 1050.8
       },
       {
-        "x": 1428,
-        "y": 1066.9
-      },
-      {
         "x": 1442,
-        "y": 1075
+        "y": 1058.9
       },
       {
         "x": 1456,
-        "y": 1083.1
+        "y": 1066.9
       }
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos blancos del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-068",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "blanco",
-      "coverage": 44,
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 17,
+      "waterMaskPct": 0,
       "confidence": "sugerencia",
-      "hexagons": 15,
       "checked": "pendiente"
     }
   },
@@ -1905,12 +1981,43 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 420,
+        "y": 1002.3
+      },
+      {
+        "x": 434,
+        "y": 994.2
+      },
+      {
+        "x": 448,
+        "y": 986.1
+      },
+      {
+        "x": 462,
+        "y": 978
+      },
+      {
+        "x": 462,
+        "y": 961.9
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-083"
+    "from": "place-083",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 6,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-088",
@@ -1918,12 +2025,47 @@
     "kind": "road",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 532,
+        "y": 808.3
+      },
+      {
+        "x": 532,
+        "y": 824.5
+      },
+      {
+        "x": 546,
+        "y": 832.5
+      },
+      {
+        "x": 560,
+        "y": 840.6
+      },
+      {
+        "x": 560,
+        "y": 856.8
+      },
+      {
+        "x": 560,
+        "y": 873
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-080"
+    "from": "place-080",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 7,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-089",
@@ -1944,12 +2086,67 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 700,
+        "y": 808.3
+      },
+      {
+        "x": 686,
+        "y": 816.4
+      },
+      {
+        "x": 672,
+        "y": 808.3
+      },
+      {
+        "x": 658,
+        "y": 816.4
+      },
+      {
+        "x": 644,
+        "y": 824.5
+      },
+      {
+        "x": 630,
+        "y": 832.5
+      },
+      {
+        "x": 616,
+        "y": 824.5
+      },
+      {
+        "x": 602,
+        "y": 832.5
+      },
+      {
+        "x": 588,
+        "y": 840.6
+      },
+      {
+        "x": 588,
+        "y": 856.8
+      },
+      {
+        "x": 588,
+        "y": 873
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-081"
+    "from": "place-081",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 12,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-091",
@@ -1957,12 +2154,63 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 644,
+        "y": 1002.3
+      },
+      {
+        "x": 630,
+        "y": 994.2
+      },
+      {
+        "x": 616,
+        "y": 986.1
+      },
+      {
+        "x": 616,
+        "y": 969.9
+      },
+      {
+        "x": 616,
+        "y": 953.8
+      },
+      {
+        "x": 616,
+        "y": 937.6
+      },
+      {
+        "x": 616,
+        "y": 921.4
+      },
+      {
+        "x": 602,
+        "y": 913.4
+      },
+      {
+        "x": 588,
+        "y": 905.3
+      },
+      {
+        "x": 588,
+        "y": 889.1
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-085"
+    "from": "place-085",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 11,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-092",
@@ -1976,37 +2224,39 @@
         "y": 1301.3
       },
       {
-        "x": 238,
-        "y": 1285.2
-      },
-      {
         "x": 252,
-        "y": 1277.1
-      },
-      {
-        "x": 252,
-        "y": 1260.9
+        "y": 1309.4
       },
       {
         "x": 266,
-        "y": 1252.8
+        "y": 1301.3
       },
       {
         "x": 280,
-        "y": 1244.8
+        "y": 1293.3
+      },
+      {
+        "x": 294,
+        "y": 1285.2
+      },
+      {
+        "x": 294,
+        "y": 1269
       }
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-308",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "negro",
-      "coverage": 88,
-      "confidence": "sugerencia",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
       "hexagons": 7,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
       "checked": "pendiente"
     }
   },
@@ -2016,12 +2266,63 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 602,
+        "y": 1349.8
+      },
+      {
+        "x": 616,
+        "y": 1341.8
+      },
+      {
+        "x": 616,
+        "y": 1325.6
+      },
+      {
+        "x": 602,
+        "y": 1317.5
+      },
+      {
+        "x": 588,
+        "y": 1309.4
+      },
+      {
+        "x": 588,
+        "y": 1293.3
+      },
+      {
+        "x": 574,
+        "y": 1285.2
+      },
+      {
+        "x": 574,
+        "y": 1269
+      },
+      {
+        "x": 574,
+        "y": 1252.8
+      },
+      {
+        "x": 588,
+        "y": 1244.8
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-093"
+    "from": "place-093",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 11,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-094",
@@ -2035,8 +2336,8 @@
         "y": 1357.9
       },
       {
-        "x": 378,
-        "y": 1349.8
+        "x": 392,
+        "y": 1341.8
       },
       {
         "x": 378,
@@ -2051,37 +2352,39 @@
         "y": 1317.5
       },
       {
-        "x": 350,
-        "y": 1301.3
-      },
-      {
         "x": 336,
-        "y": 1293.3
+        "y": 1309.4
       },
       {
         "x": 322,
-        "y": 1285.2
+        "y": 1301.3
+      },
+      {
+        "x": 308,
+        "y": 1293.3
       },
       {
         "x": 308,
         "y": 1277.1
       },
       {
-        "x": 294,
-        "y": 1269
+        "x": 308,
+        "y": 1260.9
       }
     ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos negros del mapa 3.21; requiere comprobación cartográfica final.",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
     "from": "place-307",
     "cartographicEvidence": {
       "source": "Mapa_3.21(2).png",
       "pigment": "negro",
-      "coverage": 100,
-      "confidence": "sugerencia",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
       "hexagons": 11,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
       "checked": "pendiente"
     }
   },
@@ -2104,12 +2407,75 @@
     "kind": "trail",
     "terrain": "normal",
     "climate": "normal",
-    "via": [],
+    "via": [
+      {
+        "x": 588,
+        "y": 1357.9
+      },
+      {
+        "x": 574,
+        "y": 1349.8
+      },
+      {
+        "x": 560,
+        "y": 1357.9
+      },
+      {
+        "x": 546,
+        "y": 1366
+      },
+      {
+        "x": 532,
+        "y": 1357.9
+      },
+      {
+        "x": 518,
+        "y": 1349.8
+      },
+      {
+        "x": 504,
+        "y": 1357.9
+      },
+      {
+        "x": 490,
+        "y": 1366
+      },
+      {
+        "x": 476,
+        "y": 1357.9
+      },
+      {
+        "x": 462,
+        "y": 1349.8
+      },
+      {
+        "x": 448,
+        "y": 1357.9
+      },
+      {
+        "x": 434,
+        "y": 1349.8
+      },
+      {
+        "x": 420,
+        "y": 1357.9
+      }
+    ],
     "status": "propuesta",
     "origin": "red_inicial_2026_11",
-    "reason": "Eje de conexión regional propuesto: requiere confirmación en el mapa",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
     "priority": "normal",
-    "from": "place-093"
+    "from": "place-093",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 14,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
   },
   {
     "id": "base-097",
@@ -2673,246 +3039,6 @@
     "reason": "Corredor estratégico o regional a validar; no canonizado",
     "priority": "alta",
     "from": "place-049"
-  },
-  {
-    "id": "base-129",
-    "to": "place-060",
-    "kind": "road",
-    "terrain": "normal",
-    "climate": "normal",
-    "via": [
-      {
-        "x": 1148,
-        "y": 889.1
-      },
-      {
-        "x": 1148,
-        "y": 905.3
-      },
-      {
-        "x": 1162,
-        "y": 913.4
-      },
-      {
-        "x": 1176,
-        "y": 921.4
-      },
-      {
-        "x": 1176,
-        "y": 937.6
-      },
-      {
-        "x": 1176,
-        "y": 953.8
-      },
-      {
-        "x": 1176,
-        "y": 969.9
-      },
-      {
-        "x": 1176,
-        "y": 986.1
-      },
-      {
-        "x": 1176,
-        "y": 1002.3
-      },
-      {
-        "x": 1176,
-        "y": 1018.4
-      },
-      {
-        "x": 1162,
-        "y": 1026.5
-      },
-      {
-        "x": 1148,
-        "y": 1034.6
-      },
-      {
-        "x": 1148,
-        "y": 1050.8
-      },
-      {
-        "x": 1162,
-        "y": 1058.9
-      },
-      {
-        "x": 1162,
-        "y": 1075
-      },
-      {
-        "x": 1148,
-        "y": 1083.1
-      },
-      {
-        "x": 1148,
-        "y": 1099.3
-      },
-      {
-        "x": 1134,
-        "y": 1107.4
-      },
-      {
-        "x": 1134,
-        "y": 1123.5
-      },
-      {
-        "x": 1134,
-        "y": 1139.7
-      },
-      {
-        "x": 1134,
-        "y": 1155.9
-      },
-      {
-        "x": 1120,
-        "y": 1163.9
-      },
-      {
-        "x": 1106,
-        "y": 1172
-      },
-      {
-        "x": 1092,
-        "y": 1180.1
-      },
-      {
-        "x": 1092,
-        "y": 1196.3
-      },
-      {
-        "x": 1078,
-        "y": 1204.3
-      },
-      {
-        "x": 1078,
-        "y": 1220.5
-      },
-      {
-        "x": 1064,
-        "y": 1228.6
-      },
-      {
-        "x": 1050,
-        "y": 1220.5
-      }
-    ],
-    "status": "propuesta",
-    "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
-    "priority": "alta",
-    "from": "place-059",
-    "cartographicEvidence": {
-      "source": "Mapa_3.21(2).png",
-      "pigment": "verde_oscuro",
-      "coverage": 84,
-      "confidence": "sugerencia",
-      "hexagons": 30,
-      "checked": "pendiente"
-    }
-  },
-  {
-    "id": "base-130",
-    "to": "place-097",
-    "kind": "road",
-    "terrain": "normal",
-    "climate": "normal",
-    "via": [
-      {
-        "x": 1148,
-        "y": 889.1
-      },
-      {
-        "x": 1148,
-        "y": 905.3
-      },
-      {
-        "x": 1162,
-        "y": 913.4
-      },
-      {
-        "x": 1176,
-        "y": 921.4
-      },
-      {
-        "x": 1176,
-        "y": 937.6
-      },
-      {
-        "x": 1176,
-        "y": 953.8
-      },
-      {
-        "x": 1176,
-        "y": 969.9
-      },
-      {
-        "x": 1176,
-        "y": 986.1
-      },
-      {
-        "x": 1162,
-        "y": 994.2
-      },
-      {
-        "x": 1148,
-        "y": 1002.3
-      },
-      {
-        "x": 1148,
-        "y": 1018.4
-      },
-      {
-        "x": 1148,
-        "y": 1034.6
-      },
-      {
-        "x": 1162,
-        "y": 1042.7
-      },
-      {
-        "x": 1162,
-        "y": 1058.9
-      },
-      {
-        "x": 1162,
-        "y": 1075
-      },
-      {
-        "x": 1162,
-        "y": 1091.2
-      },
-      {
-        "x": 1162,
-        "y": 1107.4
-      },
-      {
-        "x": 1162,
-        "y": 1123.5
-      },
-      {
-        "x": 1176,
-        "y": 1131.6
-      },
-      {
-        "x": 1190,
-        "y": 1139.7
-      }
-    ],
-    "status": "propuesta",
-    "origin": "red_inicial_2026_11",
-    "reason": "Recorrido por hexágonos sugerido desde puntos verde oscuro del mapa 3.21; requiere comprobación cartográfica final.",
-    "priority": "alta",
-    "from": "place-059",
-    "cartographicEvidence": {
-      "source": "Mapa_3.21(2).png",
-      "pigment": "verde_oscuro",
-      "coverage": 91,
-      "confidence": "sugerencia",
-      "hexagons": 21,
-      "checked": "pendiente"
-    }
   },
   {
     "id": "base-131",
@@ -3554,6 +3680,378 @@
       "coverage": 95,
       "confidence": "sugerencia",
       "hexagons": 20,
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-costera-001",
+    "from": "place-059",
+    "to": "place-068",
+    "kind": "trail",
+    "terrain": "coast",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 1148,
+        "y": 889.1
+      },
+      {
+        "x": 1148,
+        "y": 905.3
+      },
+      {
+        "x": 1162,
+        "y": 913.4
+      },
+      {
+        "x": 1176,
+        "y": 921.4
+      },
+      {
+        "x": 1176,
+        "y": 937.6
+      },
+      {
+        "x": 1190,
+        "y": 945.7
+      },
+      {
+        "x": 1204,
+        "y": 953.8
+      },
+      {
+        "x": 1218,
+        "y": 945.7
+      },
+      {
+        "x": 1232,
+        "y": 953.8
+      },
+      {
+        "x": 1246,
+        "y": 961.9
+      },
+      {
+        "x": 1260,
+        "y": 969.9
+      },
+      {
+        "x": 1274,
+        "y": 961.9
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_cartografica_costera_2026_11",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 13,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-elf-coast-001",
+    "from": "place-089",
+    "to": "place-308",
+    "kind": "trail",
+    "terrain": "coast",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 140,
+        "y": 1196.3
+      },
+      {
+        "x": 154,
+        "y": 1188.2
+      },
+      {
+        "x": 168,
+        "y": 1196.3
+      },
+      {
+        "x": 182,
+        "y": 1204.3
+      },
+      {
+        "x": 196,
+        "y": 1212.4
+      },
+      {
+        "x": 196,
+        "y": 1228.6
+      },
+      {
+        "x": 196,
+        "y": 1244.8
+      },
+      {
+        "x": 196,
+        "y": 1260.9
+      },
+      {
+        "x": 196,
+        "y": 1277.1
+      },
+      {
+        "x": 210,
+        "y": 1285.2
+      },
+      {
+        "x": 210,
+        "y": 1301.3
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_cartografica_costera_2026_11",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 12,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-elf-coast-003",
+    "from": "place-093",
+    "to": "place-094",
+    "kind": "trail",
+    "terrain": "coast",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 602,
+        "y": 1349.8
+      },
+      {
+        "x": 616,
+        "y": 1341.8
+      },
+      {
+        "x": 630,
+        "y": 1349.8
+      },
+      {
+        "x": 644,
+        "y": 1357.9
+      },
+      {
+        "x": 658,
+        "y": 1366
+      },
+      {
+        "x": 672,
+        "y": 1374.1
+      },
+      {
+        "x": 672,
+        "y": 1390.3
+      },
+      {
+        "x": 686,
+        "y": 1398.3
+      },
+      {
+        "x": 700,
+        "y": 1406.4
+      },
+      {
+        "x": 714,
+        "y": 1414.5
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_cartografica_costera_2026_11",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 11,
+      "waterMaskPct": 8.3,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-elf-coast-006",
+    "from": "place-315",
+    "to": "place-094",
+    "kind": "trail",
+    "terrain": "coast",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 588,
+        "y": 1244.8
+      },
+      {
+        "x": 602,
+        "y": 1252.8
+      },
+      {
+        "x": 616,
+        "y": 1244.8
+      },
+      {
+        "x": 630,
+        "y": 1236.7
+      },
+      {
+        "x": 644,
+        "y": 1228.6
+      },
+      {
+        "x": 658,
+        "y": 1236.7
+      },
+      {
+        "x": 672,
+        "y": 1244.8
+      },
+      {
+        "x": 686,
+        "y": 1252.8
+      },
+      {
+        "x": 700,
+        "y": 1260.9
+      },
+      {
+        "x": 714,
+        "y": 1269
+      },
+      {
+        "x": 714,
+        "y": 1285.2
+      },
+      {
+        "x": 714,
+        "y": 1301.3
+      },
+      {
+        "x": 714,
+        "y": 1317.5
+      },
+      {
+        "x": 714,
+        "y": 1333.7
+      },
+      {
+        "x": 728,
+        "y": 1341.8
+      },
+      {
+        "x": 728,
+        "y": 1357.9
+      },
+      {
+        "x": 728,
+        "y": 1374.1
+      },
+      {
+        "x": 728,
+        "y": 1390.3
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_cartografica_costera_2026_11",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 19,
+      "waterMaskPct": 5,
+      "confidence": "sugerencia",
+      "checked": "pendiente"
+    }
+  },
+  {
+    "id": "atlas-elf-coast-004",
+    "from": "place-080",
+    "to": "place-081",
+    "kind": "trail",
+    "terrain": "coast",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 546,
+        "y": 800.2
+      },
+      {
+        "x": 560,
+        "y": 808.3
+      },
+      {
+        "x": 574,
+        "y": 816.4
+      },
+      {
+        "x": 588,
+        "y": 824.5
+      },
+      {
+        "x": 602,
+        "y": 832.5
+      },
+      {
+        "x": 616,
+        "y": 840.6
+      },
+      {
+        "x": 630,
+        "y": 832.5
+      },
+      {
+        "x": 644,
+        "y": 824.5
+      },
+      {
+        "x": 658,
+        "y": 816.4
+      },
+      {
+        "x": 672,
+        "y": 808.3
+      },
+      {
+        "x": 686,
+        "y": 800.2
+      },
+      {
+        "x": 700,
+        "y": 808.3
+      }
+    ],
+    "status": "propuesta",
+    "origin": "revision_cartografica_costera_2026_11",
+    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "priority": "normal",
+    "cartographicEvidence": {
+      "source": "Mapa_3.21(2).png",
+      "pigment": "negro",
+      "method": "calcado_guiado_por_puntos_y_hexagonos",
+      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
+      "hexagons": 13,
+      "waterMaskPct": 0,
+      "confidence": "sugerencia",
       "checked": "pendiente"
     }
   }
