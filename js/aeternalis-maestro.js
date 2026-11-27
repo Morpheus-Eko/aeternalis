@@ -47,6 +47,7 @@
   function run(name){
     var m=modules[name];
     if(!ready||!m||!enabled(name)||statuses[name]||!hasRoot(m.root))return;
+    if(name==='cartografo'&&!hasEditor)return;
     if(m.guard&&m.guard()){status(name,'existing','Se detectó una versión cargada previamente; evita duplicarla.');return;}
     status(name,'loading');
     Promise.resolve().then(m.start).then(function(){status(name,'loaded');}).catch(function(e){status(name,'error',String(e&&e.message||e));});
@@ -125,7 +126,7 @@
   };
   modules.cartografo={
     root:'#aeternalis-atlas',
-    guard:function(){return !hasEditor||!!window.__AETERNALIS_CAMINOS_INSTALLER_V13__||!!doc.getElementById('ae-master-editor-loader');},
+    guard:function(){return !!window.__AETERNALIS_CAMINOS_INSTALLER_V13__||!!doc.getElementById('ae-master-editor-loader');},
     start:function(){return waitUntil(function(){var d=window.__AE_ATLAS_LEAFLET_DEBUG__;return d&&d.map&&typeof d.getEdges==='function'&&window.L;},90000)
       .then(function(){return js('foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js','ae-master-editor-loader','1.3.0');});}
   };
