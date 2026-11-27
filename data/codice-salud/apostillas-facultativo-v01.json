@@ -1,8 +1,8 @@
 {
   "schema": "aeternalis-codice-glosas-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "title": "Apostillas de médicos y herbolarios de Aeternalis",
-  "editorial": "Autores y observaciones ficticios creados para ambientación. No reemplazan reglas ni textos de expedientes.",
+  "editorial": "Anotaciones de ficción diferenciadas por folio concreto; ninguna apostilla debe repetirse por pertenecer a una misma sección. La ausencia de texto no genera glosa automáticamente. No reemplazan las reglas.",
   "sections": {
     "guarda": {
       "text": "He reunido estas páginas para los que ponen la mano sobre una frente ardiente y prefieren preguntar antes que juzgar. Cada trazo es memoria de una visita.",
@@ -440,6 +440,92 @@
     "faq": {
       "text": "El mejor cuaderno deja sitio al margen para las preguntas de mañana. No todo lo que sabemos hoy merece encerrarse en una respuesta definitiva.",
       "author": "Isolde de Miralba, compiladora del códice"
+    }
+  },
+  "pages": {
+    "El Códice de la Salud": {
+      "text": "Este libro nació del desacuerdo de muchas manos. He dejado juntos los relatos del cirujano, la partera y el boticario para que nadie confunda mi voz con la única verdadera.",
+      "author": "Isolde de Miralba, compiladora del códice"
+    },
+    "Advertencia del compilador": {
+      "text": "Al copiar los testimonios he conservado los nombres de quienes aceptaron firmarlos. Otros pidieron permanecer ocultos: no por ello dejaré de escuchar sus observaciones.",
+      "author": "Neral de las Tintas, escribano de hospicio"
+    },
+    "Del arte de mirar": {
+      "text": "Dos enfermos con fiebre semejante pueden haber caminado por tierras opuestas. La lámpara ilumina la carne, pero una pregunta oportuna ilumina su historia.",
+      "author": "Mireya Lorn, médica itinerante"
+    },
+    "Del deber de escribir las dudas": {
+      "text": "Si mañana una nueva observación contradice mi registro, que el siguiente facultativo añada una hoja y no arranque la anterior. Así se vuelve más útil un cuaderno.",
+      "author": "Autor desconocido"
+    },
+    "De la generación entre estirpes": {
+      "text": "He asistido partos que las casas nobles prohibieron nombrar. El cuerpo de la madre no conoce los decretos de una corte; el deber de la partera sigue siendo recibir al recién nacido.",
+      "author": "Evania Sorel, partera de la ribera"
+    },
+    "De la herencia y el nombre": {
+      "text": "Un apellido puede cambiarse con un juramento y una sangre puede mezclarse a través de generaciones. No pretendo deducir la forma de un niño por el blasón de sus padres.",
+      "author": "Maese Toren Val, registrador de nacimientos"
+    },
+    "De las montañas": {
+      "text": "Una pierna entumecida por la nieve parece sana junto al hogar hasta que vuelve el dolor. Pregunto cuánto duró el regreso y quién ayudó a bajar al herido.",
+      "author": "Yrsa Ventisca, sanadora de los pasos"
+    },
+    "De las minas y los talleres": {
+      "text": "Antes de auscultar al fundidor acerco el oído a la chimenea apagada. El humo del taller conserva secretos que los pulmones llevan durante años.",
+      "author": "Borin Ceniza, médico de las forjas"
+    },
+    "Del manglar y las marismas": {
+      "text": "En la ciénaga el zumbido parece venir de todas partes. He señalado en mis mapas dónde dormían los caminantes que regresaron con fiebre, sin proclamar aún cuál insecto los alcanzó.",
+      "author": "Sariel de la Marisma, cartógrafa y sanadora"
+    },
+    "De los valles cultivados": {
+      "text": "Después de la siega encuentro dedos llagados y pies abiertos por piedras pequeñas. El mejor remedio comienza a veces con detener el trabajo al caer la tarde.",
+      "author": "Maela Zarzaverde, curandera de las huertas"
+    },
+    "De las Tres Costas": {
+      "text": "El remero acostumbra callar las heridas hasta alcanzar puerto. Una herida salada no cicatriza por el solo hecho de haber cruzado el mar.",
+      "author": "Naori Sen, observadora de las Tres Costas"
+    },
+    "Del bosque y sus sendas": {
+      "text": "El herbolario guarda plantas bellísimas que ningún viajero debería probar. Conservo juntos el dibujo de la hoja y la advertencia de quien se equivocó al reconocerla.",
+      "author": "Eshara de las Sendas, herbolaria viajera"
+    },
+    "De las hierbas humildes": {
+      "text": "La hierba que se consigue junto al camino también merece un nombre y una estación en el registro. No siempre es la más rara la que mejor acompaña al enfermo.",
+      "author": "Talia Cendal, boticaria del camino"
+    },
+    "De las enfermedades conocidas": {
+      "text": "He separado los tres expedientes porque ninguna pestilencia merece ser confundida con otra. Los signos escritos aquí fueron recogidos por voces distintas y en lugares distintos.",
+      "author": "Odran Galver, médico de Driadem"
+    },
+    "Del alivio y sus límites": {
+      "text": "Un sanador no fracasa por sentarse al lado del paciente sin conocer la cura. La compañía, el paño limpio y la palabra prudente también tienen su lugar en una jornada de enfermedad.",
+      "author": "Elira del Cuarto Lecho, cuidadora del hospicio"
+    },
+    "De las hojas del dibujante": {
+      "text": "Cada lámina lleva la huella de una mano y de una lámpara. Donde el trazo parezca demasiado seguro, comparadlo con el cuerpo vivo antes de creerle.",
+      "author": "Fael Orin, dibujante de anatomías"
+    },
+    "Consulta del reglamento 1": {
+      "text": "Las cuentas admiten instrumentos que aún no he visto fabricar. Dejo el margen abierto para que quien descubra uno anote su nombre y procedencia.",
+      "author": "Garett de la Mesa Gris, calculista"
+    },
+    "Consulta del reglamento 2": {
+      "text": "Cuando un viajero describe dos jornadas como si hubieran sido una, el registro pierde su orden. He aprendido a fechar cada salida antes de anotar sus riesgos.",
+      "author": "Silven Hal, escribano de rutas"
+    },
+    "Consulta del reglamento 3": {
+      "text": "El vigor de ayer no desaparece de la memoria del cuerpo cuando hoy pesa una secuela. Anoto ambas cifras en columnas diferentes para no confundirlas.",
+      "author": "Borin Ceniza, médico de las forjas"
+    },
+    "Consulta del reglamento 4": {
+      "text": "He visto a muchos buscar una cura donde solo había esperanza. Mientras no la encontremos, prefiero prometer cuidados y no remedios inexistentes.",
+      "author": "Hermana Alda de los Vendajes, cuidadora"
+    },
+    "Consulta del reglamento 5": {
+      "text": "Las crónicas cuentan quién cayó en el camino; los herederos recuerdan lo que el caído dejó tras de sí. Ambas cuentas merecen permanecer separadas en el libro.",
+      "author": "Autor desconocido"
     }
   }
 }
