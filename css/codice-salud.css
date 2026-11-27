@@ -620,7 +620,7 @@
 /* Navegación física en los cantos, a media altura; idéntico asset en espejo. */
 #ae-codice-salud .ac-edge-controls{position:absolute;inset:0;z-index:35;pointer-events:none}
 #ae-codice-salud .ac-edge-controls .ac-turn{
- position:absolute;top:53%;width:94px!important;height:94px!important;
+ position:absolute;top:50%;width:94px!important;height:94px!important;
  min-width:94px!important;min-height:94px!important;padding:0!important;
  display:flex!important;align-items:center;justify-content:center;
  background:transparent!important;border:0!important;box-shadow:none!important;
@@ -639,12 +639,12 @@
 
 /* Cintas que salen del canto exterior del libro. En rojo, oro y bronce. */
 #ae-codice-salud .ac-page-markers{
- position:absolute;z-index:31;right:-44px;top:4.8%;width:50px;
- display:flex;flex-direction:column;align-items:stretch;gap:4px;
+ position:absolute;z-index:31;right:-44px;top:3%;width:50px;
+ display:flex;flex-direction:column;align-items:stretch;gap:2px;
 }
 #ae-codice-salud .ac-page-marker{
  --ac-tab-dark:#652e30;--ac-tab-bright:#bb7772;
- width:50px!important;height:33px!important;min-height:33px!important;position:relative;
+ width:50px!important;height:26px!important;min-height:26px!important;position:relative;
  display:flex!important;align-items:center;justify-content:center;
  background:linear-gradient(90deg,#241710 0%,var(--ac-tab-dark) 21%,var(--ac-tab-bright) 70%,#6d4232 100%)!important;
  border:1px solid #e1b785aa!important;border-left:3px solid #38251b!important;
@@ -654,8 +654,8 @@
 }
 #ae-codice-salud .ac-page-marker--gold{--ac-tab-dark:#725326;--ac-tab-bright:#c7a65f}
 #ae-codice-salud .ac-page-marker--bronze{--ac-tab-dark:#61452f;--ac-tab-bright:#a78159}
-#ae-codice-salud .ac-page-marker--utility{margin-top:5px;border-top:2px solid #e6c997!important}
-#ae-codice-salud .ac-page-marker img{width:26px!important;height:26px!important;object-fit:contain;filter:drop-shadow(0 1px 1px #180d0ab8)}
+#ae-codice-salud .ac-page-marker--utility{margin-top:3px;border-top:2px solid #e6c997!important}
+#ae-codice-salud .ac-page-marker img{width:22px!important;height:22px!important;object-fit:contain;filter:drop-shadow(0 1px 1px #180d0ab8)}
 #ae-codice-salud .ac-page-marker.is-active{transform:translateX(9px)!important;filter:brightness(1.16)}
 #ae-codice-salud .ac-page-marker:hover{transform:translateX(8px)!important;filter:brightness(1.25)}
 #ae-codice-salud .ac-page-marker>span{
@@ -746,9 +746,9 @@
  #ae-codice-salud .ac-edge-controls .ac-turn img{width:70px!important;height:70px!important}
  #ae-codice-salud .ac-edge-controls .ac-turn--prev{left:-49px}
  #ae-codice-salud .ac-edge-controls .ac-turn--next{right:-49px}
- #ae-codice-salud .ac-page-markers{right:-32px;top:4%}
- #ae-codice-salud .ac-page-marker{width:40px!important;height:31px!important;min-height:31px!important}
- #ae-codice-salud .ac-page-marker img{width:24px!important;height:24px!important}
+ #ae-codice-salud .ac-page-markers{right:-32px;top:3%}
+ #ae-codice-salud .ac-page-marker{width:40px!important;height:26px!important;min-height:26px!important}
+ #ae-codice-salud .ac-page-marker img{width:22px!important;height:22px!important}
 }
 @container (max-width:600px){
  #ae-codice-salud .ac-shell{padding:5px!important}
@@ -767,9 +767,9 @@
  #ae-codice-salud .ac-edge-controls .ac-turn img{width:52px!important;height:52px!important}
  #ae-codice-salud .ac-edge-controls .ac-turn--prev{left:-37px}
  #ae-codice-salud .ac-edge-controls .ac-turn--next{right:-37px}
- #ae-codice-salud .ac-page-markers{right:-25px;gap:3px;top:3%}
- #ae-codice-salud .ac-page-marker{width:34px!important;height:29px!important;min-height:29px!important}
- #ae-codice-salud .ac-page-marker img{width:21px!important;height:21px!important}
+ #ae-codice-salud .ac-page-markers{right:-25px;gap:2px;top:3%}
+ #ae-codice-salud .ac-page-marker{width:34px!important;height:23px!important;min-height:23px!important}
+ #ae-codice-salud .ac-page-marker img{width:19px!important;height:19px!important}
  #ae-codice-salud .ac-index-chapter{padding-top:36px}
  #ae-codice-salud .ac-contents-list{margin:0!important;gap:7px}
  #ae-codice-salud .ac-contents-list .ac-index-entry{grid-template-columns:35px minmax(0,1fr) 0;min-height:61px;padding:8px 6px!important;gap:8px}
