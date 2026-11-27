@@ -1010,3 +1010,99 @@
  #ae-codice-salud .ac-marginalia .ac-marginalia__handwriting{font-size:15px!important;line-height:1.55!important}
  #ae-codice-salud .ac-marginalia__signature{font-size:12px}
 }
+
+/* ARCHIVO ANATÓMICO · PLANCHAS ORIGINALES 3.5
+   Una plancha completa por hoja. Se conserva el diseño de origen
+   y se privilegia la lámina sobre las descripciones repetidas. */
+#ae-codice-salud .ac-leaf[data-layout="archive-plate"] .ac-leaf__body{
+ display:flex;flex-direction:column;align-items:stretch;justify-content:center;
+ gap:0;padding:8px 0 12px!important;
+}
+#ae-codice-salud .ac-leaf[data-layout="archive-plate"] .ac-leaf__heading{padding-bottom:10px}
+#ae-codice-salud .ac-leaf[data-layout="archive-plate"] .ac-leaf__heading h2{font-size:clamp(21px,1.6vw,29px)!important}
+#ae-codice-salud .ac-leaf[data-layout="archive-plate"] .ac-subtitle{font-size:12px!important;opacity:.8}
+#ae-codice-salud .ac-archive-fullpage{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:7px;max-width:100%;margin:0 auto}
+#ae-codice-salud .ac-archive-original{
+ width:100%;max-width:100%;margin:0;min-width:0;
+ display:flex;flex-direction:column;justify-content:center;gap:9px;
+ background:none!important;border:0!important;box-shadow:none!important;
+}
+#ae-codice-salud .ac-archive-original>a{
+ display:flex;align-items:center;justify-content:center;width:100%;
+ min-height:0;max-height:750px;outline-offset:4px;
+ border:1px solid #ac835747;background:#ead9b32d;padding:clamp(5px,.8vw,11px);
+}
+#ae-codice-salud .ac-archive-original img{
+ display:block;width:100%;height:auto;max-height:clamp(450px,65vw,750px);
+ object-fit:contain!important;mix-blend-mode:multiply;
+ filter:sepia(.06) contrast(1.045);
+ transition:filter .15s ease;
+}
+#ae-codice-salud .ac-archive-original>a:hover img{filter:contrast(1.13)}
+#ae-codice-salud .ac-archive-original figcaption{
+ display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;
+ width:100%;border-top:1px solid #8c6a486b;padding-top:7px;
+ color:#624830;font-family:inherit;font-size:clamp(13px,.97vw,16px);
+ line-height:1.45;font-style:italic;
+}
+#ae-codice-salud .ac-archive-original figcaption small{
+ color:#876444;font-family:inherit;font-size:clamp(11px,.84vw,13px);
+}
+#ae-codice-salud .ac-archive-ribbon{
+ margin:2px auto 0;width:clamp(95px,26%,190px);height:35px;
+ opacity:.48;pointer-events:none;
+}
+#ae-codice-salud .ac-archive-ribbon img{display:block;width:100%;height:100%;object-fit:contain}
+#ae-codice-salud .ac-archive-pending{display:flex;align-items:center;justify-content:center;min-height:350px}
+#ae-codice-salud .ac-archive-pending .ac-figure{max-width:340px}
+@container(max-width:1069px){
+ #ae-codice-salud .ac-archive-original>a{max-height:640px}
+ #ae-codice-salud .ac-archive-original img{max-height:min(125vw,630px)}
+}
+@container(max-width:600px){
+ #ae-codice-salud .ac-leaf[data-layout="archive-plate"] .ac-leaf__body{padding:4px 0 8px!important}
+ #ae-codice-salud .ac-archive-original>a{max-height:490px;padding:4px}
+ #ae-codice-salud .ac-archive-original img{max-height:min(112vw,480px)}
+ #ae-codice-salud .ac-archive-original figcaption{font-size:12px;gap:3px}
+ #ae-codice-salud .ac-archive-original figcaption small{font-size:11px}
+}
+
+/* Índice en primer lugar de las cintas, sin separación superior;
+   el canto conserva todas las pestañas de capítulo por debajo. */
+#ae-codice-salud .ac-page-markers>.ac-page-marker:first-child{
+ margin-top:0!important;
+ height:34px!important;min-height:34px!important;
+ border-top:2px solid #e5c18c!important;
+ filter:brightness(1.16);
+}
+#ae-codice-salud .ac-page-markers>.ac-page-marker:first-child img{height:26px!important;width:26px!important}
+@container(max-width:600px){
+ #ae-codice-salud .ac-page-markers>.ac-page-marker:first-child{height:29px!important;min-height:29px!important}
+ #ae-codice-salud .ac-page-markers>.ac-page-marker:first-child img{height:22px!important;width:22px!important}
+}
+
+/* Frontispicio médico sin rótulo impreso: grabados de libros y filigranas. */
+#ae-codice-salud .ac-pestilences-frontispiece{
+ display:grid;grid-template-columns:minmax(0,1fr) minmax(92px,185px) minmax(0,1fr);
+ align-items:center;justify-content:center;gap:clamp(8px,1.5vw,20px);
+ margin:4px auto 16px;width:min(100%,540px);height:clamp(104px,13vw,154px);
+ pointer-events:none;
+}
+#ae-codice-salud .ac-pestilences-frontispiece img{
+ display:block;width:100%;max-width:100%;object-fit:contain;mix-blend-mode:multiply;
+ filter:sepia(.2) saturate(.70) contrast(1.06);
+}
+#ae-codice-salud .ac-pestilences-frontispiece__book{height:clamp(100px,13vw,150px)}
+#ae-codice-salud .ac-pestilences-frontispiece__filigree{height:40px;opacity:.65}
+#ae-codice-salud .ac-pestilences-frontispiece__filigree--right{transform:scaleX(-1)}
+#ae-codice-salud .ac-leaf__body .ac-pestilences-intro{
+ font-size:clamp(14px,1.05vw,18px)!important;
+ font-style:italic;text-align:center;line-height:1.6!important;
+ color:#61472e;margin:0 auto 16px!important;max-width:560px;
+}
+@container(max-width:600px){
+ #ae-codice-salud .ac-pestilences-frontispiece{grid-template-columns:1fr minmax(85px,125px) 1fr;height:115px;gap:5px}
+ #ae-codice-salud .ac-pestilences-frontispiece__book{height:110px}
+ #ae-codice-salud .ac-pestilences-frontispiece__filigree{height:27px}
+ #ae-codice-salud .ac-leaf__body .ac-pestilences-intro{font-size:14px!important}
+}
