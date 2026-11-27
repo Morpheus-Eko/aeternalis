@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" aria-label="Canto de la Orquídea Marchita: lámina de organo">
+ <defs>
+  <radialGradient id="paper" cx=".43" cy=".42" r=".76"><stop offset="0" stop-color="#f3e9d1"/><stop offset=".64" stop-color="#e6d3ae"/><stop offset="1" stop-color="#cbb186"/></radialGradient>
+  <linearGradient id="robe" x1=".1" y1=".2" x2=".9" y2=".8"><stop offset="0" stop-color="#8b7760"/><stop offset="1" stop-color="#4f4438"/></linearGradient>
+  <linearGradient id="skin" x1=".15" y1=".1" x2=".85" y2=".9"><stop offset="0" stop-color="#ceac83"/><stop offset=".56" stop-color="#ad8d6b"/><stop offset="1" stop-color="#7b624e"/></linearGradient>
+  <linearGradient id="stain" x1=".1" y1=".1" x2=".9" y2=".8"><stop offset="0" stop-color="#c7a1be"/><stop offset="1" stop-color="#82557d"/></linearGradient>
+  <radialGradient id="vignette"><stop offset=".53" stop-color="#9b7950" stop-opacity="0"/><stop offset="1" stop-color="#69472b" stop-opacity=".17"/></radialGradient>
+  <pattern id="lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M1 0V9" stroke="#593e2c" stroke-width=".75" opacity=".2"/></pattern>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="7" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+ </defs>
+ <rect width="640" height="800" fill="url(#paper)"/>
+ <rect width="640" height="800" fill="#564535" filter="url(#grain)" opacity=".16"/>
+ <rect width="640" height="800" fill="url(#vignette)"/>
+ <g fill="none" stroke="#82557d" opacity=".54" stroke-width="2"><rect x="23" y="23" width="594" height="754" rx="8"/><rect x="36" y="36" width="568" height="728" rx="5" stroke-width=".8"/>
+<path d="M35 104 Q78 102 80 40 M605 104 Q562 102 560 40 M35 696 Q77 698 80 758 M605 696 Q562 698 560 758"/></g>
+<g opacity=".12" stroke="#82557d" stroke-width="1.2" fill="none"><path d="M64 55 l-23 20 M64 745 l-23 20"/><path d="M93 55 l-23 20 M93 745 l-23 20"/><path d="M122 55 l-23 20 M122 745 l-23 20"/><path d="M151 55 l-23 20 M151 745 l-23 20"/><path d="M180 55 l-23 20 M180 745 l-23 20"/><path d="M209 55 l-23 20 M209 745 l-23 20"/><path d="M238 55 l-23 20 M238 745 l-23 20"/><path d="M267 55 l-23 20 M267 745 l-23 20"/><path d="M296 55 l-23 20 M296 745 l-23 20"/><path d="M325 55 l-23 20 M325 745 l-23 20"/><path d="M354 55 l-23 20 M354 745 l-23 20"/><path d="M383 55 l-23 20 M383 745 l-23 20"/><path d="M412 55 l-23 20 M412 745 l-23 20"/><path d="M441 55 l-23 20 M441 745 l-23 20"/><path d="M470 55 l-23 20 M470 745 l-23 20"/><path d="M499 55 l-23 20 M499 745 l-23 20"/><path d="M528 55 l-23 20 M528 745 l-23 20"/><path d="M557 55 l-23 20 M557 745 l-23 20"/></g><g fill="none" stroke="#82557d" opacity=".35" stroke-width="2"><ellipse cx="320" cy="402" rx="234" ry="293"/><ellipse cx="320" cy="402" rx="245" ry="303" stroke-dasharray="7 11"/></g><g stroke="#594131" stroke-width="4.5" fill="none">
+ <path d="M296 115 Q296 169 270 211 Q238 268 270 327 Q296 366 284 431 Q273 502 271 647 M341 115 Q343 168 367 215 Q403 271 373 332 Q346 376 353 429 Q367 514 367 648" stroke="#8b6a51" stroke-width="13"/>
+ <path d="M307 143 Q311 243 318 284 M329 143 Q328 246 321 283" stroke="#e5ccac" stroke-width="15" opacity=".76"/>
+ <path d="M269 327 Q297 298 318 329 Q341 296 371 324 Q380 369 353 411 Q319 439 285 412 Q257 369 269 327Z" fill="url(#stain)" stroke="#5e3d59" stroke-width="5"/>
+ <path d="M284 339 Q318 349 354 340 M291 361 Q319 381 346 365 M304 393 Q320 399 337 393" stroke="#d5b4c6" stroke-width="6"/>
+ <path d="M316 408 V645" stroke="#987257" stroke-width="22"/>
+ <path d="M304 418 V642" stroke="#e7d1ab" stroke-width="4" opacity=".75"/>
+ </g>
+ <g fill="#82557d" opacity=".62"><ellipse cx="270" cy="297" rx="14" ry="7" transform="rotate(5 270 297)"/><ellipse cx="375" cy="295" rx="14" ry="7" transform="rotate(-10 375 295)"/><ellipse cx="262" cy="419" rx="14" ry="7" transform="rotate(-3 262 419)"/><ellipse cx="387" cy="423" rx="14" ry="7" transform="rotate(2 387 423)"/></g>
+ </svg>
