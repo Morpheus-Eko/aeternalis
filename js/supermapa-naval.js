@@ -1,13 +1,13 @@
 /* AETERNALIS · Carta Náutica para el Supermapa 2.0
    Capa Leaflet externa no invasiva. No altera las rutas terrestres.
    JS sólo lógica; CSS separado en css/supermapa-naval.css.
-   El grafo se deriva provisionalmente de Mapa 3.21; escalas ampliadas sobre Mapa 3.3. */
+   Malla oriental recalculada sobre Mapa 3.3; ríos estrechos no son automáticamente navegables. */
 (function () {
  'use strict';
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.3.1';
+ var VERSION='3.4.0';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}
@@ -25,19 +25,43 @@
      loadJSON('data/atlas/naval/hexagonos-navegables.json'),
      loadJSON('data/atlas/naval/rutas-por-agua.json'),
      loadJSON('data/atlas/naval/zonas-maritimas.json'),
-     loadJSON('data/atlas/naval/puertos.json')
+     loadJSON('data/atlas/naval/puertos.json'),
+     loadJSON('data/atlas/naval/agua-mapa33-verdanteyl.json')
    ]).then(function(docs){
-     var water=docs[0],routes=docs[1],zones=docs[2],nav=docs[3];
+     var water=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],patch=docs[4];
      if(water.schema!=='aeternalis-hex-agua-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1')throw Error('Datos navales incompatibles');
      var c=water.grid, R=c.radius, H=Math.sqrt(3)*R, steps=c.neighborDeltas;
+     if(patch.schema!=='aeternalis-agua-mapa33-parche-v1'||Math.abs(patch.coordinateSystem.hexRadius-R)>.01||patch.coordinateSystem.width!==water.source.width||patch.coordinateSystem.height!==water.source.height)throw Error('El parche hídrico 3.3 no coincide con el Atlas');
+     // Los puntos de río se dibujan en el mapa, pero no son automáticamente aguas navegables.
+     var inside=function(n){var x=1.5*R*n[0],y=H*(n[1]+n[0]/2),b=patch.rect;return x>=b.xmin&&x<=b.xmax&&y>=b.ymin&&y<=b.ymax;};
      var waterNodes=new Map();
-     water.cells.forEach(function(n){waterNodes.set(n[0]+','+n[1],n);});
+     water.cells.forEach(function(n){if(!inside(n))waterNodes.set(n[0]+','+n[1],n.slice());});
+     var classified=0;
+     patch.encoded.split(';').forEach(function(line){
+       var pair=line.split(':'),q=parseInt(pair[0],36);
+       pair[1].split(',').forEach(function(token){
+         var shore=token.endsWith('s'),bits=(shore?token.slice(0,-1):token).split('.');
+         var zigzag=parseInt(bits[0],36),lo=zigzag%2?-(zigzag+1)/2:zigzag/2,hi=lo+parseInt(bits[1],36);
+         for(var r=lo;r<=hi;r++){var n=[q,r,shore?1:2,shore?50:90,0];if(!inside(n))throw Error('Hexágono fuera del ámbito revisado');waterNodes.set(q+','+r,n);classified++;}
+       });
+     });
+     if(classified!==patch.statistics.hexes)throw Error('Número de hexágonos de Mapa 3.3 inconsistente');
+     waterNodes.forEach(function(n){var mask=0;steps.forEach(function(d,i){if(waterNodes.has((n[0]+d[0])+','+(n[1]+d[1])))mask|=(1<<i);});n[4]=mask;});
+     water.cells=Array.from(waterNodes.values());
+     water.revision=patch.revision;water.source.filename=patch.sourceImage;water.source.sha256=patch.sourceSha256;water.source.method='Máscara 3.3 en el litoral oriental; cauces estrechos no autorizados para navegación de navíos.';
      var pinById=new Map(D.places.filter(function(p){return !p.atlasArchiveReason;}).map(function(p){return [p.id,p];}));
-     var anchorById=new Map((routes.snappedPorts||[]).map(function(p){return [p.id,p];}));
-     var ports=nav.ports.filter(function(p){return p.endpoint&&pinById.has(p.id)&&anchorById.has(p.id);});
+     var center=function(q,r){return [1.5*R*q,H*(r+q/2)];};
+     // Reajustar el acceso de cada localidad a la celda de agua real más cercana.
+     var anchorById=new Map(),waterPositions=water.cells.map(function(n){var p=center(n[0],n[1]);return [n,p[0],p[1]];});
+     nav.ports.forEach(function(port){
+       var place=pinById.get(port.id);if(!port.endpoint||!place)return;
+       var nearest=null,d2=625.01;
+       waterPositions.forEach(function(w){var dx=w[1]-place.x,dy=w[2]-place.y,dsq=dx*dx+dy*dy;if(dsq<d2){nearest=w[0];d2=dsq;}});
+       if(nearest&&d2<=625)anchorById.set(port.id,{id:port.id,hex:[nearest[0],nearest[1]],snap_distance:+Math.sqrt(d2).toFixed(1),water_type:nearest[2],accessStatus:'litoral-verificable-en-mascara'});
+     });
+     var ports=nav.ports.filter(function(p){return p.endpoint&&anchorById.has(p.id);});
      var lookup=function(id){return pinById.get(id);};
      var placeLabel=function(id){var p=lookup(id);return p?p.name:id;};
-     var center=function(q,r){return [1.5*R*q,H*(r+q/2)];};
      var coord=function(x,y){return L.latLng(-y,x);};
      var cellCoord=function(n){var v=center(n[0],n[1]);return coord(v[0],v[1]);};
      var state={active:false,showHex:false,showRegions:true,showNetwork:true,from:'place-017',to:'place-018',sails:1,route:null,region:null,inspect:false};
@@ -54,8 +78,10 @@
      var from=q('ae-naval-from'),to=q('ae-naval-to'),sails=q('ae-naval-sails'),result=q('ae-naval-result');
      function portOption(p){var v=document.createElement('option');v.value=p.id;v.textContent=placeLabel(p.id);return v;}
      ports.slice().sort(function(a,b){return placeLabel(a.id).localeCompare(placeLabel(b.id),'es');}).forEach(function(p){from.appendChild(portOption(p));to.appendChild(portOption(p));});
+     if(!anchorById.has(state.from))state.from=ports[0]?ports[0].id:'';
+     if(!anchorById.has(state.to))state.to=ports[1]?ports[1].id:state.from;
      from.value=state.from;to.value=state.to;
-     q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' hexágonos de agua · '+zones.regions.length+' regiones marítimas · '+routes.routes.length+' corredores.';
+     q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' hexágonos de agua · verificando corredores sobre el mapa 3.3…';
      function setVisible(){
        panel.hidden=!state.active;button.setAttribute('aria-pressed',String(state.active));button.classList.toggle('is-active',state.active);
        var ops=[[zonesLayer,state.showRegions],[routeNetworkLayer,state.showNetwork],[routeLayer,true],[portLayer,true]];
@@ -145,6 +171,25 @@
        }
        return null;
      }
+     function rebuildSeaCorridors(){
+       // No reutilizar como dibujo ninguna ruta sobre un hexágono terrestre.
+       var prior=routes.routes.slice(),valid=[],excluded=0,index=0;
+       function batch(){
+         for(var k=0;k<4&&index<prior.length;k++,index++){
+           var old=prior[index],a=anchorById.get(old.from),b=anchorById.get(old.to);
+           if(!a||!b){excluded++;continue;}
+           var cells=findPath(old.from,old.to),straight=distance(a.hex,b.hex);
+           if(!cells||cells.length<2||cells.length-1>Math.max(25,3*straight+15)){excluded++;continue;}
+           var points=cells.filter(function(n,i){return i===0||i===cells.length-1||i%3===0;}).map(function(n){var xy=center(n[0],n[1]);return [Number(xy[0].toFixed(1)),Number(xy[1].toFixed(1))];});
+           valid.push(Object.assign({},old,{waypoints:points,hexes:cells.length-1,status:'trazado_recalculado_mascara_mapa33',qa:Object.assign({},old.qa||{},{source3_3Verified:'sector_oriental',maskRevision:patch.revision})}));
+         }
+         if(index<prior.length){setTimeout(batch,0);return;}
+         routes.routes=valid;drawNetwork();
+         q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' hexágonos acuáticos · '+ports.length+' escalas accesibles · '+valid.length+' corredores ('+excluded+' no verificables excluidos).';
+         console.info('[Aeternalis/Naval v3.4]',{waterHexes:water.cells.length,ports:ports.length,routes:valid.length,excluded:excluded});
+       }
+       batch();
+     }
      function plotRoute(){
        var first=from.value,last=to.value;state.from=first;state.to=last;state.sails=Number(sails.value)||1;
        routeLayer.clearLayers();
@@ -158,7 +203,7 @@
         if(end&&accessTo&&accessTo.snap_distance<=25)L.polyline([latlngs[latlngs.length-1],coord(end.x,end.y)],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
         var hexes=path.length-1,hours=hexes*[24,18,12,8][state.sails-1];
        var pendingAccess=!!((accessFrom&&accessFrom.snap_distance>25)||(accessTo&&accessTo.snap_distance>25));
-        result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong><span>'+hexes.toLocaleString('es-CL')+' hexágonos sobre red preliminar</span><span>'+hours.toLocaleString('es-CL')+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días estimados</span>'+(pendingAccess?'<p class="ae-naval-access-warning">Acceso fluvial aún no verificado entre la localidad y la red oceánica. El tiempo no incluye ese tramo; no se dibuja una línea sobre tierra.</p>':'<p class="ae-naval-access-warning">Ruta provisional sobre la máscara de agua del Mapa 3.21, pendiente de validación con el Mapa 3.3.</p>');
+        result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong><span>'+hexes.toLocaleString('es-CL')+' hexágonos sobre red preliminar</span><span>'+hours.toLocaleString('es-CL')+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días estimados</span>'+(pendingAccess?'<p class="ae-naval-access-warning">Acceso fluvial aún no verificado entre la localidad y la red oceánica. El tiempo no incluye ese tramo; no se dibuja una línea sobre tierra.</p>':'<p class="ae-naval-access-warning">Ruta provisional sobre agua cartografiada en Mapa 3.3 (sector oriental). Los cauces interiores aún requieren verificación de navegabilidad.</p>');
         state.route={from:first,to:last,hexes:hexes,hours:hours,points:path.length};
        if(!state.active){state.active=true;setVisible();}
        var fit=L.latLngBounds(latlngs);
@@ -171,7 +216,7 @@
      q('ae-naval-toggle-hex').addEventListener('change',function(e){state.showHex=e.target.checked;setVisible();});
      q('ae-naval-toggle-regions').addEventListener('change',function(e){state.showRegions=e.target.checked;setVisible();});
      q('ae-naval-toggle-network').addEventListener('change',function(e){state.showNetwork=e.target.checked;setVisible();});
-     plotZones();drawNetwork();drawPorts();setVisible();
+     plotZones();drawPorts();setVisible();rebuildSeaCorridors();
      // Public API for other modules, deliberately read-only for region and water data.
      window.__AETERNALIS_SUPERMAPA_NAVAL__={version:VERSION,map:map,toggle:function(){button.click();},getState:function(){return Object.assign({},state);},getSummary:function(){return {hexagons:water.cells.length,regions:zones.regions.length,connections:routes.routes.length,ports:ports.length};}};
      // Optional deep-link: ?naval=1 opens the maritime chart directly.

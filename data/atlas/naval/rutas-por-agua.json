@@ -1,1 +1,5606 @@
-{"schema":"aeternalis-rutas-agua-v1","revision":"2026-11-27-costa-rios-yugen-mapa33","status":"rutas_preliminares_pendientes_de_verificar_con_mapa_33","sourceMapSha256":"79d8d66d34951f531ddc98bdb04f2e8d9efbfdffb395da86dee4fd5bb0cbc71d","routes":[{"id":"nav-017-018","from":"place-017","to":"place-018","status":"trazado_por_color_en_revision","hexes":7,"straightHexDistance":7,"costMultiplier":1,"waypoints":[[826,655],[826,752],[812,760]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":8,"simplifiedPointCount":3,"snapDistances":[8,4.1]}},{"id":"nav-018-081","from":"place-018","to":"place-081","status":"trazado_por_color_en_revision","hexes":9,"straightHexDistance":7,"costMultiplier":1.286,"waypoints":[[812,760],[812,792],[770,816],[756,808],[742,816],[728,808],[714,816]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":10,"simplifiedPointCount":7,"snapDistances":[4.1,3]}},{"id":"nav-081-054","from":"place-081","to":"place-054","status":"trazado_por_color_en_revision","hexes":37,"straightHexDistance":36,"costMultiplier":1.028,"waypoints":[[714,816],[728,808],[742,816],[756,808],[770,816],[784,808],[798,816],[938,736],[1092,824],[1148,792],[1162,800],[1190,784],[1204,792],[1218,784],[1218,768]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":38,"simplifiedPointCount":15,"snapDistances":[3,12.6]}},{"id":"nav-054-051","from":"place-054","to":"place-051","status":"trazado_por_color_en_revision","hexes":25,"straightHexDistance":14,"costMultiplier":1.786,"waypoints":[[1218,768],[1218,784],[1204,792],[1106,736],[1106,606],[1218,542]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":26,"simplifiedPointCount":6,"snapDistances":[12.6,9.5]}},{"id":"nav-051-052","from":"place-051","to":"place-052","status":"trazado_por_color_en_revision","hexes":15,"straightHexDistance":15,"costMultiplier":1,"waypoints":[[1218,542],[1246,525],[1260,533],[1302,509],[1344,533],[1400,501],[1428,517]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":16,"simplifiedPointCount":7,"snapDistances":[9.5,12]}},{"id":"nav-052-061","from":"place-052","to":"place-061","status":"trazado_por_color_en_revision","hexes":22,"straightHexDistance":22,"costMultiplier":1,"waypoints":[[1428,517],[1526,574],[1540,566],[1680,647],[1694,639],[1736,663]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":6,"snapDistances":[12,14.4]}},{"id":"nav-061-063","from":"place-061","to":"place-063","status":"trazado_por_color_en_revision","hexes":3,"straightHexDistance":3,"costMultiplier":1,"waypoints":[[1736,663],[1778,639]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":4,"simplifiedPointCount":2,"snapDistances":[14.4,8.7]}},{"id":"nav-039-040","from":"place-039","to":"place-040","status":"trazado_por_color_en_revision","hexes":8,"straightHexDistance":8,"costMultiplier":1,"waypoints":[[1806,186],[1876,226],[1918,202]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":9,"simplifiedPointCount":3,"snapDistances":[15.2,5.4]}},{"id":"nav-040-043","from":"place-040","to":"place-043","status":"trazado_por_color_en_revision","hexes":22,"straightHexDistance":22,"costMultiplier":1,"waypoints":[[1918,202],[1862,234],[1834,218],[1820,226],[1792,210],[1722,251],[1708,242],[1610,299]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":8,"snapDistances":[5.4,18.5]}},{"id":"nav-043-051","from":"place-043","to":"place-051","status":"trazado_por_color_en_revision","hexes":32,"straightHexDistance":29,"costMultiplier":1.103,"waypoints":[[1610,299],[1610,315],[1568,339],[1568,372],[1428,453],[1428,469],[1330,525],[1302,509],[1260,533],[1246,525],[1218,542]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":33,"simplifiedPointCount":11,"snapDistances":[18.5,9.5]}},{"id":"nav-081-093","from":"place-081","to":"place-093","status":"trazado_por_color_en_revision","hexes":51,"straightHexDistance":38,"costMultiplier":1.342,"waypoints":[[714,816],[728,824],[728,954],[742,962],[742,1091],[798,1124],[798,1253],[770,1269],[770,1285],[742,1301],[742,1350],[714,1366],[714,1382],[700,1390],[700,1406],[672,1423],[644,1406],[644,1390],[602,1366]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":52,"simplifiedPointCount":19,"snapDistances":[3,7]}},{"id":"nav-093-094","from":"place-093","to":"place-094","status":"trazado_por_color_en_revision","hexes":10,"straightHexDistance":9,"costMultiplier":1.111,"waypoints":[[602,1366],[644,1390],[644,1406],[686,1431],[728,1406]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":5,"snapDistances":[7,4.5]}},{"id":"nav-018-094","from":"place-018","to":"place-094","status":"trazado_por_color_en_revision","hexes":43,"straightHexDistance":43,"costMultiplier":1,"waypoints":[[812,760],[812,1132],[798,1140],[798,1253],[770,1269],[770,1285],[742,1301],[742,1382],[728,1390],[728,1406]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":44,"simplifiedPointCount":10,"snapDistances":[4.1,4.5]}},{"id":"nav-054-061","from":"place-054","to":"place-061","status":"trazado_por_color_en_revision","hexes":40,"straightHexDistance":37,"costMultiplier":1.081,"waypoints":[[1218,768],[1218,784],[1246,800],[1302,768],[1302,736],[1330,719],[1344,727],[1358,719],[1414,752],[1638,622],[1680,647],[1694,639],[1736,663]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":41,"simplifiedPointCount":13,"snapDistances":[12.6,14.4]}},{"id":"nav33-070-072","from":"place-070","to":"place-072","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":1,"waypoints":[[1722,1058.9],[1722,1075]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":2,"simplifiedPointCount":2,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-050-051","from":"place-050","to":"place-051","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":1,"waypoints":[[1218,525.4],[1218,541.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":2,"simplifiedPointCount":2,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-049-050","from":"place-049","to":"place-050","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":2,"waypoints":[[1204,501.1],[1218,509.2],[1218,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":3,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-062-061","from":"place-062","to":"place-061","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":2,"waypoints":[[1750,638.5],[1750,654.7],[1736,662.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":3,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-042-039","from":"place-042","to":"place-039","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":3,"waypoints":[[1764,226.3],[1764,210.2],[1792,194]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":4,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-015-014","from":"place-015","to":"place-014","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":4,"waypoints":[[742,590],[742,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":5,"simplifiedPointCount":2,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-049-047","from":"place-049","to":"place-047","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":4,"waypoints":[[1204,501.1],[1148,468.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":5,"simplifiedPointCount":2,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-036-045","from":"place-036","to":"place-045","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":4,"waypoints":[[1442,363.7],[1442,396.1],[1428,404.1],[1414,396.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":5,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-071-psantuario-eradil","from":"place-071","to":"poi-santuario-eradil","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":4,"waypoints":[[1274,1269],[1274,1285.2],[1288,1293.3],[1288,1309.4],[1274,1317.5]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":5,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-054-055","from":"place-054","to":"place-055","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":4,"waypoints":[[1204,776],[1204,792.1],[1190,800.2],[1190,816.4],[1204,808.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":5,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-084-314","from":"place-084","to":"place-314","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":5,"waypoints":[[504,889.1],[532,905.3],[574,881]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":6,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-055-059","from":"place-055","to":"place-059","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":5,"waypoints":[[1204,808.3],[1204,824.5],[1148,856.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":6,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-064-065","from":"place-064","to":"place-065","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":6,"waypoints":[[1582,800.2],[1596,808.3],[1596,889.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":7,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-016-015","from":"place-016","to":"place-015","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":7,"waypoints":[[728,662.8],[770,638.5],[770,622.4],[742,606.2],[742,590]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":8,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-017-015","from":"place-017","to":"place-015","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":7,"waypoints":[[826,654.7],[826,638.5],[742,590]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":8,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-054-057","from":"place-054","to":"place-057","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":8,"waypoints":[[1204,776],[1232,792.1],[1316,743.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":9,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-043-044","from":"place-043","to":"place-044","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":9,"waypoints":[[1610,299.1],[1624,307.1],[1624,355.6],[1652,371.8],[1666,363.7],[1666,331.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":10,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-039-058","from":"place-039","to":"place-058","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":9,"waypoints":[[1792,194],[1806,185.9],[1806,121.2],[1834,105.1],[1848,113.2],[1862,105.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":10,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-095-092","from":"place-095","to":"place-092","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":9,"waypoints":[[882,1236.7],[798,1188.2],[784,1196.3],[770,1188.2],[770,1204.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":10,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-310-089","from":"place-310","to":"place-089","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[112,1066.9],[98,1075],[98,1155.9],[84,1163.9],[84,1180.1],[112,1196.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-015-103","from":"place-015","to":"place-103","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[742,590],[826,541.6],[854,525.4],[854,509.2],[868,501.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-014-012","from":"place-014","to":"place-012","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[742,525.4],[728,533.5],[686,509.2],[686,493.1],[644,468.8],[644,452.6],[658,444.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-047-035","from":"place-047","to":"place-035","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[1148,468.8],[1134,476.9],[1120,468.8],[1106,476.9],[1078,460.7],[1064,468.8],[1050,460.7],[1036,468.8],[1022,460.7],[1022,444.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":10,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-045-052","from":"place-045","to":"place-052","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[1414,396.1],[1442,412.2],[1442,509.2],[1414,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-068-069","from":"place-068","to":"place-069","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[1288,953.8],[1302,945.7],[1358,978],[1372,969.9],[1386,978],[1400,969.9],[1428,986.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-089-308","from":"place-089","to":"place-308","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[112,1196.3],[112,1212.4],[182,1252.8],[182,1301.3],[196,1309.4],[210,1301.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-095-060","from":"place-095","to":"place-060","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[882,1236.7],[938,1269],[1022,1220.5],[1036,1212.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-315-092","from":"place-315","to":"place-092","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[602,1220.5],[616,1228.6],[658,1204.3],[686,1220.5],[700,1212.4],[714,1220.5],[756,1196.3],[770,1204.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":8,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-085-314","from":"place-085","to":"place-314","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[672,1002.3],[672,969.9],[616,937.6],[616,905.3],[588,889.1],[574,897.2],[574,881]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-068-055","from":"place-068","to":"place-055","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[1288,953.8],[1218,913.4],[1218,897.2],[1204,889.1],[1204,808.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-073-psantuario-eradil","from":"place-073","to":"poi-santuario-eradil","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[1428,1325.6],[1400,1341.8],[1400,1325.6],[1386,1317.5],[1372,1325.6],[1358,1317.5],[1344,1325.6],[1330,1317.5],[1316,1325.6],[1288,1309.4],[1274,1317.5]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-307-093","from":"place-307","to":"place-093","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[420,1357.9],[504,1406.4],[518,1414.5],[602,1366]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-085-081","from":"place-085","to":"place-081","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[672,1002.3],[672,937.6],[686,929.5],[686,832.5],[714,816.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-085-318","from":"place-085","to":"place-318","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[672,1002.3],[728,1034.6],[812,986.1],[854,961.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-061-064","from":"place-061","to":"place-064","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":15,"waypoints":[[1736,662.8],[1722,654.7],[1694,670.9],[1694,735.5],[1610,784],[1582,800.2]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":16,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-065-070","from":"place-065","to":"place-070","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":15,"waypoints":[[1596,889.1],[1680,937.6],[1722,961.9],[1722,1058.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":16,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-094-095","from":"place-094","to":"place-095","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[728,1406.4],[728,1325.6],[812,1277.1],[882,1236.7]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-306-060","from":"place-306","to":"place-060","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[1148,1050.8],[1134,1042.7],[1120,1050.8],[1106,1042.7],[1078,1058.9],[1078,1155.9],[1078,1172],[1036,1196.3],[1036,1212.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-308-307","from":"place-308","to":"place-307","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":17,"waypoints":[[210,1301.3],[210,1317.5],[294,1366],[364,1406.4],[420,1374.1],[420,1357.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":18,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-012-305","from":"place-012","to":"place-305","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":21,"waypoints":[[658,444.6],[602,476.9],[588,468.8],[560,485],[532,468.8],[532,452.6],[518,444.6],[518,428.4],[490,412.2],[490,396.1],[476,388],[462,396.1],[448,388],[434,396.1],[406,379.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":22,"simplifiedPointCount":15,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-067-070","from":"place-067","to":"place-070","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":22,"waypoints":[[1890,945.7],[1876,937.6],[1876,889.1],[1848,873],[1834,881],[1834,897.2],[1750,945.7],[1750,961.9],[1736,969.9],[1736,1050.8],[1722,1058.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-psantuario-eradil-060","from":"poi-santuario-eradil","to":"place-060","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":22,"waypoints":[[1274,1317.5],[1274,1333.7],[1232,1357.9],[1148,1309.4],[1134,1317.5],[1050,1269],[1022,1252.8],[1022,1220.5],[1036,1212.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-310-308","from":"place-310","to":"place-308","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":21,"waypoints":[[112,1066.9],[98,1075],[98,1155.9],[84,1163.9],[84,1180.1],[112,1196.3],[112,1212.4],[182,1252.8],[182,1301.3],[196,1309.4],[210,1301.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":22,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-089-307","from":"place-089","to":"place-307","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":27,"waypoints":[[112,1196.3],[112,1212.4],[182,1252.8],[182,1301.3],[266,1349.8],[350,1398.3],[364,1406.4],[420,1374.1],[420,1357.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":28,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-308-093","from":"place-308","to":"place-093","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":29,"waypoints":[[210,1301.3],[210,1317.5],[294,1366],[378,1414.5],[420,1438.8],[476,1406.4],[504,1422.6],[588,1374.1],[602,1366]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":30,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-307-094","from":"place-307","to":"place-094","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":22,"waypoints":[[420,1357.9],[504,1406.4],[588,1454.9],[616,1471.1],[700,1422.6],[728,1406.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-093-095","from":"place-093","to":"place-095","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":25,"waypoints":[[602,1366],[672,1406.4],[672,1422.6],[700,1406.4],[700,1341.8],[784,1293.3],[868,1244.8],[882,1236.7]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":26,"simplifiedPointCount":8,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-094-092","from":"place-094","to":"place-092","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":17,"waypoints":[[728,1406.4],[728,1309.4],[728,1293.3],[742,1285.2],[742,1269],[756,1260.9],[756,1244.8],[784,1228.6],[784,1196.3],[770,1188.2],[770,1204.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":18,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-315-085","from":"place-315","to":"place-085","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[602,1220.5],[602,1123.5],[602,1091.2],[630,1075],[630,1058.9],[658,1042.7],[658,1026.5],[672,1018.4],[672,1002.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-085-084","from":"place-085","to":"place-084","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[672,1002.3],[672,969.9],[616,937.6],[616,905.3],[588,889.1],[574,897.2],[560,889.1],[546,897.2],[532,889.1],[518,897.2],[504,889.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-084-081","from":"place-084","to":"place-081","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":22,"waypoints":[[504,889.1],[532,905.3],[560,889.1],[574,897.2],[588,889.1],[616,905.3],[616,921.4],[658,945.7],[686,929.5],[686,832.5],[714,816.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-314-081","from":"place-314","to":"place-081","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":18,"waypoints":[[574,881],[574,897.2],[588,889.1],[616,905.3],[616,921.4],[658,945.7],[686,929.5],[686,832.5],[714,816.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":19,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-081-318","from":"place-081","to":"place-318","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[714,816.4],[798,864.9],[854,897.2],[854,961.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-018-016","from":"place-018","to":"place-016","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":9,"waypoints":[[812,759.8],[798,751.7],[798,735.5],[742,703.2],[742,687],[728,679],[728,662.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":10,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-016-017","from":"place-016","to":"place-017","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":8,"waypoints":[[728,662.8],[784,630.5],[798,638.5],[812,630.5],[826,638.5],[826,654.7]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":9,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-017-014","from":"place-017","to":"place-014","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[826,654.7],[826,638.5],[742,590],[742,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-018-015","from":"place-018","to":"place-015","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[812,759.8],[798,751.7],[798,735.5],[770,719.4],[770,622.4],[742,606.2],[742,590]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-014-103","from":"place-014","to":"place-103","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":10,"waypoints":[[742,525.4],[798,557.7],[854,525.4],[854,509.2],[868,501.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":11,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-015-012","from":"place-015","to":"place-012","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[742,590],[742,557.7],[714,541.6],[714,525.4],[686,509.2],[686,493.1],[644,468.8],[644,452.6],[658,444.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-014-305","from":"place-014","to":"place-305","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":28,"waypoints":[[742,525.4],[728,533.5],[686,509.2],[686,493.1],[630,460.7],[602,476.9],[588,468.8],[560,485],[532,468.8],[532,452.6],[518,444.6],[518,428.4],[490,412.2],[490,396.1],[476,388],[462,396.1],[448,388],[434,396.1],[406,379.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":29,"simplifiedPointCount":19,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-017-103","from":"place-017","to":"place-103","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[826,654.7],[826,557.7],[826,541.6],[854,525.4],[854,509.2],[868,501.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-049-051","from":"place-049","to":"place-051","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":3,"waypoints":[[1204,501.1],[1218,509.2],[1218,541.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":4,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-047-050","from":"place-047","to":"place-050","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":6,"waypoints":[[1148,468.8],[1218,509.2],[1218,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":7,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-103-035","from":"place-103","to":"place-035","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[868,501.1],[910,525.4],[994,476.9],[1022,460.7],[1022,444.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-036-052","from":"place-036","to":"place-052","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[1442,363.7],[1442,460.7],[1442,509.2],[1414,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-045-043","from":"place-045","to":"place-043","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[1414,396.1],[1456,420.3],[1498,396.1],[1498,379.9],[1582,331.4],[1610,315.2],[1610,299.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-043-042","from":"place-043","to":"place-042","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[1610,299.1],[1666,266.7],[1680,274.8],[1764,226.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-044-042","from":"place-044","to":"place-042","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":18,"waypoints":[[1666,331.4],[1666,347.6],[1694,363.7],[1778,315.2],[1792,307.1],[1792,258.7],[1806,250.6],[1806,234.4],[1778,218.2],[1764,226.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":19,"simplifiedPointCount":10,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-042-040","from":"place-042","to":"place-040","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[1764,226.3],[1792,242.5],[1806,234.4],[1834,250.6],[1918,202.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-043-039","from":"place-043","to":"place-039","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":13,"waypoints":[[1610,299.1],[1694,250.6],[1778,202.1],[1792,194]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":14,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-040-058","from":"place-040","to":"place-058","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[1918,202.1],[1890,185.9],[1876,194],[1862,185.9],[1848,194],[1820,177.8],[1820,113.2],[1834,105.1],[1848,113.2],[1862,105.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":10,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-042-058","from":"place-042","to":"place-058","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[1764,226.3],[1764,210.2],[1806,185.9],[1806,121.2],[1834,105.1],[1848,113.2],[1862,105.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-062-063","from":"place-062","to":"place-063","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":2,"waypoints":[[1750,638.5],[1764,646.6],[1778,638.5]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":3,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-061-065","from":"place-061","to":"place-065","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":20,"waypoints":[[1736,662.8],[1722,654.7],[1694,670.9],[1694,767.9],[1694,832.5],[1610,881],[1596,889.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":21,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-063-064","from":"place-063","to":"place-064","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":17,"waypoints":[[1778,638.5],[1778,654.7],[1764,662.8],[1764,695.1],[1680,743.6],[1596,792.1],[1582,800.2]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":18,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-062-064","from":"place-062","to":"place-064","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[1750,638.5],[1694,670.9],[1694,735.5],[1610,784],[1582,800.2]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-065-072","from":"place-065","to":"place-072","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[1596,889.1],[1680,937.6],[1722,961.9],[1722,1058.9],[1722,1075]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-067-072","from":"place-067","to":"place-072","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":23,"waypoints":[[1890,945.7],[1876,937.6],[1876,889.1],[1848,873],[1834,881],[1834,897.2],[1750,945.7],[1750,961.9],[1736,969.9],[1736,1050.8],[1722,1058.9],[1722,1075]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":24,"simplifiedPointCount":12,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-064-070","from":"place-064","to":"place-070","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":21,"waypoints":[[1582,800.2],[1666,848.7],[1722,881],[1722,978],[1722,1058.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":22,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-068-059","from":"place-068","to":"place-059","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":12,"waypoints":[[1288,953.8],[1218,913.4],[1218,897.2],[1204,889.1],[1204,873],[1162,848.7],[1148,856.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":13,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-064-069","from":"place-064","to":"place-069","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":18,"waypoints":[[1582,800.2],[1568,808.3],[1568,824.5],[1554,832.5],[1554,864.9],[1512,889.1],[1512,905.3],[1470,929.5],[1470,945.7],[1414,978],[1428,986.1]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":19,"simplifiedPointCount":11,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-064-072","from":"place-064","to":"place-072","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":22,"waypoints":[[1582,800.2],[1666,848.7],[1722,881],[1722,978],[1722,1075]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":23,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-071-073","from":"place-071","to":"place-073","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[1274,1269],[1274,1285.2],[1302,1301.3],[1302,1317.5],[1316,1325.6],[1330,1317.5],[1344,1325.6],[1358,1317.5],[1372,1325.6],[1386,1317.5],[1400,1325.6],[1400,1341.8],[1428,1325.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":13,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"acceso_fluvial_no_verificado"}},{"id":"nav33-073-060","from":"place-073","to":"place-060","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":33,"waypoints":[[1428,1325.6],[1400,1341.8],[1400,1325.6],[1386,1317.5],[1372,1325.6],[1358,1317.5],[1344,1325.6],[1330,1317.5],[1316,1325.6],[1302,1317.5],[1232,1357.9],[1148,1309.4],[1134,1317.5],[1050,1269],[1022,1252.8],[1022,1220.5],[1036,1212.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":34,"simplifiedPointCount":17,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-psantuario-eradil-095","from":"poi-santuario-eradil","to":"place-095","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":29,"waypoints":[[1274,1317.5],[1274,1333.7],[1232,1357.9],[1148,1309.4],[1134,1317.5],[1050,1269],[966,1220.5],[938,1204.3],[882,1236.7]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":30,"simplifiedPointCount":9,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-095-318","from":"place-095","to":"place-318","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":18,"waypoints":[[882,1236.7],[854,1220.5],[854,1123.5],[854,1026.5],[854,961.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":19,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-085-092","from":"place-085","to":"place-092","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":16,"waypoints":[[672,1002.3],[756,1050.8],[770,1058.9],[770,1155.9],[770,1204.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":17,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-054-059","from":"place-054","to":"place-059","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":7,"waypoints":[[1204,776],[1204,792.1],[1190,800.2],[1190,832.5],[1148,856.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":8,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-057-055","from":"place-057","to":"place-055","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":11,"waypoints":[[1316,743.6],[1232,792.1],[1218,784],[1190,800.2],[1190,816.4],[1204,808.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":12,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-052-050","from":"place-052","to":"place-050","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[1414,525.4],[1372,501.1],[1344,517.3],[1302,493.1],[1260,517.3],[1246,509.2],[1218,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":7,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-035-050","from":"place-035","to":"place-050","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":15,"waypoints":[[1022,444.6],[1022,460.7],[1106,509.2],[1176,549.6],[1218,525.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":16,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-047-051","from":"place-047","to":"place-051","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":7,"waypoints":[[1148,468.8],[1218,509.2],[1218,541.6]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":8,"simplifiedPointCount":3,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-069-055","from":"place-069","to":"place-055","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":19,"waypoints":[[1428,986.1],[1344,937.6],[1260,889.1],[1204,856.8],[1204,808.3]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":20,"simplifiedPointCount":5,"source3_3Verified":false,"accessFrom":"acceso_fluvial_no_verificado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-057-059","from":"place-057","to":"place-059","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[1316,743.6],[1232,792.1],[1218,784],[1190,800.2],[1190,832.5],[1148,856.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-059-306","from":"place-059","to":"place-306","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":17,"waypoints":[[1148,856.8],[1134,864.9],[1134,881],[1106,897.2],[1106,994.2],[1106,1010.4],[1092,1018.4],[1092,1034.6],[1134,1058.9],[1148,1050.8]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":18,"simplifiedPointCount":10,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-092-060","from":"place-092","to":"place-060","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":20,"waypoints":[[770,1204.3],[770,1188.2],[854,1236.7],[924,1277.1],[1008,1228.6],[1036,1212.4]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":21,"simplifiedPointCount":6,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}},{"id":"nav33-018-318","from":"place-018","to":"place-318","status":"trazado_provisorio_grafo_321_para_mapa_33","hexes":14,"waypoints":[[812,759.8],[854,784],[854,881],[854,961.9]],"qa":{"allOnTraversableGraph":true,"pathNodeCount":15,"simplifiedPointCount":4,"source3_3Verified":false,"accessFrom":"costa_o_rio_aproximado","accessTo":"costa_o_rio_aproximado"}}],"snappedPorts":[{"id":"place-310","name":"Elorian","hex":[8,62],"water_type":1,"snap_distance":5.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-089","name":"Elv’Thilion","hex":[8,70],"water_type":3,"snap_distance":24.3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-308","name":"Baelwyn","hex":[15,73],"water_type":3,"snap_distance":9.2,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-307","name":"Aethelas","hex":[30,69],"water_type":3,"snap_distance":12.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-093","name":"Bahía Calad","hex":[43,63],"water_type":1,"snap_distance":7,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-094","name":"Bahía Hirion","hex":[52,61],"water_type":1,"snap_distance":4.5,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-315","name":"Er’yelia","hex":[43,54],"water_type":1,"snap_distance":21.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-085","name":"Rhori’len","hex":[48,38],"water_type":1,"snap_distance":11.2,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-084","name":"Kale","hex":[36,37],"water_type":1,"snap_distance":66.9,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-314","name":"Cyn’dorei","hex":[41,34],"water_type":1,"snap_distance":8,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-081","name":"Inlyria","hex":[51,25],"water_type":1,"snap_distance":3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-018","name":"Torvask","hex":[58,18],"water_type":2,"snap_distance":4.1,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-016","name":"Vatnar","hex":[52,15],"water_type":2,"snap_distance":5.9,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-017","name":"Grimskar","hex":[59,11],"water_type":2,"snap_distance":8,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-015","name":"Alhem","hex":[53,10],"water_type":2,"snap_distance":8,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-014","name":"Faro Durgath","hex":[53,6],"water_type":1,"snap_distance":6.7,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-012","name":"Reddas","hex":[47,4],"water_type":3,"snap_distance":14.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-305","name":"Rinnos","hex":[29,9],"water_type":1,"snap_distance":28.1,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-103","name":"Belluart","hex":[62,0],"water_type":1,"snap_distance":5.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-049","name":"Fortaleza del Alba","hex":[86,-12],"water_type":1,"snap_distance":10.9,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-047","name":"Cyder","hex":[82,-12],"water_type":3,"snap_distance":77.6,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-035","name":"Bajo Reeve","hex":[73,-9],"water_type":3,"snap_distance":128.8,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-036","name":"Fuerte Hydell","hex":[103,-29],"water_type":1,"snap_distance":169.8,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-045","name":"Monasterio Celendyr","hex":[101,-26],"water_type":1,"snap_distance":92.7,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-043","name":"Puerto del Ahogado","hex":[115,-39],"water_type":1,"snap_distance":18.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-044","name":"Fuerte Elyssfor","hex":[119,-39],"water_type":1,"snap_distance":6.7,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-042","name":"Faro Crepuscular","hex":[126,-49],"water_type":2,"snap_distance":7.7,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-039","name":"Puerto Volker","hex":[128,-52],"water_type":3,"snap_distance":14,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-040","name":"Puerto Elizabeth","hex":[137,-56],"water_type":1,"snap_distance":5.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-058","name":"Torres Viejas","hex":[133,-60],"water_type":3,"snap_distance":1.5,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-062","name":"Costa Sangrienta","hex":[125,-23],"water_type":3,"snap_distance":6.3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-061","name":"Puerto Ramera","hex":[124,-21],"water_type":2,"snap_distance":14.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-063","name":"Bahía Kraken","hex":[127,-24],"water_type":1,"snap_distance":8.7,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-064","name":"Ruinas de Latherion","hex":[113,-7],"water_type":1,"snap_distance":12.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-065","name":"Fuerte Azgereth","hex":[114,-2],"water_type":3,"snap_distance":4.3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-067","name":"Bastión Heidrun","hex":[135,-9],"water_type":3,"snap_distance":2.1,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-070","name":"Torreón Ásdris","hex":[123,4],"water_type":1,"snap_distance":4.9,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-068","name":"Guardia Zytheria","hex":[92,13],"water_type":1,"snap_distance":7.3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-069","name":"Fohn’Veridan","hex":[102,10],"water_type":3,"snap_distance":102.9,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-072","name":"Alandra","hex":[123,5],"water_type":3,"snap_distance":188.8,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-071","name":"Loth’Veridan","hex":[91,33],"water_type":3,"snap_distance":96.5,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-073","name":"Ris'Veridan","hex":[102,31],"water_type":3,"snap_distance":36.4,"component":0,"accessStatus":"acceso_fluvial_no_verificado","sourceGrid":"Mapa_3.21(2).png"},{"id":"poi-santuario-eradil","name":"Santuario Eradil","hex":[91,36],"water_type":3,"snap_distance":9.5,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-095","name":"Academia Njfarell","hex":[63,45],"water_type":2,"snap_distance":6.1,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-092","name":"Ithar'iamil","hex":[55,47],"water_type":3,"snap_distance":6.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-054","name":"Puerto de la Luna","hex":[86,5],"water_type":3,"snap_distance":3.6,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-057","name":"Guardiavieja","hex":[94,-1],"water_type":1,"snap_distance":6.9,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-052","name":"Bahía Coral","hex":[101,-18],"water_type":3,"snap_distance":8.9,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-050","name":"Fuerte Nurtac","hex":[87,-11],"water_type":1,"snap_distance":5.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-051","name":"Puerto del Sol","hex":[87,-10],"water_type":2,"snap_distance":9.5,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-055","name":"Marina","hex":[86,7],"water_type":3,"snap_distance":5.2,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-059","name":"Eirae","hex":[82,12],"water_type":1,"snap_distance":9.4,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-306","name":"Dulcesidra","hex":[82,24],"water_type":3,"snap_distance":2,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-060","name":"Comarca Esmeralda","hex":[74,38],"water_type":1,"snap_distance":11.3,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"},{"id":"place-318","name":"Kazehara","hex":[61,29],"water_type":2,"snap_distance":5.2,"component":0,"accessStatus":"costa_o_rio_aproximado","sourceGrid":"Mapa_3.21(2).png"}],"seaOnlyEnforced":true,"notes":"Grafo de hexágonos navegables calculado a partir del Mapa 3.21. Un tramo de aproximación fluvial no está confirmado cuando la localidad dista >25 píxeles lógicos del componente oceánico. No debe afirmarse que el río completo es navegable."}
+{
+  "schema": "aeternalis-rutas-agua-v1",
+  "revision": "2026-11-27-costa-rios-yugen-mapa33",
+  "status": "rutas_preliminares_pendientes_de_verificar_con_mapa_33",
+  "sourceMapSha256": "79d8d66d34951f531ddc98bdb04f2e8d9efbfdffb395da86dee4fd5bb0cbc71d",
+  "routes": [
+    {
+      "id": "nav-017-018",
+      "from": "place-017",
+      "to": "place-018",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 7,
+      "straightHexDistance": 7,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          826,
+          655
+        ],
+        [
+          826,
+          752
+        ],
+        [
+          812,
+          760
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 3,
+        "snapDistances": [
+          8,
+          4.1
+        ]
+      }
+    },
+    {
+      "id": "nav-018-081",
+      "from": "place-018",
+      "to": "place-081",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 9,
+      "straightHexDistance": 7,
+      "costMultiplier": 1.286,
+      "waypoints": [
+        [
+          812,
+          760
+        ],
+        [
+          812,
+          792
+        ],
+        [
+          770,
+          816
+        ],
+        [
+          756,
+          808
+        ],
+        [
+          742,
+          816
+        ],
+        [
+          728,
+          808
+        ],
+        [
+          714,
+          816
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 7,
+        "snapDistances": [
+          4.1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "nav-081-054",
+      "from": "place-081",
+      "to": "place-054",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 37,
+      "straightHexDistance": 36,
+      "costMultiplier": 1.028,
+      "waypoints": [
+        [
+          714,
+          816
+        ],
+        [
+          728,
+          808
+        ],
+        [
+          742,
+          816
+        ],
+        [
+          756,
+          808
+        ],
+        [
+          770,
+          816
+        ],
+        [
+          784,
+          808
+        ],
+        [
+          798,
+          816
+        ],
+        [
+          938,
+          736
+        ],
+        [
+          1092,
+          824
+        ],
+        [
+          1148,
+          792
+        ],
+        [
+          1162,
+          800
+        ],
+        [
+          1190,
+          784
+        ],
+        [
+          1204,
+          792
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1218,
+          768
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 38,
+        "simplifiedPointCount": 15,
+        "snapDistances": [
+          3,
+          12.6
+        ]
+      }
+    },
+    {
+      "id": "nav-054-051",
+      "from": "place-054",
+      "to": "place-051",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 25,
+      "straightHexDistance": 14,
+      "costMultiplier": 1.786,
+      "waypoints": [
+        [
+          1218,
+          768
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1204,
+          792
+        ],
+        [
+          1106,
+          736
+        ],
+        [
+          1106,
+          606
+        ],
+        [
+          1218,
+          542
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 26,
+        "simplifiedPointCount": 6,
+        "snapDistances": [
+          12.6,
+          9.5
+        ]
+      }
+    },
+    {
+      "id": "nav-051-052",
+      "from": "place-051",
+      "to": "place-052",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 15,
+      "straightHexDistance": 15,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1218,
+          542
+        ],
+        [
+          1246,
+          525
+        ],
+        [
+          1260,
+          533
+        ],
+        [
+          1302,
+          509
+        ],
+        [
+          1344,
+          533
+        ],
+        [
+          1400,
+          501
+        ],
+        [
+          1428,
+          517
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 16,
+        "simplifiedPointCount": 7,
+        "snapDistances": [
+          9.5,
+          12
+        ]
+      }
+    },
+    {
+      "id": "nav-052-061",
+      "from": "place-052",
+      "to": "place-061",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 22,
+      "straightHexDistance": 22,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1428,
+          517
+        ],
+        [
+          1526,
+          574
+        ],
+        [
+          1540,
+          566
+        ],
+        [
+          1680,
+          647
+        ],
+        [
+          1694,
+          639
+        ],
+        [
+          1736,
+          663
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 6,
+        "snapDistances": [
+          12,
+          14.4
+        ]
+      }
+    },
+    {
+      "id": "nav-061-063",
+      "from": "place-061",
+      "to": "place-063",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 3,
+      "straightHexDistance": 3,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1736,
+          663
+        ],
+        [
+          1778,
+          639
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 4,
+        "simplifiedPointCount": 2,
+        "snapDistances": [
+          14.4,
+          8.7
+        ]
+      }
+    },
+    {
+      "id": "nav-039-040",
+      "from": "place-039",
+      "to": "place-040",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 8,
+      "straightHexDistance": 8,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1806,
+          186
+        ],
+        [
+          1876,
+          226
+        ],
+        [
+          1918,
+          202
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 9,
+        "simplifiedPointCount": 3,
+        "snapDistances": [
+          15.2,
+          5.4
+        ]
+      }
+    },
+    {
+      "id": "nav-040-043",
+      "from": "place-040",
+      "to": "place-043",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 22,
+      "straightHexDistance": 22,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          1918,
+          202
+        ],
+        [
+          1862,
+          234
+        ],
+        [
+          1834,
+          218
+        ],
+        [
+          1820,
+          226
+        ],
+        [
+          1792,
+          210
+        ],
+        [
+          1722,
+          251
+        ],
+        [
+          1708,
+          242
+        ],
+        [
+          1610,
+          299
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 8,
+        "snapDistances": [
+          5.4,
+          18.5
+        ]
+      }
+    },
+    {
+      "id": "nav-043-051",
+      "from": "place-043",
+      "to": "place-051",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 32,
+      "straightHexDistance": 29,
+      "costMultiplier": 1.103,
+      "waypoints": [
+        [
+          1610,
+          299
+        ],
+        [
+          1610,
+          315
+        ],
+        [
+          1568,
+          339
+        ],
+        [
+          1568,
+          372
+        ],
+        [
+          1428,
+          453
+        ],
+        [
+          1428,
+          469
+        ],
+        [
+          1330,
+          525
+        ],
+        [
+          1302,
+          509
+        ],
+        [
+          1260,
+          533
+        ],
+        [
+          1246,
+          525
+        ],
+        [
+          1218,
+          542
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 33,
+        "simplifiedPointCount": 11,
+        "snapDistances": [
+          18.5,
+          9.5
+        ]
+      }
+    },
+    {
+      "id": "nav-081-093",
+      "from": "place-081",
+      "to": "place-093",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 51,
+      "straightHexDistance": 38,
+      "costMultiplier": 1.342,
+      "waypoints": [
+        [
+          714,
+          816
+        ],
+        [
+          728,
+          824
+        ],
+        [
+          728,
+          954
+        ],
+        [
+          742,
+          962
+        ],
+        [
+          742,
+          1091
+        ],
+        [
+          798,
+          1124
+        ],
+        [
+          798,
+          1253
+        ],
+        [
+          770,
+          1269
+        ],
+        [
+          770,
+          1285
+        ],
+        [
+          742,
+          1301
+        ],
+        [
+          742,
+          1350
+        ],
+        [
+          714,
+          1366
+        ],
+        [
+          714,
+          1382
+        ],
+        [
+          700,
+          1390
+        ],
+        [
+          700,
+          1406
+        ],
+        [
+          672,
+          1423
+        ],
+        [
+          644,
+          1406
+        ],
+        [
+          644,
+          1390
+        ],
+        [
+          602,
+          1366
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 52,
+        "simplifiedPointCount": 19,
+        "snapDistances": [
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "nav-093-094",
+      "from": "place-093",
+      "to": "place-094",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 10,
+      "straightHexDistance": 9,
+      "costMultiplier": 1.111,
+      "waypoints": [
+        [
+          602,
+          1366
+        ],
+        [
+          644,
+          1390
+        ],
+        [
+          644,
+          1406
+        ],
+        [
+          686,
+          1431
+        ],
+        [
+          728,
+          1406
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 5,
+        "snapDistances": [
+          7,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "nav-018-094",
+      "from": "place-018",
+      "to": "place-094",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 43,
+      "straightHexDistance": 43,
+      "costMultiplier": 1,
+      "waypoints": [
+        [
+          812,
+          760
+        ],
+        [
+          812,
+          1132
+        ],
+        [
+          798,
+          1140
+        ],
+        [
+          798,
+          1253
+        ],
+        [
+          770,
+          1269
+        ],
+        [
+          770,
+          1285
+        ],
+        [
+          742,
+          1301
+        ],
+        [
+          742,
+          1382
+        ],
+        [
+          728,
+          1390
+        ],
+        [
+          728,
+          1406
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 44,
+        "simplifiedPointCount": 10,
+        "snapDistances": [
+          4.1,
+          4.5
+        ]
+      }
+    },
+    {
+      "id": "nav-054-061",
+      "from": "place-054",
+      "to": "place-061",
+      "status": "trazado_por_color_en_revision",
+      "hexes": 40,
+      "straightHexDistance": 37,
+      "costMultiplier": 1.081,
+      "waypoints": [
+        [
+          1218,
+          768
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1246,
+          800
+        ],
+        [
+          1302,
+          768
+        ],
+        [
+          1302,
+          736
+        ],
+        [
+          1330,
+          719
+        ],
+        [
+          1344,
+          727
+        ],
+        [
+          1358,
+          719
+        ],
+        [
+          1414,
+          752
+        ],
+        [
+          1638,
+          622
+        ],
+        [
+          1680,
+          647
+        ],
+        [
+          1694,
+          639
+        ],
+        [
+          1736,
+          663
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 41,
+        "simplifiedPointCount": 13,
+        "snapDistances": [
+          12.6,
+          14.4
+        ]
+      }
+    },
+    {
+      "id": "nav33-070-072",
+      "from": "place-070",
+      "to": "place-072",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 1,
+      "waypoints": [
+        [
+          1722,
+          1058.9
+        ],
+        [
+          1722,
+          1075
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 2,
+        "simplifiedPointCount": 2,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-050-051",
+      "from": "place-050",
+      "to": "place-051",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 1,
+      "waypoints": [
+        [
+          1218,
+          525.4
+        ],
+        [
+          1218,
+          541.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 2,
+        "simplifiedPointCount": 2,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-049-050",
+      "from": "place-049",
+      "to": "place-050",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 2,
+      "waypoints": [
+        [
+          1204,
+          501.1
+        ],
+        [
+          1218,
+          509.2
+        ],
+        [
+          1218,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 3,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-062-061",
+      "from": "place-062",
+      "to": "place-061",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 2,
+      "waypoints": [
+        [
+          1750,
+          638.5
+        ],
+        [
+          1750,
+          654.7
+        ],
+        [
+          1736,
+          662.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 3,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-042-039",
+      "from": "place-042",
+      "to": "place-039",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 3,
+      "waypoints": [
+        [
+          1764,
+          226.3
+        ],
+        [
+          1764,
+          210.2
+        ],
+        [
+          1792,
+          194
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 4,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-015-014",
+      "from": "place-015",
+      "to": "place-014",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 4,
+      "waypoints": [
+        [
+          742,
+          590
+        ],
+        [
+          742,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 2,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-049-047",
+      "from": "place-049",
+      "to": "place-047",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 4,
+      "waypoints": [
+        [
+          1204,
+          501.1
+        ],
+        [
+          1148,
+          468.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 2,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-036-045",
+      "from": "place-036",
+      "to": "place-045",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 4,
+      "waypoints": [
+        [
+          1442,
+          363.7
+        ],
+        [
+          1442,
+          396.1
+        ],
+        [
+          1428,
+          404.1
+        ],
+        [
+          1414,
+          396.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-071-psantuario-eradil",
+      "from": "place-071",
+      "to": "poi-santuario-eradil",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 4,
+      "waypoints": [
+        [
+          1274,
+          1269
+        ],
+        [
+          1274,
+          1285.2
+        ],
+        [
+          1288,
+          1293.3
+        ],
+        [
+          1288,
+          1309.4
+        ],
+        [
+          1274,
+          1317.5
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-054-055",
+      "from": "place-054",
+      "to": "place-055",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 4,
+      "waypoints": [
+        [
+          1204,
+          776
+        ],
+        [
+          1204,
+          792.1
+        ],
+        [
+          1190,
+          800.2
+        ],
+        [
+          1190,
+          816.4
+        ],
+        [
+          1204,
+          808.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 5,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-084-314",
+      "from": "place-084",
+      "to": "place-314",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 5,
+      "waypoints": [
+        [
+          504,
+          889.1
+        ],
+        [
+          532,
+          905.3
+        ],
+        [
+          574,
+          881
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 6,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-055-059",
+      "from": "place-055",
+      "to": "place-059",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 5,
+      "waypoints": [
+        [
+          1204,
+          808.3
+        ],
+        [
+          1204,
+          824.5
+        ],
+        [
+          1148,
+          856.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 6,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-064-065",
+      "from": "place-064",
+      "to": "place-065",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 6,
+      "waypoints": [
+        [
+          1582,
+          800.2
+        ],
+        [
+          1596,
+          808.3
+        ],
+        [
+          1596,
+          889.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 7,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-016-015",
+      "from": "place-016",
+      "to": "place-015",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 7,
+      "waypoints": [
+        [
+          728,
+          662.8
+        ],
+        [
+          770,
+          638.5
+        ],
+        [
+          770,
+          622.4
+        ],
+        [
+          742,
+          606.2
+        ],
+        [
+          742,
+          590
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-017-015",
+      "from": "place-017",
+      "to": "place-015",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 7,
+      "waypoints": [
+        [
+          826,
+          654.7
+        ],
+        [
+          826,
+          638.5
+        ],
+        [
+          742,
+          590
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-054-057",
+      "from": "place-054",
+      "to": "place-057",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 8,
+      "waypoints": [
+        [
+          1204,
+          776
+        ],
+        [
+          1232,
+          792.1
+        ],
+        [
+          1316,
+          743.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 9,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-043-044",
+      "from": "place-043",
+      "to": "place-044",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 9,
+      "waypoints": [
+        [
+          1610,
+          299.1
+        ],
+        [
+          1624,
+          307.1
+        ],
+        [
+          1624,
+          355.6
+        ],
+        [
+          1652,
+          371.8
+        ],
+        [
+          1666,
+          363.7
+        ],
+        [
+          1666,
+          331.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-039-058",
+      "from": "place-039",
+      "to": "place-058",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 9,
+      "waypoints": [
+        [
+          1792,
+          194
+        ],
+        [
+          1806,
+          185.9
+        ],
+        [
+          1806,
+          121.2
+        ],
+        [
+          1834,
+          105.1
+        ],
+        [
+          1848,
+          113.2
+        ],
+        [
+          1862,
+          105.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-095-092",
+      "from": "place-095",
+      "to": "place-092",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 9,
+      "waypoints": [
+        [
+          882,
+          1236.7
+        ],
+        [
+          798,
+          1188.2
+        ],
+        [
+          784,
+          1196.3
+        ],
+        [
+          770,
+          1188.2
+        ],
+        [
+          770,
+          1204.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-310-089",
+      "from": "place-310",
+      "to": "place-089",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          112,
+          1066.9
+        ],
+        [
+          98,
+          1075
+        ],
+        [
+          98,
+          1155.9
+        ],
+        [
+          84,
+          1163.9
+        ],
+        [
+          84,
+          1180.1
+        ],
+        [
+          112,
+          1196.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-015-103",
+      "from": "place-015",
+      "to": "place-103",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          742,
+          590
+        ],
+        [
+          826,
+          541.6
+        ],
+        [
+          854,
+          525.4
+        ],
+        [
+          854,
+          509.2
+        ],
+        [
+          868,
+          501.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-014-012",
+      "from": "place-014",
+      "to": "place-012",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          742,
+          525.4
+        ],
+        [
+          728,
+          533.5
+        ],
+        [
+          686,
+          509.2
+        ],
+        [
+          686,
+          493.1
+        ],
+        [
+          644,
+          468.8
+        ],
+        [
+          644,
+          452.6
+        ],
+        [
+          658,
+          444.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-047-035",
+      "from": "place-047",
+      "to": "place-035",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          1148,
+          468.8
+        ],
+        [
+          1134,
+          476.9
+        ],
+        [
+          1120,
+          468.8
+        ],
+        [
+          1106,
+          476.9
+        ],
+        [
+          1078,
+          460.7
+        ],
+        [
+          1064,
+          468.8
+        ],
+        [
+          1050,
+          460.7
+        ],
+        [
+          1036,
+          468.8
+        ],
+        [
+          1022,
+          460.7
+        ],
+        [
+          1022,
+          444.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 10,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-045-052",
+      "from": "place-045",
+      "to": "place-052",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          1414,
+          396.1
+        ],
+        [
+          1442,
+          412.2
+        ],
+        [
+          1442,
+          509.2
+        ],
+        [
+          1414,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-068-069",
+      "from": "place-068",
+      "to": "place-069",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          1288,
+          953.8
+        ],
+        [
+          1302,
+          945.7
+        ],
+        [
+          1358,
+          978
+        ],
+        [
+          1372,
+          969.9
+        ],
+        [
+          1386,
+          978
+        ],
+        [
+          1400,
+          969.9
+        ],
+        [
+          1428,
+          986.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-089-308",
+      "from": "place-089",
+      "to": "place-308",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          112,
+          1196.3
+        ],
+        [
+          112,
+          1212.4
+        ],
+        [
+          182,
+          1252.8
+        ],
+        [
+          182,
+          1301.3
+        ],
+        [
+          196,
+          1309.4
+        ],
+        [
+          210,
+          1301.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-095-060",
+      "from": "place-095",
+      "to": "place-060",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          882,
+          1236.7
+        ],
+        [
+          938,
+          1269
+        ],
+        [
+          1022,
+          1220.5
+        ],
+        [
+          1036,
+          1212.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-315-092",
+      "from": "place-315",
+      "to": "place-092",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          602,
+          1220.5
+        ],
+        [
+          616,
+          1228.6
+        ],
+        [
+          658,
+          1204.3
+        ],
+        [
+          686,
+          1220.5
+        ],
+        [
+          700,
+          1212.4
+        ],
+        [
+          714,
+          1220.5
+        ],
+        [
+          756,
+          1196.3
+        ],
+        [
+          770,
+          1204.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 8,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-085-314",
+      "from": "place-085",
+      "to": "place-314",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          672,
+          1002.3
+        ],
+        [
+          672,
+          969.9
+        ],
+        [
+          616,
+          937.6
+        ],
+        [
+          616,
+          905.3
+        ],
+        [
+          588,
+          889.1
+        ],
+        [
+          574,
+          897.2
+        ],
+        [
+          574,
+          881
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-068-055",
+      "from": "place-068",
+      "to": "place-055",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          1288,
+          953.8
+        ],
+        [
+          1218,
+          913.4
+        ],
+        [
+          1218,
+          897.2
+        ],
+        [
+          1204,
+          889.1
+        ],
+        [
+          1204,
+          808.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-073-psantuario-eradil",
+      "from": "place-073",
+      "to": "poi-santuario-eradil",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          1428,
+          1325.6
+        ],
+        [
+          1400,
+          1341.8
+        ],
+        [
+          1400,
+          1325.6
+        ],
+        [
+          1386,
+          1317.5
+        ],
+        [
+          1372,
+          1325.6
+        ],
+        [
+          1358,
+          1317.5
+        ],
+        [
+          1344,
+          1325.6
+        ],
+        [
+          1330,
+          1317.5
+        ],
+        [
+          1316,
+          1325.6
+        ],
+        [
+          1288,
+          1309.4
+        ],
+        [
+          1274,
+          1317.5
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-307-093",
+      "from": "place-307",
+      "to": "place-093",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          420,
+          1357.9
+        ],
+        [
+          504,
+          1406.4
+        ],
+        [
+          518,
+          1414.5
+        ],
+        [
+          602,
+          1366
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-085-081",
+      "from": "place-085",
+      "to": "place-081",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          672,
+          1002.3
+        ],
+        [
+          672,
+          937.6
+        ],
+        [
+          686,
+          929.5
+        ],
+        [
+          686,
+          832.5
+        ],
+        [
+          714,
+          816.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-085-318",
+      "from": "place-085",
+      "to": "place-318",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          672,
+          1002.3
+        ],
+        [
+          728,
+          1034.6
+        ],
+        [
+          812,
+          986.1
+        ],
+        [
+          854,
+          961.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-061-064",
+      "from": "place-061",
+      "to": "place-064",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 15,
+      "waypoints": [
+        [
+          1736,
+          662.8
+        ],
+        [
+          1722,
+          654.7
+        ],
+        [
+          1694,
+          670.9
+        ],
+        [
+          1694,
+          735.5
+        ],
+        [
+          1610,
+          784
+        ],
+        [
+          1582,
+          800.2
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 16,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-065-070",
+      "from": "place-065",
+      "to": "place-070",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 15,
+      "waypoints": [
+        [
+          1596,
+          889.1
+        ],
+        [
+          1680,
+          937.6
+        ],
+        [
+          1722,
+          961.9
+        ],
+        [
+          1722,
+          1058.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 16,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-094-095",
+      "from": "place-094",
+      "to": "place-095",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          728,
+          1406.4
+        ],
+        [
+          728,
+          1325.6
+        ],
+        [
+          812,
+          1277.1
+        ],
+        [
+          882,
+          1236.7
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-306-060",
+      "from": "place-306",
+      "to": "place-060",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          1148,
+          1050.8
+        ],
+        [
+          1134,
+          1042.7
+        ],
+        [
+          1120,
+          1050.8
+        ],
+        [
+          1106,
+          1042.7
+        ],
+        [
+          1078,
+          1058.9
+        ],
+        [
+          1078,
+          1155.9
+        ],
+        [
+          1078,
+          1172
+        ],
+        [
+          1036,
+          1196.3
+        ],
+        [
+          1036,
+          1212.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-308-307",
+      "from": "place-308",
+      "to": "place-307",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 17,
+      "waypoints": [
+        [
+          210,
+          1301.3
+        ],
+        [
+          210,
+          1317.5
+        ],
+        [
+          294,
+          1366
+        ],
+        [
+          364,
+          1406.4
+        ],
+        [
+          420,
+          1374.1
+        ],
+        [
+          420,
+          1357.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 18,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-012-305",
+      "from": "place-012",
+      "to": "place-305",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 21,
+      "waypoints": [
+        [
+          658,
+          444.6
+        ],
+        [
+          602,
+          476.9
+        ],
+        [
+          588,
+          468.8
+        ],
+        [
+          560,
+          485
+        ],
+        [
+          532,
+          468.8
+        ],
+        [
+          532,
+          452.6
+        ],
+        [
+          518,
+          444.6
+        ],
+        [
+          518,
+          428.4
+        ],
+        [
+          490,
+          412.2
+        ],
+        [
+          490,
+          396.1
+        ],
+        [
+          476,
+          388
+        ],
+        [
+          462,
+          396.1
+        ],
+        [
+          448,
+          388
+        ],
+        [
+          434,
+          396.1
+        ],
+        [
+          406,
+          379.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 22,
+        "simplifiedPointCount": 15,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-067-070",
+      "from": "place-067",
+      "to": "place-070",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 22,
+      "waypoints": [
+        [
+          1890,
+          945.7
+        ],
+        [
+          1876,
+          937.6
+        ],
+        [
+          1876,
+          889.1
+        ],
+        [
+          1848,
+          873
+        ],
+        [
+          1834,
+          881
+        ],
+        [
+          1834,
+          897.2
+        ],
+        [
+          1750,
+          945.7
+        ],
+        [
+          1750,
+          961.9
+        ],
+        [
+          1736,
+          969.9
+        ],
+        [
+          1736,
+          1050.8
+        ],
+        [
+          1722,
+          1058.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-psantuario-eradil-060",
+      "from": "poi-santuario-eradil",
+      "to": "place-060",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 22,
+      "waypoints": [
+        [
+          1274,
+          1317.5
+        ],
+        [
+          1274,
+          1333.7
+        ],
+        [
+          1232,
+          1357.9
+        ],
+        [
+          1148,
+          1309.4
+        ],
+        [
+          1134,
+          1317.5
+        ],
+        [
+          1050,
+          1269
+        ],
+        [
+          1022,
+          1252.8
+        ],
+        [
+          1022,
+          1220.5
+        ],
+        [
+          1036,
+          1212.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-310-308",
+      "from": "place-310",
+      "to": "place-308",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 21,
+      "waypoints": [
+        [
+          112,
+          1066.9
+        ],
+        [
+          98,
+          1075
+        ],
+        [
+          98,
+          1155.9
+        ],
+        [
+          84,
+          1163.9
+        ],
+        [
+          84,
+          1180.1
+        ],
+        [
+          112,
+          1196.3
+        ],
+        [
+          112,
+          1212.4
+        ],
+        [
+          182,
+          1252.8
+        ],
+        [
+          182,
+          1301.3
+        ],
+        [
+          196,
+          1309.4
+        ],
+        [
+          210,
+          1301.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 22,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-089-307",
+      "from": "place-089",
+      "to": "place-307",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 27,
+      "waypoints": [
+        [
+          112,
+          1196.3
+        ],
+        [
+          112,
+          1212.4
+        ],
+        [
+          182,
+          1252.8
+        ],
+        [
+          182,
+          1301.3
+        ],
+        [
+          266,
+          1349.8
+        ],
+        [
+          350,
+          1398.3
+        ],
+        [
+          364,
+          1406.4
+        ],
+        [
+          420,
+          1374.1
+        ],
+        [
+          420,
+          1357.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 28,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-308-093",
+      "from": "place-308",
+      "to": "place-093",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 29,
+      "waypoints": [
+        [
+          210,
+          1301.3
+        ],
+        [
+          210,
+          1317.5
+        ],
+        [
+          294,
+          1366
+        ],
+        [
+          378,
+          1414.5
+        ],
+        [
+          420,
+          1438.8
+        ],
+        [
+          476,
+          1406.4
+        ],
+        [
+          504,
+          1422.6
+        ],
+        [
+          588,
+          1374.1
+        ],
+        [
+          602,
+          1366
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 30,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-307-094",
+      "from": "place-307",
+      "to": "place-094",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 22,
+      "waypoints": [
+        [
+          420,
+          1357.9
+        ],
+        [
+          504,
+          1406.4
+        ],
+        [
+          588,
+          1454.9
+        ],
+        [
+          616,
+          1471.1
+        ],
+        [
+          700,
+          1422.6
+        ],
+        [
+          728,
+          1406.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-093-095",
+      "from": "place-093",
+      "to": "place-095",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 25,
+      "waypoints": [
+        [
+          602,
+          1366
+        ],
+        [
+          672,
+          1406.4
+        ],
+        [
+          672,
+          1422.6
+        ],
+        [
+          700,
+          1406.4
+        ],
+        [
+          700,
+          1341.8
+        ],
+        [
+          784,
+          1293.3
+        ],
+        [
+          868,
+          1244.8
+        ],
+        [
+          882,
+          1236.7
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 26,
+        "simplifiedPointCount": 8,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-094-092",
+      "from": "place-094",
+      "to": "place-092",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 17,
+      "waypoints": [
+        [
+          728,
+          1406.4
+        ],
+        [
+          728,
+          1309.4
+        ],
+        [
+          728,
+          1293.3
+        ],
+        [
+          742,
+          1285.2
+        ],
+        [
+          742,
+          1269
+        ],
+        [
+          756,
+          1260.9
+        ],
+        [
+          756,
+          1244.8
+        ],
+        [
+          784,
+          1228.6
+        ],
+        [
+          784,
+          1196.3
+        ],
+        [
+          770,
+          1188.2
+        ],
+        [
+          770,
+          1204.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 18,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-315-085",
+      "from": "place-315",
+      "to": "place-085",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          602,
+          1220.5
+        ],
+        [
+          602,
+          1123.5
+        ],
+        [
+          602,
+          1091.2
+        ],
+        [
+          630,
+          1075
+        ],
+        [
+          630,
+          1058.9
+        ],
+        [
+          658,
+          1042.7
+        ],
+        [
+          658,
+          1026.5
+        ],
+        [
+          672,
+          1018.4
+        ],
+        [
+          672,
+          1002.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-085-084",
+      "from": "place-085",
+      "to": "place-084",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          672,
+          1002.3
+        ],
+        [
+          672,
+          969.9
+        ],
+        [
+          616,
+          937.6
+        ],
+        [
+          616,
+          905.3
+        ],
+        [
+          588,
+          889.1
+        ],
+        [
+          574,
+          897.2
+        ],
+        [
+          560,
+          889.1
+        ],
+        [
+          546,
+          897.2
+        ],
+        [
+          532,
+          889.1
+        ],
+        [
+          518,
+          897.2
+        ],
+        [
+          504,
+          889.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-084-081",
+      "from": "place-084",
+      "to": "place-081",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 22,
+      "waypoints": [
+        [
+          504,
+          889.1
+        ],
+        [
+          532,
+          905.3
+        ],
+        [
+          560,
+          889.1
+        ],
+        [
+          574,
+          897.2
+        ],
+        [
+          588,
+          889.1
+        ],
+        [
+          616,
+          905.3
+        ],
+        [
+          616,
+          921.4
+        ],
+        [
+          658,
+          945.7
+        ],
+        [
+          686,
+          929.5
+        ],
+        [
+          686,
+          832.5
+        ],
+        [
+          714,
+          816.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-314-081",
+      "from": "place-314",
+      "to": "place-081",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 18,
+      "waypoints": [
+        [
+          574,
+          881
+        ],
+        [
+          574,
+          897.2
+        ],
+        [
+          588,
+          889.1
+        ],
+        [
+          616,
+          905.3
+        ],
+        [
+          616,
+          921.4
+        ],
+        [
+          658,
+          945.7
+        ],
+        [
+          686,
+          929.5
+        ],
+        [
+          686,
+          832.5
+        ],
+        [
+          714,
+          816.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 19,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-081-318",
+      "from": "place-081",
+      "to": "place-318",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          714,
+          816.4
+        ],
+        [
+          798,
+          864.9
+        ],
+        [
+          854,
+          897.2
+        ],
+        [
+          854,
+          961.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-018-016",
+      "from": "place-018",
+      "to": "place-016",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 9,
+      "waypoints": [
+        [
+          812,
+          759.8
+        ],
+        [
+          798,
+          751.7
+        ],
+        [
+          798,
+          735.5
+        ],
+        [
+          742,
+          703.2
+        ],
+        [
+          742,
+          687
+        ],
+        [
+          728,
+          679
+        ],
+        [
+          728,
+          662.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 10,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-016-017",
+      "from": "place-016",
+      "to": "place-017",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 8,
+      "waypoints": [
+        [
+          728,
+          662.8
+        ],
+        [
+          784,
+          630.5
+        ],
+        [
+          798,
+          638.5
+        ],
+        [
+          812,
+          630.5
+        ],
+        [
+          826,
+          638.5
+        ],
+        [
+          826,
+          654.7
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 9,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-017-014",
+      "from": "place-017",
+      "to": "place-014",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          826,
+          654.7
+        ],
+        [
+          826,
+          638.5
+        ],
+        [
+          742,
+          590
+        ],
+        [
+          742,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-018-015",
+      "from": "place-018",
+      "to": "place-015",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          812,
+          759.8
+        ],
+        [
+          798,
+          751.7
+        ],
+        [
+          798,
+          735.5
+        ],
+        [
+          770,
+          719.4
+        ],
+        [
+          770,
+          622.4
+        ],
+        [
+          742,
+          606.2
+        ],
+        [
+          742,
+          590
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-014-103",
+      "from": "place-014",
+      "to": "place-103",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 10,
+      "waypoints": [
+        [
+          742,
+          525.4
+        ],
+        [
+          798,
+          557.7
+        ],
+        [
+          854,
+          525.4
+        ],
+        [
+          854,
+          509.2
+        ],
+        [
+          868,
+          501.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 11,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-015-012",
+      "from": "place-015",
+      "to": "place-012",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          742,
+          590
+        ],
+        [
+          742,
+          557.7
+        ],
+        [
+          714,
+          541.6
+        ],
+        [
+          714,
+          525.4
+        ],
+        [
+          686,
+          509.2
+        ],
+        [
+          686,
+          493.1
+        ],
+        [
+          644,
+          468.8
+        ],
+        [
+          644,
+          452.6
+        ],
+        [
+          658,
+          444.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-014-305",
+      "from": "place-014",
+      "to": "place-305",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 28,
+      "waypoints": [
+        [
+          742,
+          525.4
+        ],
+        [
+          728,
+          533.5
+        ],
+        [
+          686,
+          509.2
+        ],
+        [
+          686,
+          493.1
+        ],
+        [
+          630,
+          460.7
+        ],
+        [
+          602,
+          476.9
+        ],
+        [
+          588,
+          468.8
+        ],
+        [
+          560,
+          485
+        ],
+        [
+          532,
+          468.8
+        ],
+        [
+          532,
+          452.6
+        ],
+        [
+          518,
+          444.6
+        ],
+        [
+          518,
+          428.4
+        ],
+        [
+          490,
+          412.2
+        ],
+        [
+          490,
+          396.1
+        ],
+        [
+          476,
+          388
+        ],
+        [
+          462,
+          396.1
+        ],
+        [
+          448,
+          388
+        ],
+        [
+          434,
+          396.1
+        ],
+        [
+          406,
+          379.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 29,
+        "simplifiedPointCount": 19,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-017-103",
+      "from": "place-017",
+      "to": "place-103",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          826,
+          654.7
+        ],
+        [
+          826,
+          557.7
+        ],
+        [
+          826,
+          541.6
+        ],
+        [
+          854,
+          525.4
+        ],
+        [
+          854,
+          509.2
+        ],
+        [
+          868,
+          501.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-049-051",
+      "from": "place-049",
+      "to": "place-051",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 3,
+      "waypoints": [
+        [
+          1204,
+          501.1
+        ],
+        [
+          1218,
+          509.2
+        ],
+        [
+          1218,
+          541.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 4,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-047-050",
+      "from": "place-047",
+      "to": "place-050",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 6,
+      "waypoints": [
+        [
+          1148,
+          468.8
+        ],
+        [
+          1218,
+          509.2
+        ],
+        [
+          1218,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 7,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-103-035",
+      "from": "place-103",
+      "to": "place-035",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          868,
+          501.1
+        ],
+        [
+          910,
+          525.4
+        ],
+        [
+          994,
+          476.9
+        ],
+        [
+          1022,
+          460.7
+        ],
+        [
+          1022,
+          444.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-036-052",
+      "from": "place-036",
+      "to": "place-052",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          1442,
+          363.7
+        ],
+        [
+          1442,
+          460.7
+        ],
+        [
+          1442,
+          509.2
+        ],
+        [
+          1414,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-045-043",
+      "from": "place-045",
+      "to": "place-043",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          1414,
+          396.1
+        ],
+        [
+          1456,
+          420.3
+        ],
+        [
+          1498,
+          396.1
+        ],
+        [
+          1498,
+          379.9
+        ],
+        [
+          1582,
+          331.4
+        ],
+        [
+          1610,
+          315.2
+        ],
+        [
+          1610,
+          299.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-043-042",
+      "from": "place-043",
+      "to": "place-042",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          1610,
+          299.1
+        ],
+        [
+          1666,
+          266.7
+        ],
+        [
+          1680,
+          274.8
+        ],
+        [
+          1764,
+          226.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-044-042",
+      "from": "place-044",
+      "to": "place-042",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 18,
+      "waypoints": [
+        [
+          1666,
+          331.4
+        ],
+        [
+          1666,
+          347.6
+        ],
+        [
+          1694,
+          363.7
+        ],
+        [
+          1778,
+          315.2
+        ],
+        [
+          1792,
+          307.1
+        ],
+        [
+          1792,
+          258.7
+        ],
+        [
+          1806,
+          250.6
+        ],
+        [
+          1806,
+          234.4
+        ],
+        [
+          1778,
+          218.2
+        ],
+        [
+          1764,
+          226.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 19,
+        "simplifiedPointCount": 10,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-042-040",
+      "from": "place-042",
+      "to": "place-040",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          1764,
+          226.3
+        ],
+        [
+          1792,
+          242.5
+        ],
+        [
+          1806,
+          234.4
+        ],
+        [
+          1834,
+          250.6
+        ],
+        [
+          1918,
+          202.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-043-039",
+      "from": "place-043",
+      "to": "place-039",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 13,
+      "waypoints": [
+        [
+          1610,
+          299.1
+        ],
+        [
+          1694,
+          250.6
+        ],
+        [
+          1778,
+          202.1
+        ],
+        [
+          1792,
+          194
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 14,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-040-058",
+      "from": "place-040",
+      "to": "place-058",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          1918,
+          202.1
+        ],
+        [
+          1890,
+          185.9
+        ],
+        [
+          1876,
+          194
+        ],
+        [
+          1862,
+          185.9
+        ],
+        [
+          1848,
+          194
+        ],
+        [
+          1820,
+          177.8
+        ],
+        [
+          1820,
+          113.2
+        ],
+        [
+          1834,
+          105.1
+        ],
+        [
+          1848,
+          113.2
+        ],
+        [
+          1862,
+          105.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 10,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-042-058",
+      "from": "place-042",
+      "to": "place-058",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          1764,
+          226.3
+        ],
+        [
+          1764,
+          210.2
+        ],
+        [
+          1806,
+          185.9
+        ],
+        [
+          1806,
+          121.2
+        ],
+        [
+          1834,
+          105.1
+        ],
+        [
+          1848,
+          113.2
+        ],
+        [
+          1862,
+          105.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-062-063",
+      "from": "place-062",
+      "to": "place-063",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 2,
+      "waypoints": [
+        [
+          1750,
+          638.5
+        ],
+        [
+          1764,
+          646.6
+        ],
+        [
+          1778,
+          638.5
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 3,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-061-065",
+      "from": "place-061",
+      "to": "place-065",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 20,
+      "waypoints": [
+        [
+          1736,
+          662.8
+        ],
+        [
+          1722,
+          654.7
+        ],
+        [
+          1694,
+          670.9
+        ],
+        [
+          1694,
+          767.9
+        ],
+        [
+          1694,
+          832.5
+        ],
+        [
+          1610,
+          881
+        ],
+        [
+          1596,
+          889.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 21,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-063-064",
+      "from": "place-063",
+      "to": "place-064",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 17,
+      "waypoints": [
+        [
+          1778,
+          638.5
+        ],
+        [
+          1778,
+          654.7
+        ],
+        [
+          1764,
+          662.8
+        ],
+        [
+          1764,
+          695.1
+        ],
+        [
+          1680,
+          743.6
+        ],
+        [
+          1596,
+          792.1
+        ],
+        [
+          1582,
+          800.2
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 18,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-062-064",
+      "from": "place-062",
+      "to": "place-064",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          1750,
+          638.5
+        ],
+        [
+          1694,
+          670.9
+        ],
+        [
+          1694,
+          735.5
+        ],
+        [
+          1610,
+          784
+        ],
+        [
+          1582,
+          800.2
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-065-072",
+      "from": "place-065",
+      "to": "place-072",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          1596,
+          889.1
+        ],
+        [
+          1680,
+          937.6
+        ],
+        [
+          1722,
+          961.9
+        ],
+        [
+          1722,
+          1058.9
+        ],
+        [
+          1722,
+          1075
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-067-072",
+      "from": "place-067",
+      "to": "place-072",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 23,
+      "waypoints": [
+        [
+          1890,
+          945.7
+        ],
+        [
+          1876,
+          937.6
+        ],
+        [
+          1876,
+          889.1
+        ],
+        [
+          1848,
+          873
+        ],
+        [
+          1834,
+          881
+        ],
+        [
+          1834,
+          897.2
+        ],
+        [
+          1750,
+          945.7
+        ],
+        [
+          1750,
+          961.9
+        ],
+        [
+          1736,
+          969.9
+        ],
+        [
+          1736,
+          1050.8
+        ],
+        [
+          1722,
+          1058.9
+        ],
+        [
+          1722,
+          1075
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 24,
+        "simplifiedPointCount": 12,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-064-070",
+      "from": "place-064",
+      "to": "place-070",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 21,
+      "waypoints": [
+        [
+          1582,
+          800.2
+        ],
+        [
+          1666,
+          848.7
+        ],
+        [
+          1722,
+          881
+        ],
+        [
+          1722,
+          978
+        ],
+        [
+          1722,
+          1058.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 22,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-068-059",
+      "from": "place-068",
+      "to": "place-059",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 12,
+      "waypoints": [
+        [
+          1288,
+          953.8
+        ],
+        [
+          1218,
+          913.4
+        ],
+        [
+          1218,
+          897.2
+        ],
+        [
+          1204,
+          889.1
+        ],
+        [
+          1204,
+          873
+        ],
+        [
+          1162,
+          848.7
+        ],
+        [
+          1148,
+          856.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 13,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-064-069",
+      "from": "place-064",
+      "to": "place-069",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 18,
+      "waypoints": [
+        [
+          1582,
+          800.2
+        ],
+        [
+          1568,
+          808.3
+        ],
+        [
+          1568,
+          824.5
+        ],
+        [
+          1554,
+          832.5
+        ],
+        [
+          1554,
+          864.9
+        ],
+        [
+          1512,
+          889.1
+        ],
+        [
+          1512,
+          905.3
+        ],
+        [
+          1470,
+          929.5
+        ],
+        [
+          1470,
+          945.7
+        ],
+        [
+          1414,
+          978
+        ],
+        [
+          1428,
+          986.1
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 19,
+        "simplifiedPointCount": 11,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-064-072",
+      "from": "place-064",
+      "to": "place-072",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 22,
+      "waypoints": [
+        [
+          1582,
+          800.2
+        ],
+        [
+          1666,
+          848.7
+        ],
+        [
+          1722,
+          881
+        ],
+        [
+          1722,
+          978
+        ],
+        [
+          1722,
+          1075
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 23,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-071-073",
+      "from": "place-071",
+      "to": "place-073",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          1274,
+          1269
+        ],
+        [
+          1274,
+          1285.2
+        ],
+        [
+          1302,
+          1301.3
+        ],
+        [
+          1302,
+          1317.5
+        ],
+        [
+          1316,
+          1325.6
+        ],
+        [
+          1330,
+          1317.5
+        ],
+        [
+          1344,
+          1325.6
+        ],
+        [
+          1358,
+          1317.5
+        ],
+        [
+          1372,
+          1325.6
+        ],
+        [
+          1386,
+          1317.5
+        ],
+        [
+          1400,
+          1325.6
+        ],
+        [
+          1400,
+          1341.8
+        ],
+        [
+          1428,
+          1325.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 13,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "acceso_fluvial_no_verificado"
+      }
+    },
+    {
+      "id": "nav33-073-060",
+      "from": "place-073",
+      "to": "place-060",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 33,
+      "waypoints": [
+        [
+          1428,
+          1325.6
+        ],
+        [
+          1400,
+          1341.8
+        ],
+        [
+          1400,
+          1325.6
+        ],
+        [
+          1386,
+          1317.5
+        ],
+        [
+          1372,
+          1325.6
+        ],
+        [
+          1358,
+          1317.5
+        ],
+        [
+          1344,
+          1325.6
+        ],
+        [
+          1330,
+          1317.5
+        ],
+        [
+          1316,
+          1325.6
+        ],
+        [
+          1302,
+          1317.5
+        ],
+        [
+          1232,
+          1357.9
+        ],
+        [
+          1148,
+          1309.4
+        ],
+        [
+          1134,
+          1317.5
+        ],
+        [
+          1050,
+          1269
+        ],
+        [
+          1022,
+          1252.8
+        ],
+        [
+          1022,
+          1220.5
+        ],
+        [
+          1036,
+          1212.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 34,
+        "simplifiedPointCount": 17,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-psantuario-eradil-095",
+      "from": "poi-santuario-eradil",
+      "to": "place-095",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 29,
+      "waypoints": [
+        [
+          1274,
+          1317.5
+        ],
+        [
+          1274,
+          1333.7
+        ],
+        [
+          1232,
+          1357.9
+        ],
+        [
+          1148,
+          1309.4
+        ],
+        [
+          1134,
+          1317.5
+        ],
+        [
+          1050,
+          1269
+        ],
+        [
+          966,
+          1220.5
+        ],
+        [
+          938,
+          1204.3
+        ],
+        [
+          882,
+          1236.7
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 30,
+        "simplifiedPointCount": 9,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-095-318",
+      "from": "place-095",
+      "to": "place-318",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 18,
+      "waypoints": [
+        [
+          882,
+          1236.7
+        ],
+        [
+          854,
+          1220.5
+        ],
+        [
+          854,
+          1123.5
+        ],
+        [
+          854,
+          1026.5
+        ],
+        [
+          854,
+          961.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 19,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-085-092",
+      "from": "place-085",
+      "to": "place-092",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 16,
+      "waypoints": [
+        [
+          672,
+          1002.3
+        ],
+        [
+          756,
+          1050.8
+        ],
+        [
+          770,
+          1058.9
+        ],
+        [
+          770,
+          1155.9
+        ],
+        [
+          770,
+          1204.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 17,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-054-059",
+      "from": "place-054",
+      "to": "place-059",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 7,
+      "waypoints": [
+        [
+          1204,
+          776
+        ],
+        [
+          1204,
+          792.1
+        ],
+        [
+          1190,
+          800.2
+        ],
+        [
+          1190,
+          832.5
+        ],
+        [
+          1148,
+          856.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-057-055",
+      "from": "place-057",
+      "to": "place-055",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 11,
+      "waypoints": [
+        [
+          1316,
+          743.6
+        ],
+        [
+          1232,
+          792.1
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1190,
+          800.2
+        ],
+        [
+          1190,
+          816.4
+        ],
+        [
+          1204,
+          808.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 12,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-052-050",
+      "from": "place-052",
+      "to": "place-050",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          1414,
+          525.4
+        ],
+        [
+          1372,
+          501.1
+        ],
+        [
+          1344,
+          517.3
+        ],
+        [
+          1302,
+          493.1
+        ],
+        [
+          1260,
+          517.3
+        ],
+        [
+          1246,
+          509.2
+        ],
+        [
+          1218,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 7,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-035-050",
+      "from": "place-035",
+      "to": "place-050",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 15,
+      "waypoints": [
+        [
+          1022,
+          444.6
+        ],
+        [
+          1022,
+          460.7
+        ],
+        [
+          1106,
+          509.2
+        ],
+        [
+          1176,
+          549.6
+        ],
+        [
+          1218,
+          525.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 16,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-047-051",
+      "from": "place-047",
+      "to": "place-051",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 7,
+      "waypoints": [
+        [
+          1148,
+          468.8
+        ],
+        [
+          1218,
+          509.2
+        ],
+        [
+          1218,
+          541.6
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 8,
+        "simplifiedPointCount": 3,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-069-055",
+      "from": "place-069",
+      "to": "place-055",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 19,
+      "waypoints": [
+        [
+          1428,
+          986.1
+        ],
+        [
+          1344,
+          937.6
+        ],
+        [
+          1260,
+          889.1
+        ],
+        [
+          1204,
+          856.8
+        ],
+        [
+          1204,
+          808.3
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 20,
+        "simplifiedPointCount": 5,
+        "source3_3Verified": false,
+        "accessFrom": "acceso_fluvial_no_verificado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-057-059",
+      "from": "place-057",
+      "to": "place-059",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          1316,
+          743.6
+        ],
+        [
+          1232,
+          792.1
+        ],
+        [
+          1218,
+          784
+        ],
+        [
+          1190,
+          800.2
+        ],
+        [
+          1190,
+          832.5
+        ],
+        [
+          1148,
+          856.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-059-306",
+      "from": "place-059",
+      "to": "place-306",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 17,
+      "waypoints": [
+        [
+          1148,
+          856.8
+        ],
+        [
+          1134,
+          864.9
+        ],
+        [
+          1134,
+          881
+        ],
+        [
+          1106,
+          897.2
+        ],
+        [
+          1106,
+          994.2
+        ],
+        [
+          1106,
+          1010.4
+        ],
+        [
+          1092,
+          1018.4
+        ],
+        [
+          1092,
+          1034.6
+        ],
+        [
+          1134,
+          1058.9
+        ],
+        [
+          1148,
+          1050.8
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 18,
+        "simplifiedPointCount": 10,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-092-060",
+      "from": "place-092",
+      "to": "place-060",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 20,
+      "waypoints": [
+        [
+          770,
+          1204.3
+        ],
+        [
+          770,
+          1188.2
+        ],
+        [
+          854,
+          1236.7
+        ],
+        [
+          924,
+          1277.1
+        ],
+        [
+          1008,
+          1228.6
+        ],
+        [
+          1036,
+          1212.4
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 21,
+        "simplifiedPointCount": 6,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    },
+    {
+      "id": "nav33-018-318",
+      "from": "place-018",
+      "to": "place-318",
+      "status": "trazado_provisorio_grafo_321_para_mapa_33",
+      "hexes": 14,
+      "waypoints": [
+        [
+          812,
+          759.8
+        ],
+        [
+          854,
+          784
+        ],
+        [
+          854,
+          881
+        ],
+        [
+          854,
+          961.9
+        ]
+      ],
+      "qa": {
+        "allOnTraversableGraph": true,
+        "pathNodeCount": 15,
+        "simplifiedPointCount": 4,
+        "source3_3Verified": false,
+        "accessFrom": "costa_o_rio_aproximado",
+        "accessTo": "costa_o_rio_aproximado"
+      }
+    }
+  ],
+  "snappedPorts": [
+    {
+      "id": "place-310",
+      "name": "Elorian",
+      "hex": [
+        8,
+        62
+      ],
+      "water_type": 1,
+      "snap_distance": 5.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-089",
+      "name": "Elv’Thilion",
+      "hex": [
+        8,
+        70
+      ],
+      "water_type": 3,
+      "snap_distance": 24.3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-308",
+      "name": "Baelwyn",
+      "hex": [
+        15,
+        73
+      ],
+      "water_type": 3,
+      "snap_distance": 9.2,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-307",
+      "name": "Aethelas",
+      "hex": [
+        30,
+        69
+      ],
+      "water_type": 3,
+      "snap_distance": 12.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-093",
+      "name": "Bahía Calad",
+      "hex": [
+        43,
+        63
+      ],
+      "water_type": 1,
+      "snap_distance": 7,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-094",
+      "name": "Bahía Hirion",
+      "hex": [
+        52,
+        61
+      ],
+      "water_type": 1,
+      "snap_distance": 4.5,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-315",
+      "name": "Er’yelia",
+      "hex": [
+        43,
+        54
+      ],
+      "water_type": 1,
+      "snap_distance": 21.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-085",
+      "name": "Rhori’len",
+      "hex": [
+        48,
+        38
+      ],
+      "water_type": 1,
+      "snap_distance": 11.2,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-084",
+      "name": "Kale",
+      "hex": [
+        36,
+        37
+      ],
+      "water_type": 1,
+      "snap_distance": 66.9,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-314",
+      "name": "Cyn’dorei",
+      "hex": [
+        41,
+        34
+      ],
+      "water_type": 1,
+      "snap_distance": 8,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-081",
+      "name": "Inlyria",
+      "hex": [
+        51,
+        25
+      ],
+      "water_type": 1,
+      "snap_distance": 3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-018",
+      "name": "Torvask",
+      "hex": [
+        58,
+        18
+      ],
+      "water_type": 2,
+      "snap_distance": 4.1,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-016",
+      "name": "Vatnar",
+      "hex": [
+        52,
+        15
+      ],
+      "water_type": 2,
+      "snap_distance": 5.9,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-017",
+      "name": "Grimskar",
+      "hex": [
+        59,
+        11
+      ],
+      "water_type": 2,
+      "snap_distance": 8,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-015",
+      "name": "Alhem",
+      "hex": [
+        53,
+        10
+      ],
+      "water_type": 2,
+      "snap_distance": 8,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-014",
+      "name": "Faro Durgath",
+      "hex": [
+        53,
+        6
+      ],
+      "water_type": 1,
+      "snap_distance": 6.7,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-012",
+      "name": "Reddas",
+      "hex": [
+        47,
+        4
+      ],
+      "water_type": 3,
+      "snap_distance": 14.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-305",
+      "name": "Rinnos",
+      "hex": [
+        29,
+        9
+      ],
+      "water_type": 1,
+      "snap_distance": 28.1,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-103",
+      "name": "Belluart",
+      "hex": [
+        62,
+        0
+      ],
+      "water_type": 1,
+      "snap_distance": 5.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-049",
+      "name": "Fortaleza del Alba",
+      "hex": [
+        86,
+        -12
+      ],
+      "water_type": 1,
+      "snap_distance": 10.9,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-047",
+      "name": "Cyder",
+      "hex": [
+        82,
+        -12
+      ],
+      "water_type": 3,
+      "snap_distance": 77.6,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-035",
+      "name": "Bajo Reeve",
+      "hex": [
+        73,
+        -9
+      ],
+      "water_type": 3,
+      "snap_distance": 128.8,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-036",
+      "name": "Fuerte Hydell",
+      "hex": [
+        103,
+        -29
+      ],
+      "water_type": 1,
+      "snap_distance": 169.8,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-045",
+      "name": "Monasterio Celendyr",
+      "hex": [
+        101,
+        -26
+      ],
+      "water_type": 1,
+      "snap_distance": 92.7,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-043",
+      "name": "Puerto del Ahogado",
+      "hex": [
+        115,
+        -39
+      ],
+      "water_type": 1,
+      "snap_distance": 18.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-044",
+      "name": "Fuerte Elyssfor",
+      "hex": [
+        119,
+        -39
+      ],
+      "water_type": 1,
+      "snap_distance": 6.7,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-042",
+      "name": "Faro Crepuscular",
+      "hex": [
+        126,
+        -49
+      ],
+      "water_type": 2,
+      "snap_distance": 7.7,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-039",
+      "name": "Puerto Volker",
+      "hex": [
+        128,
+        -52
+      ],
+      "water_type": 3,
+      "snap_distance": 14,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-040",
+      "name": "Puerto Elizabeth",
+      "hex": [
+        137,
+        -56
+      ],
+      "water_type": 1,
+      "snap_distance": 5.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-058",
+      "name": "Torres Viejas",
+      "hex": [
+        133,
+        -60
+      ],
+      "water_type": 3,
+      "snap_distance": 1.5,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-062",
+      "name": "Costa Sangrienta",
+      "hex": [
+        125,
+        -23
+      ],
+      "water_type": 3,
+      "snap_distance": 6.3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-061",
+      "name": "Puerto Ramera",
+      "hex": [
+        124,
+        -21
+      ],
+      "water_type": 2,
+      "snap_distance": 14.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-063",
+      "name": "Bahía Kraken",
+      "hex": [
+        127,
+        -24
+      ],
+      "water_type": 1,
+      "snap_distance": 8.7,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-064",
+      "name": "Ruinas de Latherion",
+      "hex": [
+        113,
+        -7
+      ],
+      "water_type": 1,
+      "snap_distance": 12.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-065",
+      "name": "Fuerte Azgereth",
+      "hex": [
+        114,
+        -2
+      ],
+      "water_type": 3,
+      "snap_distance": 4.3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-067",
+      "name": "Bastión Heidrun",
+      "hex": [
+        135,
+        -9
+      ],
+      "water_type": 3,
+      "snap_distance": 2.1,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-070",
+      "name": "Torreón Ásdris",
+      "hex": [
+        123,
+        4
+      ],
+      "water_type": 1,
+      "snap_distance": 4.9,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-068",
+      "name": "Guardia Zytheria",
+      "hex": [
+        92,
+        13
+      ],
+      "water_type": 1,
+      "snap_distance": 7.3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-069",
+      "name": "Fohn’Veridan",
+      "hex": [
+        102,
+        10
+      ],
+      "water_type": 3,
+      "snap_distance": 102.9,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-072",
+      "name": "Alandra",
+      "hex": [
+        123,
+        5
+      ],
+      "water_type": 3,
+      "snap_distance": 188.8,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-071",
+      "name": "Loth’Veridan",
+      "hex": [
+        91,
+        33
+      ],
+      "water_type": 3,
+      "snap_distance": 96.5,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-073",
+      "name": "Ris'Veridan",
+      "hex": [
+        102,
+        31
+      ],
+      "water_type": 3,
+      "snap_distance": 36.4,
+      "component": 0,
+      "accessStatus": "acceso_fluvial_no_verificado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "poi-santuario-eradil",
+      "name": "Santuario Eradil",
+      "hex": [
+        91,
+        36
+      ],
+      "water_type": 3,
+      "snap_distance": 9.5,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-095",
+      "name": "Academia Njfarell",
+      "hex": [
+        63,
+        45
+      ],
+      "water_type": 2,
+      "snap_distance": 6.1,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-092",
+      "name": "Ithar'iamil",
+      "hex": [
+        55,
+        47
+      ],
+      "water_type": 3,
+      "snap_distance": 6.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-054",
+      "name": "Puerto de la Luna",
+      "hex": [
+        86,
+        5
+      ],
+      "water_type": 3,
+      "snap_distance": 3.6,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-057",
+      "name": "Guardiavieja",
+      "hex": [
+        94,
+        -1
+      ],
+      "water_type": 1,
+      "snap_distance": 6.9,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-052",
+      "name": "Bahía Coral",
+      "hex": [
+        101,
+        -18
+      ],
+      "water_type": 3,
+      "snap_distance": 8.9,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-050",
+      "name": "Fuerte Nurtac",
+      "hex": [
+        87,
+        -11
+      ],
+      "water_type": 1,
+      "snap_distance": 5.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-051",
+      "name": "Puerto del Sol",
+      "hex": [
+        87,
+        -10
+      ],
+      "water_type": 2,
+      "snap_distance": 9.5,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-055",
+      "name": "Marina",
+      "hex": [
+        86,
+        7
+      ],
+      "water_type": 3,
+      "snap_distance": 5.2,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-059",
+      "name": "Eirae",
+      "hex": [
+        82,
+        12
+      ],
+      "water_type": 1,
+      "snap_distance": 9.4,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-306",
+      "name": "Dulcesidra",
+      "hex": [
+        82,
+        24
+      ],
+      "water_type": 3,
+      "snap_distance": 2,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-060",
+      "name": "Comarca Esmeralda",
+      "hex": [
+        74,
+        38
+      ],
+      "water_type": 1,
+      "snap_distance": 11.3,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    },
+    {
+      "id": "place-318",
+      "name": "Kazehara",
+      "hex": [
+        61,
+        29
+      ],
+      "water_type": 2,
+      "snap_distance": 5.2,
+      "component": 0,
+      "accessStatus": "costa_o_rio_aproximado",
+      "sourceGrid": "Mapa_3.21(2).png"
+    }
+  ],
+  "seaOnlyEnforced": true,
+  "notes": "Grafo de hexágonos navegables calculado a partir del Mapa 3.21. Un tramo de aproximación fluvial no está confirmado cuando la localidad dista >25 píxeles lógicos del componente oceánico. No debe afirmarse que el río completo es navegable.",
+  "runtimeCorrection": {
+    "source": "data/atlas/naval/agua-mapa33-verdanteyl.json",
+    "motor": "js/supermapa-naval.js",
+    "revision": "3.4.0",
+    "method": "A* sobre malla hídrica actualizada, con puertos reajustados y rutas inválidas omitidas."
+  }
+}

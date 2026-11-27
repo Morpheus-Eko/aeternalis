@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-ouriler-lothom-ifnolir-y-navegacion-revision",
+  "revision": "2026-11-27-ouriler-tramos-naval-verdanteyl-3-4",
   "counts": {
     "places": 122,
     "regions": 26,
@@ -57,7 +57,8 @@
       "water": "data/atlas/naval/hexagonos-navegables.json",
       "routes": "data/atlas/naval/rutas-por-agua.json",
       "regions": "data/atlas/naval/zonas-maritimas.json",
-      "ports": "data/atlas/naval/puertos.json"
+      "ports": "data/atlas/naval/puertos.json",
+      "water33Patch": "data/atlas/naval/agua-mapa33-verdanteyl.json"
     },
     "roadEvidence": "data/atlas/caminos-evidencia.json",
     "roadAudit": "data/atlas/caminos-auditoria.json",
@@ -70,13 +71,16 @@
     "roadMagentaComplement": "data/atlas/caminos-magenta-complementarios-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Ouriler incorporado desde Mapa 3.3 y cinco caminos terrestres nuevos siguiendo el magenta: dos de Ouriler, Lothom–Puerto Volker por el litoral sur y dos hacia el norte desde Ifnolir. Se conserva el resto de la red, pendiente de revisión adicional de tramos incompletos y navegación.",
+  "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad.",
   "navalReview": {
-    "sourceRaster": "Mapa_3.21(2).png",
+    "sourceRaster": "Mapa_3.3.png: clasificación litoral oriental",
     "pendingRaster": "Mapa_3.3.png",
     "routesPreliminary": 97,
     "legacyRoutesRetained": 14,
     "accessPendingValidation": 10,
-    "notes": "La máscara náutica debe reprocesarse sobre el nuevo PNG antes de confirmación. El raster 3.3 sigue pendiente de alojamiento."
+    "notes": "El motor naval v3.4 sustituye hexágonos orientales 3.21 por raster 3.3 y recalcula corredores mediante A*. El resto del mapa conserva la máscara previa.",
+    "maskPatch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
+    "waterPatchHexes": 1558,
+    "rivers": "Los cauces interiores estrechos se excluyen de rutas navegables hasta validar calado, anchura y continuidad."
   }
 }
