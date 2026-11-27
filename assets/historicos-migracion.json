@@ -1,0 +1,565 @@
+{
+  "schema": "aeternalis-historicos-assets-v1",
+  "revision": "2026-11-27",
+  "descripcion": "Archivo de correspondencias de imágenes utilizadas por antiguos códigos de Foroactivo; las rutas nuevas apuntan a binarios existentes en el repositorio, sin duplicarlos.",
+  "total": 75,
+  "porModulo": {
+    "brujula": 16,
+    "monturas": 30,
+    "grimorio": 23,
+    "magia": 6
+  },
+  "biblioteca": "assets/catalogo.json",
+  "correspondencias": [
+    {
+      "modulo": "brujula",
+      "clave": "compass",
+      "url_original": "https://i.imgur.com/rrNAAhM.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/01-brujula/01-brujula-arcana-base-1200.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "compassTransparent",
+      "url_original": "https://i.imgur.com/UnwYcm6.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/01-brujula/02-brujula-arcana-transparente-1200.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "paper",
+      "url_original": "https://i.imgur.com/s4PQ7aS.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/02-paneles/01-panel-resultados-pergamino.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "title",
+      "url_original": "https://i.imgur.com/OyMS3oJ.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/01-cabecera-codice.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "divider",
+      "url_original": "https://i.imgur.com/IIthKXN.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/02-separador-arcano-fino.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "crown",
+      "url_original": "https://i.imgur.com/jgKdWtD.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/03-separador-arcano-ornamental.webp",
+      "estado": "equivalente_alojado",
+      "observacion": "Se usa ornamento alternativo disponible en GitHub"
+    },
+    {
+      "modulo": "brujula",
+      "clave": "compassSeal",
+      "url_original": "https://i.imgur.com/ezfSD4E.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/04-sello-brujula.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "agi",
+      "url_original": "https://i.imgur.com/GhxBswt.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/agi-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "sig",
+      "url_original": "https://i.imgur.com/OG5IrCK.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/sig-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "bow",
+      "url_original": "https://i.imgur.com/10ZM7wR.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/des-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "sword",
+      "url_original": "https://i.imgur.com/FI2oaFz.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/fue-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "book",
+      "url_original": "https://i.imgur.com/o89vTe7.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/int-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "flame",
+      "url_original": "https://i.imgur.com/JhGKMMt.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/mag-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "eye",
+      "url_original": "https://i.imgur.com/J3DHfcM.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/per-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "swirl",
+      "url_original": "https://i.imgur.com/uxL97HM.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/car-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "brujula",
+      "clave": "shield",
+      "url_original": "https://i.imgur.com/GIOOPdB.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/vit-opcional.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "horse",
+      "url_original": "https://i.imgur.com/NKG3AOl.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/01-caballo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "bison",
+      "url_original": "https://i.imgur.com/PcdV4A2.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/02-bisonte.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "rhino",
+      "url_original": "https://i.imgur.com/JhyeQTo.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/03-rino.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "goat",
+      "url_original": "https://i.imgur.com/AY9KD47.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/04-craneopiedra.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "boar",
+      "url_original": "https://i.imgur.com/gu1MG3M.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/05-tuk-tuk.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "elk",
+      "url_original": "https://i.imgur.com/XLJDvMW.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/06-aeanslyr.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "fox",
+      "url_original": "https://i.imgur.com/HETKWg4.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/07-kitsune.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "lizard",
+      "url_original": "https://i.imgur.com/WpTX7T8.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/08-garranegra.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "wolf",
+      "url_original": "https://i.imgur.com/1fH8aWT.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/09-huargo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "sabertooth",
+      "url_original": "https://i.imgur.com/jWMXlug.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/10-dientesable.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_horse",
+      "url_original": "https://i.imgur.com/9GJYS8r.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/01-caballo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_bison",
+      "url_original": "https://i.imgur.com/H8IvTjE.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/02-bisonte.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_rhino",
+      "url_original": "https://i.imgur.com/9RFD6on.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/03-rino.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_goat",
+      "url_original": "https://i.imgur.com/BTL3qbT.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/04-craneopiedra.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_boar",
+      "url_original": "https://i.imgur.com/Kroq4UQ.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/05-tuk-tuk.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_elk",
+      "url_original": "https://i.imgur.com/A59pgWY.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/06-aeanslyr.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_fox",
+      "url_original": "https://i.imgur.com/SDmow1I.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/07-kitsune.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_lizard",
+      "url_original": "https://i.imgur.com/JD0aqkO.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/08-garranegra.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_wolf",
+      "url_original": "https://i.imgur.com/QZ7DT3a.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/09-huargo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "icon_sabertooth",
+      "url_original": "https://i.imgur.com/xjFMMuB.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/10-dientesable.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "next",
+      "url_original": "https://i.imgur.com/eVt1Z5o.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/avanzar-runa.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "paper",
+      "url_original": "https://i.imgur.com/ttyLE4a.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/hoja-pergamino-desgastado.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "openbook",
+      "url_original": "https://i.imgur.com/6eMwDUd.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/libro-abierto-doble-pagina.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "ink",
+      "url_original": "https://i.imgur.com/oyLMYwv.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/manchas-de-tinta.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "prev",
+      "url_original": "https://i.imgur.com/ZB7RMBL.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/retroceder-runa.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "divider",
+      "url_original": "https://i.imgur.com/lMYG0rh.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-nudo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "divider_alt",
+      "url_original": "https://i.imgur.com/mTtNeTg.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-nudo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": "Reutiliza el separador gráfico principal"
+    },
+    {
+      "modulo": "monturas",
+      "clave": "feather",
+      "url_original": "https://i.imgur.com/PbzwkvY.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-pluma-buho.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "cover_plain",
+      "url_original": "https://i.imgur.com/l21ChS9.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/tapa-cuero-sin-titulo.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "monturas",
+      "clave": "cover",
+      "url_original": "https://i.imgur.com/RzfvzvB.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/tapa-cuero-sistema-monturas.webp",
+      "estado": "equivalente_alojado",
+      "observacion": ""
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/HsVn8t3t/sello-arcano-marca-agua.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/sello-arcano-marca-agua.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/SN3s6zvy/separador-estrella-dorada.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-estrella-dorada.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/6p8ZwXDw/fuerza-FUE.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/fuerza-fue.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/Jnx0Z69F/vitalidad-VIT.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/vitalidad-vit.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/gj4hckYf/agilidad-AGI.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/agilidad-agi.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/rFn4vmZt/destreza-DES.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/destreza-des.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/wjR1Zksn/sigilio-SIG.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/sigilio-sig.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/FsRdgvFm/percepcion-PER.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/percepcion-per.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/zDkKFpn7/carisma-CAR.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/carisma-car.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/FR4kjJzC/inteligencia-INT.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/inteligencia-int.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/Vv7SQGgw/magia-MAG.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/magia-mag.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/nhmL0cyB/separador-fases-lunares.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-fases-lunares.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/V6m5SQHb/suerte-SUE.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/suerte-sue.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/zvPfPLDF/voluntad-VOL.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/voluntad-vol.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/xC3JgTbH/locura-LOC.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/03-iconos-atributos/locura-loc.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/5tM2GWJZ/separador-filigrana.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/04-ornamentos/separador-filigrana.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/Qt8x8gHg/01-mediocre.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/05-rangos/01-mediocre.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/QCV85XQR/02-normal.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/05-rangos/02-normal.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/6qS9fDzp/03-sobresaliente.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/05-rangos/03-sobresaliente.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/3J4rxxJq/04-prodigioso.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/05-rangos/04-prodigioso.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/8zL1LXvp/05-legendario.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/05-rangos/05-legendario.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/kgGQ48Rc/fondo-cuero-grimorio.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/fondo-cuero-grimorio.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "grimorio",
+      "url_original": "https://i.postimg.cc/6pPdG3d4/pergamino-arcano-claro.jpg",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/grimorio/01-fondos/pergamino-arcano-claro.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "url_original": "https://i.postimg.cc/XXS9DDYn/emblema-r-nico-de-magia-n-rdica.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-runico-de-magia-nordica.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "url_original": "https://i.postimg.cc/wjkbLDw3/sigilo-r-nico-de-fuego-helado.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/sigilo-runico-de-fuego-helado.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "url_original": "https://i.postimg.cc/4d06p3CM/emblema-n-rdico-del-nudo-eterno.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-nordico-del-nudo-eterno.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "url_original": "https://i.postimg.cc/8PMYk2M1/medall-n-r-nico-n-rdico-de-hielo.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/medallon-runico-nordico-de-hielo.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "url_original": "https://i.postimg.cc/B6b58KzP/emblema-n-rdico-de-runas-azules.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-nordico-de-runas-azules.webp",
+      "estado": "equivalente_alojado"
+    },
+    {
+      "modulo": "magia",
+      "clave": "cabecera_magica",
+      "url_original": "https://2img.net/i.imgur.com/sea8orp.png",
+      "url_github": "https://morpheus-eko.github.io/aeternalis/assets/codex/fondos/biblioteca_gran_archivo_01.webp",
+      "estado": "sustituido_no_archivado",
+      "observacion": "Cabecera original todavía no está incorporada como binario; se muestra la nueva ilustración de biblioteca del Códex."
+    }
+  ],
+  "pendientes": [
+    {
+      "original": "https://2img.net/i.imgur.com/sea8orp.png",
+      "motivo": "Cabecera histórica de Magia no recuperada físicamente; sustituida por ilustración existente en Códex."
+    }
+  ]
+}

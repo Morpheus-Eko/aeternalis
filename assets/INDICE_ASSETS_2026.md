@@ -1,17 +1,14 @@
-# Biblioteca de assets · Aeternalis
+# Biblioteca de recursos gráficos · Aeternalis
 
-Publicación de los tres volúmenes del Gran Códex y el primer volumen naval, optimizados para Foroactivo.
+Índice general actualizado el **27 de noviembre de 2026**. Catálogo estructurado: [assets/catalogo.json](catalogo.json), con **623 entradas**, de las cuales **480 están alojadas en GitHub** y 143 son referencias externas.
 
-- [Códex · 218 recursos](codex/catalogo.json) — esculturas, armamento, sellos, pergaminos, libros, botones, marcos y ornamentos.
-- [Naval · 126 recursos](naval/catalogo.json) — piratas, nórdicos, orientales Yūgen, medievales, equipo, progresión de navíos e iconos de navegación.
-- [Registro de nombres del Códex](codex/mapeo_nombres.csv) y [registro naval](naval/mapeo_nombres.csv).
+- [Explorador visual](index.html) — buscar ilustraciones, iconos y ornamentos.
+- [Códex · 218 recursos](codex/catalogo.json) — armas, esculturas, sellos, marcos, pergaminos, botones.
+- [Naval · 156 recursos](naval/catalogo.json) — familias navales, navegación, progresión y emblemas.
+- [Brújula Arcana](brujula/) — 17 archivos utilizados por la calculadora de atributos.
+- [Grimorio de Estadísticas](grimorio/) — 24 archivos: fondos, 12 atributos, 5 rangos y ornamentos.
+- [Libro de Monturas](monturas/) — 43 recursos: 10 ilustraciones, 10 iconos y decoración, con SVG.
+- [Runas](runas/) — seis imágenes rúnicas históricas del Códice de Magia.
+- [Mapa de correspondencias históricas](historicos-migracion.json) — reutilizar cada asset de los códigos originales, sin volver a subir duplicados.
 
-**Total: 344 WebP individuales.** Las versiones PNG originales de edición siguen conservadas en los ZIP de entrega; GitHub sirve los WebP para reducir tiempos de carga.
-
-URL pública base: `https://morpheus-eko.github.io/aeternalis/`.
-
-Ejemplo: `https://morpheus-eko.github.io/aeternalis/assets/naval/nordicos/medallon_nordico_cuervo.webp`.
-
-Cada catálogo conserva los campos `png` y `webp` como rutas lógicas; solo los archivos WebP están publicados en GitHub Pages por ahora.
-
-Los archivos se han incorporado sin sobrescribir las carpetas históricas de `assets/`. Las imágenes navales son elementos artísticos reutilizables; su aparición no introduce nuevas reglas al sistema de navegación.
+Las ilustraciones originales siguen identificadas por su URL externa en el mapa histórico. Solo se consideran archivados físicamente los archivos efectivamente presentes en `assets/`. Las imágenes nuevas no cambian las reglas narrativas, estadísticas ni de navegación.

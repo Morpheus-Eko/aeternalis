@@ -8,12 +8,17 @@ Biblioteca pública para reutilizar imágenes y ornamentos en Foroactivo, nuevas
 - [Repositorio de recursos](https://github.com/Morpheus-Eko/aeternalis/tree/main/assets)
 
 ## Qué contiene
-- **106 archivos optimizados en GitHub**: Bestiario (8 láminas/hojas visuales), Grimorio (24), Brújula (17), Monturas (43), Razas (8), Runas (6). Incluye **14 SVG originales**.
+- **480 recursos alojados en GitHub** y 143 referencias externas según el catálogo central (623 registros). Las colecciones originales de Brújula (17), Grimorio (24), Monturas (43) y Runas (6) ya estaban presentes, con sus WebP y SVG disponibles.
 - **61 ornamentos de Bestiario** conservados en Imgur con ID y URL.
 - **80 ilustraciones de criaturas** conservadas en Imgur y referenciadas por nombre, tomo y región.
 - **2 imágenes cartográficas externas** referenciadas desde el motor del Atlas.
 
-### Cómo reutilizar
+### Recuperación de recursos de códigos antiguos
+- [Registro de correspondencias de imágenes históricas](historicos-migracion.json) — URLs originales y sus equivalentes en GitHub para Stats, Monturas, Grimorio y Magia.
+- [Renovación visual de los módulos](../docs/RENOVACION_VISUAL_SISTEMAS_2026_11_27.md) — inventario técnico e instalación.
+- La antigua cabecera del sistema de Magia sigue referenciada en el registro como **no archivada**; la interfaz actual utiliza un fondo del Códex ya publicado.
+
+## Cómo reutilizar
 1. Buscar por nombre o etiqueta en `assets/catalogo.json` o en el explorador de recursos.
 2. Preferir las fichas con `tipo: "archivo"` y `estado: "alojado-github"`, usar su campo `url`.
 3. Revisar `transparencia` antes de usar sobre pergaminos, fondos o marcos.
