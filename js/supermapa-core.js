@@ -86,6 +86,7 @@ function escapeText(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;',
 const ATLAS_DATA=window.__AETERNALIS_ATLAS_DATA__;
 
 function start(root){
+ if(!document.getElementById('ae-atlas-yugen-css')){const link=document.createElement('link');link.id='ae-atlas-yugen-css';link.rel='stylesheet';link.href='https://morpheus-eko.github.io/aeternalis/css/supermapa-yugen.css?v=3.3.0';document.head.appendChild(link);}
  const D=ATLAS_DATA;
  const L=window.L;
  const clamp=(n,min,max)=>Math.min(max,Math.max(min,n));
@@ -97,8 +98,8 @@ function start(root){
  const ORIGINAL_COORDS=Object.fromEntries(D.places.map(p=>[p.id,{x:p.x,y:p.y}]));
  const ORIGINAL_REGIONS=Object.fromEntries(D.regions.map(r=>[r.id,r.points]));
  const cityById=new Map(D.places.map(c=>[c.id,c]));
- const factionNames={nordic:'Montaraces',human:'Humanos',dwarf:'Enanos',elf:'Elfos',pirate:'Archipiélago',independent:'Territorio independiente'};
- const iconPaths={nordic:'<path d="m4 7 7 7-7 7m10-18 6 6-6 6"/>',human:'<path d="M12 2.5 20 5v6.5c0 5.3-3.1 8.2-8 10-4.9-1.8-8-4.7-8-10V5Z"/>',dwarf:'<path d="m4 19 15-15M9 4l11 11"/>',elf:'<path d="M20 3C9 4 4 9 4 17c7 1 16-4 16-14Z"/>',pirate:'<path d="M12 3v16m-4-9h8"/>',independent:'<path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6Z"/>'};
+ const factionNames={nordic:'Montaraces',human:'Humanos',dwarf:'Enanos',elf:'Elfos',pirate:'Archipiélago',yugen:'Yūgen',independent:'Territorio independiente'};
+ const iconPaths={nordic:'<path d="m4 7 7 7-7 7m10-18 6 6-6 6"/>',human:'<path d="M12 2.5 20 5v6.5c0 5.3-3.1 8.2-8 10-4.9-1.8-8-4.7-8-10V5Z"/>',dwarf:'<path d="m4 19 15-15M9 4l11 11"/>',elf:'<path d="M20 3C9 4 4 9 4 17c7 1 16-4 16-14Z"/>',pirate:'<path d="M12 3v16m-4-9h8"/>',yugen:'<path d="M12 2c-2 5-4 7-9 10 5 1 8 3 9 10 1-7 4-9 9-10-5-3-7-5-9-10Z"/><path d="M12 5v14M5 12h14"/>',independent:'<path d="m12 2 2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6Z"/>'};
  const svgIcon=faction=>`<svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${iconPaths[faction]||iconPaths.independent}</svg>`;
  root.innerHTML=`
  <section class="ae-atlas" aria-label="Supermapa de Aeternalis con Leaflet">
@@ -346,7 +347,7 @@ function start(root){
   // Sólo mostrar caminos con vértices cartográficos. Las travesías están en Carta Náutica.
   if(e.kind==='sea'||!Array.isArray(e.via)||!e.via.length)continue;
   const pts=endpoints(e);if(!pts)continue;
-   const color=e.kind==='sea'?'#70c9df':e.kind==='road'?'#d8ae66':'#ab9c7b';
+   const color=e.routeColor||(e.kind==='sea'?'#70c9df':e.kind==='road'?'#d8ae66':'#ab9c7b');
    const provisional=e.status!=='confirmada';
    const poly=L.polyline(pts.map(p=>XY(p.x,p.y)),{color,weight:provisional?2.0:3.4,opacity:provisional?.57:.93,dashArray:provisional?(e.kind==='sea'?'4 7':'3 6'):(e.kind==='trail'?'8 4':null)});
    poly.bindTooltip(routeLabel(e));poly.on('click',()=>{
@@ -670,7 +671,7 @@ const fact=(label,value) => `<div class="ae-atlas__fact"><dt>${esc(label)}</dt><
       ['demography','Demografía'],['strategic','Entorno estratégico'],
       ['metrics','Indicadores'],['npcs','PNJ importantes'],['routes','Conexiones']
     ];
-    if(civic.districts.length)entries.push(['districts','Distritos']);
+    if(civic.districts.length||place.hasDistricts)entries.push(['districts','Distritos']);
     return entries;
   }
   function renderCityPanel(place,civic,tab) {
@@ -733,8 +734,8 @@ const fact=(label,value) => `<div class="ae-atlas__fact"><dt>${esc(label)}</dt><
       }).join('');
       return `<h3>Conexiones e itinerarios</h3><p class="ae-atlas__civic-lead">Caminos, sendas y travesías registrados desde ${esc(place.name)}. Las conexiones propuestas aún deben validarse en el lore.</p><div class="ae-atlas__connection-list">${details||'<p>Esta localidad no tiene rutas registradas por ahora.</p>'}</div>`;
     }
-    if(tab==='districts'&&civic.districts.length)return `<h3>Los distritos de ${esc(place.name)}</h3><p class="ae-atlas__civic-lead">Cada distrito posee su propio carácter, instituciones y maneras de habitar la ciudad.</p>
-      <div class="ae-atlas__district-grid">${civic.districts.map((d,i)=>`<article class="ae-atlas__district-card">${d.image?`<img src="${esc(d.image)}" alt="Panorámica de ${esc(d.name)}" loading="lazy">`:`<div class="ae-atlas__district-fallback"><span>✧</span><small>Ilustración del distrito pendiente</small></div>`}<div class="ae-atlas__district-info"><span class="ae-atlas__district-number">Distrito ${String(i+1).padStart(2,'0')}</span><h4>${esc(d.name)}</h4><div class="ae-atlas__prose"><p>${esc(d.description)}</p></div></div></article>`).join('')}</div>`;
+    if(tab==='districts'&&(civic.districts.length||place.hasDistricts))return `<h3>Los distritos de ${esc(place.name)}</h3><p class="ae-atlas__civic-lead">Cada distrito posee su propio carácter, instituciones y maneras de habitar la ciudad.</p>
+      <div class="ae-atlas__district-grid">${!civic.districts.length?'<p class="ae-atlas__civic-awaiting">La ciudad posee distritos, pero sus nombres, número y descripciones aún no han sido aportados al Atlas.</p>':''}${civic.districts.map((d,i)=>`<article class="ae-atlas__district-card">${d.image?`<img src="${esc(d.image)}" alt="Panorámica de ${esc(d.name)}" loading="lazy">`:`<div class="ae-atlas__district-fallback"><span>✧</span><small>Ilustración del distrito pendiente</small></div>`}<div class="ae-atlas__district-info"><span class="ae-atlas__district-number">Distrito ${String(i+1).padStart(2,'0')}</span><h4>${esc(d.name)}</h4><div class="ae-atlas__prose"><p>${esc(d.description)}</p></div></div></article>`).join('')}</div>`;
     return '';
   }
   function openCity(place) {

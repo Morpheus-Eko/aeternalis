@@ -7,7 +7,7 @@
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='2.0.0';
+ var VERSION='3.3.0';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}
@@ -46,7 +46,7 @@
      var button=document.createElement('button');button.type='button';button.id='ae-toggle-naval';button.textContent='⚓ Carta Náutica';button.setAttribute('aria-pressed','false');button.title='Puertos, rutas marítimas y regiones del océano';toolbar.appendChild(button);
      var panel=document.createElement('aside');panel.id='ae-supermapa-naval-panel';panel.className='ae-naval-panel';panel.hidden=true;panel.setAttribute('aria-label','Carta Náutica de Aeternalis');viewport.appendChild(panel);
      panel.innerHTML='<div class="ae-naval-head"><span class="ae-naval-kicker">ATLAS DE LOS MARES · AETERNALIS</span><button type="button" id="ae-naval-close" aria-label="Cerrar Carta Náutica">✕</button><h2>Carta Náutica</h2><p>Cartografía de puertos, corrientes y regiones marítimas.</p></div>'+
-      '<div class="ae-naval-body"><section class="ae-naval-section"><h3>Itinerario marítimo</h3><label for="ae-naval-from">Puerto de partida</label><select id="ae-naval-from"></select><label for="ae-naval-to">Puerto de destino</label><select id="ae-naval-to"></select><label for="ae-naval-sails">Velas del navío</label><select id="ae-naval-sails"><option value="1">I · 24 h por hexágono</option><option value="2">II · 18 h por hexágono</option><option value="3">III · 12 h por hexágono</option><option value="4">Legendarias · 8 h por hexágono</option></select><button type="button" class="ae-naval-action" id="ae-naval-route">Trazar travesía</button><div class="ae-naval-result" id="ae-naval-result" aria-live="polite">Selecciona los puertos para consultar el rumbo.</div></section>'+
+      '<div class="ae-naval-body"><section class="ae-naval-section"><h3>Itinerario marítimo</h3><label for="ae-naval-from">Escala o ribera de partida</label><select id="ae-naval-from"></select><label for="ae-naval-to">Escala o ribera de destino</label><select id="ae-naval-to"></select><label for="ae-naval-sails">Velas del navío</label><select id="ae-naval-sails"><option value="1">I · 24 h por hexágono</option><option value="2">II · 18 h por hexágono</option><option value="3">III · 12 h por hexágono</option><option value="4">Legendarias · 8 h por hexágono</option></select><button type="button" class="ae-naval-action" id="ae-naval-route">Trazar travesía</button><div class="ae-naval-result" id="ae-naval-result" aria-live="polite">Selecciona los puertos para consultar el rumbo.</div></section>'+
       '<section class="ae-naval-section"><h3>Capas náuticas</h3><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-hex"> Hexágonos de agua</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-network" checked> Corredores marítimos</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-regions" checked> Regiones del mar</label></section>'+
       '<section class="ae-naval-section"><h3>Mares y regiones</h3><div id="ae-naval-region-list" class="ae-naval-region-list"></div><article id="ae-naval-region-detail" class="ae-naval-region-detail"><p>Selecciona una región para consultar sus mares, vientos y peligros.</p></article></section>'+
       '<p class="ae-naval-meta" id="ae-naval-metrics"></p></div>';
@@ -152,12 +152,14 @@
        var path=findPath(first,last);if(!path){result.textContent='No se encontró continuidad marítima entre esos puertos.';return;}
        var latlngs=path.map(cellCoord);
        L.polyline(latlngs,{color:'#eec389',weight:4.5,opacity:.95,className:'ae-naval-route-selected'}).addTo(routeLayer);
-       var start=lookup(first),end=lookup(last);
-       if(start&&end){L.polyline([coord(start.x,start.y),latlngs[0]],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
-         L.polyline([latlngs[latlngs.length-1],coord(end.x,end.y)],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);}
-       var hexes=path.length-1,hours=hexes*[24,18,12,8][state.sails-1];
-       result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong><span>'+hexes.toLocaleString('es-CL')+' hexágonos por agua</span><span>'+hours.toLocaleString('es-CL')+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días</span>';
-       state.route={from:first,to:last,hexes:hexes,hours:hours,points:path.length};
+       var start=lookup(first),end=lookup(last),accessFrom=anchorById.get(first),accessTo=anchorById.get(last);
+        // No dibujar accesos fluviales por tierra si el origen queda lejos de la máscara de agua.
+        if(start&&accessFrom&&accessFrom.snap_distance<=25)L.polyline([coord(start.x,start.y),latlngs[0]],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
+        if(end&&accessTo&&accessTo.snap_distance<=25)L.polyline([latlngs[latlngs.length-1],coord(end.x,end.y)],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
+        var hexes=path.length-1,hours=hexes*[24,18,12,8][state.sails-1];
+       var pendingAccess=!!((accessFrom&&accessFrom.snap_distance>25)||(accessTo&&accessTo.snap_distance>25));
+        result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong><span>'+hexes.toLocaleString('es-CL')+' hexágonos sobre red preliminar</span><span>'+hours.toLocaleString('es-CL')+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días estimados</span>'+(pendingAccess?'<p class="ae-naval-access-warning">Acceso fluvial aún no verificado entre la localidad y la red oceánica. El tiempo no incluye ese tramo; no se dibuja una línea sobre tierra.</p>':'<p class="ae-naval-access-warning">Ruta provisional sobre la máscara de agua del Mapa 3.21, pendiente de validación con el Mapa 3.3.</p>');
+        state.route={from:first,to:last,hexes:hexes,hours:hours,points:path.length};
        if(!state.active){state.active=true;setVisible();}
        var fit=L.latLngBounds(latlngs);
        map.fitBounds(fit.pad(.15),{maxZoom:.6,padding:[38,38]});
