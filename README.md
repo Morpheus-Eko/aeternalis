@@ -18,7 +18,7 @@ La Carta Náutica funciona como **capa de Leaflet en el Supermapa**, no como par
 
 ## Caminos originales y editor de hexágonos
 
-El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente** y las 165 conexiones originales permanecen intactas.
+El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente**. La auditoría de 134 conexiones fue la primera etapa; la segunda incorporó geometría a 21 conexiones preexistentes y agregó dos nuevos enlaces.
 
 - [Vista previa: Atlas + Carta Náutica + Caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1)
 - [Metodología, prioridades y manual de instalación](docs/AUDITORIA_Y_TRAZADOR_CAMINOS_3_21.md)
@@ -27,8 +27,16 @@ El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-cam
 
 **Dibujo manual:** [Abrir editor de caminos para el autor](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&dibujar=1). Permite crear caminos entre ciudades, marcar las curvas hexágono por hexágono, deshacer trazos y exportar un JSON con rutas terminadas o incompletas para posterior integración. Instala usando [el cargador v1.3 del trazador](foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js).
 
+## Caminos de Verdanteyl y zonas élficas · actualización de noviembre de 2026
+
+Se mapearon tres pigmentos que faltaban: **blanco**, **verde oscuro** y **negro**. Se añadieron vértices hexagonales a **23 trazados propuestos** (9 blancos, 5 verde oscuro, 9 negros), incluidos **dos enlaces nuevos**. Hay **167 conexiones** en total; las rutas no modificadas mantienen sus datos. No se necesita usar el editor manual para visualizar estos nuevos recorridos.
+
+- [Supermapa con caminos corregidos](https://morpheus-eko.github.io/aeternalis/supermapa-rutas-preview.html)
+- [Metodología y conexiones incorporadas](docs/VERDANTEYL_RUTAS_PUNTEADAS_2026_11_27.md)
+- [Evidencia de pigmentos](data/atlas/caminos-pigmentos-verdanteyl-elfos.json) y [trazados candidatos](data/atlas/caminos-rutas-sur-candidatas.json)
+
 ## Estado
-Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **165 conexiones** del Atlas son propuestas, no carreteras confirmadas.
+Migración inicial desde el Supermapa Leaflet **v1.7**. Se conservan los textos narrativos y los datos cartográficos existentes. Las **167 conexiones** actuales del Atlas son propuestas, no carreteras confirmadas; 23 cuentan con geometría cartográfica adicional revisable.
 
 ## Carpetas
 - `data/atlas/localidades/`: fichas completas de ciudades, pueblos y lugares singulares, agrupadas por territorio para edición colaborativa.
