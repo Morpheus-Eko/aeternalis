@@ -1,0 +1,370 @@
+{
+  "schema": "aeternalis-medicina-indice-racial-v1",
+  "version": "1.0.0",
+  "status": "ilustracion_estudio_no_canon",
+  "root": "assets/medicina/atlas-recortes-v01/",
+  "nota": "Selección editorial de estudios anatómicos ya publicados; nunca incorpora reglas ni canon biológico. Amarant únicamente femenino. Para Nórin se priorizan láminas A con proporción hobbit; versiones B permanecen en el archivo sin mostrarse en el visor.",
+  "razas": {
+    "elfos": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/femenino/elfos_femenino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/femenino/elfos_femenino_B/figura_frontal.webp",
+          "fuente": "elfos_femenino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/femenino/elfos_femenino_B/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/femenino/elfos_femenino_B/esqueleto.webp",
+          "fuente": "elfos_femenino_B",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/femenino/elfos_femenino_B/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/femenino/elfos_femenino_B/retrato.webp",
+          "fuente": "elfos_femenino_B",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/masculino/elfos_masculino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/masculino/elfos_masculino_A/figura_frontal.webp",
+          "fuente": "elfos_masculino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/masculino/elfos_masculino_A/corazon.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/masculino/elfos_masculino_A/corazon.webp",
+          "fuente": "elfos_masculino_A",
+          "tipo": "corazon",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/elfos/masculino/elfos_masculino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/elfos/masculino/elfos_masculino_A/retrato.webp",
+          "fuente": "elfos_masculino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "montaraces": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/femenino/montaraces_femenino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/femenino/montaraces_femenino_A/figura_frontal.webp",
+          "fuente": "montaraces_femenino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/femenino/montaraces_femenino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/femenino/montaraces_femenino_A/esqueleto.webp",
+          "fuente": "montaraces_femenino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/femenino/montaraces_femenino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/femenino/montaraces_femenino_A/retrato.webp",
+          "fuente": "montaraces_femenino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/masculino/montaraces_masculino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/masculino/montaraces_masculino_A/figura_frontal.webp",
+          "fuente": "montaraces_masculino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/masculino/montaraces_masculino_A/craneo.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/masculino/montaraces_masculino_A/craneo.webp",
+          "fuente": "montaraces_masculino_A",
+          "tipo": "craneo",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/montaraces/masculino/montaraces_masculino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/montaraces/masculino/montaraces_masculino_A/retrato.webp",
+          "fuente": "montaraces_masculino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "yugen": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/femenino/yugen_femenino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/femenino/yugen_femenino_A/figura_frontal.webp",
+          "fuente": "yugen_femenino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/femenino/yugen_femenino_A/corazon.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/femenino/yugen_femenino_A/corazon.webp",
+          "fuente": "yugen_femenino_A",
+          "tipo": "corazon",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/femenino/yugen_femenino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/femenino/yugen_femenino_A/retrato.webp",
+          "fuente": "yugen_femenino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/masculino/yugen_masculino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/masculino/yugen_masculino_B/figura_frontal.webp",
+          "fuente": "yugen_masculino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/masculino/yugen_masculino_B/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/masculino/yugen_masculino_B/esqueleto.webp",
+          "fuente": "yugen_masculino_B",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/yugen/masculino/yugen_masculino_B/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/yugen/masculino/yugen_masculino_B/retrato.webp",
+          "fuente": "yugen_masculino_B",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "enanos": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/femenino/enanos_femenino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/femenino/enanos_femenino_B/figura_frontal.webp",
+          "fuente": "enanos_femenino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/femenino/enanos_femenino_B/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/femenino/enanos_femenino_B/esqueleto.webp",
+          "fuente": "enanos_femenino_B",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/femenino/enanos_femenino_B/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/femenino/enanos_femenino_B/retrato.webp",
+          "fuente": "enanos_femenino_B",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/masculino/enanos_masculino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/masculino/enanos_masculino_B/figura_frontal.webp",
+          "fuente": "enanos_masculino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/masculino/enanos_masculino_B/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/masculino/enanos_masculino_B/esqueleto.webp",
+          "fuente": "enanos_masculino_B",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/enanos/masculino/enanos_masculino_B/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/enanos/masculino/enanos_masculino_B/retrato.webp",
+          "fuente": "enanos_masculino_B",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "humanos": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/femenino/humanos_femenino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/femenino/humanos_femenino_B/figura_frontal.webp",
+          "fuente": "humanos_femenino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/femenino/humanos_femenino_B/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/femenino/humanos_femenino_B/esqueleto.webp",
+          "fuente": "humanos_femenino_B",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/femenino/humanos_femenino_B/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/femenino/humanos_femenino_B/retrato.webp",
+          "fuente": "humanos_femenino_B",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/masculino/humano_masculino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/masculino/humano_masculino_A/figura_frontal.webp",
+          "fuente": "humano_masculino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/masculino/humano_masculino_A/corazon.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/masculino/humano_masculino_A/corazon.webp",
+          "fuente": "humano_masculino_A",
+          "tipo": "corazon",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/humanos/masculino/humano_masculino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/humanos/masculino/humano_masculino_A/retrato.webp",
+          "fuente": "humano_masculino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "norin": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/femenino/norin_femenino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/femenino/norin_femenino_A/figura_frontal.webp",
+          "fuente": "norin_femenino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/femenino/norin_femenino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/femenino/norin_femenino_A/esqueleto.webp",
+          "fuente": "norin_femenino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/femenino/norin_femenino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/femenino/norin_femenino_A/retrato.webp",
+          "fuente": "norin_femenino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/masculino/norin_masculino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/masculino/norin_masculino_A/figura_frontal.webp",
+          "fuente": "norin_masculino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/masculino/norin_masculino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/masculino/norin_masculino_A/esqueleto.webp",
+          "fuente": "norin_masculino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/norin/masculino/norin_masculino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/norin/masculino/norin_masculino_A/retrato.webp",
+          "fuente": "norin_masculino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "sinhair": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/femenino/sinhair_femenino_A/figura_completa.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/femenino/sinhair_femenino_A/figura_completa.webp",
+          "fuente": "sinhair_femenino_A",
+          "tipo": "figura_completa",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/femenino/sinhair_femenino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/femenino/sinhair_femenino_A/esqueleto.webp",
+          "fuente": "sinhair_femenino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/femenino/sinhair_femenino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/femenino/sinhair_femenino_A/retrato.webp",
+          "fuente": "sinhair_femenino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      },
+      "masculino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/masculino/sinhair_masculino_A/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/masculino/sinhair_masculino_A/figura_frontal.webp",
+          "fuente": "sinhair_masculino_A",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/masculino/sinhair_masculino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/masculino/sinhair_masculino_A/esqueleto.webp",
+          "fuente": "sinhair_masculino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/sinhair/masculino/sinhair_masculino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/sinhair/masculino/sinhair_masculino_A/retrato.webp",
+          "fuente": "sinhair_masculino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    },
+    "amarant": {
+      "femenino": {
+        "figura": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/amarant/femenino/amarant_femenino_B/figura_frontal.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/amarant/femenino/amarant_femenino_B/figura_frontal.webp",
+          "fuente": "amarant_femenino_B",
+          "tipo": "figura_frontal",
+          "editorial": "ilustracion_provisional"
+        },
+        "detalle": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/amarant/femenino/amarant_femenino_A/esqueleto.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/amarant/femenino/amarant_femenino_A/esqueleto.webp",
+          "fuente": "amarant_femenino_A",
+          "tipo": "esqueleto",
+          "editorial": "ilustracion_provisional"
+        },
+        "retrato": {
+          "pergamino": "assets/medicina/atlas-recortes-v01/recortes/amarant/femenino/amarant_femenino_A/retrato.webp",
+          "tinta": "assets/medicina/atlas-recortes-v01/tinta_transparente/amarant/femenino/amarant_femenino_A/retrato.webp",
+          "fuente": "amarant_femenino_A",
+          "tipo": "retrato",
+          "editorial": "ilustracion_provisional"
+        }
+      }
+    }
+  }
+}
