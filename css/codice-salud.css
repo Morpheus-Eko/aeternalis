@@ -273,3 +273,82 @@
 @media(prefers-reduced-motion:reduce){
  #ae-codice-salud .ac-flip-overlay{animation:none!important}
 }
+
+
+/* Toma de cubierta · tomo de medicina v2.2
+   Sin texto en imagen: el enlace de apertura es accesible por aria-label. */
+#ae-codice-salud .ac-shell--closed{
+ min-height: min(940px,95vh);
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ overflow:hidden;
+ background:
+  radial-gradient(ellipse at 50% 42%, #4a3523a8,transparent 68%),
+  repeating-linear-gradient(92deg,#110d0a 0,#281c14 24px,#190f0b 47px,#24170f 63px),
+  linear-gradient(#18130f,#090705);
+}
+#ae-codice-salud .ac-book-cover-stage{
+ width:100%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ perspective:1800px;
+ padding:clamp(12px,2vw,25px) 14px;
+}
+#ae-codice-salud .ac-book-cover{
+ display:block;
+ position:relative;
+ width:min(450px, 76vw);
+ aspect-ratio:1055 / 1491;
+ max-height:780px;
+ padding:0;
+ cursor:pointer;
+ overflow:visible;
+ border:0;
+ border-radius:5px 12px 12px 5px;
+ background:linear-gradient(110deg,#26130f,#64412d 14%,#281611 70%,#150c0a);
+ box-shadow:9px 12px 0 -5px #806046,12px 15px 0 -4px #21130b,25px 32px 58px #000c,0 0 70px #96713b2d;
+ transform-origin: 4% 50%;
+ backface-visibility:hidden;
+ transition:transform .3s ease,filter .3s ease;
+}
+#ae-codice-salud .ac-book-cover:hover:not(.is-opening){transform:translateY(-5px) rotate(-.7deg);filter:brightness(1.08)}
+#ae-codice-salud .ac-book-cover:focus-visible{outline:4px solid #cbad78;outline-offset:8px}
+#ae-codice-salud .ac-book-cover__image{
+ width:100%;
+ height:100%;
+ aspect-ratio:1055 / 1491;
+ border-radius:inherit;
+ object-fit:fill;
+}
+#ae-codice-salud .ac-book-cover__fallback{
+ display:flex;align-items:center;justify-content:center;width:100%;height:100%;
+ font-size:100px;color:#b59468;
+}
+#ae-codice-salud .ac-book-cover-help{
+ margin:12px 0 0;
+ text-align:center;
+ font-style:italic;
+ font-size:15px;
+ color:#d3b890;
+ letter-spacing:.02em;
+}
+#ae-codice-salud .ac-book-cover.is-opening{animation:ac-opening-tome .86s cubic-bezier(.43,.15,.28,1) forwards;pointer-events:none}
+@keyframes ac-opening-tome{
+ 0%{transform:perspective(1800px) rotateY(0deg) rotateZ(0);opacity:1;filter:brightness(1)}
+ 40%{filter:brightness(.69)}
+ 80%{opacity:1}
+ 100%{transform:perspective(1800px) rotateY(-105deg) rotateZ(-3deg);opacity:0;filter:brightness(.72)}
+}
+#ae-codice-salud .ac-toolbar{flex-wrap:wrap}
+#ae-codice-salud .ac-toolbar .ac-compass{margin-left:auto}
+@container(max-width:730px){
+ #ae-codice-salud .ac-shell--closed{min-height: min(750px,95vh)}
+ #ae-codice-salud .ac-book-cover{width:min(410px,83vw)}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-codice-salud .ac-book-cover.is-opening{animation:none}
+ #ae-codice-salud .ac-book-cover{transition:none}
+}
