@@ -6,6 +6,7 @@
  var BASE='https://morpheus-eko.github.io/aeternalis/';
  var VERSION='1.1.0';
  function mount(){
+  if(new URLSearchParams(window.location.search).get('cartografo')!=='1')return;
   if(!document.getElementById('aeternalis-atlas'))return;
   if(!document.getElementById('ae-caminos-trazador-css')){
    var l=document.createElement('link');l.rel='stylesheet';l.id='ae-caminos-trazador-css';
