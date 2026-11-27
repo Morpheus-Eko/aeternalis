@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" class="ae-patologia-tinta" aria-label="Sangrenegra: lámina de signos">
+ <defs>
+  <radialGradient id="paper" cx=".43" cy=".42" r=".76"><stop offset="0" stop-color="#f3e9d1"/><stop offset=".64" stop-color="#e6d3ae"/><stop offset="1" stop-color="#cbb186"/></radialGradient>
+  <linearGradient id="robe" x1=".1" y1=".2" x2=".9" y2=".8"><stop offset="0" stop-color="#8b7760"/><stop offset="1" stop-color="#4f4438"/></linearGradient>
+  <linearGradient id="skin" x1=".15" y1=".1" x2=".85" y2=".9"><stop offset="0" stop-color="#ceac83"/><stop offset=".56" stop-color="#ad8d6b"/><stop offset="1" stop-color="#7b624e"/></linearGradient>
+  <linearGradient id="stain" x1=".1" y1=".1" x2=".9" y2=".8"><stop offset="0" stop-color="#b68a87"/><stop offset="1" stop-color="#623d43"/></linearGradient>
+  <radialGradient id="vignette"><stop offset=".53" stop-color="#9b7950" stop-opacity="0"/><stop offset="1" stop-color="#69472b" stop-opacity=".17"/></radialGradient>
+  <pattern id="lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M1 0V9" stroke="#593e2c" stroke-width=".75" opacity=".2"/></pattern>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="7" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+ </defs>
+ <g fill="none" stroke="#623d43" stroke-width="3" opacity=".55"><circle cx="319" cy="400" r="274" stroke-dasharray="3 13"/><circle cx="319" cy="400" r="286" stroke-width="1.3"/></g><path d="M106 168 Q264 92 484 174 Q547 328 488 624 Q310 741 123 623 Q66 394 106 168Z" fill="url(#skin)" stroke="#563d2a" stroke-width="6"/>
+ <path d="M124 186 Q304 159 476 196 M109 613 Q310 657 493 612" fill="none" stroke="#ead0aa" opacity=".45" stroke-width="9"/>
+ <path d="M102 175 Q269 102 491 170 Q544 371 494 628 Q299 745 113 624 Q65 394 102 175Z" fill="url(#lines)" opacity=".32"/><path d="M138 366 Q250 327 490 371" fill="none" stroke="#563036" stroke-width="24" opacity=".65" stroke-linecap="round"/>
+  <path d="M150 416 Q302 467 484 411" fill="none" stroke="#493038" stroke-width="10" opacity=".5"/>
+  <circle cx="238" cy="334" r="9" fill="#542b36" opacity=".72"/><circle cx="236" cy="332" r="2.25" fill="#ead9b4" opacity=".6"/><circle cx="326" cy="377" r="12" fill="#542b36" opacity=".72"/><circle cx="324" cy="375" r="3" fill="#ead9b4" opacity=".6"/><circle cx="403" cy="412" r="8" fill="#542b36" opacity=".72"/><circle cx="401" cy="410" r="2" fill="#ead9b4" opacity=".6"/><circle cx="290" cy="468" r="6" fill="#542b36" opacity=".72"/><circle cx="288" cy="466" r="1.5" fill="#ead9b4" opacity=".6"/><circle cx="212" cy="509" r="6" fill="#542b36" opacity=".72"/><circle cx="210" cy="507" r="1.5" fill="#ead9b4" opacity=".6"/>
+  <path d="M180 480 Q228 510 222 580 M412 457 Q382 508 404 556" stroke="#5b2f36" stroke-width="9" fill="none" opacity=".63" stroke-linecap="round"/>
+ </svg>
