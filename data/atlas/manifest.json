@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-ouriler-tramos-naval-verdanteyl-3-4",
+  "revision": "2026-11-27-caminos-puntos-xy-fix",
   "counts": {
     "places": 122,
     "regions": 26,
@@ -71,7 +71,7 @@
     "roadMagentaComplement": "data/atlas/caminos-magenta-complementarios-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad.",
+  "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad. Corrección de integridad: cinco conexiones terrestres fueron normalizadas de pares [x,y] a objetos {x,y}, y endpoints() tolera borradores antiguos sin interrumpir todo el Atlas.",
   "navalReview": {
     "sourceRaster": "Mapa_3.3.png: clasificación litoral oriental",
     "pendingRaster": "Mapa_3.3.png",

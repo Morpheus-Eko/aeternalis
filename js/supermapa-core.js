@@ -315,7 +315,19 @@ function start(root){
  function showCoords(ev){const pt=pointFromEvent(ev),h=hexFromXY(pt.x,pt.y);byId('ae-coordinate-output').textContent=`X ${formatCoord(pt.x)} · Y ${formatCoord(pt.y)} · Hexágono q ${h.q} / r ${h.r}`}
  map.on('mousemove',showCoords);
  // The layer graph is empty initially: roads and sea lanes must be registered by the cartographer.
- function endpoints(e){const a=cityById.get(e.from),b=cityById.get(e.to);return a&&b?[{x:a.x,y:a.y},...(e.via||[]),{x:b.x,y:b.y}]:null}
+ function endpoints(e){
+  const a=cityById.get(e.from),b=cityById.get(e.to);
+  if(!a||!b||!Number.isFinite(a.x)||!Number.isFinite(a.y)||!Number.isFinite(b.x)||!Number.isFinite(b.y))return null;
+  // Seguridad ante archivos antiguos o borradores locales que guarden [x,y] en lugar de {x,y}.
+  const via=Array.isArray(e.via)?e.via:[];
+  const points=[];
+  for(const p of via){
+    const x=Array.isArray(p)?p[0]:p&&p.x,y=Array.isArray(p)?p[1]:p&&p.y;
+    if(!Number.isFinite(x)||!Number.isFinite(y)){console.warn('[Atlas] Punto de camino no válido; se omite el tramo:',e.id,p);return null;}
+    points.push({x,y});
+  }
+  return [{x:a.x,y:a.y},...points,{x:b.x,y:b.y}];
+ }
  function updateEdgeHexes(e){const pts=endpoints(e);return pts?polyHexDistance(pts):0}
  function routeLabel(e){
   const names=[cityById.get(e.from)?.name,cityById.get(e.to)?.name].filter(Boolean);
