@@ -78,30 +78,30 @@
  function paragraphs(items){return (items||[]).filter(Boolean).map(s=>'<p>'+esc(s)+'</p>').join('');}
  function label(text){return '<span class="ac-overline">'+esc(text)+'</span>';}
  function field(name,text){return '<div class="ac-field"><dt>'+esc(name)+'</dt><dd>'+esc(text)+'</dd></div>';}
- function note(text,author){
+ function note(text,author,heading){
   const body=typeof text==='string'&&text.trim()?text.trim():'El cuerpo cuenta una historia que la tinta no alcanza a recoger por entero.';
   const signature=typeof author==='string'&&author.trim()?author.trim():'Autor desconocido';
-  return '<aside class="ac-marginalia ac-marginalia--signed" aria-label="Apostilla del facultativo"><div class="ac-marginalia__heading">'+img('assets/codex/separadores/pluma_dorada_01.webp','')+'<span>Nota del facultativo</span></div><p class="ac-marginalia__handwriting">«'+esc(body)+'»</p><footer class="ac-marginalia__signature">— '+esc(signature)+'</footer></aside>';
+  return '<aside class="ac-marginalia ac-marginalia--signed" aria-label="Apostilla del facultativo"><div class="ac-marginalia__heading">'+img('assets/codex/separadores/pluma_dorada_01.webp','')+'<span>'+esc(heading||'Nota del facultativo')+'</span></div><p class="ac-marginalia__handwriting">«'+esc(body)+'»</p><footer class="ac-marginalia__signature">— '+esc(signature)+'</footer></aside>';
  }
- function glossRecord(record){
+ function glossRecord(record,heading){
   const r=record&&typeof record==='object'?record:{};
-  return note(r.text||'Conservo este apunte para quien deba estudiar el mismo caso después de mí.',r.author||'Autor desconocido');
+  return note(r.text||'Conservo este apunte para quien deba estudiar el mismo caso después de mí.',r.author||'Autor desconocido',heading);
  }
  function glossDisease(d,kind){
   const group=d&&apostillas.diseases[d.id],record=group&&group[kind],author=group&&group.author;
-  return glossRecord(record&&typeof record==='object'?record:{text:'El estado del paciente se comprende mejor cuando cada cambio se compara con el anterior.',author:author||'Autor desconocido'});
+  return glossRecord(record&&typeof record==='object'?record:{text:'El estado del paciente se comprende mejor cuando cada cambio se compara con el anterior.',author:author||'Autor desconocido'},'Observación del facultativo');
  }
  function glossGeneral(kind){
   const r=apostillas.general&&apostillas.general[kind];
-  return glossRecord(r||apostillas.sections&&apostillas.sections.guarda);
+  return glossRecord(r||apostillas.sections&&apostillas.sections.guarda,'Apostilla del compilador');
  }
  function glossPage(p,kind){
-  if(p.race){const row=apostillas.races&&apostillas.races[p.race.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.anatomia);}
-  if(p.archive&&p.archive.raceId){const row=apostillas.races&&apostillas.races[p.archive.raceId];return glossRecord(row&&row.archive||apostillas.sections&&apostillas.sections.atlas);}
-  if(p.herb){const row=apostillas.herbs&&apostillas.herbs[p.herb.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.herbario);}
+  if(p.race){const row=apostillas.races&&apostillas.races[p.race.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.anatomia,'Cuaderno del anatomista');}
+  if(p.archive&&p.archive.raceId){const row=apostillas.races&&apostillas.races[p.archive.raceId];return glossRecord(row&&row.archive||apostillas.sections&&apostillas.sections.atlas,'Registro del anatomista');}
+  if(p.herb){const row=apostillas.herbs&&apostillas.herbs[p.herb.id];return glossRecord(row&&row[kind]||apostillas.sections&&apostillas.sections.herbario,'Apunte del herbolario');}
   if(p.disease)return glossDisease(p.disease,kind);
   const r=apostillas.sections&&apostillas.sections[p.section||'guarda'];
-  return glossRecord(r);
+  return glossRecord(r,'Glosa del compilador');
  }
 
  function add(section,type,title,props){state.pages.push(Object.assign({section,type,title},props||{}));}
@@ -133,7 +133,7 @@
   handbook.intros.forEach(n=>add('guarda','essay',n.title,{subtitle:n.subtitle,voice:n.voice,text:n.text,image:n.image,status:'Testimonio literario'}));
    alignSpread('anatomia');
   handbook.races.forEach(r=>{
-   add('anatomia','race-figure',r.title,{race:r,subtitle:r.subtitle,voice:r.voice,image:r.image,caption:r.status==='ilustración provisional'?'Imagen provisional; no es anatomía racial aprobada':'Lámina anatómica de estudio',status:r.status});
+   add('anatomia','race-figure',r.title,{race:r,subtitle:r.subtitle,voice:r.voice,image:r.image,caption:'Lámina anatómica de '+r.title,status:r.status});
    add('anatomia','race-notes','Notas sobre '+r.title,{race:r,subtitle:'Del cuerpo, los hábitos y sus riesgos',voice:r.voice,image:r.detail,caption:r.detailTitle,status:r.status});
   });
   handbook.lineage.forEach(x=>add('linajes','essay',x.title,{subtitle:x.subtitle,voice:x.voice,text:x.text,image:x.image,status:'Principio de mestizaje comunicado; glosas pendientes'}));
@@ -141,7 +141,7 @@
   add('herbario','essay','De las hierbas humildes',{subtitle:'El uso no es la cura',voice:'Apostilla del boticario',text:['En toda comarca se encuentran hojas y raíces que reconfortan. La planta que alivia una herida no detiene todas las fiebres, y un remedio mal preparado puede perjudicar a quien debía auxiliar.','El catálogo siguiente pertenece a la materia médica imaginada para el mundo del foro. No altera atributos, no revierte secuelas reglamentadas y no se utiliza como guía sanitaria real.'],image:'assets/codex/paginas/pergamino_arbol_01.webp',status:'Herbario propuesto, sin ventajas automáticas'});
   alignSpread('herbario');
   handbook.herbs.forEach((h,i)=>{
-   const meta={theme:HERB_THEMES[h.name]||'general',herb:h,subtitle:i<4?'Hierbas de botica y camino':'Hierbas de comarca',voice:h.source,status:h.status,image:h.image,marginImage:h.detail,caption:h.imageStatus||'Ilustración botánica preliminar, pendiente de aprobación'};
+   const meta={theme:HERB_THEMES[h.name]||'general',herb:h,subtitle:i<4?'Hierbas de botica y camino':'Hierbas de comarca',voice:h.source,status:h.status,image:h.image,marginImage:h.detail,caption:'Lámina botánica del herbolario'};
    add('herbario','herb-plate',h.name.replace(/\*/g,''),Object.assign({},meta,{subtitle:'Lámina del herbolario · dibujo de estudio'}));
    add('herbario','herb',h.name.replace(/\*/g,''),meta);
   });
