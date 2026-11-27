@@ -14,3 +14,4 @@
 Las ilustraciones originales siguen identificadas por su URL externa en el mapa histórico. Solo se consideran archivados físicamente los archivos efectivamente presentes en `assets/`. Las imágenes nuevas no cambian las reglas narrativas, estadísticas ni de navegación.
 
 - [Códice de las Pestilencias · 9 assets](pestilencias/) — recursos visuales del nuevo módulo.
+- [Tomo de Medicina · Atlas anatómico de 8 razas](medicina/atlas-recortes-v01/README.md) — 329 recortes de anatomía, 329 variantes transparentes y 21 fuentes WebP optimizadas, con [catálogo visual](medicina/atlas-recortes-v01/catalogo_visual.html). Inventario nuevo, separado del catálogo histórico de 632 entradas.
