@@ -68,7 +68,7 @@
   modules.atlas={
     root:'#aeternalis-atlas',
     guard:function(){return !!window.__AETERNALIS_EXTERNAL_LOADING__||!!window.__AE_ATLAS_LEAFLET_DEBUG__||!!doc.querySelector('#aeternalis-atlas[data-ae-leaf-ready="1"]');},
-    start:function(){return js('foroactivo/SUPERMAPA_CARGADOR_PARA_FOROACTIVO.js','ae-master-atlas-loader','1.0.0');}
+    start:function(){return js('foroactivo/SUPERMAPA_CARGADOR_PARA_FOROACTIVO.js','ae-master-atlas-loader','1.1.0');}
   };
   modules.bestiario={
     root:'#aeb-bestiary',
@@ -122,7 +122,7 @@
     root:'#aeternalis-atlas',
     guard:function(){return !!window.__AETERNALIS_SUPERMAPA_NAVAL__||!!doc.getElementById('ae-supermapa-naval-js');},
     start:function(){return waitUntil(function(){return window.__AE_ATLAS_LEAFLET_DEBUG__&&window.__AE_ATLAS_LEAFLET_DEBUG__.map&&window.L;},90000)
-      .then(function(){return withStyles('css/supermapa-naval.css','ae-supermapa-naval-css','js/supermapa-naval.js','ae-supermapa-naval-js','3.4.0');});}
+      .then(function(){return withStyles('css/supermapa-naval.css','ae-supermapa-naval-css','js/supermapa-naval.js','ae-supermapa-naval-js','3.4.2');});}
   };
   modules.cartografo={
     root:'#aeternalis-atlas',
