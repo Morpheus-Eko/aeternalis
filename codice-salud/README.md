@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v3.2.0
+# Aeternalis · Tomo de Medicina v3.3.0
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,7 +11,7 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.2.0` y `js/codice-salud/visor.js?v=3.2.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.3.0` y `js/codice-salud/visor.js?v=3.3.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
@@ -137,7 +137,7 @@ El módulo permanece encapsulado en `#ae-codice-salud`. No modificar el CSS base
 
 Las casillas al pie de los folios ya no son avisos de revisión. Se transformaron en **notas manuscritas narrativas**, con pequeña ornamentación de pluma, observación del autor y firma de personaje ficticio (o `Autor desconocido`).
 
-**Fuente:** `data/codice-salud/apostillas-facultativo-v01.json`. Registra **93 apostillas** independientes: 24 para las 8 razas, 32 para las 16 plantas, 25 para las 3 enfermedades, 8 para las secciones y 4 para herramientas generales.
+**Fuente:** `data/codice-salud/apostillas-facultativo-v01.json`. En su edición inicial registraba 93 apostillas: 24 para las ocho razas, 32 para 16 plantas, 25 para tres enfermedades, ocho para secciones y cuatro para herramientas generales.
 
 - Cada raza tiene una observación para el grabado, otra para costumbres o riesgos, y una para su archivo.
 - Cada planta tiene un comentario visual de herbolario y otro sobre preparación, cuidado o recolección.
@@ -148,3 +148,11 @@ Las casillas al pie de los folios ya no son avisos de revisión. Se transformaro
 Esta edición también consolida el archivo anatómico con exactamente 8 razas: Altos Elfos, Humanos, Nórin, Yūgen, Montaraces, Enanos, Sin'hair y Amarant. Las láminas del antiguo catálogo de anatomía no muerta se conservan solo en el expediente de la Fiebre de Driadem como comparaciones de deterioro orgánico, no como raza ni transformación clínica obligatoria. Los orcos y reptilianos quedan fuera del visor.
 
 **Pruebas con DOM simulado:** se recorrieron los 105 folios; sus 201 apariciones de recuadros de glosa en dobles páginas fueron firmadas y no contienen etiquetas editoriales de borrador. Se comprobaron anotaciones de Elfos, Llantén y Fiebre de Driadem. Pendiente inspección visual real en Foroactivo.
+
+## Fase 8 · Una apostilla por folio · v3.3.0
+
+Se eliminó el **fallback automático de una misma glosa por sección**, así como la frase de relleno cuando no existe entrada. Ahora `glossRecord` retorna cadena vacía si el registro carece de texto; `glossPage` selecciona glosas por raza, planta, enfermedad o **título exacto del folio** y nunca reutiliza una nota de otro capítulo. Las cinco consultas reglamentarias tienen apostillas diferentes; las páginas sin texto propio pueden permanecer sin una.
+
+Se añadieron 21 glosas específicas de páginas, con 19 firmas distintas; se reescribieron las ocho notas del archivo racial para evitar fórmulas repetidas y se distinguieron los comentarios de dos láminas de deterioro de Driadem. El fichero narrativo `data/codice-salud/apostillas-facultativo-v01.json` está en **v1.2.0** y contiene **115 textos distintos en su catálogo** (incluidas entradas legadas no reutilizadas automáticamente).
+
+**Validación con lector simulado:** 105 folios, 53 pliegos, 103 glosas efectivamente mostradas en su recorrido único; **103 textos diferentes, ninguna glosa duplicada**. Todas tienen firma. El panel lateral Notas muestra la apostilla concreta o informa que no se conserva ninguna para esa página. Las reglas y las calculadoras siguen intactas. Pendiente la inspección en navegador Foroactivo real.
