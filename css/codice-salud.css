@@ -196,3 +196,80 @@
  #ae-codice-salud .ac-leaf__body p{font-size:17px!important}
  #ae-codice-salud .ac-leaf{height:clamp(690px,78vh,880px)}
 }
+
+
+/* MEDICINA · Arquitectura 2.1: folios temáticos intercambiables y animación 3D.
+   Los fondos WebP se habilitan únicamente tras verificar su publicación. */
+#ae-codice-salud .ac-leaf[data-art-ready="1"]{
+ background-image:var(--ac-folio-art);
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:100% 100%;
+}
+#ae-codice-salud .ac-leaf[data-art-ready="1"] .ac-leaf__frame{
+ border-color:transparent;
+ outline-color:transparent;
+ padding:clamp(38px,5vw,73px) clamp(36px,5.6vw,80px);
+}
+#ae-codice-salud .ac-leaf[data-theme="elfos"]{--ac-race-accent:#476c55}
+#ae-codice-salud .ac-leaf[data-theme="montaraces"]{--ac-race-accent:#536d7a}
+#ae-codice-salud .ac-leaf[data-theme="yugen"]{--ac-race-accent:#753e3a}
+#ae-codice-salud .ac-leaf[data-theme="enanos"]{--ac-race-accent:#826036}
+#ae-codice-salud .ac-leaf[data-theme="humanos"]{--ac-race-accent:#79523c}
+#ae-codice-salud .ac-leaf[data-theme="norin"]{--ac-race-accent:#70814d}
+#ae-codice-salud .ac-leaf[data-theme="sinhair"]{--ac-race-accent:#97824c}
+#ae-codice-salud .ac-leaf[data-theme="amarant"]{--ac-race-accent:#6c4248}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading{border-bottom-color:var(--ac-race-accent)}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-overline{color:var(--ac-race-accent)}
+/* Todos los botones son imágenes del mismo tamaño, sin textos visibles. */
+#ae-codice-salud .ac-navigation .ac-turn{
+ width:90px;
+ height:90px;
+ padding:0;
+ flex:0 0 90px;
+ display:flex;
+ justify-self:center;
+ flex-direction:row;
+ align-items:center;
+ justify-content:center;
+ background:transparent;
+ border:0;
+}
+#ae-codice-salud .ac-navigation .ac-turn img{
+ width:78px!important;
+ height:78px!important;
+ object-fit:contain;
+}
+#ae-codice-salud .ac-turn>span{display:none!important}
+#ae-codice-salud .ac-navigation{grid-template-columns:1fr auto 1fr}
+#ae-codice-salud .ac-toolbar>.ac-turn{width:54px;height:54px;padding:0;display:flex;align-items:center;justify-content:center}
+#ae-codice-salud .ac-toolbar>.ac-turn img{width:50px!important;height:50px!important;object-fit:contain}
+@container(min-width:730px) and (max-width:1049px){
+ #ae-codice-salud .ac-spread{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ #ae-codice-salud .ac-spread:has(.ac-leaf:nth-child(2))::after{display:block}
+ #ae-codice-salud .ac-leaf{padding:clamp(9px,1.3vw,16px)}
+ #ae-codice-salud .ac-leaf__frame{padding:clamp(10px,1.9vw,24px)}
+ #ae-codice-salud .ac-leaf[data-art-ready="1"] .ac-leaf__frame{padding:clamp(23px,3.8vw,44px) clamp(22px,3vw,38px)}
+ #ae-codice-salud .ac-leaf h2{font-size:clamp(20px,2.2vw,29px)!important}
+ #ae-codice-salud .ac-leaf__body p{font-size:clamp(15px,1.8vw,18px)!important;line-height:1.65!important}
+}
+@container(max-width:729px){
+ #ae-codice-salud .ac-spread{grid-template-columns:minmax(0,1fr)}
+ #ae-codice-salud .ac-spread:has(.ac-leaf:nth-child(2))::after{display:none}
+ #ae-codice-salud .ac-leaf[data-art-ready="1"] .ac-leaf__frame{padding:clamp(32px,8vw,65px) clamp(24px,7vw,52px)}
+ #ae-codice-salud .ac-navigation .ac-turn{width:70px;height:70px;flex-basis:70px}
+ #ae-codice-salud .ac-navigation .ac-turn img{width:64px!important;height:64px!important}
+}
+#ae-codice-salud .ac-spread{perspective:1800px;transform-style:preserve-3d}
+#ae-codice-salud .ac-flip-overlay{position:absolute;z-index:12;top:0;width:50%;height:100%;pointer-events:none;transform-style:preserve-3d;backface-visibility:hidden;will-change:transform,filter,opacity}
+#ae-codice-salud .ac-flip-overlay>.ac-leaf{width:100%;height:100%}
+#ae-codice-salud .ac-flip-overlay--next{right:0;transform-origin:left center;animation:ac-folio-flip-next .62s cubic-bezier(.24,.59,.17,.98) both}
+#ae-codice-salud .ac-flip-overlay--prev{left:0;transform-origin:right center;animation:ac-folio-flip-prev .62s cubic-bezier(.24,.59,.17,.98) both}
+@keyframes ac-folio-flip-next{0%{transform:rotateY(0);filter:brightness(1);opacity:1}48%{filter:brightness(.63)}99%{opacity:.92}100%{transform:rotateY(-178deg);filter:brightness(.84);opacity:0}}
+@keyframes ac-folio-flip-prev{0%{transform:rotateY(0);filter:brightness(1);opacity:1}48%{filter:brightness(.63)}99%{opacity:.92}100%{transform:rotateY(178deg);filter:brightness(.84);opacity:0}}
+@container(max-width:729px){
+ #ae-codice-salud .ac-flip-overlay{width:100%;left:0;right:0}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-codice-salud .ac-flip-overlay{animation:none!important}
+}
