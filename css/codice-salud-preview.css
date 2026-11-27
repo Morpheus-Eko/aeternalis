@@ -1,0 +1,10 @@
+/* Maqueta de GitHub Pages. Sólo estiliza el cuerpo del preview, no los folios. */
+html { min-height: 100%; }
+body {
+  margin: 0;
+  padding: 12px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: #e6d7bd;
+  background: radial-gradient(ellipse at 50% 0%, #26352d, #0b100e 60%);
+}
