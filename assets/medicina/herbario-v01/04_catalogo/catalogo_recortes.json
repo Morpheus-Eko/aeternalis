@@ -1,0 +1,1954 @@
+{
+  "titulo": "Aeternalis · Herbario · Atlas preliminar de dibujos recortados",
+  "estado": "No canónico",
+  "fuentes": 13,
+  "recortes": 102,
+  "notas": [
+    "Las ilustraciones provienen de las generaciones existentes. Varias repiten morfologías violetas.",
+    "Los nombres impresos y las propiedades en las láminas pueden contradecir el lore; no se deben copiar al Códice.",
+    "Cada recorte incluye su rectángulo de origen para efectuar ajustes.",
+    "Transparencia estimada automáticamente; conservar siempre la variante con pergamino y revisar antes de publicar."
+  ],
+  "assets": [
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f01_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.23,
+        0.08,
+        0.66,
+        0.84
+      ],
+      "ancho_px": 525,
+      "alto_px": 979,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_flor_frontal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.65,
+        0.03,
+        0.9,
+        0.27
+      ],
+      "ancho_px": 305,
+      "alto_px": 310,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_corte",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_flor_corte.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f01_flor_corte.webp",
+      "rectangulo_relativo": [
+        0.8,
+        0.07,
+        0.99,
+        0.3
+      ],
+      "ancho_px": 232,
+      "alto_px": 296,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "capullos",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_capullos.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.69,
+        0.28,
+        0.91,
+        0.43
+      ],
+      "ancho_px": 269,
+      "alto_px": 194,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f01_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.79,
+        0.43,
+        0.98,
+        0.63
+      ],
+      "ancho_px": 232,
+      "alto_px": 258,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "raiz_detalle",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_raiz_detalle.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.61,
+        0.64,
+        0.86,
+        0.85
+      ],
+      "ancho_px": 306,
+      "alto_px": 271,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 1,
+      "archivo_fuente": "a_detailed_antique_botanical_illustration_on_aged.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "fruto_semillas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f01_fruto_semillas.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f01_fruto_semillas.webp",
+      "rectangulo_relativo": [
+        0.71,
+        0.34,
+        0.9,
+        0.51
+      ],
+      "ancho_px": 232,
+      "alto_px": 219,
+      "nota": "Flores violetas de estudio; lámina rotulada Lágrima de Bruma; no canon",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.06,
+        0.04,
+        0.5,
+        0.95
+      ],
+      "ancho_px": 676,
+      "alto_px": 932,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_flor_frontal.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_frontal.webp",
+      "rectangulo_relativo": [
+        0.5,
+        0.04,
+        0.64,
+        0.27
+      ],
+      "ancho_px": 215,
+      "alto_px": 236,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_flor_lateral.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_flor_lateral.webp",
+      "rectangulo_relativo": [
+        0.64,
+        0.03,
+        0.78,
+        0.29
+      ],
+      "ancho_px": 215,
+      "alto_px": 266,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "estambres",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_estambres.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_estambres.webp",
+      "rectangulo_relativo": [
+        0.77,
+        0.03,
+        0.86,
+        0.26
+      ],
+      "ancho_px": 138,
+      "alto_px": 236,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_haz",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_haz.webp",
+      "rectangulo_relativo": [
+        0.5,
+        0.3,
+        0.66,
+        0.6
+      ],
+      "ancho_px": 245,
+      "alto_px": 307,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.65,
+        0.31,
+        0.81,
+        0.59
+      ],
+      "ancho_px": 246,
+      "alto_px": 287,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "brotes",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_brotes.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_brotes.webp",
+      "rectangulo_relativo": [
+        0.75,
+        0.27,
+        0.95,
+        0.43
+      ],
+      "ancho_px": 307,
+      "alto_px": 164,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "semillas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.76,
+        0.44,
+        0.95,
+        0.7
+      ],
+      "ancho_px": 292,
+      "alto_px": 266,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 2,
+      "archivo_fuente": "a_detailed_realistic_antique_botanical_illustrat.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "corte_raiz",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f02_corte_raiz.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f02_corte_raiz.webp",
+      "rectangulo_relativo": [
+        0.67,
+        0.69,
+        0.88,
+        0.93
+      ],
+      "ancho_px": 322,
+      "alto_px": 246,
+      "nota": "Estudios de campanillas moradas; no atribuir a especie oficial",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.06,
+        0.16,
+        0.37,
+        0.85
+      ],
+      "ancho_px": 476,
+      "alto_px": 707,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_flor_frontal.webp",
+      "rectangulo_relativo": [
+        0.36,
+        0.16,
+        0.48,
+        0.32
+      ],
+      "ancho_px": 185,
+      "alto_px": 164,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "tallo_floral",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.36,
+        0.34,
+        0.49,
+        0.55
+      ],
+      "ancho_px": 200,
+      "alto_px": 215,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.34,
+        0.55,
+        0.49,
+        0.7
+      ],
+      "ancho_px": 230,
+      "alto_px": 153,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "paisaje_ribera",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
+      "rectangulo_relativo": [
+        0.04,
+        0.79,
+        0.43,
+        0.96
+      ],
+      "ancho_px": 599,
+      "alto_px": 175,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 3,
+      "archivo_fuente": "a_detailed_two_page_spread_illustration_in_a_medie.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "utensilios",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f03_utensilios.webp",
+      "rectangulo_relativo": [
+        0.55,
+        0.33,
+        0.92,
+        0.57
+      ],
+      "ancho_px": 569,
+      "alto_px": 246,
+      "nota": "Campanilla de Agua, ilustración preliminar; texto de imagen NO canónico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f04_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.08,
+        0.14,
+        0.42,
+        0.92
+      ],
+      "ancho_px": 523,
+      "alto_px": 799,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_seccion",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_flor_seccion.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_seccion.webp",
+      "rectangulo_relativo": [
+        0.43,
+        0.05,
+        0.6,
+        0.32
+      ],
+      "ancho_px": 261,
+      "alto_px": 276,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_flor_frontal.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
+      "rectangulo_relativo": [
+        0.58,
+        0.04,
+        0.74,
+        0.29
+      ],
+      "ancho_px": 246,
+      "alto_px": 256,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_haz",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_hoja_haz.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f04_hoja_haz.webp",
+      "rectangulo_relativo": [
+        0.44,
+        0.31,
+        0.62,
+        0.58
+      ],
+      "ancho_px": 277,
+      "alto_px": 276,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.61,
+        0.29,
+        0.77,
+        0.58
+      ],
+      "ancho_px": 246,
+      "alto_px": 297,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "fruto_semillas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_fruto_semillas.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.7,
+        0.46,
+        0.81,
+        0.69
+      ],
+      "ancho_px": 169,
+      "alto_px": 235,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "corte_tallo",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.69,
+        0.48,
+        0.8,
+        0.67
+      ],
+      "ancho_px": 169,
+      "alto_px": 195,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "raices_medicinales",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_raices_medicinales.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.49,
+        0.68,
+        0.73,
+        0.88
+      ],
+      "ancho_px": 369,
+      "alto_px": 205,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 4,
+      "archivo_fuente": "a_highly_detailed_antique_illuminated_botanical_m.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f04_mortero_y_frasco.webp",
+      "rectangulo_relativo": [
+        0.02,
+        0.79,
+        0.37,
+        0.98
+      ],
+      "ancho_px": 538,
+      "alto_px": 195,
+      "nota": "Vahoflora Azul, nombre generado; no corresponde a especie aprobada",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.06,
+        0.05,
+        0.48,
+        0.94
+      ],
+      "ancho_px": 645,
+      "alto_px": 911,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_flor_frontal.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_frontal.webp",
+      "rectangulo_relativo": [
+        0.48,
+        0.04,
+        0.63,
+        0.3
+      ],
+      "ancho_px": 230,
+      "alto_px": 267,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_perfil",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_flor_perfil.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_flor_perfil.webp",
+      "rectangulo_relativo": [
+        0.61,
+        0.04,
+        0.76,
+        0.3
+      ],
+      "ancho_px": 231,
+      "alto_px": 267,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_haz",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.49,
+        0.3,
+        0.62,
+        0.62
+      ],
+      "ancho_px": 200,
+      "alto_px": 327,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.61,
+        0.3,
+        0.75,
+        0.61
+      ],
+      "ancho_px": 216,
+      "alto_px": 317,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "frutos",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_frutos.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_frutos.webp",
+      "rectangulo_relativo": [
+        0.78,
+        0.03,
+        0.94,
+        0.34
+      ],
+      "ancho_px": 245,
+      "alto_px": 318,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "capullos",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_capullos.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.78,
+        0.28,
+        0.94,
+        0.49
+      ],
+      "ancho_px": 245,
+      "alto_px": 215,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "raiz_rodajas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_raiz_rodajas.webp",
+      "rectangulo_relativo": [
+        0.51,
+        0.7,
+        0.73,
+        0.9
+      ],
+      "ancho_px": 338,
+      "alto_px": 205,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 5,
+      "archivo_fuente": "a_highly_detailed_hand_painted_botanical_illustra.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f05_mortero_y_frasco.webp",
+      "rectangulo_relativo": [
+        0.74,
+        0.67,
+        0.99,
+        0.97
+      ],
+      "ancho_px": 384,
+      "alto_px": 307,
+      "nota": "Dibujo de campanillas violetas; estudio genérico",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.12,
+        0.14,
+        0.49,
+        0.86
+      ],
+      "ancho_px": 568,
+      "alto_px": 737,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "hoja_haz",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_haz.webp",
+      "rectangulo_relativo": [
+        0.56,
+        0.03,
+        0.67,
+        0.24
+      ],
+      "ancho_px": 169,
+      "alto_px": 215,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.65,
+        0.03,
+        0.76,
+        0.25
+      ],
+      "ancho_px": 169,
+      "alto_px": 226,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "inflorescencia",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_inflorescencia.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.47,
+        0.22,
+        0.64,
+        0.48
+      ],
+      "ancho_px": 262,
+      "alto_px": 266,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "raiz_detalle",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_raiz_detalle.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.56,
+        0.33,
+        0.76,
+        0.58
+      ],
+      "ancho_px": 307,
+      "alto_px": 256,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "paisaje_campestre",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_paisaje_campestre.webp",
+      "rectangulo_relativo": [
+        0.03,
+        0.82,
+        0.49,
+        0.96
+      ],
+      "ancho_px": 706,
+      "alto_px": 144,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 6,
+      "archivo_fuente": "a_highly_detailed_illustrated_botanical_compendium.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "utensilios",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f06_utensilios.webp",
+      "rectangulo_relativo": [
+        0.51,
+        0.59,
+        0.97,
+        0.82
+      ],
+      "ancho_px": 706,
+      "alto_px": 235,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.1,
+        0.17,
+        0.39,
+        0.81
+      ],
+      "ancho_px": 446,
+      "alto_px": 655,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "hojas",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_hojas.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
+      "rectangulo_relativo": [
+        0.34,
+        0.17,
+        0.51,
+        0.42
+      ],
+      "ancho_px": 261,
+      "alto_px": 256,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "flor",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_flor.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.36,
+        0.1,
+        0.49,
+        0.28
+      ],
+      "ancho_px": 200,
+      "alto_px": 184,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "inflorescencia",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_inflorescencia.webp",
+      "rectangulo_relativo": [
+        0.34,
+        0.39,
+        0.52,
+        0.56
+      ],
+      "ancho_px": 276,
+      "alto_px": 174,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "mano_con_vendaje",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_mano_con_vendaje.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.71,
+        0.09,
+        0.88,
+        0.3
+      ],
+      "ancho_px": 261,
+      "alto_px": 215,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "mortero_de_piedra",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_mortero_de_piedra.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.68,
+        0.47,
+        0.86,
+        0.65
+      ],
+      "ancho_px": 276,
+      "alto_px": 184,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 7,
+      "archivo_fuente": "a_highly_detailed_illustration_of_an_antique_parc.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "frasco_medicinal",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f07_frasco_medicinal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.86,
+        0.49,
+        0.98,
+        0.69
+      ],
+      "ancho_px": 185,
+      "alto_px": 205,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.05,
+        0.03,
+        0.49,
+        0.9
+      ],
+      "ancho_px": 676,
+      "alto_px": 891,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
+      "rectangulo_relativo": [
+        0.5,
+        0.03,
+        0.64,
+        0.28
+      ],
+      "ancho_px": 215,
+      "alto_px": 256,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_corte",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_flor_corte.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.65,
+        0.04,
+        0.78,
+        0.29
+      ],
+      "ancho_px": 200,
+      "alto_px": 256,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "capullos",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_capullos.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_capullos.webp",
+      "rectangulo_relativo": [
+        0.76,
+        0.28,
+        0.91,
+        0.48
+      ],
+      "ancho_px": 230,
+      "alto_px": 205,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_haz",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_hoja_haz.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_hoja_haz.webp",
+      "rectangulo_relativo": [
+        0.51,
+        0.31,
+        0.66,
+        0.62
+      ],
+      "ancho_px": 230,
+      "alto_px": 317,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.64,
+        0.3,
+        0.78,
+        0.61
+      ],
+      "ancho_px": 215,
+      "alto_px": 317,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "fruto",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_fruto.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_fruto.webp",
+      "rectangulo_relativo": [
+        0.78,
+        0.43,
+        0.92,
+        0.61
+      ],
+      "ancho_px": 215,
+      "alto_px": 184,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "raiz_rodajas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_raiz_rodajas.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.51,
+        0.66,
+        0.75,
+        0.86
+      ],
+      "ancho_px": 369,
+      "alto_px": 205,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 8,
+      "archivo_fuente": "a_highly_detailed_realistic_antique_botanical_ill.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f08_mortero_y_frasco.webp",
+      "rectangulo_relativo": [
+        0.74,
+        0.7,
+        0.99,
+        0.99
+      ],
+      "ancho_px": 384,
+      "alto_px": 297,
+      "nota": "Flores violetas; estudio no adscrito a ninguna especie canónica",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.06,
+        0.18,
+        0.36,
+        0.82
+      ],
+      "ancho_px": 460,
+      "alto_px": 655,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.35,
+        0.14,
+        0.48,
+        0.39
+      ],
+      "ancho_px": 200,
+      "alto_px": 256,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "hoja",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.36,
+        0.52,
+        0.49,
+        0.68
+      ],
+      "ancho_px": 200,
+      "alto_px": 164,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "paisaje_ribera",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
+      "rectangulo_relativo": [
+        0.04,
+        0.77,
+        0.44,
+        0.96
+      ],
+      "ancho_px": 614,
+      "alto_px": 195,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "mortero",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_mortero.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_mortero.webp",
+      "rectangulo_relativo": [
+        0.54,
+        0.14,
+        0.71,
+        0.34
+      ],
+      "ancho_px": 261,
+      "alto_px": 205,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "infusion",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_infusion.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.53,
+        0.34,
+        0.7,
+        0.5
+      ],
+      "ancho_px": 261,
+      "alto_px": 164,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "frasco",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_frasco.webp",
+      "rectangulo_relativo": [
+        0.78,
+        0.12,
+        0.93,
+        0.32
+      ],
+      "ancho_px": 230,
+      "alto_px": 205,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 9,
+      "archivo_fuente": "a_highly_detailed_richly_illustrated_fantasy_bota.png",
+      "grupo": "campanilla_de_agua_provisional",
+      "etiqueta": "curandero",
+      "archivo_pergamino": "02_figuras_pergamino/campanilla_de_agua_provisional/f09_curandero.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/campanilla_de_agua_provisional/f09_curandero.webp",
+      "rectangulo_relativo": [
+        0.77,
+        0.63,
+        0.96,
+        0.95
+      ],
+      "ancho_px": 292,
+      "alto_px": 327,
+      "nota": "Campanilla de Agua, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.06,
+        0.13,
+        0.44,
+        0.84
+      ],
+      "ancho_px": 583,
+      "alto_px": 727,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "inflorescencia",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.42,
+        0.14,
+        0.56,
+        0.34
+      ],
+      "ancho_px": 215,
+      "alto_px": 205,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "hoja",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_hoja.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.42,
+        0.29,
+        0.57,
+        0.54
+      ],
+      "ancho_px": 230,
+      "alto_px": 256,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "corte_tallo",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.46,
+        0.58,
+        0.59,
+        0.77
+      ],
+      "ancho_px": 200,
+      "alto_px": 195,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "paisaje_ribera",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_paisaje_ribera.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.59,
+        0.08,
+        0.95,
+        0.37
+      ],
+      "ancho_px": 553,
+      "alto_px": 297,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "mortero",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_mortero.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.7,
+        0.43,
+        0.87,
+        0.64
+      ],
+      "ancho_px": 261,
+      "alto_px": 215,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 10,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_c.png",
+      "grupo": "llanten_de_bruma_provisional",
+      "etiqueta": "frasco",
+      "archivo_pergamino": "02_figuras_pergamino/llanten_de_bruma_provisional/f10_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/llanten_de_bruma_provisional/f10_frasco.webp",
+      "rectangulo_relativo": [
+        0.83,
+        0.46,
+        0.97,
+        0.65
+      ],
+      "ancho_px": 215,
+      "alto_px": 194,
+      "nota": "Llantén de Bruma, ilustración preliminar; reglas impresas no válidas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.2,
+        0.1,
+        0.68,
+        0.84
+      ],
+      "ancho_px": 576,
+      "alto_px": 971,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_frontal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.63,
+        0.05,
+        0.81,
+        0.26
+      ],
+      "ancho_px": 216,
+      "alto_px": 276,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "flor_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_flor_lateral.webp",
+      "rectangulo_relativo": [
+        0.78,
+        0.06,
+        0.97,
+        0.28
+      ],
+      "ancho_px": 228,
+      "alto_px": 289,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "brotes",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/raicilla_de_escarcha_provisional/f11_brotes.webp",
+      "rectangulo_relativo": [
+        0.69,
+        0.24,
+        0.92,
+        0.43
+      ],
+      "ancho_px": 276,
+      "alto_px": 250,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_hoja_enves.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.67,
+        0.43,
+        0.94,
+        0.63
+      ],
+      "ancho_px": 324,
+      "alto_px": 262,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "raiz_corte",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.59,
+        0.7,
+        0.84,
+        0.9
+      ],
+      "ancho_px": 300,
+      "alto_px": 262,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 11,
+      "archivo_fuente": "a_highly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "raicilla_de_escarcha_provisional",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_mortero_y_frasco.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.75,
+        0.77,
+        0.97,
+        0.94
+      ],
+      "ancho_px": 264,
+      "alto_px": 223,
+      "nota": "Raíz de Escarcha generada; la ficha de Aeternalis dice Raicilla de escarcha; revisar morfología",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_planta_completa.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.18,
+        0.04,
+        0.66,
+        0.83
+      ],
+      "ancho_px": 576,
+      "alto_px": 1036,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_flor_frontal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.64,
+        0.03,
+        0.82,
+        0.27
+      ],
+      "ancho_px": 216,
+      "alto_px": 315,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "flor_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_flor_lateral.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f12_flor_lateral.webp",
+      "rectangulo_relativo": [
+        0.8,
+        0.02,
+        0.96,
+        0.27
+      ],
+      "ancho_px": 192,
+      "alto_px": 328,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "capullos",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_capullos.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.67,
+        0.29,
+        0.87,
+        0.44
+      ],
+      "ancho_px": 240,
+      "alto_px": 197,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f12_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.58,
+        0.41,
+        0.86,
+        0.6
+      ],
+      "ancho_px": 336,
+      "alto_px": 250,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "semillas",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_semillas.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f12_semillas.webp",
+      "rectangulo_relativo": [
+        0.78,
+        0.22,
+        0.96,
+        0.43
+      ],
+      "ancho_px": 216,
+      "alto_px": 276,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "raiz_corte",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_raiz_corte.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f12_raiz_corte.webp",
+      "rectangulo_relativo": [
+        0.6,
+        0.67,
+        0.88,
+        0.85
+      ],
+      "ancho_px": 336,
+      "alto_px": 236,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 12,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration.png",
+      "grupo": "violetas_de_estudio",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/violetas_de_estudio/f12_mortero_y_frasco.webp",
+      "rectangulo_relativo": [
+        0.72,
+        0.79,
+        0.99,
+        0.99
+      ],
+      "ancho_px": 324,
+      "alto_px": 262,
+      "nota": "Flores violetas; ilustración de estudio sin asignación definitiva",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "planta_completa",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_planta_completa.webp",
+      "rectangulo_relativo": [
+        0.16,
+        0.05,
+        0.5,
+        0.93
+      ],
+      "ancho_px": 523,
+      "alto_px": 901,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "flor_frontal",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_frontal.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.49,
+        0.06,
+        0.66,
+        0.29
+      ],
+      "ancho_px": 261,
+      "alto_px": 235,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "flor_lateral",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_flor_lateral.webp",
+      "rectangulo_relativo": [
+        0.64,
+        0.05,
+        0.79,
+        0.28
+      ],
+      "ancho_px": 230,
+      "alto_px": 235,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "bayas",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_bayas.webp",
+      "rectangulo_relativo": [
+        0.45,
+        0.3,
+        0.64,
+        0.58
+      ],
+      "ancho_px": 292,
+      "alto_px": 286,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "fruto_corte",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_fruto_corte.webp",
+      "rectangulo_relativo": [
+        0.57,
+        0.38,
+        0.74,
+        0.59
+      ],
+      "ancho_px": 261,
+      "alto_px": 215,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "hoja_enves",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
+      "rectangulo_relativo": [
+        0.47,
+        0.58,
+        0.7,
+        0.78
+      ],
+      "ancho_px": 354,
+      "alto_px": 205,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "raiz_suelta",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.53,
+        0.75,
+        0.72,
+        0.96
+      ],
+      "ancho_px": 291,
+      "alto_px": 215,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "paisaje_selva",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "archivo_tinta": "03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
+      "rectangulo_relativo": [
+        0.77,
+        0.05,
+        0.98,
+        0.27
+      ],
+      "ancho_px": 323,
+      "alto_px": 225,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "estimada_revisar"
+    },
+    {
+      "fuente": 13,
+      "archivo_fuente": "a_richly_detailed_vintage_botanical_illustration_o.png",
+      "grupo": "enredadera_carmesi_no_canon",
+      "etiqueta": "mortero_y_frasco",
+      "archivo_pergamino": "02_figuras_pergamino/enredadera_carmesi_no_canon/f13_mortero_y_frasco.webp",
+      "archivo_tinta": null,
+      "rectangulo_relativo": [
+        0.77,
+        0.5,
+        0.98,
+        0.79
+      ],
+      "ancho_px": 323,
+      "alto_px": 296,
+      "nota": "Liana Carmesí generada; NO equivalente a Resina de lianas quietas",
+      "estado": "ilustracion_de_estudio_no_validada",
+      "transparencia": "no_disponible_pergamino"
+    }
+  ],
+  "variantes_tinta_con_alpha": 62,
+  "variantes_tinta_no_disponibles": 40
+}
