@@ -1,8 +1,8 @@
 {
   "schema": "aeternalis-codice-glosas-v1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "title": "Apostillas de médicos y herbolarios de Aeternalis",
-  "editorial": "Anotaciones de ficción diferenciadas por folio concreto; ninguna apostilla debe repetirse por pertenecer a una misma sección. La ausencia de texto no genera glosa automáticamente. No reemplazan las reglas.",
+  "editorial": "Cada nota está vinculada a un folio, planta, raza, enfermedad o herramienta concreta. No se usa ninguna glosa genérica de respaldo: cuando no exista una entrada, no se presenta una glosa. Autores y episodios son ficticios, sin modificar el reglamento.",
   "sections": {
     "guarda": {
       "text": "He reunido estas páginas para los que ponen la mano sobre una frente ardiente y prefieren preguntar antes que juzgar. Cada trazo es memoria de una visita.",
@@ -48,8 +48,8 @@
         "author": "Aelir Vaes, anatomista de los lindes"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de elfos. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
-        "author": "Aelir Vaes, anatomista de los lindes"
+        "text": "He prolongado el trazo de las orejas en dos generaciones de modelos distintos. Ninguna línea me ha permitido medir la paciencia con que soportan una herida antigua.",
+        "author": "Elion Dareth, retratista de los bosques"
       }
     },
     "montaraces": {
@@ -62,7 +62,7 @@
         "author": "Hedrik Varn, médico de los pasos de Bergheim"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de montaraces. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
+        "text": "He necesitado una hoja mayor para recoger las proporciones de esta pareja de montaña. Las cicatrices de los brazos hablan tanto del oficio como las medidas de sus huesos.",
         "author": "Hedrik Varn, médico de los pasos de Bergheim"
       }
     },
@@ -76,7 +76,7 @@
         "author": "Naori Sen, observadora de las Tres Costas"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de yugen. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
+        "text": "El ángulo del rostro y el porte del cuerpo recuerdan a otros pueblos, pero en el dibujo he conservado las particularidades de esta paciente sin recurrir a rumores sobre el Kuro.",
         "author": "Naori Sen, observadora de las Tres Costas"
       }
     },
@@ -90,8 +90,8 @@
         "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de enanos. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
-        "author": "Maese Rúrik Piedrahonda, cirujano de galerías"
+        "text": "La estatura puede engañar al retratista que nunca entró en una fragua. Coloqué las manos cerca del yunque: así se leen mejor los dedos y sus antiguas quemaduras.",
+        "author": "Borin Ceniza, médico de las forjas"
       }
     },
     "humanos": {
@@ -104,8 +104,8 @@
         "author": "Isolde de Miralba, escribana del cuerpo"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de humanos. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
-        "author": "Isolde de Miralba, escribana del cuerpo"
+        "text": "Puse frente a frente a un marinero y a una agricultora. No hallé en sus manos ni en sus hombros un patrón que bastara para hablar en nombre de todos los humanos.",
+        "author": "Fael Orin, dibujante de anatomías"
       }
     },
     "norin": {
@@ -118,7 +118,7 @@
         "author": "Maela Zarzaverde, curandera de las huertas"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de norin. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
+        "text": "Para que el aprendiz comprenda la escala de esta lámina, he dibujado los pies junto al cuerpo entero. Allí la vida descalza deja una escritura que los guantes no ocultan.",
         "author": "Maela Zarzaverde, curandera de las huertas"
       }
     },
@@ -132,7 +132,7 @@
         "author": "Eshara de las Sendas, herbolaria viajera"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de sinhair. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
+        "text": "En estos dos cuerpos nada autoriza a confundir el clan con una sola fisonomía. Por eso dejé espacio para registrar tinta ceremonial, cicatrices y el nombre de su portador.",
         "author": "Eshara de las Sendas, herbolaria viajera"
       }
     },
@@ -146,7 +146,7 @@
         "author": "Serah Venn, cronista de las aguas altas"
       },
       "archive": {
-        "text": "Conservo esta plancha para cotejar proporciones y gestos de amarant. El cuerpo completo se comprende mejor junto a la historia de quien lo habita.",
+        "text": "Solo mujeres Amarant figuran en este registro. El porte y la forma de las orejas se aprecian mejor de frente, antes de que las sombras del follaje alteren sus perfiles.",
         "author": "Serah Venn, cronista de las aguas altas"
       }
     }
@@ -351,6 +351,10 @@
       "deterioro": {
         "text": "Recuperé estas láminas de cuerpos muy deteriorados para comparar la pérdida de tejido. No sostengo que el enfermo se vuelva un muerto viviente; solo comparo aquello que la carne deja ver.",
         "author": "Maese Odran Galver, médico de Driadem"
+      },
+      "deterioroStages": {
+        "text": "En los últimos folios comparo el pecho fatigado con dibujos de tejidos muy deteriorados. Pido al lector que observe la pérdida de color y no atribuya a la semejanza una causa común.",
+        "author": "Alda Verin, dibujante del lazareto"
       }
     },
     "com": {
