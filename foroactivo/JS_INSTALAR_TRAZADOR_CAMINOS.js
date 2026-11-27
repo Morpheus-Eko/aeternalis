@@ -39,7 +39,7 @@
    if(done)return;
    var root=document.getElementById('aeternalis-atlas');
    var debug=window.__AE_ATLAS_LEAFLET_DEBUG__;
-   if(root&&debug&&debug.map&&debug.data&&window.L&&document.querySelector('#aeternalis-atlas .ae-leaf-toolbar-actions')){
+   if(root&&debug&&debug.map&&debug.data&&typeof debug.getEdges==='function'&&window.L&&document.querySelector('#aeternalis-atlas .ae-leaf-toolbar-actions')){
      done=true;if(timer!==null)clearInterval(timer);
      css('ae-caminos-trazador-css','css/supermapa-trazador.css');
      css('ae-manual-caminos-css','css/supermapa-manual-caminos.css');
@@ -54,13 +54,13 @@
      status('Aeternalis: esperando a que termine de cargar el Supermapa Leaflet para activar «✎ Dibujar caminos»…');
    }
    if(checks===80&&root&&!debug){
-     status('Aeternalis: el mapa está presente, pero todavía no se detecta el motor Leaflet compatible. Comprueba que estés usando el cargador del Supermapa desde GitHub.');
+     status('Aeternalis: el mapa está presente, pero aún no se detecta el motor Leaflet con interfaz de caminos. Comprueba que estés usando el Supermapa actualizado desde GitHub.');
    }
    if(checks>=limit){
      if(timer!==null)clearInterval(timer);
      if(root){
        status('El editor no pudo iniciarse. El Supermapa actual no expone la interfaz Leaflet requerida o no terminó de cargar. El mapa original permanece intacto.');
-       console.warn('[Aeternalis caminos] Faltan dependencias:',{root:!!root,atlasApi:!!debug,leaflet:!!window.L,toolbar:!!document.querySelector('#aeternalis-atlas .ae-leaf-toolbar-actions')});
+       console.warn('[Aeternalis caminos] Faltan dependencias:',{root:!!root,atlasApi:!!debug,edgeApi:!!(debug&&typeof debug.getEdges==='function'),leaflet:!!window.L,toolbar:!!document.querySelector('#aeternalis-atlas .ae-leaf-toolbar-actions')});
      }else{
        console.info('[Aeternalis caminos] No existe el contenedor #aeternalis-atlas en esta página.');
      }
