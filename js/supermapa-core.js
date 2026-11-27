@@ -14,7 +14,7 @@ const CONFIG={
  LEAFLET_CDN:['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'],
  STORAGE_KEY:'AETERNALIS_CARTOGRAFIA_BORRADOR_V16_EXPLORADOR',
  // Mapa de alta resolución de Aeternalis. Reemplaza solo esta URL si cambias de alojamiento.
- MAP_URL:'https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.1',
+ MAP_URL:'https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.2',
  // Mapa anterior como respaldo público si falla la carga del anterior.
  MAP_FALLBACK:'https://2img.net/i.imgur.com/sS5W8pV.jpeg',
  LOGICAL_WIDTH:2048,LOGICAL_HEIGHT:1571,

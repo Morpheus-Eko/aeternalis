@@ -1,9 +1,9 @@
 {
   "map": {
-    "src": "https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.1",
+    "src": "https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.2",
     "width": 2048,
     "height": 1571,
-    "rasterDisplay": "Mapa 3.3 (2048 × 1571). Respaldo automático 3.21 hasta publicar la imagen en GitHub.",
+    "rasterDisplay": "Mapa 3.3: coordenadas lógicas 2048 × 1571; imagen de visualización optimizada a 4096 × 3142 (mantener escala Leaflet).",
     "newRasterPending": {
       "filename": "Mapa_3.3.png",
       "variants": [
