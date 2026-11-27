@@ -127,7 +127,7 @@ La versión 3 sustituye la composición de barras por una arquitectura de códic
 - **Índice izquierdo:** cartelas decoradas, grabados, emblemas por capítulo, lacre y separador de filigrana; títulos y numeración permanecen como texto HTML.
 - **Fondo:** las páginas raciales y la ilustración del tema pasan a dos capas de agua y tinta con desenfoque y opacidad reducida. No se dibujan delante del texto. Los recortes anatómicos siguen siendo visibles únicamente en los folios cuya finalidad es ilustrar.
 - **Lectura:** se elimina el scroll interno de `.ac-leaf__body`. Las hojas adaptan su altura a la extensión del contenido, sin truncarlo. La división automática de un caso excesivamente largo en hojas físicas adicionales aún no forma parte de este motor: requiere medición tipográfica en Foroactivo para evitar cortes arbitrarios.
-- **Responsive:** libro doble a partir de 1.180 px de ancho real del visor; por debajo se presenta una sola hoja. El cambio concuerda entre la detección JS y las reglas CSS.
+- **Responsive:** libro doble a partir de 1.070 px de ancho real del visor; por debajo se presenta una sola hoja. El cambio concuerda entre la detección JS y las reglas CSS.
 
 El módulo permanece encapsulado en `#ae-codice-salud`. No modificar el CSS base de Foroactivo ni instalar de nuevo el maestro si ya está activo. Las imágenes, sus rótulos, las calculadoras y las reglas se obtienen de fuentes separadas como antes.
 
