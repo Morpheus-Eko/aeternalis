@@ -48,3 +48,19 @@ button:focus-visible,a:focus-visible{outline:3px solid #f1c87f;outline-offset:3p
 @media(max-width:1060px){.reader{grid-template-columns:56px minmax(0,1fr) 56px}.page-control{width:54px;height:54px}.folio__inside{padding:41px 34px}.folio__body p{font-size:16px}}
 @media(max-width:760px){.atelier{padding:12px}.reader{grid-template-columns:40px minmax(0,1fr) 40px;gap:2px}.page-control{width:40px;height:40px;padding:0}.book{padding:6px}.spread{grid-template-columns:minmax(0,1fr)}.spread:after{display:none}.folio{height:min(820px,78vh)}.folio:nth-child(2){display:none}.folio__inside{padding:clamp(36px,9vw,64px) clamp(25px,7vw,48px)}}
 @media(prefers-reduced-motion:reduce){.page-control{transition:none}.book.is-turning .spread{animation:none}}
+
+/* Vista del atlas anatómico comparado (sin rótulos incrustados en las imágenes) */
+.folio__atlas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:5px auto 14px}
+.folio__atlas:empty{display:none}
+.folio__atlas:has(figure:only-child){grid-template-columns:minmax(0,1fr);max-width:295px}
+.folio__atlas figure{min-width:0;margin:0;padding:7px;background:#c5a77740;border:1px solid #9e764f55}
+.folio__atlas a{display:flex;align-items:center;justify-content:center;min-height:130px;max-width:100%;outline-offset:3px}
+.folio__atlas img{width:100%;max-height:clamp(180px,29vh,305px);object-fit:contain;mix-blend-mode:multiply;filter:sepia(.08) contrast(1.08)}
+.folio__atlas figcaption{font-size:12px;line-height:1.4;color:#654a36;text-align:center;margin-top:6px}
+.folio__anatomy[hidden]{display:none!important}
+@media(max-width:760px){
+ .folio:nth-child(2){display:block}
+ .folio__atlas img{max-height:260px}
+ .folio__atlas{gap:6px}
+}
+@media(max-width:410px){.folio__atlas{grid-template-columns:1fr}.folio__atlas:has(figure:only-child){max-width:none}}
