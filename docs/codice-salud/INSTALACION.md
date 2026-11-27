@@ -1,4 +1,4 @@
-# Códice de la Salud · instalación v3.0.0
+# Códice de la Salud · instalación v3.0.1
 
 **Vista de pruebas:** https://morpheus-eko.github.io/aeternalis/codice-salud/
 
@@ -44,7 +44,7 @@ Para que aparezca **dentro del foro**, confirmar ambos extremos: (a) JS maestro 
 
 ## Instalación v3.0.0: arquitectura
 
-En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.0.0` antes de `js/codice-salud/visor.js?v=3.0.0` cuando un tema contiene `#ae-codice-salud`. No hace falta reescribir el HTML de las publicaciones antiguas ni copiar los CSS manualmente.
+En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.0.1` antes de `js/codice-salud/visor.js?v=3.0.1` cuando un tema contiene `#ae-codice-salud`. No hace falta reescribir el HTML de las publicaciones antiguas ni copiar los CSS manualmente.
 
 El libro intenta usar hasta 1.800 px de la ventana y centrarse respecto del viewport aun cuando el tema de Foroactivo tenga una columna principal más estrecha. **Si algún ancestro del mensaje tiene `overflow:hidden`, puede recortar los cantos o las pestañas:** revisar esta situación dentro del tema concreto sin alterar a ciegas el CSS global del foro.
 
