@@ -1,0 +1,5 @@
+<!-- AETERNALIS · CÓDICE DE LAS PESTILENCIAS
+     Crear una publicación o página HTML en Foroactivo y colocar únicamente este contenedor.
+     El JS maestro ya detecta el ID y carga desde GitHub el CSS, el motor y los datos.
+     No hay estilos inline ni JavaScript adicional. -->
+<div id="ae-pestilencias"></div>

@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-maestro-v1",
-  "release": "1.0.0",
+  "release": "1.1.0",
   "description": "Activar o desactivar módulos cambiando solo este JSON. El maestro detecta los contenedores HTML y descarga exclusivamente los scripts necesarios para cada publicación.",
   "modules": {
     "atlas": true,
@@ -15,13 +15,15 @@
     "magia": true,
     "progresion": true,
     "navalAtlas": true,
-    "cartografo": true
+    "cartografo": true,
+    "pestilencias": true
   },
   "notes": [
     "cartografo solo se inicia cuando URL incluye ?cartografo=1, ?dibujar=1 o ?caminos=1",
     "progresion solo instala el CSS si existe el HTML original #aep-progress-book, aún pendiente de rescate",
     "No activar simultáneamente cargadores individuales antiguos junto al maestro: se pueden duplicar las escuchas y eventos",
     "El CSS del Atlas y Bestiario fue trasladado a GitHub; las páginas auxiliares h4/h5 se conservan como respaldo.",
-    "La configuración local opcional window.AETERNALIS_MAESTRO_CONFIG.modules tiene precedencia."
+    "La configuración local opcional window.AETERNALIS_MAESTRO_CONFIG.modules tiene precedencia.",
+    "pestilencias: el Códice sólo se carga si una publicación contiene <div id=\"ae-pestilencias\"></div>; CSS/JS y JSON residen en GitHub. La URL /pestilencias/ contiene una vista de pruebas independiente."
   ]
 }

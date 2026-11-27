@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.0.0';
+  var RELEASE='1.1.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -74,6 +74,13 @@
     root:'#aeb-bestiary',
     guard:function(){return !!window.__AEB_BESTIARY_GITHUB_LOADING__||!!window.__AEB_BESTIARY_ENGINE_GITHUB_V2__||!!window.__AEB_BESTIARY_ENGINE_V11__;},
     start:function(){return js('foroactivo/JS_UNICO_CARGADOR_BESTIARIO.js','ae-master-bestiario-loader','2.1.0');}
+  };
+  // Gabinete patológico de Aeternalis. No depende del Atlas, Astillero ni Bestiario.
+  // Sólo carga CSS/JS cuando una publicación incluye #ae-pestilencias.
+  modules.pestilencias={
+    root:'#ae-pestilencias',
+    guard:function(){var r=doc.getElementById('ae-pestilencias');return !!window.AeternalisCodicePestilencias||!!(r&&r.dataset.aepBoot);},
+    start:function(){return withStyles('css/pestilencias.css','ae-pestilencias-css-v1','js/pestilencias/visor.js','ae-pestilencias-js-v1','1.0.0');}
   };
   modules.cronologia={
     root:'#aec-cronologia',
