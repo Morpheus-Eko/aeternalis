@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-ouriler-hirion-precise-position",
+  "revision": "2026-11-27-kale-ifnolir-camino-montana-y-bosque",
   "counts": {
     "places": 122,
     "regions": 26,
-    "roads": 172,
+    "roads": 173,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 111,
@@ -30,7 +30,7 @@
     "avalonNewCoastalRoads": 4,
     "yugenCities": 3,
     "navAccessPendingValidation": 10,
-    "roadTracedMagenta": 106,
+    "roadTracedMagenta": 107,
     "roadPendingMagentaReview": 35,
     "roadNewMagentaConnections": 5
   },
@@ -71,7 +71,7 @@
     "roadMagentaComplement": "data/atlas/caminos-magenta-complementarios-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad. Corrección de integridad: cinco conexiones terrestres fueron normalizadas de pares [x,y] a objetos {x,y}, y endpoints() tolera borradores antiguos sin interrumpir todo el Atlas.",
+  "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad. Corrección de integridad: cinco conexiones terrestres fueron normalizadas de pares [x,y] a objetos {x,y}, y endpoints() tolera borradores antiguos sin interrumpir todo el Atlas. Incorporado camino Kale–Ifnolir por bosque y montaña.",
   "navalReview": {
     "sourceRaster": "Mapa_3.3.png: clasificación litoral oriental",
     "pendingRaster": "Mapa_3.3.png",
@@ -112,5 +112,14 @@
       }
     ],
     "note": "Centro del símbolo dorado. Se descartan posiciones históricas idénticas almacenadas en localStorage, conservando ajustes manuales diferentes."
+  },
+  "landRoadAdditions": {
+    "atlas-kale-ifnolir-bosque-montana": {
+      "from": "place-084",
+      "to": "place-080",
+      "source": "Mapa_Nelson.png",
+      "controlPoints": 7,
+      "geometry": "calco_magentas"
+    }
   }
 }

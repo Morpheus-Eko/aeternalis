@@ -8543,5 +8543,55 @@
       "checked": "pendiente_validacion_manual",
       "status": "geometria_recalculada"
     }
+  },
+  {
+    "id": "atlas-kale-ifnolir-bosque-montana",
+    "from": "place-084",
+    "to": "place-080",
+    "kind": "road",
+    "terrain": "mountain",
+    "climate": "normal",
+    "status": "propuesta",
+    "priority": "normal",
+    "via": [
+      {
+        "x": 453,
+        "y": 899
+      },
+      {
+        "x": 478,
+        "y": 879
+      },
+      {
+        "x": 479,
+        "y": 864
+      },
+      {
+        "x": 493,
+        "y": 847
+      },
+      {
+        "x": 494,
+        "y": 829
+      },
+      {
+        "x": 509,
+        "y": 813
+      },
+      {
+        "x": 525,
+        "y": 810
+      }
+    ],
+    "origin": "mapa_nelson_magenta_2026_11_27",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson.png",
+      "method": "calco_magentas_verificado_en_2048x1571",
+      "confidence": "alta_en_raster",
+      "checked": "trazado_magneta_cotejado",
+      "occupancyMagenta": 1,
+      "percentil80DistanciaPx": 2
+    },
+    "reason": "Camino Kale–Ifnolir: asciende al norte de Kale por el borde occidental del bosque y la montaña, cruza el Río Nim y continúa hacia Ifnolir conforme al trazado magenta."
   }
 ]

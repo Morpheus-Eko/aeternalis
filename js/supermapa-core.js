@@ -287,7 +287,16 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&!isStaleMapPin(id,pos)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:19,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:20,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ // Agregar nueva conexión a borradores locales anteriores sin restablecer eliminaciones en v20+.
+ if(saved&&Array.isArray(saved.edges)&&(saved.networkVersion||0)<20){
+  const newId='atlas-kale-ifnolir-bosque-montana';
+  const published=INITIAL_EDGES.find(e=>e.id===newId);
+  if(published&&!edges.some(e=>e.id===newId)){
+   edges.push({...published,via:(published.via||[]).map(p=>({...p}))});
+   saveDraft();
+  }
+ }
  if(saved&&(saved.networkVersion||0)<19){
    try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V19';
      if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
