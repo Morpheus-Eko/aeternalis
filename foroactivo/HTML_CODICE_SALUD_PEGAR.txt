@@ -1,5 +1,5 @@
-<!-- AETERNALIS · CÓDICE DE LA SALUD
-     Pegar este HTML en un mensaje de Foroactivo donde se desee mostrar el libro.
+<!-- AETERNALIS · TOMO DE MEDICINA
+     Pegar este HTML en un mensaje de Foroactivo donde se desee mostrar el nuevo libro médico ilustrado.
      Requiere el cargador maestro de Aeternalis actualizado. No mezclar con
      el contenedor antiguo de pestilencias en la misma publicación. -->
 <div class="hidethisprofile"></div>
