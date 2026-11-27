@@ -1,4 +1,4 @@
-# Códice de la Salud · instalación v3.6.0
+# Códice de la Salud · instalación v3.7.0
 
 **Vista de pruebas:** https://morpheus-eko.github.io/aeternalis/codice-salud/
 
@@ -44,7 +44,7 @@ Para que aparezca **dentro del foro**, confirmar ambos extremos: (a) JS maestro 
 
 ## Instalación v3.0.0: arquitectura
 
-En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.6.0` antes de `js/codice-salud/visor.js?v=3.6.0` cuando un tema contiene `#ae-codice-salud`. No hace falta reescribir el HTML de las publicaciones antiguas ni copiar los CSS manualmente.
+En el JS maestro publicado se carga automáticamente `css/codice-salud.css?v=3.7.0` antes de `js/codice-salud/visor.js?v=3.7.0` cuando un tema contiene `#ae-codice-salud`. No hace falta reescribir el HTML de las publicaciones antiguas ni copiar los CSS manualmente.
 
 El libro intenta usar hasta 1.800 px de la ventana y centrarse respecto del viewport aun cuando el tema de Foroactivo tenga una columna principal más estrecha. **Si algún ancestro del mensaje tiene `overflow:hidden`, puede recortar los cantos o las pestañas:** revisar esta situación dentro del tema concreto sin alterar a ciegas el CSS global del foro.
 
@@ -54,7 +54,7 @@ Pruebas funcionales con DOM simulado verifican flechas gemelas, once marcadores,
 
 El visor carga adicionalmente `data/codice-salud/apostillas-facultativo-v01.json?v=1.0.0`. Este archivo guarda observaciones ficticias y sus firmas por raza, hierba, enfermedad y sección; **no incluye cálculos de juego**. La carga opcional no bloquea el libro: si falla, el visor utiliza una nota literaria neutra con firma de autor desconocido.
 
-La plantilla HTML de Foroactivo sigue sin cambios (`#ae-codice-salud`). El maestro activa el CSS/JS revisados mediante los identificadores `ae-codice-salud-css-v36` y `ae-codice-salud-js-v36`. El contenedor solo necesita tener instalado el maestro global ya existente.
+La plantilla HTML de Foroactivo sigue sin cambios (`#ae-codice-salud`). El maestro activa el CSS/JS revisados mediante los identificadores `ae-codice-salud-css-v37` y `ae-codice-salud-js-v37`. El contenedor solo necesita tener instalado el maestro global ya existente.
 
 Comprobaciones realizadas con DOM simulado y árbol GitHub: ocho razas vigentes, 105 folios, 93 textos individuales de apostilla, 201 apariciones firmadas en el recorrido de todas las páginas, y JS sintácticamente válido. Falta comprobar en el navegador real del foro la paginación y el aspecto final.
 
@@ -71,3 +71,9 @@ Se añade la dependencia JSON `data/codice-salud/archivo-laminas-completas-v01.j
 La cabecera ilustrada con el nombre antiguo del Códice de Pestilencias fue sustituida por una composición ornamental sin texto incrustado en el visor integrado. El marcador Índice aparece antes de los marcadores de capítulos. La versión del maestro es `3.6.0`.
 
 Pruebas: sintaxis JS correcta y datos coherentes con ocho razas, 16 originales, 16 firmas y 114 folios. Queda pendiente la comprobación visual y del tamaño real de página dentro de Foroactivo.
+
+## Redacción dentro del mundo / fuera de rol · v3.7.0
+
+La fuente `data/codice-salud/compendio.json?v=2.4.0` se presenta como tratado afirmativo y elimina en los folios las expresiones de validación editorial. Las precisiones de mecánicas se renderizan mediante `offrol(text)` en `js/codice-salud/visor.js`, rotuladas **Off rol:** y con cursivas del CSS propio `#ae-codice-salud .ac-offrol`. El archivo original de reglas de Pestilencias se conserva sin cambios.
+
+El maestro del foro usa la revisión `3.7.0` e identificadores `ae-codice-salud-css-v37` y `ae-codice-salud-js-v37`. No requiere volver a pegar el HTML del tema. Si sigue viéndose la revisión anterior, hacer una recarga forzada y comprobar el acceso a GitHub Pages.
