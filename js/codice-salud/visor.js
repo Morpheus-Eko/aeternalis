@@ -148,7 +148,7 @@
  fetch(ANATOMY_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
   if(!index||index.schema!=='aeternalis-medicina-indice-racial-v1'||!index.razas)return;
   for(const [race,sexes] of Object.entries(index.razas)){
-   if(!handbook||!handbook.races.some(r=>r.id===race)||!sexes||typeof sexes!=='object')continue;
+   if(!['elfos','montaraces','yugen','enanos','humanos','norin','sinhair','amarant'].includes(race)||!sexes||typeof sexes!=='object')continue;
    const validSexes={};
    for(const sex of ['femenino','masculino']){
     if(race==='amarant'&&sex==='masculino')continue;
