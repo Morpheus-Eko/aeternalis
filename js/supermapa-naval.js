@@ -1,13 +1,13 @@
 /* AETERNALIS · Carta Náutica para el Supermapa 2.0
    Capa Leaflet externa no invasiva. No altera las rutas terrestres.
    JS sólo lógica; CSS separado en css/supermapa-naval.css.
-   El grafo hexagonal se deriva de los pigmentos azules del Mapa 3.21. */
+   El grafo se deriva provisionalmente de Mapa 3.21; escalas ampliadas sobre Mapa 3.3. */
 (function () {
  'use strict';
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.3.0';
+ var VERSION='3.3.1';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}

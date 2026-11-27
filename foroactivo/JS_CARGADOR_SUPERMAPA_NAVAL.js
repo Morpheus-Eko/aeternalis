@@ -3,7 +3,7 @@
 (function(){
  'use strict';
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.3.0';
+ var VERSION='3.3.1';
  function start(){
    if(!document.getElementById('aeternalis-atlas'))return;
    if(!document.getElementById('ae-supermapa-naval-css')){

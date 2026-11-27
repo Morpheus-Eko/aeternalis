@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-mapa-3-3-yugen-naval-preparacion",
+  "revision": "2026-11-27-mapa-3-3-yugen-naval-v3-3-1",
   "counts": {
     "places": 121,
     "regions": 26,
-    "roads": 168,
+    "roads": 167,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 111,
@@ -65,7 +65,7 @@
     "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Atlas 3.3 con 121 localidades, 26 regiones y carretera punteada Yūgen. Imagen nueva enlazada pero requiere subir assets/mapas/mapa-3.3.webp; mapa anterior como respaldo.",
+  "note": "Se sincronizaron 121 localidades, 26 regiones, el camino Yūgen único y 55 escalas náuticas. La URL pública prioriza Mapa 3.3.webp, con respaldo automático del mapa 3.21 mientras se publica el archivo binario.",
   "navalReview": {
     "sourceRaster": "Mapa_3.21(2).png",
     "pendingRaster": "Mapa_3.3.png",

@@ -22,3 +22,9 @@ Los puertos y localidades ribereñas se integraron por ID al Atlas. **Kazehara e
 
 ## Verificación
 La Carta Náutica sigue integrada al Supermapa, no al Astillero. Prueba en https://morpheus-eko.github.io/aeternalis/supermapa-naval-preview.html?naval=1.
+
+## Corrección de carga
+
+El 27 de noviembre se corrigió la incoherencia del manifiesto (26 regiones reales frente a 24 declaradas), se retiró el camino violeta duplicado y se configuró en el motor `MAP_URL` con `assets/mapas/mapa-3.3.webp?v=3.3.1` y respaldo automático al mapa anterior.
+
+**Falta únicamente cargar físicamente la imagen** en la ruta esperada; preparar el código no equivale a publicar el archivo binario. GitHub Pages mostrará el mapa anterior hasta que `mapa-3.3.webp` esté disponible.

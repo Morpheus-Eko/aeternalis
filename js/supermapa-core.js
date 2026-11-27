@@ -14,9 +14,9 @@ const CONFIG={
  LEAFLET_CDN:['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js','https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js'],
  STORAGE_KEY:'AETERNALIS_CARTOGRAFIA_BORRADOR_V16_EXPLORADOR',
  // Mapa de alta resolución de Aeternalis. Reemplaza solo esta URL si cambias de alojamiento.
- MAP_URL:'https://2img.net/i.imgur.com/sS5W8pV.jpeg',
+ MAP_URL:'https://morpheus-eko.github.io/aeternalis/assets/mapas/mapa-3.3.webp?v=3.3.1',
  // Mapa anterior como respaldo público si falla la carga del anterior.
- MAP_FALLBACK:'https://i.postimg.cc/Dw9BBzXc/Mapa-3-21.png',
+ MAP_FALLBACK:'https://2img.net/i.imgur.com/sS5W8pV.jpeg',
  LOGICAL_WIDTH:2048,LOGICAL_HEIGHT:1571,
  HEX_RADIUS:9.3333,HEX_PHASE_X:0,HEX_PHASE_Y:0,
  CLIMATE_STACKING:'multiplicativo' // Provisional: dos modificadores se multiplican.
@@ -146,7 +146,7 @@ function start(root){
  byId('ae-map-legend-toggle').addEventListener('click',()=>{legend.hidden=!legend.hidden;byId('ae-map-legend-toggle').setAttribute('aria-expanded',String(!legend.hidden))});
  byId('ae-map-legend-close').addEventListener('click',()=>{legend.hidden=true;byId('ae-map-legend-toggle').setAttribute('aria-expanded','false')});
  const base=L.imageOverlay(CONFIG.MAP_URL,bounds,{alt:'Mapa actual de Aeternalis',className:'ae-leaf-map-image',interactive:false}).addTo(map);
- base.on('error',()=>{if(base.getElement()?.getAttribute('src')===CONFIG.MAP_URL){base.setUrl(CONFIG.MAP_FALLBACK);banner('No se pudo cargar la imagen de alta resolución. Se muestra temporalmente el mapa de respaldo.')}});
+ base.on('error',()=>{if(base.getElement()?.getAttribute('src')===CONFIG.MAP_URL){base.setUrl(CONFIG.MAP_FALLBACK);banner('Mapa 3.3 todavía no está publicado; se muestra temporalmente el mapa anterior.')}});
  map.fitBounds(bounds,{padding:[10,10]});
  const syncPinLabels=()=>atlasShell.classList.toggle('ae-leaf-show-labels',map.getZoom()>=0.35);map.on('zoomend',syncPinLabels);syncPinLabels();
  function XY(x,y){return L.latLng(-y,x)}
