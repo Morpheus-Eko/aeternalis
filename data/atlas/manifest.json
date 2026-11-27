@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-mapa33-yugen-red-naval-v21",
+  "revision": "2026-11-27-mapa-3-3-yugen-naval-preparacion",
   "counts": {
     "places": 121,
     "regions": 26,
-    "roads": 167,
+    "roads": 168,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 111,
@@ -65,7 +65,7 @@
     "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "121 localidades, 26 regiones, 167 caminos terrestres; 55 escalas y 111 rutas náuticas preliminares. Yukishima, Tetsumori y Kazehara añadidos; todos los anteriores conservados. Los raster PNG del Mapa 3.3 requieren publicación independiente.",
+  "note": "Atlas 3.3 con 121 localidades, 26 regiones y carretera punteada Yūgen. Imagen nueva enlazada pero requiere subir assets/mapas/mapa-3.3.webp; mapa anterior como respaldo.",
   "navalReview": {
     "sourceRaster": "Mapa_3.21(2).png",
     "pendingRaster": "Mapa_3.3.png",
