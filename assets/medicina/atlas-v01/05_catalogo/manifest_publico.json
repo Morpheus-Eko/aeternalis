@@ -1,0 +1,1472 @@
+{
+  "schema": "aeternalis-codice-salud-atlas-v01",
+  "version": "1.0",
+  "descripcion": "Recursos gráficos del Códice de la Salud, no reglamento",
+  "totales": {
+    "laminas": 10,
+    "recortes_pergamino": 85,
+    "recortes_tinta": 85,
+    "paneles_archivo": 20,
+    "catalogo_y_muestrarios": 8,
+    "archivos": 208
+  },
+  "nota": "Las imágenes ilustran observaciones y no crean rasgos biológicos ni reglas nuevas; los paneles comparativos con leyendas generadas deben validarse.",
+  "assets": [
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cabeza_muscular.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cabeza_muscular.webp",
+      "bytes": 54186,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/columna.webp",
+      "bytes": 11082,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/corazon.webp",
+      "bytes": 21180,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/craneo_frontal.webp",
+      "bytes": 16408,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/craneo_lateral.webp",
+      "bytes": 21336,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_dorsal.webp",
+      "bytes": 66716,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
+      "bytes": 87476,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/esqueleto.webp",
+      "bytes": 81090,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/manos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/manos.webp",
+      "bytes": 42760,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/ojo.webp",
+      "bytes": 16656,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/oreja.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/oreja.webp",
+      "bytes": 12510,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/organos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/organos.webp",
+      "bytes": 53252,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/pulmones.webp",
+      "bytes": 18606,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/retrato_perfil.webp",
+      "bytes": 41954,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/rinones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/rinones.webp",
+      "bytes": 15286,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/tejido.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/tejido.webp",
+      "bytes": 27408,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/busto_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/busto_necrosado.webp",
+      "bytes": 62802,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cabeza_necrosada.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cabeza_necrosada.webp",
+      "bytes": 49754,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/celulas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/celulas.webp",
+      "bytes": 15650,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/columna.webp",
+      "bytes": 18274,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/corazon_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/corazon_necrosado.webp",
+      "bytes": 22364,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/craneo_lateral.webp",
+      "bytes": 40050,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "bytes": 129354,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/cuerpo_frontal.webp",
+      "bytes": 135848,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/esqueleto.webp",
+      "bytes": 68200,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/higado_estomago.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/higado_estomago.webp",
+      "bytes": 10716,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/hueso_femur.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/hueso_femur.webp",
+      "bytes": 12438,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/intestinos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/intestinos.webp",
+      "bytes": 12404,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp",
+      "bytes": 23018,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/tejido_necrosado.webp",
+      "bytes": 16464,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cerebro.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cerebro.webp",
+      "bytes": 15808,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/columna.webp",
+      "bytes": 12516,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corazon.webp",
+      "bytes": 23894,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corpusculo_alquimico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/corpusculo_alquimico.webp",
+      "bytes": 21462,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/craneo_frontal.webp",
+      "bytes": 14010,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/craneo_lateral.webp",
+      "bytes": 19412,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_dorsal.webp",
+      "bytes": 94282,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_frontal.webp",
+      "bytes": 89800,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/esqueleto.webp",
+      "bytes": 46226,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/higado_estomago.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/higado_estomago.webp",
+      "bytes": 17088,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/intestinos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/intestinos.webp",
+      "bytes": 15662,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/mano_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/mano_huesos.webp",
+      "bytes": 30312,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/musculatura.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/musculatura.webp",
+      "bytes": 49422,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/ojo.webp",
+      "bytes": 8250,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/piel_seccion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/piel_seccion.webp",
+      "bytes": 13222,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp",
+      "bytes": 22662,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/rinones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/rinones.webp",
+      "bytes": 9090,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/torso_visceral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/humanos/torso_visceral.webp",
+      "bytes": 50902,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/craneo_lateral.webp",
+      "bytes": 19766,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_dorsal.webp",
+      "bytes": 48532,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_frontal.webp",
+      "bytes": 54628,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/digestivo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/digestivo.webp",
+      "bytes": 20716,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/escala_comparativa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/escala_comparativa.webp",
+      "bytes": 8410,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/esqueleto.webp",
+      "bytes": 45988,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/iconografia_pastoral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/iconografia_pastoral.webp",
+      "bytes": 70150,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/manos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/manos.webp",
+      "bytes": 20108,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/musculatura.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/musculatura.webp",
+      "bytes": 47880,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/pie_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/pie_huesos.webp",
+      "bytes": 11856,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/pies.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/pies.webp",
+      "bytes": 25060,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/posturas_comparativas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/posturas_comparativas.webp",
+      "bytes": 23006,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/proporcion_vitruviana.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/proporcion_vitruviana.webp",
+      "bytes": 24566,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/pulmones.webp",
+      "bytes": 20518,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_dorsal.webp",
+      "bytes": 17254,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_frente.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_frente.webp",
+      "bytes": 21922,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/retrato_perfil.webp",
+      "bytes": 14552,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/rodilla_cadera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/norin/rodilla_cadera.webp",
+      "bytes": 18782,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/circulatorio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/circulatorio.webp",
+      "bytes": 15194,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/columna.webp",
+      "bytes": 18512,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/corazon.webp",
+      "bytes": 13552,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/craneo_frontal.webp",
+      "bytes": 12146,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/craneo_lateral.webp",
+      "bytes": 28792,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_dorsal.webp",
+      "bytes": 60482,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
+      "bytes": 68730,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/esqueleto.webp",
+      "bytes": 60648,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/kuro_mano_y_marcas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/kuro_mano_y_marcas.webp",
+      "bytes": 51240,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/mano.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/mano.webp",
+      "bytes": 15018,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/mano_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/mano_huesos.webp",
+      "bytes": 15034,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/musculos_articulaciones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/musculos_articulaciones.webp",
+      "bytes": 34678,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/ojo.webp",
+      "bytes": 22018,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/organos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/organos.webp",
+      "bytes": 42780,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/paisaje_tres_costas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/paisaje_tres_costas.webp",
+      "bytes": 64418,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_dorsal.webp",
+      "bytes": 16718,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_frontal.webp",
+      "bytes": 21278,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/retrato_perfil.webp",
+      "bytes": 17068,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/tejido.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/02_figuras_pergamino/yugen/tejido.webp",
+      "bytes": 32834,
+      "kind": "figura_pergamino",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cabeza_muscular.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cabeza_muscular.webp",
+      "bytes": 67154,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/columna.webp",
+      "bytes": 15028,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/corazon.webp",
+      "bytes": 29242,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/craneo_frontal.webp",
+      "bytes": 24094,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/craneo_lateral.webp",
+      "bytes": 31782,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cuerpo_dorsal.webp",
+      "bytes": 103816,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/cuerpo_frontal.webp",
+      "bytes": 136168,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/esqueleto.webp",
+      "bytes": 104944,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/manos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/manos.webp",
+      "bytes": 63476,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/ojo.webp",
+      "bytes": 24472,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
+      "bytes": 20346,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/organos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/organos.webp",
+      "bytes": 58518,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/pulmones.webp",
+      "bytes": 25986,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/retrato_perfil.webp",
+      "bytes": 55932,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/rinones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/rinones.webp",
+      "bytes": 21476,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/tejido.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/tejido.webp",
+      "bytes": 34930,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/busto_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/busto_necrosado.webp",
+      "bytes": 80134,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cabeza_necrosada.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cabeza_necrosada.webp",
+      "bytes": 62648,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/celulas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/celulas.webp",
+      "bytes": 20918,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/columna.webp",
+      "bytes": 24984,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/corazon_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/corazon_necrosado.webp",
+      "bytes": 26748,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/craneo_lateral.webp",
+      "bytes": 50746,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_dorsal.webp",
+      "bytes": 168848,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/cuerpo_frontal.webp",
+      "bytes": 184110,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/esqueleto.webp",
+      "bytes": 98112,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/higado_estomago.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/higado_estomago.webp",
+      "bytes": 14084,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/hueso_femur.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/hueso_femur.webp",
+      "bytes": 19842,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/intestinos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/intestinos.webp",
+      "bytes": 16128,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/pulmones_necrosados.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/pulmones_necrosados.webp",
+      "bytes": 27964,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/tejido_necrosado.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/tejido_necrosado.webp",
+      "bytes": 20538,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cerebro.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cerebro.webp",
+      "bytes": 19114,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/columna.webp",
+      "bytes": 18124,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/corazon.webp",
+      "bytes": 31318,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/corpusculo_alquimico.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/corpusculo_alquimico.webp",
+      "bytes": 32108,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/craneo_frontal.webp",
+      "bytes": 18876,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/craneo_lateral.webp",
+      "bytes": 26958,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cuerpo_dorsal.webp",
+      "bytes": 143222,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/cuerpo_frontal.webp",
+      "bytes": 139238,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/esqueleto.webp",
+      "bytes": 65446,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/higado_estomago.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/higado_estomago.webp",
+      "bytes": 23340,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/intestinos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/intestinos.webp",
+      "bytes": 19028,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/mano_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/mano_huesos.webp",
+      "bytes": 42470,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/musculatura.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/musculatura.webp",
+      "bytes": 71318,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/ojo.webp",
+      "bytes": 11874,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/piel_seccion.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/piel_seccion.webp",
+      "bytes": 17368,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/pulmones.webp",
+      "bytes": 29068,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/rinones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/rinones.webp",
+      "bytes": 13918,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/torso_visceral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/torso_visceral.webp",
+      "bytes": 63776,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/craneo_lateral.webp",
+      "bytes": 29032,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/cuerpo_dorsal.webp",
+      "bytes": 75372,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/cuerpo_frontal.webp",
+      "bytes": 85502,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/digestivo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/digestivo.webp",
+      "bytes": 28558,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/escala_comparativa.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/escala_comparativa.webp",
+      "bytes": 12502,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/esqueleto.webp",
+      "bytes": 73342,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/iconografia_pastoral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/iconografia_pastoral.webp",
+      "bytes": 85886,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/manos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/manos.webp",
+      "bytes": 31802,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/musculatura.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/musculatura.webp",
+      "bytes": 64774,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pie_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pie_huesos.webp",
+      "bytes": 17692,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pies.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pies.webp",
+      "bytes": 35714,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/posturas_comparativas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/posturas_comparativas.webp",
+      "bytes": 42120,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/proporcion_vitruviana.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/proporcion_vitruviana.webp",
+      "bytes": 45572,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pulmones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pulmones.webp",
+      "bytes": 27246,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_dorsal.webp",
+      "bytes": 19938,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_frente.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_frente.webp",
+      "bytes": 26658,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/retrato_perfil.webp",
+      "bytes": 18096,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/rodilla_cadera.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/rodilla_cadera.webp",
+      "bytes": 27196,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/circulatorio.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/circulatorio.webp",
+      "bytes": 22592,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/columna.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/columna.webp",
+      "bytes": 24636,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/corazon.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/corazon.webp",
+      "bytes": 16404,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/craneo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/craneo_frontal.webp",
+      "bytes": 16992,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/craneo_lateral.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/craneo_lateral.webp",
+      "bytes": 39684,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/cuerpo_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/cuerpo_dorsal.webp",
+      "bytes": 90026,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/cuerpo_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/cuerpo_frontal.webp",
+      "bytes": 102922,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/esqueleto.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/esqueleto.webp",
+      "bytes": 93872,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
+      "bytes": 65176,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/mano.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/mano.webp",
+      "bytes": 23612,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/mano_huesos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/mano_huesos.webp",
+      "bytes": 22248,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/musculos_articulaciones.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/musculos_articulaciones.webp",
+      "bytes": 49262,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/ojo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/ojo.webp",
+      "bytes": 29592,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/organos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/organos.webp",
+      "bytes": 49608,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/paisaje_tres_costas.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/paisaje_tres_costas.webp",
+      "bytes": 75572,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_dorsal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_dorsal.webp",
+      "bytes": 18320,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_frontal.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_frontal.webp",
+      "bytes": 26242,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_perfil.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/retrato_perfil.webp",
+      "bytes": 19366,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/tejido.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/tejido.webp",
+      "bytes": 39814,
+      "kind": "figura_tinta",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/altos_elfos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/altos_elfos.webp",
+      "bytes": 543830,
+      "kind": "lamina_completa",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/anatomia_no_muerta.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/anatomia_no_muerta.webp",
+      "bytes": 540600,
+      "kind": "lamina_completa",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/humanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/humanos.webp",
+      "bytes": 505492,
+      "kind": "lamina_completa",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_01.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_01.webp",
+      "bytes": 510266,
+      "kind": "lamina_completa",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_02.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_02.webp",
+      "bytes": 535324,
+      "kind": "lamina_completa",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_03.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_03.webp",
+      "bytes": 476010,
+      "kind": "lamina_completa",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_orco.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_orco.webp",
+      "bytes": 534218,
+      "kind": "lamina_completa",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_reptiliano.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_reptiliano.webp",
+      "bytes": 535606,
+      "kind": "lamina_completa",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/norin.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/norin.webp",
+      "bytes": 498324,
+      "kind": "lamina_completa",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/01_laminas_originales/yugen.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/01_laminas_originales/yugen.webp",
+      "bytes": 530088,
+      "kind": "lamina_completa",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_altos_elfos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_altos_elfos.webp",
+      "bytes": 102904,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_amarant.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_amarant.webp",
+      "bytes": 115892,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_enanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_enanos.webp",
+      "bytes": 108130,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_hobbits.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_hobbits.webp",
+      "bytes": 114460,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_humanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_humanos.webp",
+      "bytes": 105116,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_nordicos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_01_panel_nordicos.webp",
+      "bytes": 117856,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_altos_elfos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_altos_elfos.webp",
+      "bytes": 85600,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
+      "bytes": 91286,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_comparativo.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_comparativo.webp",
+      "bytes": 87538,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
+      "bytes": 86716,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_hobbits.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_hobbits.webp",
+      "bytes": 89362,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_humanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_humanos.webp",
+      "bytes": 86406,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_no_muertos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_no_muertos.webp",
+      "bytes": 89278,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
+      "bytes": 91380,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_altos_elfos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_altos_elfos.webp",
+      "bytes": 103856,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_amarant.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_amarant.webp",
+      "bytes": 111484,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_enanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_enanos.webp",
+      "bytes": 109990,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_hobbits.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_hobbits.webp",
+      "bytes": 104644,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_humanos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_humanos.webp",
+      "bytes": 104428,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_nordicos.webp",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_03_panel_nordicos.webp",
+      "bytes": 106658,
+      "kind": "archivo_comparativo",
+      "estado": "archivo_no_canonico"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/catalogo_recortes.csv",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/catalogo_recortes.csv",
+      "bytes": 25268,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/catalogo_recortes.json",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/catalogo_recortes.json",
+      "bytes": 49141,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_01.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_01.jpg",
+      "bytes": 402953,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_02.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_02.jpg",
+      "bytes": 371240,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_03.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_02_figuras_pergamino_03.jpg",
+      "bytes": 334605,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_01.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_01.jpg",
+      "bytes": 375966,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_02.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_02.jpg",
+      "bytes": 349122,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    },
+    {
+      "path": "assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_03.jpg",
+      "url": "https://morpheus-eko.github.io/aeternalis/assets/medicina/atlas-v01/05_catalogo/muestrario_03_figuras_tinta_transparente_03.jpg",
+      "bytes": 301454,
+      "kind": "catalogo",
+      "estado": "ilustracion_sin_reglas"
+    }
+  ]
+}
