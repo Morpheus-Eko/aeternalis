@@ -22,7 +22,7 @@
  function imageFigure(path,caption,variant){if(!path)return '';return '<figure class="ac-figure '+(variant?'ac-figure--'+variant:'')+'"><a href="'+esc(url(path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar ilustración">'+img(path,caption)+'</a><figcaption>'+esc(caption||'Lámina de consulta · ampliar ilustración')+'</figcaption></figure>';}
  function insetFigure(path,caption){if(!path)return '';return '<figure class="ac-inset-art"><a href="'+esc(url(path))+'" target="_blank" rel="noopener noreferrer" title="Examinar grabado">'+img(path,caption)+'</a><figcaption>'+esc(caption||'Estudio ilustrado')+'</figcaption></figure>';}
 
- function isAtlasImage(path){return typeof path==='string'&&/^assets\/medicina\/atlas-recortes-v01\/(recortes|tinta_transparente)\/[a-z0-9_/-]+\.webp$/.test(path)&&!path.includes('..');}
+ function isAtlasImage(path){return typeof path==='string'&&/^assets\/medicina\/atlas-recortes-v01\/(recortes|tinta_transparente)\/[a-zA-Z0-9_/-]+\.webp$/.test(path)&&!path.includes('..');}
  function atlasGallery(r,kind){
   const group=anatomyAssets[r.id];if(!group)return '';
   const items=[];
