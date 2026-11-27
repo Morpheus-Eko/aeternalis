@@ -80,7 +80,7 @@ No activar simultáneamente dos versiones completas del Atlas. Si aún funciona 
 
 ## Dibujo manual de caminos (v1.2)
 
-La edición exclusivamente automática no es suficiente para calcar todos los puntitos de tinta. Por ello se incorporó el módulo independiente `js/supermapa-manual-caminos.js` + `css/supermapa-manual-caminos.css`, integrado en el **mismo cargador del trazador** `foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js?v=1.2.0`. No se necesita añadir un nuevo código al panel de Foroactivo si ya se utiliza ese instalador; **actualiza la versión del URL de instalación a 1.2.0** para evitar cachés antiguos.
+La edición exclusivamente automática no es suficiente para calcar todos los puntitos de tinta. Por ello se incorporó el módulo independiente `js/supermapa-manual-caminos.js` + `css/supermapa-manual-caminos.css`, integrado en el **mismo cargador del trazador** `foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js?v=1.2.0`. No se necesita añadir un nuevo código al panel de Foroactivo si ya se utiliza ese instalador; **actualiza la versión del URL de instalación a 1.3.0**. El cargador v1.3 espera a que Foroactivo inserte el mapa y termine su inicialización Leaflet; también muestra un diagnóstico en pantalla si no logra encontrar el motor compatible. para evitar cachés antiguos.
 
 **Enlace de uso directo:**
 https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&dibujar=1
