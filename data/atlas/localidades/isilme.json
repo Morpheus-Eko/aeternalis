@@ -521,7 +521,7 @@
   },
   {
     "id": "place-309",
-    "name": "Silvanys",
+    "name": "Sylvanis",
     "x": 298,
     "y": 1248,
     "faction": "elf",
@@ -534,7 +534,7 @@
     "regionId": "isilme-ithariamil",
     "kind": "Asentamiento",
     "coordinateStatus": "calibrado_en_imagen_2048",
-    "sourceScheme": "Nombre indicado en la cartografía y/o ajustes canónicos del equipo; ficha narrativa aún pendiente.",
+    "sourceScheme": "Nombre impreso en Mapa 3.21: «Sylvanis»; ficha narrativa aún pendiente.",
     "sourceX": 268,
     "sourceY": 1229,
     "symbolType": "ciudad",
