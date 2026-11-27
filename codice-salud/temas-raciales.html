@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Aeternalis · Laboratorio de folios raciales del Tomo de Medicina">
 <title>Aeternalis · Estudio de folios raciales</title>
-<link rel="stylesheet" href="./temas-raciales.css?v=1.0.0">
-<script defer src="./temas-raciales.js?v=1.0.0"></script>
+<link rel="stylesheet" href="./temas-raciales.css?v=1.1.0">
+<script defer src="./temas-raciales.js?v=1.1.0"></script>
 </head>
 <body>
 <main class="atelier" id="ae-fase2">
   <header class="atelier__header">
     <span class="overline">Aeternalis · Tomo de Medicina</span>
     <h1>Estudio de folios raciales</h1>
-    <p>Vista de arquitectura visual. Las imágenes de los fondos son assets; los textos y las láminas anatómicas se cargan desde el Códice.</p>
+    <p>Vista de arquitectura visual. Los fondos, símbolos y dibujos son assets; los textos conservan la tipografía de la página. Se comparan figuras femeninas y masculinas cuando corresponde.</p>
   </header>
   <nav class="race-index" aria-label="Elegir tema racial" id="ae-race-menu"></nav>
   <div class="reader">
@@ -48,7 +48,8 @@
               <h2>De la carne y sus riesgos</h2>
             </header>
             <div class="folio__body">
-              <figure class="folio__anatomy"><a id="ae-figure-link" target="_blank" rel="noopener noreferrer"><img id="ae-figure" alt=""></a><figcaption id="ae-caption"></figcaption></figure>
+              <div class="folio__atlas" id="ae-atlas-preview" role="group" aria-label="Figuras anatómicas comparadas"></div>
+              <figure class="folio__anatomy" id="ae-legacy-anatomy"><a id="ae-figure-link" target="_blank" rel="noopener noreferrer"><img id="ae-figure" alt=""></a><figcaption id="ae-caption"></figcaption></figure>
               <p id="ae-risks"></p>
               <small class="folio__warning" id="ae-status"></small>
             </div>
