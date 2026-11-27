@@ -1,4 +1,4 @@
-/* AETERNALIS · Tomo de Medicina · Códice de la Salud v2.6 · Folios delimitados; CSS y datos separados. */
+/* AETERNALIS · Tomo de Medicina · Códice de la Salud v2.6.1 · Folios delimitados; CSS y datos separados. */
 (function initCodiceSalud(){
  'use strict';
  const root=document.getElementById('ae-codice-salud');
@@ -8,7 +8,7 @@
  const DATA=BASE+'data/codice-salud/compendio.json?v=2.0.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
  const ANATOMY_DATA=BASE+'assets/medicina/atlas-recortes-v01/indice-visor-racial.json?v=1.0.0';
- const CLINICAL_DATA=BASE+'data/codice-salud/iconografia-clinica-v01.json?v=1.1.0';
+ const CLINICAL_DATA=BASE+'data/codice-salud/iconografia-clinica-v01.json?v=1.2.0';
  const DISEASE=BASE+'data/pestilencias/enfermedades.json?v=1.4.0';
  const ART=BASE+'assets/codex/botones/gotico/';
  const SCULPT=BASE+'assets/codex/esculturas/';
@@ -50,14 +50,14 @@
   return '<div class="ac-clinical-studies'+(panels.length===1?' ac-clinical-studies--single':'')+'" role="group" aria-label="Grabados anatómicos para '+esc(d.name)+'">'+panels.join('')+'</div>'+note(record.disclaimer||'Grabados anatómicos ilustrativos, no diagnóstico.');
  }
 
- function isSpecificMedicalArt(path){return typeof path==='string'&&/^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)\.svg$/.test(path);}
+ function isSpecificMedicalArt(path){return typeof path==='string'&&/^assets\/medicina\/patologias-v01\/(fd|com|sn)_(paciente|signos|organo|cuidados)(?:_tinta)?\.svg$/.test(path);}
  function specificStudies(d,roles){
   const group=clinicalAssets.diseases[d.id],records=group&&group.specific;
   if(!records)return '';
   const panels=[];
   for(const role of roles){
    const item=records[role];if(!item||!isSpecificMedicalArt(item.path))continue;
-   panels.push('<figure class="ac-patology-plate ac-patology-plate--'+role+'"><a href="'+esc(url(item.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar grabado clínico">'+img(item.path,item.label||'Estudio patológico de '+d.name)+'</a><figcaption>'+esc(item.label||'Grabado clínico')+'</figcaption></figure>');
+   panels.push('<figure class="ac-patology-plate ac-patology-plate--'+role+'"><a href="'+esc(url(isSpecificMedicalArt(item.archival)?item.archival:item.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar grabado clínico">'+img(item.path,item.label||'Estudio patológico de '+d.name)+'</a><figcaption>'+esc(item.label||'Grabado clínico')+'</figcaption></figure>');
   }
   if(!panels.length)return '';
   return '<div class="ac-pathology-art ac-pathology-art--'+esc(d.id)+(panels.length===1?' ac-pathology-art--single':'')+'" role="group" aria-label="Láminas originales sobre '+esc(d.name)+'">'+panels.join('')+'</div>'+note(group.specificDisclaimer||'Grabado editorial, no observación oficial ni tratamiento curativo.');
@@ -171,7 +171,7 @@
  root.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&state.drawer){state.drawer=false;render();const b=root.querySelector('.ac-compass');if(b)b.focus();return;}if(ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;if(ev.target.closest('input,textarea,select,summary,[contenteditable="true"]'))return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){ev.preventDefault();navigate(visibleFirst()+(ev.key==='ArrowRight'?1:-1)*(isSingle()?1:2));}});
  let oldSingle=null;function resized(){if(!state.loaded)return;const now=isSingle();if(oldSingle!==now){oldSingle=now;render();}};
  if(window.addEventListener)window.addEventListener('resize',resized);
- function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'2.6.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
+ function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'2.6.1',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
  fetch(THEME_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(t=>{
   if(!t||t.published!==true||!Array.isArray(t.themes))return;
   for(const item of t.themes){
@@ -210,7 +210,7 @@
    }
    const specific=p.specific;
    const parts={patient:'paciente',signs:'signos',organ:'organo',care:'cuidados'};
-   if(specific&&Object.entries(parts).every(([role,suffix])=>specific[role]&&specific[role].path==='assets/medicina/patologias-v01/'+id+'_'+suffix+'.svg')){
+   if(specific&&Object.entries(parts).every(([role,suffix])=>specific[role]&&specific[role].path==='assets/medicina/patologias-v01/'+id+'_'+suffix+'_tinta.svg'&&specific[role].archival==='assets/medicina/patologias-v01/'+id+'_'+suffix+'.svg')){
     if(!clinicalAssets.diseases[id])clinicalAssets.diseases[id]={};
     clinicalAssets.diseases[id].specific=specific;
     clinicalAssets.diseases[id].specificDisclaimer=typeof p.specificDisclaimer==='string'?p.specificDisclaimer:'Grabados editoriales esquemáticos: no representan una cura ni nuevas reglas.';
