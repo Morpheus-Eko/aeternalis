@@ -1,4 +1,4 @@
-/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.5.0 · Folios delimitados; CSS y datos separados. */
+/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.6.0 · Folios delimitados; CSS y datos separados. */
 (function initCodiceSalud(){
  'use strict';
  const root=document.getElementById('ae-codice-salud');
@@ -7,7 +7,7 @@
  const BASE='https://morpheus-eko.github.io/aeternalis/';
  const DATA=BASE+'data/codice-salud/compendio.json?v=2.1.0';
  const GLOSSES_DATA=BASE+'data/codice-salud/apostillas-facultativo-v01.json?v=1.3.0';
- const COMPLETE_ARCHIVE_DATA=BASE+'data/codice-salud/archivo-laminas-completas-v01.json?v=1.0.0';
+ const COMPLETE_ARCHIVE_DATA=BASE+'data/codice-salud/archivo-laminas-completas-v01.json?v=1.1.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
  const ANATOMY_DATA=BASE+'assets/medicina/atlas-recortes-v01/indice-visor-racial.json?v=1.0.0';
  const CLINICAL_DATA=BASE+'data/codice-salud/iconografia-clinica-v01.json?v=1.2.0';
@@ -164,7 +164,7 @@
   add('atlas','essay','De las hojas del dibujante',{subtitle:'Por qué no se deben perder los originales',voice:'Nota final de quien reunió los dibujos',text:['He guardado las planchas enteras, aunque algunas contienen errores, pues una misma mano puede dibujar un corazón útil y atribuir al cuerpo un poder que jamás se ha demostrado.','Las figuras se reproducen en los capítulos que corresponden; las láminas completas quedan como archivo de investigación, con las composiciones no canónicas identificadas.'],image:MED+'01_laminas_originales/yugen.webp',status:'Archivo de ilustraciones'});
   alignSpread('atlas');
   handbook.archives.forEach(a=>{
-   for(let side=0;side<2;side++)add('atlas','archive-plate',a.title+' · '+(side===0?'Lámina I':'Lámina II'),{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,plateSide:side,subtitle:'Planchas completas del archivo anatómico',voice:'Gabinete de anatomía',image:a.image});
+   for(let side=0;side<2;side++)add('atlas','archive-plate',a.title+' · '+(a.raceId==='amarant'?(side===0?'Primera modelo':'Segunda modelo'):(side===0?'Varón':'Mujer')),{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,plateSide:side,subtitle:'Estudio anatómico · plancha del natural',voice:'Gabinete de anatomía',image:a.image});
   });
   let previous='';state.pages.forEach((p,i)=>{p.number=i+1;if(p.section!==previous){state.sections.push({id:p.section,title:SECTION_NAMES[p.section],page:i});previous=p.section;}});
  }
@@ -215,10 +215,13 @@
   const a=p.archive,record=completeArchive[a.raceId],plate=record&&record.folios&&record.folios[p.plateSide];
   if(!plate||!isArchivePlate(plate.path))return '<div class="ac-archive-pending">'+imageFigure(p.image,a.title,'archive')+'</div>';
   const caption=plate.caption||'Lámina anatómica';
+  const comment=plate.note&&typeof plate.note.text==='string'&&plate.note.text.trim()?
+   '<aside class="ac-archive-marginal-note" aria-label="Apunte del dibujante"><p>«'+esc(plate.note.text)+'»</p><div>— '+esc(plate.note.author||'Autor desconocido')+'</div></aside>':'';
   return '<div class="ac-archive-fullpage"><figure class="ac-archive-original">'+
    '<a href="'+esc(url(plate.path))+'" target="_blank" rel="noopener noreferrer" title="Abrir plancha anatómica completa">'+img(plate.path,a.title+' · '+caption)+'</a>'+
-   '<figcaption><span>'+esc(caption)+'</span><small>Plancha '+(p.plateSide===0?'I':'II')+' · '+esc(a.title)+'</small></figcaption>'+
-   '</figure><div class="ac-archive-ribbon" aria-hidden="true">'+img('assets/codex/separadores/filigrana_dorada_01.webp','')+'</div></div>';
+   '<figcaption><span>'+esc(caption)+'</span><small>'+(a.raceId==='amarant'?(p.plateSide===0?'Primera modelo':'Segunda modelo'):(p.plateSide===0?'Varón':'Mujer'))+' · '+esc(a.title)+'</small></figcaption>'+
+   '</figure>'+comment+
+   '<div class="ac-archive-ribbon" aria-hidden="true">'+img('assets/codex/separadores/filigrana_dorada_01.webp','')+'</div></div>';
  }
 
  function stagesPage(p){const d=p.disease;return (specificStudies(d,['signs','organ'])||clinicalStudies(d,['consequence'])||imageFigure(p.image,'Estudio anatómico de las secuelas','detail'))+'<p>Al no superar el umbral modificado se añade un contador de secuela.</p><ol class="ac-stage-list">'+d.stages.map(s=>'<li><strong>'+esc(s.count+'. '+s.title)+'</strong><p>'+esc(s.effect)+'</p></li>').join('')+'</ol>'+pathologyDeterioration(d,'stages')+glossDisease(d,'stages');}
@@ -296,7 +299,7 @@
  root.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&state.drawer){state.drawer=false;render();const b=root.querySelector('.ac-compass');if(b)b.focus();return;}if(ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;if(ev.target.closest('input,textarea,select,summary,[contenteditable="true"]'))return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){ev.preventDefault();navigate(visibleFirst()+(ev.key==='ArrowRight'?1:-1)*(isSingle()?1:2));}});
  let oldSingle=null;function resized(){if(!state.loaded)return;const now=isSingle();if(oldSingle!==now){oldSingle=now;render();}};
  if(window.addEventListener)window.addEventListener('resize',resized);
- function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'3.5.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
+ function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'3.6.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
  fetch(GLOSSES_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
   if(!index||index.schema!=='aeternalis-codice-glosas-v1'||!index.sections||!index.races||!index.herbs||!index.diseases||!index.general)return;
   apostillas=index;
@@ -318,7 +321,9 @@
   for(const id of approved){
    const row=index.races[id];
    if(!row||!Array.isArray(row.folios)||row.folios.length!==2||!row.folios.every(p=>p&&isArchivePlate(p.path)))continue;
-   if(id==='amarant'&&!row.folios.every(p=>p.sex==='femenino'))continue;
+   if(id==='amarant'){
+    if(!row.folios.every(p=>p.sex==='femenino'))continue;
+   }else if(row.folios[0].sex!=='masculino'||row.folios[1].sex!=='femenino')continue;
    completeArchive[id]=row;
   }
   if(state.loaded)render();
