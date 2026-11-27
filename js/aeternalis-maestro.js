@@ -87,7 +87,7 @@
   modules.salud={
     root:'#ae-codice-salud',
     guard:function(){var r=doc.getElementById('ae-codice-salud');return !!window.AeternalisCodiceSalud||!!(r&&r.dataset.acsBoot);},
-    start:function(){return withStyles('css/codice-salud.css','ae-codice-salud-css-v32','js/codice-salud/visor.js','ae-codice-salud-js-v32','3.2.0');}
+    start:function(){return withStyles('css/codice-salud.css','ae-codice-salud-css-v33','js/codice-salud/visor.js','ae-codice-salud-js-v33','3.3.0');}
   };
   modules.cronologia={
     root:'#aec-cronologia',
