@@ -1,8 +1,8 @@
 {
   "schema": "aeternalis-pestilencias-v1",
-  "version": "1.0.0",
+  "version": "1.4.0",
   "title": "El Códice de las Pestilencias",
-  "source": "Sistema de enfermedades (En construccion).docx, páginas 1–11; transcripción editorial abreviada con reglas originales preservadas",
+  "source": "Sistema de enfermedades (En construccion).docx, 11 páginas; documento original del reglamento de Aeternalis. Edición de consulta, sin alterar las reglas.",
   "rules": {
     "die": 100,
     "vitModifier": true,
@@ -13,9 +13,11 @@
     "stageAccumulation": "Al no superar el umbral modificado se suma un Contador de Secuela.",
     "calculatorDisclaimer": "Calculadora orientativa; no lanza dados oficiales ni modifica una ficha del personaje.",
     "ambiguities": [
-      "El reglamento exige cinco exposiciones para inmunidad, pero no precisa expresamente si la quinta tirada se resuelve antes o después de adquirirla.",
-      "La Sangrenegra progresa en temas posteriores a la primera exposición; la frecuencia de las tiradas subsiguientes requiere validación del staff."
-    ]
+      "La Sangrenegra progresa en temas posteriores a la primera exposición; la frecuencia de las tiradas subsiguientes requiere validación del staff.",
+      "El documento exige al menos cinco exposiciones para la inmunidad, pero no precisa explícitamente si la quinta tirada se resuelve antes de considerar adquirida la inmunidad.",
+      "El documento no fija el intervalo exacto de progresión o nuevas tiradas de Sangrenegra en los temas posteriores a la primera exposición."
+    ],
+    "faqIncluded": true
   },
   "races": [
     {
@@ -71,12 +73,12 @@
         {
           "count": 1,
           "title": "Tos persistente",
-          "effect": "Tos con expectoración verdosa y pérdida leve de capacidad pulmonar durante al menos dos estaciones. AGI −33 % mientras persista."
+          "effect": "Tos recurrente y expectoración verdosa; la secreción suele ceder en semanas, pero la tos y la disminución pulmonar duran al menos dos estaciones. AGI −33 % mientras persistan."
         },
         {
           "count": 2,
           "title": "Pústulas recurrentes",
-          "effect": "El cuadro anterior se extiende al menos un año on-rol, con pústulas y fiebre ocasional. DES −33 % adicional mientras persista."
+          "effect": "La secuela anterior se prolonga al menos un año on-rol. Pústulas y fiebre ocasionales. DES −33 % además de la penalización de AGI, mientras dure el efecto."
         },
         {
           "count": 3,
@@ -88,7 +90,28 @@
           "title": "Desenlace mortal",
           "effect": "Convulsiones violentas, detención cardíaca y muerte del personaje."
         }
-      ]
+      ],
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "fieldNotes": [
+        "Comienza con aumento de temperatura y tos húmeda acompañada de secreciones verdosas. En la espalda aparecen pústulas que producen un exudado viscoso y maloliente.",
+        "En fases avanzadas la piel adquiere un tono verdoso pálido. De las lesiones emergen agrupaciones de larvas blanquecinas que dañan la piel.",
+        "En su fase terminal se describen larvas saliendo de orificios corporales, sensación de movimiento dentro de la cabeza y muerte tras convulsiones violentas."
+      ],
+      "theories": [
+        "Las Amarant del este de Punta Veneno relacionan los contagios con las ciénagas al este de las Ruinas de las Lágrimas y sospechan de un pequeño gusano rojizo.",
+        "Las Sinhair señalan las picaduras de un mosquito misterioso en los manglares al sur del Clan Vah’Amay y al este del Clan Vah’Irak."
+      ],
+      "uncertaintyLabel": "Ambas teorías son hipótesis: el mecanismo real de adquisición no se ha confirmado.",
+      "documentedAliases": [
+        "La Muerte Verde"
+      ],
+      "regionDetail": "Al sur y al este del Verdanteyl",
+      "sourceType": "Exploración territorial"
     },
     {
       "id": "com",
@@ -121,7 +144,7 @@
         {
           "count": 1,
           "title": "La voz marchita",
-          "effect": "Persisten aproximadamente doce manchas florales. Ronquera durante un año on-rol; MAG −33 % mientras dure la ronquera."
+          "effect": "Permanecen aproximadamente doce manchas semejantes a orquídeas marchitas de forma permanente, y ronquera moderada decreciente por un año on-rol. MAG −33 % durante la ronquera."
         },
         {
           "count": 2,
@@ -133,7 +156,27 @@
           "title": "Asfixia final",
           "effect": "Muerte por imposibilidad de respirar."
         }
-      ]
+      ],
+      "sourcePages": [
+        4,
+        5,
+        6
+      ],
+      "fieldNotes": [
+        "Los escasos testimonios provienen de supervivientes que se adentraron en las tierras corrompidas de Ushios. Malakor Niellis recopiló gran parte de ellos en El Libro de las Cenizas.",
+        "El cuerpo presenta múltiples manchas púrpuras semejantes a orquídeas moribundas y una fatiga creciente. La voz se vuelve ronca y progresivamente se reduce a un murmullo.",
+        "En fases graves sobreviene el mutismo; el agotamiento puede impedir la respiración continuada y causar la muerte."
+      ],
+      "theories": [
+        "Malakor Niellis propuso que la inhalación del polen de una pequeña flor parasitaria llamada Orquídea Necrótica podría ser responsable.",
+        "Según esa hipótesis, la planta puede crecer sobre tierra, troncos o seres vivos, y su esencia mágica drena vitalidad de los alrededores."
+      ],
+      "uncertaintyLabel": "No se conocen con certeza la vía de adquisición ni el contagio entre personas. La Orquídea Necrótica es una teoría del relato.",
+      "documentedAliases": [
+        "Orquídea Marchita"
+      ],
+      "regionDetail": "Desde la costa de Ushios hacia el interior",
+      "sourceType": "Exploración territorial"
     },
     {
       "id": "sn",
@@ -188,6 +231,84 @@
           "title": "Hemorragia final",
           "effect": "Muerte del personaje por hemorragias."
         }
+      ],
+      "sourcePages": [
+        6,
+        7,
+        8
+      ],
+      "fieldNotes": [
+        "Comienza como una melancolía profunda y un aumento de sueño, seguidos de pesadillas y alucinaciones auditivas de llantos y lamentos.",
+        "En estadios avanzados la sangre se torna casi negra. Aparecen hemorragias inicialmente oculares, con lágrimas de sangre, y luego sangrados de diversa procedencia.",
+        "El final descrito son hemorragias internas y externas incontrolables. El contacto directo con sangre negra de una persona infectada puede transmitir la enfermedad."
+      ],
+      "theories": [
+        "Su mecanismo de transmisión por sangre negra está descrito expresamente en el reglamento. En temas canon también produce exposición el veneno creado en Alto Reeve.",
+        "Tras la primera exposición, el proceso continúa en temas posteriores como un veneno; el documento no fija una frecuencia detallada de nuevas tiradas en esos temas."
+      ],
+      "uncertaintyLabel": "Se conoce la transmisión por contacto con sangre negra. La frecuencia de resolución de la progresión posterior necesita criterio del staff.",
+      "documentedAliases": [
+        "El Lamento de Reeve"
+      ],
+      "regionDetail": "Temas canon vinculados con Reeve o el veneno de Alto Reeve",
+      "sourceType": "Trama canon y contacto"
+    }
+  ],
+  "introduction": [
+    "El sistema se aplica principalmente a la exploración del mundo y, en casos puntuales, a las tramas globales. Mientras el rol permanezca exclusivamente en el mapa original, su utilización es opcional para el usuario promedio.",
+    "Al aventurarse fuera de los límites conocidos, las enfermedades pueden ser decisivas para la supervivencia. Su naturaleza no siempre es clara: algunas culturas las llaman maldiciones, otras enfermedades y otras creen que son ambas cosas.",
+    "El tratado recoge las dolencias descritas actualmente, sus riesgos, las posibilidades de inmunidad y muerte, y los modificadores positivos o negativos previstos por el reglamento."
+  ],
+  "generalRules": {
+    "exposures": "Un tema que cumple las condiciones de contagio de una enfermedad concede una exposición. Al concluirlo se efectúa una tirada de 1d100 con los modificadores indicados. Si no se supera estrictamente el umbral se añade un contador de secuela.",
+    "oneOpenThread": "Solo puede mantenerse un tema abierto de exploración que genere exposición a una enfermedad determinada. Hasta concluirlo, no se pueden crear temas cronológicamente posteriores a esa expedición; sí pueden continuarse o abrirse temas que transcurran antes de ella.",
+    "statistics": "Las penalizaciones de estadísticas se calculan sobre el atributo efectivo en el momento de utilizarlo, también cuando el atributo base aumente en el futuro, con redondeo hacia arriba. Deben respetarse las duraciones concretas descritas para cada secuela.",
+    "treatment": "No existe actualmente una forma establecida de revertir secuelas. Una posible investigación narrativa, mágica o alquímica requeriría una trama extensa y coordinación con el staff.",
+    "otherModifiers": "Los modificadores del reglamento no son necesariamente exhaustivos: pueden añadirse artefactos, amuletos, hechizos o avances de alquimia mediante tramas y actualizaciones del foro.",
+    "peRecovery": "Si el personaje muere por enfermedad adquirida en exploración de mundo o trama global, el nuevo personaje puede recibir el 90 % de sus PE; si el contagio se generó en temas comunes, corresponde el beneficio estándar del 50 %.",
+    "adjudication": "Esta interfaz no sustituye las tiradas oficiales del foro ni las decisiones del staff."
+  },
+  "faq": [
+    {
+      "id": "modificadores",
+      "question": "¿Existen más formas de modificar el dado de resistencia?",
+      "answer": "Los modificadores del reglamento no son necesariamente exhaustivos: pueden añadirse artefactos, amuletos, hechizos o avances de alquimia mediante tramas y actualizaciones del foro.",
+      "sourcePages": [
+        9
+      ]
+    },
+    {
+      "id": "simultaneidad",
+      "question": "¿Puedo mantener varios temas abiertos que generen exposición?",
+      "answer": "Solo puede mantenerse un tema abierto de exploración que genere exposición a una enfermedad determinada. Hasta concluirlo, no se pueden crear temas cronológicamente posteriores a esa expedición; sí pueden continuarse o abrirse temas que transcurran antes de ella.",
+      "sourcePages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "estadisticas",
+      "question": "¿Cómo se aplican las secuelas a los atributos obtenidos posteriormente?",
+      "answer": "Se calcula el atributo efectivo cada vez que corresponda, sin cambiar los puntos base mostrados en la ficha. Ejemplo del documento: FUE 40 con −25 % equivale a 30 puntos efectivos; si FUE sube a 50, equivale a 38 puntos, redondeando hacia arriba. Se respetan las duraciones específicas de cada secuela.",
+      "sourcePages": [
+        10
+      ]
+    },
+    {
+      "id": "cura",
+      "question": "¿Existe una cura para las secuelas?",
+      "answer": "No existe actualmente una forma establecida de revertir secuelas. Una posible investigación narrativa, mágica o alquímica requeriría una trama extensa y coordinación con el staff.",
+      "sourcePages": [
+        10
+      ]
+    },
+    {
+      "id": "muerte",
+      "question": "Si mi personaje muere por enfermedad, ¿qué porcentaje de PE conserva el siguiente personaje?",
+      "answer": "Si el personaje muere por enfermedad adquirida en exploración de mundo o trama global, el nuevo personaje puede recibir el 90 % de sus PE; si el contagio se generó en temas comunes, corresponde el beneficio estándar del 50 %.",
+      "sourcePages": [
+        10,
+        11
       ]
     }
   ]
