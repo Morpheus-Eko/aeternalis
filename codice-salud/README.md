@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v2.4
+# Aeternalis · Tomo de Medicina v2.5
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,7 +11,7 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=2.4.0` y `js/codice-salud/visor.js?v=2.4.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=2.5.0` y `js/codice-salud/visor.js?v=2.5.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
@@ -31,6 +31,8 @@ No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-
 | `css/codice-salud.css` | Maquetación de folios, grabados marginales, tablas y controles |
 | `data/codice-salud/compendio.json` | Anatomías, pueblos, territorios, botica y archivo |
 | `data/pestilencias/enfermedades.json` | Fuente de verdad del reglamento antiguo: sin reescrituras |
+| `data/codice-salud/iconografia-clinica-v01.json` | Selección gráfica para las 16 plantas, tres expedientes patológicos y mesa de cuidados |
+| `codice-salud/iconografia.html` | Gabinete para revisión visual de grabados y utensilios; separado del libro principal |
 | `assets/medicina/atlas-v01/` | Grabados anatómicos históricos, con etiquetas de estado editorial |
 | `assets/medicina/atlas-recortes-v01/manifest.json` | Catálogo de 329 recortes individuales, disponibles en pergamino y tinta transparente |
 | `assets/medicina/atlas-recortes-v01/indice-visor-racial.json` | Selección editorial de figuras y detalles separados para las ocho razas |
@@ -81,3 +83,16 @@ El archivo `assets/medicina/atlas-recortes-v01/indice-visor-racial.json` contien
 Los textos de los folios y rótulos son HTML con la tipografía heredada de Foroactivo: ninguna ilustración tiene títulos de interfaz incrustados. Los botones de navegación, los fondos de página y el reglamento antiguo siguen independientes de este atlas.
 
 **Pruebas:** se ha comprobado la presencia de las 15 combinaciones de raza/sexo y la existencia de los archivos seleccionados en el árbol de GitHub; queda por contrastar su composición visual efectiva en una publicación real de Foroactivo y en móviles. Este índice no canoniza la anatomía de ninguna raza.
+
+## Fase 4 · Iconografía clínica y botánica · v2.5
+
+**Nuevo archivo:** `data/codice-salud/iconografia-clinica-v01.json`. Se verificó que sus **63 referencias de imagen**, correspondientes a **55 recursos WebP únicos**, existan en el repositorio.
+
+- **Materia médica:** cada una de las 16 fichas conserva su lámina principal y detalle provisional. Añade una ilustración de utensilio de botica contextual, tomada preferentemente de la misma lámina fuente (14 de 16) y, de otro modo, de la biblioteca genérica. El utensilio no acredita la receta exacta.
+- **Tres pestilencias:** se añaden grabados anatómicos generales apropiados para acompañar la lectura de síntomas, historia clínica y secuelas, con una advertencia visible que impide confundirlos con diagnósticos canónicos o con el agente patógeno.
+- **Cuidados:** los expedientes muestran un frasco, un sello arcano y un grabado de vendajes. El frasco y el sello **no son diseños oficiales** de Ouriler ni Astarax. Los valores numéricos siguen leyendo en tiempo real `data/pestilencias/enfermedades.json`, sin valores duplicados en la iconografía.
+- **Presentación:** títulos y fichas continúan en HTML, con la tipografía del foro. Las imágenes sirven como ornamentos y diagramas; se mantienen CSS y JS en archivos distintos, encapsulados bajo `#ae-codice-salud`.
+
+**Gabinete de revisión:** [Examinar ilustraciones clínicas](./iconografia.html). Permite filtrar por plantas, enfermedades y mesa de cuidados, ampliar los grabados y revisar la pertinencia editorial antes de aprobar o sustituir imágenes. No modifica el antiguo Códice de Pestilencias ni introduce páginas adicionales en el tomo.
+
+**Validación:** sintaxis JS correcta para visor, maestro y gabinete; rutas presentes en GitHub; hash del reglamento `data/pestilencias/enfermedades.json` sin cambios. Queda pendiente la prueba visual en un tema real de Foroactivo y la aprobación artística de las ilustraciones provisionales.
