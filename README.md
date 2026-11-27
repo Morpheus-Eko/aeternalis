@@ -18,9 +18,9 @@ La Carta Náutica funciona como **capa de Leaflet en el Supermapa**, no como par
 
 ## Caminos originales y editor de hexágonos
 
-El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente** y las 165 conexiones originales permanecen intactas.
+El [trazador de caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1) analiza los puntos de tinta impresos en el mapa 3.21 y permite corregir cada recorrido sobre una retícula de 8.801 hexágonos de tierra. La auditoría preliminar abarca **134 conexiones terrestres**: 66 coincidencias altas, 26 medias, 34 bajas y 8 sin continuidad detectada. **Ninguna propuesta se confirma automáticamente** y las 165 conexiones originales permanecen intactas.
 
-- [Vista previa: Atlas + Carta Náutica + Caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?caminos=1)
+- [Vista previa: Atlas + Carta Náutica + Caminos](https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1)
 - [Metodología, prioridades y manual de instalación](docs/AUDITORIA_Y_TRAZADOR_CAMINOS_3_21.md)
 - [Cargador selectivo para Foroactivo](foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js)
 - [Evidencia hexagonal](data/atlas/caminos-evidencia.json) y [revisión de 134 rutas](data/atlas/caminos-auditoria.json)
