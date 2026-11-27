@@ -352,3 +352,81 @@
  #ae-codice-salud .ac-book-cover.is-opening{animation:none}
  #ae-codice-salud .ac-book-cover{transition:none}
 }
+
+
+/* FASE 2: ICONOGRAFIA RACIAL
+ * Los fondos y los motivos son independientes del contenido y la tipografía.
+ * En la hoja se conservan los mismos encabezados HTML y los datos del reglamento. */
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading{
+ position:relative;
+ min-height:75px;
+ padding-right:clamp(47px,4.7vw,75px);
+}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading::after{
+ content:"";
+ position:absolute;
+ right:0;
+ top:0;
+ width:clamp(43px,5.4vw,70px);
+ height:clamp(43px,5.4vw,70px);
+ background-image:var(--ac-race-ornament,none);
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:contain;
+ opacity:.62;
+ filter:sepia(.38) saturate(.7) contrast(1.08);
+ pointer-events:none;
+}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__foot{
+ position:relative;
+ border-color:var(--ac-race-accent,#93704b);
+}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__foot::before{
+ content:"";
+ position:absolute;
+ left:50%;
+ top:-30px;
+ transform:translateX(-50%);
+ width:92px;
+ height:30px;
+ background-image:var(--ac-race-divider,none);
+ background-repeat:no-repeat;
+ background-position:center;
+ background-size:contain;
+ opacity:.42;
+ filter:sepia(.4);
+ pointer-events:none;
+}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-field dt,
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__body h3,
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-stage-list li strong{
+ color:var(--ac-race-accent,#735339)!important;
+}
+#ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-marginalia{
+ border-left-color:var(--ac-race-accent,#8c6448);
+ background:linear-gradient(90deg,rgba(100,75,54,.10),transparent);
+}
+#ae-codice-salud .ac-leaf[data-theme="montaraces"] .ac-overline{letter-spacing:.2em}
+#ae-codice-salud .ac-leaf[data-theme="montaraces"] .ac-field{border-bottom-style:dashed}
+#ae-codice-salud .ac-leaf[data-theme="yugen"] .ac-leaf__heading{border-bottom-width:2px}
+#ae-codice-salud .ac-leaf[data-theme="yugen"] .ac-marginalia{border-left-width:2px;font-style:normal}
+#ae-codice-salud .ac-leaf[data-theme="enanos"] .ac-field{border-bottom-style:double;border-bottom-width:3px}
+#ae-codice-salud .ac-leaf[data-theme="enanos"] .ac-overline{font-weight:700;letter-spacing:.15em}
+#ae-codice-salud .ac-leaf[data-theme="elfos"] .ac-marginalia{border-left-width:2px;border-radius:0 9px 9px 0}
+#ae-codice-salud .ac-leaf[data-theme="humanos"] .ac-clinical-list li{border-bottom-style:solid}
+#ae-codice-salud .ac-leaf[data-theme="norin"] .ac-field{border-bottom-style:dotted}
+#ae-codice-salud .ac-leaf[data-theme="norin"] .ac-marginalia{border-left-width:2px}
+#ae-codice-salud .ac-leaf[data-theme="sinhair"] .ac-leaf__heading{border-bottom-style:double;border-bottom-width:3px}
+#ae-codice-salud .ac-leaf[data-theme="amarant"] .ac-marginalia{border-left-width:4px}
+@container(max-width:729px){
+ #ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading{
+  padding-right:45px;
+  min-height:65px;
+ }
+ #ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__heading::after{width:42px;height:42px}
+ #ae-codice-salud .ac-leaf[data-theme]:not([data-theme="general"]) .ac-leaf__foot::before{width:64px;height:24px;top:-24px}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-codice-salud .ac-leaf[data-theme]::before,
+ #ae-codice-salud .ac-leaf[data-theme]::after{animation:none!important}
+}
