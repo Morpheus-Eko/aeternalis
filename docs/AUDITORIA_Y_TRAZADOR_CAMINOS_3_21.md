@@ -71,7 +71,7 @@ En **Panel de Administración → Módulos → Gestión de los códigos JavaScri
 
 **Vista previa con el mapa completo, la Carta Náutica y el trazador:**
 
-https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?caminos=1
+https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&caminos=1
 
 No activar simultáneamente dos versiones completas del Atlas. Si aún funciona en Foroactivo una copia antigua del código que no carga desde GitHub, la capa de revisión puede funcionar en modo independiente, pero la incorporación de cambios requerirá exportar el JSON, o migrar la copia del Atlas de forma controlada.
 
