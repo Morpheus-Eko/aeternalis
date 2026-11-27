@@ -1,0 +1,34 @@
+/* Gabinete de ilustraciones de Aeternalis · laboratorio autónomo, sin interferencia en Foroactivo */
+*{box-sizing:border-box}
+:root{color-scheme:dark}
+body{margin:0;min-height:100vh;color:#e8d6b8;background:radial-gradient(ellipse at top,#34403966,transparent 60%),#151714;font-family:inherit}
+button,input{font:inherit}
+button{cursor:pointer}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid #d0a96c;outline-offset:3px}
+.gabinete{max-width:1540px;margin:auto;padding:clamp(14px,2.3vw,35px)}
+.gabinete__header{text-align:center;max-width:930px;margin:0 auto 28px}
+.gabinete__eyebrow{display:block;font-size:12px;letter-spacing:.19em;color:#bfa778}
+.gabinete__header h1{font-size:clamp(31px,3vw,47px);font-weight:500;line-height:1.13;margin:13px auto 14px}
+.gabinete__header p{font-size:clamp(15px,1.4vw,18px);line-height:1.65;color:#ceb999;margin:0 auto 16px}
+.gabinete__header>a{color:#ebcb99;text-decoration:underline;text-underline-offset:4px}
+.gabinete__filters{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:16px auto 22px}
+.gabinete__filters button{border:1px solid #ae885b;padding:13px 17px;background:#29251e;color:#f0dec0;border-radius:5px;font-size:15px}
+.gabinete__filters button:hover,.gabinete__filters button[aria-pressed="true"]{background:#665037;border-color:#d2a979;color:#fff7df}
+.gabinete__search{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;margin:15px auto}
+.gabinete__search label{color:#d3bc95;font-size:14px}
+.gabinete__search input{width:min(100%,370px);border:1px solid #9b7a52;background:#252119;color:#fff3d8;border-radius:4px;padding:11px 13px}
+.gabinete__status{text-align:center;min-height:22px;font-size:13px;color:#bba47d}
+.gabinete__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(10px,1.5vw,21px);align-items:start;margin-top:17px}
+.gabinete__card{min-width:0;border:1px solid #a8885e;background:linear-gradient(125deg,#f5e7c8,#dfc9a0 58%,#c6ad85);color:#4e3725;padding:clamp(13px,1.5vw,22px);box-shadow:inset 0 0 0 5px #916d3d25,0 10px 30px #0005}
+.gabinete__card h2{font-weight:550;line-height:1.2;font-size:clamp(21px,1.7vw,28px);margin:3px 0 8px}
+.gabinete__sub{font-size:14px;color:#70563d;line-height:1.5;margin:0 0 13px}
+.gabinete__plates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.gabinete__plates figure{min-width:0;margin:0;padding:7px;border:1px solid #95775461;background:#d8c19b44;display:flex;flex-direction:column}
+.gabinete__plates a{display:flex;align-items:center;justify-content:center;min-height:100px;max-width:100%;outline-offset:2px}
+.gabinete__plates img{width:100%;height:clamp(110px,11vw,190px);object-fit:contain;mix-blend-mode:multiply;filter:sepia(.1) contrast(1.07)}
+.gabinete__plates figcaption{font-size:12px;font-style:italic;color:#6d5138;line-height:1.4;margin-top:7px;text-align:center}
+.gabinete__field{font-size:14px;line-height:1.6;color:#533f2d;border-left:3px solid #9a7149;padding-left:11px;margin:14px 0}
+.gabinete__warning{border-top:1px solid #a27f54;padding-top:10px;font-size:12px;line-height:1.55;color:#7c6247}
+.gabinete__footer{border-top:1px solid #9b76544f;text-align:center;margin-top:35px;padding-top:20px;color:#b29d81;font-size:13px;line-height:1.6}
+@media(max-width:1150px){.gabinete__grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:670px){.gabinete__grid{grid-template-columns:minmax(0,1fr)}.gabinete__filters button{flex:1 1 100%}.gabinete__plates img{height:150px}.gabinete__card{padding:14px}}
