@@ -77,6 +77,29 @@ https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartogr
 
 No activar simultáneamente dos versiones completas del Atlas. Si aún funciona en Foroactivo una copia antigua del código que no carga desde GitHub, la capa de revisión puede funcionar en modo independiente, pero la incorporación de cambios requerirá exportar el JSON, o migrar la copia del Atlas de forma controlada.
 
+
+## Dibujo manual de caminos (v1.2)
+
+La edición exclusivamente automática no es suficiente para calcar todos los puntitos de tinta. Por ello se incorporó el módulo independiente `js/supermapa-manual-caminos.js` + `css/supermapa-manual-caminos.css`, integrado en el **mismo cargador del trazador** `foroactivo/JS_INSTALAR_TRAZADOR_CAMINOS.js?v=1.2.0`. No se necesita añadir un nuevo código al panel de Foroactivo si ya se utiliza ese instalador; **actualiza la versión del URL de instalación a 1.2.0** para evitar cachés antiguos.
+
+**Enlace de uso directo:**
+https://morpheus-eko.github.io/aeternalis/supermapa-caminos-preview.html?cartografo=1&dibujar=1
+
+### Procedimiento para el autor
+
+1. Abrir el Supermapa con `?cartografo=1&dibujar=1` y pulsar **✎ Dibujar caminos**.
+2. En «Selecciona el recorrido», elegir un camino existente del Atlas; o elegir dos ciudades, clase **Camino/Senda**, y pulsar **Crear conexión nueva**.
+3. Pulsar **Empezar / continuar dibujo**. El primer hexágono se establece junto a la localidad de origen; hacer clic sobre los **puntos y curvas reales** del mapa. Los clics sucesivos se unen por una cadena hexagonal contigua, sin búsqueda A* ni corrección automática que desvíe el camino a otro lugar. Para reproducir las curvas, hacer clic en cada giro relevante.
+4. **Deshacer última pincelada** revierte solo el último tramo entre clics. **Pausar para navegar** permite desplazarse o inspeccionar el mapa; también se puede hacer zoom mientras se dibuja.
+5. Cuando el último punto esté a seis hexágonos o menos del destino, pulsar **Finalizar cerca del destino**. No se insertan cierres largos y rectos que salten el camino.
+6. Si la malla del análisis no reconoce suelo en un puente o en un paso correcto, activar voluntariamente **Permitir cruces de hexágonos no clasificados como suelo**. El JSON señala qué hexágonos fueron excepcionales.
+7. Las rutas se guardan automáticamente **en el navegador**; se puede cerrar y reabrir sin perder las pinceladas (salvo borrado de datos locales). Los dibujos **incompletos también se exportan**.
+8. Pulsar **Exportar TODOS mis caminos (JSON)**. Se descargará `Aeternalis_Caminos_Manuales_AAAA-MM-DD.json`. **Adjuntar ese archivo a la conversación** para comparar las rutas, resolver cruces pendientes e incorporarlas a `data/atlas/caminos.json` o archivos nuevos según convenga.
+
+**El archivo JSON contiene** `schema: "aeternalis-caminos-manuales-v1"`, `map`, `coordinateSystem`, `summary` y `routes[]`. Cada ruta indica `id`, `from`, `to`, tipo `road/trail`, `finished`, `reviewedByAuthor`, `hexPath:[[q,r],...]`, `via:[{x,y},...]` y `unknownLandCells`. Así el archivo conserva los **hexágonos exactos elegidos por el autor**, incluso en trabajos incompletos y conexiones nuevas. No publica nada por sí solo.
+
+**Compatibilidad:** la herramienta manual y el trazador automático son dos botones independientes del Supermapa. El módulo manual se desactiva en las visitas normales y únicamente se inyecta con `cartografo=1`; los cambios se mantienen separados de la Carta Náutica, de los polígonos marítimos y de los 165 caminos existentes.
+
 ## Qué queda por revisar manualmente
 
 La interfaz permite hacer el trabajo fino, pero **no equivale a haber verificado manualmente 134 recorridos**. Se requieren visitas cartográficas por tramo, priorizando los 42 con baja coincidencia o sin continuidad. En especial:
