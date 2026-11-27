@@ -60,7 +60,7 @@ Botones de retroceder y avanzar: imágenes sin rótulos visibles, tamaño equiva
 
 La cubierta, los ocho fondos raciales WebP y sus hashes se encuentran en `assets/medicina/tomo-v02/catalogo-tematico.json`. Cada tema añade ahora dos referencias reutilizadas del inventario de Codex: `ornament` y `divider`, con un `accent` común para encabezados, campos y notas marginales. No hay títulos ni datos raciales pintados sobre las imágenes.
 
-**Laboratorio visual:** [Comparar los ocho folios](./temas-raciales.html). Este visor independiente utiliza `temas-raciales.html`, `temas-raciales.css` y `temas-raciales.js`; permite revisar las ocho ornamentaciones y las láminas anatómicas sin recorrer el tomo ni modificar fichas.
+**Laboratorio visual:** [Comparar los ocho folios](./temas-raciales.html). Este visor independiente utiliza `temas-raciales.html`, `temas-raciales.css` y `temas-raciales.js`; permite revisar las ocho ornamentaciones y, desde v1.1, las figuras anatómicas de mujer y hombre seleccionadas de la nueva biblioteca (solo mujer para Amarant), sin recorrer el tomo ni modificar fichas. En pantallas estrechas se visualizan ambos folios.
 
 En el visor principal, la raza se aplica a las dos páginas anatómicas de cada pueblo y a los capítulos de entorno, herbario y archivo cuando existe una adscripción territorial inequívoca. Las materias interraciales conservan el pergamino general para no sugerir que una sola raza les pertenece. La visualización no implica que las cualidades médicas provisionales sean canónicas.
 
