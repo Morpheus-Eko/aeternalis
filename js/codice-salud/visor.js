@@ -187,7 +187,7 @@
  fetch(CLINICAL_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
   if(!index||index.schema!=='aeternalis-codice-salud-iconografia-v1'||!index.herbs||!index.diseases)return;
   for(const [id,item] of Object.entries(index.herbs)){
-   if(!/^h-\\d{2}$/.test(id)||!item||!isClinicalAsset(item.instrument))continue;
+   if(!/^h-\d{2}$/.test(id)||!item||!isClinicalAsset(item.instrument))continue;
    clinicalAssets.herbs[id]={instrument:item.instrument};
   }
   for(const id of ['fd','com','sn']){
