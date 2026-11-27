@@ -1,4 +1,4 @@
-# Códice de la Salud · instalación v2.5.0
+# Códice de la Salud · instalación v2.6.1
 
 **Vista de pruebas:** https://morpheus-eko.github.io/aeternalis/codice-salud/
 
@@ -35,3 +35,9 @@ Las imágenes del índice anatómico se descargan de manera diferida; las ilustr
 ## Comprobación editorial v2.5.0
 
 Gabinete de control visual: https://morpheus-eko.github.io/aeternalis/codice-salud/iconografia.html. Verificar allí la correspondencia entre cada dibujo y su leyenda antes de aprobarlo como representación definitiva. Son estudios de referencia, no un atlas clínico oficial del universo. La publicación de Foroactivo sigue usando solo los dos elementos HTML existentes; el nuevo gabinete es opcional y no debe instalarse en el foro.
+
+## Grabados de enfermedades v2.6.1
+
+Las doce figuras originales de `assets/medicina/patologias-v01/` están disponibles en dos versiones cada una (archivística con papel y tinta transparente). El libro las carga desde el catálogo `iconografia-clinica-v01.json?v=1.2.0` mediante el motor `visor.js?v=2.6.1`. El maestro usa los identificadores `ae-codice-salud-css-v261` y `ae-codice-salud-js-v261` para evitar reutilizar revisiones antiguas.
+
+Para que aparezca **dentro del foro**, confirmar ambos extremos: (a) JS maestro instalado globalmente a partir de `foroactivo/JS_UNICO_MAESTRO_PEGAR.js`; (b) un mensaje HTML con `<div class="hidethisprofile"></div><div id="ae-codice-salud"></div>`. No hace falta añadir los SVG uno a uno ni tocar el CSS base del foro. No se ha comprobado la configuración administrativa de Foroactivo durante esta edición.
