@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-medicina-temas-v1",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "assetRoot": "assets/medicina/tomo-v02/",
-  "published": false,
-  "status": "pendiente_de_subida_binaria",
-  "note": "Metadatos y rutas reservadas. Los WebP originales están respaldados en la biblioteca del proyecto; todavía NO existen en este repositorio. No activar imágenes temáticas hasta cargar y verificar los binarios.",
+  "published": true,
+  "status": "published",
+  "note": "9 archivos WebP binarios alojados y verificados en GitHub. Las ilustraciones son fondos de folio; ningún texto está impreso en las imágenes.",
   "themes": [
     {
       "id": "cubierta",
@@ -12,8 +12,10 @@
       "file": "portada_cuero_serpiente.webp",
       "scope": "cover",
       "order": 0,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/portada_cuero_serpiente.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/portada_cuero_serpiente.webp",
+      "sha": "797d0cf22816219548c75c60ec9fa09100d4b5df",
+      "bytes": 291524
     },
     {
       "id": "humanos",
@@ -21,8 +23,10 @@
       "file": "pagina_humanos.webp",
       "scope": "race",
       "order": 1,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_humanos.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_humanos.webp",
+      "sha": "ad9961679879c1f2b0f085fd81801969c2e7e972",
+      "bytes": 324710
     },
     {
       "id": "elfos",
@@ -30,8 +34,10 @@
       "file": "pagina_altos_elfos.webp",
       "scope": "race",
       "order": 2,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_altos_elfos.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_altos_elfos.webp",
+      "sha": "d0566ecd84445f9ae1a7fb01c18dea41cca94339",
+      "bytes": 375498
     },
     {
       "id": "montaraces",
@@ -39,8 +45,10 @@
       "file": "pagina_montaraces.webp",
       "scope": "race",
       "order": 3,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_montaraces.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_montaraces.webp",
+      "sha": "cd812401c91bad0ab56e7721bb1ce503bf3b2630",
+      "bytes": 357282
     },
     {
       "id": "yugen",
@@ -48,8 +56,10 @@
       "file": "pagina_yugen.webp",
       "scope": "race",
       "order": 4,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_yugen.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_yugen.webp",
+      "sha": "f5be4777c68926813a7e34082c3ff04b710a3ea4",
+      "bytes": 351616
     },
     {
       "id": "enanos",
@@ -57,8 +67,10 @@
       "file": "pagina_enanos.webp",
       "scope": "race",
       "order": 5,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_enanos.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_enanos.webp",
+      "sha": "b397f2f0055758149df1f3b1cf9831cb09da6b90",
+      "bytes": 344666
     },
     {
       "id": "norin",
@@ -66,8 +78,10 @@
       "file": "pagina_norin.webp",
       "scope": "race",
       "order": 6,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_norin.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_norin.webp",
+      "sha": "f2352ab7ba24495b920b316eef77bf967c1393f3",
+      "bytes": 346170
     },
     {
       "id": "sinhair",
@@ -75,8 +89,10 @@
       "file": "pagina_sinhair.webp",
       "scope": "race",
       "order": 7,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_sinhair.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_sinhair.webp",
+      "sha": "070d8066accc47d90c12d2e56caca84319ad029b",
+      "bytes": 341936
     },
     {
       "id": "amarant",
@@ -84,8 +100,10 @@
       "file": "pagina_amarant.webp",
       "scope": "race",
       "order": 8,
-      "ready": false,
-      "path": "assets/medicina/tomo-v02/pagina_amarant.webp"
+      "ready": true,
+      "path": "assets/medicina/tomo-v02/pagina_amarant.webp",
+      "sha": "8ca80d56899b987b1855e23def16771d3305c043",
+      "bytes": 368714
     }
   ]
 }
