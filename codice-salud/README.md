@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v3.0.1
+# Aeternalis · Tomo de Medicina v3.2.0
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,11 +11,11 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.0.1` y `js/codice-salud/visor.js?v=3.0.1`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.2.0` y `js/codice-salud/visor.js?v=3.2.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
-- **107 folios** organizados en ocho secciones.
+- **105 folios** organizados en ocho secciones.
 - **8 razas**, con estudio del cuerpo, rasgos, hábitos y riesgos ambientales. Las láminas que no correspondan a anatomías aprobadas mantienen la advertencia editorial.
 - **16 plantas** descritas e ilustradas con una lámina principal y un detalle de archivo. Algunas imágenes son aproximaciones **preliminares**, nunca una identificación botánica canónica.
 - **3 pestilencias reglamentadas**: Fiebre de Driadem, Canto de la Orquídea Marchita y Sangrenegra, cada una con historia clínica, exposición, calculadora, secuelas y etiologías disputadas.
@@ -132,3 +132,19 @@ La versión 3 sustituye la composición de barras por una arquitectura de códic
 El módulo permanece encapsulado en `#ae-codice-salud`. No modificar el CSS base de Foroactivo ni instalar de nuevo el maestro si ya está activo. Las imágenes, sus rótulos, las calculadoras y las reglas se obtienen de fuentes separadas como antes.
 
 **Pruebas completadas:** arranque, apertura, cierre, navegación a herbario y enfermedad, pestañas de índice/herramientas/notas, un folio móvil y navegación mediante API, con DOM simulado; sintaxis de JavaScript correcta, CSS con llaves equilibradas y referencias nuevas de assets existentes. **Pendiente:** comparación visual en un tema real, y verificar si el contenedor externo del tema recorta el libro ampliado.
+
+## Fase 7 · Apostillas del facultativo · v3.2.0
+
+Las casillas al pie de los folios ya no son avisos de revisión. Se transformaron en **notas manuscritas narrativas**, con pequeña ornamentación de pluma, observación del autor y firma de personaje ficticio (o `Autor desconocido`).
+
+**Fuente:** `data/codice-salud/apostillas-facultativo-v01.json`. Registra **95 apostillas** independientes: 24 para las 8 razas, 32 para las 16 plantas, 27 para las 3 enfermedades, 8 para las secciones y 4 para herramientas generales.
+
+- Cada raza tiene una observación para el grabado, otra para costumbres o riesgos, y una para su archivo.
+- Cada planta tiene un comentario visual de herbolario y otro sobre preparación, cuidado o recolección.
+- Cada pestilencia contiene observaciones diferenciadas para síntomas, historia clínica, ilustración, evolución de secuelas, hipótesis, exposición, cálculos, cuidados y deterioro (donde corresponde).
+- El cajón lateral «Notas» presenta la misma apostilla del folio. Se sustituyeron textos visibles de «pendiente de aprobación», «borrador», «no es canon» y advertencias semejantes por fragmentos literarios.
+- La identidad de los autores pertenece a la ambientación narrativa y **no se postula como personaje canónico** sin validación del staff. Las reglas, umbrales y calculadoras **siguen procediendo exclusivamente** de `data/pestilencias/enfermedades.json`.
+
+Esta edición también consolida el archivo anatómico con exactamente 8 razas: Altos Elfos, Humanos, Nórin, Yūgen, Montaraces, Enanos, Sin'hair y Amarant. Las láminas del antiguo catálogo de anatomía no muerta se conservan solo en el expediente de la Fiebre de Driadem como comparaciones de deterioro orgánico, no como raza ni transformación clínica obligatoria. Los orcos y reptilianos quedan fuera del visor.
+
+**Pruebas con DOM simulado:** se recorrieron los 105 folios; sus 201 apariciones de recuadros de glosa en dobles páginas fueron firmadas y no contienen etiquetas editoriales de borrador. Se comprobaron anotaciones de Elfos, Llantén y Fiebre de Driadem. Pendiente inspección visual real en Foroactivo.
