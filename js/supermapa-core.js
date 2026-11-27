@@ -259,28 +259,32 @@ function start(root){
   const old=saved.edges.filter(validEdge);
   if((saved.networkVersion||0)>=13){
     edges=old; // Conservar los tramos eliminados, editados y aprobados del usuario.
-    if((saved.networkVersion||0)<17){
-      // Reconciliar caminos publicados con borradores antiguos sin pisar modificaciones propias.
-      edges=edges.filter(e=>!(['base-129','base-130'].includes(e.id)&&e.status==='propuesta'&&
-        (e.reason||'').startsWith('Recorrido por hexágonos sugerido desde puntos')));
+    if((saved.networkVersion||0)<18){
+      const publishedIds=new Set(INITIAL_EDGES.map(e=>e.id));
+      const obsolete=new Set(['base-021','base-022','base-023','base-042','base-062','base-097','base-128','base-163','base-129','base-130']);
+      edges=edges.filter(e=>{
+        if(publishedIds.has(e.id)||!obsolete.has(e.id)||e.status==='confirmada')return true;
+        const raw=e.origin==='red_inicial_2026_11'&&!e.via?.length;
+        const previous=e.status==='propuesta'&&e.cartographicEvidence?.checked==='pendiente'&&
+          (e.reason||'').startsWith('Recorrido por hexágonos sugerido desde puntos');
+        return !(raw||previous);
+      });
       const byId=new Map(edges.map(e=>[e.id,e]));
       for(const published of INITIAL_EDGES){
         const local=byId.get(published.id);
         if(!local){
-          // Se añaden exclusivamente los nuevos caminos costeros y, si procede, los de Verdanteyl.
-          const fresh=/^atlas-(costera-|elf-coast-)/.test(published.id);
-          const oldVerdanteyl=(saved.networkVersion||0)<16&&published.id.startsWith('atlas-ver-');
-          if(fresh||oldVerdanteyl){const copy={...published,via:[...(published.via||[])]};edges.push(copy);byId.set(copy.id,copy);}
+          if(/^atlas-/.test(published.id)){
+            const copy={...published,via:[...(published.via||[])]};
+            edges.push(copy);byId.set(copy.id,copy);
+          }
           continue;
         }
-        const untouchedOriginal=!local.via?.length&&
-          ['red_inicial_2026_11','trazado_raster_verdanteyl_2026_11'].includes(local.origin||'');
-        const priorComputerSuggestion=local.cartographicEvidence?.checked==='pendiente'&&
+        if(!published.via?.length||local.status==='confirmada')continue;
+        const emptyOriginal=local.status==='propuesta'&&!local.via?.length&&local.origin==='red_inicial_2026_11';
+        const oldAutomatic=local.status==='propuesta'&&local.cartographicEvidence?.checked==='pendiente'&&
           (local.reason||'').startsWith('Recorrido por hexágonos sugerido desde puntos');
-        if(published.cartographicEvidence&&published.via?.length&&local.status==='propuesta'&&
-           (untouchedOriginal||priorComputerSuggestion)){
-          local.via=[...published.via];
-          local.cartographicEvidence=published.cartographicEvidence;
+        if(emptyOriginal||oldAutomatic){
+          local.via=[...published.via];local.cartographicEvidence=published.cartographicEvidence;
           local.reason=published.reason;
         }
       }
@@ -294,7 +298,13 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:17,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:18,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ if(saved&&(saved.networkVersion||0)<18){
+   try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V18';
+     if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
+   }catch(e){console.warn('[Atlas] No se pudo respaldar la red previa',e)}
+   saveDraft();
+ }
  // Lattice calculated from the old hex-image (flat-top): horizontal q step ~14 and vertical r step ~16 logical units.
  function hexWorld(q,r){const R=hex.radius;return {x:hex.phaseX+1.5*R*q,y:hex.phaseY+Math.sqrt(3)*R*(r+q/2)}}
  function hexFromXY(x,y){const R=hex.radius;const u=x-hex.phaseX,v=y-hex.phaseY;
@@ -332,7 +342,10 @@ function start(root){
   const type={road:'Camino',trail:'Senda',sea:'Navegación'}[e.kind]||'Tramo';
   return `${names.join(' → ')} · ${type} · ${updateEdgeHexes(e)} hex. · ${e.status==='confirmada'?'CONFIRMADO':'PROPUESTA'} (no oficial)`;
  }
- function rerenderRoutes(){routeLayer.clearLayers();if(roadsVisible){for(const e of edges){const pts=endpoints(e);if(!pts)continue;
+ function rerenderRoutes(){routeLayer.clearLayers();if(roadsVisible){for(const e of edges){
+  // Sólo mostrar caminos con vértices cartográficos. Las travesías están en Carta Náutica.
+  if(e.kind==='sea'||!Array.isArray(e.via)||!e.via.length)continue;
+  const pts=endpoints(e);if(!pts)continue;
    const color=e.kind==='sea'?'#70c9df':e.kind==='road'?'#d8ae66':'#ab9c7b';
    const provisional=e.status!=='confirmada';
    const poly=L.polyline(pts.map(p=>XY(p.x,p.y)),{color,weight:provisional?2.0:3.4,opacity:provisional?.57:.93,dashArray:provisional?(e.kind==='sea'?'4 7':'3 6'):(e.kind==='trail'?'8 4':null)});
@@ -369,7 +382,8 @@ function start(root){
       marker.bindTooltip(`${i===0?'Origen':i===ids.length-1?'Destino':'Escala '+i}: ${p.name}`,{direction:'top'});
     });
   }
-  function edgeCost(e,mode){const n=updateEdgeHexes(e);const isSea=e.kind==='sea';let h;
+  function edgeCost(e,mode){if(!Array.isArray(e.via)||!e.via.length)return Infinity;
+   const n=updateEdgeHexes(e);const isSea=e.kind==='sea';let h;
   if(mode==='air'){h=n*4}
   else if(isSea){if(['boat','footboat','horseboat'].includes(mode))h=n*24;else return Infinity}
   else {const m=(mode==='footboat'?'foot':mode==='horseboat'?'horse':mode);if(m!=='foot'&&m!=='horse')return Infinity;h=n*STATS[m][e.kind==='road'?'road':'land']}
@@ -418,7 +432,7 @@ function start(root){
       route=findNetworkRoute(a,b,mode,!!byId('ae-route-strict')?.checked);
     }
     currentRoute=route;
-    if(!route){chosenLayer.clearLayers();node.innerHTML=`<div class="ae-route-empty"><strong>No existe una ruta disponible.</strong><p>Las conexiones registradas no permiten llegar al destino con el transporte y las condiciones elegidas. Prueba un viaje mixto o permite los tramos provisionales.</p><p>No se inventan caminos para unir localidades aisladas.</p></div>`;return;}
+    if(!route){chosenLayer.clearLayers();node.innerHTML=`<div class="ae-route-empty"><strong>No existe una ruta disponible.</strong><p>Las conexiones registradas no permiten llegar al destino con el transporte y las condiciones elegidas. Consulta la Carta Náutica para travesías por mar; los enlaces sin camino cartografiado no permiten un viaje terrestre.</p><p>No se inventan caminos para unir localidades aisladas.</p></div>`;return;}
     routeVisible=true;byId('ae-toggle-route').setAttribute('aria-pressed','true');drawRoute(route);focusCalculatedRoute();
     const proposed=route.edges.filter(e=>e.status!=='confirmada').length;
     const duration=fmtDuration(route.hours);
