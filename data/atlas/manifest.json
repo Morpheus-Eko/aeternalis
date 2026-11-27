@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-supermapa-solo-caminos-trazados-v18",
+  "revision": "2026-11-27-avalon-cuatro-corredores-costeros-v19",
   "counts": {
     "places": 118,
     "regions": 24,
-    "roads": 162,
+    "roads": 166,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
@@ -21,12 +21,13 @@
     "coastalRoutesRevised": 20,
     "coastalNewConnections": 5,
     "coastalRedundantRemoved": 2,
-    "roadTracedLand": 131,
+    "roadTracedLand": 135,
     "roadProposalsFromOldStraights": 97,
     "roadWithoutLandTraceArchived": 8,
-    "landConnectedPoints": 103,
-    "landDisconnectedPoints": 15,
-    "navalLegacyRecords": 31
+    "landConnectedPoints": 105,
+    "landDisconnectedPoints": 13,
+    "navalLegacyRecords": 31,
+    "avalonNewCoastalRoads": 4
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -57,8 +58,9 @@
     "roadPigments": "data/atlas/caminos-pigmentos-verdanteyl-elfos.json",
     "roadSouthAudit": "data/atlas/caminos-rutas-sur-candidatas.json",
     "coastalRoutesAudit": "data/atlas/caminos-trazados-costeros-2026-11-27.json",
-    "untracedRoadArchive": "data/atlas/caminos-sin-trazado.json"
+    "untracedRoadArchive": "data/atlas/caminos-sin-trazado.json",
+    "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Supermapa completo: 131 rutas terrestres con vértices cartográficos (34 previas y 97 recuperadas de auditoría), sin rectas entre asentamientos. Ocho conexiones anteriores no justificadas como camino terrestre se conservan en archivo y se excluyen de rutas activas. Los 31 registros marítimos permanecen intactos como datos históricos pero se ocultan de la capa terrestre y se gestionan por Carta Náutica. 103 de 118 localidades tienen al menos una conexión terrestre; 15 carecen de camino terrestre visible o se ubican en islas/áreas aisladas. Todas las rutas terrestres siguen marcadas como propuestas hasta su revisión final."
+  "note": "Supermapa completo con 135 caminos terrestres hexagonales (131 anteriores + 4 recorridos costeros nuevos) y 31 registros históricos de navegación no trazados en la capa terrestre. Nuevas rutas: Engerlass–Puerto Volker, Puerto del Ahogado–Kyder, Fortaleza del Alba–Kyder y Fuerte Elyssfor–Faro Crepuscular. 105/118 localidades presentan enlace terrestre. Dos rutas costeras tocan un hexágono limítrofe marcado como agua: requieren revisión fina de la línea de costa. Ningún enlace fue confirmado automáticamente."
 }
