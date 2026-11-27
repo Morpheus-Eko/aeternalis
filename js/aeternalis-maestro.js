@@ -82,6 +82,13 @@
     guard:function(){var r=doc.getElementById('ae-pestilencias');return !!window.AeternalisCodicePestilencias||!!(r&&r.dataset.aepBoot);},
     start:function(){return withStyles('css/pestilencias.css','ae-pestilencias-css-v1','js/pestilencias/visor.js','ae-pestilencias-js-v1','1.5.0');}
   };
+  // Códice de la Salud: libro anatómico independiente, solo con #ae-codice-salud.
+  // No modifica el viejo módulo de pestilencias ni carga assets en otras páginas.
+  modules.salud={
+    root:'#ae-codice-salud',
+    guard:function(){var r=doc.getElementById('ae-codice-salud');return !!window.AeternalisCodiceSalud||!!(r&&r.dataset.acsBoot);},
+    start:function(){return withStyles('css/codice-salud.css','ae-codice-salud-css-v1','js/codice-salud/visor.js','ae-codice-salud-js-v1','1.0.0');}
+  };
   modules.cronologia={
     root:'#aec-cronologia',
     guard:function(){return !!window.AeternalisCronologiaV3||!!doc.getElementById('aec-cronologia-v3-js');},
