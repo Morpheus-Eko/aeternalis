@@ -33,7 +33,7 @@ Se presenta como **Gabinete de Cuarentena**, con un armario de tres sellos patol
 
 ## Integración
 
-En una publicación del foro, pegar el contenido del archivo `foroactivo/HTML_CODICE_PESTILENCIAS_PEGAR.txt`. El JS maestro de Aeternalis ya incluye el módulo `pestilencias` y no lo descarga si el contenedor está ausente. No modificar el JS global ni el CSS base.
+En una publicación del foro, pegar el contenido del archivo `foroactivo/HTML_CODICE_PESTILENCIAS_PEGAR.txt`, que incluye **`<div class="hidethisprofile"></div>`** para ocultar la ficha lateral del autor y **`<div id="ae-pestilencias"></div>`** para activar el módulo. El marcador usa el mecanismo existente de Foroactivo y solo afecta la publicación en la que se inserta. El JS maestro de Aeternalis ya incluye el módulo `pestilencias` y no lo descarga si el contenedor está ausente. No modificar el JS global ni el CSS base.
 
 Vista independiente: https://morpheus-eko.github.io/aeternalis/pestilencias/
 
