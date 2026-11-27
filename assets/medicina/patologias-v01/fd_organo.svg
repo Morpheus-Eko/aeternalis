@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" aria-label="Fiebre de Driadem: lámina de organo">
+ <defs>
+  <radialGradient id="paper" cx=".43" cy=".42" r=".76"><stop offset="0" stop-color="#f3e9d1"/><stop offset=".64" stop-color="#e6d3ae"/><stop offset="1" stop-color="#cbb186"/></radialGradient>
+  <linearGradient id="robe" x1=".1" y1=".2" x2=".9" y2=".8"><stop offset="0" stop-color="#8b7760"/><stop offset="1" stop-color="#4f4438"/></linearGradient>
+  <linearGradient id="skin" x1=".15" y1=".1" x2=".85" y2=".9"><stop offset="0" stop-color="#ceac83"/><stop offset=".56" stop-color="#ad8d6b"/><stop offset="1" stop-color="#7b624e"/></linearGradient>
+  <linearGradient id="stain" x1=".1" y1=".1" x2=".9" y2=".8"><stop offset="0" stop-color="#b4c3a0"/><stop offset="1" stop-color="#536e59"/></linearGradient>
+  <radialGradient id="vignette"><stop offset=".53" stop-color="#9b7950" stop-opacity="0"/><stop offset="1" stop-color="#69472b" stop-opacity=".17"/></radialGradient>
+  <pattern id="lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M1 0V9" stroke="#593e2c" stroke-width=".75" opacity=".2"/></pattern>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="7" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+ </defs>
+ <rect width="640" height="800" fill="url(#paper)"/>
+ <rect width="640" height="800" fill="#564535" filter="url(#grain)" opacity=".16"/>
+ <rect width="640" height="800" fill="url(#vignette)"/>
+ <g fill="none" stroke="#536e59" opacity=".54" stroke-width="2"><rect x="23" y="23" width="594" height="754" rx="8"/><rect x="36" y="36" width="568" height="728" rx="5" stroke-width=".8"/>
+<path d="M35 104 Q78 102 80 40 M605 104 Q562 102 560 40 M35 696 Q77 698 80 758 M605 696 Q562 698 560 758"/></g>
+<g opacity=".12" stroke="#536e59" stroke-width="1.2" fill="none"><path d="M64 55 l-23 20 M64 745 l-23 20"/><path d="M93 55 l-23 20 M93 745 l-23 20"/><path d="M122 55 l-23 20 M122 745 l-23 20"/><path d="M151 55 l-23 20 M151 745 l-23 20"/><path d="M180 55 l-23 20 M180 745 l-23 20"/><path d="M209 55 l-23 20 M209 745 l-23 20"/><path d="M238 55 l-23 20 M238 745 l-23 20"/><path d="M267 55 l-23 20 M267 745 l-23 20"/><path d="M296 55 l-23 20 M296 745 l-23 20"/><path d="M325 55 l-23 20 M325 745 l-23 20"/><path d="M354 55 l-23 20 M354 745 l-23 20"/><path d="M383 55 l-23 20 M383 745 l-23 20"/><path d="M412 55 l-23 20 M412 745 l-23 20"/><path d="M441 55 l-23 20 M441 745 l-23 20"/><path d="M470 55 l-23 20 M470 745 l-23 20"/><path d="M499 55 l-23 20 M499 745 l-23 20"/><path d="M528 55 l-23 20 M528 745 l-23 20"/><path d="M557 55 l-23 20 M557 745 l-23 20"/></g><g fill="none" stroke="#536e59" opacity=".35" stroke-width="2"><ellipse cx="320" cy="402" rx="234" ry="293"/><ellipse cx="320" cy="402" rx="245" ry="303" stroke-dasharray="7 11"/></g><g stroke="#4e392e" stroke-width="5" stroke-linejoin="round">
+ <path d="M306 120V302 M330 121V302" stroke="#5e4c40" stroke-width="17" fill="none"/>
+ <path d="M318 291 Q292 311 262 337 M317 291 Q347 309 372 340 M262 337 L212 380 M372 340 L410 370 M260 337 L245 417 M376 343 L397 427" fill="none" stroke="#6b5545" stroke-width="11"/>
+ <path d="M294 305 Q252 252 188 282 Q139 309 133 390 Q111 507 162 596 Q205 666 271 622 Q287 607 285 542 L287 348Z" fill="url(#stain)"/>
+ <path d="M341 302 Q395 261 445 293 Q507 334 499 428 Q522 552 465 620 Q399 681 350 612 Q334 555 342 488Z" fill="url(#stain)"/>
+ <path d="M162 353 Q191 380 245 383 M154 430 Q206 447 270 453 M171 513 Q207 543 257 545 M468 346 Q419 392 355 391 M486 441 Q438 457 362 463 M462 529 Q425 555 367 550" fill="none" stroke="#f0e0bc" opacity=".53" stroke-width="3"/>
+ </g>
+ <circle cx="184" cy="405" r="10" fill="#536e59" opacity=".72"/><circle cx="182" cy="403" r="2.5" fill="#ead9b4" opacity=".6"/><circle cx="221" cy="510" r="9" fill="#536e59" opacity=".72"/><circle cx="219" cy="508" r="2.25" fill="#ead9b4" opacity=".6"/><circle cx="422" cy="389" r="13" fill="#536e59" opacity=".72"/><circle cx="420" cy="387" r="3.25" fill="#ead9b4" opacity=".6"/><circle cx="459" cy="488" r="10" fill="#536e59" opacity=".72"/><circle cx="457" cy="486" r="2.5" fill="#ead9b4" opacity=".6"/>
+ </svg>
