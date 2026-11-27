@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-optimizar-cache-cargador-atlas-1",
+  "revision": "2026-11-27-fix-kale-tdz-atlas-boot-1",
   "counts": {
     "places": 122,
     "regions": 26,
@@ -127,5 +127,8 @@
     "strategy": "Manifiesto no-store, datos y núcleo con versión estable de manifiesto y caché del navegador; un reintento breve ante error de red.",
     "reason": "Evitar que ?v=Date.now() y cache:no-store descarguen de nuevo 16 archivos del Atlas en cada apertura",
     "date": "2026-11-27"
+  },
+  "fixLog": {
+    "kaleInitialization": "Corrección de la inicialización de pendingKaleRoadSave antes de usarla; evitar error de temporal dead zone que bloqueaba Atlas y la Carta Náutica."
   }
 }
