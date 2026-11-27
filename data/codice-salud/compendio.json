@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-codice-salud-v1",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "title": "Tomo de Medicina · El Códice de la Salud",
   "notice": "Compendio ficticio. Salvo las reglas existentes de pestilencias, toda hipótesis médica o herbario es material narrativo y no crea estadísticas.",
   "intros": [
@@ -44,8 +44,8 @@
       "life": "Hasta unos cinco mil años; infancia y adolescencia durante el primer siglo",
       "habitat": "Bosques ancestrales, arboledas y asentamientos élficos",
       "shape": "Proporciones generalmente esbeltas; orejas alargadas y fisonomía variable según la región.",
-      "habits": "En los cuadernos de los herboristas aparecen frutas, verduras y numerosos remedios del bosque. Son hábitos culturales, no prueba de incapacidad de tolerar otros alimentos.",
-      "risks": "Al seguir durante siglos a una población, las heridas viejas y los cambios lentos de la edad requieren una escala distinta. Una vida prolongada no demuestra inmunidad a pestilencias.",
+      "habits": "Los herboristas de los bosques altos registran frutos, verduras y numerosos preparados vegetales en las mesas élficas. La diversidad de sus alimentos cambia entre regiones y casas.",
+      "risks": "En una vida prolongada, las heridas antiguas y los cambios lentos de la edad se examinan con especial atención. Los médicos no confunden longevidad con inmunidad frente a las pestilencias.",
       "voice": "Copia de un médico de los bosques; contrastada con la ficha de los Altos Elfos.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
@@ -61,7 +61,7 @@
       "habitat": "Cuatro Montañas y tierras frías de Bergheim",
       "shape": "Gran estatura, complexión robusta y resistencia al frío descrita en la ficha racial.",
       "habits": "Los refugios, las pieles, el fuego y el alimento conservado son parte de su medicina cotidiana. La destreza de sobrevivir fuera del abrigo no equivale a prosperar enfermo.",
-      "risks": "Frío extremo, vientos, lesiones de caza y dificultades para asistir a los enfermos durante los deshielos. La resistencia al frío no excluye infección, envenenamiento ni secuelas.",
+      "risks": "El frío extremo, los vientos y las lesiones de caza dificultan la asistencia a los enfermos durante el deshielo. La resistencia al frío no protege por sí sola de infecciones, venenos ni secuelas.",
       "voice": "Apunte de un cirujano de campaña en las rutas de montaña.",
       "image": "assets/razas/imagenes/montaraces.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
@@ -76,8 +76,8 @@
       "life": "Aproximadamente 90 años, según la ficha histórica",
       "habitat": "Valles, puertos e islotes de Ithar’iamil",
       "shape": "A simple vista son indistinguibles de los humanos; los ojos rasgados aparecen como rasgo predominante.",
-      "habits": "El arroz, la pesca, la vida de aldeas, los entrenamientos y las travesías marítimas determinan muchas de sus dolencias ordinarias. La magia Kuro no modifica por igual el cuerpo de todos.",
-      "risks": "Las marcas de la corrupción del Kuro se observan solo en afectados; el temor a su contagio no constituye prueba de transmisión. No se presume un órgano mágico.",
+      "habits": "El arroz, la pesca, la vida de aldea, los entrenamientos y las travesías marítimas acompañan sus dolencias ordinarias. Los efectos de la magia Kuro se manifiestan en quienes padecen su corrupción, no en todos los miembros del pueblo.",
+      "risks": "Las marcas del Kuro se examinan en los afectados por la corrupción. Los sanadores distinguen esta condición de las enfermedades contagiosas registradas en sus cuadernos.",
       "voice": "Notas combinadas de una sacerdotisa portuaria y un viajero; referencias al registro de Eko.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
@@ -92,9 +92,9 @@
       "measure": "120–150 cm",
       "life": "150–200 años",
       "habitat": "Grandes salones, minas, talleres y poblados subterráneos",
-      "shape": "Talla menor y corpulencia variable; la ficha destaca diversidad de cabellos y ojos, sin fijar anatomía extraordinaria.",
+      "shape": "Talla menor y corpulencia diversa, con variaciones de cabello, ojos y fisonomía entre clanes y regiones.",
       "habits": "Minar, fundir y construir hacen que el humo, la piedra molida y la ventilación formen parte de cualquier interrogatorio médico.",
-      "risks": "Tos y fatiga asociadas al polvo, quemaduras de taller, caídas y falta de aire en las galerías. No atribuir una dolencia al linaje antes de examinar el lugar de trabajo.",
+      "risks": "La tos y la fatiga aparecen entre quienes respiran polvo de piedra; las forjas dejan quemaduras y las galerías exponen a caídas y aire enrarecido. El facultativo examina primero las condiciones de trabajo.",
       "voice": "Informe de un boticario y un capataz de taller; no establece resistencias mecánicas.",
       "image": "assets/razas/imagenes/enanos.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
@@ -110,7 +110,7 @@
       "habitat": "Valles, ciudades, marismas, montes, puertos y fortalezas",
       "shape": "Fisonomía variable: una sola lámina no agota la diversidad de los habitantes de Aeternalis.",
       "habits": "La alimentación, los oficios y la higiene de una población son tan relevantes como su origen. El paciente debe ser preguntado antes de ser juzgado.",
-      "risks": "La exposición a la humedad, el polvo, el agua deteriorada y las expediciones explica parte de las enfermedades comunes. No afirmar resistencias raciales nuevas.",
+      "risks": "La humedad, el polvo, el agua degradada y las largas expediciones acompañan numerosas afecciones humanas. Los registros de cada región permiten distinguir los padecimientos habituales.",
       "voice": "Mesa de observación de un hospital de campaña.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/torso_visceral.webp",
@@ -126,7 +126,7 @@
       "habitat": "Fértiles planicies, aldeas agrícolas y huertas",
       "shape": "Complexión principalmente delgada; pies que a menudo van descalzos y presentan vello dorsal según la descripción racial.",
       "habits": "Cultivo, vida de aldea y cuidado de huertas. Las manos y los pies de quienes trabajan la tierra son buenas páginas para el anatomista.",
-      "risks": "Rozaduras en los pies, fatiga tras largas cosechas, heridas en faenas agrícolas y enfermedades transmitidas por aguas estancadas, como hipótesis de campo, no como regla de raza.",
+      "risks": "Los pies descalzos sufren rozaduras; las cosechas prolongadas traen fatiga y heridas de herramientas. El agua estancada merece vigilancia especial cuando aparecen fiebres entre los habitantes de una aldea.",
       "voice": "Cuaderno de una partera rural Nórin; confirmado con la ficha racial.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_frontal.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pies.webp",
@@ -142,7 +142,7 @@
       "habitat": "Bosques, valles verdes y asentamientos de los distintos clanes",
       "shape": "Orejas alargadas y notable diversidad de rostros, complexiones, pigmentación y señales de linaje; los clanes no se reducen a un solo modelo.",
       "habits": "Las tradiciones del clan, la caza, los tatuajes de ciertos pueblos y los itinerarios por bosques merecen registros por separado.",
-      "risks": "Insectos y humedad de manglares donde corresponda, lesiones de caza y problemas de agua. No asignar una predisposición hereditaria sin reglas o registros que la sostengan.",
+      "risks": "Los insectos de las zonas húmedas, las heridas de caza y el agua degradada dejan huellas diferentes según el itinerario del clan. El médico estudia el lugar y las circunstancias de cada dolencia.",
       "voice": "Dos cronistas de clanes distintos ofrecen testimonios que no deben reducirse a una sola figura.",
       "image": "assets/razas/imagenes/sinhair.webp",
       "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
@@ -158,7 +158,7 @@
       "habitat": "Selvas húmedas y territorios de las Amazonas",
       "shape": "Origen histórico asociado a la mezcla de altos elfos y montaraces; orejas puntiagudas de menor longitud que las de los altos elfos y gran estatura.",
       "habits": "La vida entre ríos, lianas y doseles exige conocimiento botánico y atención constante a las heridas de expedición.",
-      "risks": "Humedad, insectos, heridas que se ocultan bajo vendajes mojados y riesgo de intoxicación por plantas desconocidas. La semejanza con dos linajes no crea bonificaciones nuevas.",
+      "risks": "La humedad, los insectos y las lianas dificultan las expediciones de las Amarant. Bajo los vendajes mojados pueden ocultarse heridas y la recolección de plantas desconocidas exige cautela.",
       "voice": "Testimonio de una recolectora y notas de una curandera de la selva.",
       "image": "assets/razas/imagenes/amarant.webp",
       "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
@@ -169,20 +169,20 @@
   "lineage": [
     {
       "title": "De la generación entre estirpes",
-      "subtitle": "Regla y observación no son lo mismo",
+      "subtitle": "De la descendencia de los pueblos",
       "text": [
-        "Los registros de parteras hablan de uniones entre pueblos, de nacimientos y de genealogías que algunas cortes aceptan y otras niegan. Lo que una comunidad desprecia no ofrece por ello una explicación médica.",
-        "El principio comunicado para el foro es que, en el mestizaje entre razas, el sexo del bebé está determinado por la raza de la madre. Se transcribe literalmente como regla declarada, sin inventar correspondencias o probabilidades no facilitadas."
+        "Los registros de las parteras conservan noticias de uniones entre distintos pueblos, de nacimientos y de genealogías que algunas cortes reconocen y otras rechazan. El desprecio de una comunidad por un linaje no altera la naturaleza de quienes lo integran.",
+        "En la descendencia nacida del mestizaje entre razas, el sexo del neonato queda determinado por la raza de la madre."
       ],
-      "voice": "Copia del archivero; glosas por revisar con la autoridad del foro",
+      "voice": "De las parteras y genealogistas",
       "image": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/esqueleto.webp"
     },
     {
       "title": "De la herencia y el nombre",
       "subtitle": "Parteras, linajes y disputas",
       "text": [
-        "No confundir el sexo del descendiente con su raza. Nada de lo aquí asentado resuelve por sí mismo qué rasgos transmite cada progenitor ni cómo se clasifica la descendencia en todos los casos.",
-        "Los pueblos Amarant se describen históricamente como una estirpe nacida del mestizaje de elfos y montaraces. La crónica de su origen no autoriza al anatomista a formular nuevas reglas de reproducción ni atributos."
+        "El sexo de un descendiente y su pertenencia racial son cuestiones distintas. Los rasgos que recibe de sus progenitores se observan en cada linaje y no se deducen del sexo por sí solo.",
+        "Las Amarant descienden históricamente de la unión entre altos elfos y montaraces. Sus rasgos conservan huellas de ambos pueblos, como narran las genealogías de su origen."
       ],
       "voice": "Observaciones de genealogistas y parteras",
       "image": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/posturas_comparativas.webp"
@@ -193,21 +193,21 @@
       "title": "De las montañas",
       "place": "Bergheim y las Cuatro Montañas",
       "narrator": "Cirujano de paso y guardián de un refugio",
-      "text": "Sobreviven mejor quienes conocen los abrigos, las reservas y la fecha del deshielo. Del frío nacen endurecimientos, heridas y peligros; no se asegura aquí enfermedad racial alguna.",
+      "text": "La vida en las Cuatro Montañas exige conocer los abrigos, las reservas y la fecha del deshielo. El frío castiga la piel, entumece las extremidades y agrava las heridas de quienes tardan en llegar a refugio.",
       "image": "assets/razas/imagenes/montaraces.webp"
     },
     {
       "title": "De las minas y los talleres",
       "place": "Salones enanos",
       "narrator": "Boticario de una forja",
-      "text": "El polvo entra donde no llegan las lámparas. Un minero tose y otro también; no por ello afirmaremos que todos los enanos padezcan el mismo mal.",
+      "text": "El polvo de la mina permanece en las galerías incluso después de apagadas las lámparas. La tos de los mineros obliga a examinar el aire, la ventilación y las jornadas en la piedra antes de iniciar el tratamiento.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp"
     },
     {
       "title": "Del manglar y las marismas",
       "place": "Verdanteyl y costas húmedas",
       "narrator": "Exploradora de la selva",
-      "text": "Las aguas detenidas, los insectos y los caminos de limo dificultan descubrir cuál es el origen de una fiebre. Aquí las hipótesis sobre la Fiebre de Driadem siguen siendo hipótesis.",
+      "text": "En los manglares, las aguas detenidas, los insectos y los senderos de limo acompañan numerosos relatos de fiebre. Los médicos registran los lugares de exposición y discuten las causas sin confundir sospechas con hallazgos.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/piel_seccion.webp"
     },
     {
@@ -221,7 +221,7 @@
       "title": "De las Tres Costas",
       "place": "Isla y puertos Yūgen",
       "narrator": "Sacerdotisa de puerto y sanador embarcado",
-      "text": "El pescado y el arroz sostienen a las aldeas; la lluvia, las heridas de remo y las guerras de los clanes las desgastan. Las marcas del Kuro no son una enfermedad contagiosa demostrada.",
+      "text": "El pescado y el arroz sostienen las aldeas de las Tres Costas; la lluvia, las heridas del remo y las guerras de los clanes desgastan a sus habitantes. Las marcas del Kuro aparecen en quienes padecen su corrupción y no se confunden con una afección común.",
       "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/paisaje_tres_costas.webp"
     },
     {
@@ -246,8 +246,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f06_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-02",
@@ -262,8 +262,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_flor_frontal.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-03",
@@ -278,8 +278,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_hoja_haz.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_hoja_enves.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-04",
@@ -294,8 +294,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_inflorescencia.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f10_corte_tallo.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-05",
@@ -310,8 +310,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f08_flor_frontal.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-06",
@@ -326,8 +326,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/raicilla_de_escarcha_provisional/f11_raiz_corte.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-07",
@@ -342,8 +342,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_paisaje_ribera.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f09_hoja.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-08",
@@ -358,8 +358,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f04_flor_frontal.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-09",
@@ -374,8 +374,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_raiz_suelta.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-10",
@@ -390,8 +390,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/enredadera_carmesi_no_canon/f13_hoja_enves.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/enredadera_carmesi_no_canon/f13_paisaje_selva.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-11",
@@ -406,8 +406,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_raiz_rodajas.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f05_hoja_haz.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-12",
@@ -422,8 +422,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_flor_frontal.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f08_hoja_enves.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-13",
@@ -438,8 +438,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/llanten_de_bruma_provisional/f07_hojas.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-14",
@@ -454,8 +454,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_corte_tallo.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f04_hoja_enves.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-15",
@@ -470,8 +470,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_paisaje_ribera.webp",
       "detail": "assets/medicina/herbario-v01/02_figuras_pergamino/campanilla_de_agua_provisional/f03_tallo_floral.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     },
     {
       "id": "h-16",
@@ -486,8 +486,8 @@
       "status": "propuesta narrativa; no efecto automático",
       "image": "assets/medicina/herbario-v01/02_figuras_pergamino/violetas_de_estudio/f02_semillas.webp",
       "detail": "assets/medicina/herbario-v01/03_figuras_tinta_transparente/violetas_de_estudio/f02_planta_completa.webp",
-      "imageStatus": "Estudio botánico provisional; no identificación de especie",
-      "illustrationNote": "Los grabados ilustran la morfología o el entorno descritos, sin establecer el aspecto canónico de esta especie."
+      "imageStatus": "Lámina del herbolario",
+      "illustrationNote": "Observación botánica conservada en el cuaderno del herbolario."
     }
   ],
   "archives": [
@@ -496,67 +496,68 @@
       "title": "Altos Elfos",
       "image": "assets/medicina/atlas-recortes-v01/recortes/elfos/femenino/elfos_femenino_B/figura_frontal.webp",
       "raceId": "elfos",
-      "note": "Estudio anatómico comparado de Altos Elfos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Altos Elfos, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "humanos",
       "title": "Humanos",
       "image": "assets/medicina/atlas-recortes-v01/recortes/humanos/femenino/humanos_femenino_B/figura_frontal.webp",
       "raceId": "humanos",
-      "note": "Estudio anatómico comparado de Humanos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Humanos, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "norin",
       "title": "Nórin",
       "image": "assets/medicina/atlas-recortes-v01/recortes/norin/femenino/norin_femenino_A/figura_frontal.webp",
       "raceId": "norin",
-      "note": "Estudio anatómico comparado de Nórin: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Nórin, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "yugen",
       "title": "Yūgen",
       "image": "assets/medicina/atlas-recortes-v01/recortes/yugen/femenino/yugen_femenino_A/figura_frontal.webp",
       "raceId": "yugen",
-      "note": "Estudio anatómico comparado de Yūgen: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Yūgen, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "montaraces",
       "title": "Montaraces",
       "image": "assets/medicina/atlas-recortes-v01/recortes/montaraces/femenino/montaraces_femenino_A/figura_frontal.webp",
       "raceId": "montaraces",
-      "note": "Estudio anatómico comparado de Montaraces: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Montaraces, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "enanos",
       "title": "Enanos",
       "image": "assets/medicina/atlas-recortes-v01/recortes/enanos/femenino/enanos_femenino_B/figura_frontal.webp",
       "raceId": "enanos",
-      "note": "Estudio anatómico comparado de Enanos: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Enanos, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "sinhair",
       "title": "Sin'hair",
       "image": "assets/medicina/atlas-recortes-v01/recortes/sinhair/femenino/sinhair_femenino_A/figura_completa.webp",
       "raceId": "sinhair",
-      "note": "Estudio anatómico comparado de Sin'hair: grabados separados por sexo cuando existen. Material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos láminas anatómicas de Sin'hair, conservadas para comparar las proporciones de sus modelos.",
+      "status": "Planchas del gabinete anatómico"
     },
     {
       "id": "amarant",
       "title": "Amarant",
       "image": "assets/medicina/atlas-recortes-v01/recortes/amarant/femenino/amarant_femenino_B/figura_frontal.webp",
       "raceId": "amarant",
-      "note": "Estudio anatómico femenino de las Amarant. La raza es exclusivamente femenina; material ilustrativo de revisión, no anatomía canónica.",
-      "status": "ilustración de estudio — pendiente de validación"
+      "note": "Dos estudios de anatomía femenina conservados en el archivo de las Amarant.",
+      "status": "Planchas del gabinete anatómico"
     }
   ],
   "editorialRevision": {
-    "atlasArchive": "2026-11-27: el archivo anatómico contiene solo las ocho razas vigentes. Se retiran del índice comparativas no canónicas, orcos, reptilianos y anatomía no muerta como raza. Las láminas de deterioro no muerto quedan disponibles solamente como referencias patológicas no literales en la Fiebre de Driadem."
+    "atlasArchive": "2026-11-27: el archivo anatómico contiene solo las ocho razas vigentes. Se retiran del índice comparativas no canónicas, orcos, reptilianos y anatomía no muerta como raza. Las láminas de deterioro no muerto quedan disponibles solamente como referencias patológicas no literales en la Fiebre de Driadem.",
+    "styleRevision": "2026-11-27: prosa del mundo, afirmativa. Aclaraciones técnicas deben rotularse Off rol desde el visor."
   }
 }
