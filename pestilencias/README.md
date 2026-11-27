@@ -1,4 +1,4 @@
-# El Códice de las Pestilencias · Interfaz v1.1
+# El Códice de las Pestilencias · Interfaz v1.4
 
 ## Una experiencia propia, no una variante del Astillero
 
@@ -55,3 +55,23 @@ Próximas iteraciones propuestas: relación visual con el Supermapa, imágenes e
 ## Navegación de libro v1.3
 
 Los controles se cargan desde `assets/codex/botones/gotico/`: `boton_avanzar_gotico_01.webp`, `boton_retroceder_gotico_02.webp`, `boton_indice_gotico_01.webp`. La navegación es bidireccional y mantiene el pliego y expediente seleccionados sin borrar datos de VIT, raza o exposición. Se agregaron etiquetas ARIA y se conserva el acceso mediante teclado.
+
+## Implementación integral del sistema de enfermedades · v1.4
+
+La interfaz es un **volumen abierto de dos hojas**: a la izquierda, el índice clínico (tres legajos) y una pequeña vitrina de bustos originales de `assets/codex/esculturas/`; a la derecha, el contenido normativo principal en pliego ancho con notas médicas desplegables. Por debajo de 1080 px el índice se desplaza encima de la lectura, sin comprimir los textos.
+
+### Documento fuente y fidelidad
+
+Se contrastó con `Sistema de enfermedades (En construccion).docx`, once páginas, con introducción, Fiebre de Driadem, Canto de la Orquídea Marchita, Sangrenegra (DLC Historia de Reeve) y cinco preguntas frecuentes completas. Las entradas 6–9 del documento son marcadores «C» sin contenido y no se muestran como reglas.
+
+Las fichas conservan los umbrales de tirada y los modificadores; el pliego I incorpora observaciones originales y teorías de contagio como hipótesis, el pliego II permite calcular probabilidades con el 1d100, y el pliego III presenta las secuelas e incluye las cinco preguntas frecuentes en notas desplegables. Las ambigüedades existentes (quinta exposición e inmunidad; progresión de Sangrenegra) quedan pendientes de una decisión del staff, **no se han completado con reglas inventadas**.
+
+### Criterio visual
+
+Solo **los títulos** se renderizan en texto heredando la tipografía del foro. Botones y controles de navegación se representan con imágenes reutilizadas del catálogo `assets/pestilencias/` y de `assets/codex/botones/gotico/`. Los bustos del Códex son *ilustraciones artísticas*, no estudios anatómicos ni una fuente de reglas de susceptibilidad racial.
+
+### Integración
+
+No es necesario modificar la publicación existente: si contiene `<div class="hidethisprofile"></div><div id="ae-pestilencias"></div>`, el JS maestro inicializa la versión nueva. El visor no realiza modificaciones de personajes, no almacena su ficha y no tira dados oficiales.
+
+La versión del JS maestro para Pestilencias se actualizó a `1.4.0`, lo que también actualiza el CSS cuando se carga el módulo. La URL de demostración independiente incorpora `?v=1.4.0` para el mismo fin.

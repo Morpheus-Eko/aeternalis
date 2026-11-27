@@ -80,7 +80,7 @@
   modules.pestilencias={
     root:'#ae-pestilencias',
     guard:function(){var r=doc.getElementById('ae-pestilencias');return !!window.AeternalisCodicePestilencias||!!(r&&r.dataset.aepBoot);},
-    start:function(){return withStyles('css/pestilencias.css','ae-pestilencias-css-v1','js/pestilencias/visor.js','ae-pestilencias-js-v1','1.3.0');}
+    start:function(){return withStyles('css/pestilencias.css','ae-pestilencias-css-v1','js/pestilencias/visor.js','ae-pestilencias-js-v1','1.4.0');}
   };
   modules.cronologia={
     root:'#aec-cronologia',
