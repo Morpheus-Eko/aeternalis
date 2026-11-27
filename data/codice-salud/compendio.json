@@ -1,0 +1,490 @@
+{
+  "schema": "aeternalis-codice-salud-v1",
+  "version": "1.0.0",
+  "title": "El Códice de la Salud",
+  "notice": "Compendio ficticio. Salvo las reglas existentes de pestilencias, toda hipótesis médica o herbario es material narrativo y no crea estadísticas.",
+  "intros": [
+    {
+      "title": "Advertencia del compilador",
+      "subtitle": "Del oficio de conservar la vida",
+      "voice": "Del compilador anónimo de las hojas reunidas",
+      "text": [
+        "En estas hojas he procurado juntar lo que muchos supieron y pocos escribieron. Difieren los médicos en los instrumentos, los sacerdotes en sus plegarias y los curanderos en las raíces que ofrecen a un enfermo; no me corresponde borrar sus discordias.",
+        "He reunido dibujos de huesos, nervios y entrañas, memorias de parteras, relatos de viajeros y los testimonios que un capitán confía a un cirujano antes de volver a la guerra. Cada prueba llevará el nombre de quien la sostuvo, si se conoce."
+      ],
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/humanos.webp"
+    },
+    {
+      "title": "Del arte de mirar",
+      "subtitle": "Las resistencias no son milagros",
+      "voice": "Glosa de un cirujano de campaña",
+      "text": [
+        "Vi un montaraz sobrevivir a un temporal de montaña y caer semanas después por una herida descuidada. Desde entonces pregunto a qué mal resiste cada pueblo, antes de proclamar que resiste a todos.",
+        "El aire, el agua y el oficio cuentan tanto como la sangre. La larga vida de un elfo o el trabajo de un enano no debe convertirse en un diagnóstico que no se haya observado."
+      ],
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp"
+    },
+    {
+      "title": "Del deber de escribir las dudas",
+      "subtitle": "Apostilla de los herbolarios",
+      "voice": "Del herbolario de un refugio de montaña",
+      "text": [
+        "La hierba que calma la tos de un minero no devuelve por ello el aire a unos pulmones arruinados. No prometo cura a la enfermedad que no comprendo.",
+        "Consignaremos las plantas, su estación, el lugar donde crecen y las heridas que, según testigos, ayudaron a sobrellevar. Tal vez el próximo médico encuentre nuestros errores: ruego que no los borre, sino que los anote."
+      ],
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/iconografia_pastoral.webp"
+    }
+  ],
+  "races": [
+    {
+      "id": "elfos",
+      "title": "Altos Elfos",
+      "subtitle": "Del largo curso de la vida",
+      "measure": "Hasta 180 cm, según la ficha racial",
+      "life": "Hasta unos cinco mil años; infancia y adolescencia durante el primer siglo",
+      "habitat": "Bosques ancestrales, arboledas y asentamientos élficos",
+      "shape": "Proporciones generalmente esbeltas; orejas alargadas y fisonomía variable según la región.",
+      "habits": "En los cuadernos de los herboristas aparecen frutas, verduras y numerosos remedios del bosque. Son hábitos culturales, no prueba de incapacidad de tolerar otros alimentos.",
+      "risks": "Al seguir durante siglos a una población, las heridas viejas y los cambios lentos de la edad requieren una escala distinta. Una vida prolongada no demuestra inmunidad a pestilencias.",
+      "voice": "Copia de un médico de los bosques; contrastada con la ficha de los Altos Elfos.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/cuerpo_frontal.webp",
+      "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
+      "detailTitle": "Cartílago y pabellón auricular",
+      "status": "estudio"
+    },
+    {
+      "id": "montaraces",
+      "title": "Montaraces",
+      "subtitle": "De los cuerpos de las Cuatro Montañas",
+      "measure": "190–210 cm",
+      "life": "Longevidad referida de 140–160 años",
+      "habitat": "Cuatro Montañas y tierras frías de Bergheim",
+      "shape": "Gran estatura, complexión robusta y resistencia al frío descrita en la ficha racial.",
+      "habits": "Los refugios, las pieles, el fuego y el alimento conservado son parte de su medicina cotidiana. La destreza de sobrevivir fuera del abrigo no equivale a prosperar enfermo.",
+      "risks": "Frío extremo, vientos, lesiones de caza y dificultades para asistir a los enfermos durante los deshielos. La resistencia al frío no excluye infección, envenenamiento ni secuelas.",
+      "voice": "Apunte de un cirujano de campaña en las rutas de montaña.",
+      "image": "assets/razas/imagenes/montaraces.webp",
+      "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_nordicos.webp",
+      "detailTitle": "Borrador comparativo, no canónico",
+      "status": "ilustración provisional"
+    },
+    {
+      "id": "yugen",
+      "title": "Yūgen",
+      "subtitle": "De los hombres de las Tres Costas",
+      "measure": "Estatura humana promedio",
+      "life": "Aproximadamente 90 años, según la ficha histórica",
+      "habitat": "Valles, puertos e islotes de Ithar’iamil",
+      "shape": "A simple vista son indistinguibles de los humanos; los ojos rasgados aparecen como rasgo predominante.",
+      "habits": "El arroz, la pesca, la vida de aldeas, los entrenamientos y las travesías marítimas determinan muchas de sus dolencias ordinarias. La magia Kuro no modifica por igual el cuerpo de todos.",
+      "risks": "Las marcas de la corrupción del Kuro se observan solo en afectados; el temor a su contagio no constituye prueba de transmisión. No se presume un órgano mágico.",
+      "voice": "Notas combinadas de una sacerdotisa portuaria y un viajero; referencias al registro de Eko.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/cuerpo_frontal.webp",
+      "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/yugen/kuro_mano_y_marcas.webp",
+      "detailTitle": "Mano marcada por Kuro",
+      "status": "estudio"
+    },
+    {
+      "id": "enanos",
+      "title": "Enanos",
+      "subtitle": "De huesos, galerías y oficios",
+      "measure": "120–150 cm",
+      "life": "150–200 años",
+      "habitat": "Grandes salones, minas, talleres y poblados subterráneos",
+      "shape": "Talla menor y corpulencia variable; la ficha destaca diversidad de cabellos y ojos, sin fijar anatomía extraordinaria.",
+      "habits": "Minar, fundir y construir hacen que el humo, la piedra molida y la ventilación formen parte de cualquier interrogatorio médico.",
+      "risks": "Tos y fatiga asociadas al polvo, quemaduras de taller, caídas y falta de aire en las galerías. No atribuir una dolencia al linaje antes de examinar el lugar de trabajo.",
+      "voice": "Informe de un boticario y un capataz de taller; no establece resistencias mecánicas.",
+      "image": "assets/razas/imagenes/enanos.webp",
+      "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_enanos.webp",
+      "detailTitle": "Hoja antigua de anatomía enana, en revisión",
+      "status": "ilustración provisional"
+    },
+    {
+      "id": "humanos",
+      "title": "Humanos",
+      "subtitle": "Del cuerpo diverso y sus costumbres",
+      "measure": "Proporciones diversas entre regiones y familias",
+      "life": "La ficha consultada no establece una cifra universal",
+      "habitat": "Valles, ciudades, marismas, montes, puertos y fortalezas",
+      "shape": "Fisonomía variable: una sola lámina no agota la diversidad de los habitantes de Aeternalis.",
+      "habits": "La alimentación, los oficios y la higiene de una población son tan relevantes como su origen. El paciente debe ser preguntado antes de ser juzgado.",
+      "risks": "La exposición a la humedad, el polvo, el agua deteriorada y las expediciones explica parte de las enfermedades comunes. No afirmar resistencias raciales nuevas.",
+      "voice": "Mesa de observación de un hospital de campaña.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/cuerpo_frontal.webp",
+      "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/torso_visceral.webp",
+      "detailTitle": "Vísceras y caja torácica",
+      "status": "estudio"
+    },
+    {
+      "id": "norin",
+      "title": "Nórin",
+      "subtitle": "De los pueblos pequeños de las planicies",
+      "measure": "90–120 cm",
+      "life": "En torno a 150 años",
+      "habitat": "Fértiles planicies, aldeas agrícolas y huertas",
+      "shape": "Complexión principalmente delgada; pies que a menudo van descalzos y presentan vello dorsal según la descripción racial.",
+      "habits": "Cultivo, vida de aldea y cuidado de huertas. Las manos y los pies de quienes trabajan la tierra son buenas páginas para el anatomista.",
+      "risks": "Rozaduras en los pies, fatiga tras largas cosechas, heridas en faenas agrícolas y enfermedades transmitidas por aguas estancadas, como hipótesis de campo, no como regla de raza.",
+      "voice": "Cuaderno de una partera rural Nórin; confirmado con la ficha racial.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/cuerpo_frontal.webp",
+      "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/pies.webp",
+      "detailTitle": "Pies y apoyo plantar",
+      "status": "estudio"
+    },
+    {
+      "id": "sinhair",
+      "title": "Sin'hair",
+      "subtitle": "Del linaje diverso de los valles verdes",
+      "measure": "El clan Vah’Irak suele medir 150–165 cm; otras familias difieren",
+      "life": "La ficha contiene variantes entre clanes; sin cifra global aquí",
+      "habitat": "Bosques, valles verdes y asentamientos de los distintos clanes",
+      "shape": "Orejas alargadas y notable diversidad de rostros, complexiones, pigmentación y señales de linaje; los clanes no se reducen a un solo modelo.",
+      "habits": "Las tradiciones del clan, la caza, los tatuajes de ciertos pueblos y los itinerarios por bosques merecen registros por separado.",
+      "risks": "Insectos y humedad de manglares donde corresponda, lesiones de caza y problemas de agua. No asignar una predisposición hereditaria sin reglas o registros que la sostengan.",
+      "voice": "Dos cronistas de clanes distintos ofrecen testimonios que no deben reducirse a una sola figura.",
+      "image": "assets/razas/imagenes/sinhair.webp",
+      "detail": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/altos_elfos/oreja.webp",
+      "detailTitle": "Oreja élfica de referencia, no lámina Sin’hair",
+      "status": "ilustración provisional"
+    },
+    {
+      "id": "amarant",
+      "title": "Amarant",
+      "subtitle": "De las estirpes de la selva indómita",
+      "measure": "185–210 cm",
+      "life": "Pendiente de contrastar con el registro racial",
+      "habitat": "Selvas húmedas y territorios de las Amazonas",
+      "shape": "Origen histórico asociado a la mezcla de altos elfos y montaraces; orejas puntiagudas de menor longitud que las de los altos elfos y gran estatura.",
+      "habits": "La vida entre ríos, lianas y doseles exige conocimiento botánico y atención constante a las heridas de expedición.",
+      "risks": "Humedad, insectos, heridas que se ocultan bajo vendajes mojados y riesgo de intoxicación por plantas desconocidas. La semejanza con dos linajes no crea bonificaciones nuevas.",
+      "voice": "Testimonio de una recolectora y notas de una curandera de la selva.",
+      "image": "assets/razas/imagenes/amarant.webp",
+      "detail": "assets/medicina/atlas-v01/04_laminas_comparadas_archivo/laminas_comparadas_02_panel_amarant.webp",
+      "detailTitle": "Estudio preliminar, iconografía no canónica",
+      "status": "ilustración provisional"
+    }
+  ],
+  "lineage": [
+    {
+      "title": "De la generación entre estirpes",
+      "subtitle": "Regla y observación no son lo mismo",
+      "text": [
+        "Los registros de parteras hablan de uniones entre pueblos, de nacimientos y de genealogías que algunas cortes aceptan y otras niegan. Lo que una comunidad desprecia no ofrece por ello una explicación médica.",
+        "El principio comunicado para el foro es que, en el mestizaje entre razas, el sexo del bebé está determinado por la raza de la madre. Se transcribe literalmente como regla declarada, sin inventar correspondencias o probabilidades no facilitadas."
+      ],
+      "voice": "Copia del archivero; glosas por revisar con la autoridad del foro",
+      "image": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/humanos/esqueleto.webp"
+    },
+    {
+      "title": "De la herencia y el nombre",
+      "subtitle": "Parteras, linajes y disputas",
+      "text": [
+        "No confundir el sexo del descendiente con su raza. Nada de lo aquí asentado resuelve por sí mismo qué rasgos transmite cada progenitor ni cómo se clasifica la descendencia en todos los casos.",
+        "Los pueblos Amarant se describen históricamente como una estirpe nacida del mestizaje de elfos y montaraces. La crónica de su origen no autoriza al anatomista a formular nuevas reglas de reproducción ni atributos."
+      ],
+      "voice": "Observaciones de genealogistas y parteras",
+      "image": "assets/medicina/atlas-v01/03_figuras_tinta_transparente/norin/posturas_comparativas.webp"
+    }
+  ],
+  "environments": [
+    {
+      "title": "De las montañas",
+      "place": "Bergheim y las Cuatro Montañas",
+      "narrator": "Cirujano de paso y guardián de un refugio",
+      "text": "Sobreviven mejor quienes conocen los abrigos, las reservas y la fecha del deshielo. Del frío nacen endurecimientos, heridas y peligros; no se asegura aquí enfermedad racial alguna.",
+      "image": "assets/razas/imagenes/montaraces.webp"
+    },
+    {
+      "title": "De las minas y los talleres",
+      "place": "Salones enanos",
+      "narrator": "Boticario de una forja",
+      "text": "El polvo entra donde no llegan las lámparas. Un minero tose y otro también; no por ello afirmaremos que todos los enanos padezcan el mismo mal.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/pulmones.webp"
+    },
+    {
+      "title": "Del manglar y las marismas",
+      "place": "Verdanteyl y costas húmedas",
+      "narrator": "Exploradora de la selva",
+      "text": "Las aguas detenidas, los insectos y los caminos de limo dificultan descubrir cuál es el origen de una fiebre. Aquí las hipótesis sobre la Fiebre de Driadem siguen siendo hipótesis.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/humanos/piel_seccion.webp"
+    },
+    {
+      "title": "De los valles cultivados",
+      "place": "Aldeas Nórin y tierras de regadío",
+      "narrator": "Partera y jornalero de una comunidad de agricultores",
+      "text": "La estación de las cosechas favorece la vida y trae heridas de herramienta, pies lesionados y fatiga. Los cuidados comunales salvan más que muchas recetas caras.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/norin/manos.webp"
+    },
+    {
+      "title": "De las Tres Costas",
+      "place": "Isla y puertos Yūgen",
+      "narrator": "Sacerdotisa de puerto y sanador embarcado",
+      "text": "El pescado y el arroz sostienen a las aldeas; la lluvia, las heridas de remo y las guerras de los clanes las desgastan. Las marcas del Kuro no son una enfermedad contagiosa demostrada.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/yugen/paisaje_tres_costas.webp"
+    },
+    {
+      "title": "Del bosque y sus sendas",
+      "place": "Límites de los altos elfos y pueblos Sin’hair",
+      "narrator": "Herborista del bosque",
+      "text": "Bajo la hoja más hermosa también oculta un insecto y una raíz puede confundir al aprendiz. Nada distingue tan bien un remedio de un veneno como el cuidado con que se ha observado.",
+      "image": "assets/medicina/atlas-v01/02_figuras_pergamino/altos_elfos/tejido.webp"
+    }
+  ],
+  "herbs": [
+    {
+      "id": "h-01",
+      "name": "Llantén de bruma · Folium nebularis",
+      "region": "caminos húmedos y huertas de clima templado",
+      "description": "hojas ovales recubiertas de una película plateada al alba",
+      "preparation": "cataplasma de hojas limpias y machacadas",
+      "usage": "refresca raspaduras y disminuye molestias leves en piel intacta o heridas superficiales previamente lavadas",
+      "limits": "no cierra cortes hondos, no esteriliza heridas infectadas y no reemplaza la cura de un cirujano",
+      "risk": "el material vegetal sucio puede empeorar la herida",
+      "source": "cuadernos de parteras rurales",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-02",
+      "name": "Campanilla de agua · Tincta rivularis",
+      "region": "arroyos y acequias limpias, sin preferencia racial",
+      "description": "flor diminuta de seis lóbulos y tallo flexible",
+      "preparation": "vapor suave de flores desecadas",
+      "usage": "facilita el descanso cuando la garganta está irritada por polvo o sequedad",
+      "limits": "no trata infecciones pulmonares graves ni neutraliza tóxicos inhalados",
+      "risk": "el vapor puede irritar a quien ya tiene dificultad respiratoria",
+      "source": "herbolarios de feria",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-03",
+      "name": "Hoja de tres inviernos · Viridia triquetra",
+      "region": "praderas y jardines conservados",
+      "description": "hoja trilobulada de color ceniza por el envés",
+      "preparation": "infusión amarga, en pequeñas cantidades",
+      "usage": "calma sensaciones leves de pesadez tras una comida",
+      "limits": "no corrige envenenamientos, enfermedades del hígado ni hambruna",
+      "risk": "su sabor amargo induce náusea en algunos enfermos",
+      "source": "testimonios de mesoneros y sanadoras",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-04",
+      "name": "Barba de pozo · Musculus putei",
+      "region": "paredones, pozos no salinos y muros en sombra",
+      "description": "filamentos grisverdosos que retienen humedad",
+      "preparation": "apósito exterior, una vez limpio",
+      "usage": "mantiene una compresa fresca y disminuye rozaduras bajo vendajes",
+      "limits": "no cura heridas por sí mismo",
+      "risk": "puede albergar hongos; no se aplica directamente sobre heridas abiertas",
+      "source": "cirujanos itinerantes",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-05",
+      "name": "Flor del vaho azul",
+      "region": "escarpas de Bergheim y quebradas de los montaraces",
+      "description": "flores azuladas que solo se abren en deshielos breves",
+      "preparation": "almohadilla tibia de pétalos secos",
+      "usage": "alivio pasajero de rigidez tras una marcha fría",
+      "limits": "nunca sustituye calor, abrigo y alimento ante el enfriamiento peligroso",
+      "risk": "recolección en risco y confusión con una variedad irritante",
+      "source": "curanderos de las Cuatro Montañas",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-06",
+      "name": "Raicilla de escarcha",
+      "region": "praderas subalpinas de Bergheim",
+      "description": "raíz rojiza de aroma picante",
+      "preparation": "decocción débil, tradicionalmente ofrecida a viajeros",
+      "usage": "reconforta a personas exhaustas, sin aumentar su fuerza efectiva",
+      "limits": "no impide congelación, infección ni muerte por exposición",
+      "risk": "en exceso provoca ardor y malestar estomacal",
+      "source": "refugios de pastores",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-07",
+      "name": "Alga de farol",
+      "region": "ensenadas resguardadas y costas de los Yūgen",
+      "description": "fronda verde translúcida que brilla levemente bajo la luna",
+      "preparation": "baños salobres y fomentos, tras limpiar la piel",
+      "usage": "ablanda costras secas y facilita su cuidado",
+      "limits": "no revierte corrupción del Kuro ni heridas profundas",
+      "risk": "los ejemplares de aguas contaminadas irritan",
+      "source": "parteras de aldeas costeras",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-08",
+      "name": "Pétalo de zafiro tardío",
+      "region": "terrazas de cultivo y santuarios Yūgen",
+      "description": "flor azulado-violácea de floración breve",
+      "preparation": "agua aromática para el lavado ritual de manos y utensilios",
+      "usage": "aroma reconfortante y limpieza de superficie cuando el agua se ha hervido",
+      "limits": "la flor no purifica agua sucia ni constituye antídoto",
+      "risk": "puede ocasionar dermatitis de contacto",
+      "source": "sacerdotisas de tres puertos",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-09",
+      "name": "Resina de lianas quietas",
+      "region": "selvas húmedas habitadas por las Amarant",
+      "description": "savia clara que espesa al aire",
+      "preparation": "fina película exterior sobre tela limpia; nunca en el interior de una herida",
+      "usage": "reduce rozaduras y protege vendajes frente a la humedad",
+      "limits": "no sustituye sutura ni cura infección",
+      "risk": "el calor intensifica su poder irritante",
+      "source": "recolectoras de doseles",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-10",
+      "name": "Helecho de gota roja",
+      "region": "sombra profunda de la selva Amarant",
+      "description": "nervaduras rojas y esporas muy frágiles",
+      "preparation": "hojas lavadas, solo para baños exteriores de corta duración",
+      "usage": "disminución temporal de picor por insectos",
+      "limits": "no neutraliza venenos ni parásitos",
+      "risk": "esporas crudas irritan ojos y vías respiratorias",
+      "source": "shamanes y exploradores",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-11",
+      "name": "Candelaria de veta",
+      "region": "bocas de mina y fisuras ventiladas de las tierras enanas",
+      "description": "hongo pálido que crece junto a depósitos minerales secos",
+      "preparation": "se seca y emplea como pigmento para marcar vendajes o recipientes; no se ingiere",
+      "usage": "uso diagnóstico y de inventario, no medicinal directo",
+      "limits": "no elimina polvo de los pulmones",
+      "risk": "inhalación de esporas en las cuevas",
+      "source": "boticarios de taller",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-12",
+      "name": "Brezo de trébol negro",
+      "region": "bosques de los altos elfos y sus lindes",
+      "description": "brotes que oscurecen en sombra; pétalos escasos",
+      "preparation": "tintura aromática para ungüentos externos",
+      "usage": "ayuda a enmascarar olores desagradables en curas prolongadas",
+      "limits": "no combate por sí solo putrefacción o infección",
+      "risk": "algunos pacientes no toleran el olor",
+      "source": "herboristas del bosque",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-13",
+      "name": "Yerba del sendero bajo",
+      "region": "huertas y planicies Nórin",
+      "description": "tallos muy bajos de sabor fresco y hoja redondeada",
+      "preparation": "añadida a caldos nutritivos",
+      "usage": "alimento leve para convalecientes con apetito reducido",
+      "limits": "no restituye sangre ni sustituye reposo y dieta completa",
+      "risk": "tiende a marchitarse con rapidez y pierde calidad",
+      "source": "cocina comunal Nórin",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-14",
+      "name": "Corteza de luz oblicua",
+      "region": "valles templados Sin’hair",
+      "description": "árbol de corteza clara que exuda savia cristalina",
+      "preparation": "compresas externas de corteza humedecida",
+      "usage": "protege piel de las rozaduras de cuerda y equipo",
+      "limits": "no acelera sobrenaturalmente la regeneración de tejidos",
+      "risk": "adhesión de restos de corteza si se deja secar sobre una herida",
+      "source": "caminantes de los valles",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-15",
+      "name": "Sal de junco negro",
+      "region": "marismas y riberas humanas",
+      "description": "cristales que precipitan junto a juncos oscuros tras evaporarse agua salobre",
+      "preparation": "ingrediente de conservación y limpieza de equipo, no de ingestión medicinal",
+      "usage": "reduce descomposición de vendajes almacenados cuando está bien seca",
+      "limits": "no desinfecta tejidos humanos ni cura fiebres",
+      "risk": "uso directo en heridas abiertas causa dolor y lesión",
+      "source": "marineros y saladores",
+      "status": "propuesta narrativa; no efecto automático"
+    },
+    {
+      "id": "h-16",
+      "name": "Avena de hierro",
+      "region": "terrenos pobres próximos a caminos comerciales",
+      "description": "cereal duro de espiga bronceada",
+      "preparation": "gachas tras molienda y cocción prolongada",
+      "usage": "alimento saciante durante recuperación",
+      "limits": "no sustituye cirugía, curación mágica ni elimina secuelas",
+      "risk": "el grano crudo es indigesto",
+      "source": "hospitales de campaña",
+      "status": "propuesta narrativa; no efecto automático"
+    }
+  ],
+  "archives": [
+    {
+      "title": "Altos Elfos",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/altos_elfos.webp",
+      "note": "Observación original, lámina anatómica ilustrativa",
+      "status": "ilustración de estudio"
+    },
+    {
+      "title": "Humanos",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/humanos.webp",
+      "note": "Observación general",
+      "status": "ilustración de estudio"
+    },
+    {
+      "title": "Nórin",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/norin.webp",
+      "note": "Observación general",
+      "status": "ilustración de estudio"
+    },
+    {
+      "title": "Yūgen",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/yugen.webp",
+      "note": "Observación general",
+      "status": "ilustración de estudio"
+    },
+    {
+      "title": "Anatomía no muerta",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/anatomia_no_muerta.webp",
+      "note": "Estado patológico, no raza adicional",
+      "status": "ilustración de estudio"
+    },
+    {
+      "title": "Comparativa I",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_01.webp",
+      "note": "Material preliminar con afirmaciones por revisar",
+      "status": "archivo no canonizado"
+    },
+    {
+      "title": "Comparativa II",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_02.webp",
+      "note": "Material preliminar con afirmaciones por revisar",
+      "status": "archivo no canonizado"
+    },
+    {
+      "title": "Comparativa III",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/laminas_comparadas_03.webp",
+      "note": "Material preliminar con afirmaciones por revisar",
+      "status": "archivo no canonizado"
+    },
+    {
+      "title": "Orco — archivo descartado",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_orco.webp",
+      "note": "No corresponde al catálogo de razas del foro",
+      "status": "archivo no canonizado"
+    },
+    {
+      "title": "Reptiliano — archivo descartado",
+      "image": "assets/medicina/atlas-v01/01_laminas_originales/material_no_canonico_reptiliano.webp",
+      "note": "No corresponde al catálogo de razas del foro",
+      "status": "archivo no canonizado"
+    }
+  ]
+}
