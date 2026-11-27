@@ -1,14 +1,14 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-mapa33-yugen-v20",
+  "revision": "2026-11-27-mapa33-yugen-red-naval-v21",
   "counts": {
     "places": 121,
     "regions": 26,
     "roads": 167,
     "navalCells": 5965,
     "marineZones": 6,
-    "nauticalCorridors": 14,
-    "nauticalPoints": 17,
+    "nauticalCorridors": 111,
+    "nauticalPoints": 55,
     "landHexesInspected": 8801,
     "landHexesWithPigment": 2027,
     "landRoadsAudited": 134,
@@ -28,7 +28,8 @@
     "landDisconnectedPoints": 13,
     "navalLegacyRecords": 31,
     "avalonNewCoastalRoads": 4,
-    "yugenCities": 3
+    "yugenCities": 3,
+    "navAccessPendingValidation": 10
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -64,5 +65,13 @@
     "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Yūgen reincorporados mediante tres localidades, dos regiones, fichas cívicas y senda violeta. Imagen 3.3 pendiente de publicación; datos navales previos permanecen activos."
+  "note": "121 localidades, 26 regiones, 167 caminos terrestres; 55 escalas y 111 rutas náuticas preliminares. Yukishima, Tetsumori y Kazehara añadidos; todos los anteriores conservados. Los raster PNG del Mapa 3.3 requieren publicación independiente.",
+  "navalReview": {
+    "sourceRaster": "Mapa_3.21(2).png",
+    "pendingRaster": "Mapa_3.3.png",
+    "routesPreliminary": 97,
+    "legacyRoutesRetained": 14,
+    "accessPendingValidation": 10,
+    "notes": "La máscara náutica debe reprocesarse sobre el nuevo PNG antes de confirmación. El raster 3.3 sigue pendiente de alojamiento."
+  }
 }
