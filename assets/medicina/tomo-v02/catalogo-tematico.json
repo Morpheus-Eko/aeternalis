@@ -1,0 +1,91 @@
+{
+  "schema": "aeternalis-medicina-temas-v1",
+  "version": "0.1.0",
+  "assetRoot": "assets/medicina/tomo-v02/",
+  "published": false,
+  "status": "pendiente_de_subida_binaria",
+  "note": "Metadatos y rutas reservadas. Los WebP originales están respaldados en la biblioteca del proyecto; todavía NO existen en este repositorio. No activar imágenes temáticas hasta cargar y verificar los binarios.",
+  "themes": [
+    {
+      "id": "cubierta",
+      "label": "Cubierta del Tomo",
+      "file": "portada_cuero_serpiente.webp",
+      "scope": "cover",
+      "order": 0,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/portada_cuero_serpiente.webp"
+    },
+    {
+      "id": "humanos",
+      "label": "Humanos",
+      "file": "pagina_humanos.webp",
+      "scope": "race",
+      "order": 1,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_humanos.webp"
+    },
+    {
+      "id": "elfos",
+      "label": "Altos Elfos",
+      "file": "pagina_altos_elfos.webp",
+      "scope": "race",
+      "order": 2,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_altos_elfos.webp"
+    },
+    {
+      "id": "montaraces",
+      "label": "Montaraces",
+      "file": "pagina_montaraces.webp",
+      "scope": "race",
+      "order": 3,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_montaraces.webp"
+    },
+    {
+      "id": "yugen",
+      "label": "Yūgen",
+      "file": "pagina_yugen.webp",
+      "scope": "race",
+      "order": 4,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_yugen.webp"
+    },
+    {
+      "id": "enanos",
+      "label": "Enanos",
+      "file": "pagina_enanos.webp",
+      "scope": "race",
+      "order": 5,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_enanos.webp"
+    },
+    {
+      "id": "norin",
+      "label": "Nórin",
+      "file": "pagina_norin.webp",
+      "scope": "race",
+      "order": 6,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_norin.webp"
+    },
+    {
+      "id": "sinhair",
+      "label": "Sin’hair",
+      "file": "pagina_sinhair.webp",
+      "scope": "race",
+      "order": 7,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_sinhair.webp"
+    },
+    {
+      "id": "amarant",
+      "label": "Amarant",
+      "file": "pagina_amarant.webp",
+      "scope": "race",
+      "order": 8,
+      "ready": false,
+      "path": "assets/medicina/tomo-v02/pagina_amarant.webp"
+    }
+  ]
+}
