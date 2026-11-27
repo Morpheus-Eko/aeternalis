@@ -5,7 +5,7 @@
  if(!root||root.dataset.acsBoot)return;
  root.dataset.acsBoot='loading';
  const BASE='https://morpheus-eko.github.io/aeternalis/';
- const DATA=BASE+'data/codice-salud/compendio.json?v=2.3.0';
+ const DATA=BASE+'data/codice-salud/compendio.json?v=2.4.0';
  const GLOSSES_DATA=BASE+'data/codice-salud/apostillas-facultativo-v01.json?v=1.3.0';
  const COMPLETE_ARCHIVE_DATA=BASE+'data/codice-salud/archivo-laminas-completas-v01.json?v=1.1.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
