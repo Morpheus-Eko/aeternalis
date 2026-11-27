@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800" role="img" class="ae-patologia-tinta" aria-label="Fiebre de Driadem: lámina de cuidados">
+ <defs>
+  <radialGradient id="paper" cx=".43" cy=".42" r=".76"><stop offset="0" stop-color="#f3e9d1"/><stop offset=".64" stop-color="#e6d3ae"/><stop offset="1" stop-color="#cbb186"/></radialGradient>
+  <linearGradient id="robe" x1=".1" y1=".2" x2=".9" y2=".8"><stop offset="0" stop-color="#8b7760"/><stop offset="1" stop-color="#4f4438"/></linearGradient>
+  <linearGradient id="skin" x1=".15" y1=".1" x2=".85" y2=".9"><stop offset="0" stop-color="#ceac83"/><stop offset=".56" stop-color="#ad8d6b"/><stop offset="1" stop-color="#7b624e"/></linearGradient>
+  <linearGradient id="stain" x1=".1" y1=".1" x2=".9" y2=".8"><stop offset="0" stop-color="#b4c3a0"/><stop offset="1" stop-color="#536e59"/></linearGradient>
+  <radialGradient id="vignette"><stop offset=".53" stop-color="#9b7950" stop-opacity="0"/><stop offset="1" stop-color="#69472b" stop-opacity=".17"/></radialGradient>
+  <pattern id="lines" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(25)"><path d="M1 0V9" stroke="#593e2c" stroke-width=".75" opacity=".2"/></pattern>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="7" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer></filter>
+ </defs>
+ <g stroke="#536e59" opacity=".45" stroke-width="2" fill="none">
+ <path d="M109 194 H240 M403 194 H529 M101 638 H164 M479 638 H539"/>
+ <circle cx="320" cy="147" r="34"/><path d="M320 120V177 M292 149H350"/></g><g fill="none" stroke="#6a513b" stroke-width="7" stroke-linejoin="round"><path d="M115 591 H524 L504 692 H137Z" fill="#b19670"/>
+ <path d="M140 584 V361 M500 584 V361 M130 365 H505" stroke-width="12"/>
+ <path d="M164 390 H467" stroke="#d1b48c" stroke-width="7"/></g>
+ <g stroke="#554032" stroke-width="4" fill="url(#stain)">
+ <path d="M209 246V327 Q185 354 184 449 Q189 490 226 493 Q266 487 268 445 Q264 354 243 327 V247Z"/>
+ <path d="M194 266H262 M204 300H253" fill="none" stroke="#d9c49f" stroke-width="8"/>
+ </g>
+ <path d="M199 408 Q223 424 258 405 L257 458 Q220 481 195 455Z" fill="#536e59" opacity=".54"/>
+ <g stroke="#5d4837" stroke-width="4" fill="#d5bb8f"><path d="M316 415 H457 L435 478 H337Z"/><path d="M339 405 Q319 350 349 319 Q378 295 404 312" fill="none"/><path d="M387 320 L441 259" stroke-width="18"/></g>
+ <path d="M367 501 Q392 453 425 508 Q450 550 407 588 Q377 608 359 586 Q344 553 367 501Z" fill="#cfb68e" stroke="#594332" stroke-width="5"/>
+ <path d="M359 546 Q385 558 438 537" fill="none" stroke="#8d6c4f" stroke-width="18"/>
+ <path d="M354 541 Q382 552 438 535 M356 558 Q387 572 435 550" fill="none" stroke="#eee0c2" stroke-width="7"/><g fill="#536e59" opacity=".62"><circle cx="211" cy="432" r="14"/><path d="M275 575 q35-24 69 0 q-25 37-69 0"/></g>
+ </svg>
