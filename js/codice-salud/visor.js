@@ -1,4 +1,4 @@
-/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.4.0 · Folios delimitados; CSS y datos separados. */
+/* AETERNALIS · Tomo de Medicina · Códice de la Salud v3.5.0 · Folios delimitados; CSS y datos separados. */
 (function initCodiceSalud(){
  'use strict';
  const root=document.getElementById('ae-codice-salud');
@@ -7,6 +7,7 @@
  const BASE='https://morpheus-eko.github.io/aeternalis/';
  const DATA=BASE+'data/codice-salud/compendio.json?v=2.1.0';
  const GLOSSES_DATA=BASE+'data/codice-salud/apostillas-facultativo-v01.json?v=1.3.0';
+ const COMPLETE_ARCHIVE_DATA=BASE+'data/codice-salud/archivo-laminas-completas-v01.json?v=1.0.0';
  const THEME_DATA=BASE+'assets/medicina/tomo-v02/catalogo-tematico.json?v=1.1.0';
  const ANATOMY_DATA=BASE+'assets/medicina/atlas-recortes-v01/indice-visor-racial.json?v=1.0.0';
  const CLINICAL_DATA=BASE+'data/codice-salud/iconografia-clinica-v01.json?v=1.2.0';
@@ -17,7 +18,7 @@
  const EMBLEM=BASE+'assets/pestilencias/';
  const SECTION_NAMES={guarda:'Preliminares',anatomia:'De la carne',linajes:'De la generación',territorios:'De aires y tierras',herbario:'Materia médica',pestilencias:'De las pestilencias',cuidados:'De los cuidados',atlas:'Archivo anatómico'};
  const state={pages:[],sections:[],current:-1,drawer:false,drawerMode:'index',loaded:false,report:null,vit:15,race:'humano',prior:0,potion:false,spell:false,sequela:0,statBase:40,statPenalty:25,statReport:null};
- let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),apostillas={sections:{},races:{},herbs:{},diseases:{},general:{}},clinicalAssets={herbs:Object.create(null),diseases:Object.create(null),care:null},turning=false;
+ let handbook=null,rules=null,formerWidth=0,themeAssets=Object.create(null),themeDecor=Object.create(null),anatomyAssets=Object.create(null),completeArchive={},apostillas={sections:{},races:{},herbs:{},diseases:{},general:{}},clinicalAssets={herbs:Object.create(null),diseases:Object.create(null),care:null},turning=false;
  function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
  function url(path){return /^https?:\/\//.test(path||'')?path:BASE+path;}
  function img(path,alt,extra){return '<img src="'+esc(url(path))+'" alt="'+esc(alt||'')+'" loading="lazy" decoding="async"'+(extra?' class="'+extra+'"':'')+'>';}
@@ -161,7 +162,10 @@
    add('cuidados','essay','Del alivio y sus límites',{subtitle:'La medicina no es un artificio infalible',voice:'Glosa del médico de campaña',image:'assets/medicina/herbario-v01/02_figuras_pergamino/llanten_de_bruma_provisional/f07_planta_completa.webp',text:['En la botica se ordenan vendajes, observaciones, hierbas y testimonios de hechicería. Nada de ello permite presumir una cura donde el reglamento no la ha establecido.','La Poción de Ouriler y el Velo de Astarax se aplican únicamente como modificadores positivos en la tirada de exposición, con los valores particulares de cada pestilencia. No revierten los contadores de secuela.'],status:'Glosa literaria fundada en reglas existentes'});
    rules.diseases.forEach(d=>add('cuidados','care','Cuidados: '+d.name,{disease:d,subtitle:'Procedimientos y límites del remedio',voice:'Cuaderno de tratamientos del facultativo',image:EMBLEM+d.emblem,marginImage:diseaseMotif(d),status:'Distingue mitigación reglamentada y cuidados narrativos'}));
   add('atlas','essay','De las hojas del dibujante',{subtitle:'Por qué no se deben perder los originales',voice:'Nota final de quien reunió los dibujos',text:['He guardado las planchas enteras, aunque algunas contienen errores, pues una misma mano puede dibujar un corazón útil y atribuir al cuerpo un poder que jamás se ha demostrado.','Las figuras se reproducen en los capítulos que corresponden; las láminas completas quedan como archivo de investigación, con las composiciones no canónicas identificadas.'],image:MED+'01_laminas_originales/yugen.webp',status:'Archivo de ilustraciones'});
-  handbook.archives.forEach(a=>add('atlas','archive',a.title,{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,subtitle:'Planchas conservadas para cotejo',voice:'Archivo de dibujos médicos',image:a.image,caption:a.note,status:a.status}));
+  alignSpread('atlas');
+  handbook.archives.forEach(a=>{
+   for(let side=0;side<2;side++)add('atlas','archive-plate',a.title+' · '+(side===0?'Lámina I':'Lámina II'),{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,plateSide:side,subtitle:'Planchas completas del archivo anatómico',voice:'Gabinete de anatomía',image:a.image});
+  });
   let previous='';state.pages.forEach((p,i)=>{p.number=i+1;if(p.section!==previous){state.sections.push({id:p.section,title:SECTION_NAMES[p.section],page:i});previous=p.section;}});
  }
  function isSingle(){return (root.getBoundingClientRect?root.getBoundingClientRect().width:root.clientWidth||1300)<1070;}
@@ -176,8 +180,9 @@
    return '<button type="button" class="ac-page-marker ac-page-marker--'+(['red','gold','bronze'][i%3])+(active===s.id?' is-active':'')+'" data-jump="'+s.page+'" aria-label="Abrir capítulo: '+esc(s.title)+'" title="'+esc(s.title)+'"'+(active===s.id?' aria-current="page"':'')+'>'+img(art.icon,'')+'<span>'+esc(s.title)+'</span></button>';
   }).join('');
   const jump=state.pages.findIndex(p=>p.type==='calculate');
-  return '<nav class="ac-page-markers" aria-label="Cintas y marcadores de capítulos">'+tabs+
+  return '<nav class="ac-page-markers" aria-label="Cintas y marcadores de capítulos">'+
    '<button type="button" class="ac-page-marker ac-page-marker--red ac-page-marker--utility" data-action="index" aria-label="Abrir índice" title="Índice">'+img('assets/codex/botones/gotico/boton_indice_gotico_01.webp','')+'<span>Índice</span></button>'+
+   tabs+
    (jump<0?'':'<button type="button" class="ac-page-marker ac-page-marker--gold ac-page-marker--utility" data-action="tools" aria-label="Abrir calculadoras" title="Herramientas">'+img('assets/codex/objetos/reloj_arena_01.webp','')+'<span>Herramientas</span></button>')+
    '<button type="button" class="ac-page-marker ac-page-marker--bronze ac-page-marker--utility" data-action="notes" aria-label="Leer notas del facultativo" title="Notas">'+img('assets/codex/separadores/pluma_dorada_01.webp','')+'<span>Notas</span></button></nav>';
  }
@@ -203,12 +208,19 @@
     {path:'assets/medicina/atlas-v01/03_figuras_tinta_transparente/anatomia_no_muerta/pulmones_necrosados.webp',archive:'assets/medicina/atlas-v01/02_figuras_pergamino/anatomia_no_muerta/pulmones_necrosados.webp',label:'Deterioro pulmonar · estudio comparativo'}];
   return '<aside class="ac-deterioration-study" aria-label="Referencias anatómicas de deterioro corporal"><p class="ac-deterioration-study__eyebrow">Cuaderno de alteraciones orgánicas</p><div class="ac-deterioration-study__plates">'+examples.map(a=>'<figure><a href="'+esc(url(a.archive||a.path))+'" target="_blank" rel="noopener noreferrer" title="Ampliar estudio anatómico">'+img(a.path,a.label)+'</a><figcaption>'+esc(a.label)+'</figcaption></figure>').join('')+'</div></aside>'+glossDisease(d,context==='clinical'?'deterioro':'deterioroStages');
  }
- function archiveRace(p){
-  const a=p.archive,r=handbook.races.find(x=>x.id===a.raceId),gender=r&&atlasGallery(r,'figura');
-  return '<div class="ac-archive-race">'+(gender||imageFigure(p.image,p.caption,'archive'))+'</div>'+
-   (r?'<div class="ac-archive-facts"><dl class="ac-facts">'+field('Linaje',r.title)+field('Ámbito',r.habitat)+'</dl></div>':'')+
-   glossPage(p,'archive');
+ function isArchivePlate(path){
+  return typeof path==='string'&&/^assets\/medicina\/atlas-recortes-v01\/fuentes_webp\/[a-zA-Z0-9_-]+\.webp$/.test(path)&&!path.includes('..');
  }
+ function archiveRace(p){
+  const a=p.archive,record=completeArchive[a.raceId],plate=record&&record.folios&&record.folios[p.plateSide];
+  if(!plate||!isArchivePlate(plate.path))return '<div class="ac-archive-pending">'+imageFigure(p.image,a.title,'archive')+'</div>';
+  const caption=plate.caption||'Lámina anatómica';
+  return '<div class="ac-archive-fullpage"><figure class="ac-archive-original">'+
+   '<a href="'+esc(url(plate.path))+'" target="_blank" rel="noopener noreferrer" title="Abrir plancha anatómica completa">'+img(plate.path,a.title+' · '+caption)+'</a>'+
+   '<figcaption><span>'+esc(caption)+'</span><small>Plancha '+(p.plateSide===0?'I':'II')+' · '+esc(a.title)+'</small></figcaption>'+
+   '</figure><div class="ac-archive-ribbon" aria-hidden="true">'+img('assets/codex/separadores/filigrana_dorada_01.webp','')+'</div></div>';
+ }
+
  function stagesPage(p){const d=p.disease;return (specificStudies(d,['signs','organ'])||clinicalStudies(d,['consequence'])||imageFigure(p.image,'Estudio anatómico de las secuelas','detail'))+'<p>Al no superar el umbral modificado se añade un contador de secuela.</p><ol class="ac-stage-list">'+d.stages.map(s=>'<li><strong>'+esc(s.count+'. '+s.title)+'</strong><p>'+esc(s.effect)+'</p></li>').join('')+'</ol>'+pathologyDeterioration(d,'stages')+glossDisease(d,'stages');}
  function theoryPage(p){const d=p.disease;return imageFigure(p.image,'Sello de '+d.name,'seal')+paragraphs((d.theories&&d.theories.length?d.theories:[d.uncertainty]).concat([d.uncertaintyLabel||d.uncertainty]))+glossDisease(d,'theory');}
  function fmt(n){return Number(n).toLocaleString('es-CL');}
@@ -227,7 +239,7 @@
  function exposurePage(p){const d=p.disease;return imageFigure(p.image,'Emblema de expediente · '+d.name,'seal')+'<h3>Condición de exposición</h3>'+paragraphs([d.exposure])+'<h3>Inmunidad contemplada</h3>'+paragraphs([d.immunityText])+'<div class="ac-table-scroll"><table class="ac-med-table"><caption>Registro mínimo de exposición</caption><tbody><tr><th scope="row">Tirada</th><td>1d100</td></tr><tr><th scope="row">Objetivo</th><td>Superar '+d.target+'</td></tr><tr><th scope="row">Exposiciones previas</th><td>+5 por cada exposición previa, dentro del cálculo orientativo</td></tr><tr><th scope="row">Inmunidad</th><td>Al menos '+d.immunity+' exposiciones</td></tr></tbody></table></div>'+glossDisease(d,'exposure');}
  function carePage(p){const d=p.disease,c=clinicalAssets.care,visual=c&&c.followup&&isClinicalAsset(c.followup.path)?c.followup.path:p.marginImage;return imageFigure(p.image,'Sello clínico de '+d.name,'seal')+specificStudies(d,['care'])+careInstruments(d)+insetFigure(visual,'Instrumentos y paños de asistencia')+'<h3>Protecciones contempladas</h3><dl class="ac-facts">'+field(rules.rules.potion,'+'+d.potion+' al cálculo de exposición')+field(rules.rules.spell,'+'+d.spell+' al cálculo de exposición')+'</dl><h3>En el lecho del enfermo</h3><p>Los sanadores registran los cambios del pulso, el sueño y el aspecto de la piel; cuidan los paños, las bebidas y el descanso mientras atienden las necesidades de cada paciente.</p><p>El libro distingue '+d.stages.length+' grados de secuela, con desenlace mortal en el '+d.deathAt+'. La evolución se anota en cada visita.</p>'+glossDisease(d,'care');}
  function attributesPage(p){const result=state.statReport;return insetFigure(p.image,'Estudio anatómico del corazón · ornamento')+'<p>Se conserva el redondeo hacia arriba del ejemplo reglamentario: 40 puntos con −25 % equivalen a 30; 50 con esa penalización, a 38.</p><div class="ac-form-grid"><label>Puntos base<input data-field="statBase" type="number" min="0" max="99999" step="1" value="'+state.statBase+'"></label><label>Penalización porcentual<input data-field="statPenalty" type="number" min="0" max="100" step="1" value="'+state.statPenalty+'"></label></div><button class="ac-calculate" type="button" data-action="calc-stat">Calcular atributo efectivo</button>'+(result===null?'':'<div class="ac-result" role="status"><strong>Atributo efectivo: '+fmt(result)+'</strong><span>El valor base no se modifica; el porcentaje se aplica al consultar el atributo.</span></div>')+glossGeneral('attributes');}
- function inside(p){switch(p.type){case 'cover':return cover(p);case 'contents':return tableOfContents();case 'interleaf':return interleaf(p);case 'race-figure':return anatomy(p);case 'race-notes':return raceNotes(p);case 'herb-plate':return herbPlate(p);case 'herb':return herbPage(p);case 'disease-table':return diseaseTable(p);case 'race-matrix':return raceMatrix(p);case 'clinical':return clinicalPage(p);case 'exposure':return exposurePage(p);case 'care':return carePage(p);case 'attributes':return attributesPage(p);case 'disease':return diseasePage(p);case 'calculate':return formPage(p);case 'stages':return stagesPage(p);case 'theory':return theoryPage(p);case 'faq':return '<h3>'+esc(p.faq.question)+'</h3>'+paragraphs([p.faq.answer])+glossPage(p,'faq');case 'territory':return paragraphs([p.territory.text])+glossPage(p,'section');case 'archive':return archiveRace(p);default:return paragraphs(p.text)+(p.type==='essay'?glossPage(p,'section'):'');}}
+ function inside(p){switch(p.type){case 'cover':return cover(p);case 'contents':return tableOfContents();case 'interleaf':return interleaf(p);case 'race-figure':return anatomy(p);case 'race-notes':return raceNotes(p);case 'herb-plate':return herbPlate(p);case 'herb':return herbPage(p);case 'disease-table':return diseaseTable(p);case 'race-matrix':return raceMatrix(p);case 'clinical':return clinicalPage(p);case 'exposure':return exposurePage(p);case 'care':return carePage(p);case 'attributes':return attributesPage(p);case 'disease':return diseasePage(p);case 'calculate':return formPage(p);case 'stages':return stagesPage(p);case 'theory':return theoryPage(p);case 'faq':return '<h3>'+esc(p.faq.question)+'</h3>'+paragraphs([p.faq.answer])+glossPage(p,'faq');case 'territory':return paragraphs([p.territory.text])+glossPage(p,'section');case 'archive':case 'archive-plate':return archiveRace(p);default:return paragraphs(p.text)+(p.type==='essay'?glossPage(p,'section'):'');}}
  function leaf(index){
   const p=state.pages[index];if(!p)return '<div class="ac-leaf ac-leaf--blank" aria-hidden="true"></div>';
   const theme=p.race&&p.race.id||p.theme||'general',asset=themeAssets[theme],decor=themeDecor[theme],chapter=SECTION_ART[p.section]||SECTION_ART.guarda;
@@ -284,7 +296,7 @@
  root.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&state.drawer){state.drawer=false;render();const b=root.querySelector('.ac-compass');if(b)b.focus();return;}if(ev.altKey||ev.ctrlKey||ev.metaKey||ev.shiftKey)return;if(ev.target.closest('input,textarea,select,summary,[contenteditable="true"]'))return;if(ev.key==='ArrowRight'||ev.key==='ArrowLeft'){ev.preventDefault();navigate(visibleFirst()+(ev.key==='ArrowRight'?1:-1)*(isSingle()?1:2));}});
  let oldSingle=null;function resized(){if(!state.loaded)return;const now=isSingle();if(oldSingle!==now){oldSingle=now;render();}};
  if(window.addEventListener)window.addEventListener('resize',resized);
- function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'3.4.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
+ function load(){root.innerHTML='<div class="ac-wait" role="status">Abriendo los pliegos del tratado…</div>';Promise.all([fetch(DATA,{mode:'cors',credentials:'omit'}),fetch(DISEASE,{mode:'cors',credentials:'omit'})]).then(async rr=>{for(const r of rr)if(!r.ok)throw Error('HTTP '+r.status);return Promise.all(rr.map(r=>r.json()));}).then(([h,r])=>{if(h.schema!=='aeternalis-codice-salud-v1'||r.schema!=='aeternalis-pestilencias-v1'||h.races.length!==8||r.diseases.length!==3)throw Error('Versiones de datos incompatibles');handbook=h;rules=r;buildPages();state.loaded=true;oldSingle=isSingle();render();window.AeternalisCodiceSalud={version:'3.5.0',getState:()=>({page:state.current+1,total:state.pages.length,open:state.drawer}),openPage:(i)=>navigate(Number(i)-1),openDisease:(id)=>{const at=state.pages.findIndex(x=>x.disease&&x.disease.id===id);if(at>=0)navigate(at);},openHerb:(i)=>{const at=state.pages.findIndex(x=>x.herb&&(x.herb.name===i||x.herb.name.includes(i)));if(at>=0)navigate(at);}};}).catch(err=>{root.dataset.acsBoot='error';root.innerHTML='<div class="ac-error" role="alert"><h2>No se pudo abrir el Códice</h2><p>'+esc(err.message)+'</p><button type="button" data-action="retry">Reintentar</button></div>';console.error('[Aeternalis/CodiceSalud]',err);});}
  fetch(GLOSSES_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
   if(!index||index.schema!=='aeternalis-codice-glosas-v1'||!index.sections||!index.races||!index.herbs||!index.diseases||!index.general)return;
   apostillas=index;
@@ -297,6 +309,17 @@
    if(typeof item.path==='string'&&item.path.startsWith('assets/medicina/tomo-v02/')&&item.path.endsWith('.webp')&&!item.path.includes('..'))themeAssets[item.id]=BASE+item.path;
    const valid=(v)=>typeof v==='string'&&v.startsWith('assets/codex/')&&v.endsWith('.webp')&&!v.includes('..');
    if(valid(item.ornament)&&valid(item.divider)&&/^#[0-9a-fA-F]{6}$/.test(item.accent||''))themeDecor[item.id]={ornament:BASE+item.ornament,divider:BASE+item.divider,accent:item.accent};
+  }
+  if(state.loaded)render();
+ }).catch(()=>{});
+ fetch(COMPLETE_ARCHIVE_DATA,{mode:'cors',credentials:'omit',cache:'no-cache'}).then(r=>r.ok?r.json():null).then(index=>{
+  if(!index||index.schema!=='aeternalis-medical-full-plates-v1'||!index.races)return;
+  const approved=['elfos','humanos','norin','yugen','montaraces','enanos','sinhair','amarant'];
+  for(const id of approved){
+   const row=index.races[id];
+   if(!row||!Array.isArray(row.folios)||row.folios.length!==2||!row.folios.every(p=>p&&isArchivePlate(p.path)))continue;
+   if(id==='amarant'&&!row.folios.every(p=>p.sex==='femenino'))continue;
+   completeArchive[id]=row;
   }
   if(state.loaded)render();
  }).catch(()=>{});
