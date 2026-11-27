@@ -1,4 +1,4 @@
-# Aeternalis · Tomo de Medicina v3.6.0
+# Aeternalis · Tomo de Medicina v3.7.0
 
 Libro médico ilustrado para Foroactivo. El **Códice de la Salud** absorbe en su lectura el contenido reglamentario del antiguo **Libro de las Pestilencias**, sin alterar sus umbrales, valores de pociones/hechizos, contadores de secuelas ni preguntas frecuentes.
 
@@ -11,7 +11,7 @@ El instalador maestro de Aeternalis debe estar activo una sola vez. En el mensaj
 <div id="ae-codice-salud"></div>
 ```
 
-No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.6.0` y `js/codice-salud/visor.js?v=3.6.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
+No añadir JS ni CSS al HTML de la publicación. El maestro detecta `#ae-codice-salud` y carga `css/codice-salud.css?v=3.7.0` y `js/codice-salud/visor.js?v=3.7.0`. La vista autónoma está en [codice-salud/index.html](./index.html), servida por GitHub Pages.
 
 ## Inventario del tomo
 
@@ -166,3 +166,15 @@ El **Archivo Anatómico** ya no repite las descripciones de la anatomía racial:
 **Navegación y otras correcciones:** marcador **Índice** en primer lugar entre las pestañas del canto; en la sección de Pestilencias, el antiguo asset con texto incrustado es reemplazado por un frontispicio de libros y filigranas, con títulos reales en HTML. Todas las novedades se cargan desde el maestro `3.6.0`; no necesitan cambios en el contenedor HTML de Foroactivo.
 
 **Validación con visor simulado:** 114 folios, 8 pares de atlas, 16 imágenes completas y 16 notas distintas. El orden de los sexos y la primera posición del marcador Índice pasaron las comprobaciones. Falta una inspección visual en el navegador real de Foroactivo.
+
+## Fase 10 · Voz narrativa y notas fuera de rol · v3.7.0
+
+El texto principal del libro **afirma los hechos de Aeternalis** sin dirigirse al lector como desarrollador ni hablar del foro, de materiales provisionales o de información no proporcionada. La regla de mestizaje se presenta directamente: «En la descendencia nacida del mestizaje entre razas, el sexo del neonato queda determinado por la raza de la madre».
+
+En `data/codice-salud/compendio.json?v=2.4.0` se reescribieron los capítulos de genealogías y medioambiente, las observaciones raciales y los campos que mostraban referencias al origen editorial de las fichas. Las explicaciones propiamente mecánicas se construyen en `js/codice-salud/visor.js?v=3.7.0` con `offrol(text)`, que las identifica como **Off rol:** y las presenta en cursivas. El estilo se define en el CSS del tomo, no en su HTML.
+
+Se aplicó esta separación a introducciones del herbario y pestilencias, protección de Ouriler y Astarax, tiradas de exposición, tablas de resistencia, calculadoras, secuelas, estadísticas y preguntas reglamentarias. Las hipótesis médicas permanecen como hipótesis de los personajes del mundo; no se equiparan a dudas sobre el código o el foro.
+
+**No se modificó** `data/pestilencias/enfermedades.json`: umbrales, tiradas, efectos de secuela, bonos, inmunidades y preguntas originales son la fuente de reglas intacta. Las cifras siguen en las páginas y la calculadora funciona como antes.
+
+**Verificación:** la prueba funcional con DOM simulado abrió los 114 folios en 57 dobles páginas, encontró 45 apariciones `Off rol:` y no halló en el texto mostrado las antiguas expresiones «principio comunicado», «se transcribe», «sin inventar», «provisional» o «pendiente de validación». La revisión visual final dentro de Foroactivo sigue pendiente.
