@@ -1,13 +1,13 @@
 /* AETERNALIS · BRÚJULA ARCANA DE ESTADÍSTICAS v1.1 (arranque robusto)
    Pegar SIN etiquetas <script> en Foroactivo → Gestión de códigos JavaScript → En los temas.
    HTML en la publicación: <div class="hidethisprofile"></div><div id="aes-stats"></div>
-   CSS separado en la página https://aeternalis.foroactivo.com/h4-mapa-kawaii-css
+   CSS separado y alojado en GitHub; no se modifica la skin de Foroactivo.
    No modifica la skin, los estilos de los otros módulos ni la calculadora original de Arlequín.
 */
 (function () {
   'use strict';
   const ROOT_ID = 'aes-stats';
-  const CSS_URL = 'https://morpheus-eko.github.io/aeternalis/css/stats-brujula.css?v=1.1.0';
+  const CSS_URL = 'https://morpheus-eko.github.io/aeternalis/css/stats-brujula.css?v=2.0.0';
   const CSS_STYLE_ID = 'aes-estadisticas-css-v1-inyectado';
   const CSS_SOURCE_ID = 'aes-estadisticas-css-v1-source';
   const BEGIN = '/* AES_STATS_V1_START */';
@@ -19,13 +19,26 @@
   // Todos estos IDs corresponden a las imágenes identificadas por el administrador.
   // El host i.imgur.com requiere un archivo directo, no la dirección de página imgur.com/ID.
   // Los PNG prueban extensiones alternativas automáticamente si fuese necesario.
-  const ASSETS = {
-    compass: 'rrNAAhM', compassTransparent: 'UnwYcm6', paper: 's4PQ7aS',
-    title: 'OyMS3oJ', divider: 'IIthKXN', crown: 'jgKdWtD', compassSeal: 'ezfSD4E',
-    agi: 'GhxBswt', sig: 'OG5IrCK', bow: '10ZM7wR', sword: 'FI2oaFz',
-    book: 'o89vTe7', flame: 'JhGKMMt', eye: 'J3DHfcM', swirl: 'uxL97HM', shield: 'GIOOPdB'
-  };
-  const assetURL = key => 'https://i.imgur.com/' + ASSETS[key] + '.png';
+  const ASSETS = Object.freeze({
+    "compass": "https://morpheus-eko.github.io/aeternalis/assets/brujula/01-brujula/01-brujula-arcana-base-1200.webp",
+    "compassTransparent": "https://morpheus-eko.github.io/aeternalis/assets/brujula/01-brujula/02-brujula-arcana-transparente-1200.webp",
+    "paper": "https://morpheus-eko.github.io/aeternalis/assets/brujula/02-paneles/01-panel-resultados-pergamino.webp",
+    "title": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/01-cabecera-codice.webp",
+    "divider": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/02-separador-arcano-fino.webp",
+    "crown": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/03-separador-arcano-ornamental.webp",
+    "compassSeal": "https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/04-sello-brujula.webp",
+    "agi": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/agi-opcional.webp",
+    "sig": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/sig-opcional.webp",
+    "bow": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/des-opcional.webp",
+    "sword": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/fue-opcional.webp",
+    "book": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/int-opcional.webp",
+    "flame": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/mag-opcional.webp",
+    "eye": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/per-opcional.webp",
+    "swirl": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/car-opcional.webp",
+    "shield": "https://morpheus-eko.github.io/aeternalis/assets/brujula/04-iconos-alternativos/vit-opcional.webp"
+});
+  const LEGACY_ASSETS = Object.freeze({"compass":"rrNAAhM","compassTransparent":"UnwYcm6","paper":"s4PQ7aS","title":"OyMS3oJ","divider":"IIthKXN","crown":"jgKdWtD","compassSeal":"ezfSD4E","agi":"GhxBswt","sig":"OG5IrCK","bow":"10ZM7wR","sword":"FI2oaFz","book":"o89vTe7","flame":"JhGKMMt","eye":"J3DHfcM","swirl":"uxL97HM","shield":"GIOOPdB"});
+  const assetURL = key => ASSETS[key];
 
   // Ocho atributos exteriores, MAG en el centro. Coordenadas de los huecos de la ilustración.
   // «remolino» queda en CAR; los demás símbolos corresponden a sus nombres.
@@ -134,9 +147,10 @@
       const el=event.target;
       if (!el || el.tagName!=='IMG' || !el.dataset.aesAsset) return;
       const key=el.dataset.aesAsset;
+      if(!el.dataset.aesLegacyAttempted){el.dataset.aesLegacyAttempted='1';el.dataset.aesExtensions='png';el.src='https://i.imgur.com/'+LEGACY_ASSETS[key]+'.png';return;}
       const tested=(el.dataset.aesExtensions||'png').split(',');
       const next=['jpg','jpeg','webp','gif'].find(ext=>!tested.includes(ext));
-      if (next) { tested.push(next); el.dataset.aesExtensions=tested.join(','); el.src='https://i.imgur.com/'+ASSETS[key]+'.'+next; return; }
+      if (next) { tested.push(next); el.dataset.aesExtensions=tested.join(','); el.src='https://i.imgur.com/'+LEGACY_ASSETS[key]+'.'+next; return; }
       el.classList.add('aes-image-unavailable');
       el.hidden=true;
       if (key==='title') root.classList.add('aes-no-title-image');

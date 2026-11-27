@@ -8,7 +8,7 @@
   "use strict";
   const ROOT_ID = 'am-app';
   const STYLE_ID = 'am-monturas-v3-estilos';
-  const CSS_URL = 'https://morpheus-eko.github.io/aeternalis/css/monturas-libro.css?v=3.3.0';
+  const CSS_URL = 'https://morpheus-eko.github.io/aeternalis/css/monturas-libro.css?v=3.4.0';
   const CSS_START = '/* AM_BOOK_V3_CSS_START */';
   const CSS_END   = '/* AM_BOOK_V3_CSS_END */';
   const DEBUG = '[Aeternalis/Monturas v3.3]';
@@ -19,37 +19,38 @@
   // Cada dirección viene de un ID de Imgur aportado por el administrador.
   // Imgur utiliza i.imgur.com para embeber imágenes en <img>.
   const IMAGES = Object.freeze({
-    "horse": "https://i.imgur.com/NKG3AOl.jpg",
-    "bison": "https://i.imgur.com/PcdV4A2.jpg",
-    "rhino": "https://i.imgur.com/JhyeQTo.jpg",
-    "goat": "https://i.imgur.com/AY9KD47.jpg",
-    "boar": "https://i.imgur.com/gu1MG3M.jpg",
-    "elk": "https://i.imgur.com/XLJDvMW.jpg",
-    "fox": "https://i.imgur.com/HETKWg4.jpg",
-    "lizard": "https://i.imgur.com/WpTX7T8.jpg",
-    "wolf": "https://i.imgur.com/1fH8aWT.jpg",
-    "sabertooth": "https://i.imgur.com/jWMXlug.jpg",
-    "icon_horse": "https://i.imgur.com/9GJYS8r.png",
-    "icon_bison": "https://i.imgur.com/H8IvTjE.png",
-    "icon_rhino": "https://i.imgur.com/9RFD6on.png",
-    "icon_goat": "https://i.imgur.com/BTL3qbT.png",
-    "icon_boar": "https://i.imgur.com/Kroq4UQ.png",
-    "icon_elk": "https://i.imgur.com/A59pgWY.png",
-    "icon_fox": "https://i.imgur.com/SDmow1I.png",
-    "icon_lizard": "https://i.imgur.com/JD0aqkO.png",
-    "icon_wolf": "https://i.imgur.com/QZ7DT3a.png",
-    "icon_sabertooth": "https://i.imgur.com/xjFMMuB.png",
-    "next": "https://i.imgur.com/eVt1Z5o.png",
-    "paper": "https://i.imgur.com/ttyLE4a.jpg",
-    "openbook": "https://i.imgur.com/6eMwDUd.jpg",
-    "ink": "https://i.imgur.com/oyLMYwv.png",
-    "prev": "https://i.imgur.com/ZB7RMBL.png",
-    "divider": "https://i.imgur.com/lMYG0rh.png",
-    "divider_alt": "https://i.imgur.com/mTtNeTg.jpg",
-    "feather": "https://i.imgur.com/PbzwkvY.png",
-    "cover_plain": "https://i.imgur.com/l21ChS9.jpg",
-    "cover": "https://i.imgur.com/RzfvzvB.jpg"
+    "horse": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/01-caballo.webp",
+    "icon_horse": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/01-caballo.webp",
+    "bison": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/02-bisonte.webp",
+    "icon_bison": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/02-bisonte.webp",
+    "rhino": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/03-rino.webp",
+    "icon_rhino": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/03-rino.webp",
+    "goat": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/04-craneopiedra.webp",
+    "icon_goat": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/04-craneopiedra.webp",
+    "boar": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/05-tuk-tuk.webp",
+    "icon_boar": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/05-tuk-tuk.webp",
+    "elk": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/06-aeanslyr.webp",
+    "icon_elk": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/06-aeanslyr.webp",
+    "fox": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/07-kitsune.webp",
+    "icon_fox": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/07-kitsune.webp",
+    "lizard": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/08-garranegra.webp",
+    "icon_lizard": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/08-garranegra.webp",
+    "wolf": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/09-huargo.webp",
+    "icon_wolf": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/09-huargo.webp",
+    "sabertooth": "https://morpheus-eko.github.io/aeternalis/assets/monturas/01-monturas/10-dientesable.webp",
+    "icon_sabertooth": "https://morpheus-eko.github.io/aeternalis/assets/monturas/02-simbolos-indice/10-dientesable.webp",
+    "next": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/avanzar-runa.webp",
+    "paper": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/hoja-pergamino-desgastado.webp",
+    "openbook": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/libro-abierto-doble-pagina.webp",
+    "ink": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/manchas-de-tinta.webp",
+    "prev": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/retroceder-runa.webp",
+    "divider": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-nudo.webp",
+    "divider_alt": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-nudo.webp",
+    "feather": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/separador-pluma-buho.webp",
+    "cover_plain": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/tapa-cuero-sin-titulo.webp",
+    "cover": "https://morpheus-eko.github.io/aeternalis/assets/monturas/03-libro-y-decoracion/tapa-cuero-sistema-monturas.webp"
 });
+  const LEGACY_IMAGES = Object.freeze({"horse":"https://i.imgur.com/NKG3AOl.jpg","bison":"https://i.imgur.com/PcdV4A2.jpg","rhino":"https://i.imgur.com/JhyeQTo.jpg","goat":"https://i.imgur.com/AY9KD47.jpg","boar":"https://i.imgur.com/gu1MG3M.jpg","elk":"https://i.imgur.com/XLJDvMW.jpg","fox":"https://i.imgur.com/HETKWg4.jpg","lizard":"https://i.imgur.com/WpTX7T8.jpg","wolf":"https://i.imgur.com/1fH8aWT.jpg","sabertooth":"https://i.imgur.com/jWMXlug.jpg","icon_horse":"https://i.imgur.com/9GJYS8r.png","icon_bison":"https://i.imgur.com/H8IvTjE.png","icon_rhino":"https://i.imgur.com/9RFD6on.png","icon_goat":"https://i.imgur.com/BTL3qbT.png","icon_boar":"https://i.imgur.com/Kroq4UQ.png","icon_elk":"https://i.imgur.com/A59pgWY.png","icon_fox":"https://i.imgur.com/SDmow1I.png","icon_lizard":"https://i.imgur.com/JD0aqkO.png","icon_wolf":"https://i.imgur.com/QZ7DT3a.png","icon_sabertooth":"https://i.imgur.com/xjFMMuB.png","next":"https://i.imgur.com/eVt1Z5o.png","paper":"https://i.imgur.com/ttyLE4a.jpg","openbook":"https://i.imgur.com/6eMwDUd.jpg","ink":"https://i.imgur.com/oyLMYwv.png","prev":"https://i.imgur.com/ZB7RMBL.png","divider":"https://i.imgur.com/lMYG0rh.png","divider_alt":"https://i.imgur.com/mTtNeTg.jpg","feather":"https://i.imgur.com/PbzwkvY.png","cover_plain":"https://i.imgur.com/l21ChS9.jpg","cover":"https://i.imgur.com/RzfvzvB.jpg"});
 
   const MARKUP = `<div class="am-shell">
     <div class="am-overline"><span>AETERNALIS · ARCHIVO DE LOS VIAJEROS</span><span class="am-overline-secondary">Cuaderno ilustrado de monturas</span></div>
@@ -152,6 +153,8 @@
       // Algunos uploads de Imgur conservaron una extensión distinta de la original.
       // Intentamos extensiones alternativas antes de declararlos fallidos.
       const current=image.currentSrc||image.src;
+      const localKey=Object.keys(IMAGES).find(key=>IMAGES[key]===current);
+      if(localKey && image.dataset.amLegacyAttempted!=='1'){image.dataset.amLegacyAttempted='1';image.src=LEGACY_IMAGES[localKey];return;}
       const match= current.match(/^https:\/\/i\.imgur\.com\/([A-Za-z0-9]{7})\.(png|jpe?g|webp|gif)(?:[?#]|$)/i);
       if(match){
         const alternatives=['png','jpg','jpeg','webp','gif'];

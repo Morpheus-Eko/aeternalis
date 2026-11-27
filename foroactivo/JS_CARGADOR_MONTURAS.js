@@ -4,7 +4,7 @@
   function start(){
     if(!document.getElementById('am-app') || document.getElementById(SCRIPT_ID))return;
     var s=document.createElement('script');s.id=SCRIPT_ID;
-    s.src='https://morpheus-eko.github.io/aeternalis/js/monturas/libro.js?v=3.3.0';s.async=true;
+    s.src='https://morpheus-eko.github.io/aeternalis/js/monturas/libro.js?v=3.4.0';s.async=true;
     s.onerror=function(){console.error('[Aeternalis] Error cargando monturas-libro desde GitHub.');};
     (document.head||document.documentElement).appendChild(s);
   }

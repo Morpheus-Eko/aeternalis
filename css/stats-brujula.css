@@ -88,4 +88,25 @@
 @media(max-width:820px){#aes-stats{width:min(760px,calc(100vw - 20px))}#aes-stats .aes-shell{padding:12px 10px}#aes-stats .aes-workbench{grid-template-columns:1fr;gap:12px}#aes-stats .aes-orbit{width:min(100%,630px)}#aes-stats .aes-parchment{min-height:675px}#aes-stats .aes-parchment-content{min-height:675px}#aes-stats .aes-node-icon{width:clamp(20px,4vw,34px)!important;height:clamp(20px,4vw,34px)!important}#aes-stats .aes-node-code{font-size:clamp(9px,1.8vw,13px)}#aes-stats .aes-node-value{font-size:clamp(12px,2.8vw,19px)}#aes-stats .aes-node-controls button{width:clamp(15px,3.5vw,24px);height:clamp(15px,3.5vw,24px)}}
 @media(max-width:480px){#aes-stats{width:calc(100vw - 12px)}#aes-stats .aes-shell{padding:9px 5px 12px;border-radius:7px}#aes-stats .aes-eyebrow{font-size:9px!important;letter-spacing:.13em}#aes-stats .aes-lead{font-size:12px!important;padding:0 5px}#aes-stats .aes-rules-mini{gap:4px}#aes-stats .aes-rules-mini span{font-size:10px;padding:3px 6px}#aes-stats .aes-rules-mini b{font-size:12px}#aes-stats .aes-node{width:17.6%;background:#17111bbb}#aes-stats .aes-node-select{height:60%}#aes-stats .aes-node-icon{width:clamp(15px,5vw,23px)!important;height:clamp(15px,5vw,23px)!important}#aes-stats .aes-node-code{font-size:9px}#aes-stats .aes-node-controls{height:30%}#aes-stats .aes-node-controls button{display:none!important}#aes-stats .aes-node-value{font-size:13px}#aes-stats .aes-orbit-caption{font-size:11px!important}#aes-stats .aes-parchment{min-height:685px}#aes-stats .aes-parchment-content{padding:105px 29px 57px;min-height:685px;gap:8px}#aes-stats .aes-parchment h2{font-size:26px!important}#aes-stats .aes-pools-readout small{font-size:8px!important}#aes-stats .aes-race-bonus{font-size:11px!important}#aes-stats .aes-results{padding:12px 10px}#aes-stats .aes-results-head h2{font-size:20px!important}#aes-stats .aes-result-stat{font-size:12px;padding:7px 6px}#aes-stats .aes-result-stat strong{font-size:17px}#aes-stats .aes-actions button{font-size:12px!important}}
 @media(prefers-reduced-motion:reduce){#aes-stats *,#aes-stats *:before,#aes-stats *:after{transition:none!important;animation:none!important}}
+
+/* AETERNALIS · BRÚJULA ARCANA V2: acabados de códice, legibilidad y accesibilidad */
+#aes-stats{--aes-oro:#d2b17c;--aes-tinta:#15111b}
+#aes-stats .aes-shell{position:relative;isolation:isolate;border:1px solid #b4a07b85;border-radius:16px;background:radial-gradient(ellipse at 50% -10%,#65457940,transparent 55%),linear-gradient(150deg,#211925,#100d15 53%,#211922);box-shadow:0 25px 60px #070408d0,inset 0 0 0 1px #e2c88f36,inset 0 0 65px #09070e99}
+#aes-stats .aes-shell::before,#aes-stats .aes-shell::after{content:"";position:absolute;top:8px;width:88px;height:88px;background-repeat:no-repeat;background-size:contain;opacity:.54;pointer-events:none}
+#aes-stats .aes-shell::before{left:8px;background-image:url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp')}
+#aes-stats .aes-shell::after{right:8px;background-image:url('https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_derecha_01.webp')}
+#aes-stats .aes-title-art{filter:drop-shadow(0 5px 14px #040406c5)}
+#aes-stats .aes-rules-mini span{background:linear-gradient(145deg,#3f2c3b,#241b29);border-color:#9b7d5c88;box-shadow:inset 0 1px #ffffff16}
+#aes-stats .aes-orbit{filter:drop-shadow(0 15px 22px #050309)}
+#aes-stats .aes-node{transition:filter .2s ease}
+#aes-stats .aes-node.is-selected{filter:drop-shadow(0 0 13px #edbf85cc)}
+#aes-stats .aes-node-controls button{transition:transform .17s ease,background .17s ease}
+#aes-stats .aes-node-controls button:hover:not(:disabled){transform:scale(1.11);background:#5b4238!important}
+#aes-stats .aes-node-select:focus-visible,#aes-stats .aes-node-controls button:focus-visible,#aes-stats button:focus-visible,#aes-stats select:focus-visible,#aes-stats input:focus-visible{outline:2px solid #e5ba72!important;outline-offset:3px}
+#aes-stats .aes-parchment{filter:drop-shadow(0 18px 25px #0009)}
+#aes-stats .aes-parchment-content{z-index:1}
+#aes-stats .aes-orbit-caption{color:#e0cee0!important}
+@media(max-width:700px){#aes-stats .aes-shell::before,#aes-stats .aes-shell::after{width:45px;height:45px;opacity:.35}}
+@media(prefers-reduced-motion:reduce){#aes-stats .aes-node,#aes-stats .aes-node-controls button{transition:none!important}}
+
 /* AES_STATS_V1_END */
