@@ -43,5 +43,50 @@
         "description": "El más reciente de Eirae y también el más apacible. Aún en constante expansión, se extiende hacia el interior del continente como el principal barrio residencial de la capital. Por ley, todo nuevo edificio debe respetar un equilibrio cuidadoso con la naturaleza: está prohibido levantar construcciones demasiado altas u ostentosas, de modo que a simple vista la diferencia entre los más acomodados y los menos afortunados, no se encuentra en la altura o el lujo de las fachadas, sino en el tamaño del terreno que rodea cada casa. Las viviendas, grandes o modestas, suelen estar rodeadas de jardines bien cuidados. Entre las calles se intercalan parques y plazas comunitarias, así como sanatorios de bajo costo y santuarios dedicados a los dioses mayores y menores."
       }
     ]
+  },
+  "place-316": {
+    "basic": {
+      "capital": null,
+      "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "religion": null,
+      "language": null
+    },
+    "strategic": {
+      "resources": null,
+      "defenses": null,
+      "threats": null
+    },
+    "npcs": [],
+    "districts": []
+  },
+  "place-317": {
+    "basic": {
+      "capital": null,
+      "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "religion": null,
+      "language": null
+    },
+    "strategic": {
+      "resources": null,
+      "defenses": null,
+      "threats": null
+    },
+    "npcs": [],
+    "districts": []
+  },
+  "place-318": {
+    "basic": {
+      "capital": null,
+      "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "religion": null,
+      "language": null
+    },
+    "strategic": {
+      "resources": null,
+      "defenses": null,
+      "threats": null
+    },
+    "npcs": [],
+    "districts": []
   }
 }

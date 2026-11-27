@@ -1,0 +1,93 @@
+[
+  {
+    "id": "place-316",
+    "name": "Yukishima",
+    "x": 888.1,
+    "y": 780.9,
+    "faction": "yugen",
+    "description": "Ciudad Yūgen situada entre las montañas nevadas de la isla principal de Amatsura. Una senda de puntos violetas la une con Tetsumori. Sus distritos existen, aunque todavía no se han documentado sus nombres y organización.",
+    "population": "",
+    "climate": "Montaña con influencia marina (referencial)",
+    "biome": "Montaña nevada",
+    "race": "Yūgen",
+    "loreStatus": "parcial",
+    "regionId": "yugen-amatsura",
+    "kind": "Ciudad",
+    "symbolType": "ciudad",
+    "hasDistricts": true,
+    "coordinateStatus": "mapa_3_3",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Amatsura · isla principal"
+      ],
+      [
+        "Distritos",
+        "Existentes; por documentar"
+      ]
+    ],
+    "curiosities": []
+  },
+  {
+    "id": "place-317",
+    "name": "Tetsumori",
+    "x": 956.1,
+    "y": 930.8,
+    "faction": "yugen",
+    "description": "Ciudad Yūgen en el litoral sudoriental de la isla principal de Amatsura. Está conectada con Yukishima por la senda violeta del Mapa 3.3. Su división en distritos está pendiente de individualización.",
+    "population": "",
+    "climate": "Marítimo (referencial)",
+    "biome": "Costa insular",
+    "race": "Yūgen",
+    "loreStatus": "parcial",
+    "regionId": "yugen-amatsura",
+    "kind": "Ciudad",
+    "symbolType": "ciudad",
+    "hasDistricts": true,
+    "coordinateStatus": "mapa_3_3",
+    "extraFacts": [
+      [
+        "Territorio",
+        "Amatsura · isla principal"
+      ],
+      [
+        "Distritos",
+        "Existentes; por documentar"
+      ]
+    ],
+    "curiosities": []
+  },
+  {
+    "id": "place-318",
+    "name": "Kazehara",
+    "x": 848.9,
+    "y": 960.8,
+    "faction": "yugen",
+    "description": "Ciudad portuaria Yūgen en la costa del Tridente, al sur de Amatsura. Cuenta con puerto y acceso al mar. La organización y los nombres de sus distritos todavía no han sido documentados.",
+    "population": "",
+    "climate": "Marítimo (referencial)",
+    "biome": "Isla costera",
+    "race": "Yūgen",
+    "loreStatus": "parcial",
+    "regionId": "yugen-tridente",
+    "kind": "Ciudad portuaria",
+    "symbolType": "ciudad",
+    "hasDistricts": true,
+    "coordinateStatus": "mapa_3_3",
+    "extraFacts": [
+      [
+        "Territorio",
+        "El Tridente"
+      ],
+      [
+        "Acceso",
+        "Puerto marítimo"
+      ],
+      [
+        "Distritos",
+        "Existentes; por documentar"
+      ]
+    ],
+    "curiosities": []
+  }
+]

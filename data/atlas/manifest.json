@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-avalon-cuatro-corredores-costeros-v19",
+  "revision": "2026-11-27-mapa33-yugen-v20",
   "counts": {
-    "places": 118,
-    "regions": 24,
-    "roads": 166,
+    "places": 121,
+    "regions": 26,
+    "roads": 167,
     "navalCells": 5965,
     "marineZones": 6,
     "nauticalCorridors": 14,
@@ -27,7 +27,8 @@
     "landConnectedPoints": 105,
     "landDisconnectedPoints": 13,
     "navalLegacyRecords": 31,
-    "avalonNewCoastalRoads": 4
+    "avalonNewCoastalRoads": 4,
+    "yugenCities": 3
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -45,7 +46,8 @@
       "data/atlas/localidades/piratas.json",
       "data/atlas/localidades/seriasak.json",
       "data/atlas/localidades/sin-region.json",
-      "data/atlas/localidades/ushios.json"
+      "data/atlas/localidades/ushios.json",
+      "data/atlas/localidades/yugen.json"
     ],
     "naval": {
       "water": "data/atlas/naval/hexagonos-navegables.json",
@@ -62,5 +64,5 @@
     "avalonCoastalAudit": "data/atlas/caminos-costeros-avalon-2026-11-27.json"
   },
   "core": "js/supermapa-core.js",
-  "note": "Supermapa completo con 135 caminos terrestres hexagonales (131 anteriores + 4 recorridos costeros nuevos) y 31 registros históricos de navegación no trazados en la capa terrestre. Nuevas rutas: Engerlass–Puerto Volker, Puerto del Ahogado–Kyder, Fortaleza del Alba–Kyder y Fuerte Elyssfor–Faro Crepuscular. 105/118 localidades presentan enlace terrestre. Dos rutas costeras tocan un hexágono limítrofe marcado como agua: requieren revisión fina de la línea de costa. Ningún enlace fue confirmado automáticamente."
+  "note": "Yūgen reincorporados mediante tres localidades, dos regiones, fichas cívicas y senda violeta. Imagen 3.3 pendiente de publicación; datos navales previos permanecen activos."
 }

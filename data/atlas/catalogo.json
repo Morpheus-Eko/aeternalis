@@ -3,7 +3,17 @@
     "src": "https://2img.net/i.imgur.com/sS5W8pV.jpeg",
     "width": 2048,
     "height": 1571,
-    "rasterDisplay": "Alta resolución de 4100 × 3146, coordenadas lógicas 2048 × 1571"
+    "rasterDisplay": "Alta resolución de 4100 × 3146, coordenadas lógicas 2048 × 1571",
+    "newRasterPending": {
+      "filename": "Mapa_3.3.png",
+      "variants": [
+        "Mapa_3.3_HEX_BLACK.png",
+        "Mapa_3.3_HEX_WHITE.png"
+      ],
+      "logicalWidth": 2048,
+      "logicalHeight": 1571,
+      "status": "pendiente_de_publicacion_en_github"
+    }
   },
   "kingdomNames": {
     "arcadia": "Sacro Imperio de Arcadia",
@@ -18,14 +28,15 @@
     "avalon": "Ávalon · humanos",
     "isilme": "Isilme · altos elfos",
     "elenya": "Elenya · amarant",
-    "seriasak": "Seri’asak · sinhair"
+    "seriasak": "Seri’asak · sinhair",
+    "yugen": "Amatsura · Yūgen"
   },
   "metadata": {
     "canon": "02_ Esquema Personalizacion Ciudades y Conflicto(1).docx",
     "archivedLoreExcluded": true,
-    "geo": "Mapa 3.21. v3.2: reposicionamiento y tres polígonos independientes en la Niebla; coordenadas aún sujetas a calibración final.",
+    "geo": "Mapa 3.3: Yūgen reintroducidos; raster adjunto y aún no alojado públicamente.",
     "counts": {
-      "pins": 116,
+      "pins": 119,
       "canonCities": 75
     },
     "v3": true,
@@ -33,7 +44,7 @@
     "cartographyExportIntegrated": {
       "source": "Aeternalis_Cartografia_Caminos.json",
       "revision": "v1.5",
-      "coordinateCount": 118,
+      "coordinateCount": 121,
       "updatedCityCoordinates": 15,
       "regionCount": 24,
       "edgeCount": 165,
@@ -180,6 +191,9 @@
     "place-314",
     "place-315",
     "poi-santuario-eradil",
-    "poi-laberinto-ataras"
+    "poi-laberinto-ataras",
+    "place-316",
+    "place-317",
+    "place-318"
   ]
 }

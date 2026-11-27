@@ -297,5 +297,32 @@
         ]
       }
     ]
+  },
+  "yugen-amatsura": {
+    "intro": [
+      "Amatsura es hogar de los Yūgen. Los clanes Iwagiri, Hanamori y Shiranui compiten por su organización feudal."
+    ],
+    "sections": [
+      {
+        "title": "Localidades",
+        "paragraphs": [
+          "Yukishima, al norte, y Tetsumori, al sudoriente, están unidas por una senda violeta visible en el nuevo mapa.",
+          "No se atribuyen distritos ni jurisdicciones a un clan sin datos adicionales."
+        ]
+      }
+    ]
+  },
+  "yugen-tridente": {
+    "intro": [
+      "El Tridente reúne islas menores de Amatsura y el puerto costero Yūgen de Kazehara."
+    ],
+    "sections": [
+      {
+        "title": "Navegación",
+        "paragraphs": [
+          "Kazehara se incorpora a la Carta Náutica como escala insular."
+        ]
+      }
+    ]
   }
 }

@@ -316,5 +316,29 @@
     "loreStatus": "vigente",
     "sourceGeometry": "calibración v3 (contornos sujetos a revisión manual)",
     "geometryReview": "sin_revisar_4100"
+  },
+  {
+    "id": "yugen-amatsura",
+    "name": "Amatsura · Isla principal",
+    "kingdom": "yugen",
+    "rgb": "141,105,161",
+    "points": "859,761 898,759 926,775 937,809 956,833 989,860 1002,905 978,938 948,947 923,928 883,921 845,899 823,864 831,829 844,798",
+    "description": "Isla principal de los Yūgen, límite provisional sobre el Mapa 3.3.",
+    "image": "",
+    "places": [],
+    "loreStatus": "parcial",
+    "geometryReview": "provisional"
+  },
+  {
+    "id": "yugen-tridente",
+    "name": "Amatsura · El Tridente",
+    "kingdom": "yugen",
+    "rgb": "151,115,167",
+    "points": "795,923 828,913 848,918 881,927 910,946 929,970 908,990 872,1003 833,994 797,980 785,953",
+    "description": "Islas del Tridente con el puerto de Kazehara; contorno provisional.",
+    "image": "",
+    "places": [],
+    "loreStatus": "parcial",
+    "geometryReview": "provisional"
   }
 ]

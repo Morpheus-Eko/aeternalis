@@ -9636,5 +9636,73 @@
       "checked": "pendiente"
     },
     "priority": "normal"
+  },
+  {
+    "id": "yugen-violeta-yukishima-tetsumori",
+    "from": "place-316",
+    "to": "place-317",
+    "kind": "trail",
+    "terrain": "forest",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 887,
+        "y": 795
+      },
+      {
+        "x": 884,
+        "y": 816
+      },
+      {
+        "x": 882,
+        "y": 834
+      },
+      {
+        "x": 885,
+        "y": 846
+      },
+      {
+        "x": 892,
+        "y": 861
+      },
+      {
+        "x": 897,
+        "y": 876
+      },
+      {
+        "x": 908,
+        "y": 884
+      },
+      {
+        "x": 924,
+        "y": 889
+      },
+      {
+        "x": 939,
+        "y": 889
+      },
+      {
+        "x": 946,
+        "y": 895
+      },
+      {
+        "x": 953,
+        "y": 905
+      },
+      {
+        "x": 958,
+        "y": 918
+      }
+    ],
+    "status": "propuesta",
+    "origin": "puntos_violetas_mapa_3_3",
+    "reason": "Seguimiento aproximado de pigmento violeta, Mapa 3.3; por validar.",
+    "priority": "normal",
+    "routeColor": "#9270a6",
+    "cartographicEvidence": {
+      "source": "Mapa_3.3.png",
+      "method": "lectura_visual",
+      "checked": "pendiente"
+    }
   }
 ]
