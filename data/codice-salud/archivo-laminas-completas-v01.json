@@ -1,212 +1,282 @@
 {
   "schema": "aeternalis-medical-full-plates-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "source": "assets/medicina/atlas-recortes-v01/manifest.json",
-  "purpose": "Exhibir en el Archivo Anatómico las planchas completas existentes; se reserva una plancha por folio y dos folios por raza",
-  "editorial": "Archivo pictórico de Aeternalis; se conservan los originales WebP completos sin modificar su composición",
+  "purpose": "Archivo pictórico: izquierda modelo masculino, derecha modelo femenino; Amarant dos modelos femeninos. Una lámina completa por página y una observación breve, propia del ilustrador.",
+  "editorial": "Los 16 WebP originales se conservan sin recortes ni alteraciones. Las glosas breves son narración ficticia del mundo de Aeternalis y las ciudades se usan como procedencia.",
   "races": {
     "elfos": {
       "title": "Altos Elfos",
       "folios": [
         {
-          "id": "elfos_femenino_B",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/elfos_femenino_B.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 0.8002853067047075,
-          "originalDimensions": [
-            1122,
-            1402
-          ]
-        },
-        {
           "id": "elfos_masculino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/elfos_masculino_A.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "Al trazar el arco del hombro y las manos, descubrí que la elegancia del porte no impide la huella de antiguas fatigas.",
+            "author": "Aelir Vaes, anatomista de Rhori’len"
+          },
+          "position": "left"
+        },
+        {
+          "id": "elfos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/elfos_femenino_B.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ],
+          "note": {
+            "text": "La posición del cuello cambia apenas cuando la modelo vuelve la vista hacia la luz. Ese movimiento merecía una lámina propia.",
+            "author": "Elion Dareth, retratista de Aurelith"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "humanos": {
       "title": "Humanos",
       "folios": [
         {
-          "id": "humanos_femenino_B",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/humanos_femenino_B.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 0.8002853067047075,
-          "originalDimensions": [
-            1122,
-            1402
-          ]
-        },
-        {
           "id": "humano_masculino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/humano_masculino_A.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "El torbellino de cicatrices en este brazo cuenta más jornadas que un registro de caminos. Conservé sus proporciones sin corregirlas.",
+            "author": "Fael Orin, dibujante anatómico de Aurelith"
+          },
+          "position": "left"
+        },
+        {
+          "id": "humanos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/humanos_femenino_B.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ],
+          "note": {
+            "text": "En el estudio de las manos encontré asimetrías que un retrato ceremonial habría borrado. Aquí debían permanecer.",
+            "author": "Isolde de Miralba, compiladora de Eirae"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "norin": {
       "title": "Nórin",
       "folios": [
         {
-          "id": "norin_femenino_A",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/norin_femenino_A.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 1.5,
-          "originalDimensions": [
-            1536,
-            1024
-          ]
-        },
-        {
           "id": "norin_masculino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/norin_masculino_A.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "Los pies sostienen la historia del andar descalzo: sus plantas no obedecen a la misma línea suave que los dedos de la mano.",
+            "author": "Nolin Hojalarga, curandero de Molino Blanco"
+          },
+          "position": "left"
+        },
+        {
+          "id": "norin_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/norin_femenino_A.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ],
+          "note": {
+            "text": "Pedí a la modelo que se sentara como lo hace al desgranar avena. En esa postura hallé un movimiento que no vi de pie.",
+            "author": "Maela Zarzaverde, curandera de la Comarca Esmeralda"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "yugen": {
       "title": "Yūgen",
       "folios": [
         {
-          "id": "yugen_femenino_A",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/yugen_femenino_A.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 1.5,
-          "originalDimensions": [
-            1536,
-            1024
-          ]
-        },
-        {
           "id": "yugen_masculino_B",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/yugen_masculino_B.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 0.8002853067047075,
           "originalDimensions": [
             1122,
             1402
-          ]
+          ],
+          "note": {
+            "text": "He señalado la disposición del torso sin añadir símbolo alguno: las formas del cuerpo hablan antes que los rumores sobre su origen.",
+            "author": "Akiro, cirujano de Yukishima"
+          },
+          "position": "left"
+        },
+        {
+          "id": "yugen_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/yugen_femenino_A.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ],
+          "note": {
+            "text": "Las sombras de la frente y la mandíbula exigieron tres intentos. Preferí la observación directa a las proporciones aprendidas.",
+            "author": "Haru, sacerdotisa de Kazehara"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "montaraces": {
       "title": "Montaraces",
       "folios": [
         {
-          "id": "montaraces_femenino_A",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/montaraces_femenino_A.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 1.5,
-          "originalDimensions": [
-            1536,
-            1024
-          ]
-        },
-        {
           "id": "montaraces_masculino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/montaraces_masculino_A.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "La amplitud del pecho se entiende al mirar el cuerpo de perfil. El frío no dibuja al guerrero, pero sí el modo en que se protege.",
+            "author": "Bjorn, Capa Negra de Mossgard"
+          },
+          "position": "left"
+        },
+        {
+          "id": "montaraces_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/montaraces_femenino_A.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 1.5,
+          "originalDimensions": [
+            1536,
+            1024
+          ],
+          "note": {
+            "text": "En esta espalda se adivina el peso de las travesías. Dibujé la curvatura real, sin enderezarla para halagar a la cazadora.",
+            "author": "Yrsa Ventisca, sanadora de Valgard"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "enanos": {
       "title": "Enanos",
       "folios": [
         {
-          "id": "enanos_femenino_B",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/enanos_femenino_B.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 0.8002853067047075,
-          "originalDimensions": [
-            1122,
-            1402
-          ]
-        },
-        {
           "id": "enanos_masculino_B",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/enanos_masculino_B.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 0.8002853067047075,
           "originalDimensions": [
             1122,
             1402
-          ]
+          ],
+          "note": {
+            "text": "La mano del minero apenas cabía en mi primera escala. Aumenté el papel antes de reducir la verdad de sus dedos.",
+            "author": "Gloim, líder de expedición de Dhalgrim"
+          },
+          "position": "left"
+        },
+        {
+          "id": "enanos_femenino_B",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/enanos_femenino_B.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 0.8002853067047075,
+          "originalDimensions": [
+            1122,
+            1402
+          ],
+          "note": {
+            "text": "El antebrazo conserva la memoria del martillo y la pinza. No quise suavizar los relieves que dejó el trabajo.",
+            "author": "Rúrik Piedrahonda, cirujano de galerías de Dhalgrim"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "sinhair": {
       "title": "Sin'hair",
       "folios": [
         {
-          "id": "sinhair_femenino_A",
-          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/sinhair_femenino_A.webp",
-          "caption": "Lámina completa · anatomía femenina",
-          "sex": "femenino",
-          "aspect": 0.9138719512195121,
-          "originalDimensions": [
-            1199,
-            1312
-          ]
-        },
-        {
           "id": "sinhair_masculino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/sinhair_masculino_A.webp",
-          "caption": "Lámina completa · anatomía masculina",
+          "caption": "Anatomía masculina · estudio del natural",
           "sex": "masculino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "Entre las marcas del clan y las heridas antiguas dejé líneas distintas, pues no conviene atribuir al dolor aquello que fue elegido.",
+            "author": "Lethari Vah, boticaria de Coriel"
+          },
+          "position": "left"
+        },
+        {
+          "id": "sinhair_femenino_A",
+          "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/sinhair_femenino_A.webp",
+          "caption": "Anatomía femenina · estudio del natural",
+          "sex": "femenino",
+          "aspect": 0.9138719512195121,
+          "originalDimensions": [
+            1199,
+            1312
+          ],
+          "note": {
+            "text": "La silueta cambia con el paso, y ninguna pose inmóvil lo explica todo. Guardé esta postura para comparar con otros dibujos.",
+            "author": "Eshara de las Sendas, herbolaria de Fedethrill"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Conjunto de láminas femeninas y masculinas."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Estudios correspondientes a modelos masculino y femenino."
     },
     "amarant": {
       "title": "Amarant",
@@ -214,28 +284,38 @@
         {
           "id": "amarant_femenino_B",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/amarant_femenino_B.webp",
-          "caption": "Lámina completa · anatomía femenina",
+          "caption": "Estudio femenino · primera modelo",
           "sex": "femenino",
           "aspect": 1.5,
           "originalDimensions": [
             1536,
             1024
-          ]
+          ],
+          "note": {
+            "text": "La primera modelo permaneció junto al agua. Anoté cómo el peso del cabello altera la lectura de su cuello y hombros.",
+            "author": "Serah Venn, cronista de Alandra"
+          },
+          "position": "left"
         },
         {
           "id": "amarant_femenino_A",
           "path": "assets/medicina/atlas-recortes-v01/fuentes_webp/amarant_femenino_A.webp",
-          "caption": "Lámina completa · segundo estudio femenino",
+          "caption": "Estudio femenino · segunda modelo",
           "sex": "femenino",
           "aspect": 0.7336065573770492,
           "originalDimensions": [
             1074,
             1464
-          ]
+          ],
+          "note": {
+            "text": "Quise estudiar otra mujer Amarant bajo una luz distinta. La comparación exige dos testimonios, no una figura repetida.",
+            "author": "Lysandra Ori, boticaria de Guardia Zytheria"
+          },
+          "position": "right"
         }
       ],
-      "edition": "planchas originales completas del Atlas Anatómico; sin recortes",
-      "note": "Las dos planchas representan mujeres Amarant."
+      "edition": "Dos láminas originales completas. Varón a la izquierda y mujer a la derecha, excepto Amarant: dos estudios femeninos.",
+      "note": "Dos modelos femeninos Amarant."
     }
   }
 }
