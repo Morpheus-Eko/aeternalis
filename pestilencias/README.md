@@ -1,8 +1,8 @@
-# El Códice de las Pestilencias · Interfaz v1.0
+# El Códice de las Pestilencias · Interfaz v1.1
 
 ## Una experiencia propia, no una variante del Astillero
 
-Se presenta como **Gabinete de Cuarentena**, con un armario de tres sellos patológicos, un dossier central en pergamino y un panel de protocolo. No utiliza grids de mejoras ni libros de navegación. Las pestañas visuales aprovechan los assets individuales del catálogo de Pestilencias.
+La experiencia se organiza como un **libro de expedientes clínicos**. Se abre en un índice de tres folios. Cada nombre conduce a una **página de lectura ancha**, sin columnas laterales, con observaciones del médico a tamaño de texto cómodo, notas desplegables y el registro de cada secuela. La navegación por pliegos (síntomas, exposición y expediente) es progresiva y cuenta con retorno al índice. A diferencia del Astillero, aquí la protagonista es la lectura y no una cuadrícula de opciones.
 
 ## Arquitectura
 
@@ -15,7 +15,7 @@ Se presenta como **Gabinete de Cuarentena**, con un armario de tres sellos patol
 
 ## Vistas
 
-**Síntomas:** descripción, teoría conocida frente a hipótesis, escala de secuelas y muerte.
+**Síntomas:** hoja clínica de lectura amplia con descripción inicial y notas médicas que se abren una a una. Procedencia, exposición y secuelas aparecen como anotaciones desplegables, manteniendo la distinción entre hipótesis y hechos del lore.
 
 **Exposición:** entrada manual de VIT, raza, exposiciones anteriores y protecciones (Ouriler / Velo de Astarax). Calcula 1d100 + modificadores y la probabilidad matemática exacta de superar el umbral. No tira dados oficiales ni altera fichas.
 
@@ -38,3 +38,12 @@ En una publicación del foro, pegar el contenido del archivo `foroactivo/HTML_CO
 Vista independiente: https://morpheus-eko.github.io/aeternalis/pestilencias/
 
 Próximas iteraciones propuestas: relación visual con el Supermapa, imágenes específicas para tratamientos, registro de personajes validado por staff y reglas de inmunidad tras aprobación.
+
+## Cambio de arquitectura · 27 de noviembre de 2026
+
+- Índice del libro como estado inicial; cada afección abre un legajo.
+- Eliminadas las columnas laterales y el panel de cuarentena que comprimían el texto.
+- Pliego principal de hasta 1100 px, texto de lectura de 18–20 px en pantallas amplias, interlineado ~1.8.
+- Notas y secuelas mediante elementos `details`/`summary`, compatibles con teclado y sin añadir dependencias externas.
+- Compatibilidad con calculadora 1d100, libro de secuelas y enlace al JS maestro; el contenido normativo en JSON no se modifica.
+- Versión de CSS/JS 1.1.0 para invalidar la caché de GitHub Pages / Foroactivo.
