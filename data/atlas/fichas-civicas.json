@@ -46,8 +46,8 @@
   },
   "place-316": {
     "basic": {
-      "capital": null,
       "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "capital": null,
       "religion": null,
       "language": null
     },
@@ -57,12 +57,31 @@
       "threats": null
     },
     "npcs": [],
-    "districts": []
+    "districts": [
+      {
+        "id": "place-316-d1",
+        "name": "Terrazas de la Nieve",
+        "description": "Propuesta editorial, pendiente de canon. Viviendas y almacenes entre los pasos y terrazas altas, preparados para las estaciones de nieve.",
+        "image": ""
+      },
+      {
+        "id": "place-316-d2",
+        "name": "Barrio de la Piedra",
+        "description": "Propuesta editorial, pendiente de canon. Talleres, depósitos y construcciones defensivas que resguardan los pasos de montaña.",
+        "image": ""
+      },
+      {
+        "id": "place-316-d3",
+        "name": "Umbral de los Santuarios",
+        "description": "Propuesta editorial, pendiente de canon. Templos y espacios de memoria familiar levantados al amparo de las alturas.",
+        "image": ""
+      }
+    ]
   },
   "place-317": {
     "basic": {
-      "capital": null,
       "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "capital": null,
       "religion": null,
       "language": null
     },
@@ -72,12 +91,31 @@
       "threats": null
     },
     "npcs": [],
-    "districts": []
+    "districts": [
+      {
+        "id": "place-317-d1",
+        "name": "Barrio de las Forjas",
+        "description": "Propuesta editorial, pendiente de canon. Artesanos que reparan instrumentos, herramientas y equipo guerrero.",
+        "image": ""
+      },
+      {
+        "id": "place-317-d2",
+        "name": "Terrazas del Cerezo",
+        "description": "Propuesta editorial, pendiente de canon. Barrio residencial y mercados entre los caminos y los cultivos de la ladera.",
+        "image": ""
+      },
+      {
+        "id": "place-317-d3",
+        "name": "Puertas del Este",
+        "description": "Propuesta editorial, pendiente de canon. Acceso defensivo al camino desde Yukishima y a las rutas de la ribera.",
+        "image": ""
+      }
+    ]
   },
   "place-318": {
     "basic": {
-      "capital": null,
       "government": "Orden feudal Yūgen; autoridad local por documentar",
+      "capital": null,
       "religion": null,
       "language": null
     },
@@ -87,6 +125,25 @@
       "threats": null
     },
     "npcs": [],
-    "districts": []
+    "districts": [
+      {
+        "id": "place-318-d1",
+        "name": "Muelles del Viento",
+        "description": "Propuesta editorial, pendiente de canon. Embarcaderos, lonjas, almacenes y posadas para pescadores y navegantes.",
+        "image": ""
+      },
+      {
+        "id": "place-318-d2",
+        "name": "Astilleros del Tridente",
+        "description": "Propuesta editorial, pendiente de canon. Carpinteros de ribera, talleres de velamen y reparaciones navales.",
+        "image": ""
+      },
+      {
+        "id": "place-318-d3",
+        "name": "Barrio de las Linternas",
+        "description": "Propuesta editorial, pendiente de canon. Residencias de comerciantes y navegantes, con mercados y ceremonias junto al mar.",
+        "image": ""
+      }
+    ]
   }
 }
