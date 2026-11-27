@@ -139,7 +139,7 @@
   handbook.archives.forEach(a=>add('atlas','archive',a.title,{theme:ARCHIVE_THEMES[a.title]||'general',archive:a,subtitle:'Planchas conservadas para cotejo',voice:'Archivo de dibujos médicos',image:a.image,caption:a.note,status:a.status}));
   let previous='';state.pages.forEach((p,i)=>{p.number=i+1;if(p.section!==previous){state.sections.push({id:p.section,title:SECTION_NAMES[p.section],page:i});previous=p.section;}});
  }
- function isSingle(){return (root.getBoundingClientRect?root.getBoundingClientRect().width:root.clientWidth||1300)<1180;}
+ function isSingle(){return (root.getBoundingClientRect?root.getBoundingClientRect().width:root.clientWidth||1300)<1070;}
  function visibleFirst(){return isSingle()?state.current:Math.floor(state.current/2)*2;}
  function adjacentIndex(){return isSingle()?null:visibleFirst()+1;}
  function compassButton(){return '<button type="button" class="ac-compass" data-action="compass" aria-expanded="'+(state.drawer?'true':'false')+'" aria-controls="ac-compass-panel" aria-label="Abrir o cerrar la Brújula Arcana">'+img('assets/codex/botones/gotico/boton_menu_gotico_01.webp','')+'<span>Brújula Arcana</span></button>';}
