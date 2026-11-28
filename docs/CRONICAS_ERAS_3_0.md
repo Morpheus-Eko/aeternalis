@@ -54,3 +54,10 @@ https://morpheus-eko.github.io/aeternalis/cronologia-preview.html
 **Previsualización:** https://morpheus-eko.github.io/aeternalis/cronologia-preview.html
 
 Los emblemas, cantoneras y sellos añadidos son *elementos de interfaz*, no declaraciones canónicas de heráldica o símbolos oficiales de las eras.
+
+
+## v3.2 · Escritura perdida y desbloqueos por trama
+
+Génesis, Primera, Segunda y Tercera Era aparecen en el alfabeto ficticio Aen-Vahr. La Cuarta Era permanece legible. Para revelar pasajes, editar data/cronologia/desbloqueos.json: la clave `revelados` es una lista de índices, con 0 para el prólogo y 1 en adelante para los apartados ## del manuscrito original. Rangos: génesis 0–5, primera 0–6, segunda 0–6, tercera 0–8. Todos empiezan cerrados, sin botones de autodesbloqueo. El cliente no solicita los manuscritos sellados cuando ningún pasaje está liberado. La escritura Aen-Vahr es ambiental y no constituye una traducción literal ni agrega canon lingüístico.
+
+**Nota de seguridad narrativa:** los relatos originales markdown permanecen públicos en GitHub, incluidos en el historial. La ocultación en el foro es visual, no criptográfica. Los futuros secretos que deban mantenerse realmente privados deben conservarse fuera del repositorio público y publicarse solo a medida que se revelen.

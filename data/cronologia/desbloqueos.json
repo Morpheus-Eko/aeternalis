@@ -1,0 +1,24 @@
+{
+  "schema": "aeternalis-cronologia-sellos-v1",
+  "version": "1.0.0",
+  "idioma": "Aen-Vahr, escritura ficticia anterior a la memoria.",
+  "nota": "Índice 0: prólogo; 1 en adelante: apartados ## en orden. Editar revelados para liberar pasajes.",
+  "eras": {
+    "genesis": {
+      "pasajes": 6,
+      "revelados": []
+    },
+    "primera": {
+      "pasajes": 7,
+      "revelados": []
+    },
+    "segunda": {
+      "pasajes": 7,
+      "revelados": []
+    },
+    "tercera": {
+      "pasajes": 9,
+      "revelados": []
+    }
+  }
+}

@@ -8,11 +8,87 @@
   var ROOT = document.getElementById('aec-cronologia');
   if (!ROOT || ROOT.getAttribute('data-aec-v3')) return;
   ROOT.setAttribute('data-aec-v3', 'loading');
-  var state = { manifest: null, modal: null, current: -1, request: 0, cache: new Map(), lastFocus: null };
+  var state = { manifest: null, seals: null, modal: null, current: -1, request: 0, cache: new Map(), lastFocus: null };
   var lockWasPresent = false;
   var previousBodyOverflow = null;
   var originalTitle = document.title;
   var reducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+
+  /* Aen-Vahr: símbolos ficticios, no traducción literal de la narración.
+     Las eras totalmente selladas no descargan sus archivos markdown. */
+  var SEALED_TOTALS={genesis:6,primera:7,segunda:7,tercera:9};
+  var SYLLABLES=[
+    'ᚹᚨᛟᚾ','ᛞᚱᛖᛉ','ᛇᛃᚢᛞ','ᚠᚨᛚᚱ','ᚾᛇᚦᚨ','ᛜᚷᚢᛟ',
+    'ᚦᛟᛗ','ᛊᛁᚾᛟ','ᛗᚨᛇᚱ','ᛒᚢᚾᛇ','ᛟᛊᚦᛖ','ᛏᛇᚨ',
+    'ᚷᛟᛚᚾ','ᛖᚦᚹᛖ','ᛊᚨᛗᛜ','ᚱᚢᛖᛟ','ᚨᚱᛃᚢ','ᛗᛟᚲ',
+    'ᚾᚨᛁᚦ','ᛜᚢᚱᚠ','ᛃᛟᛗᛖ','ᛊᛖᚱᛃ','ᛒᚨᚱᛖ','ᚲᛗᛇᛞ'
+  ];
+  function sealFor(era){
+    var total=SEALED_TOTALS[era.id];
+    if(!total)return null;
+    var entry=state.seals&&state.seals.eras&&state.seals.eras[era.id];
+    var raw=entry&&Array.isArray(entry.revelados)?entry.revelados:[];
+    return {total:total,revelados:raw.filter(function(n,i){
+      return Number.isInteger(n)&&n>=0&&n<total&&raw.indexOf(n)===i;
+    })};
+  }
+  function stillSealed(era){
+    var s=sealFor(era);return !!(s&&s.revelados.length<s.total);
+  }
+  function seedOf(s){
+    var h=2166136261;
+    for(var i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}
+    return h>>>0;
+  }
+  function inscription(id,index,part,length){
+    var seed=seedOf(id+':'+index+':'+part),terms=[];
+    for(var i=0;i<length;i++){
+      seed=(Math.imul(seed,1664525)+1013904223)>>>0;
+      var term=SYLLABLES[seed%SYLLABLES.length];
+      if(i%11===0)term='⟡'+term;
+      if(i%9===8)term+='᛬';
+      terms.push(term);
+    }
+    return terms.join(' ᛫ ');
+  }
+  function unreadablePassage(id,index){
+    var body=[];
+    for(var p=0;p<3;p++){
+      body.push(inscription(id,index,p,14+p*2)+' ᛭ '+inscription(id,index,p+27,13+p));
+    }
+    return body.join('\n\n');
+  }
+  function mixedMarkdown(era,seal,originalText){
+    var sections=originalText?originalText.replace(/\r\n?/g,'\n').split(/(?=^##\s)/m):[];
+    var out=[];
+    for(var i=0;i<seal.total;i++){
+      if(seal.revelados.indexOf(i)>=0&&sections[i]){out.push(sections[i]);continue;}
+      out.push((i===0?'# ':'## ')+inscription(era.id,i,97,i===0?3:2)+
+        '\n\n'+unreadablePassage(era.id,i));
+    }
+    return out.join('\n\n');
+  }
+  function sealStatus(era,modal){
+    var banner=modal.querySelector('.aecm-seal-status'),s=sealFor(era);
+    modal.classList.toggle('aecm-is-sealed',!!(s&&s.revelados.length<s.total));
+    banner.hidden=!s;
+    if(s)banner.textContent=(s.revelados.length<s.total?
+      '⟡ AEN-VAHR · ESCRITURA SIN DESCIFRAR · ':
+      '✧ MEMORIA RECUPERADA · ')+s.revelados.length+' de '+s.total+' pasajes descifrados';
+  }
+  async function loadSeals(){
+    try{
+      var response=await fetch(BASE+'data/cronologia/desbloqueos.json?v='+Date.now(),{cache:'no-store',mode:'cors',credentials:'omit'});
+      if(!response.ok)throw Error('HTTP '+response.status);
+      var result=await response.json();
+      if(result.schema!=='aeternalis-cronologia-sellos-v1')throw Error('Esquema de sellos inválido');
+      return result;
+    }catch(e){
+      console.warn('[Aeternalis Cronología] No se pudo obtener la configuración; las eras antiguas permanecerán selladas.',e);
+      return {eras:{}};
+    }
+  }
 
   function node(tag, cls, text) {
     var n = document.createElement(tag);
@@ -28,16 +104,18 @@
     header.appendChild(node('span', 'aec-kicker', 'Los Anales de Aeternalis'));
     header.appendChild(node('h2', 'aec-title', 'Crónicas de las Eras'));
     header.appendChild(node('span', 'aec-ornament'));
-    header.appendChild(node('p', 'aec-intro', 'Cinco eras. Un mundo. Una historia.'));
+    header.appendChild(node('p', 'aec-intro', 'Las eras antiguas guardan los ecos de una lengua perdida. Cada descubrimiento devuelve un fragmento a la memoria.'));
     ROOT.appendChild(header);
     var nav = node('nav', 'aec-grid');
     nav.setAttribute('aria-label', 'Capítulos de la cronología');
     data.eras.forEach(function (era, idx) {
       var card = node('a', 'aec-card');
-      card.href = era.enlace; // Enlace histórico de respaldo si no se carga el visor
+      var cryptic=stillSealed(era);
+      card.href=cryptic?'#aec-cronologia':era.enlace;
+      if(cryptic)card.classList.add('aec-card--sealed');
       card.dataset.aecEra = era.id;
       card.setAttribute('aria-haspopup', 'dialog');
-      card.setAttribute('aria-label', 'Abrir la crónica de ' + era.nombre);
+      card.setAttribute('aria-label', (cryptic?'Abrir escritura antigua de ':'Abrir la crónica de ')+era.nombre);
       card.style.setProperty('--aec-accent', era.color);
       var img = node('img', 'aec-card-image'); img.alt = ''; img.src = era.fondo; img.loading = idx < 3 ? 'eager' : 'lazy'; img.decoding = 'async';
       card.appendChild(img);
@@ -48,7 +126,8 @@
       var label = node('span', 'aec-card-text');
       label.appendChild(node('span', 'aec-index', 'Capítulo ' + era.numero));
       label.appendChild(node('strong', 'aec-card-title', era.nombre));
-      label.appendChild(node('span', 'aec-subtitle', era.subtitulo));
+      label.appendChild(node('span', 'aec-subtitle', cryptic?'⟡ Manuscrito anterior a la memoria':era.subtitulo));
+      if(cryptic)label.appendChild(node('small','aec-seal-chip','SIN DESCIFRAR'));
       info.appendChild(badge); info.appendChild(label); card.appendChild(info); nav.appendChild(card);
     });
     ROOT.appendChild(nav);
@@ -86,6 +165,7 @@
           '<img class="aecm-rune" alt="" /><span class="aecm-side-line"></span><span class="aecm-side-mark aecm-skull">☠</span>' +
         '</aside>' +
         '<div class="aecm-reading">' +
+          '<div class="aecm-seal-status" role="status" hidden></div>' +
           '<div class="aecm-toolbar"><nav class="aecm-toc" aria-label="Pasajes de esta era"></nav>' +
             '<span class="aecm-reading-caption">CRÓNICA ILUSTRADA</span></div>' +
           '<div class="aecm-scroll" tabindex="0" aria-label="Texto de la crónica">' +
@@ -175,13 +255,14 @@
       var block = fragments.join(' ').replace(/\s+/g,' ').trim(); fragments = [];
       if (!block) return;
       var p = node('p','aecm-p');
+      if(/^[ᚠ-ᛪ⟡]/u.test(block))p.classList.add('aecm-unknown-script');
       appendInline(p, block);
       container.appendChild(p);
     }
     text.replace(/\r\n?/g,'\n').split('\n').forEach(function (line) {
       var main = /^#\s+(.+)/.exec(line), sec = /^##\s+(.+)/.exec(line),
           sub = /^###\s+(.+)/.exec(line), quote = /^>\s*(.+)/.exec(line);
-      if (main) { paragraph(); container.appendChild(node('div','aecm-prologue',main[1])); return; }
+      if (main) { paragraph();var intro=node('div','aecm-prologue',main[1]);if(/^[ᚠ-ᛪ⟡]/u.test(main[1]))intro.classList.add('aecm-unknown-heading');container.appendChild(intro);return; }
       if (sec) {
         paragraph(); sections++;
         if (sections > 1 && separators.length) {
@@ -190,7 +271,7 @@
           ornament.loading='lazy'; ornament.decoding='async'; hr.appendChild(ornament);
           container.appendChild(hr);
         }
-        var section = node('h3','aecm-section',sec[1]); section.id='aecm-passage-'+sections;
+        var section = node('h3','aecm-section',sec[1]);if(/^[ᚠ-ᛪ⟡]/u.test(sec[1]))section.classList.add('aecm-unknown-heading');section.id='aecm-passage-'+sections;
         container.appendChild(section);
         var jump = node('button','aecm-jump',sec[1]); jump.type='button';
         jump.addEventListener('click',function(){
@@ -256,7 +337,8 @@
     var emblem=modal.querySelector('.aecm-hero-emblem'); emblem.style.visibility='visible'; emblem.src=era.icono;
     modal.querySelector('.aecm-cap').textContent='CAPÍTULO '+era.numero;
     modal.querySelector('#aecm-dialog-title').textContent=era.nombre;
-    modal.querySelector('.aecm-hero-subtitle').textContent=era.opening;
+    modal.querySelector('.aecm-hero-subtitle').textContent=stillSealed(era)?'Los signos de Aen-Vahr han sobrevivido a los nombres de quienes los escribieron.':era.opening;
+    sealStatus(era,modal);
     modal.querySelector('.aecm-rune').src=era.runaUrl;
     modal.querySelector('.aecm-watermark').src=state.manifest.sello;
     modal.querySelector('.aecm-folio').textContent='FOLIO '+String(index+1).padStart(2,'0')+' / 05';
@@ -268,15 +350,16 @@
     modal.querySelector('.aecm-close').focus();
     document.title=era.nombre+' · Crónicas de Aeternalis';
     try {
-      var md=await getText(era);
-      if (request!==state.request) return false;
-      buildNarrative(md,era);
+      var seal=sealFor(era);
+      var md=(seal&&seal.revelados.length===0)?null:await getText(era);
+      if(request!==state.request)return false;
+      buildNarrative(seal?mixedMarkdown(era,seal,md):md,era);
     } catch (error) {
       if (request!==state.request) return false;
       var prose=modal.querySelector('.aecm-prose');
       prose.replaceChildren(node('h3','aecm-section','No se pudo abrir este capítulo'));
       prose.appendChild(node('p','aecm-p','El archivo de GitHub Pages no está disponible. Puedes leer la ficha histórica mientras se restablece.'));
-      var link=node('a','aecm-fallback','Abrir crónica anterior');link.href=era.enlace;prose.appendChild(link);
+      if(!stillSealed(era)){var link=node('a','aecm-fallback','Abrir crónica anterior');link.href=era.enlace;prose.appendChild(link);}
       console.error('[Aeternalis Cronología] Error leyendo '+id,error);
     }
     return true;
@@ -288,19 +371,23 @@
     if (ROOT.children.length) return; // No ocultar el índice antiguo si existiera.
     var p=node('p','aec-fallback','La cronología está temporalmente disponible en su versión anterior.');
     ROOT.appendChild(p);
-    [['Génesis','#85'],['Primera Era','#86'],['Segunda Era','#87'],['Tercera Era','#88'],['Cuarta Era','#97']].forEach(function(e){
+    [['Cuarta Era','#97']].forEach(function(e){
       var a=node('a','aec-fallback-link',e[0]);a.href='/t31-02-cronologia'+e[1];ROOT.appendChild(a);
     });
   }
 
-  fetch(BASE+'data/cronologia/manifest.json', {mode:'cors',credentials:'omit'})
-    .then(function(res){if(!res.ok) throw new Error('HTTP '+res.status);return res.json();})
-    .then(function(data){
-      if (!data || !Array.isArray(data.eras) || data.eras.length!==5) throw new Error('Manifiesto incompleto');
-      state.manifest=data;
+
+  Promise.all([
+    fetch(BASE+'data/cronologia/manifest.json?v=3.2.0',{mode:'cors',credentials:'omit',cache:'no-cache'})
+      .then(function(res){if(!res.ok)throw Error('HTTP '+res.status);return res.json();}),
+    loadSeals()
+  ])
+    .then(function(result){
+      var data=result[0];
+      if(!data||!Array.isArray(data.eras)||data.eras.length!==5)throw Error('Manifiesto incompleto');
+      state.manifest=data;state.seals=result[1];
       buildIndex(data);
-      // Precarga exclusivamente la próxima ficha a demanda, no se descargan cinco textos al entrar.
-      window.AeternalisCronologiaV3={open:open,close:close,version:'3.0.0'};
+      window.AeternalisCronologiaV3={open:open,close:close,version:'3.2.0'};
     })
     .catch(fallback);
 })();

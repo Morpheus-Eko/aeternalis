@@ -869,3 +869,39 @@ html.aecm-open { overflow: hidden !important; }
   #aec-cronologia .aec-card::after { transition:none !important; }
 }
 /* FIN_AETERNALIS_ORNAMENTOS_CRONOLOGIA_V3_1 */
+
+
+/* ===== Cronología v3.2 · Manuscritos Aen-Vahr ===== */
+#aec-cronologia .aec-card--sealed{border-color:rgba(164,132,184,.42);filter:saturate(.82)}
+#aec-cronologia .aec-card--sealed:hover{filter:saturate(.95)}
+#aec-cronologia .aec-seal-chip{
+ display:inline-block;margin-top:4px;padding:3px 9px;
+ font:700 9px/1.45 Georgia,serif;letter-spacing:1px;color:#e6d0ec;
+ border:1px solid rgba(207,181,225,.55);border-radius:3px;background:rgba(32,20,39,.72);
+}
+#aec-chronicle-overlay .aecm-seal-status{
+ padding:12px 18px;margin:0 0 8px;
+ border-bottom:1px solid rgba(107,76,129,.3);
+ background:linear-gradient(90deg,rgba(60,39,71,.13),rgba(80,49,94,.08));
+ text-align:center;color:#684969;font:700 10px/1.5 Georgia,serif;letter-spacing:1.5px;
+}
+#aec-chronicle-overlay .aecm-seal-status[hidden]{display:none!important}
+#aec-chronicle-overlay .aecm-unknown-script{
+ font-family:Georgia,'Segoe UI Symbol','Noto Sans Runic',serif;
+ font-size:18px;line-height:1.95;letter-spacing:1.5px;
+ color:#5a4561;text-align:left;overflow-wrap:anywhere;hyphens:none;
+ border-left:2px solid rgba(111,79,130,.25);padding-left:12px;
+}
+#aec-chronicle-overlay .aecm-prose .aecm-unknown-script:first-of-type::first-letter{
+ float:none;font:inherit;margin:0;color:inherit;text-shadow:none;
+}
+#aec-chronicle-overlay .aecm-unknown-heading{
+ font-family:Georgia,'Segoe UI Symbol','Noto Sans Runic',serif!important;
+ font-size:clamp(17px,2vw,25px)!important;line-height:1.7!important;
+ letter-spacing:2px!important;color:#69456f!important;overflow-wrap:anywhere;
+}
+#aec-chronicle-overlay .aecm-jump{overflow-wrap:anywhere}
+@media(max-width:700px){
+ #aec-chronicle-overlay .aecm-seal-status{font-size:9px;padding:9px}
+ #aec-chronicle-overlay .aecm-unknown-script{font-size:16px;letter-spacing:.9px}
+}
