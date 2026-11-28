@@ -45,7 +45,7 @@
   text-align:center;
 }
 #ae-prologo-ozma .ao-opening__eyebrow{
-  display:block;font:600 clamp(10px,1vw,12px)/1.6 inherit;
+  display:block;font-family:inherit;font-size:clamp(10px,1vw,12px);font-weight:600;line-height:1.6;
   color:#c2a27a;letter-spacing:.27em;text-transform:uppercase;
 }
 #ae-prologo-ozma .ao-opening h1{
@@ -78,7 +78,7 @@
 }
 #ae-prologo-ozma .ao-scene figcaption{
   position:absolute;z-index:2;bottom:18px;left:clamp(12px,4vw,45px);
-  margin:0;max-width:82%;font:italic clamp(12px,1.3vw,16px)/1.4 inherit;
+  margin:0;max-width:82%;font-family:inherit;font-size:clamp(12px,1.3vw,16px);font-style:italic;line-height:1.4;
   color:#f3ddba;text-shadow:0 1px 8px #050404;
 }
 #ae-prologo-ozma .ao-scene.ao-image-failed{
@@ -129,7 +129,7 @@
 #ae-prologo-ozma .ao-narrator blockquote{
   border:0!important;background:none!important;box-shadow:none!important;
   padding:0!important;margin:8px 0 0!important;
-  color:#dcbf93;font:italic clamp(15px,1.8vw,21px)/1.5 inherit;
+  color:#dcbf93;font-family:inherit;font-size:clamp(15px,1.8vw,21px);font-style:italic;line-height:1.5;
 }
 #ae-prologo-ozma .ao-prologue,
 #ae-prologo-ozma .ao-cantos{width:min(860px,calc(100% - 76px));margin:0 auto}
@@ -185,7 +185,7 @@
   opacity:.82;filter:sepia(.2) drop-shadow(0 2px 5px #080605);
 }
 #ae-prologo-ozma .ao-canto__number{
-  font:600 11px/1.6 inherit;letter-spacing:.22em;color:#b38f5d;text-transform:uppercase;
+  font-family:inherit;font-size:11px;font-weight:600;line-height:1.6;letter-spacing:.22em;color:#b38f5d;text-transform:uppercase;
 }
 #ae-prologo-ozma .ao-canto__header h2{
   margin:3px 0 0!important;padding:0!important;
@@ -239,8 +239,8 @@
 #ae-prologo-ozma .ao-route:hover{transform:translateY(-4px);border-color:#d7b177;background:#503925}
 #ae-prologo-ozma .ao-route__icon{width:49px;height:49px;object-fit:contain;margin-bottom:7px;opacity:.88;filter:drop-shadow(0 2px 3px #130b08)}
 #ae-prologo-ozma .ao-route__copy{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0}
-#ae-prologo-ozma .ao-route__copy strong{color:#f0d5a8;font:600 16px/1.3 inherit}
-#ae-prologo-ozma .ao-route__copy small{display:block;color:#bca58a;font:normal 11px/1.4 inherit;text-align:center}
+#ae-prologo-ozma .ao-route__copy strong{color:#f0d5a8;font-family:inherit;font-size:16px;font-weight:600;line-height:1.3}
+#ae-prologo-ozma .ao-route__copy small{display:block;color:#bca58a;font-family:inherit;font-size:11px;font-style:normal;line-height:1.4;text-align:center}
 #ae-prologo-ozma .ao-route__arrow{display:none}
 #ae-prologo-ozma .ao-failure{
   background:#2c1e1b;border:1px solid #a68154;color:#f2e0c0;
