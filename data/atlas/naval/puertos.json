@@ -1,8 +1,8 @@
 {
   "schema": "aeternalis-puertos-atlas-v1",
-  "version": "3.3.0",
+  "version": "3.6.0",
   "source": "data/atlas/manifest.json",
-  "description": "Escalas portuarias, litorales y fluviales. La condición de escala no implica muelle ni que el río sea navegable en toda su extensión.",
+  "description": "Escalas costeras y fluviales del Atlas. Los accesos confirmados por el autor aparecen en la Carta Náutica aunque todavía falte verificar el curso exacto del agua. Ninguna escala supone automáticamente infraestructura portuaria, calado apto para grandes buques ni puente entre hexágonos terrestres.",
   "ports": [
     {
       "id": "place-017",
@@ -113,8 +113,10 @@
       "id": "place-093",
       "role": "bahia",
       "endpoint": true,
-      "note": "Bahía Calad, coordenada provisional.",
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-094",
@@ -155,8 +157,10 @@
       "id": "place-315",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-085",
@@ -176,8 +180,10 @@
       "id": "place-314",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-016",
@@ -197,15 +203,19 @@
       "id": "place-012",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-305",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-103",
@@ -281,8 +291,10 @@
       "id": "place-067",
       "role": "costa",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-070",
@@ -302,29 +314,37 @@
       "id": "place-069",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-072",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-071",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "place-073",
       "role": "ribera",
       "endpoint": true,
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
-      "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
+      "fluvialConnection": "confirmada_por_el_autor",
+      "riverGeometry": "pendiente_de_verificar"
     },
     {
       "id": "poi-santuario-eradil",
@@ -388,6 +408,30 @@
       "endpoint": true,
       "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
       "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
+    },
+    {
+      "id": "poi-faro-dugarth",
+      "name": "Faro Dugarth",
+      "role": "faro_y_ribera",
+      "endpoint": true,
+      "fluvialConnection": "confirmada_por_el_autor",
+      "seaOutlet": "confirmada_por_el_autor",
+      "positionStatus": "sin_coordenadas_en_localidades",
+      "riverGeometry": "pendiente_de_verificar",
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "En conexión fluvial con Reddas y Rinnos; Faro Dugarth dispone de desembocadura y salida al mar. No se inventa posición."
+    },
+    {
+      "id": "topo-kaly",
+      "name": "Kaly",
+      "role": "ribera",
+      "endpoint": true,
+      "fluvialConnection": "confirmada_por_el_autor",
+      "positionStatus": "identidad_ambigüa_respecto_de_Kale",
+      "possibleMatch": "place-084",
+      "riverGeometry": "pendiente_de_verificar",
+      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
+      "note": "Se confirma río hacia Cyn’dorei. El Atlas actualmente registra Kale y no Kaly; su identidad permanece sin equiparar."
     }
   ]
 }
