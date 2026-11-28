@@ -424,6 +424,40 @@
        var first=from.value,last=to.value;state.from=first;state.to=last;state.sails=Number(sails.value)||1;
        routeLayer.clearLayers();
        if(!first||!last||first===last){result.textContent='Selecciona dos puertos o riberas diferentes.';state.route=null;return;}
+       var verified=verifiedRiverPath(first,last);
+       if(verified){showVerifiedRiver(verified);return;}
+       // Rinnos y Reddas pueden continuar hasta otros puertos atravesando
+       // su río cartografiado, el Faro Durgath y la desembocadura.
+       var riverToSea=null,seaPart=null,viaMouth=null,seaPortsReversed=false;
+       if(verifiedRiverGraph.has(first)&&first!=='place-014'&&hasOpenSeaAccess(last)){
+         riverToSea=verifiedRiverPath(first,'place-014');
+         if(riverToSea){seaPart=findPath('place-014',last);viaMouth=riverToSea;}
+       }else if(verifiedRiverGraph.has(last)&&last!=='place-014'&&hasOpenSeaAccess(first)){
+         riverToSea=verifiedRiverPath('place-014',last);
+         if(riverToSea){seaPart=findPath(first,'place-014');viaMouth=riverToSea;seaPortsReversed=true;}
+       }
+       if(viaMouth&&seaPart&&seaPart.length&&riverOutlet){
+         var waterCoordinates=seaPart.map(cellCoord);
+         var riverCoordinates=drawRiverPath(viaMouth.waypoints);
+         var mouthCoords=riverOutlet.waypoints.map(function(p){return coord(p[0],p[1]);});
+         L.polyline(mouthCoords,{color:'#99dece',weight:3.8,opacity:.96,
+           className:'ae-naval-river-outlet-selected'}).addTo(routeLayer);
+         L.polyline(waterCoordinates,{color:'#eec389',weight:4.5,opacity:.95,
+           className:'ae-naval-route-selected'}).addTo(routeLayer);
+         var seaHexes=seaPart.length-1,
+             estimatedSeaHours=seaHexes*[24,18,12,8][state.sails-1],
+             riverHexes=Math.round(riverLengthPixels(viaMouth.waypoints)/(Math.sqrt(3)*R));
+         result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong>'+
+           '<span>'+riverHexes+' hexágonos equivalentes por río + '+seaHexes+' hexágonos por mar</span>'+
+           '<span>Tiempo únicamente marítimo: '+estimatedSeaHours+' h</span>'+
+           '<p class="ae-naval-fluvial-note">Travesía mixta a través de Faro Durgath y su desembocadura. La duración fluvial queda por determinar; no se aplica automáticamente la velocidad oceánica al río.</p>';
+         state.route={from:first,to:last,kind:'mixed-river-sea',status:'trazado_rojo_verificado',
+           riverHexesApprox:riverHexes,seaHexes:seaHexes,seaHours:estimatedSeaHours};
+         if(!state.active){state.active=true;setVisible();}
+         map.fitBounds(L.latLngBounds(riverCoordinates.concat(mouthCoords,waterCoordinates)).pad(.18),
+           {maxZoom:.65,padding:[36,36]});
+         return;
+       }
        var river=declaredRiverLink(first,last),basin=sharedFluvialBasin(first,last);
        if(river||basin){
          result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong>'+
@@ -433,10 +467,10 @@
          state.route={from:first,to:last,kind:'river',status:'course-pending'};return;
        }
        if(!hasOpenSeaAccess(first)||!hasOpenSeaAccess(last)){
-         var faro=first==='poi-faro-dugarth'||last==='poi-faro-dugarth';
+         var faro=first==='place-014'||last==='place-014';
          result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong>'+
            '<p class="ae-naval-fluvial-note">'+(faro?
-            'Faro Dugarth tiene salida al mar confirmada, pero carece todavía de coordenadas y no se ha localizado su desembocadura.':
+            'Faro Durgath tiene salida al mar confirmada y su desembocadura está cartografiada. Sin embargo, no se ha podido vincular esta travesía con un corredor oceánico comprobado.':
             'La localidad está identificada como escala fluvial, pero el paso hasta el mar o hasta esta otra escala todavía no tiene un cauce verificado.')+
            ' No se habilita un atajo sobre tierra.</p>';
          state.route={from:first,to:last,kind:'river',status:'unverified-waterway'};return;
@@ -447,8 +481,16 @@
        L.polyline(latlngs,{color:'#eec389',weight:4.5,opacity:.95,className:'ae-naval-route-selected'}).addTo(routeLayer);
        var start=lookup(first),end=lookup(last),accessFrom=anchorById.get(first),accessTo=anchorById.get(last);
         // No dibujar accesos fluviales por tierra si el origen queda lejos de la máscara de agua.
-        if(start&&accessFrom&&accessFrom.snap_distance<=10)L.polyline([coord(start.x,start.y),latlngs[0]],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
-        if(end&&accessTo&&accessTo.snap_distance<=10)L.polyline([latlngs[latlngs.length-1],coord(end.x,end.y)],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
+        if(start&&accessFrom&&accessFrom.accessStatus==='desembocadura_roja_verificada'&&riverOutlet){
+          L.polyline(riverOutlet.waypoints.map(function(p){return coord(p[0],p[1]);}),
+            {color:'#89ccbf',weight:3.5,dashArray:'5 4',opacity:.95,interactive:false}).addTo(routeLayer);
+        }else if(start&&accessFrom&&accessFrom.snap_distance<=10)
+          L.polyline([coord(start.x,start.y),latlngs[0]],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
+        if(end&&accessTo&&accessTo.accessStatus==='desembocadura_roja_verificada'&&riverOutlet){
+          L.polyline(riverOutlet.waypoints.slice().reverse().map(function(p){return coord(p[0],p[1]);}),
+            {color:'#89ccbf',weight:3.5,dashArray:'5 4',opacity:.95,interactive:false}).addTo(routeLayer);
+        }else if(end&&accessTo&&accessTo.snap_distance<=10)
+          L.polyline([latlngs[latlngs.length-1],coord(end.x,end.y)],{color:'#d7ae72',weight:2,dashArray:'3 5',opacity:.7,interactive:false}).addTo(routeLayer);
         var hexes=path.length-1,hours=hexes*[24,18,12,8][state.sails-1];
        var pendingAccess=!!((accessFrom&&accessFrom.snap_distance>10)||(accessTo&&accessTo.snap_distance>10));
         result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong><span>'+hexes.toLocaleString('es-CL')+' hexágonos sobre red preliminar</span><span>'+hours.toLocaleString('es-CL')+' horas · '+(hours/24).toLocaleString('es-CL',{maximumFractionDigits:2})+' días estimados</span>'+(pendingAccess?'<p class="ae-naval-access-warning">Acceso fluvial aún no verificado entre la localidad y la red oceánica. El tiempo no incluye ese tramo; no se dibuja una línea sobre tierra.</p>':'<p class="ae-naval-access-warning">Ruta provisional sobre hexágonos marinos del Mapa Nelson 1.1. Los lagos y ríos aparecen como agua, pero no están habilitados automáticamente para buques.</p>');
