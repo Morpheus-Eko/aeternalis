@@ -7,7 +7,7 @@
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.7.0';
+ var VERSION='3.8.0';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}
@@ -33,10 +33,11 @@
      loadJSON('data/atlas/naval/zonas-maritimas.json'),
      loadJSON('data/atlas/naval/puertos.json'),
      loadJSON('data/atlas/naval/red-fluvial-declarada-v01.json'),
-     loadJSON('data/atlas/naval/politica-corredores-cercanos-v01.json')
+     loadJSON('data/atlas/naval/politica-corredores-cercanos-v01.json'),
+     loadJSON('data/atlas/naval/cauces-verificados-kargast-v01.json')
    ]).then(async function(docs){
-     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],fluvial=docs[4],localPolicy=docs[5];
-     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1'||fluvial.schema!=='aeternalis-red-fluvial-declarada-v1'||localPolicy.schema!=='aeternalis-politica-corredores-cercanos-v1')throw Error('Datos náuticos Nelson incompatibles');
+     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],fluvial=docs[4],localPolicy=docs[5],riverRaster=docs[6];
+     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1'||fluvial.schema!=='aeternalis-red-fluvial-declarada-v1'||localPolicy.schema!=='aeternalis-politica-corredores-cercanos-v1'||riverRaster.schema!=='aeternalis-cauces-verificados-v1')throw Error('Datos náuticos Nelson incompatibles');
      var c=source.grid,R=c.radius,H=Math.sqrt(3)*R,steps=source.encoding.navBitOrder;
      if(source.source.width!==2048||source.source.height!==1571||Math.abs(R-9.3333)>.01)throw Error('La máscara roja no coincide con el Atlas');
      var decoded=await decodeRedWater(source.packed);
@@ -72,6 +73,46 @@
      var pinById=new Map(D.places.filter(function(p){return !p.atlasArchiveReason;}).map(function(p){return [p.id,p];}));
      var portById=new Map(nav.ports.map(function(p){return [p.id,p];}));
      var riverSiteById=new Map(fluvial.sites.map(function(p){return [p.id,p];}));
+     var verifiedRiverGraph=new Map();
+     var verifiedRiverSegments=riverRaster.riverSegments||[];
+     var riverOutlet=(riverRaster.seaOutlets||[]).find(function(x){return x.from==='place-014';})||null;
+     function attachRiverSegment(id,edge,reverse){
+       if(!verifiedRiverGraph.has(id))verifiedRiverGraph.set(id,[]);
+       verifiedRiverGraph.get(id).push({edge:edge,reverse:reverse});
+     }
+     verifiedRiverSegments.forEach(function(e){
+       if(!Array.isArray(e.waypoints)||e.waypoints.length<2||
+         !pinById.has(e.from)||!pinById.has(e.to))throw Error('Cauce fluvial incompatible con el Atlas: '+e.id);
+       var a=pinById.get(e.from),b=pinById.get(e.to),first=e.waypoints[0],last=e.waypoints[e.waypoints.length-1];
+       if(Math.hypot(a.x-first[0],a.y-first[1])>4||
+          Math.hypot(b.x-last[0],b.y-last[1])>4)throw Error('Cauce rojo no termina en la localidad correspondiente: '+e.id);
+       attachRiverSegment(e.from,e,false);attachRiverSegment(e.to,e,true);
+     });
+     function verifiedRiverPath(start,end){
+       if(!verifiedRiverGraph.has(start)||!verifiedRiverGraph.has(end))return null;
+       var queue=[{node:start,legs:[]}],seen=new Set([start]);
+       while(queue.length){
+         var cur=queue.shift();
+         if(cur.node===end){
+           var points=[];
+           cur.legs.forEach(function(leg,i){
+             var segment=leg.reverse?leg.edge.waypoints.slice().reverse():leg.edge.waypoints;
+             if(i)segment=segment.slice(1);
+             Array.prototype.push.apply(points,segment);
+           });
+           return {from:start,to:end,waypoints:points,legs:cur.legs.length};
+         }
+         (verifiedRiverGraph.get(cur.node)||[]).forEach(function(e){
+           var next=e.reverse?e.edge.from:e.edge.to;
+           if(!seen.has(next)){seen.add(next);queue.push({node:next,legs:cur.legs.concat([e])});}
+         });
+       }
+       return null;
+     }
+     function riverLengthPixels(pts){var length=0;
+       for(var i=1;i<pts.length;i++)length+=Math.hypot(pts[i][0]-pts[i-1][0],pts[i][1]-pts[i-1][1]);
+       return length;
+     }
      var basinBySite=new Map();
      fluvial.basins.forEach(function(b){b.sites.forEach(function(id){
        if(!basinBySite.has(id))basinBySite.set(id,[]);
@@ -95,6 +136,18 @@
      });
      // Mostrar escalas fluviales aunque su río aún no alcance una celda de mar.
      // Las localidades sin coordenadas solo aparecen en el selector, no en el mapa.
+     // Faro Durgath ocupa el río junto a su desembocadura; solo conectarlo
+     // a mar abierto mediante el tramo rojo georreferenciado.
+     if(riverOutlet){
+       var seaHex=riverOutlet.suggestedSeaHex,seaCell=waterNodes.get(seaHex.join(','));
+       if(seaCell){
+         var seaPoint=center(seaCell[0],seaCell[1]),mouthTip=riverOutlet.waypoints[riverOutlet.waypoints.length-1];
+         if(Math.hypot(seaPoint[0]-mouthTip[0],seaPoint[1]-mouthTip[1])<=5){
+           anchorById.set('place-014',{id:'place-014',hex:[seaCell[0],seaCell[1]],
+             snap_distance:0,water_type:seaCell[2],accessStatus:'desembocadura_roja_verificada'});
+         }
+       }
+     }
      var ports=nav.ports.filter(function(p){return p.endpoint&&(pinById.has(p.id)||riverSiteById.has(p.id));});
      var policy=localPolicy.parameters;
      function hasOpenSeaAccess(id){
