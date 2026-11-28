@@ -135,3 +135,15 @@
  #aeternalis-atlas .ae-naval-nearby__sea,
  #aeternalis-atlas .ae-naval-nearby__river{grid-template-columns:minmax(0,1fr)}
 }
+
+/* FLUVIAL KARGAST V3.8: río rojo verificado Rinnos–Reddas–Faro Durgath. */
+#aeternalis-atlas .ae-naval-river-network{
+ stroke:#79cfcc;stroke-width:3.2px;filter:drop-shadow(0 1px 3px #080707bd);
+}
+#aeternalis-atlas .ae-naval-river-outlet{
+ stroke:#a6c7ca;stroke-width:2.7px;
+}
+#aeternalis-atlas .ae-naval-river-selected,
+#aeternalis-atlas .ae-naval-river-outlet-selected{
+ filter:drop-shadow(0 0 3px #061c20);
+}
