@@ -143,7 +143,7 @@
     root:'#aeternalis-atlas',
     guard:function(){return !!window.__AETERNALIS_SUPERMAPA_NAVAL__||!!doc.getElementById('ae-supermapa-naval-js');},
     start:function(){return waitUntil(function(){return window.__AE_ATLAS_LEAFLET_DEBUG__&&window.__AE_ATLAS_LEAFLET_DEBUG__.map&&window.L;},90000)
-      .then(function(){return withStyles('css/supermapa-naval.css','ae-supermapa-naval-css-v35','js/supermapa-naval.js','ae-supermapa-naval-js-v35','3.5.0');});}
+      .then(function(){return withStyles('css/supermapa-naval.css','ae-supermapa-naval-css-v37','js/supermapa-naval.js','ae-supermapa-naval-js-v37','3.7.0');});}
   };
   modules.cartografo={
     root:'#aeternalis-atlas',
