@@ -7,7 +7,7 @@
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.5.0';
+ var VERSION='3.6.0';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}
@@ -31,10 +31,11 @@
      loadJSON('data/atlas/naval/agua-roja-nelson-1-1.json'),
      loadJSON('data/atlas/naval/rutas-por-agua.json'),
      loadJSON('data/atlas/naval/zonas-maritimas.json'),
-     loadJSON('data/atlas/naval/puertos.json')
+     loadJSON('data/atlas/naval/puertos.json'),
+     loadJSON('data/atlas/naval/red-fluvial-declarada-v01.json')
    ]).then(async function(docs){
-     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3];
-     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1')throw Error('Datos náuticos Nelson incompatibles');
+     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],fluvial=docs[4];
+     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1'||fluvial.schema!=='aeternalis-red-fluvial-declarada-v1')throw Error('Datos náuticos Nelson incompatibles');
      var c=source.grid,R=c.radius,H=Math.sqrt(3)*R,steps=source.encoding.navBitOrder;
      if(source.source.width!==2048||source.source.height!==1571||Math.abs(R-9.3333)>.01)throw Error('La máscara roja no coincide con el Atlas');
      var decoded=await decodeRedWater(source.packed);
@@ -68,6 +69,20 @@
      var referenceRoutes=routes.routes.slice();
      routes.routes=[]; // Rutas antiguas sólo se muestran tras recalcularse sobre agua roja.
      var pinById=new Map(D.places.filter(function(p){return !p.atlasArchiveReason;}).map(function(p){return [p.id,p];}));
+     var portById=new Map(nav.ports.map(function(p){return [p.id,p];}));
+     var riverSiteById=new Map(fluvial.sites.map(function(p){return [p.id,p];}));
+     var basinBySite=new Map();
+     fluvial.basins.forEach(function(b){b.sites.forEach(function(id){
+       if(!basinBySite.has(id))basinBySite.set(id,[]);
+       basinBySite.get(id).push(b);
+     });});
+     function declaredRiverLink(a,b){
+       return fluvial.directLinks.find(function(e){return (e.from===a&&e.to===b)||(e.from===b&&e.to===a);})||null;
+     }
+     function sharedFluvialBasin(a,b){
+       var left=basinBySite.get(a)||[],right=basinBySite.get(b)||[];
+       return left.find(function(x){return right.some(function(y){return y.id===x.id;});})||null;
+     }
      var center=function(q,r){return [1.5*R*q,H*(r+q/2)];};
      // Reajustar el acceso de cada localidad a la celda de agua real más cercana.
      var anchorById=new Map(),waterPositions=water.cells.map(function(n){var p=center(n[0],n[1]);return [n,p[0],p[1]];});
@@ -77,9 +92,14 @@
        waterPositions.forEach(function(w){var dx=w[1]-place.x,dy=w[2]-place.y,dsq=dx*dx+dy*dy;if(dsq<d2){nearest=w[0];d2=dsq;}});
        if(nearest&&d2<=625)anchorById.set(port.id,{id:port.id,hex:[nearest[0],nearest[1]],snap_distance:+Math.sqrt(d2).toFixed(1),water_type:nearest[2],accessStatus:'litoral-verificable-en-mascara'});
      });
-     var ports=nav.ports.filter(function(p){return p.endpoint&&anchorById.has(p.id);});
-     var lookup=function(id){return pinById.get(id);};
-     var placeLabel=function(id){var p=lookup(id);return p?p.name:id;};
+     // Mostrar escalas fluviales aunque su río aún no alcance una celda de mar.
+     // Las localidades sin coordenadas solo aparecen en el selector, no en el mapa.
+     var ports=nav.ports.filter(function(p){return p.endpoint&&(pinById.has(p.id)||riverSiteById.has(p.id));});
+     var lookup=function(id){return pinById.get(id)||null;};
+     var placeLabel=function(id){
+       var p=lookup(id)||portById.get(id)||riverSiteById.get(id);
+       return p?p.name:id;
+     };
      var coord=function(x,y){return L.latLng(-y,x);};
      var cellCoord=function(n){var v=center(n[0],n[1]);return coord(v[0],v[1]);};
      var state={active:false,showHex:false,showRegions:true,showNetwork:true,from:'place-017',to:'place-018',sails:1,route:null,region:null,inspect:false};
@@ -94,10 +114,14 @@
       '<p class="ae-naval-meta" id="ae-naval-metrics"></p></div>';
      var q=function(id){return document.getElementById(id);};
      var from=q('ae-naval-from'),to=q('ae-naval-to'),sails=q('ae-naval-sails'),result=q('ae-naval-result');
-     function portOption(p){var v=document.createElement('option');v.value=p.id;v.textContent=placeLabel(p.id);return v;}
+     function portOption(p){
+       var v=document.createElement('option');v.value=p.id;
+       v.textContent=placeLabel(p.id)+(p.fluvialConnection?' · río':'')+(!lookup(p.id)?' · sin ubicar':'');
+       return v;
+     }
      ports.slice().sort(function(a,b){return placeLabel(a.id).localeCompare(placeLabel(b.id),'es');}).forEach(function(p){from.appendChild(portOption(p));to.appendChild(portOption(p));});
-     if(!anchorById.has(state.from))state.from=ports[0]?ports[0].id:'';
-     if(!anchorById.has(state.to))state.to=ports[1]?ports[1].id:state.from;
+     if(!ports.some(function(p){return p.id===state.from;}))state.from=ports[0]?ports[0].id:'';
+     if(!ports.some(function(p){return p.id===state.to;}))state.to=ports[1]?ports[1].id:state.from;
      from.value=state.from;to.value=state.to;
      q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' hexágonos marinos · '+surfaceWater.length.toLocaleString('es-CL')+' otras aguas · Corredores en preparación.';
      function setVisible(){
@@ -173,7 +197,7 @@
      Heap.prototype.size=function(){return this.a.length;};
      function findPath(fromId,toId){
        var a=anchorById.get(fromId),b=anchorById.get(toId);
-       if(!a||!b)return null;
+       if(!a||!b||a.snap_distance>10||b.snap_distance>10)return null;
        var start=a.hex.join(','),goal=b.hex.join(',');if(!waterNodes.has(start)||!waterNodes.has(goal))return null;
        var queue=new Heap(),parent=new Map(),cost=new Map(),closed=new Set();parent.set(start,null);cost.set(start,0);queue.push([distance(a.hex,b.hex),0,start]);
        while(queue.size()){
