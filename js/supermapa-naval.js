@@ -164,7 +164,7 @@
      var coord=function(x,y){return L.latLng(-y,x);};
      var cellCoord=function(n){var v=center(n[0],n[1]);return coord(v[0],v[1]);};
      var state={active:false,showHex:false,showRegions:true,showNetwork:true,from:'place-017',to:'place-018',sails:1,route:null,region:null,inspect:false};
-     var zonesLayer=L.layerGroup(),routeNetworkLayer=L.layerGroup(),routeLayer=L.layerGroup(),portLayer=L.layerGroup(),hexLayer=null;
+     var zonesLayer=L.layerGroup(),routeNetworkLayer=L.layerGroup(),riverNetworkLayer=L.layerGroup(),routeLayer=L.layerGroup(),portLayer=L.layerGroup(),hexLayer=null;
      var portMarkers=new Map(),regionPolys=new Map();
      var button=document.createElement('button');button.type='button';button.id='ae-toggle-naval';button.textContent='⚓ Carta Náutica';button.setAttribute('aria-pressed','false');button.title='Puertos, rutas marítimas y regiones del océano';toolbar.appendChild(button);
      var panel=document.createElement('aside');panel.id='ae-supermapa-naval-panel';panel.className='ae-naval-panel';panel.hidden=true;panel.setAttribute('aria-label','Carta Náutica de Aeternalis');viewport.appendChild(panel);
@@ -188,7 +188,7 @@
      q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' hexágonos marinos · '+surfaceWater.length.toLocaleString('es-CL')+' otras aguas · Corredores en preparación.';
      function setVisible(){
        panel.hidden=!state.active;button.setAttribute('aria-pressed',String(state.active));button.classList.toggle('is-active',state.active);
-       var ops=[[zonesLayer,state.showRegions],[routeNetworkLayer,state.showNetwork],[routeLayer,true],[portLayer,true]];
+       var ops=[[zonesLayer,state.showRegions],[routeNetworkLayer,state.showNetwork],[riverNetworkLayer,state.showNetwork],[routeLayer,true],[portLayer,true]];
        ops.forEach(function(p){if(state.active&&p[1]){if(!map.hasLayer(p[0]))p[0].addTo(map)}else{if(map.hasLayer(p[0]))map.removeLayer(p[0]);}});
        if(state.active&&state.showHex){if(!hexLayer)hexLayer=makeHexOverlay();if(!map.hasLayer(hexLayer))hexLayer.addTo(map);}
        else if(hexLayer&&map.hasLayer(hexLayer))map.removeLayer(hexLayer);
@@ -242,6 +242,46 @@
          line.on('click',function(){from.value=route.from;to.value=route.to;plotRoute();});
          line.addTo(routeNetworkLayer);
        });
+     }
+     function drawVerifiedRivers(){
+       riverNetworkLayer.clearLayers();
+       verifiedRiverSegments.forEach(function(e){
+         var pts=e.waypoints.map(function(p){return coord(p[0],p[1]);});
+         var line=L.polyline(pts,{color:'#79cfcc',weight:3.2,opacity:.83,
+           dashArray:'7 4',interactive:true,className:'ae-naval-river-network'});
+         line.bindTooltip(placeLabel(e.from)+' — '+placeLabel(e.to)+' · río rojo de Kargast');
+         line.on('click',function(){
+           from.value=e.from;to.value=e.to;state.from=e.from;state.to=e.to;plotRoute();updateNearby();
+         });
+         line.addTo(riverNetworkLayer);
+       });
+       if(riverOutlet){
+         var outlet=L.polyline(riverOutlet.waypoints.map(function(p){return coord(p[0],p[1]);}),
+           {color:'#94cfcb',weight:2.8,opacity:.85,dashArray:'4 4',
+             className:'ae-naval-river-outlet',interactive:false});
+         outlet.addTo(riverNetworkLayer);
+       }
+     }
+     function drawRiverPath(points,style){
+       var latlngs=points.map(function(p){return coord(p[0],p[1]);});
+       L.polyline(latlngs,Object.assign({color:'#8de4d6',weight:4.7,opacity:.98,
+         className:'ae-naval-river-selected'},style||{})).addTo(routeLayer);
+       return latlngs;
+     }
+     function showVerifiedRiver(resultRoute){
+       var points=resultRoute.waypoints,routePoints=drawRiverPath(points);
+       var riverPx=riverLengthPixels(points),
+          hexApprox=Math.round(riverPx/(Math.sqrt(3)*R));
+       result.innerHTML='<strong>'+html(placeLabel(resultRoute.from))+' → '+html(placeLabel(resultRoute.to))+'</strong>'+
+         '<span>Río rojo georreferenciado · '+resultRoute.legs+
+         (resultRoute.legs===1?' tramo':' tramos')+' fluviales</span>'+
+         '<span>Recorrido aproximado: '+hexApprox+' hexágonos equivalentes</span>'+
+         '<p class="ae-naval-fluvial-note">El cauce sigue la cartografía original de Kargast. No se asignan horas de travesía porque la velocidad de navegación fluvial no está reglamentada.</p>';
+       state.route={from:resultRoute.from,to:resultRoute.to,kind:'river',
+         status:'trazado_rojo_verificado',riverPx:riverPx,hexesApprox:hexApprox,
+         points:points.length};
+       if(!state.active){state.active=true;setVisible();}
+       map.fitBounds(L.latLngBounds(routePoints).pad(.20),{maxZoom:.85,padding:[36,36]});
      }
      function updateNearby(){
        var el=q('ae-naval-nearby');if(!el)return;
@@ -424,7 +464,7 @@
      q('ae-naval-toggle-hex').addEventListener('change',function(e){state.showHex=e.target.checked;setVisible();});
      q('ae-naval-toggle-regions').addEventListener('change',function(e){state.showRegions=e.target.checked;setVisible();});
      q('ae-naval-toggle-network').addEventListener('change',function(e){state.showNetwork=e.target.checked;setVisible();});
-     plotZones();drawPorts();setVisible();
+     plotZones();drawPorts();drawVerifiedRivers();setVisible();
      // Public API for other modules, deliberately read-only for region and water data.
      window.__AETERNALIS_SUPERMAPA_NAVAL__={version:VERSION,map:map,toggle:function(){button.click();},getState:function(){return Object.assign({},state);},getSummary:function(){return {hexagons:water.cells.length,otherWaterHexagons:surfaceWater.length,regions:zones.regions.length,connections:routes.routes.length,ports:ports.length};}};
      // Optional deep-link: ?naval=1 opens the maritime chart directly.
