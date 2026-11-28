@@ -1,0 +1,241 @@
+{
+  "schema": "aeternalis-cauces-verificados-v1",
+  "version": "1.0.0",
+  "map": {
+    "source": "Mapa_Nelson_1.1.png",
+    "width": 2048,
+    "height": 1571,
+    "sourceSha256": "23f5b979b8855df4e6c460dc566940d7f759b62a512f06dbde2444c679001243",
+    "note": "La imagen roja original establece el lecho del río y la desembocadura. Coordenadas del mapa lógico 2048 × 1571."
+  },
+  "basin": "cuenca-dugarth-kargast",
+  "locations": [
+    {
+      "id": "place-305",
+      "name": "Rinnos",
+      "x": 414,
+      "y": 353
+    },
+    {
+      "id": "place-012",
+      "name": "Reddas",
+      "x": 658,
+      "y": 459
+    },
+    {
+      "id": "place-014",
+      "name": "Faro Durgath",
+      "alternativeName": "Faro Dugarth",
+      "x": 738,
+      "y": 520
+    }
+  ],
+  "riverSegments": [
+    {
+      "id": "rio-rinnos-reddas",
+      "from": "place-305",
+      "to": "place-012",
+      "mode": "fluvial",
+      "status": "trazado_rojo_verificado",
+      "riverRasterCoverage": 0.925,
+      "nearRedRasterCoverage": 0.998,
+      "sourcePixelPathLength": 273,
+      "waypoints": [
+        [
+          414,
+          353
+        ],
+        [
+          419,
+          358
+        ],
+        [
+          420,
+          365
+        ],
+        [
+          426,
+          373
+        ],
+        [
+          427,
+          380
+        ],
+        [
+          435,
+          388
+        ],
+        [
+          474,
+          388
+        ],
+        [
+          522,
+          436
+        ],
+        [
+          522,
+          448
+        ],
+        [
+          551,
+          479
+        ],
+        [
+          557,
+          481
+        ],
+        [
+          576,
+          480
+        ],
+        [
+          586,
+          471
+        ],
+        [
+          597,
+          471
+        ],
+        [
+          602,
+          475
+        ],
+        [
+          613,
+          475
+        ],
+        [
+          618,
+          470
+        ],
+        [
+          631,
+          464
+        ],
+        [
+          653,
+          464
+        ],
+        [
+          658,
+          459
+        ]
+      ]
+    },
+    {
+      "id": "rio-reddas-faro-durgath",
+      "from": "place-012",
+      "to": "place-014",
+      "mode": "fluvial",
+      "status": "trazado_rojo_verificado",
+      "riverRasterCoverage": 0.732,
+      "nearRedRasterCoverage": 0.996,
+      "sourcePixelPathLength": 109,
+      "waypoints": [
+        [
+          658,
+          459
+        ],
+        [
+          656,
+          463
+        ],
+        [
+          657,
+          469
+        ],
+        [
+          672,
+          475
+        ],
+        [
+          681,
+          481
+        ],
+        [
+          687,
+          482
+        ],
+        [
+          694,
+          489
+        ],
+        [
+          695,
+          505
+        ],
+        [
+          702,
+          512
+        ],
+        [
+          711,
+          514
+        ],
+        [
+          727,
+          526
+        ],
+        [
+          734,
+          526
+        ],
+        [
+          738,
+          520
+        ]
+      ]
+    }
+  ],
+  "seaOutlets": [
+    {
+      "id": "desembocadura-faro-durgath",
+      "from": "place-014",
+      "to": "mar",
+      "status": "desembocadura_verificada",
+      "suggestedSeaHex": [
+        54,
+        6
+      ],
+      "suggestedSeaCoordinate": [
+        755.9973,
+        533.4682
+      ],
+      "waypoints": [
+        [
+          738,
+          520
+        ],
+        [
+          739,
+          525
+        ],
+        [
+          740,
+          529
+        ],
+        [
+          744,
+          531
+        ],
+        [
+          749,
+          533
+        ],
+        [
+          756,
+          534
+        ]
+      ],
+      "note": "Acceso del Faro Durgath al mar rojo. El tramo inicial es el acceso desde el punto de la localidad; a partir de la costa la malla marina debe enlazar sobre celdas de agua."
+    }
+  ],
+  "constraints": {
+    "drawing": "Use all waypoints in original order; do not draw straight-line shortcuts from city to city.",
+    "traversal": "River routes are a separate overlay from sea routes. For Rinnos–Faro Durgath, concatenate the two river segments at Reddas.",
+    "time": "No official speed for this river has been supplied; show distance in map/hex-equivalent only, not unsupported hours.",
+    "vessels": "No automatic suitability for ocean-going vessels is asserted on the river.",
+    "marker": "Use existing atlas ID place-014 for Faro Durgath, never create a duplicate location."
+  }
+}
