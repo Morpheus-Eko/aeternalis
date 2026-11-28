@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-maestro-v1",
-  "release": "1.4.0",
+  "release": "1.5.0",
   "description": "Activar o desactivar módulos cambiando solo este JSON. El maestro detecta los contenedores HTML y descarga exclusivamente los scripts necesarios para cada publicación.",
   "modules": {
     "atlas": true,
@@ -20,7 +20,8 @@
     "salud": true,
     "prologoOzma": true,
     "normativa": true,
-    "medallero": true
+    "medallero": true,
+    "primerosPasos": true
   },
   "notes": [
     "cartografo solo se inicia cuando URL incluye ?cartografo=1, ?dibujar=1 o ?caminos=1",
@@ -33,6 +34,7 @@
     "prologoOzma: prólogo teatral de Ambientación en /prologo-ozma/, con retrato de Ozma y taberna; solo se carga cuando existe <div id=\"ae-prologo-ozma\"></div>. El foro debe sustituir el mensaje antiguo con ese contenedor.",
     "normativa: se carga si la publicación incluye #ae-normativa-mount; el CSS y texto se sirven desde GitHub Pages.",
     "Normativa v1.1: 4 capítulos seleccionables, emblemas en botones y busto izquierdo visible.",
-    "medallero: 90 distinciones en data/medallero.json, UI/CSS desde GitHub; requiere #ae-medallero-app en el foro."
+    "medallero: 90 distinciones en data/medallero.json, UI/CSS desde GitHub; requiere #ae-medallero-app en el foro.",
+    "primerosPasos: guía interactiva de cinco etapas y accesos rápidos; enlaces desactivados hasta completar páginas. #ae-primeros-pasos."
   ]
 }

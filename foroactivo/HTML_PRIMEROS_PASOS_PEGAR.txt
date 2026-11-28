@@ -1,0 +1,6 @@
+<!-- Aeternalis · Primeros Pasos · Senda del Aventurero v1.0.0.
+     Pegar solamente esto en el tema de bienvenida. El cargador maestro realiza el resto. -->
+<div class="hidethisprofile"></div>
+<div id="ae-primeros-pasos" aria-label="Guía de iniciación de Aeternalis">
+  <p>Abriendo la senda del aventurero…</p>
+</div>

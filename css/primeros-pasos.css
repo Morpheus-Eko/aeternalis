@@ -1,0 +1,168 @@
+/* AETERNALIS · La Senda del Aventurero v1.0.0 · CSS propio, encapsulado */
+#ae-primeros-pasos{
+--ap-leather:#28201b;--ap-ink:#37291f;--ap-muted:#725c47;--ap-gold:#ba8d4b;--ap-paper:#e4cea0;--ap-border:#aa8658;
+position:relative;isolation:isolate;max-width:1170px;margin:20px auto 50px;
+color:var(--ap-ink);font:15px/1.68 inherit;overflow:hidden;
+border:2px solid #8e6638;border-radius:13px;
+background:#d9bf87 url("https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/pergamino_01.webp") center/cover;
+box-shadow:0 18px 60px rgba(0,0,0,.48),inset 0 0 0 5px rgba(96,60,31,.15);
+}
+#ae-primeros-pasos *,#ae-primeros-pasos *::before,#ae-primeros-pasos *::after{box-sizing:border-box}
+#ae-primeros-pasos button,#ae-primeros-pasos a{font:inherit}
+#ae-primeros-pasos button{cursor:pointer}
+#ae-primeros-pasos button:disabled{cursor:default;opacity:.33}
+#ae-primeros-pasos :is(button,a):focus-visible{outline:3px solid #c78b37;outline-offset:3px}
+#ae-primeros-pasos .ap-hero{
+position:relative;display:grid;grid-template-columns:minmax(0,1fr) 305px;gap:24px;align-items:center;
+min-height:310px;padding:38px 56px 32px;
+background:radial-gradient(circle at 95% 20%,rgba(204,158,84,.22),transparent 40%),linear-gradient(105deg,#241c19,#37281e 65%,#27211d);
+color:#ebd8b3;border-bottom:7px double #ac8148;
+}
+#ae-primeros-pasos .ap-hero::before{
+content:"";position:absolute;inset:14px;border:1px solid rgba(203,169,104,.25);
+border-radius:7px;pointer-events:none;
+}
+#ae-primeros-pasos .ap-eyebrow{display:block;font-size:11px;letter-spacing:3.5px;color:#d3ad6d;font-weight:700}
+#ae-primeros-pasos .ap-hero h1{font:400 clamp(37px,5vw,65px)/1.15 Georgia,serif!important;
+letter-spacing:.5px;margin:15px 0 4px!important;color:#f1dfb7!important}
+#ae-primeros-pasos .ap-subtitle{color:#cda96b;font:italic 21px Georgia,serif;margin:4px 0 14px}
+#ae-primeros-pasos .ap-lead{font-size:14px;line-height:1.8;max-width:660px;color:#d5c7ad;margin:0}
+#ae-primeros-pasos .ap-hero__intro{position:relative;z-index:1}
+#ae-primeros-pasos .ap-hero__illustration{height:252px;position:relative;display:flex;align-items:center;justify-content:center}
+#ae-primeros-pasos .ap-hero__compass{position:relative;width:190px;height:190px;object-fit:contain;z-index:2;
+filter:brightness(1.35) sepia(.1) drop-shadow(0 8px 19px #0007)}
+#ae-primeros-pasos .ap-hero__map{position:absolute;width:290px;height:190px;object-fit:contain;right:0;bottom:0;
+opacity:.7;filter:drop-shadow(0 12px 10px #0008);transform:rotate(-7deg)}
+#ae-primeros-pasos .ap-progress{margin:22px 0 0;max-width:450px}
+#ae-primeros-pasos #ap-progress-label{display:block;font-size:11px;letter-spacing:.6px;color:#e0c18b}
+#ae-primeros-pasos .ap-progress-track{margin-top:8px;width:100%;height:7px;border-radius:10px;
+background:#150f0e;overflow:hidden;border:1px solid #654628}
+#ae-primeros-pasos .ap-progress-track span{display:block;height:100%;width:0;background:linear-gradient(90deg,#bb7c43,#edcb86);transition:width .3s}
+#ae-primeros-pasos .ap-shortcuts{
+display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px 35px;background:#473226;
+border-bottom:1px solid #a9814f;color:#ead7b7;
+}
+#ae-primeros-pasos .ap-shortcuts p{font:italic 17px Georgia,serif;color:#eed1a0;margin:0;white-space:nowrap}
+#ae-primeros-pasos .ap-shortcuts__actions{display:flex;flex-wrap:wrap;gap:8px}
+#ae-primeros-pasos .ap-shortcuts button{padding:6px 12px;color:#f1dfc0;background:#37251b;
+border:1px solid #a47a45;border-radius:20px;font-size:12px;transition:background .2s}
+#ae-primeros-pasos .ap-shortcuts button:hover,#ae-primeros-pasos .ap-shortcuts button.is-active{background:#825c35}
+#ae-primeros-pasos .ap-layout{display:grid;grid-template-columns:290px minmax(0,1fr);align-items:stretch;min-height:610px}
+#ae-primeros-pasos .ap-trail{background:linear-gradient(180deg,#30241d,#211c1a);color:#f3e0c1;
+border-right:4px solid #a37c49;padding:30px 17px}
+#ae-primeros-pasos .ap-trail__heading{margin:0 8px 19px;font:italic 24px Georgia,serif;color:#f2d39a}
+#ae-primeros-pasos .ap-trail__heading small{font:12px/1.6 inherit;color:#bba98c;display:block;letter-spacing:.3px;margin-top:6px}
+#ae-primeros-pasos .ap-trail__steps{position:relative;display:grid;gap:10px}
+#ae-primeros-pasos .ap-trail__steps::before{content:"";position:absolute;top:19px;bottom:22px;left:21px;border-left:2px dashed #9c7847;opacity:.65}
+#ae-primeros-pasos .ap-trail__stop{
+position:relative;display:flex;gap:10px;width:100%;align-items:center;text-align:left;color:#e1d0b6;
+padding:11px 7px;background:#3b3027;border:1px solid #644e39;border-radius:7px;
+transition:background .2s,border-color .2s,transform .2s;
+}
+#ae-primeros-pasos .ap-trail__stop:hover,#ae-primeros-pasos .ap-trail__stop.is-active{
+background:#5c432e;border-color:#d1a35b;transform:translateX(2px);
+}
+#ae-primeros-pasos .ap-trail__number{z-index:1;display:grid;place-items:center;flex:0 0 30px;width:30px;height:30px;
+border-radius:50%;background:#251b17;color:#edc68d;border:1px solid #c99e5c;font:14px Georgia,serif}
+#ae-primeros-pasos .ap-trail__stop.is-reviewed .ap-trail__number{background:#486144;color:#f8e3ad}
+#ae-primeros-pasos .ap-trail__label{flex:1;min-width:0}
+#ae-primeros-pasos .ap-trail__label strong{display:block;font:400 16px/1.4 Georgia,serif;color:#f4deb5}
+#ae-primeros-pasos .ap-trail__label small{display:block;line-height:1.35;font-size:10px;color:#cbb79a}
+#ae-primeros-pasos .ap-trail__stop img{width:34px;height:40px;object-fit:contain;filter:brightness(1.3);opacity:.85}
+#ae-primeros-pasos .ap-current{min-width:0;padding:25px 30px 35px;scroll-margin-top:12px}
+#ae-primeros-pasos .ap-page{background:rgba(243,228,193,.68);border:1px solid rgba(137,92,41,.34);
+box-shadow:0 5px 24px #593e2424;border-radius:9px;overflow:hidden}
+#ae-primeros-pasos .ap-page__head{display:flex;justify-content:space-between;gap:20px;align-items:center;
+border-bottom:2px solid rgba(130,93,50,.4);padding:20px 25px 14px;background:rgba(121,78,32,.10)}
+#ae-primeros-pasos .ap-page__eyebrow{font-size:11px;letter-spacing:2px;color:#765330;font-weight:700}
+#ae-primeros-pasos .ap-page__head h2{font:400 clamp(26px,3vw,36px)/1.18 Georgia,serif!important;
+color:#3a2417!important;margin:6px 0!important}
+#ae-primeros-pasos .ap-page__head p{font:italic 16px/1.4 Georgia,serif;color:#6f5138;margin:4px 0}
+#ae-primeros-pasos .ap-page__head img{width:89px;height:85px;object-fit:contain;filter:sepia(.15) brightness(.8)}
+#ae-primeros-pasos .ap-page__body{padding:22px 24px}
+#ae-primeros-pasos .ap-page__intro{font-size:15px;line-height:1.85;color:#463322;margin:0 0 16px}
+#ae-primeros-pasos .ap-hint{display:flex;gap:10px;align-items:flex-start;padding:10px 14px;
+background:rgba(152,107,52,.12);border-left:3px solid #a47a43;border-radius:3px;color:#60442a}
+#ae-primeros-pasos .ap-hint span{color:#a16d2f;font-size:21px;line-height:1}
+#ae-primeros-pasos .ap-hint p{margin:0;font-size:13px;line-height:1.7}
+#ae-primeros-pasos .ap-page__resources-heading{font:400 23px Georgia,serif;color:#4b301c;margin:22px 0 12px}
+#ae-primeros-pasos .ap-resources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+#ae-primeros-pasos .ap-resource{
+width:100%;min-height:132px;min-width:0;display:flex;gap:10px;text-align:left;align-items:center;
+padding:12px 10px;background:rgba(255,247,220,.63);border:1px solid #c2a376;
+border-radius:7px;color:#432e1c;transition:transform .18s,background .18s,border-color .18s;
+}
+#ae-primeros-pasos .ap-resource:hover,#ae-primeros-pasos .ap-resource.is-open{
+transform:translateY(-2px);background:#f5e4bc;border-color:#93632d}
+#ae-primeros-pasos .ap-resource__icon{flex:0 0 64px;display:grid;place-items:center;width:64px;height:78px}
+#ae-primeros-pasos .ap-resource__icon img{display:block;width:64px;height:76px;object-fit:contain;filter:brightness(.87) sepia(.14)}
+#ae-primeros-pasos .ap-resource__copy{min-width:0;display:flex;flex-direction:column;gap:3px}
+#ae-primeros-pasos .ap-resource__copy small{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#8a6333}
+#ae-primeros-pasos .ap-resource__copy strong{font:400 17px/1.3 Georgia,serif;color:#3f2817}
+#ae-primeros-pasos .ap-resource__copy span{font-size:12px;line-height:1.4;color:#735640}
+#ae-primeros-pasos .ap-resource__arrow{font:27px Georgia,serif;color:#a16b2f;align-self:flex-end}
+#ae-primeros-pasos .ap-detail{padding:19px 22px;margin:19px 0 0;background:#efe0bc;border:2px solid #b48e57;
+border-radius:6px;box-shadow:inset 0 0 19px rgba(176,126,69,.14);scroll-margin-top:20px}
+#ae-primeros-pasos .ap-detail__top{display:flex;justify-content:space-between;align-items:center}
+#ae-primeros-pasos .ap-detail__eyebrow{color:#966b34;font-weight:700;font-size:10px;letter-spacing:1.7px}
+#ae-primeros-pasos .ap-detail__top button{color:#664026;background:transparent;border:1px solid #b99562;
+width:31px;height:30px;border-radius:3px;font-size:22px;line-height:1}
+#ae-primeros-pasos .ap-detail h3{font:400 26px Georgia,serif;color:#382519;margin:8px 0}
+#ae-primeros-pasos .ap-detail p{line-height:1.8;color:#543b28;margin:0 0 16px}
+#ae-primeros-pasos .ap-detail__foot{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+#ae-primeros-pasos .ap-destination{display:inline-flex;gap:12px;align-items:center;text-decoration:none;
+font-size:13px;padding:9px 14px;border-radius:4px;background:#63442c;color:#fff1d1;border:1px solid #a87a44}
+#ae-primeros-pasos a.ap-destination:hover{background:#825b33;color:#fff4dc}
+#ae-primeros-pasos .ap-destination--pending{background:#d8c39c;color:#70563f;cursor:default}
+#ae-primeros-pasos .ap-detail__foot small{font-size:11px;color:#765c47}
+#ae-primeros-pasos .ap-actions{display:flex;flex-wrap:wrap;gap:9px;justify-content:space-between;align-items:center;
+margin-top:21px;padding-top:17px;border-top:1px dashed #bd985f}
+#ae-primeros-pasos .ap-actions button{border:1px solid #a57c45;border-radius:4px;padding:9px 11px;font-size:12px;color:#4a2d19;background:#e2c690}
+#ae-primeros-pasos .ap-actions button:hover:not(:disabled){background:#f2d8a3}
+#ae-primeros-pasos .ap-actions__review{background:#4b6546!important;color:#fff1d1!important;border-color:#64744e!important}
+#ae-primeros-pasos .ap-footer{display:flex;gap:15px;align-items:center;padding:15px 30px;border-top:4px double #a47b47;
+background:#2d231e;color:#d7bf97}
+#ae-primeros-pasos .ap-footer img{width:51px;height:62px;object-fit:contain}
+#ae-primeros-pasos .ap-footer p{margin:0;font:italic 17px Georgia,serif}
+#ae-primeros-pasos .ap-footer small{margin-left:auto;color:#b9a98d;max-width:330px;font-size:11px}
+@media(max-width:1030px){
+ #ae-primeros-pasos .ap-hero{grid-template-columns:minmax(0,1fr) 230px;padding:34px 32px}
+ #ae-primeros-pasos .ap-hero__illustration{height:205px}
+ #ae-primeros-pasos .ap-hero__compass{width:155px;height:155px}
+ #ae-primeros-pasos .ap-hero__map{width:230px;height:160px}
+ #ae-primeros-pasos .ap-layout{grid-template-columns:245px minmax(0,1fr)}
+ #ae-primeros-pasos .ap-resource__icon{flex-basis:49px;width:49px}
+ #ae-primeros-pasos .ap-resource__icon img{width:49px}
+}
+@media(max-width:790px){
+ #ae-primeros-pasos .ap-layout{grid-template-columns:1fr}
+ #ae-primeros-pasos .ap-trail{padding:15px;border-right:0;border-bottom:3px solid #a37c49}
+ #ae-primeros-pasos .ap-trail__heading{font-size:19px;margin:0 0 12px}
+ #ae-primeros-pasos .ap-trail__steps{display:flex;overflow-x:auto;padding:3px 1px 9px}
+ #ae-primeros-pasos .ap-trail__steps::before{display:none}
+ #ae-primeros-pasos .ap-trail__stop{flex:0 0 210px}
+ #ae-primeros-pasos .ap-current{padding:19px}
+ #ae-primeros-pasos .ap-hero{grid-template-columns:minmax(0,1fr) 155px;gap:9px;padding:28px 22px}
+ #ae-primeros-pasos .ap-hero__illustration{height:170px}
+ #ae-primeros-pasos .ap-hero__compass{width:115px;height:115px}
+ #ae-primeros-pasos .ap-hero__map{width:160px}
+}
+@media(max-width:580px){
+ #ae-primeros-pasos .ap-hero{display:block;padding:29px 22px}
+ #ae-primeros-pasos .ap-hero__illustration{display:none}
+ #ae-primeros-pasos .ap-hero h1{font-size:39px!important}
+ #ae-primeros-pasos .ap-subtitle{font-size:17px}
+ #ae-primeros-pasos .ap-shortcuts{padding:12px}
+ #ae-primeros-pasos .ap-resources{grid-template-columns:1fr}
+ #ae-primeros-pasos .ap-page__head{padding:17px}
+ #ae-primeros-pasos .ap-page__head img{height:65px;width:63px}
+ #ae-primeros-pasos .ap-page__body{padding:16px}
+ #ae-primeros-pasos .ap-actions{justify-content:center}
+ #ae-primeros-pasos .ap-actions__review{order:-1;width:100%}
+ #ae-primeros-pasos .ap-footer{padding:14px 18px}
+ #ae-primeros-pasos .ap-footer img{width:40px}
+ #ae-primeros-pasos .ap-footer small{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-primeros-pasos *{transition:none!important}
+}

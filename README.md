@@ -21,6 +21,12 @@ La normativa se sirve mediante el **cargador maestro** y recupera bustos, emblem
 - [HTML mínimo para Foroactivo](foroactivo/HTML_NORMATIVA_PEGAR.txt)
 - [Guía](docs/NORMATIVA_GITHUB_FOROACTIVO.md)
 
+## Primeros Pasos · La senda del aventurero
+Manual interactivo de cinco etapas para nuevos usuarios, con orientación a quince recursos, accesos rápidos y enlaces de destino configurables (inactivos por defecto).
+- [Vista previa](https://morpheus-eko.github.io/aeternalis/primeros-pasos-preview.html)
+- [Contenedor mínimo de Foroactivo](foroactivo/HTML_PRIMEROS_PASOS_PEGAR.txt)
+- [Manual de instalación y enlaces](docs/PRIMEROS_PASOS_FOROACTIVO.md)
+
 ## Tomo de Medicina · v2.0
 
 El nuevo **Tomo de Medicina — Códice de la Salud** reúne 88 folios ilustrados: anatomía de ocho razas, dieciséis entradas botánicas de estudio, observaciones y mecánicas de las tres pestilencias del reglamento, dos tablas comparativas, calculadoras y un capítulo de cuidados. El antiguo módulo de Pestilencias se conserva para compatibilidad con publicaciones anteriores.

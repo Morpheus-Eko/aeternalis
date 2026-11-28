@@ -1,0 +1,232 @@
+{
+  "schema": "aeternalis-primeros-pasos-v1",
+  "version": "1.0.0",
+  "nota": "Guía de acogida basada en Primeros Pasos. No reemplaza ni modifica normas oficiales. Las URLs se mantienen desactivadas hasta publicar las páginas actualizadas.",
+  "guia": {
+    "titulo": "La senda del aventurero",
+    "subtitulo": "Tu primer viaje por Aeternalis",
+    "bienvenida": "Todo gran relato comienza con un primer paso. Recorre estas cinco etapas para conocer el mundo, preparar a tu personaje y empezar a escribir su historia.",
+    "despedida": "Que los dioses guíen tu camino.",
+    "advertencia": "Las etapas marcadas como revisadas son una ayuda personal, no una aprobación administrativa."
+  },
+  "assets": {
+    "compass": "assets/codex/astrolabios/brujula_vientos_01.webp",
+    "route": "assets/naval/navegacion/mapa_busqueda_tesoro.webp",
+    "texture": "assets/codex/texturas/pergamino_01.webp",
+    "lantern": "assets/codex/objetos/linterna_magica_01.webp",
+    "star": "assets/codex/astrolabios/estrella_cuatro_puntas_01.webp"
+  },
+  "etapas": [
+    {
+      "id": "cimientos",
+      "titulo": "Antes de partir",
+      "subtitulo": "Conoce las leyes y el mundo que vas a habitar",
+      "resumen": "Antes de crear tu personaje, conoce las reglas de convivencia y la historia de Aeternalis. La ambientación inicial es una puerta de entrada, no la totalidad del mundo.",
+      "recomendacion": "Empieza por la Normativa; después lee Ambientación y Cronología para comprender qué historias puedes contar.",
+      "insignia": "assets/codex/astrolabios/brujula_vientos_01.webp",
+      "recursos": [
+        "normativa",
+        "ambientacion",
+        "cronologia"
+      ]
+    },
+    {
+      "id": "sistemas",
+      "titulo": "Aprende a jugar",
+      "subtitulo": "Las reglas que gobiernan el progreso de tu personaje",
+      "resumen": "Las estadísticas y la progresión establecen las capacidades y la evolución de tu personaje. Conocerlas antes de preparar la ficha evita empezar con dudas.",
+      "recomendacion": "Revisa qué representan los atributos y cómo progresa un personaje; no necesitas memorizar todas las fórmulas.",
+      "insignia": "assets/codex/astrolabios/circulo_estelar_01.webp",
+      "recursos": [
+        "estadisticas",
+        "progresion"
+      ]
+    },
+    {
+      "id": "origen",
+      "titulo": "Elige tu destino",
+      "subtitulo": "Raza, poderes y lugar donde empieza la historia",
+      "resumen": "Explora las razas, la magia y la geografía del mundo para encontrar un origen coherente con la historia que quieres narrar.",
+      "recomendacion": "No es necesario decidirlo todo a la primera: compara alternativas y escoge un punto de partida que te inspire.",
+      "insignia": "assets/codex/llaves/llave_astral_01.webp",
+      "recursos": [
+        "razas",
+        "magia",
+        "mapa"
+      ]
+    },
+    {
+      "id": "personaje",
+      "titulo": "Da vida a tu personaje",
+      "subtitulo": "Del concepto inicial a tu expediente aceptado",
+      "resumen": "Cuando tengas claras las bases, redacta el expediente siguiendo el modelo. Una vez revisado y aceptado, solicita el color en los registros.",
+      "recomendacion": "El orden es importante: primero el expediente, después los registros y la aprobación correspondiente.",
+      "insignia": "assets/codex/objetos/libro_grimorio_01.webp",
+      "recursos": [
+        "expediente",
+        "registros"
+      ]
+    },
+    {
+      "id": "aventura",
+      "titulo": "Tu primera aventura",
+      "subtitulo": "Organiza tus relatos, conoce gente y comienza a rolear",
+      "resumen": "Con tu personaje aceptado, prepara los espacios que facilitarán tu experiencia y empieza a construir relaciones e historias con otros aventureros.",
+      "recomendacion": "El baúl y el buzón te ayudarán a organizarte. La presentación de usuario es opcional; ante cualquier duda, consulta a la administración.",
+      "insignia": "assets/codex/objetos/linterna_magica_01.webp",
+      "recursos": [
+        "baul",
+        "buzon",
+        "presentaciones",
+        "dudas",
+        "codex"
+      ]
+    }
+  ],
+  "recursos": [
+    {
+      "id": "normativa",
+      "titulo": "Normativa del foro",
+      "resumen": "Las reglas de convivencia y de rol.",
+      "detalle": "Lee detenidamente el reglamento antes de participar. El desconocimiento de las normas no exime de su cumplimiento. Es el primer paso recomendado para todos los aventureros.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/cartelas/pergamino_sello_01.webp"
+    },
+    {
+      "id": "ambientacion",
+      "titulo": "Ambientación",
+      "resumen": "Una introducción al mundo de Aeternalis.",
+      "detalle": "Descubre el contexto general, sus pueblos y conflictos. El texto introductorio es deliberadamente resumido: más adelante podrás profundizar en otras fuentes del mundo.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/emblemas/castillo_01.webp"
+    },
+    {
+      "id": "cronologia",
+      "titulo": "Cronología",
+      "resumen": "Las eras y acontecimientos del mundo.",
+      "detalle": "Sitúa tu historia en el tiempo. Conocer las eras y los sucesos importantes ayuda a escribir una biografía y una trama coherentes con la ambientación.",
+      "prioridad": "Recomendado",
+      "imagen": "assets/codex/objetos/reloj_arena_01.webp"
+    },
+    {
+      "id": "estadisticas",
+      "titulo": "Sistema de estadísticas",
+      "resumen": "Los atributos y capacidades de los personajes.",
+      "detalle": "Familiarízate con el sistema de atributos antes de crear el expediente. Comprende qué representa cada estadística y cómo condiciona las habilidades de tu personaje.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/brujula/03-ornamentos/04-sello-brujula.webp"
+    },
+    {
+      "id": "progresion",
+      "titulo": "Progresión y niveles",
+      "resumen": "Cómo crece tu personaje durante el rol.",
+      "detalle": "Consulta cómo funcionan los niveles y la progresión de estadísticas. Es el complemento del sistema de atributos y te permitirá planificar el desarrollo de tu personaje.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/astrolabios/circulo_estelar_01.webp"
+    },
+    {
+      "id": "razas",
+      "titulo": "Razas de Aeternalis",
+      "resumen": "Elige la identidad y el origen de tu personaje.",
+      "detalle": "Compara las distintas razas, sus características y su lugar dentro del mundo. No te limites a la apariencia: la cultura y las particularidades de cada pueblo pueden enriquecer mucho tu historia.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/emblemas/arbol_ancestral_01.webp"
+    },
+    {
+      "id": "magia",
+      "titulo": "Sistema de magia",
+      "resumen": "Descubre las posibilidades y límites mágicos.",
+      "detalle": "Si quieres que tu personaje utilice magia, revisa el sistema correspondiente antes de definir sus capacidades. Las restricciones del mundo también forman parte de la narración.",
+      "prioridad": "Según personaje",
+      "imagen": "assets/codex/astrolabios/constelaciones_01.webp"
+    },
+    {
+      "id": "mapa",
+      "titulo": "Mapa del mundo",
+      "resumen": "Busca el lugar ideal para comenzar.",
+      "detalle": "Explora territorios, ciudades y regiones para escoger un punto de inicio. La geografía te ayudará a pensar relaciones, viajes, lugares de procedencia y futuras aventuras.",
+      "prioridad": "Recomendado",
+      "imagen": "assets/naval/navegacion/brujula_pergamino_roja.webp"
+    },
+    {
+      "id": "expediente",
+      "titulo": "Modelo de expediente",
+      "resumen": "Escribe y presenta tu personaje.",
+      "detalle": "Usa el modelo de expediente del foro para redactar los datos y la historia de tu personaje. Espera a que sea revisado y aceptado antes de avanzar al siguiente trámite.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/libros/libro_abierto_01.webp"
+    },
+    {
+      "id": "registros",
+      "titulo": "Registro único y color",
+      "resumen": "Formaliza tu personaje una vez aceptado.",
+      "detalle": "Cuando el expediente esté listo y aceptado, realiza los registros que correspondan y solicita el color. Una vez concedido, podrás comenzar a participar en las zonas de rol habilitadas.",
+      "prioridad": "Imprescindible",
+      "imagen": "assets/codex/llaves/llave_ritual_01.webp"
+    },
+    {
+      "id": "baul",
+      "titulo": "Baúl del personaje",
+      "resumen": "Mantén ordenada tu cronología.",
+      "detalle": "El baúl te servirá para reunir y organizar información útil sobre tu personaje y su recorrido narrativo. Es especialmente valioso cuando participas en varias tramas.",
+      "prioridad": "Recomendado",
+      "imagen": "assets/codex/objetos/pila_libros_01.webp"
+    },
+    {
+      "id": "buzon",
+      "titulo": "Buzón de cartas",
+      "resumen": "Un espacio para la correspondencia.",
+      "detalle": "Prepara tu buzón para recibir y gestionar cartas o mensajes narrativos de otros personajes. Es otra forma de cultivar relaciones dentro de Aeternalis.",
+      "prioridad": "Recomendado",
+      "imagen": "assets/codex/cartelas/rollo_pergamino_01.webp"
+    },
+    {
+      "id": "presentaciones",
+      "titulo": "Presentaciones",
+      "resumen": "Saluda a otros usuarios si te apetece.",
+      "detalle": "Puedes presentarte en la comunidad o leer las presentaciones de otras personas. Esta actividad es completamente opcional, pero puede facilitar tus primeros contactos.",
+      "prioridad": "Opcional",
+      "imagen": "assets/codex/emblemas/fauna_ciervo_01.webp"
+    },
+    {
+      "id": "dudas",
+      "titulo": "Dudas y sugerencias",
+      "resumen": "Pide orientación a la administración.",
+      "detalle": "Si algo no está claro, utiliza el espacio de dudas y sugerencias para consultar a la administración. No necesitas resolver todas las dudas por tu cuenta.",
+      "prioridad": "Ayuda",
+      "imagen": "assets/codex/objetos/linterna_magica_01.webp"
+    },
+    {
+      "id": "codex",
+      "titulo": "Codex de Aeternalis",
+      "resumen": "Profundiza en el mundo cuando tengas color.",
+      "detalle": "Tras obtener color podrás consultar, de forma opcional, el Codex y sus explicaciones más extensas sobre el universo. No es obligatorio leerlo por completo antes de comenzar a rolear.",
+      "prioridad": "Después del color",
+      "imagen": "assets/codex/libros/codice_cerrado_01.webp"
+    }
+  ],
+  "accesos": [
+    "normativa",
+    "ambientacion",
+    "razas",
+    "expediente",
+    "dudas"
+  ],
+  "enlaces": {
+    "normativa": null,
+    "ambientacion": null,
+    "cronologia": null,
+    "estadisticas": null,
+    "progresion": null,
+    "razas": null,
+    "magia": null,
+    "mapa": null,
+    "expediente": null,
+    "registros": null,
+    "baul": null,
+    "buzon": null,
+    "presentaciones": null,
+    "dudas": null,
+    "codex": null
+  }
+}
