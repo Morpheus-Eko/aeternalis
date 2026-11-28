@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-puertos-atlas-v1",
-  "version": "3.6.0",
+  "version": "3.8.0",
   "source": "data/atlas/manifest.json",
   "description": "Escalas costeras y fluviales del Atlas. Los accesos confirmados por el autor aparecen en la Carta Náutica aunque todavía falte verificar el curso exacto del agua. Ninguna escala supone automáticamente infraestructura portuaria, calado apto para grandes buques ni puente entre hexágonos terrestres.",
   "ports": [
@@ -97,10 +97,13 @@
     },
     {
       "id": "place-014",
-      "role": "faro",
+      "role": "faro_y_ribera",
       "endpoint": true,
-      "note": "Faro Durgath, referencia costera.",
-      "accessBasis": "indicacion_cartografica_del_autor_2026_11_27"
+      "note": "Faro Durgath (también llamado Dugarth por el autor), conectado por río rojo con Reddas y Rinnos; desemboca en mar abierto. Se utiliza el identificador existente place-014 y su coordenada x=738,y=520.",
+      "accessBasis": "cauce_rojo_mapa_nelson_1_1_verificado_2026_11_28",
+      "fluvialConnection": "confirmada_y_cartografiada",
+      "riverGeometry": "data/atlas/naval/cauces-verificados-kargast-v01.json",
+      "seaOutlet": "confirmada_y_cartografiada"
     },
     {
       "id": "place-081",
@@ -204,18 +207,18 @@
       "role": "ribera",
       "endpoint": true,
       "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
-      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
-      "fluvialConnection": "confirmada_por_el_autor",
-      "riverGeometry": "pendiente_de_verificar"
+      "note": "Ribera conectada por el río rojo con Reddas/Rinnos y Faro Durgath, con camino fluvial georreferenciado en el Atlas.",
+      "fluvialConnection": "confirmada_y_cartografiada",
+      "riverGeometry": "data/atlas/naval/cauces-verificados-kargast-v01.json"
     },
     {
       "id": "place-305",
       "role": "ribera",
       "endpoint": true,
       "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
-      "note": "Escala fluvial reconocida por el autor. Se conserva aunque su cauce aún no esté georreferenciado en hexágonos. No implica muelle ni ruta recta por tierra.",
-      "fluvialConnection": "confirmada_por_el_autor",
-      "riverGeometry": "pendiente_de_verificar"
+      "note": "Ribera conectada por el río rojo con Reddas/Rinnos y Faro Durgath, con camino fluvial georreferenciado en el Atlas.",
+      "fluvialConnection": "confirmada_y_cartografiada",
+      "riverGeometry": "data/atlas/naval/cauces-verificados-kargast-v01.json"
     },
     {
       "id": "place-103",
@@ -408,18 +411,6 @@
       "endpoint": true,
       "accessBasis": "indicacion_cartografica_del_autor_2026_11_27",
       "note": "Acceso al litoral o río declarado por el autor. No confirma infraestructura portuaria ni navegabilidad del cauce."
-    },
-    {
-      "id": "poi-faro-dugarth",
-      "name": "Faro Dugarth",
-      "role": "faro_y_ribera",
-      "endpoint": true,
-      "fluvialConnection": "confirmada_por_el_autor",
-      "seaOutlet": "confirmada_por_el_autor",
-      "positionStatus": "sin_coordenadas_en_localidades",
-      "riverGeometry": "pendiente_de_verificar",
-      "accessBasis": "declaracion_cartografica_del_autor_2026_11_28",
-      "note": "En conexión fluvial con Reddas y Rinnos; Faro Dugarth dispone de desembocadura y salida al mar. No se inventa posición."
     },
     {
       "id": "topo-kaly",
