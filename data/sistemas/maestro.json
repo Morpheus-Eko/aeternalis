@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-maestro-v1",
-  "release": "1.3.0",
+  "release": "1.4.0",
   "description": "Activar o desactivar módulos cambiando solo este JSON. El maestro detecta los contenedores HTML y descarga exclusivamente los scripts necesarios para cada publicación.",
   "modules": {
     "atlas": true,
@@ -19,7 +19,8 @@
     "pestilencias": true,
     "salud": true,
     "prologoOzma": true,
-    "normativa": true
+    "normativa": true,
+    "medallero": true
   },
   "notes": [
     "cartografo solo se inicia cuando URL incluye ?cartografo=1, ?dibujar=1 o ?caminos=1",
@@ -31,6 +32,7 @@
     "salud: Tomo de Medicina en /codice-salud/, con 8 anatomías, 16 fichas de plantas, pestilencias, tablas y calculadoras; sólo se carga si existe <div id=\"ae-codice-salud\"></div>. El legado de pestilencias se conserva para publicaciones antiguas.",
     "prologoOzma: prólogo teatral de Ambientación en /prologo-ozma/, con retrato de Ozma y taberna; solo se carga cuando existe <div id=\"ae-prologo-ozma\"></div>. El foro debe sustituir el mensaje antiguo con ese contenedor.",
     "normativa: se carga si la publicación incluye #ae-normativa-mount; el CSS y texto se sirven desde GitHub Pages.",
-    "Normativa v1.1: 4 capítulos seleccionables, emblemas en botones y busto izquierdo visible."
+    "Normativa v1.1: 4 capítulos seleccionables, emblemas en botones y busto izquierdo visible.",
+    "medallero: 90 distinciones en data/medallero.json, UI/CSS desde GitHub; requiere #ae-medallero-app en el foro."
   ]
 }

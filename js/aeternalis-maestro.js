@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.3.0';
+  var RELEASE='1.4.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -97,6 +97,12 @@
     start:function(){return withStyles('css/codice-salud.css','ae-codice-salud-css-v37','js/codice-salud/visor.js','ae-codice-salud-js-v37','3.7.0');}
   };
   // Normativa: se activa únicamente en el contenedor del post de reglas.
+  // Medallero: catálogo de 90 distinciones, renderizado solo con #ae-medallero-app.
+  modules.medallero={
+    root:'#ae-medallero-app',
+    guard:function(){var r=doc.getElementById('ae-medallero-app');return !!(r&&r.dataset.amLoaded&&r.dataset.amLoaded!=='error');},
+    start:function(){return withStyles('css/medallero.css','ae-medallero-css-v1','js/medallero/visor.js','ae-medallero-js-v1','1.0.0');}
+  };
   modules.normativa={
     root:'#ae-normativa-mount',
     guard:function(){var el=doc.getElementById('ae-normativa-mount');return !!(el&&el.dataset.aenBoot&&el.dataset.aenBoot!=='error');},

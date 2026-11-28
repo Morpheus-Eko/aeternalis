@@ -6,6 +6,14 @@ Repositorio público de contenido y código del mundo de rol **Aeternalis**.
 **CSS auxiliar del Supermapa (h5, no vista del mapa):** https://aeternalis.foroactivo.com/h5-supermapa2-0  
 **Sitio de datos (cuando se active GitHub Pages):** https://morpheus-eko.github.io/aeternalis/
 
+## El Medallero · Salón de las Distinciones
+Catálogo interactivo con las **90 distinciones** originales del Excel, ocho capítulos editoriales, búsqueda, premios y requisitos.
+
+- [Abrir el Medallero](https://morpheus-eko.github.io/aeternalis/medallero-preview.html)
+- [HTML mínimo para Foroactivo](foroactivo/HTML_MEDALLERO_PEGAR.txt)
+- [Guía de instalación](docs/MEDALLERO_FOROACTIVO.md)
+- [Datos](data/medallero.json)
+
 ## Normativa de Aeternalis · códice decorado
 La normativa se sirve mediante el **cargador maestro** y recupera bustos, emblemas y sellos desde la biblioteca Codex.
 

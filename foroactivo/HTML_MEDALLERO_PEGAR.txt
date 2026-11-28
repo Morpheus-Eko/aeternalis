@@ -1,0 +1,3 @@
+<!-- Aeternalis · Medallero v1.0.0. Mantener cargador maestro, no pegar estilos. -->
+<div class="hidethisprofile"></div>
+<div id="ae-medallero-app" aria-label="Salón de las Distinciones"><p>Abriendo el Medallero de Aeternalis…</p></div>
