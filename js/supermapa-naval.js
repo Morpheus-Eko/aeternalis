@@ -7,7 +7,7 @@
  if(window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__) return;
  window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=true;
  var BASE='https://morpheus-eko.github.io/aeternalis/';
- var VERSION='3.6.0';
+ var VERSION='3.7.0';
  var MAX_WAIT=90;
  var retries=0;
  function loadJSON(file){return fetch(BASE+file+'?v='+VERSION,{credentials:'omit',mode:'cors'}).then(function(r){if(!r.ok)throw Error(file+': '+r.status);return r.json();});}
@@ -32,10 +32,11 @@
      loadJSON('data/atlas/naval/rutas-por-agua.json'),
      loadJSON('data/atlas/naval/zonas-maritimas.json'),
      loadJSON('data/atlas/naval/puertos.json'),
-     loadJSON('data/atlas/naval/red-fluvial-declarada-v01.json')
+     loadJSON('data/atlas/naval/red-fluvial-declarada-v01.json'),
+     loadJSON('data/atlas/naval/politica-corredores-cercanos-v01.json')
    ]).then(async function(docs){
-     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],fluvial=docs[4];
-     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1'||fluvial.schema!=='aeternalis-red-fluvial-declarada-v1')throw Error('Datos náuticos Nelson incompatibles');
+     var source=docs[0],routes=docs[1],zones=docs[2],nav=docs[3],fluvial=docs[4],localPolicy=docs[5];
+     if(source.schema!=='aeternalis-agua-roja-nelson-v1'||routes.schema!=='aeternalis-rutas-agua-v1'||zones.schema!=='aeternalis-zonas-maritimas-v1'||nav.schema!=='aeternalis-puertos-atlas-v1'||fluvial.schema!=='aeternalis-red-fluvial-declarada-v1'||localPolicy.schema!=='aeternalis-politica-corredores-cercanos-v1')throw Error('Datos náuticos Nelson incompatibles');
      var c=source.grid,R=c.radius,H=Math.sqrt(3)*R,steps=source.encoding.navBitOrder;
      if(source.source.width!==2048||source.source.height!==1571||Math.abs(R-9.3333)>.01)throw Error('La máscara roja no coincide con el Atlas');
      var decoded=await decodeRedWater(source.packed);
@@ -95,6 +96,13 @@
      // Mostrar escalas fluviales aunque su río aún no alcance una celda de mar.
      // Las localidades sin coordenadas solo aparecen en el selector, no en el mapa.
      var ports=nav.ports.filter(function(p){return p.endpoint&&(pinById.has(p.id)||riverSiteById.has(p.id));});
+     var policy=localPolicy.parameters;
+     function hasOpenSeaAccess(id){
+       var a=anchorById.get(id),p=portById.get(id);
+       if(!a||a.snap_distance>10||!p)return false;
+       return !(p.fluvialConnection&&p.role==='ribera'&&!p.seaOutlet);
+     }
+     var maritimePorts=ports.filter(function(p){return hasOpenSeaAccess(p.id);});
      var lookup=function(id){return pinById.get(id)||null;};
      var placeLabel=function(id){
        var p=lookup(id)||portById.get(id)||riverSiteById.get(id);
@@ -109,6 +117,7 @@
      var panel=document.createElement('aside');panel.id='ae-supermapa-naval-panel';panel.className='ae-naval-panel';panel.hidden=true;panel.setAttribute('aria-label','Carta Náutica de Aeternalis');viewport.appendChild(panel);
      panel.innerHTML='<div class="ae-naval-head"><span class="ae-naval-kicker">ATLAS DE LOS MARES · AETERNALIS</span><button type="button" id="ae-naval-close" aria-label="Cerrar Carta Náutica">✕</button><h2>Carta Náutica</h2><p>Cartografía de puertos, corrientes y regiones marítimas.</p></div>'+
       '<div class="ae-naval-body"><section class="ae-naval-section"><h3>Itinerario marítimo</h3><label for="ae-naval-from">Escala o ribera de partida</label><select id="ae-naval-from"></select><label for="ae-naval-to">Escala o ribera de destino</label><select id="ae-naval-to"></select><label for="ae-naval-sails">Velas del navío</label><select id="ae-naval-sails"><option value="1">I · 24 h por hexágono</option><option value="2">II · 18 h por hexágono</option><option value="3">III · 12 h por hexágono</option><option value="4">Legendarias · 8 h por hexágono</option></select><button type="button" class="ae-naval-action" id="ae-naval-route">Trazar travesía</button><div class="ae-naval-result" id="ae-naval-result" aria-live="polite">Selecciona los puertos para consultar el rumbo.</div></section>'+
+      '<section class="ae-naval-section"><h3>Puertos próximos</h3><div id="ae-naval-nearby" class="ae-naval-nearby"><p>Las conexiones cercanas se calculan al abrir la carta.</p></div></section>'+ 
       '<section class="ae-naval-section"><h3>Capas náuticas</h3><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-hex"> Hexágonos de agua</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-network" checked> Corredores marítimos</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-regions" checked> Regiones del mar</label></section>'+
       '<section class="ae-naval-section"><h3>Mares y regiones</h3><div id="ae-naval-region-list" class="ae-naval-region-list"></div><article id="ae-naval-region-detail" class="ae-naval-region-detail"><p>Selecciona una región para consultar sus mares, vientos y peligros.</p></article></section>'+
       '<p class="ae-naval-meta" id="ae-naval-metrics"></p></div>';
@@ -172,14 +181,29 @@
      }
      q('ae-naval-region-list').addEventListener('click',function(e){var b=e.target.closest('button[data-region]');if(b)selectRegion(b.dataset.region,true);});
      function drawNetwork(){
+       routeNetworkLayer.clearLayers();
        routes.routes.forEach(function(route){
          var points=route.waypoints.map(function(x){return coord(x[0],x[1]);});
          var line=L.polyline(points,{color:'#81bad3',weight:2.0,opacity:.56,dashArray:'6 7',interactive:true,className:'ae-naval-route-network'});
-         line.bindTooltip(placeLabel(route.from)+' — '+placeLabel(route.to)+' · '+route.hexes+' hex.');
+         line.bindTooltip(placeLabel(route.from)+' — '+placeLabel(route.to)+' · conexión costera cercana · '+route.hexes+' hex.');
          line.on('click',function(){from.value=route.from;to.value=route.to;plotRoute();});
          line.addTo(routeNetworkLayer);
        });
      }
+     function updateNearby(){
+       var el=q('ae-naval-nearby');if(!el)return;
+       var id=from.value||state.from,near=routes.routes.filter(function(e){return e.from===id||e.to===id;})
+         .map(function(e){return {id:e.from===id?e.to:e.from,hexes:e.hexes};})
+         .sort(function(a,b){return a.hexes-b.hexes;});
+       if(!networkRequested){el.innerHTML='<p>Abre la carta para ver puertos cercanos.</p>';return;}
+       if(!near.length){el.innerHTML='<p>No hay un corredor marítimo próximo verificado. Los enlaces fluviales permanecen registrados por separado.</p>';return;}
+       el.innerHTML='<p>Rutas locales desde '+html(placeLabel(id))+':</p>'+
+         near.map(function(e){return '<button type="button" data-port="'+html(e.id)+'">'+html(placeLabel(e.id))+' <small>'+e.hexes+' hex.</small></button>';}).join('');
+     }
+     q('ae-naval-nearby').addEventListener('click',function(e){
+       var button=e.target.closest('button[data-port]');if(!button)return;
+       to.value=button.dataset.port;state.to=to.value;plotRoute();
+     });
      var chooseOriginNext=true;
      function drawPorts(){
        ports.forEach(function(p){var place=lookup(p.id);if(!place)return;
@@ -195,9 +219,9 @@
      Heap.prototype.push=function(p){var a=this.a;a.push(p);var i=a.length-1;while(i){var j=(i-1)>>1;if(a[j][0]<=p[0])break;a[i]=a[j];i=j;}a[i]=p;};
      Heap.prototype.pop=function(){var a=this.a,top=a[0],p=a.pop();if(a.length){var i=0;while(true){var j=i*2+1;if(j>=a.length)break;if(j+1<a.length&&a[j+1][0]<a[j][0])j++;if(p[0]<=a[j][0])break;a[i]=a[j];i=j;}a[i]=p;}return top;};
      Heap.prototype.size=function(){return this.a.length;};
-     function findPath(fromId,toId){
+     function findPath(fromId,toId,maxHexes){
        var a=anchorById.get(fromId),b=anchorById.get(toId);
-       if(!a||!b||a.snap_distance>10||b.snap_distance>10)return null;
+       if(!hasOpenSeaAccess(fromId)||!hasOpenSeaAccess(toId))return null;
        var start=a.hex.join(','),goal=b.hex.join(',');if(!waterNodes.has(start)||!waterNodes.has(goal))return null;
        var queue=new Heap(),parent=new Map(),cost=new Map(),closed=new Set();parent.set(start,null);cost.set(start,0);queue.push([distance(a.hex,b.hex),0,start]);
        while(queue.size()){
@@ -208,6 +232,7 @@
            if(!(node[4]&(1<<i)))continue;
            var x=node[0]+steps[i][0],y=node[1]+steps[i][1],key=x+','+y,nxt=waterNodes.get(key);
            if(!nxt||closed.has(key))continue;
+           if(maxHexes&&distance(a.hex,[x,y])+distance([x,y],b.hex)>maxHexes)continue;
            var weight=1+(100-nxt[3])/155+(nxt[2]===1?.17:0),newCost=g+weight;
            if(newCost< (cost.has(key)?cost.get(key):Infinity)){
              cost.set(key,newCost);parent.set(key,id);queue.push([newCost+distance([x,y],b.hex),newCost,key]);
@@ -260,7 +285,7 @@
        var fit=L.latLngBounds(latlngs);
        map.fitBounds(fit.pad(.15),{maxZoom:.6,padding:[38,38]});
      }
-     from.addEventListener('change',function(){state.from=from.value;});
+     from.addEventListener('change',function(){state.from=from.value;updateNearby();});
      to.addEventListener('change',function(){state.to=to.value;});
      sails.addEventListener('change',function(){state.sails=Number(sails.value)||1;if(state.route)plotRoute();});
      q('ae-naval-route').addEventListener('click',plotRoute);
