@@ -1,0 +1,200 @@
+{
+  "schema": "aeternalis-red-fluvial-declarada-v1",
+  "version": "1.0.0",
+  "source": "Declaraciones cartográficas expresas del autor, 2026-11-28; máscara roja del Mapa Nelson 1.1",
+  "policy": {
+    "water": "El color rojo comprende mar, ríos, lagos y cauces",
+    "safeRouting": "No sustituir cursos fluviales por rectas entre localidades ni cruzar tierra. Dibujar sólo cuando los hexágonos o el curso exacto estén verificados.",
+    "vessels": "La conexión por río no implica navegabilidad para buques oceánicos de cualquier calado; el tipo de embarcación permanece por determinar.",
+    "portInfrastructure": "Una escala fluvial no implica infraestructura de puerto, muelle o astillero",
+    "impliedConnectivity": "La pertenencia a una misma cuenca no afirma que todas las parejas tengan un cauce directo ni determina el orden de las localidades"
+  },
+  "sites": [
+    {
+      "id": "place-069",
+      "name": "Fohn’Veridan",
+      "region": "Verdenteyl",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-071",
+      "name": "Loth’Veridan",
+      "region": "Verdenteyl",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-072",
+      "name": "Alandra",
+      "region": "Verdenteyl",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-073",
+      "name": "Ris’Veridan",
+      "region": "Verdenteyl",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-067",
+      "name": "Bastión Heidrun",
+      "region": "Verdenteyl",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-012",
+      "name": "Reddas",
+      "region": "Kargast",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-305",
+      "name": "Rinnos",
+      "region": "Kargast",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "poi-faro-dugarth",
+      "name": "Faro Dugarth",
+      "region": "Kargast",
+      "knownCoords": false,
+      "access": "fluvial_y_maritimo_confirmados",
+      "positionStatus": "no_consta_en_localidades_del_atlas",
+      "note": "No se inventa la ubicación del faro. El autor confirmó un río conectado con Reddas y Rinnos y salida al mar."
+    },
+    {
+      "id": "topo-kaly",
+      "name": "Kaly",
+      "region": "Isilme",
+      "knownCoords": false,
+      "access": "fluvial_confirmado",
+      "possibleAtlasMatch": "place-084",
+      "possibleAtlasName": "Kale",
+      "positionStatus": "nombre_ambiguo_en_atlas",
+      "note": "El mapa registra «Kale», no «Kaly». No equiparar ambos nombres sin verificación."
+    },
+    {
+      "id": "place-314",
+      "name": "Cyn’dorei",
+      "region": "Isilme",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-093",
+      "name": "Bahía Calad",
+      "region": "Isilme",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    },
+    {
+      "id": "place-315",
+      "name": "Er’yelia",
+      "region": "Isilme",
+      "knownCoords": true,
+      "access": "fluvial_confirmado"
+    }
+  ],
+  "basins": [
+    {
+      "id": "cuenca-fluvial-elenya",
+      "region": "Verdenteyl",
+      "sites": [
+        "place-069",
+        "place-071",
+        "place-072",
+        "place-073",
+        "place-067"
+      ],
+      "declaration": "Los cinco lugares tienen conexiones por ríos.",
+      "geometryStatus": "pendiente_verificacion_de_cauce",
+      "note": "No se afirma que todos compartan un solo canal o ruta directa."
+    },
+    {
+      "id": "cuenca-dugarth-kargast",
+      "region": "Kargast",
+      "sites": [
+        "poi-faro-dugarth",
+        "place-012",
+        "place-305"
+      ],
+      "declaration": "Faro Dugarth, Reddas y Rinnos están conectados por ríos.",
+      "geometryStatus": "pendiente_verificacion_de_cauce"
+    },
+    {
+      "id": "cuenca-kaly-cyndorei",
+      "region": "Isilme",
+      "sites": [
+        "topo-kaly",
+        "place-314"
+      ],
+      "declaration": "Kaly y Cyn’dorei están conectados por río.",
+      "geometryStatus": "pendiente_nombre_y_cauce"
+    },
+    {
+      "id": "cuenca-calad-eryelia",
+      "region": "Isilme",
+      "sites": [
+        "place-093",
+        "place-315"
+      ],
+      "declaration": "Bahía Calad y Er’yelia están conectadas por un río.",
+      "geometryStatus": "pendiente_verificacion_de_cauce"
+    }
+  ],
+  "directLinks": [
+    {
+      "id": "rio-calad-eryelia",
+      "from": "place-093",
+      "to": "place-315",
+      "waterway": "rio",
+      "confirmedByAuthor": true,
+      "geometryStatus": "cauce_pendiente",
+      "draw": false
+    },
+    {
+      "id": "rio-kaly-cyndorei",
+      "from": "topo-kaly",
+      "to": "place-314",
+      "waterway": "rio",
+      "confirmedByAuthor": true,
+      "geometryStatus": "cauce_y_nombre_pendientes",
+      "draw": false
+    }
+  ],
+  "seaOutlets": [
+    {
+      "id": "desembocadura-dugarth",
+      "site": "poi-faro-dugarth",
+      "to": "mar",
+      "confirmedByAuthor": true,
+      "geometryStatus": "desembocadura_pendiente",
+      "draw": false
+    }
+  ],
+  "validation": {
+    "existingSiteIDs": [
+      "place-069",
+      "place-071",
+      "place-072",
+      "place-073",
+      "place-067",
+      "place-012",
+      "place-305",
+      "place-314",
+      "place-093",
+      "place-315"
+    ],
+    "unknownSiteIDs": [
+      "poi-faro-dugarth",
+      "topo-kaly"
+    ],
+    "status": "topologia_confirmada_no_equivale_a_ruta_geometrica_verificada"
+  }
+}
