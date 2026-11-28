@@ -195,10 +195,24 @@
        var id=from.value||state.from,near=routes.routes.filter(function(e){return e.from===id||e.to===id;})
          .map(function(e){return {id:e.from===id?e.to:e.from,hexes:e.hexes};})
          .sort(function(a,b){return a.hexes-b.hexes;});
-       if(!networkRequested){el.innerHTML='<p>Abre la carta para ver puertos cercanos.</p>';return;}
-       if(!near.length){el.innerHTML='<p>No hay un corredor marítimo próximo verificado. Los enlaces fluviales permanecen registrados por separado.</p>';return;}
-       el.innerHTML='<p>Rutas locales desde '+html(placeLabel(id))+':</p>'+
-         near.map(function(e){return '<button type="button" data-port="'+html(e.id)+'">'+html(placeLabel(e.id))+' <small>'+e.hexes+' hex.</small></button>';}).join('');
+       var riverNeighbors=new Map();
+       (basinBySite.get(id)||[]).forEach(function(b){
+         b.sites.forEach(function(other){
+           if(other!==id&&portById.has(other))riverNeighbors.set(other,b.region);
+         });
+       });
+       var out='<p>Escalas cercanas a '+html(placeLabel(id))+':</p>';
+       if(!networkRequested)out+='<p>Abre la Carta Náutica para verificar los corredores marítimos.</p>';
+       else if(!near.length&&!riverNeighbors.size)out+='<p>No hay una conexión próxima verificada desde esta escala.</p>';
+       if(near.length)out+='<div class="ae-naval-nearby__sea">'+
+         near.map(function(e){return '<button type="button" data-port="'+html(e.id)+'">'+
+           html(placeLabel(e.id))+' <small>'+e.hexes+' hex. · mar</small></button>';}).join('')+'</div>';
+       if(riverNeighbors.size)out+='<p class="ae-naval-nearby__label">Cuenca fluvial reconocida · cauce por cartografiar</p>'+
+         '<div class="ae-naval-nearby__river">'+Array.from(riverNeighbors).map(function(pair){
+           return '<button type="button" data-port="'+html(pair[0])+'" title="Conexión fluvial declarada; no existe ruta geométrica validada">'+
+           html(placeLabel(pair[0]))+' <small>río · pendiente</small></button>';
+         }).join('')+'</div>';
+       el.innerHTML=out;
      }
      q('ae-naval-nearby').addEventListener('click',function(e){
        var button=e.target.closest('button[data-port]');if(!button)return;
@@ -316,8 +330,26 @@
      function plotRoute(){
        var first=from.value,last=to.value;state.from=first;state.to=last;state.sails=Number(sails.value)||1;
        routeLayer.clearLayers();
-       if(!first||!last||first===last){result.textContent='Selecciona dos puertos diferentes.';return;}
-       var path=findPath(first,last);if(!path){result.textContent='No se encontró continuidad marítima entre esos puertos.';return;}
+       if(!first||!last||first===last){result.textContent='Selecciona dos puertos o riberas diferentes.';state.route=null;return;}
+       var river=declaredRiverLink(first,last),basin=sharedFluvialBasin(first,last);
+       if(river||basin){
+         result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong>'+
+           '<p class="ae-naval-fluvial-note">'+
+           (river?'Conexión por río confirmada por el autor.':'Ambas escalas pertenecen a la red fluvial de '+html(basin.region)+'.')+
+           ' El cauce preciso aún debe dibujarse sobre los hexágonos de agua. No se representa una recta sobre tierra ni se estima tiempo de viaje sin el trazado.</p>';
+         state.route={from:first,to:last,kind:'river',status:'course-pending'};return;
+       }
+       if(!hasOpenSeaAccess(first)||!hasOpenSeaAccess(last)){
+         var faro=first==='poi-faro-dugarth'||last==='poi-faro-dugarth';
+         result.innerHTML='<strong>'+html(placeLabel(first))+' → '+html(placeLabel(last))+'</strong>'+
+           '<p class="ae-naval-fluvial-note">'+(faro?
+            'Faro Dugarth tiene salida al mar confirmada, pero carece todavía de coordenadas y no se ha localizado su desembocadura.':
+            'La localidad está identificada como escala fluvial, pero el paso hasta el mar o hasta esta otra escala todavía no tiene un cauce verificado.')+
+           ' No se habilita un atajo sobre tierra.</p>';
+         state.route={from:first,to:last,kind:'river',status:'unverified-waterway'};return;
+       }
+       var path=findPath(first,last);
+       if(!path){result.textContent='No existe continuidad comprobada por agua marina entre estas escalas.';state.route=null;return;}
        var latlngs=path.map(cellCoord);
        L.polyline(latlngs,{color:'#eec389',weight:4.5,opacity:.95,className:'ae-naval-route-selected'}).addTo(routeLayer);
        var start=lookup(first),end=lookup(last),accessFrom=anchorById.get(first),accessTo=anchorById.get(last);
