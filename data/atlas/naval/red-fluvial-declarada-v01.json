@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-red-fluvial-declarada-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "source": "Declaraciones cartográficas expresas del autor, 2026-11-28; máscara roja del Mapa Nelson 1.1",
   "policy": {
     "water": "El color rojo comprende mar, ríos, lagos y cauces",
@@ -60,13 +60,19 @@
       "access": "fluvial_confirmado"
     },
     {
-      "id": "poi-faro-dugarth",
-      "name": "Faro Dugarth",
+      "id": "place-014",
+      "name": "Faro Durgath",
       "region": "Kargast",
-      "knownCoords": false,
-      "access": "fluvial_y_maritimo_confirmados",
-      "positionStatus": "no_consta_en_localidades_del_atlas",
-      "note": "No se inventa la ubicación del faro. El autor confirmó un río conectado con Reddas y Rinnos y salida al mar."
+      "knownCoords": true,
+      "access": "fluvial_y_maritimo_cartografiado",
+      "positionStatus": "calibrado_en_el_atlas",
+      "note": "Identificado en el catálogo canónico place-014. Se ha trazado la ruta roja hasta Reddas y Rinnos y su desembocadura en mar abierto.",
+      "alternativeName": "Faro Dugarth",
+      "coords": [
+        738,
+        520
+      ],
+      "geometryStatus": "cauce_rojo_verificado"
     },
     {
       "id": "topo-kaly",
@@ -120,12 +126,14 @@
       "id": "cuenca-dugarth-kargast",
       "region": "Kargast",
       "sites": [
-        "poi-faro-dugarth",
+        "place-014",
         "place-012",
         "place-305"
       ],
       "declaration": "Faro Dugarth, Reddas y Rinnos están conectados por ríos.",
-      "geometryStatus": "pendiente_verificacion_de_cauce"
+      "geometryStatus": "dos_tramos_fluviales_verificados",
+      "routeGeometry": "data/atlas/naval/cauces-verificados-kargast-v01.json",
+      "note": "Rinnos–Reddas–Faro Durgath conectados mediante río rojo georreferenciado; existe salida marítima por el faro."
     },
     {
       "id": "cuenca-kaly-cyndorei",
@@ -166,16 +174,37 @@
       "confirmedByAuthor": true,
       "geometryStatus": "cauce_y_nombre_pendientes",
       "draw": false
+    },
+    {
+      "id": "rio-rinnos-reddas",
+      "from": "place-305",
+      "to": "place-012",
+      "waterway": "rio",
+      "confirmedByAuthor": true,
+      "geometryStatus": "cauce_rojo_verificado",
+      "geometryFile": "data/atlas/naval/cauces-verificados-kargast-v01.json",
+      "draw": true
+    },
+    {
+      "id": "rio-reddas-faro-durgath",
+      "from": "place-012",
+      "to": "place-014",
+      "waterway": "rio",
+      "confirmedByAuthor": true,
+      "geometryStatus": "cauce_rojo_verificado",
+      "geometryFile": "data/atlas/naval/cauces-verificados-kargast-v01.json",
+      "draw": true
     }
   ],
   "seaOutlets": [
     {
       "id": "desembocadura-dugarth",
-      "site": "poi-faro-dugarth",
+      "site": "place-014",
       "to": "mar",
       "confirmedByAuthor": true,
-      "geometryStatus": "desembocadura_pendiente",
-      "draw": false
+      "geometryStatus": "desembocadura_verificada",
+      "draw": true,
+      "geometryFile": "data/atlas/naval/cauces-verificados-kargast-v01.json"
     }
   ],
   "validation": {
@@ -189,12 +218,12 @@
       "place-305",
       "place-314",
       "place-093",
-      "place-315"
+      "place-315",
+      "place-014"
     ],
     "unknownSiteIDs": [
-      "poi-faro-dugarth",
       "topo-kaly"
     ],
-    "status": "topologia_confirmada_no_equivale_a_ruta_geometrica_verificada"
+    "status": "rutas_kargast_trazadas_sobre_rojo;_otras_cuencas_pendientes"
   }
 }
