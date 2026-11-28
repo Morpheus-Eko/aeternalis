@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.1.0';
+  var RELEASE='1.2.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -95,6 +95,12 @@
     root:'#ae-codice-salud',
     guard:function(){var r=doc.getElementById('ae-codice-salud');return !!window.AeternalisCodiceSalud||!!(r&&r.dataset.acsBoot);},
     start:function(){return withStyles('css/codice-salud.css','ae-codice-salud-css-v37','js/codice-salud/visor.js','ae-codice-salud-js-v37','3.7.0');}
+  };
+  // Normativa: se activa únicamente en el contenedor del post de reglas.
+  modules.normativa={
+    root:'#ae-normativa-mount',
+    guard:function(){var el=doc.getElementById('ae-normativa-mount');return !!(el&&el.dataset.aenBoot&&el.dataset.aenBoot!=='error');},
+    start:function(){return withStyles('css/normativa.css','ae-normativa-css-v1','js/normativa/visor.js','ae-normativa-js-v1','1.0.0');}
   };
   modules.cronologia={
     root:'#aec-cronologia',

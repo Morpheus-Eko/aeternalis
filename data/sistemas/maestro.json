@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-maestro-v1",
-  "release": "1.1.0",
+  "release": "1.2.0",
   "description": "Activar o desactivar módulos cambiando solo este JSON. El maestro detecta los contenedores HTML y descarga exclusivamente los scripts necesarios para cada publicación.",
   "modules": {
     "atlas": true,
@@ -18,7 +18,8 @@
     "cartografo": true,
     "pestilencias": true,
     "salud": true,
-    "prologoOzma": true
+    "prologoOzma": true,
+    "normativa": true
   },
   "notes": [
     "cartografo solo se inicia cuando URL incluye ?cartografo=1, ?dibujar=1 o ?caminos=1",
@@ -28,6 +29,7 @@
     "La configuración local opcional window.AETERNALIS_MAESTRO_CONFIG.modules tiene precedencia.",
     "pestilencias: el Códice sólo se carga si una publicación contiene <div id=\"ae-pestilencias\"></div>; CSS/JS y JSON residen en GitHub. La URL /pestilencias/ contiene una vista de pruebas independiente.",
     "salud: Tomo de Medicina en /codice-salud/, con 8 anatomías, 16 fichas de plantas, pestilencias, tablas y calculadoras; sólo se carga si existe <div id=\"ae-codice-salud\"></div>. El legado de pestilencias se conserva para publicaciones antiguas.",
-    "prologoOzma: prólogo teatral de Ambientación en /prologo-ozma/, con retrato de Ozma y taberna; solo se carga cuando existe <div id=\"ae-prologo-ozma\"></div>. El foro debe sustituir el mensaje antiguo con ese contenedor."
+    "prologoOzma: prólogo teatral de Ambientación en /prologo-ozma/, con retrato de Ozma y taberna; solo se carga cuando existe <div id=\"ae-prologo-ozma\"></div>. El foro debe sustituir el mensaje antiguo con ese contenedor.",
+    "normativa: se carga si la publicación incluye #ae-normativa-mount; el CSS y texto se sirven desde GitHub Pages."
   ]
 }

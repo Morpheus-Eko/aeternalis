@@ -6,6 +6,13 @@ Repositorio público de contenido y código del mundo de rol **Aeternalis**.
 **CSS auxiliar del Supermapa (h5, no vista del mapa):** https://aeternalis.foroactivo.com/h5-supermapa2-0  
 **Sitio de datos (cuando se active GitHub Pages):** https://morpheus-eko.github.io/aeternalis/
 
+## Normativa de Aeternalis · códice decorado
+La normativa se sirve mediante el **cargador maestro** y recupera bustos, emblemas y sellos desde la biblioteca Codex.
+
+- [Vista previa](https://morpheus-eko.github.io/aeternalis/normativa-preview.html)
+- [HTML mínimo para Foroactivo](foroactivo/HTML_NORMATIVA_PEGAR.txt)
+- [Guía](docs/NORMATIVA_GITHUB_FOROACTIVO.md)
+
 ## Tomo de Medicina · v2.0
 
 El nuevo **Tomo de Medicina — Códice de la Salud** reúne 88 folios ilustrados: anatomía de ocho razas, dieciséis entradas botánicas de estudio, observaciones y mecánicas de las tres pestilencias del reglamento, dos tablas comparativas, calculadoras y un capítulo de cuidados. El antiguo módulo de Pestilencias se conserva para compatibilidad con publicaciones anteriores.

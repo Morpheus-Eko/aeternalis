@@ -1,0 +1,3 @@
+<!-- Aeternalis · Normativa v1.0.0 · pegar solo esto en el tema de Foroactivo -->
+<div class="hidethisprofile"></div>
+<div id="ae-normativa-mount" aria-label="Normativa de Aeternalis"><p>Abriendo el códice de convivencia…</p></div>
