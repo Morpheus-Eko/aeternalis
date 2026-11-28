@@ -1,10 +1,10 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-28-nelson11-mar-rojo-y-rutas-costeras-v21",
+  "revision": "2026-11-28-sin-paso-directo-kale-essea-v22",
   "counts": {
     "places": 122,
     "regions": 26,
-    "roads": 174,
+    "roads": 173,
     "navalCells": 4851,
     "marineZones": 6,
     "nauticalCorridors": 111,
@@ -136,6 +136,7 @@
   "fixLog": {
     "kaleInitialization": "Corrección de la inicialización de pendingKaleRoadSave antes de usarla; evitar error de temporal dead zone que bloqueaba Atlas y la Carta Náutica.",
     "redWater20261128": "Se reemplaza el criterio azul de la malla naval con pigmento rojo del mapa Nelson 1.1. 4.851 celdas marinas, 1.646 interiores sin navegación automática.",
-    "coastalLand20261128": "Carretera Essëa–Kale desvía alrededor del lago; senda costera directa Ithar’iamil–Bahía Hirion con vértices siguiendo puntos magenta, evitando agua."
+    "coastalLand20261128": "Essëa–Kale: se retira la carretera base-087, pues no existe paso directo por las montañas; Ithar’iamil–Bahía Hirion: se conserva la senda costera directa.",
+    "kaleEsseaNoDirectPass": "La ruta base-087 y todas sus variantes quedan excluidas del grafo vial; el motor v22 elimina las copias locales antiguas, respalda los borradores y bloquea su reconstrucción. No se crea un desvío alternativo sin trazo autorizado por el mapa."
   }
 }
