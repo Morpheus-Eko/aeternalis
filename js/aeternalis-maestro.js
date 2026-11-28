@@ -101,7 +101,7 @@
   modules.medallero={
     root:'#ae-medallero-app',
     guard:function(){var r=doc.getElementById('ae-medallero-app');return !!(r&&r.dataset.amLoaded&&r.dataset.amLoaded!=='error');},
-    start:function(){return withStyles('css/medallero.css','ae-medallero-css-v1','js/medallero/visor.js','ae-medallero-js-v1','1.0.0');}
+    start:function(){return withStyles('css/medallero.css','ae-medallero-css-v11','js/medallero/visor.js','ae-medallero-js-v11','1.1.0');}
   };
   modules.normativa={
     root:'#ae-normativa-mount',

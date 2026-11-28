@@ -23,3 +23,6 @@ Origen gráfico: imágenes conservadas en el paquete [medallero_prototipo_aetern
 
 ## Estado de los archivos gráficos
 Los 69 archivos WebP están preservados en el paquete local generado desde Medallero.xlsx, pero todavía no se han transferido como binarios a esta rama de GitHub. El catálogo conserva las rutas originales esperadas en `assets/medallero/iconos/`. Hasta completar ese directorio, el visor muestra el emblema provisional para los iconos ausentes. No sustituir las ilustraciones originales por otros assets.
+
+## Diseño ceremonial v1.1.0
+El Medallero ya no utiliza bustos ni ornamentos de la Normativa: cabecera con estandartes de estrella y dragón, insignia de laurel con estrella, y ocho emblemas de mérito distintos. Paleta azul noche, borgoña y oro. Las ilustraciones originales del Excel no se sustituyen. El HTML mínimo de Foroactivo sigue intacto.

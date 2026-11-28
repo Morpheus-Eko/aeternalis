@@ -1,4 +1,4 @@
-/* Aeternalis · Medallero v1.0.0. Encapsulado, sin estilos globales */
+/* Aeternalis · Medallero v1.1.0. Encapsulado, sin estilos globales */
 #ae-medallero-app{--am-gold:#c6a875;--am-ink:#e8d9bc;--am-edge:rgba(195,164,112,.25);--am-muted:#aaa08c;position:relative;isolation:isolate;max-width:1190px;margin:22px auto 45px;background:radial-gradient(ellipse at top,rgba(170,117,54,.09),transparent 40%),linear-gradient(135deg,#1c2220,#111716 66%,#1e1e19);border:1px solid var(--am-edge);color:var(--am-ink);font-size:15px;line-height:1.7;font-family:inherit;overflow:hidden;box-shadow:0 24px 70px #0006}
 #ae-medallero-app *,#ae-medallero-app *::before,#ae-medallero-app *::after{box-sizing:border-box}
 #ae-medallero-app [hidden]{display:none!important}
@@ -11,7 +11,6 @@
 #ae-medallero-app .am-kicker{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--am-gold);margin:0 0 10px}
 #ae-medallero-app .am-header h1{font:400 clamp(38px,5vw,61px)/1.15 Georgia,serif!important;color:#f0dfbc!important;letter-spacing:2px;margin:4px 0!important}
 #ae-medallero-app .am-header .am-subtitle{font:italic 17px/1.4 Georgia,serif;color:#cbb68e;margin:8px 0}
-#ae-medallero-app .am-header .am-flourish{height:25px;max-width:320px;margin:15px auto;background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp') center/contain no-repeat;opacity:.7}
 #ae-medallero-app .am-header .am-intro{font-size:13px;color:#bdb3a1;margin:0 auto 16px;max-width:470px}
 #ae-medallero-app .am-stats{display:flex;justify-content:center;gap:35px;padding:14px;background:rgba(181,144,84,.045);border-bottom:1px solid var(--am-edge)}
 #ae-medallero-app .am-stat{text-align:center;min-width:80px}
@@ -70,3 +69,118 @@
 @media(max-width:790px){#ae-medallero-app .am-nav{grid-template-columns:repeat(2,minmax(0,1fr))}#ae-medallero-app .am-header{grid-template-columns:78px minmax(0,1fr) 78px;gap:4px;padding:20px 12px}#ae-medallero-app .am-portrait,#ae-medallero-app .am-portrait img{height:125px}}
 @media(max-width:580px){#ae-medallero-app .am-header{display:block;padding:36px 18px 30px}#ae-medallero-app .am-portrait{display:none}#ae-medallero-app .am-cards{grid-template-columns:1fr}#ae-medallero-app .am-nav-wrap,#ae-medallero-app .am-main{padding-left:14px;padding-right:14px}#ae-medallero-app .am-tools{padding-left:14px;padding-right:14px}#ae-medallero-app .am-header h1{font-size:42px!important}#ae-medallero-app .am-nav button{min-height:66px;padding:8px}#ae-medallero-app .am-nav-emblem{width:33px;flex-basis:33px;height:41px}#ae-medallero-app .am-nav-text strong{font-size:12px}#ae-medallero-app .am-dialog{padding:22px 16px}#ae-medallero-app .am-dialog-top .am-medal{flex-basis:85px;width:85px;height:85px}#ae-medallero-app .am-dialog-top .am-medal img{width:66px;height:66px}#ae-medallero-app .am-dialog h3{font-size:23px!important}}
 @media(prefers-reduced-motion:reduce){#ae-medallero-app *{transition:none!important}}
+
+
+/* ── SALÓN DE HONORES · IDENTIDAD CEREMONIAL v1.1 ──
+   Sin bustos ni runas de la Normativa. Estandartes y laureles.
+   Los iconos originales de los 90 logros no se alteran. */
+#ae-medallero-app{
+ --am-gold:#d5b46e;--am-ink:#f0e5cc;--am-edge:rgba(210,168,91,.35);--am-muted:#b9a9a4;
+ --am-plum:#351d2e;--am-navy:#101a2c;
+ background:radial-gradient(ellipse at top,rgba(130,56,78,.24),transparent 54%),linear-gradient(135deg,#151b2b,#201927 57%,#101824);
+ border:1px solid rgba(217,176,104,.47);border-radius:10px;
+ box-shadow:0 0 0 5px rgba(14,17,27,.85),0 25px 75px #0009;
+}
+#ae-medallero-app .am-header{
+ grid-template-columns:minmax(100px,175px) minmax(0,1fr) minmax(100px,175px);
+ align-items:center;min-height:314px;padding:25px 30px 15px;
+ background:radial-gradient(ellipse at 50% 5%,rgba(151,91,74,.22),transparent 60%),linear-gradient(90deg,#171c30,#39202d 49%,#171c30);
+ border-bottom:3px double rgba(214,175,99,.55);
+}
+#ae-medallero-app .am-header:before,#ae-medallero-app .am-header:after{
+ content:"";pointer-events:none;position:absolute;top:10px;width:58px;height:140px;opacity:.43;
+ background:linear-gradient(#dab479,#806444) center/2px 100% no-repeat;
+}
+#ae-medallero-app .am-header:before{left:12px}
+#ae-medallero-app .am-header:after{right:12px}
+#ae-medallero-app .am-standard{position:relative;width:100%;height:260px;display:flex;align-items:center;justify-content:center;z-index:1}
+#ae-medallero-app .am-standard img{
+ display:block;max-width:150px;width:100%;height:258px;object-fit:contain;
+ filter:brightness(1.13) drop-shadow(0 12px 14px #0008);
+}
+#ae-medallero-app .am-heading{padding:12px 0}
+#ae-medallero-app .am-header-emblem{
+ display:block;max-width:min(290px,100%);width:86%;height:76px;object-fit:contain;
+ margin:0 auto 7px;filter:brightness(1.10) drop-shadow(0 5px 9px #0005);
+}
+#ae-medallero-app .am-kicker{color:#e6c48a;letter-spacing:3.4px}
+#ae-medallero-app .am-header h1{color:#f6e2ae!important;font-size:clamp(39px,5vw,62px)!important;text-shadow:0 2px 13px #000b;letter-spacing:1.6px}
+#ae-medallero-app .am-header .am-subtitle{color:#e1bd81;font-style:normal;letter-spacing:2px;text-transform:uppercase;font-size:12px}
+#ae-medallero-app .am-header .am-intro{color:#d6c5b2}
+#ae-medallero-app .am-stats{
+ background:linear-gradient(90deg,#1c1c30,#33202d,#1c1c30);
+ border-bottom:1px solid rgba(225,181,98,.32);padding:17px 10px;
+}
+#ae-medallero-app .am-stat{border-right:1px solid rgba(225,181,98,.23);padding:0 23px}
+#ae-medallero-app .am-stat:last-child{border-right:0}
+#ae-medallero-app .am-stat b{color:#f0d18b;font-size:31px}
+#ae-medallero-app .am-stat small{color:#cfbda6}
+#ae-medallero-app .am-nav-wrap{background:linear-gradient(180deg,rgba(99,42,67,.18),transparent)}
+#ae-medallero-app .am-nav-head{color:#e3c185;letter-spacing:3px}
+#ae-medallero-app .am-nav button{
+ min-height:86px;border:1px solid rgba(217,177,104,.25);border-radius:5px;
+ background:linear-gradient(135deg,#2a2135,#1a2232);box-shadow:inset 0 1px rgba(255,242,211,.045);
+}
+#ae-medallero-app .am-nav button:hover,#ae-medallero-app .am-nav button.is-active{
+ border-color:#ebc783;background:linear-gradient(135deg,#503047,#24344b);
+ box-shadow:inset 0 0 0 1px rgba(234,194,120,.2),0 5px 16px #0005;
+}
+#ae-medallero-app .am-nav-emblem{width:46px;height:58px;flex-basis:46px;filter:brightness(1.14) drop-shadow(0 3px 5px #0008)}
+#ae-medallero-app .am-nav-text strong{color:#f1d9aa}
+#ae-medallero-app .am-nav-text small{color:#cdb6a5}
+#ae-medallero-app .am-search{border:1px solid rgba(217,177,104,.43);border-radius:5px;background:#111a29}
+#ae-medallero-app .am-search input{color:#eee3d3}
+#ae-medallero-app .am-chapter{border-top:2px solid rgba(215,170,95,.38);padding:20px 0}
+#ae-medallero-app .am-chapter h2{color:#f2d28f!important}
+#ae-medallero-app .am-chapter-insignia{
+ display:block;flex:0 0 67px;width:67px;height:70px;
+ background-position:center;background-repeat:no-repeat;background-size:contain;
+ filter:brightness(1.25) drop-shadow(0 4px 7px #0008);
+}
+#ae-medallero-app .am-cards{gap:14px}
+#ae-medallero-app .am-card{
+ background:linear-gradient(125deg,#262435,#172333);border:1px solid rgba(204,165,102,.28);
+ border-bottom:3px solid rgba(159,95,75,.5);border-left:1px solid rgba(204,165,102,.28);border-radius:6px;
+ min-height:165px;box-shadow:0 5px 16px #0003;transition:transform .18s,border-color .18s,background .18s;
+}
+#ae-medallero-app .am-card:hover{
+ transform:translateY(-3px);background:linear-gradient(125deg,#413047,#1c3146);
+ border-color:#d7b06e;
+}
+#ae-medallero-app .am-medal{
+ border:4px double #dfbd7b;background:radial-gradient(circle at 30% 24%,#f4d9a3,#bd8a4d 62%,#5e3b2b);
+ box-shadow:inset 0 0 10px #2e1c17,0 5px 15px #0007,0 0 0 2px rgba(213,167,89,.19);
+}
+#ae-medallero-app .am-medal img{background:#e7ddc7}
+#ae-medallero-app .am-serial{color:#d6ab76}
+#ae-medallero-app .am-card-name{color:#f1dfb5}
+#ae-medallero-app .am-teaser{color:#c6bdba}
+#ae-medallero-app .am-reward{color:#e7ceaa;border-color:rgba(214,166,97,.38);background:#4c304441}
+#ae-medallero-app .am-pages button{
+ border-radius:5px;border-color:#a98555;background:#2c2137;color:#f0d9b2;
+}
+#ae-medallero-app .am-pages button:hover:not(:disabled){background:#52354e}
+#ae-medallero-app .am-dialog{
+ border:2px solid rgba(228,182,107,.75);border-radius:9px;
+ background:radial-gradient(ellipse at top,rgba(131,67,73,.27),transparent 59%),linear-gradient(135deg,#382636,#162338);
+ box-shadow:0 22px 90px #000d;
+}
+#ae-medallero-app .am-dialog h3{color:#f3daa4!important}
+#ae-medallero-app .am-detail h4{color:#efc681!important}
+#ae-medallero-app .am-footer{border-top:2px double rgba(218,166,96,.36);color:#c7b4a2}
+@media(max-width:920px){
+ #ae-medallero-app .am-header{grid-template-columns:110px minmax(0,1fr) 110px}
+ #ae-medallero-app .am-standard,#ae-medallero-app .am-standard img{height:198px}
+}
+@media(max-width:580px){
+ #ae-medallero-app .am-header{display:block;min-height:260px}
+ #ae-medallero-app .am-standard{display:flex;position:absolute;top:24px;width:66px;height:115px;opacity:.60}
+ #ae-medallero-app .am-standard--left{left:7px}
+ #ae-medallero-app .am-standard--right{right:7px}
+ #ae-medallero-app .am-standard img{height:115px}
+ #ae-medallero-app .am-heading{position:relative;z-index:2}
+ #ae-medallero-app .am-header-emblem{max-width:220px;height:62px}
+ #ae-medallero-app .am-stat{padding:0 12px}
+ #ae-medallero-app .am-chapter-insignia{flex-basis:45px;width:45px;height:55px}
+}
+@media(prefers-reduced-motion:reduce){#ae-medallero-app .am-card{transition:none}}
