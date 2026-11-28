@@ -287,7 +287,7 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&!isStaleMapPin(id,pos)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:20,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:21,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
  let pendingKaleRoadSave=false;
  // Agregar nueva conexión a borradores locales anteriores sin restablecer eliminaciones en v20+.
  if(saved&&Array.isArray(saved.edges)&&(saved.networkVersion||0)<20){
@@ -299,6 +299,36 @@ function start(root){
   }
  }
  if(pendingKaleRoadSave&&(!saved||(saved.networkVersion||0)>=19))saveDraft();
+
+ // Red 21: importar la senda directa de Ithar'iamil a Bahía Hirion y corregir
+ // Essëa–Kale aun cuando el navegador tenga un borrador de red v20.
+ // Respetar los trazados confirmados o redibujados manualmente.
+ let nelsonRoadMigration=false;
+ if(saved&&Array.isArray(saved.edges)&&(saved.networkVersion||0)<21){
+   const latestById=new Map(INITIAL_EDGES.map(e=>[e.id,e]));
+   const localById=new Map(edges.map(e=>[e.id,e]));
+   const coastId='atlas-ithar-iamil-bahia-hirion-costa-oriental';
+   const publishedCoast=latestById.get(coastId);
+   if(publishedCoast&&!localById.has(coastId)){
+     edges.push({...publishedCoast,via:(publishedCoast.via||[]).map(p=>({...p}))});
+     nelsonRoadMigration=true;
+   }
+   const oldLakeRoad=localById.get('base-087'),correctLakeRoad=latestById.get('base-087');
+   const oldCoords=oldLakeRoad&&oldLakeRoad.via;
+   const unchangedPreviousTrace=oldLakeRoad&&oldLakeRoad.status!=='confirmada'&&
+     oldLakeRoad.origin==='red_inicial_2026_11'&&
+     Array.isArray(oldCoords)&&oldCoords.length===5&&
+     Math.abs(oldCoords[0].x-420)<1.5&&Math.abs(oldCoords[0].y-1002.3)<1.5&&
+     Math.abs(oldCoords[4].x-462)<1.5&&Math.abs(oldCoords[4].y-961.9)<1.5;
+   if(unchangedPreviousTrace&&correctLakeRoad){
+     oldLakeRoad.via=(correctLakeRoad.via||[]).map(p=>({...p}));
+     oldLakeRoad.origin=correctLakeRoad.origin;
+     oldLakeRoad.reason=correctLakeRoad.reason;
+     oldLakeRoad.cartographicEvidence=correctLakeRoad.cartographicEvidence;
+     nelsonRoadMigration=true;
+   }
+ }
+ if(nelsonRoadMigration)saveDraft();
  if(saved&&(saved.networkVersion||0)<19){
    try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V19';
      if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
