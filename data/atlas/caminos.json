@@ -8607,5 +8607,148 @@
       "percentil80DistanciaPx": 2
     },
     "reason": "Camino Kale–Ifnolir: asciende al norte de Kale por el borde occidental del bosque y la montaña, cruza el Río Nim y continúa hacia Ifnolir conforme al trazado magenta."
+  },
+  {
+    "id": "atlas-ithar-iamil-bahia-hirion-costa-oriental",
+    "from": "place-092",
+    "to": "place-094",
+    "kind": "trail",
+    "terrain": "forest",
+    "climate": "normal",
+    "via": [
+      {
+        "x": 761,
+        "y": 1206
+      },
+      {
+        "x": 753,
+        "y": 1208
+      },
+      {
+        "x": 746,
+        "y": 1213
+      },
+      {
+        "x": 742,
+        "y": 1221
+      },
+      {
+        "x": 741,
+        "y": 1230
+      },
+      {
+        "x": 736,
+        "y": 1237
+      },
+      {
+        "x": 731,
+        "y": 1244
+      },
+      {
+        "x": 735,
+        "y": 1251
+      },
+      {
+        "x": 737,
+        "y": 1260
+      },
+      {
+        "x": 742,
+        "y": 1267
+      },
+      {
+        "x": 736,
+        "y": 1273
+      },
+      {
+        "x": 730,
+        "y": 1279
+      },
+      {
+        "x": 723,
+        "y": 1286
+      },
+      {
+        "x": 717,
+        "y": 1291
+      },
+      {
+        "x": 714,
+        "y": 1300
+      },
+      {
+        "x": 719,
+        "y": 1307
+      },
+      {
+        "x": 719,
+        "y": 1315
+      },
+      {
+        "x": 716,
+        "y": 1323
+      },
+      {
+        "x": 711,
+        "y": 1331
+      },
+      {
+        "x": 705,
+        "y": 1338
+      },
+      {
+        "x": 699,
+        "y": 1345
+      },
+      {
+        "x": 693,
+        "y": 1352
+      },
+      {
+        "x": 688,
+        "y": 1359
+      },
+      {
+        "x": 685,
+        "y": 1367
+      },
+      {
+        "x": 683,
+        "y": 1372
+      },
+      {
+        "x": 685,
+        "y": 1376
+      },
+      {
+        "x": 682,
+        "y": 1381
+      },
+      {
+        "x": 689,
+        "y": 1385
+      },
+      {
+        "x": 690,
+        "y": 1394
+      }
+    ],
+    "status": "propuesta",
+    "priority": "alta",
+    "origin": "mapa_nelson_magenta_costa_2026_11_28",
+    "reason": "Conexión directa entre Ithar’iamil y Bahía Hirion por el sendero magenta de la costa oriental; sigue la península forestal y evita los hexágonos rojos de mar.",
+    "cartographicEvidence": {
+      "source": "Mapa_Nelson_1.1.png",
+      "sourceSha256": "23f5b979b8855df4e6c460dc566940d7f759b62a512f06dbde2444c679001243",
+      "dimensions": [
+        2048,
+        1571
+      ],
+      "method": "Centros de los puntos magenta visibles, simplificados y ajustados para permanecer en tierra",
+      "pointsIncludingEndpoints": 31,
+      "redWaterIntersections": 0,
+      "verified": "comprobacion_de_color_en_raster",
+      "status": "propuesta_por_validar_en_vista_del_foro"
+    }
   }
 ]
