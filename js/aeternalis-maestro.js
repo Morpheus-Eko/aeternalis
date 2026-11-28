@@ -82,6 +82,13 @@
     guard:function(){var r=doc.getElementById('ae-pestilencias');return !!window.AeternalisCodicePestilencias||!!(r&&r.dataset.aepBoot);},
     start:function(){return withStyles('css/pestilencias.css','ae-pestilencias-css-v1','js/pestilencias/visor.js','ae-pestilencias-js-v1','1.5.0');}
   };
+  // Ambientación: entrada del foro, una sola lámina narrada por Ozma en la taberna.
+  // Se instala solo cuando el mensaje contiene #ae-prologo-ozma. No afecta otros temas.
+  modules.prologoOzma={
+    root:'#ae-prologo-ozma',
+    guard:function(){var r=doc.getElementById('ae-prologo-ozma');return !!window.AeternalisPrologoOzma||!!(r&&r.dataset.aoBoot==='ready');},
+    start:function(){return withStyles('css/prologo-ozma.css','ae-prologo-ozma-css-v10','js/prologo-ozma/visor.js','ae-prologo-ozma-js-v10','1.0.0');}
+  };
   // Tomo de Medicina: atlas anatómico, herbario, pestilencias integradas y calculadoras, solo con #ae-codice-salud.
   // No modifica el viejo módulo de pestilencias ni carga assets en otras páginas.
   modules.salud={
