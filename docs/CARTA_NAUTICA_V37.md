@@ -41,3 +41,23 @@ Estas redes **están reconocidas por el autor**, pero no tienen todavía todos l
 El algoritmo A* fue ejecutado en una malla sintética de 54 hexágonos, seis puertos y 11 corredores locales; ninguna ruta superó sus límites ni perdió continuidad. Esta prueba verifica el funcionamiento aislado del algoritmo, **no equivale a comprobar las 4.851 celdas del mapa real**.
 
 **Pendiente:** pruebas de navegación y revisión visual en la página real de Foroactivo, incluido el recuento dinámico de puertos costeros habilitados y corredores generados, así como el trazado específico de ríos y desembocaduras.
+
+## Actualización v3.8 · Río rojo de Kargast
+
+**Corrección cartográfica ejecutada.** Faro Durgath consta en las localidades originales con identificador `place-014` y coordenadas `(738, 520)`; también se le denomina «Faro Dugarth». Se eliminó el registro duplicado `poi-faro-dugarth`, que erróneamente lo describía como una localización desconocida.
+
+El archivo `data/atlas/naval/cauces-verificados-kargast-v01.json` registra la polilínea verificada sobre el **Mapa Nelson 1.1**:
+
+- `place-305` Rinnos (414,353) → `place-012` Reddas (658,459): río rojo cartografiado con 20 puntos de control;
+- `place-012` Reddas → `place-014` Faro Durgath (738,520): continuación del río rojo con 13 puntos de control;
+- Faro Durgath → mar, mediante una desembocadura que enlaza con el hexágono marítimo (q=54, r=6), aproximadamente en (756,534).
+
+La extracción a nivel de píxel del río rojo se hizo sobre el raster de 2048×1571 facilitado por el autor. Un trayecto pixel a pixel contiene 273 pasos del primer tramo y 109 del segundo; al simplificarse en polilíneas, la continuidad sobre el cauce se revisó sobre el mapa original. El 99,8 % y el 99,6 % de las muestras de los tramos simplificados quedaron dentro del cauce rojo o una tolerancia de 2 píxeles, respectivamente. El acceso final al mar parte desde el marcador territorial del faro.
+
+**Integración:** `js/supermapa-naval.js?v=3.8.0` incorpora los dos tramos a la capa fluvial, con líneas seleccionables en Carta Náutica. El motor encuentra caminos por una red de aristas entre localidades y concatena los dos tramos cuando el viajero selecciona Rinnos–Faro Durgath. Los recorridos se pueden consultar también en sentido inverso.
+
+**Salida marítima:** el faro usa un anclaje especial sobre el hexágono oceánico de la desembocadura; un recorrido desde Rinnos o Reddas hasta otro puerto puede unir navegación fluvial, desembocadura y corredor por mar si existe continuidad oceánica en la malla. No se hace un salto recto a través de tierra. Cuando hay una travesía mixta, el visor diferencia distancia fluvial y marítima: no inventa una duración para el río porque el reglamento no determina una velocidad fluvial.
+
+En `data/atlas/naval/puertos.json` queda el Faro Durgath canónico, junto con Reddas y Rinnos como escalas verificadas. El catálogo total pasa de 57 a **56 registros sin duplicados**.
+
+La ejecución aislada del grafo validó los cinco recorridos dirigidos relevantes: Rinnos→Reddas, Reddas→Faro, Rinnos→Faro, Faro→Rinnos y Faro→Reddas. **Sigue pendiente comprobar la visualización real dentro de Foroactivo**, y verificar en ese navegador los enlaces oceánicos generados dinámicamente.
