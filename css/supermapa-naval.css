@@ -91,6 +91,9 @@
 /* Las rutas se dibujan sobre el agua del Atlas, no en un mapa independiente. */
 #aeternalis-atlas .ae-naval-hex-open{fill:#36bccd;fill-opacity:.14;stroke:#b5e9e7;stroke-opacity:.38;stroke-width:.8px;}
 #aeternalis-atlas .ae-naval-hex-shore{fill:#c3a47e;fill-opacity:.14;stroke:#d6ba8d;stroke-opacity:.42;stroke-width:.8px;}
+/* Agua roja interior y cursos fluviales. Visible en la Carta Náutica, pero NO navegable por defecto. */
+#aeternalis-atlas .ae-naval-hex-inland{fill:#9d6b83;fill-opacity:.12;stroke:#c5a8b0;stroke-opacity:.37;stroke-width:.65px;stroke-dasharray:2 2;}
+
 #aeternalis-atlas .ae-naval-route-network{filter:drop-shadow(0 1px 2px #0009);}
 #aeternalis-atlas .ae-naval-route-selected{filter:drop-shadow(0 1px 4px #000a);}
 #aeternalis-atlas .ae-naval-zone{transition:fill-opacity .18s,stroke-width .18s;}
