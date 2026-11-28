@@ -105,3 +105,33 @@
  #aeternalis-atlas #ae-toggle-naval{font-size:11px;padding:8px 11px;}
 }
 @media(prefers-reduced-motion:reduce){#aeternalis-atlas .ae-naval-panel *{transition:none!important;animation:none!important;}}
+/* Carta Náutica v3.7 · Red de puertos cercanos y conexiones fluviales */
+#aeternalis-atlas .ae-naval-nearby{padding:7px 0 3px}
+#aeternalis-atlas .ae-naval-nearby>p{margin:4px 0 10px;color:#d2c0a6;font:normal 12px/1.55 inherit}
+#aeternalis-atlas .ae-naval-nearby__label{font-style:italic!important;color:#c5a77e!important;border-top:1px solid #cda87850;padding-top:10px;margin-top:14px!important}
+#aeternalis-atlas .ae-naval-nearby__sea,
+#aeternalis-atlas .ae-naval-nearby__river{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+#aeternalis-atlas .ae-naval-nearby button{
+ display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;
+ gap:4px;min-height:55px;padding:8px 10px;
+ color:#e6d3b3;font-family:inherit;font-size:12px;line-height:1.4;text-align:left;
+ background:linear-gradient(145deg,#53402d,#2c2724);border:1px solid #b08e5b70;border-radius:3px;
+ cursor:pointer;overflow-wrap:anywhere;
+}
+#aeternalis-atlas .ae-naval-nearby button:hover,
+#aeternalis-atlas .ae-naval-nearby button:focus-visible{
+ border-color:#e0bc84;background:#654b30;outline-offset:2px;
+}
+#aeternalis-atlas .ae-naval-nearby button small{font-size:10px;color:#baa17e;font-style:italic}
+#aeternalis-atlas .ae-naval-nearby__river button{
+ border-style:dashed;background:linear-gradient(150deg,#454446,#252b30);
+}
+#aeternalis-atlas .ae-naval-fluvial-note{
+ margin:9px 0 0;padding:9px 11px;border-left:3px solid #92b5b0;
+ color:#e4d8c8;background:#2c3635ad;font-family:inherit;font-size:12px;
+ font-style:italic;line-height:1.6;
+}
+@media(max-width:460px){
+ #aeternalis-atlas .ae-naval-nearby__sea,
+ #aeternalis-atlas .ae-naval-nearby__river{grid-template-columns:minmax(0,1fr)}
+}
