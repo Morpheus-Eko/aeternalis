@@ -24,7 +24,7 @@ En \`data/primeros-pasos.json\`, campo \`enlaces\`, sustituir \`null\` por una U
 Se admiten exclusivamente enlaces HTTPS a \`aeternalis.foroactivo.com\`. Mientras el valor sea \`null\`, el manual ofrece la explicación de cada zona y no enlaza a páginas inconclusas.
 
 ## Navegación
-Las cinco etapas son botones internos funcionales y los accesos rápidos abren la orientación apropiada. El usuario puede marcar etapas como revisadas; la marca se almacena **solamente en el navegador local** mediante localStorage y **no equivale a aprobación administrativa**. El registro de color sigue dependiendo de los procedimientos oficiales del foro.
+Las cinco etapas son botones internos funcionales y los accesos rápidos abren la orientación apropiada. La navegación entre las cinco etapas no requiere comprobaciones ni guarda estados. El registro de color sigue dependiendo de los procedimientos oficiales del foro.
 
 ## Arte e identidad
 Interfaz de itinerario de viaje (brújula, mapa, llave, pergamino y linterna), distinta de la Normativa y del Medallero. Solo usa rutas ya existentes bajo \`assets/\`, sin duplicar las imágenes.
@@ -34,3 +34,6 @@ Interfaz de itinerario de viaje (brújula, mapa, llave, pergamino y linterna), d
 ## Edición visual v1.1.0
 
 Se ha integrado una capa de estética sobria: cuatro hitos con ilustraciones originales de la biblioteca, iconos discretos para accesos rápidos, estilo refinado para tarjetas y un separador arcano fino. No hay snippets pendientes: el CSS, los hitos del JSON y el visor JS están conectados y publicados como archivos completos. Todas las URLs de `enlaces` siguen siendo `null` hasta que los apartados estén listos.
+
+## v1.2.0 · Navegación sin revisión
+Se retiraron el botón de marcar como revisada, el contador/barra de progreso y el almacenamiento local de etapas. Las cinco paradas, botones anterior/siguiente, recursos y accesos rápidos siguen funcionando igual.

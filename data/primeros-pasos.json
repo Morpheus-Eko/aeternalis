@@ -1,13 +1,12 @@
 {
   "schema": "aeternalis-primeros-pasos-v1",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "nota": "Guía de acogida basada en Primeros Pasos. No reemplaza ni modifica normas oficiales. Las URLs se mantienen desactivadas hasta publicar las páginas actualizadas.",
   "guia": {
     "titulo": "La senda del aventurero",
     "subtitulo": "Tu primer viaje por Aeternalis",
     "bienvenida": "Todo gran relato comienza con un primer paso. Recorre estas cinco etapas para conocer el mundo, preparar a tu personaje y empezar a escribir su historia.",
-    "despedida": "Que los dioses guíen tu camino.",
-    "advertencia": "Las etapas marcadas como revisadas son una ayuda personal, no una aprobación administrativa."
+    "despedida": "Que los dioses guíen tu camino."
   },
   "assets": {
     "compass": "assets/codex/astrolabios/brujula_vientos_01.webp",

@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.6.0';
+  var RELEASE='1.7.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -107,7 +107,7 @@
   modules.primerosPasos={
     root:'#ae-primeros-pasos',
     guard:function(){var el=doc.getElementById('ae-primeros-pasos');return !!(el&&el.dataset.apBoot&&el.dataset.apBoot!=='error');},
-    start:function(){return withStyles('css/primeros-pasos.css','ae-primeros-pasos-css-v11','js/primeros-pasos/visor.js','ae-primeros-pasos-js-v11','1.1.0');}
+    start:function(){return withStyles('css/primeros-pasos.css','ae-primeros-pasos-css-v12','js/primeros-pasos/visor.js','ae-primeros-pasos-js-v12','1.2.0');}
   };
   modules.normativa={
     root:'#ae-normativa-mount',

@@ -1,4 +1,4 @@
-/* AETERNALIS · LA SENDA DEL AVENTURERO v1.1.0
+/* AETERNALIS · LA SENDA DEL AVENTURERO v1.2.0
    Módulo de acogida independiente. Todo el contenido/las URLs se leen del JSON.
    No altera reglas del foro ni utiliza CSS/JS de otros sistemas.
 */
@@ -8,7 +8,6 @@ var host=document.getElementById('ae-primeros-pasos');
 if(!host||host.dataset.apBoot)return;
 host.dataset.apBoot='loading';
 var BASE='https://morpheus-eko.github.io/aeternalis/';
-var KEY='aeternalis-primeros-pasos-revisado-v1';
 function esc(value){return String(value==null?'':value).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c];});}
 function image(path){return /^assets\/[a-z0-9_\-/]+\.(webp|png|svg)$/i.test(path||'')?BASE+path:'';}
 function linkAllowed(href){
@@ -24,27 +23,19 @@ function boot(db){
  var steps=db.etapas, byId=Object.create(null), resourceStep=Object.create(null);
  db.recursos.forEach(function(r){byId[r.id]=r;});
  steps.forEach(function(step,i){step.recursos.forEach(function(id){if(!byId[id])throw Error('Recurso inexistente '+id);resourceStep[id]=i;});});
- var selected=0,opened=null,reviewed=Object.create(null);
- try{var stored=JSON.parse(localStorage.getItem(KEY)||'[]');if(Array.isArray(stored))stored.forEach(function(id){if(steps.some(function(s){return s.id===id;}))reviewed[id]=true;});}catch(e){}
+ var selected=0,opened=null;
  host.innerHTML='<section class="ap-shell" aria-label="Manual de primeros pasos">'
- +'<header class="ap-hero"><div class="ap-hero__intro"><span class="ap-eyebrow">AETERNALIS · GUÍA DE INICIACIÓN</span><h1>'+esc(db.guia.titulo)+'</h1><p class="ap-subtitle">'+esc(db.guia.subtitulo)+'</p><p class="ap-lead">'+esc(db.guia.bienvenida)+'</p><div class="ap-progress"><span id="ap-progress-label"></span><div class="ap-progress-track" role="progressbar" aria-label="Etapas revisadas" aria-valuemin="0" aria-valuemax="'+steps.length+'" aria-valuenow="0"><span></span></div></div></div>'
+ +'<header class="ap-hero"><div class="ap-hero__intro"><span class="ap-eyebrow">AETERNALIS · GUÍA DE INICIACIÓN</span><h1>'+esc(db.guia.titulo)+'</h1><p class="ap-subtitle">'+esc(db.guia.subtitulo)+'</p><p class="ap-lead">'+esc(db.guia.bienvenida)+'</p></div>'
  +'<div class="ap-hero__illustration" aria-hidden="true"><img class="ap-hero__compass" src="'+image(db.assets.compass)+'" alt=""><img class="ap-hero__map" src="'+image(db.assets.route)+'" alt=""></div></header>'
  +'<div class="ap-milestones" aria-label="Hitos del viaje">'+(db.hitos||[]).map(function(h){return '<div class="ap-milestone"><img src="'+image(h.icono)+'" alt="" loading="lazy"><div><strong>'+esc(h.titulo)+'</strong><small>'+esc(h.subtitulo)+'</small></div></div>';}).join('')+'</div>'
  +'<div class="ap-shortcuts"><p>Consulta rápida</p><div class="ap-shortcuts__actions"></div></div>'
  +'<div class="ap-layout"><nav class="ap-trail" aria-label="Etapas del manual"><div class="ap-trail__heading">Tu itinerario <small>Cinco paradas para comenzar</small></div><div class="ap-trail__steps"></div></nav>'
  +'<main class="ap-current" aria-live="polite"></main></div>'
- +'<footer class="ap-footer"><img src="'+image(db.assets.lantern)+'" alt="" loading="lazy"><p>'+esc(db.guia.despedida)+'</p><small>'+esc(db.guia.advertencia)+'</small></footer></section>';
+ +'<footer class="ap-footer"><img src="'+image(db.assets.lantern)+'" alt="" loading="lazy"><p>'+esc(db.guia.despedida)+'</p></footer></section>';
  var trail=host.querySelector('.ap-trail__steps'),current=host.querySelector('.ap-current'),shortcuts=host.querySelector('.ap-shortcuts__actions');
- function persist(){try{localStorage.setItem(KEY,JSON.stringify(steps.filter(function(s){return !!reviewed[s.id];}).map(function(s){return s.id;})));}catch(e){}}
- function progress(){
-  var n=steps.filter(function(s){return !!reviewed[s.id];}).length;
-  host.querySelector('#ap-progress-label').textContent=n+' de '+steps.length+' etapas marcadas como revisadas';
-  var bar=host.querySelector('.ap-progress-track');bar.setAttribute('aria-valuenow',String(n));
-  bar.querySelector('span').style.width=(100*n/steps.length)+'%';
- }
  function trailItem(s,i){
-  return '<button type="button" class="ap-trail__stop'+(i===selected?' is-active':'')+(reviewed[s.id]?' is-reviewed':'')+'" data-ap-stage="'+i+'" aria-current="'+(i===selected?'step':'false')+'">'
-  +'<span class="ap-trail__number">'+(reviewed[s.id]?'✓':String(i+1).padStart(2,'0'))+'</span>'
+  return '<button type="button" class="ap-trail__stop'+(i===selected?' is-active':'')+'" data-ap-stage="'+i+'" aria-current="'+(i===selected?'step':'false')+'">'
+  +'<span class="ap-trail__number">'+String(i+1).padStart(2,'0')+'</span>'
   +'<span class="ap-trail__label"><strong>'+esc(s.titulo)+'</strong><small>'+esc(s.subtitulo)+'</small></span>'
   +'<img src="'+image(s.insignia)+'" alt="" loading="lazy"></button>';
  }
@@ -70,7 +61,6 @@ function boot(db){
   +'<h3 class="ap-page__resources-heading">Lugares que debes conocer</h3><div class="ap-resources">'+s.recursos.map(function(id){return resourceCard(byId[id]);}).join('')+'</div>'
   +(opened&&byId[opened]?detail(byId[opened]):'')
   +'<div class="ap-actions"><button type="button" class="ap-actions__previous" data-ap-move="-1"'+(i===0?' disabled':'')+'>← Etapa anterior</button>'
-  +'<button type="button" class="ap-actions__review" data-ap-review aria-pressed="'+(!!reviewed[s.id])+'">'+(reviewed[s.id]?'✓ Revisada · desmarcar':'Marcar etapa revisada')+'</button>'
   +'<button type="button" class="ap-actions__next" data-ap-move="1"'+(i===steps.length-1?' disabled':'')+'>Siguiente etapa →</button></div></div></article>';
  }
  function shortcutsHTML(){
@@ -80,7 +70,7 @@ function boot(db){
   opts=opts||{};
   trail.innerHTML=steps.map(trailItem).join('');
   current.innerHTML=stageCard(steps[selected],selected);
-  shortcuts.innerHTML=shortcutsHTML();progress();
+  shortcuts.innerHTML=shortcutsHTML();
   if(opts.scroll){var el=host.querySelector('.ap-current');if(el&&el.scrollIntoView){var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;el.scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'});}}
  }
  function activateResource(id){
@@ -94,11 +84,10 @@ function boot(db){
   else if(btn.hasAttribute('data-ap-resource')){var id=btn.getAttribute('data-ap-resource');opened=(opened===id?null:id);show({scroll:false});if(opened){var target=host.querySelector('.ap-detail');if(target)target.scrollIntoView({behavior:'smooth',block:'nearest'});}}
   else if(btn.hasAttribute('data-ap-close')){opened=null;show({scroll:false});}
   else if(btn.hasAttribute('data-ap-move')){var next=selected+Number(btn.getAttribute('data-ap-move'));if(next>=0&&next<steps.length){selected=next;opened=null;show({scroll:true});}}
-  else if(btn.hasAttribute('data-ap-review')){var sid=steps[selected].id;reviewed[sid]=!reviewed[sid];persist();show({scroll:false});}
  });
  show();host.dataset.apBoot='ready';
 }
-fetch(BASE+'data/primeros-pasos.json?v=1.1.0',{cache:'no-cache'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(boot).catch(function(e){
+fetch(BASE+'data/primeros-pasos.json?v=1.2.0',{cache:'no-cache'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(boot).catch(function(e){
  host.dataset.apBoot='error';host.innerHTML='<p>No pudo cargarse la guía de iniciación. <a href="'+BASE+'primeros-pasos-preview.html">Abrir la vista alternativa</a>.</p>';console.error('[Aeternalis/Primeros Pasos]',e);
 });
 })();
