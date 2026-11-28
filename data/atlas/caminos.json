@@ -4001,64 +4001,6 @@
     }
   },
   {
-    "id": "base-087",
-    "to": "place-084",
-    "kind": "road",
-    "terrain": "normal",
-    "climate": "normal",
-    "via": [
-      {
-        "x": 418,
-        "y": 1003
-      },
-      {
-        "x": 432,
-        "y": 989
-      },
-      {
-        "x": 436,
-        "y": 979
-      },
-      {
-        "x": 436,
-        "y": 963
-      },
-      {
-        "x": 439,
-        "y": 951
-      },
-      {
-        "x": 445,
-        "y": 944
-      },
-      {
-        "x": 453,
-        "y": 939
-      },
-      {
-        "x": 460,
-        "y": 940
-      }
-    ],
-    "status": "propuesta",
-    "origin": "mapa_nelson_1_1_agua_roja_2026_11_28",
-    "reason": "Se corrige la carretera Essëa–Kale: el trazado antiguo atravesaba el lago rojo al sur de Kale. Nuevo recorrido por su margen occidental y septentrional, conservando los puntos de entrada y salida en tierra.",
-    "priority": "normal",
-    "from": "place-083",
-    "cartographicEvidence": {
-      "source": "Mapa_Nelson_1.1.png",
-      "sourceSha256": "23f5b979b8855df4e6c460dc566940d7f759b62a512f06dbde2444c679001243",
-      "resolution": [
-        2048,
-        1571
-      ],
-      "method": "Desvío sobre tierra, inspección de la orilla occidental del lago y muestreo subpíxel de los segmentos",
-      "previousWaterCrossing": "Dos tramos penetraban el lago y cruzaban decenas de píxeles de agua roja",
-      "newWaterCrossingPixels": 0,
-      "status": "trazado_corregido_pendiente_validacion_del_autor"
-    }
-  },
-  {
     "id": "base-088",
     "to": "place-314",
     "kind": "road",
