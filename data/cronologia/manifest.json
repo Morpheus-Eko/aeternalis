@@ -1,7 +1,7 @@
 {
   "schema": "aeternalis-cronologia-v3",
-  "version": "3.2.0",
-  "description": "Cinco eras de lectura inmersiva. Génesis a Tercera Era bajo el sello de Aen-Vahr, con descubrimiento progresivo de pasajes; Cuarta Era legible.",
+  "version": "3.4.0",
+  "description": "Cinco eras de lectura inmersiva. Génesis a Tercera Era bajo el sello de Aen-Vahr, con descubrimiento progresivo de pasajes; Era actual legible.",
   "sourcePeriodization": "Indice publico: Genesis, Primera, Segunda, Tercera, Cuarta. El manuscrito extenso maneja una numeracion previa que incluye Quinta Era; consultar notas editoriales.",
   "separadores": [
     "https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp",
@@ -76,7 +76,7 @@
     },
     {
       "id": "cuarta",
-      "nombre": "Cuarta Era",
+      "nombre": "Era actual",
       "numero": "V",
       "subtitulo": "El curso del destino",
       "color": "#a9cab4",

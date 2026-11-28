@@ -65,3 +65,8 @@ Génesis, Primera, Segunda y Tercera Era aparecen en el alfabeto ficticio Aen-Va
 
 ## v3.3 · Interfaz cifrada completa
 Los cuatro capítulos sellados muestran glifos Aen-Vahr en todas las etiquetas visibles de sus tarjetas: número de capítulo, nombre de era, subtítulo y distintivo inferior. El visor usa la misma escritura para cabecera, prólogo, rótulos del lector y navegación entre eras. La Cuarta Era continúa en castellano y las desbloqueadas completamente vuelven a mostrar su título original. La configuración de desbloqueo y los relatos originales no se modifican.
+
+
+## v3.4 · Denominación de la era vigente
+
+El quinto capítulo de la cronología se presenta al público como **Era actual**, sustituyendo **Cuarta Era** en el índice, lector, navegación y referencias temporales de su relato. Se preserva el identificador interno `cuarta` para mantener compatibilidad con las rutas, los fragmentos y los sistemas existentes.

@@ -1,4 +1,4 @@
-/* AETERNALIS — Crónicas de las Eras v3.3.0
+/* AETERNALIS — Crónicas de las Eras v3.4.0
  * Motor aislado del Supermapa, Bestiario y Códice de Razas.
  * La narración y los recursos gráficos viven en data/cronologia/manifest.json y data/cronologia/eras/.
  */
@@ -428,14 +428,14 @@
     if (ROOT.children.length) return; // No ocultar el índice antiguo si existiera.
     var p=node('p','aec-fallback','La cronología está temporalmente disponible en su versión anterior.');
     ROOT.appendChild(p);
-    [['Cuarta Era','#97']].forEach(function(e){
+    [['Era actual','#97']].forEach(function(e){
       var a=node('a','aec-fallback-link',e[0]);a.href='/t31-02-cronologia'+e[1];ROOT.appendChild(a);
     });
   }
 
 
   Promise.all([
-    fetch(BASE+'data/cronologia/manifest.json?v=3.2.0',{mode:'cors',credentials:'omit',cache:'no-cache'})
+    fetch(BASE+'data/cronologia/manifest.json?v=3.4.0',{mode:'cors',credentials:'omit',cache:'no-cache'})
       .then(function(res){if(!res.ok)throw Error('HTTP '+res.status);return res.json();}),
     loadSeals()
   ])
@@ -444,7 +444,7 @@
       if(!data||!Array.isArray(data.eras)||data.eras.length!==5)throw Error('Manifiesto incompleto');
       state.manifest=data;state.seals=result[1];
       buildIndex(data);
-      window.AeternalisCronologiaV3={open:open,close:close,version:'3.3.0'};
+      window.AeternalisCronologiaV3={open:open,close:close,version:'3.4.0'};
     })
     .catch(fallback);
 })();

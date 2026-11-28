@@ -908,7 +908,7 @@ html.aecm-open { overflow: hidden !important; }
 
 
 /* Cronología v3.3: todas las etiquetas de las eras selladas en Aen-Vahr.
-   La Cuarta Era mantiene su tipografía y rótulos habituales. */
+   La Era actual mantiene su tipografía y rótulos habituales. */
 #aec-cronologia .aec-card--sealed .aec-ancient-ui,
 #aec-chronicle-overlay .aecm-ancient-ui{
  font-family:Georgia,'Segoe UI Symbol','Noto Sans Runic',serif!important;

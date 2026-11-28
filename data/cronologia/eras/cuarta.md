@@ -1,6 +1,6 @@
 # Cuando despertó la humanidad
 
-El **año cero de la Cuarta Era** quedó asociado al nacimiento de los **Humanos**, atribuido por la tradición religiosa de Avalon a la voluntad conjunta de **Anue, Nyeru, Rhoroe e Istak**. Su capacidad para multiplicarse, levantar asentamientos y adaptarse a condiciones cambiantes sorprendió a pueblos que llevaban milenios sobre Aeternalis. Donde una ciudad antigua tardaba siglos en crecer, las nuevas aldeas humanas parecían brotar en unas pocas generaciones.
+El **año cero de la Era actual** quedó asociado al nacimiento de los **Humanos**, atribuido por la tradición religiosa de Avalon a la voluntad conjunta de **Anue, Nyeru, Rhoroe e Istak**. Su capacidad para multiplicarse, levantar asentamientos y adaptarse a condiciones cambiantes sorprendió a pueblos que llevaban milenios sobre Aeternalis. Donde una ciudad antigua tardaba siglos en crecer, las nuevas aldeas humanas parecían brotar en unas pocas generaciones.
 
 A orillas del **río Hylain** se fundó en el año 2 **Fortaleza del Alba**, primer núcleo emblemático de Avalon. Después surgieron **Kider** y **Nyde**, y en el año 7 los humanos tuvieron su primer encuentro con los **Altos Elfos**. **Querëndir Nhaellya**, soberano de Isilme, ofreció su amistad a **Fendrell de la Casa Lorrell** y enseñó a los recién llegados arquitectura, escritura y artes, reservándose sin embargo sus conocimientos de armas y guerra. La tutela que parecía generosa comenzó pronto a despertar recelos.
 
@@ -58,6 +58,6 @@ En el **934**, los ejércitos de **Kargast** y **Bergheim** llegaron ante Elyssf
 
 En el **935**, agotados por la guerra y la escasez de alimentos, los reinos de **Kargast**, **Bergheim** y **Avalon** se unieron bajo la hegemonía humana en el **Sacro Imperio de Arcadia**. Eldoria subsistió, debilitada y resentida por la pérdida de territorios. Las tensiones continuaron a pesar de las victorias militares.
 
-En el **936**, la emperatriz **Alatariel** negoció a espaldas de Querëndir una tregua con el príncipe **Eirian**, devolviendo a **Alrick**, ya emperador de Arcadia. Tres años después, en el **939 de la Cuarta Era**, el mundo vive una paz frágil, mantenida por tratados, desconfianza y la memoria de incontables muertos.
+En el **936**, la emperatriz **Alatariel** negoció a espaldas de Querëndir una tregua con el príncipe **Eirian**, devolviendo a **Alrick**, ya emperador de Arcadia. Tres años después, en el **939 de la Era actual**, el mundo vive una paz frágil, mantenida por tratados, desconfianza y la memoria de incontables muertos.
 
 Es ese mundo el que reciben los personajes de **Aeternalis**: imperios que todavía se observan con temor, reinos del bosque obligados a defender su autonomía, rutas marcadas por hambre y comercio, y una isla Yūgen que sobrevivió al exilio pero no ha terminado de aprender a vivir sin guerra entre sus tres clanes.
