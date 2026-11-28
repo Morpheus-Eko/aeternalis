@@ -1,7 +1,7 @@
 {
   "schema": "aeternalis-rutas-agua-v1",
-  "revision": "2026-11-28-rutas-legacy-con-recálculo-nelson11",
-  "status": "rutas_fuente_preliminares_recalculadas_dinamicamente_con_malla_nelson_1_1",
+  "revision": "2026-11-28-legado-de-rutas-para-carta-v37",
+  "status": "archivo_de_corredores_historicos_no_utilizados_para_la_red_visible",
   "sourceMapSha256": "79d8d66d34951f531ddc98bdb04f2e8d9efbfdffb395da86dee4fd5bb0cbc71d",
   "routes": [
     {
@@ -5596,13 +5596,14 @@
     }
   ],
   "seaOnlyEnforced": true,
-  "notes": "Los 111 tramos originales solo sirven como pares de puertos candidatos; el visor naval 3.5 recalcula sus trayectorias sobre la máscara roja Nelson 1.1, descarta los incomunicados y no asume que los ríos y lagos interiores sean navegables.",
+  "notes": "Las 111 rutas históricas ya NO se dibujan ni se usan como candidatos obligatorios de la red visible: algunas rodeaban grandes masas de tierra. Carta Náutica v3.7 genera conexiones cortas entre puertos marítimos cercanos, con recorrido A* validado por la máscara roja. Los destinos fluviales aparecen por separado, sin geometría inventada.",
   "runtimeCorrection": {
     "source": "data/atlas/naval/agua-roja-nelson-1-1.json",
+    "policy": "data/atlas/naval/politica-corredores-cercanos-v01.json",
+    "fluvial": "data/atlas/naval/red-fluvial-declarada-v01.json",
     "motor": "js/supermapa-naval.js",
-    "revision": "3.5.0",
-    "method": "Al abrir Carta Náutica, cada corredor se vuelve a resolver por A* sobre hexágonos del mar rojo con aristas verificadas; los waypoints antiguos no se dibujan directamente.",
-    "excludes": "Celdas de tierra, ríos, lagos y aguas interiores o de navegabilidad no verificada.",
-    "checked": "El antiguo arreglo routes contiene propuestas de destino; no pretende representar geometría ya certificada en la nueva imagen."
+    "version": "3.7.0",
+    "oldRoutes": "Retenidas como archivo de referencia, no utilizadas para generar la malla visible",
+    "validation": "Sólo corredores entre escalas cercanas que sobrevivan al recorrido A* por mar rojo, sin cruzar tierra, con rodeo máximo limitado."
   }
 }
