@@ -1,0 +1,20 @@
+{
+  "schema": "aeternalis-politica-corredores-cercanos-v1",
+  "version": "1.0.0",
+  "revision": "2026-11-28",
+  "policy": "prioridad_a_puertos_cercanos",
+  "sourceWater": "data/atlas/naval/agua-roja-nelson-1-1.json",
+  "parameters": {
+    "nearestCandidatesPerPort": 8,
+    "maxStraightHexDistance": 32,
+    "preferredConnectionsPerPort": 3,
+    "maximumConnectionsPerPort": 5,
+    "maxDirectRouteHexes": 50,
+    "maxDetourRatio": 1.75,
+    "maxDetourSlackHexes": 8,
+    "batchSize": 3,
+    "networkMaxEdges": 140
+  },
+  "note": "Conexiones marítimas locales derivadas de puertos reales del Atlas. La geometría se calcula con A* sobre hexágonos marinos y aristas verificadas. Se rechazan enlaces cuya travesía deba rodear excesivamente costas o atravesar tierra, ríos o lagos sin habilitar. Las grandes travesías se consultan por origen/destino sin dibujar todos los pares en la red regional.",
+  "fluvial": "Las cuencas confirmadas en red-fluvial-declarada-v01.json permanecen en el selector, pero no se convierten en líneas rectas ni trayectos marítimos; esperan verificación del cauce."
+}
