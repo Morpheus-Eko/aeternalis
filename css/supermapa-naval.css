@@ -107,7 +107,7 @@
 @media(prefers-reduced-motion:reduce){#aeternalis-atlas .ae-naval-panel *{transition:none!important;animation:none!important;}}
 /* Carta Náutica v3.7 · Red de puertos cercanos y conexiones fluviales */
 #aeternalis-atlas .ae-naval-nearby{padding:7px 0 3px}
-#aeternalis-atlas .ae-naval-nearby>p{margin:4px 0 10px;color:#d2c0a6;font:normal 12px/1.55 inherit}
+#aeternalis-atlas .ae-naval-nearby>p{margin:4px 0 10px;color:#d2c0a6;font-family:inherit;font-size:12px;font-weight:400;line-height:1.55}
 #aeternalis-atlas .ae-naval-nearby__label{font-style:italic!important;color:#c5a77e!important;border-top:1px solid #cda87850;padding-top:10px;margin-top:14px!important}
 #aeternalis-atlas .ae-naval-nearby__sea,
 #aeternalis-atlas .ae-naval-nearby__river{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
