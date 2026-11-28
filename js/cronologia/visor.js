@@ -1,4 +1,4 @@
-/* AETERNALIS — Crónicas de las Eras v3.0.0
+/* AETERNALIS — Crónicas de las Eras v3.3.0
  * Motor aislado del Supermapa, Bestiario y Códice de Razas.
  * La narración y los recursos gráficos viven en data/cronologia/manifest.json y data/cronologia/eras/.
  */
@@ -52,6 +52,31 @@
     }
     return terms.join(' ᛫ ');
   }
+
+  // Una interfaz cifrada para las cuatro eras selladas. Los glifos no son
+  // traducciones; se generan de forma determinista para mantener consistencia.
+  function ancientUi(era,kind){
+    var table={
+      chapter:[401,1],title:[402,2],subtitle:[403,3],
+      badge:[404,2],eyebrow:[405,2],caption:[406,2],
+      folio:[407,2],loading:[408,3],end:[409,2]
+    };
+    var spec=table[kind]||table.title;
+    return inscription(era.id,'ui-'+kind,spec[0],spec[1]);
+  }
+  function displayEra(era,kind){
+    if(stillSealed(era))return ancientUi(era,kind);
+    if(kind==='chapter')return 'CAPÍTULO '+era.numero;
+    if(kind==='title')return era.nombre;
+    if(kind==='subtitle')return era.subtitulo;
+    if(kind==='eyebrow')return 'LOS ANALES DE AETERNALIS';
+    if(kind==='caption')return 'CRÓNICA ILUSTRADA';
+    if(kind==='folio')return 'FOLIO '+String((state.manifest.eras||[]).indexOf(era)+1).padStart(2,'0')+' / 05';
+    if(kind==='loading')return 'Abriendo los anales de '+era.nombre+'…';
+    if(kind==='end')return 'Fin del capítulo · '+era.nombre;
+    return era.nombre;
+  }
+
   function unreadablePassage(id,index){
     var body=[];
     for(var p=0;p<3;p++){
@@ -73,9 +98,15 @@
     var banner=modal.querySelector('.aecm-seal-status'),s=sealFor(era);
     modal.classList.toggle('aecm-is-sealed',!!(s&&s.revelados.length<s.total));
     banner.hidden=!s;
-    if(s)banner.textContent=(s.revelados.length<s.total?
-      '⟡ AEN-VAHR · ESCRITURA SIN DESCIFRAR · ':
-      '✧ MEMORIA RECUPERADA · ')+s.revelados.length+' de '+s.total+' pasajes descifrados';
+    if(s){
+      var sealed=s.revelados.length<s.total;
+      banner.textContent=sealed?ancientUi(era,'badge')+' ⟡ '+ancientUi(era,'subtitle'):
+        '✧ MEMORIA RECUPERADA · '+s.total+' pasajes descifrados';
+      banner.setAttribute('aria-label',sealed?
+        'Manuscrito parcialmente o totalmente indescifrado: '+s.revelados.length+' de '+s.total+' pasajes conocidos':
+        'Memoria recuperada: '+s.total+' pasajes descifrados');
+      banner.classList.toggle('aecm-ancient-ui',sealed);
+    }
   }
   async function loadSeals(){
     try{
@@ -115,7 +146,7 @@
       if(cryptic)card.classList.add('aec-card--sealed');
       card.dataset.aecEra = era.id;
       card.setAttribute('aria-haspopup', 'dialog');
-      card.setAttribute('aria-label', (cryptic?'Abrir escritura antigua de ':'Abrir la crónica de ')+era.nombre);
+      card.setAttribute('aria-label', cryptic?'Abrir manuscrito sellado '+String(idx+1):'Abrir la crónica de '+era.nombre);
       card.style.setProperty('--aec-accent', era.color);
       var img = node('img', 'aec-card-image'); img.alt = ''; img.src = era.fondo; img.loading = idx < 3 ? 'eager' : 'lazy'; img.decoding = 'async';
       card.appendChild(img);
@@ -124,10 +155,14 @@
       var emblem = node('img'); emblem.src = era.icono; emblem.alt = ''; emblem.loading = 'lazy'; emblem.decoding = 'async';
       badge.appendChild(emblem);
       var label = node('span', 'aec-card-text');
-      label.appendChild(node('span', 'aec-index', 'Capítulo ' + era.numero));
-      label.appendChild(node('strong', 'aec-card-title', era.nombre));
-      label.appendChild(node('span', 'aec-subtitle', cryptic?'⟡ Manuscrito anterior a la memoria':era.subtitulo));
-      if(cryptic)label.appendChild(node('small','aec-seal-chip','SIN DESCIFRAR'));
+      label.appendChild(node('span', 'aec-index'+(cryptic?' aec-ancient-ui':''), displayEra(era,'chapter')));
+      label.appendChild(node('strong', 'aec-card-title'+(cryptic?' aec-ancient-ui':''), displayEra(era,'title')));
+      label.appendChild(node('span', 'aec-subtitle'+(cryptic?' aec-ancient-ui':''), displayEra(era,'subtitle')));
+      if(cryptic){
+        var chip=node('small','aec-seal-chip aec-ancient-ui', ancientUi(era,'badge'));
+        chip.setAttribute('aria-label','Manuscrito sin descifrar');
+        label.appendChild(chip);
+      }
       info.appendChild(badge); info.appendChild(label); card.appendChild(info); nav.appendChild(card);
     });
     ROOT.appendChild(nav);
@@ -153,7 +188,7 @@
         '<img class="aecm-hero-image" alt="" />' +
         '<div class="aecm-hero-shade"></div>' +
         '<div class="aecm-hero-text">' +
-          '<div class="aecm-eyebrow">LOS ANALES DE AETERNALIS · <span class="aecm-cap"></span></div>' +
+          '<div class="aecm-eyebrow"><span class="aecm-library-label">LOS ANALES DE AETERNALIS</span> · <span class="aecm-cap"></span></div>' +
           '<div class="aecm-heading"><h2 id="aecm-dialog-title"></h2><img class="aecm-hero-emblem" alt="" /></div>' +
           '<p class="aecm-hero-subtitle"></p>' +
         '</div>' +
@@ -291,7 +326,7 @@
     paragraph();
     var end = node('div','aecm-endmark');
     end.appendChild(node('span','','✦'));
-    end.appendChild(node('p','','Fin del capítulo · '+era.nombre));
+    end.appendChild(node('p',stillSealed(era)?'aecm-ancient-ui':'',displayEra(era,'end')));
     container.appendChild(end);
     state.modal.querySelector('.aecm-scroll').scrollTop = 0;
     updateProgress();
@@ -335,20 +370,42 @@
     modal.style.setProperty('--aecm-accent',era.color);
     var hero=modal.querySelector('.aecm-hero-image'); hero.style.visibility='visible'; hero.src=era.fondo;
     var emblem=modal.querySelector('.aecm-hero-emblem'); emblem.style.visibility='visible'; emblem.src=era.icono;
-    modal.querySelector('.aecm-cap').textContent='CAPÍTULO '+era.numero;
-    modal.querySelector('#aecm-dialog-title').textContent=era.nombre;
-    modal.querySelector('.aecm-hero-subtitle').textContent=stillSealed(era)?'Los signos de Aen-Vahr han sobrevivido a los nombres de quienes los escribieron.':era.opening;
+    var encrypted=stillSealed(era);
+    var library=modal.querySelector('.aecm-library-label');
+    var cap=modal.querySelector('.aecm-cap');
+    var title=modal.querySelector('#aecm-dialog-title');
+    var subtitle=modal.querySelector('.aecm-hero-subtitle');
+    library.textContent=displayEra(era,'eyebrow');
+    cap.textContent=displayEra(era,'chapter');
+    title.textContent=displayEra(era,'title');
+    subtitle.textContent=encrypted?displayEra(era,'subtitle'):era.opening;
+    [library,cap,title,subtitle].forEach(function(el){el.classList.toggle('aecm-ancient-ui',encrypted);});
     sealStatus(era,modal);
     modal.querySelector('.aecm-rune').src=era.runaUrl;
     modal.querySelector('.aecm-watermark').src=state.manifest.sello;
-    modal.querySelector('.aecm-folio').textContent='FOLIO '+String(index+1).padStart(2,'0')+' / 05';
-    modal.querySelector('.aecm-prev span').textContent=list[(index+list.length-1)%list.length].nombre;
-    modal.querySelector('.aecm-next span').textContent=list[(index+1)%list.length].nombre;
+    var folio=modal.querySelector('.aecm-folio');
+    folio.textContent=displayEra(era,'folio');
+    folio.classList.toggle('aecm-ancient-ui',encrypted);
+    var previousEra=list[(index+list.length-1)%list.length];
+    var followingEra=list[(index+1)%list.length];
+    var previousButton=modal.querySelector('.aecm-prev');
+    var followingButton=modal.querySelector('.aecm-next');
+    var previousText=previousButton.querySelector('span');
+    var followingText=followingButton.querySelector('span');
+    previousText.textContent=displayEra(previousEra,'title');
+    followingText.textContent=displayEra(followingEra,'title');
+    previousText.classList.toggle('aecm-ancient-ui',stillSealed(previousEra));
+    followingText.classList.toggle('aecm-ancient-ui',stillSealed(followingEra));
+    previousButton.setAttribute('aria-label',stillSealed(previousEra)?'Abrir era antigua sellada anterior':'Abrir era anterior');
+    followingButton.setAttribute('aria-label',stillSealed(followingEra)?'Abrir era antigua sellada siguiente':'Abrir era siguiente');
+    var readingLabel=modal.querySelector('.aecm-reading-caption');
+    readingLabel.textContent=displayEra(era,'caption');
+    readingLabel.classList.toggle('aecm-ancient-ui',encrypted);
     modal.querySelector('.aecm-scroll').scrollTop=0;
     modal.querySelector('.aecm-toc').replaceChildren();
-    modal.querySelector('.aecm-prose').replaceChildren(node('p','aecm-loading','Abriendo los anales de '+era.nombre+'…'));
+    modal.querySelector('.aecm-prose').replaceChildren(node('p','aecm-loading'+(encrypted?' aecm-ancient-ui':''),displayEra(era,'loading')));
     modal.querySelector('.aecm-close').focus();
-    document.title=era.nombre+' · Crónicas de Aeternalis';
+    document.title=encrypted?displayEra(era,'title'):era.nombre+' · Crónicas de Aeternalis';
     try {
       var seal=sealFor(era);
       var md=(seal&&seal.revelados.length===0)?null:await getText(era);
@@ -387,7 +444,7 @@
       if(!data||!Array.isArray(data.eras)||data.eras.length!==5)throw Error('Manifiesto incompleto');
       state.manifest=data;state.seals=result[1];
       buildIndex(data);
-      window.AeternalisCronologiaV3={open:open,close:close,version:'3.2.0'};
+      window.AeternalisCronologiaV3={open:open,close:close,version:'3.3.0'};
     })
     .catch(fallback);
 })();

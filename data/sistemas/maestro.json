@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-maestro-v1",
-  "release": "1.8.0",
+  "release": "1.9.0",
   "description": "Activar o desactivar módulos cambiando solo este JSON. El maestro detecta los contenedores HTML y descarga exclusivamente los scripts necesarios para cada publicación.",
   "modules": {
     "atlas": true,
@@ -38,6 +38,7 @@
     "primerosPasos: guía interactiva de cinco etapas y accesos rápidos; enlaces desactivados hasta completar páginas. #ae-primeros-pasos.",
     "Primeros Pasos v1.1: iconos en consultas rápidas, cuatro hitos visuales y estilo sobrio de bitácora; sin activar enlaces.",
     "Primeros Pasos v1.2: sin marca de revisión, barra de progreso ni almacenamiento local; navegación interna permanece.",
-    "Cronología v3.2: Génesis a Tercera Era en Aen-Vahr, pasajes liberables en data/cronologia/desbloqueos.json; Cuarta Era legible."
+    "Cronología v3.2: Génesis a Tercera Era en Aen-Vahr, pasajes liberables en data/cronologia/desbloqueos.json; Cuarta Era legible.",
+    "Cronología v3.3: todos los rótulos de Génesis–Tercera Era en Aen-Vahr; la Cuarta Era continúa legible. Versión de caché renovada."
   ]
 }

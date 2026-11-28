@@ -61,3 +61,7 @@ Los emblemas, cantoneras y sellos añadidos son *elementos de interfaz*, no decl
 Génesis, Primera, Segunda y Tercera Era aparecen en el alfabeto ficticio Aen-Vahr. La Cuarta Era permanece legible. Para revelar pasajes, editar data/cronologia/desbloqueos.json: la clave `revelados` es una lista de índices, con 0 para el prólogo y 1 en adelante para los apartados ## del manuscrito original. Rangos: génesis 0–5, primera 0–6, segunda 0–6, tercera 0–8. Todos empiezan cerrados, sin botones de autodesbloqueo. El cliente no solicita los manuscritos sellados cuando ningún pasaje está liberado. La escritura Aen-Vahr es ambiental y no constituye una traducción literal ni agrega canon lingüístico.
 
 **Nota de seguridad narrativa:** los relatos originales markdown permanecen públicos en GitHub, incluidos en el historial. La ocultación en el foro es visual, no criptográfica. Los futuros secretos que deban mantenerse realmente privados deben conservarse fuera del repositorio público y publicarse solo a medida que se revelen.
+
+
+## v3.3 · Interfaz cifrada completa
+Los cuatro capítulos sellados muestran glifos Aen-Vahr en todas las etiquetas visibles de sus tarjetas: número de capítulo, nombre de era, subtítulo y distintivo inferior. El visor usa la misma escritura para cabecera, prólogo, rótulos del lector y navegación entre eras. La Cuarta Era continúa en castellano y las desbloqueadas completamente vuelven a mostrar su título original. La configuración de desbloqueo y los relatos originales no se modifican.

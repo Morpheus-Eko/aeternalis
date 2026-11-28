@@ -1,10 +1,10 @@
-/* Aeternalis — Cronología v3.2.0. Código pequeño para Foroactivo.
+/* Aeternalis — Cronología v3.3.0. Código pequeño para Foroactivo.
  * Desactiva el antiguo JS de Cronología v2 antes de activar éste. */
 (function () {
   'use strict';
   var ROOT_ID = 'aec-cronologia';
   var BASE = 'https://morpheus-eko.github.io/aeternalis/';
-  var VERSION='3.2.0';
+  var VERSION='3.3.0';
   function install() {
     if (!document.getElementById(ROOT_ID)) return;
     if (!document.getElementById('aec-cronologia-v3-css')) {

@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.8.0';
+  var RELEASE='1.9.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -117,7 +117,7 @@
   modules.cronologia={
     root:'#aec-cronologia',
     guard:function(){return !!window.AeternalisCronologiaV3||!!doc.getElementById('aec-cronologia-v3-js');},
-    start:function(){return withStyles('css/cronologia-v3.css','aec-cronologia-v32-css','js/cronologia/visor.js','aec-cronologia-v32-js','3.2.0');}
+    start:function(){return withStyles('css/cronologia-v3.css','aec-cronologia-v33-css','js/cronologia/visor.js','aec-cronologia-v33-js','3.3.0');}
   };
   modules.razas={
     root:'#ae-races-codex',
