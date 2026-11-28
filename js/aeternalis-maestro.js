@@ -8,7 +8,7 @@
   'use strict';
   if(window.AeternalisMaestro && window.AeternalisMaestro.version)return;
   var BASE='https://morpheus-eko.github.io/aeternalis/';
-  var RELEASE='1.2.0';
+  var RELEASE='1.3.0';
   var CONFIG_URL=BASE+'data/sistemas/maestro.json';
   var modules=Object.create(null);
   var statuses=Object.create(null);
@@ -100,7 +100,7 @@
   modules.normativa={
     root:'#ae-normativa-mount',
     guard:function(){var el=doc.getElementById('ae-normativa-mount');return !!(el&&el.dataset.aenBoot&&el.dataset.aenBoot!=='error');},
-    start:function(){return withStyles('css/normativa.css','ae-normativa-css-v1','js/normativa/visor.js','ae-normativa-js-v1','1.0.0');}
+    start:function(){return withStyles('css/normativa.css','ae-normativa-css-v11','js/normativa/visor.js','ae-normativa-js-v11','1.1.0');}
   };
   modules.cronologia={
     root:'#aec-cronologia',

@@ -1,4 +1,10 @@
-/* Aeternalis · Normativa 1.0.0 · estilos autónomos */
+/*
+ * AETERNALIS - NORMATIVA / ESTILOS AUTÓNOMOS PARA FOROACTIVO
+ * Todas las clases quedan limitadas al contenedor .ae-normativa.
+ * Los bustos y ornamentos reales se cargan desde la biblioteca Codex
+ * del repositorio Morpheus-Eko/aeternalis, usando CDN de imágenes.
+ * No requiere JavaScript ni insertar estilos dentro del mensaje.
+ */
 .ae-normativa{
   --ae-gold:#c3a77c;
   --ae-gold-soft:#e2c99d;
@@ -9,15 +15,15 @@
   --ae-bg-2:#181a1a;
   --ae-panel:rgba(255,250,227,.045);
   --ae-panel-2:rgba(255,250,227,.015);
-  --ae-bust-left:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/esculturas/busto_guerrero_humano_01.webp');
-  --ae-bust-right:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/esculturas/busto_arquera_alto_elfo_01.webp');
-  --ae-sigil:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/cabeceras/libro_velas_01.webp');
-  --ae-crest-1:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/armamento/escudos/escudo_heraldico_leon_coronado_01.webp');
-  --ae-crest-2:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/emblemas/arbol_ancestral_01.webp');
-  --ae-crest-3:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/separadores/reloj_arena_01.webp');
-  --ae-crest-4:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/separadores/pluma_dorada_01.webp');
-  --ae-seal-1:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/sellos/lacre_dorado_arbol_01.webp');
-  --ae-seal-2:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/sellos/lacre_rojo_fenix_01.webp');
+  --ae-bust-left:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_humano_02.webp");
+  --ae-bust-right:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_arquera_alto_elfo_01.webp");
+  --ae-sigil:url("https://morpheus-eko.github.io/aeternalis/assets/codex/cabeceras/libro_velas_01.webp");
+  --ae-crest-1:url("https://morpheus-eko.github.io/aeternalis/assets/codex/armamento/escudos/escudo_heraldico_leon_coronado_01.webp");
+  --ae-crest-2:url("https://morpheus-eko.github.io/aeternalis/assets/codex/emblemas/arbol_ancestral_01.webp");
+  --ae-crest-3:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/reloj_arena_01.webp");
+  --ae-crest-4:url("https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/pluma_dorada_01.webp");
+  --ae-seal-1:url("https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_dorado_arbol_01.webp");
+  --ae-seal-2:url("https://morpheus-eko.github.io/aeternalis/assets/codex/sellos/lacre_rojo_fenix_01.webp");
 
   position:relative;
   isolation:isolate;
@@ -39,22 +45,15 @@
 .ae-normativa a{color:inherit;text-decoration:none}
 .ae-normativa a:focus-visible{outline:2px solid var(--ae-gold);outline-offset:4px}
 .ae-normativa .ae-frame{
-  display:grid;
-  grid-template-columns:1fr auto 1fr;
-  align-items:center;
-  gap:16px;
-  padding:14px 28px;
-  opacity:.8;
+  display:flex; align-items:center; gap:16px;
+  padding:14px 28px; opacity:.82;
 }
-.ae-normativa .ae-frame span{
-  height:1px;
-  background:linear-gradient(90deg, transparent, rgba(195,167,124,.6), transparent);
+.ae-normativa .ae-frame span:first-child, .ae-normativa .ae-frame span:last-child{
+  flex:1; min-width:0; height:1px;
+  background:linear-gradient(90deg,transparent,rgba(195,167,124,.55),transparent);
 }
-.ae-normativa .ae-frame:before{
-  content:'✦';
-  color:var(--ae-gold);
-  font-size:14px;
-  letter-spacing:4px;
+.ae-normativa .ae-frame span:nth-child(2)::before{
+  content:"✦"; color:var(--ae-gold); font-size:15px; letter-spacing:4px;
 }
 .ae-normativa .ae-frame--top{border-bottom:1px solid rgba(194,165,118,.08)}
 .ae-normativa .ae-frame--bottom{border-top:1px solid rgba(194,165,118,.08)}
@@ -73,7 +72,7 @@
   overflow:hidden;
 }
 .ae-normativa .ae-hero:before, .ae-normativa .ae-hero:after{
-  content:'';
+  content:"";
   position:absolute;
   inset:auto 0 0 0;
   height:1px;
@@ -91,7 +90,7 @@
   position:relative;
 }
 .ae-normativa .ae-hero__bust:before{
-  content:'';
+  content:"";
   position:absolute;
   inset:18px 10px 0;
   border:1px solid rgba(195,167,124,.15);
@@ -111,7 +110,7 @@
   margin:0
 }
 .ae-normativa .ae-hero h1{
-  font-family:Georgia,'Times New Roman',serif!important;
+  font-family:Georgia,"Times New Roman",serif!important;
   font-size:clamp(42px,6vw,70px)!important;
   font-weight:400!important;
   letter-spacing:3px;
@@ -141,8 +140,8 @@
   opacity:.65;
   filter:sepia(20%) drop-shadow(0 8px 14px rgba(0,0,0,.25));
 }
-.ae-normativa .ae-sidebar nav{display:grid;gap:7px;margin-top:19px}
-.ae-normativa .ae-sidebar nav a{
+.ae-normativa .ae-sidebar__nav{display:grid;gap:7px;margin-top:19px}
+.ae-normativa .ae-sidebar__nav a{
   display:flex;
   align-items:center;
   gap:14px;
@@ -153,20 +152,20 @@
   line-height:1.4;
   transition:background .2s,color .2s,border-color .2s,transform .2s;
 }
-.ae-normativa .ae-sidebar nav a:hover, .ae-normativa .ae-sidebar nav a:focus-visible{
+.ae-normativa .ae-sidebar__nav a:hover, .ae-normativa .ae-sidebar__nav a:focus-visible{
   background:rgba(195,167,124,.08);
   color:#f5e8d0;
   border-left-color:var(--ae-gold);
   transform:translateX(3px);
 }
-.ae-normativa .ae-sidebar nav a span{font:12px Georgia,serif;color:var(--ae-gold)}
+.ae-normativa .ae-sidebar__nav a span{font:12px Georgia,serif;color:var(--ae-gold)}
 .ae-normativa .ae-sidebar__ornament{
   height:34px;
   margin:20px 0 12px;
   position:relative;
 }
 .ae-normativa .ae-sidebar__ornament:before, .ae-normativa .ae-sidebar__ornament:after{
-  content:'';
+  content:"";
   position:absolute;
   top:50%;
   width:calc(50% - 14px);
@@ -177,7 +176,6 @@
 .ae-normativa .ae-sidebar__ornament:after{right:0;transform:scaleX(-1)}
 .ae-normativa .ae-sidebar__ornament{display:flex;justify-content:center;align-items:center}
 .ae-normativa .ae-sidebar__ornament{color:var(--ae-gold)}
-.ae-normativa .ae-sidebar__ornament::before, .ae-normativa .ae-sidebar__ornament:empty::after, .ae-normativa .ae-sidebar__ornament:empty::before{}
 .ae-normativa .ae-sidebar__ornament:empty{
   background-image:radial-gradient(circle, rgba(195,167,124,.9) 0 1px, transparent 2px);
   background-size:12px 12px;
@@ -244,7 +242,7 @@
   overflow:hidden;
 }
 .ae-normativa .ae-rule:before{
-  content:'';
+  content:"";
   position:absolute;
   inset:0 auto auto 0;
   width:100%;
@@ -290,17 +288,15 @@
 .ae-normativa .ae-links{display:flex;justify-content:center;flex-wrap:wrap;gap:9px}
 .ae-normativa .ae-links a{border:1px solid var(--ae-stroke);padding:6px 13px;color:#d8c5a2;font-size:12px;transition:background .2s,color .2s}
 .ae-normativa .ae-links a:hover{background:rgba(195,167,124,.13);color:#f3e7d1}
-@media(max-width:980px){.ae-normativa .ae-hero{grid-template-columns:110px minmax(0,1fr) 110px;padding:28px 20px 36px}
+@media (max-width:980px){.ae-normativa .ae-hero{grid-template-columns:110px minmax(0,1fr) 110px;padding:28px 20px 36px}
 .ae-normativa .ae-hero__bust{height:170px}
 .ae-normativa .ae-layout{grid-template-columns:230px minmax(0,1fr)}
-.ae-normativa .ae-rules--compact{grid-template-columns:1fr}
-
-}
-@media(max-width:800px){.ae-normativa .ae-layout{grid-template-columns:1fr}
+.ae-normativa .ae-rules--compact{grid-template-columns:1fr}}
+@media (max-width:800px){.ae-normativa .ae-layout{grid-template-columns:1fr}
 .ae-normativa .ae-sidebar{height:auto;border-right:0;border-bottom:1px solid var(--ae-stroke)}
 .ae-normativa .ae-sidebar__inner{position:static;padding:22px}
 .ae-normativa .ae-sidebar__sigil{height:96px}
-.ae-normativa .ae-sidebar nav{grid-template-columns:repeat(2,minmax(0,1fr))}
+.ae-normativa .ae-sidebar__nav{grid-template-columns:repeat(2,minmax(0,1fr))}
 .ae-normativa .ae-sidebar__note{display:none}
 .ae-normativa .ae-content{padding:28px 20px}
 .ae-normativa .ae-hero{grid-template-columns:1fr;padding:40px 20px 32px}
@@ -308,48 +304,188 @@
 .ae-normativa .ae-chapter__heading{grid-template-columns:50px 1fr;gap:14px}
 .ae-normativa .ae-chapter__crest{grid-row:1 / span 2}
 .ae-normativa .ae-chapter__number{display:none}
-.ae-normativa .ae-chapter h2{font-size:25px!important}
-
-}
-@media(max-width:480px){.ae-normativa .ae-frame{padding:12px 16px;gap:10px}
-.ae-normativa .ae-sidebar nav{grid-template-columns:1fr}
+.ae-normativa .ae-chapter h2{font-size:25px!important}}
+@media (max-width:480px){.ae-normativa .ae-frame{padding:12px 16px;gap:10px}
+.ae-normativa .ae-sidebar__nav{grid-template-columns:1fr}
 .ae-normativa .ae-content{padding:24px 12px}
 .ae-normativa .ae-rule{padding:16px}
 .ae-normativa .ae-chapter__heading{grid-template-columns:42px 1fr;gap:10px}
-.ae-normativa .ae-chapter__crest{width:42px;height:42px}
-
-}
-@media(prefers-reduced-motion:reduce){.ae-normativa *{transition:none!important}
-}
+.ae-normativa .ae-chapter__crest{width:42px;height:42px}}
+@media (prefers-reduced-motion:reduce){.ae-normativa *{transition:none!important}}
 .ae-normativa.ae-normativa--decorada .ae-hero__inner:before{
- content:'';display:block;width:min(240px,70%);height:31px;margin:0 auto 12px;
- background:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/separadores/filigrana_dorada_01.webp') center / contain no-repeat;
+ content:"";display:block;width:min(240px,70%);height:31px;margin:0 auto 12px;
+ background:url(https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp) center / contain no-repeat;
  opacity:.75;pointer-events:none;
 }
 .ae-normativa.ae-normativa--decorada .ae-divider{
  position:relative;min-height:54px;justify-content:center;
- background:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/separadores/filigrana_dorada_01.webp') center / 180px auto no-repeat;
+ background:url(https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/filigrana_dorada_01.webp) center / 180px auto no-repeat;
 }
 .ae-normativa.ae-normativa--decorada .ae-divider i{opacity:0}
 .ae-normativa.ae-normativa--decorada .ae-hero:after{
- content:'';position:absolute;inset:auto 0 0 auto;width:100px;height:100px;
- background:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/esquinas/bronce_inferior_derecha_01.webp') right bottom / contain no-repeat;
+ content:"";position:absolute;inset:auto 0 0 auto;width:100px;height:100px;
+ background:url(https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_inferior_derecha_01.webp) right bottom / contain no-repeat;
  opacity:.38;pointer-events:none;
 }
 .ae-normativa.ae-normativa--decorada .ae-hero:before{
- content:'';position:absolute;inset:0 auto auto 0;width:100px;height:100px;
- background:url('https://cdn.jsdelivr.net/gh/Morpheus-Eko/aeternalis@main/assets/codex/esquinas/bronce_superior_izquierda_01.webp') left top / contain no-repeat;
+ content:"";position:absolute;inset:0 auto auto 0;width:100px;height:100px;
+ background:url(https://morpheus-eko.github.io/aeternalis/assets/codex/esquinas/bronce_superior_izquierda_01.webp) left top / contain no-repeat;
  opacity:.38;pointer-events:none;
 }
 .ae-normativa.ae-normativa--decorada .ae-sidebar__sigil{background-size:contain;opacity:.8}
-@media(max-width:800px){.ae-normativa.ae-normativa--decorada .ae-hero:after, .ae-normativa.ae-normativa--decorada .ae-hero:before{width:65px;height:65px;opacity:.22}
-}
-
+@media (max-width:800px){.ae-normativa.ae-normativa--decorada .ae-hero:after, .ae-normativa.ae-normativa--decorada .ae-hero:before{width:65px;height:65px;opacity:.22}}
 .ae-normativa .ae-hero__bust--left{grid-column:1;grid-row:1}
 .ae-normativa .ae-hero__inner{grid-column:2;grid-row:1}
 .ae-normativa .ae-hero__bust--right{grid-column:3;grid-row:1}
+@media (max-width:800px){.ae-normativa .ae-hero__inner{grid-column:1;grid-row:1}}
 .ae-normativa{width:100%;min-width:0}
-.ae-normativa .ae-content,.ae-normativa .ae-rule,.ae-normativa .ae-hero__inner{min-width:0;overflow-wrap:break-word}
+.ae-normativa .ae-content, .ae-normativa .ae-rule, .ae-normativa .ae-hero__inner{min-width:0;overflow-wrap:break-word}
+.ae-normativa .ae-sidebar nav a:focus-visible, .ae-normativa .ae-links a:focus-visible{outline:2px solid var(--ae-gold);outline-offset:2px}
 .ae-normativa .ae-rule__body li{line-height:1.8}
-@media(max-width:800px){.ae-normativa .ae-hero__inner{grid-column:1;grid-row:1}}
-@media(max-width:620px){.ae-normativa .ae-sidebar__sigil{height:78px;margin-bottom:8px}.ae-normativa .ae-hero h1{font-size:clamp(36px,10vw,50px)!important}.ae-normativa .ae-hero__subtitle{font-size:15px}.ae-normativa .ae-chapter__heading p{line-height:1.6}}
+@media (max-width:620px){.ae-normativa .ae-sidebar__sigil{height:78px;margin-bottom:8px}
+.ae-normativa .ae-hero h1{font-size:clamp(36px,10vw,50px)!important}
+.ae-normativa .ae-hero__subtitle{font-size:15px}
+.ae-normativa .ae-chapter__heading p{line-height:1.6}}
+
+/* =========================
+   Navegación por capítulos
+   ========================= */
+.ae-normativa .ae-chapter-switcher{
+  padding:22px 26px 8px;
+  border-bottom:1px solid rgba(194,165,118,.10);
+  background:linear-gradient(180deg, rgba(195,167,124,.045), rgba(195,167,124,0));
+  position:relative;
+}
+.ae-normativa .ae-chapter-switcher:before,
+.ae-normativa .ae-chapter-switcher:after{
+  content:"";
+  position:absolute;
+  top:16px;
+  width:82px;
+  height:82px;
+  opacity:.22;
+  pointer-events:none;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+.ae-normativa .ae-chapter-switcher:before{
+  left:18px;
+  background-image:var(--ae-seal-1);
+  background-position:left top;
+}
+.ae-normativa .ae-chapter-switcher:after{
+  right:18px;
+  background-image:var(--ae-seal-2);
+  background-position:right top;
+}
+.ae-normativa .ae-chapter-switcher__ornament{
+  text-align:center;
+  color:#bfa578;
+  font-size:12px;
+  letter-spacing:5px;
+  margin-bottom:14px;
+  opacity:.9;
+}
+.ae-normativa .ae-chapter-switcher__inner{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:12px;
+  position:relative;
+  z-index:1;
+}
+.ae-normativa .ae-chapter-tab{
+  appearance:none;
+  border:1px solid rgba(195,167,124,.18);
+  background:linear-gradient(180deg, rgba(255,250,227,.08), rgba(255,250,227,.02));
+  min-height:86px;
+  padding:12px 12px 12px 14px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-align:left;
+  color:#d5cab7;
+  cursor:pointer;
+  transition:transform .2s, border-color .2s, background .2s, box-shadow .2s;
+  position:relative;
+  overflow:hidden;
+}
+.ae-normativa .ae-chapter-tab:before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:3px;
+  background:linear-gradient(180deg, transparent, rgba(195,167,124,.85), transparent);
+  opacity:.45;
+}
+.ae-normativa .ae-chapter-tab:hover,
+.ae-normativa .ae-chapter-tab:focus-visible,
+.ae-normativa .ae-chapter-tab.is-active{
+  border-color:rgba(195,167,124,.45);
+  background:linear-gradient(180deg, rgba(195,167,124,.18), rgba(195,167,124,.06));
+  color:#f1e3c8;
+  box-shadow:0 10px 24px rgba(0,0,0,.18);
+  transform:translateY(-2px);
+}
+.ae-normativa .ae-chapter-tab.is-active:before{opacity:1}
+.ae-normativa .ae-chapter-tab__index{
+  flex:0 0 auto;
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  border:1px solid rgba(195,167,124,.25);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font:400 18px/1 Georgia,serif;
+  color:var(--ae-gold);
+  background:radial-gradient(circle at center, rgba(195,167,124,.12), transparent 70%);
+}
+.ae-normativa .ae-chapter-tab__text{display:grid;gap:3px;min-width:0}
+.ae-normativa .ae-chapter-tab__text strong{
+  font:400 17px/1.2 Georgia,serif;
+  color:#e6d4af;
+  font-weight:400;
+}
+.ae-normativa .ae-chapter-tab__text em{
+  font-style:normal;
+  font-size:12px;
+  line-height:1.45;
+  color:#b9ad98;
+}
+.ae-normativa .ae-sidebar__nav a.is-active{
+  background:rgba(195,167,124,.14);
+  color:#f5e8d0;
+  border-left-color:var(--ae-gold);
+}
+.ae-normativa .ae-divider{display:none}
+.ae-normativa .ae-chapter{display:none;animation:aeFadeIn .28s ease}
+.ae-normativa .ae-chapter.is-active{display:block}
+@keyframes aeFadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:980px){
+  .ae-normativa .ae-chapter-switcher__inner{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:800px){
+  .ae-normativa .ae-chapter-switcher{padding:18px 18px 6px}
+  .ae-normativa .ae-chapter-switcher:before,.ae-normativa .ae-chapter-switcher:after{width:58px;height:58px;top:14px;opacity:.16}
+}
+@media(max-width:560px){
+  .ae-normativa .ae-chapter-switcher__inner{grid-template-columns:1fr}
+  .ae-normativa .ae-chapter-tab{min-height:unset;padding:12px}
+  .ae-normativa .ae-chapter-tab__text strong{font-size:16px}
+  .ae-normativa .ae-chapter-switcher__ornament{letter-spacing:3px;font-size:11px}
+}
+/* Versión 1.1 · bustos como imágenes y navegación ilustrada */
+.ae-normativa .ae-hero__bust{display:flex!important;align-items:flex-end;justify-content:center;opacity:1!important;filter:none!important;background:none!important;z-index:1}
+.ae-normativa .ae-hero__bust:before{display:none!important}
+.ae-normativa .ae-hero__portrait{display:block;width:100%;height:235px;object-fit:contain;filter:brightness(1.3) contrast(1.1);-webkit-mask-image:radial-gradient(ellipse,#000 57%,transparent 96%);mask-image:radial-gradient(ellipse,#000 57%,transparent 96%)}
+.ae-normativa .ae-hero__bust--left{grid-column:1;grid-row:1}.ae-normativa .ae-hero__bust--right{grid-column:3;grid-row:1}.ae-normativa .ae-hero__inner{grid-column:2;grid-row:1}
+.ae-normativa .ae-chapter-tab__sigil{display:block;flex:0 0 51px;width:51px;height:57px;background-size:contain;background-position:center;background-repeat:no-repeat;filter:brightness(1.15) drop-shadow(0 3px 5px #0008)}
+.ae-normativa .ae-chapter-tab__sigil--1{background-image:var(--ae-crest-1)}.ae-normativa .ae-chapter-tab__sigil--2{background-image:var(--ae-crest-2)}.ae-normativa .ae-chapter-tab__sigil--3{background-image:var(--ae-crest-3)}.ae-normativa .ae-chapter-tab__sigil--4{background-image:var(--ae-crest-4)}
+.ae-normativa .ae-sidebar__sigil{height:83px;margin-bottom:3px}.ae-normativa .ae-sidebar__portrait{height:160px;margin-bottom:13px;background:var(--ae-bust-left) center/contain no-repeat;filter:brightness(1.3);mask-image:radial-gradient(ellipse,#000 56%,transparent 96%)}
+.ae-normativa[data-ae-chapter="ae-rol-personajes"] .ae-sidebar__portrait{background-image:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_alto_elfo_02.webp")}
+.ae-normativa[data-ae-chapter="ae-actividad"] .ae-sidebar__portrait{background-image:url("https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_enano_01.webp")}
+.ae-normativa[data-ae-chapter="ae-graficos"] .ae-sidebar__portrait{background-image:url("https://morpheus-eko.github.io/aeternalis/assets/runas/general/emblema-nordico-del-nudo-eterno.webp")}
+.ae-normativa .ae-chapter[hidden]{display:none!important}
+@media(max-width:800px){.ae-normativa .ae-hero{position:relative;display:block}.ae-normativa .ae-hero__bust{position:absolute;bottom:0;height:100px;width:70px;opacity:.72!important;z-index:0}.ae-normativa .ae-hero__bust--left{left:0}.ae-normativa .ae-hero__bust--right{right:0}.ae-normativa .ae-hero__portrait{height:100px}.ae-normativa .ae-hero__inner{position:relative;z-index:2}.ae-normativa .ae-sidebar__portrait{display:none}}
+@media(max-width:560px){.ae-normativa .ae-chapter-tab__sigil{flex-basis:41px;width:41px;height:48px}}

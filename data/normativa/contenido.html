@@ -1,12 +1,12 @@
-<div class="ae-normativa ae-normativa--decorada" id="ae-normativa">
+<div class="ae-normativa ae-normativa--decorada" id="ae-normativa" data-ae-chapter="ae-generales">
 
   <div class="ae-frame ae-frame--top" aria-hidden="true">
     <span></span><span></span><span></span>
   </div>
 
   <div class="ae-hero">
-    <div class="ae-hero__bust ae-hero__bust--left" aria-hidden="true"></div>
-    <div class="ae-hero__bust ae-hero__bust--right" aria-hidden="true"></div>
+    <div class="ae-hero__bust ae-hero__bust--left" aria-hidden="true"><img class="ae-hero__portrait" src="https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_guerrero_humano_02.webp" alt="" loading="eager"></div>
+    <div class="ae-hero__bust ae-hero__bust--right" aria-hidden="true"><img class="ae-hero__portrait" src="https://morpheus-eko.github.io/aeternalis/assets/codex/esculturas/busto_arquera_alto_elfo_01.webp" alt="" loading="eager"></div>
 
     <div class="ae-hero__inner">
       <div class="ae-hero__ornament" aria-hidden="true">✦ ─── ❖ ─── ✦</div>
@@ -18,16 +18,39 @@
     </div>
   </div>
 
+
+  <div class="ae-chapter-switcher" aria-label="Selector de capítulos">
+    <div class="ae-chapter-switcher__ornament" aria-hidden="true">ᚱ ᚢ ᚾ ᚨ ✦ ᚲ ᛟ ᛞ ᛁ ᚲ ᛖ</div>
+    <div class="ae-chapter-switcher__inner" role="tablist" aria-label="Capítulos de la normativa">
+      <button class="ae-chapter-tab is-active" type="button" role="tab" aria-selected="true" data-target="ae-generales">
+        <span class="ae-chapter-tab__sigil ae-chapter-tab__sigil--1" aria-hidden="true"></span>
+        <span class="ae-chapter-tab__text"><strong>Capítulo I</strong><em>Disposiciones generales</em></span>
+      </button>
+      <button class="ae-chapter-tab" type="button" role="tab" aria-selected="false" data-target="ae-rol-personajes">
+        <span class="ae-chapter-tab__sigil ae-chapter-tab__sigil--2" aria-hidden="true"></span>
+        <span class="ae-chapter-tab__text"><strong>Capítulo II</strong><em>Rol y personajes</em></span>
+      </button>
+      <button class="ae-chapter-tab" type="button" role="tab" aria-selected="false" data-target="ae-actividad">
+        <span class="ae-chapter-tab__sigil ae-chapter-tab__sigil--3" aria-hidden="true"></span>
+        <span class="ae-chapter-tab__text"><strong>Capítulo III</strong><em>Actividad y ausencias</em></span>
+      </button>
+      <button class="ae-chapter-tab" type="button" role="tab" aria-selected="false" data-target="ae-graficos">
+        <span class="ae-chapter-tab__sigil ae-chapter-tab__sigil--4" aria-hidden="true"></span>
+        <span class="ae-chapter-tab__text"><strong>Capítulo IV</strong><em>Normas gráficas</em></span>
+      </button>
+    </div>
+  </div>
+
   <div class="ae-layout">
     <div class="ae-sidebar">
       <div class="ae-sidebar__inner">
-        <div class="ae-sidebar__sigil" aria-hidden="true"></div>
+        <div class="ae-sidebar__sigil" aria-hidden="true"></div><div class="ae-sidebar__portrait" aria-hidden="true"></div>
         <p class="ae-sidebar__eyebrow">Índice del códice</p>
         <div class="ae-sidebar__nav" aria-label="Índice de la normativa">
-          <a href="#ae-generales"><span>01</span>Disposiciones generales</a>
-          <a href="#ae-rol-personajes"><span>02</span>Rol y personajes</a>
-          <a href="#ae-actividad"><span>03</span>Actividad y ausencias</a>
-          <a href="#ae-graficos"><span>04</span>Normas gráficas</a>
+          <a href="#ae-generales" data-target="ae-generales"><span>01</span>Disposiciones generales</a>
+          <a href="#ae-rol-personajes" data-target="ae-rol-personajes"><span>02</span>Rol y personajes</a>
+          <a href="#ae-actividad" data-target="ae-actividad"><span>03</span>Actividad y ausencias</a>
+          <a href="#ae-graficos" data-target="ae-graficos"><span>04</span>Normas gráficas</a>
         </div>
         <div class="ae-sidebar__ornament" aria-hidden="true"></div>
         <p class="ae-sidebar__note">Al participar en Aeternalis, cada usuario se compromete a respetar estas disposiciones.</p>
@@ -35,7 +58,7 @@
     </div>
 
     <div class="ae-content">
-      <div class="ae-chapter" id="ae-generales" aria-labelledby="ae-h-generales">
+      <div class="ae-chapter is-active" id="ae-generales" aria-labelledby="ae-h-generales">
         <div class="ae-chapter__heading">
           <div class="ae-chapter__crest" aria-hidden="true"></div>
           <span class="ae-chapter__number">01</span>
