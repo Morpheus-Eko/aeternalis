@@ -1,11 +1,11 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-27-fix-kale-tdz-atlas-boot-1",
+  "revision": "2026-11-28-nelson11-mar-rojo-y-rutas-costeras-v21",
   "counts": {
     "places": 122,
     "regions": 26,
-    "roads": 173,
-    "navalCells": 5965,
+    "roads": 174,
+    "navalCells": 4851,
     "marineZones": 6,
     "nauticalCorridors": 111,
     "nauticalPoints": 55,
@@ -32,7 +32,10 @@
     "navAccessPendingValidation": 10,
     "roadTracedMagenta": 107,
     "roadPendingMagentaReview": 35,
-    "roadNewMagentaConnections": 5
+    "roadNewMagentaConnections": 6,
+    "navalInteriorWater": 1646,
+    "navalCoastalSea": 585,
+    "navalDeepSea": 4266
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -58,7 +61,8 @@
       "routes": "data/atlas/naval/rutas-por-agua.json",
       "regions": "data/atlas/naval/zonas-maritimas.json",
       "ports": "data/atlas/naval/puertos.json",
-      "water33Patch": "data/atlas/naval/agua-mapa33-verdanteyl.json"
+      "water33Patch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
+      "redWater": "data/atlas/naval/agua-roja-nelson-1-1.json"
     },
     "roadEvidence": "data/atlas/caminos-evidencia.json",
     "roadAudit": "data/atlas/caminos-auditoria.json",
@@ -73,15 +77,16 @@
   "core": "js/supermapa-core.js",
   "note": "122 localidades, 172 conexiones terrestres. Los corredores náuticos del sector oriental se trazan sobre la máscara 3.3 y solo aceptan acceso litoral de <=25 píxeles; se excluyen conexiones fluviales sin continuidad. Corrección de integridad: cinco conexiones terrestres fueron normalizadas de pares [x,y] a objetos {x,y}, y endpoints() tolera borradores antiguos sin interrumpir todo el Atlas. Incorporado camino Kale–Ifnolir por bosque y montaña.",
   "navalReview": {
-    "sourceRaster": "Mapa_3.3.png: clasificación litoral oriental",
-    "pendingRaster": "Mapa_3.3.png",
+    "sourceRaster": "Mapa_Nelson_1.1.png: todo el rojo representa agua",
+    "pendingRaster": null,
     "routesPreliminary": 97,
     "legacyRoutesRetained": 14,
     "accessPendingValidation": 10,
-    "notes": "El motor naval v3.4 sustituye hexágonos orientales 3.21 por raster 3.3 y recalcula corredores mediante A*. El resto del mapa conserva la máscara previa.",
+    "notes": "La Carta Náutica v3.5 clasifica 4.851 hexágonos de mar y 1.646 de ríos/lagos/aguas interiores no verificadas; el grafo naval sólo atraviesa aristas marinas comprobadas, nunca tramos terrestres. Las rutas antiguas se recalculan en el visor.",
     "maskPatch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
     "waterPatchHexes": 1558,
-    "rivers": "Los cauces interiores estrechos se excluyen de rutas navegables hasta validar calado, anchura y continuidad."
+    "rivers": "Ríos y lagos se muestran como agua, pero requieren reglas de calado y navegabilidad antes de convertirse en corredores de barco.",
+    "waterRedMask": "data/atlas/naval/agua-roja-nelson-1-1.json"
   },
   "mapPinCalibration": {
     "source": "Mapa_3.3.png",
@@ -129,6 +134,8 @@
     "date": "2026-11-27"
   },
   "fixLog": {
-    "kaleInitialization": "Corrección de la inicialización de pendingKaleRoadSave antes de usarla; evitar error de temporal dead zone que bloqueaba Atlas y la Carta Náutica."
+    "kaleInitialization": "Corrección de la inicialización de pendingKaleRoadSave antes de usarla; evitar error de temporal dead zone que bloqueaba Atlas y la Carta Náutica.",
+    "redWater20261128": "Se reemplaza el criterio azul de la malla naval con pigmento rojo del mapa Nelson 1.1. 4.851 celdas marinas, 1.646 interiores sin navegación automática.",
+    "coastalLand20261128": "Carretera Essëa–Kale desvía alrededor del lago; senda costera directa Ithar’iamil–Bahía Hirion con vértices siguiendo puntos magenta, evitando agua."
   }
 }
