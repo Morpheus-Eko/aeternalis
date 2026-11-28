@@ -1,0 +1,297 @@
+/* Aeternalis · Prólogo del Bardo v1.0.0
+   UNA lámina / lectura vertical / imagen original de taberna / voz de Ozma.
+   Encapsulado en #ae-prologo-ozma. Sin alterar el CSS global de Foroactivo.
+ */
+#ae-prologo-ozma {
+  --ao-ink:#ead9bd;--ao-muted:#b7a389;--ao-gold:#d0a568;
+  --ao-deep:#171210;--ao-surface:#241b18;--ao-edge:#7e5b39;
+  box-sizing:border-box; position:relative;
+  width:min(1120px,calc(100vw - 32px));max-width:none;
+  margin:22px 0 40px;left:50%;transform:translateX(-50%);
+  color:var(--ao-ink);font-family:inherit;line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+#ae-prologo-ozma *,#ae-prologo-ozma *::before,#ae-prologo-ozma *::after{box-sizing:border-box}
+#ae-prologo-ozma a{color:inherit;text-decoration:none}
+#ae-prologo-ozma a:focus-visible{outline:2px solid #f5cc82;outline-offset:4px}
+#ae-prologo-ozma img{max-width:100%}
+#ae-prologo-ozma .ao-lamina{
+  position:relative;isolation:isolate;overflow:hidden;
+  border:1px solid #94704d;
+  border-radius:4px;
+  box-shadow:0 21px 66px #080705c9, inset 0 0 0 2px #89643c38;
+  background:
+   radial-gradient(ellipse at 50% 9%,#734b303b,transparent 42%),
+   linear-gradient(180deg,#1d1817 0%,#281d17 36%,#231916 78%,#161312 100%);
+}
+#ae-prologo-ozma .ao-lamina::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:url('https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/cuero_oscuro_01.webp') center top / 720px auto repeat;
+  mix-blend-mode:soft-light;opacity:.14;
+}
+#ae-prologo-ozma .ao-frame{position:absolute;z-index:10;inset:0;pointer-events:none}
+#ae-prologo-ozma .ao-frame__corner{
+  position:absolute;display:block;width:clamp(70px,12vw,135px);
+  height:clamp(70px,12vw,135px);object-fit:contain;
+  opacity:.73;filter:sepia(.12) saturate(.88);
+}
+#ae-prologo-ozma .ao-frame__corner--tl{top:3px;left:3px}
+#ae-prologo-ozma .ao-frame__corner--tr{top:3px;right:3px}
+#ae-prologo-ozma .ao-frame__corner--bl{bottom:3px;left:3px}
+#ae-prologo-ozma .ao-frame__corner--br{bottom:3px;right:3px}
+#ae-prologo-ozma .ao-opening{
+  position:relative;z-index:1;min-height:190px;
+  padding:clamp(32px,5vw,61px) 22px 22px;
+  text-align:center;
+}
+#ae-prologo-ozma .ao-opening__eyebrow{
+  display:block;font:600 clamp(10px,1vw,12px)/1.6 inherit;
+  color:#c2a27a;letter-spacing:.27em;text-transform:uppercase;
+}
+#ae-prologo-ozma .ao-opening h1{
+  margin:8px 0 0!important;padding:0!important;line-height:1.07!important;
+  color:#f5ddb3!important;font-family:inherit!important;
+  font-size:clamp(32px,4.8vw,64px)!important;font-weight:600!important;
+  letter-spacing:.015em;text-align:center;
+  text-shadow:0 2px 0 #0b0807,0 0 32px #ae713b40;
+  border:0!important;background:none!important;
+}
+#ae-prologo-ozma .ao-opening__subtitle{
+  margin:10px 0 5px!important;color:#d7bd93!important;
+  font-family:inherit;font-size:clamp(15px,1.6vw,21px)!important;
+  font-style:italic;line-height:1.5;text-align:center;
+}
+#ae-prologo-ozma .ao-opening__divider{height:36px;margin:8px auto 0;width:min(280px,62%)}
+#ae-prologo-ozma .ao-opening__divider img{display:block;width:100%;height:100%;object-fit:contain;opacity:.68}
+
+/* La taberna es el escenario, no un adorno detrás del texto. */
+#ae-prologo-ozma .ao-scene{position:relative;margin:0 13px;min-height:245px;overflow:hidden;border:1px solid #8c674349;box-shadow:0 15px 36px #08060472}
+#ae-prologo-ozma .ao-scene__image{
+  display:block;width:100%;height:clamp(245px,31vw,375px);
+  object-fit:cover;object-position:center center;
+  filter:contrast(1.07) saturate(.85) brightness(.9);
+}
+#ae-prologo-ozma .ao-scene__vignette{
+  position:absolute;z-index:1;inset:0;pointer-events:none;
+  background:linear-gradient(180deg,#0c09083d,transparent 29%,#0d090969 86%,#0b0808c7),
+  linear-gradient(90deg,#0e0b0a67,transparent 25%,transparent 75%,#0e0b0a67);
+}
+#ae-prologo-ozma .ao-scene figcaption{
+  position:absolute;z-index:2;bottom:18px;left:clamp(12px,4vw,45px);
+  margin:0;max-width:82%;font:italic clamp(12px,1.3vw,16px)/1.4 inherit;
+  color:#f3ddba;text-shadow:0 1px 8px #050404;
+}
+#ae-prologo-ozma .ao-scene.ao-image-failed{
+  background:radial-gradient(circle at 50% 15%,#755037,#231712 65%);
+  min-height:255px;
+}
+#ae-prologo-ozma .ao-scene.ao-image-failed::before{
+  content:"Al calor de la taberna";
+  position:absolute;top:44%;width:100%;text-align:center;
+  color:#ddbb8d;font-size:clamp(19px,2.7vw,30px);font-style:italic;
+}
+#ae-prologo-ozma .ao-scene__image.ao-image--unavailable{visibility:hidden}
+#ae-prologo-ozma .ao-body{position:relative;margin:0 auto;padding:0 0 27px;width:100%}
+/* Retrato original, montado como medallón sobre el primer tramo del relato. */
+#ae-prologo-ozma .ao-narrator{
+  max-width:840px;position:relative;z-index:3;
+  display:grid;grid-template-columns:clamp(118px,16vw,170px) minmax(0,1fr);
+  align-items:center;gap:clamp(19px,3.1vw,42px);
+  margin:0 auto;padding:0 clamp(18px,5vw,62px);
+}
+#ae-prologo-ozma .ao-narrator__portrait{
+  position:relative;width:100%;aspect-ratio:1;overflow:hidden;
+  border-radius:50%;border:4px solid #75532e;
+  outline:1px solid #d7ab6d;outline-offset:3px;
+  box-shadow:0 9px 22px #0d0808c0,inset 0 0 0 5px #281912;
+  margin-top:-30px;background:radial-gradient(circle,#98734b 0%,#2c1b18 69%);
+}
+#ae-prologo-ozma .ao-narrator__portrait::after{
+  content:"";position:absolute;inset:0;border-radius:50%;pointer-events:none;
+  box-shadow:inset 0 0 25px #1e0d0aa6,inset 0 0 0 3px #b9916044;
+}
+#ae-prologo-ozma .ao-narrator__image{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+#ae-prologo-ozma .ao-narrator__portrait.ao-image-failed{
+  background:radial-gradient(circle,#8b6443,#30201b 72%),
+  url('https://morpheus-eko.github.io/aeternalis/assets/codex/separadores/libro_alas_01.webp') center/75% no-repeat;
+}
+#ae-prologo-ozma .ao-narrator__image.ao-image--unavailable{display:none}
+#ae-prologo-ozma .ao-narrator__identity{padding:23px 0 15px;min-width:0}
+#ae-prologo-ozma .ao-narrator__identity>span{
+  display:block;letter-spacing:.16em;font-size:11px;color:#b89563;text-transform:uppercase;
+}
+#ae-prologo-ozma .ao-narrator__identity h2{
+  margin:2px 0!important;padding:0!important;background:none!important;
+  font-family:inherit!important;font-size:clamp(27px,3vw,38px)!important;
+  color:#ebcf9f!important;font-weight:600!important;line-height:1.2!important;border:0!important;
+}
+#ae-prologo-ozma .ao-narrator__identity>p{margin:0!important;font-size:13px;color:#baa284;font-style:italic}
+#ae-prologo-ozma .ao-narrator blockquote{
+  border:0!important;background:none!important;box-shadow:none!important;
+  padding:0!important;margin:8px 0 0!important;
+  color:#dcbf93;font:italic clamp(15px,1.8vw,21px)/1.5 inherit;
+}
+#ae-prologo-ozma .ao-prologue,
+#ae-prologo-ozma .ao-cantos{width:min(860px,calc(100% - 76px));margin:0 auto}
+#ae-prologo-ozma .ao-prologue{padding:20px 0 0}
+#ae-prologo-ozma .ao-paragraph{
+  color:#e1d1bc;font-family:inherit!important;
+  font-size:clamp(16px,1.65vw,19px)!important;
+  line-height:1.83!important;margin:0 0 17px!important;
+  max-width:none;font-weight:400;
+  text-align:justify;text-wrap:pretty;hyphens:auto;overflow-wrap:break-word;
+}
+#ae-prologo-ozma .ao-paragraph--acotacion{
+  color:#c5a67d!important;font-size:clamp(14px,1.3vw,17px)!important;
+  line-height:1.66!important;font-style:italic!important;
+  text-align:left;max-width:94%;
+  margin:12px auto 20px!important;
+  padding:5px 0 5px 18px;
+  border-left:2px solid #b6884f75;
+}
+#ae-prologo-ozma .ao-cantos-index{
+  width:min(760px,calc(100% - 68px));margin:31px auto 25px;
+  display:flex;justify-content:center;align-items:center;gap:9px;
+  padding:14px 12px;border-top:1px solid #9271496b;border-bottom:1px solid #9271496b;
+}
+#ae-prologo-ozma .ao-cantos-index__label{font-size:12px;color:#b89a75;letter-spacing:.08em;margin-right:13px}
+#ae-prologo-ozma .ao-cantos-index a{
+  display:grid;place-items:center;
+  width:37px;height:37px;flex:0 0 37px;
+  color:#e9d1a2;border:1px solid #b18d598a;background:#3a2b2199;
+  border-radius:50%;font-size:15px;font-weight:600;line-height:1;
+  transition:background-color .18s ease,transform .18s ease;
+}
+#ae-prologo-ozma .ao-cantos-index a:hover{
+  background:#775132;transform:translateY(-2px);
+}
+#ae-prologo-ozma .ao-canto{
+  position:relative;padding:41px 0 33px;
+  scroll-margin-top:20px;
+}
+#ae-prologo-ozma .ao-canto+.ao-canto{border-top:1px solid #8a633b54}
+#ae-prologo-ozma .ao-canto__header{position:relative;margin:0 0 28px;text-align:center}
+#ae-prologo-ozma .ao-canto__ornament{
+  display:flex;justify-content:center;align-items:center;gap:15px;
+  height:73px;margin:0 auto 4px;
+}
+#ae-prologo-ozma .ao-canto__ornament span{
+  display:block;flex:1 1 auto;max-width:165px;height:1px;
+  background:linear-gradient(90deg,transparent,#ae8652ae);
+}
+#ae-prologo-ozma .ao-canto__ornament span:last-child{transform:scaleX(-1)}
+#ae-prologo-ozma .ao-canto__symbol{
+  display:block;width:67px;height:67px;object-fit:contain;
+  opacity:.82;filter:sepia(.2) drop-shadow(0 2px 5px #080605);
+}
+#ae-prologo-ozma .ao-canto__number{
+  font:600 11px/1.6 inherit;letter-spacing:.22em;color:#b38f5d;text-transform:uppercase;
+}
+#ae-prologo-ozma .ao-canto__header h2{
+  margin:3px 0 0!important;padding:0!important;
+  font-family:inherit!important;font-size:clamp(25px,3vw,37px)!important;
+  line-height:1.24!important;font-weight:600!important;
+  text-align:center;color:#efd6aa!important;
+  background:none!important;border:0!important;text-shadow:0 1px 4px #0b0909;
+}
+#ae-prologo-ozma .ao-canto__text{max-width:100%}
+#ae-prologo-ozma .ao-finale{
+  position:relative;max-width:950px;
+  margin:0 auto 40px;padding:35px clamp(16px,5vw,68px) 43px;
+  text-align:center;
+  background:radial-gradient(ellipse at 50% 10%,#74463030,transparent 66%),
+  linear-gradient(180deg,#33251c78,#2219158c);
+  border-top:1px solid #a47b4e75;border-bottom:1px solid #a47b4e75;
+}
+#ae-prologo-ozma .ao-finale__crest{display:block;width:104px;height:77px;object-fit:contain;margin:0 auto 10px;opacity:.77}
+#ae-prologo-ozma .ao-finale__prelude{font-size:clamp(17px,2vw,24px)!important;font-style:italic;color:#cdac7f;margin:4px 0 9px!important}
+#ae-prologo-ozma .ao-finale__question{
+  margin:0!important;color:#f4ddb2;
+  font-family:inherit!important;font-size:clamp(24px,3.1vw,39px)!important;
+  line-height:1.36!important;letter-spacing:.005em;font-weight:600;
+  text-wrap:balance;text-align:center;
+}
+#ae-prologo-ozma .ao-finale__signature{
+  margin:19px 0 0!important;color:#ad9274;
+  font-size:13px!important;font-style:italic;letter-spacing:.07em;
+}
+#ae-prologo-ozma .ao-journey{position:relative;padding:0 clamp(20px,5vw,65px) 48px;text-align:center}
+#ae-prologo-ozma .ao-journey__ornament{height:35px;width:min(260px,67%);margin:0 auto 15px;opacity:.63}
+#ae-prologo-ozma .ao-journey__ornament img{height:100%;width:100%;object-fit:contain}
+#ae-prologo-ozma .ao-journey h2{
+  margin:4px 0!important;color:#efdaac!important;font-family:inherit!important;
+  font-size:clamp(22px,2.8vw,34px)!important;
+  text-align:center;background:none!important;border:0!important;
+}
+#ae-prologo-ozma .ao-journey>p{font-size:14px!important;color:#bea886;margin:4px 0 25px!important}
+#ae-prologo-ozma .ao-routes{
+  max-width:930px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;
+}
+#ae-prologo-ozma .ao-route{
+  display:flex;align-items:center;justify-content:center;flex-direction:column;
+  min-height:151px;padding:16px 8px 12px;
+  background:linear-gradient(145deg,#56402a8c,#251b19e6);
+  border:1px solid #a787555c;border-radius:2px;
+  box-shadow:inset 0 0 0 2px #8b63301e,0 4px 10px #07050455;
+  transition:transform .18s ease,background-color .18s ease,border-color .18s ease;
+}
+#ae-prologo-ozma .ao-route:hover{transform:translateY(-4px);border-color:#d7b177;background:#503925}
+#ae-prologo-ozma .ao-route__icon{width:49px;height:49px;object-fit:contain;margin-bottom:7px;opacity:.88;filter:drop-shadow(0 2px 3px #130b08)}
+#ae-prologo-ozma .ao-route__copy{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:0}
+#ae-prologo-ozma .ao-route__copy strong{color:#f0d5a8;font:600 16px/1.3 inherit}
+#ae-prologo-ozma .ao-route__copy small{display:block;color:#bca58a;font:normal 11px/1.4 inherit;text-align:center}
+#ae-prologo-ozma .ao-route__arrow{display:none}
+#ae-prologo-ozma .ao-failure{
+  background:#2c1e1b;border:1px solid #a68154;color:#f2e0c0;
+  text-align:center;padding:50px 30px;min-height:190px;
+}
+#ae-prologo-ozma .ao-failure h2{font-size:24px;color:#f1d5a6}
+#ae-prologo-ozma .ao-failure a{text-decoration:underline;color:#eac687}
+/* Pantallas intermedias: la lectura continúa en una sola lámina. */
+@media(max-width:900px){
+ #ae-prologo-ozma{width:calc(100vw - 22px);margin-top:12px}
+ #ae-prologo-ozma .ao-routes{grid-template-columns:repeat(3,minmax(0,1fr))}
+ #ae-prologo-ozma .ao-paragraph{text-align:left}
+ #ae-prologo-ozma .ao-frame__corner{opacity:.45}
+}
+@media(max-width:590px){
+ #ae-prologo-ozma{width:calc(100vw - 12px);margin:7px 0 18px}
+ #ae-prologo-ozma .ao-opening{min-height:0;padding:34px 12px 16px}
+ #ae-prologo-ozma .ao-opening__eyebrow{letter-spacing:.14em;font-size:9px}
+ #ae-prologo-ozma .ao-opening h1{font-size:clamp(29px,8.5vw,42px)!important}
+ #ae-prologo-ozma .ao-opening__subtitle{font-size:15px!important}
+ #ae-prologo-ozma .ao-scene{margin:0 6px;min-height:190px}
+ #ae-prologo-ozma .ao-scene__image{height:clamp(190px,58vw,255px)}
+ #ae-prologo-ozma .ao-scene figcaption{bottom:10px;font-size:12px}
+ #ae-prologo-ozma .ao-narrator{grid-template-columns:93px minmax(0,1fr);gap:18px;padding:0 20px}
+ #ae-prologo-ozma .ao-narrator__portrait{margin-top:-18px;border-width:3px}
+ #ae-prologo-ozma .ao-narrator__identity{padding:15px 0 7px}
+ #ae-prologo-ozma .ao-narrator__identity>span{font-size:9px;letter-spacing:.07em}
+ #ae-prologo-ozma .ao-narrator__identity h2{font-size:26px!important}
+ #ae-prologo-ozma .ao-narrator blockquote{font-size:13px}
+ #ae-prologo-ozma .ao-prologue,
+ #ae-prologo-ozma .ao-cantos{width:calc(100% - 43px)}
+ #ae-prologo-ozma .ao-paragraph{font-size:16px!important;line-height:1.75!important;margin-bottom:16px!important}
+ #ae-prologo-ozma .ao-paragraph--acotacion{font-size:14px!important;padding-left:10px;max-width:100%}
+ #ae-prologo-ozma .ao-cantos-index{width:calc(100% - 38px);gap:5px;margin:24px auto 18px;padding:9px 3px}
+ #ae-prologo-ozma .ao-cantos-index__label{font-size:10px;margin-right:5px}
+ #ae-prologo-ozma .ao-cantos-index a{width:32px;height:32px;flex-basis:32px;font-size:13px}
+ #ae-prologo-ozma .ao-canto{padding:32px 0 27px}
+ #ae-prologo-ozma .ao-canto__ornament{height:57px}
+ #ae-prologo-ozma .ao-canto__symbol{width:52px;height:52px}
+ #ae-prologo-ozma .ao-canto__header h2{font-size:clamp(23px,6.7vw,30px)!important}
+ #ae-prologo-ozma .ao-canto__header{margin-bottom:20px}
+ #ae-prologo-ozma .ao-finale{margin:6px 12px 30px;padding:24px 12px 30px}
+ #ae-prologo-ozma .ao-finale__question{font-size:clamp(23px,6.7vw,31px)!important}
+ #ae-prologo-ozma .ao-journey{padding:0 14px 26px}
+ #ae-prologo-ozma .ao-routes{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+ #ae-prologo-ozma .ao-route{min-height:131px;padding:12px 6px}
+ #ae-prologo-ozma .ao-route__copy strong{font-size:14px}
+ #ae-prologo-ozma .ao-route__copy small{font-size:10px}
+ #ae-prologo-ozma .ao-frame__corner{width:61px;height:61px;opacity:.33}
+}
+@media(prefers-reduced-motion:reduce){
+ #ae-prologo-ozma .ao-route,#ae-prologo-ozma .ao-cantos-index a{transition:none!important}
+ #ae-prologo-ozma .ao-route:hover,#ae-prologo-ozma .ao-cantos-index a:hover{transform:none}
+}
