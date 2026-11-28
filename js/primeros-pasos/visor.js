@@ -1,4 +1,4 @@
-/* AETERNALIS · LA SENDA DEL AVENTURERO v1.0.0
+/* AETERNALIS · LA SENDA DEL AVENTURERO v1.1.0
    Módulo de acogida independiente. Todo el contenido/las URLs se leen del JSON.
    No altera reglas del foro ni utiliza CSS/JS de otros sistemas.
 */
@@ -29,6 +29,7 @@ function boot(db){
  host.innerHTML='<section class="ap-shell" aria-label="Manual de primeros pasos">'
  +'<header class="ap-hero"><div class="ap-hero__intro"><span class="ap-eyebrow">AETERNALIS · GUÍA DE INICIACIÓN</span><h1>'+esc(db.guia.titulo)+'</h1><p class="ap-subtitle">'+esc(db.guia.subtitulo)+'</p><p class="ap-lead">'+esc(db.guia.bienvenida)+'</p><div class="ap-progress"><span id="ap-progress-label"></span><div class="ap-progress-track" role="progressbar" aria-label="Etapas revisadas" aria-valuemin="0" aria-valuemax="'+steps.length+'" aria-valuenow="0"><span></span></div></div></div>'
  +'<div class="ap-hero__illustration" aria-hidden="true"><img class="ap-hero__compass" src="'+image(db.assets.compass)+'" alt=""><img class="ap-hero__map" src="'+image(db.assets.route)+'" alt=""></div></header>'
+ +'<div class="ap-milestones" aria-label="Hitos del viaje">'+(db.hitos||[]).map(function(h){return '<div class="ap-milestone"><img src="'+image(h.icono)+'" alt="" loading="lazy"><div><strong>'+esc(h.titulo)+'</strong><small>'+esc(h.subtitulo)+'</small></div></div>';}).join('')+'</div>'
  +'<div class="ap-shortcuts"><p>Consulta rápida</p><div class="ap-shortcuts__actions"></div></div>'
  +'<div class="ap-layout"><nav class="ap-trail" aria-label="Etapas del manual"><div class="ap-trail__heading">Tu itinerario <small>Cinco paradas para comenzar</small></div><div class="ap-trail__steps"></div></nav>'
  +'<main class="ap-current" aria-live="polite"></main></div>'
@@ -50,7 +51,7 @@ function boot(db){
  function resourceCard(r){
   return '<button type="button" data-ap-resource="'+esc(r.id)+'" class="ap-resource'+(opened===r.id?' is-open':'')+'">'
   +'<span class="ap-resource__icon"><img src="'+image(r.imagen)+'" alt="" loading="lazy"></span>'
-  +'<span class="ap-resource__copy"><small>'+esc(r.prioridad)+'</small><strong>'+esc(r.titulo)+'</strong><span>'+esc(r.resumen)+'</span></span>'
+  +'<span class="ap-resource__copy"><small class="ap-resource__priority">'+esc(r.prioridad)+'</small><strong>'+esc(r.titulo)+'</strong><span>'+esc(r.resumen)+'</span></span>'
   +'<span class="ap-resource__arrow" aria-hidden="true">›</span></button>';
  }
  function detail(r){
@@ -73,7 +74,7 @@ function boot(db){
   +'<button type="button" class="ap-actions__next" data-ap-move="1"'+(i===steps.length-1?' disabled':'')+'>Siguiente etapa →</button></div></div></article>';
  }
  function shortcutsHTML(){
-  return (db.accesos||[]).map(function(id){var r=byId[id];if(!r)return '';return '<button type="button" data-ap-quick="'+esc(id)+'" class="'+(opened===id?'is-active':'')+'">'+esc(r.titulo)+'</button>';}).join('');
+  return (db.accesos||[]).map(function(id){var r=byId[id];if(!r)return '';return '<button type="button" data-ap-quick="'+esc(id)+'" class="'+(opened===id?'is-active':'')+'"><img src="'+image(r.imagen)+'" alt="" loading="lazy">'+esc(r.titulo)+'</button>';}).join('');
  }
  function show(opts){
   opts=opts||{};
@@ -97,7 +98,7 @@ function boot(db){
  });
  show();host.dataset.apBoot='ready';
 }
-fetch(BASE+'data/primeros-pasos.json?v=1.0.0',{cache:'no-cache'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(boot).catch(function(e){
+fetch(BASE+'data/primeros-pasos.json?v=1.1.0',{cache:'no-cache'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(boot).catch(function(e){
  host.dataset.apBoot='error';host.innerHTML='<p>No pudo cargarse la guía de iniciación. <a href="'+BASE+'primeros-pasos-preview.html">Abrir la vista alternativa</a>.</p>';console.error('[Aeternalis/Primeros Pasos]',e);
 });
 })();

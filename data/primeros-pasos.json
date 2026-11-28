@@ -1,6 +1,6 @@
 {
   "schema": "aeternalis-primeros-pasos-v1",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "nota": "Guía de acogida basada en Primeros Pasos. No reemplaza ni modifica normas oficiales. Las URLs se mantienen desactivadas hasta publicar las páginas actualizadas.",
   "guia": {
     "titulo": "La senda del aventurero",
@@ -228,5 +228,27 @@
     "presentaciones": null,
     "dudas": null,
     "codex": null
-  }
+  },
+  "hitos": [
+    {
+      "titulo": "Conoce las bases",
+      "subtitulo": "Reglas y mundo",
+      "icono": "assets/codex/cartelas/pergamino_sello_01.webp"
+    },
+    {
+      "titulo": "Comprende el juego",
+      "subtitulo": "Atributos y niveles",
+      "icono": "assets/codex/objetos/reloj_arena_01.webp"
+    },
+    {
+      "titulo": "Imagina tu origen",
+      "subtitulo": "Razas y territorios",
+      "icono": "assets/codex/llaves/llave_astral_01.webp"
+    },
+    {
+      "titulo": "Cuenta tu historia",
+      "subtitulo": "Expediente y rol",
+      "icono": "assets/codex/libros/libro_abierto_01.webp"
+    }
+  ]
 }

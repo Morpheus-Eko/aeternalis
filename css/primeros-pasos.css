@@ -1,4 +1,4 @@
-/* AETERNALIS · La Senda del Aventurero v1.0.0 · CSS propio, encapsulado */
+/* AETERNALIS · La Senda del Aventurero v1.1.0 · CSS propio, encapsulado */
 #ae-primeros-pasos{
 --ap-leather:#28201b;--ap-ink:#37291f;--ap-muted:#725c47;--ap-gold:#ba8d4b;--ap-paper:#e4cea0;--ap-border:#aa8658;
 position:relative;isolation:isolate;max-width:1170px;margin:20px auto 50px;
@@ -166,3 +166,94 @@ background:#2d231e;color:#d7bf97}
 @media(prefers-reduced-motion:reduce){
  #ae-primeros-pasos *{transition:none!important}
 }
+
+
+/* v1.1 · Bitácora elegante: adornos mínimos de la biblioteca Aeternalis */
+#ae-primeros-pasos .ap-hero::after{
+ content:"";position:absolute;bottom:9px;left:50%;transform:translateX(-50%);
+ width:min(340px,58%);height:15px;opacity:.72;pointer-events:none;
+ background:url("https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/02-separador-arcano-fino.webp") center/contain no-repeat;
+}
+#ae-primeros-pasos .ap-hero__compass{filter:brightness(1.23) sepia(.08) drop-shadow(0 8px 15px rgba(0,0,0,.35))}
+#ae-primeros-pasos .ap-milestones{
+ display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;
+ padding:15px 20px;background:rgba(231,213,172,.79);
+ border-bottom:1px solid #b39160;
+}
+#ae-primeros-pasos .ap-milestone{
+ display:flex;align-items:center;min-width:0;gap:10px;
+ padding:2px 14px;border-right:1px solid rgba(137,95,50,.25);
+}
+#ae-primeros-pasos .ap-milestone:last-child{border-right:0}
+#ae-primeros-pasos .ap-milestone img{
+ width:41px;height:48px;object-fit:contain;flex:0 0 41px;
+ filter:sepia(.12) brightness(.88);
+}
+#ae-primeros-pasos .ap-milestone strong{
+ display:block;font:400 16px/1.3 Georgia,serif;color:#44301f;
+}
+#ae-primeros-pasos .ap-milestone small{
+ display:block;color:#796047;font-size:11px;line-height:1.4;margin-top:2px;
+}
+#ae-primeros-pasos .ap-shortcuts{gap:12px;padding:13px 25px}
+#ae-primeros-pasos .ap-shortcuts button{
+ display:inline-flex;align-items:center;gap:6px;
+ border-radius:4px;background:rgba(20,15,10,.26);padding:6px 11px;
+ transition:background .18s,border-color .18s;
+}
+#ae-primeros-pasos .ap-shortcuts button img{
+ width:19px;height:21px;object-fit:contain;filter:brightness(1.2);
+}
+#ae-primeros-pasos .ap-shortcuts button:hover,
+#ae-primeros-pasos .ap-shortcuts button.is-active{
+ background:rgba(208,158,85,.25);border-color:#e2bb7b;
+}
+#ae-primeros-pasos .ap-trail__stop img{width:38px;height:42px;filter:brightness(1.22) sepia(.08)}
+#ae-primeros-pasos .ap-resource{
+ background:rgba(248,239,214,.72);border-color:rgba(156,119,70,.52);
+ box-shadow:0 2px 9px rgba(78,50,26,.05);transition:background .2s,border-color .2s,transform .2s;
+}
+#ae-primeros-pasos .ap-resource__icon{
+ border-radius:5px;background:rgba(128,94,55,.075);
+ display:grid;place-items:center;
+}
+#ae-primeros-pasos .ap-resource__icon img{
+ filter:brightness(.88) sepia(.12) drop-shadow(0 2px 2px rgba(70,46,25,.16));
+}
+#ae-primeros-pasos .ap-resource__priority{
+ width:max-content;max-width:100%;
+ border:1px solid rgba(148,106,60,.36);border-radius:3px;
+ background:rgba(170,127,67,.08);padding:1px 6px;letter-spacing:.6px;
+}
+#ae-primeros-pasos .ap-page__head{position:relative}
+#ae-primeros-pasos .ap-page__head::after{
+ content:"";position:absolute;left:24px;bottom:0;width:175px;height:1px;
+ background:linear-gradient(90deg,rgba(142,99,49,.58),transparent);
+}
+#ae-primeros-pasos .ap-actions button{
+ background:linear-gradient(180deg,#ecd29c,#dab980);
+ box-shadow:inset 0 1px rgba(255,255,255,.2);
+}
+#ae-primeros-pasos .ap-actions__review{
+ background:linear-gradient(180deg,#52694a,#405b3f)!important;
+}
+#ae-primeros-pasos .ap-footer{position:relative}
+#ae-primeros-pasos .ap-footer::before{
+ content:"";position:absolute;right:18px;top:10px;width:90px;height:13px;
+ background:url("https://morpheus-eko.github.io/aeternalis/assets/brujula/03-ornamentos/02-separador-arcano-fino.webp") center/contain no-repeat;opacity:.5;
+}
+@media(max-width:980px){
+ #ae-primeros-pasos .ap-milestones{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:9px}
+ #ae-primeros-pasos .ap-milestone:nth-child(2){border-right:0}
+}
+@media(max-width:580px){
+ #ae-primeros-pasos .ap-milestones{padding:10px 9px;column-gap:2px;row-gap:2px}
+ #ae-primeros-pasos .ap-milestone{padding:4px 5px;gap:5px}
+ #ae-primeros-pasos .ap-milestone img{width:30px;height:37px;flex-basis:30px}
+ #ae-primeros-pasos .ap-milestone strong{font-size:12px}
+ #ae-primeros-pasos .ap-milestone small{font-size:9px}
+ #ae-primeros-pasos .ap-shortcuts{padding:12px}
+ #ae-primeros-pasos .ap-shortcuts button img{width:16px;height:18px}
+}
+@media(prefers-reduced-motion:reduce){#ae-primeros-pasos .ap-resource{transition:none}}
+

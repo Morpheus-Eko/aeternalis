@@ -30,3 +30,7 @@ Las cinco etapas son botones internos funcionales y los accesos rápidos abren l
 Interfaz de itinerario de viaje (brújula, mapa, llave, pergamino y linterna), distinta de la Normativa y del Medallero. Solo usa rutas ya existentes bajo \`assets/\`, sin duplicar las imágenes.
 
 [Vista previa](https://morpheus-eko.github.io/aeternalis/primeros-pasos-preview.html)
+
+## Edición visual v1.1.0
+
+Se ha integrado una capa de estética sobria: cuatro hitos con ilustraciones originales de la biblioteca, iconos discretos para accesos rápidos, estilo refinado para tarjetas y un separador arcano fino. No hay snippets pendientes: el CSS, los hitos del JSON y el visor JS están conectados y publicados como archivos completos. Todas las URLs de `enlaces` siguen siendo `null` hasta que los apartados estén listos.
