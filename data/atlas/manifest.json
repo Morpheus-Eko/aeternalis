@@ -1,14 +1,14 @@
 {
   "schema": "aeternalis-atlas-v1",
-  "revision": "2026-11-28-sin-paso-directo-kale-essea-v22",
+  "revision": "2026-11-28-carta-nautica-v37-puertos-cercanos-fluvial",
   "counts": {
     "places": 122,
     "regions": 26,
     "roads": 173,
     "navalCells": 4851,
     "marineZones": 6,
-    "nauticalCorridors": 111,
-    "nauticalPoints": 55,
+    "nauticalCorridors": null,
+    "nauticalPoints": 57,
     "landHexesInspected": 8801,
     "landHexesWithPigment": 2027,
     "landRoadsAudited": 134,
@@ -35,7 +35,10 @@
     "roadNewMagentaConnections": 6,
     "navalInteriorWater": 1646,
     "navalCoastalSea": 585,
-    "navalDeepSea": 4266
+    "navalDeepSea": 4266,
+    "nauticalCorridorsSource": 111,
+    "fluvialBasinsConfirmed": 4,
+    "fluvialSites": 12
   },
   "files": {
     "catalog": "data/atlas/catalogo.json",
@@ -62,7 +65,9 @@
       "regions": "data/atlas/naval/zonas-maritimas.json",
       "ports": "data/atlas/naval/puertos.json",
       "water33Patch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
-      "redWater": "data/atlas/naval/agua-roja-nelson-1-1.json"
+      "redWater": "data/atlas/naval/agua-roja-nelson-1-1.json",
+      "fluvial": "data/atlas/naval/red-fluvial-declarada-v01.json",
+      "localCorridorPolicy": "data/atlas/naval/politica-corredores-cercanos-v01.json"
     },
     "roadEvidence": "data/atlas/caminos-evidencia.json",
     "roadAudit": "data/atlas/caminos-auditoria.json",
@@ -82,11 +87,13 @@
     "routesPreliminary": 97,
     "legacyRoutesRetained": 14,
     "accessPendingValidation": 10,
-    "notes": "La Carta Náutica v3.5 clasifica 4.851 hexágonos de mar y 1.646 de ríos/lagos/aguas interiores no verificadas; el grafo naval sólo atraviesa aristas marinas comprobadas, nunca tramos terrestres. Las rutas antiguas se recalculan en el visor.",
+    "notes": "Carta Náutica v3.7: el visor genera corredores de cercanía entre puertos marítimos contiguos y comprueba cada segmento sobre la malla roja. Los 111 enlaces históricos quedan como archivo de datos; no se dibujan si obligan a rodeos enormes. Se registran cuatro redes fluviales confirmadas, cuyos trazados exactos no se inventan.",
     "maskPatch": "data/atlas/naval/agua-mapa33-verdanteyl.json",
     "waterPatchHexes": 1558,
     "rivers": "Ríos y lagos se muestran como agua, pero requieren reglas de calado y navegabilidad antes de convertirse en corredores de barco.",
-    "waterRedMask": "data/atlas/naval/agua-roja-nelson-1-1.json"
+    "waterRedMask": "data/atlas/naval/agua-roja-nelson-1-1.json",
+    "fluvialConfirmed": "Fohn’Veridan, Ris’Veridan, Loth’Veridan, Alandra y Bastión Heidrun; Kaly y Cyn’dorei; Bahía Calad y Er’yelia; Faro Dugarth–Reddas–Rinnos y salida al mar desde el faro.",
+    "localConnections": "La cifra de corredores marítimos de cercanía se calcula en runtime al abrir la Carta Náutica; no debe copiarse el recuento 111 de las rutas históricas."
   },
   "mapPinCalibration": {
     "source": "Mapa_3.3.png",
@@ -137,6 +144,7 @@
     "kaleInitialization": "Corrección de la inicialización de pendingKaleRoadSave antes de usarla; evitar error de temporal dead zone que bloqueaba Atlas y la Carta Náutica.",
     "redWater20261128": "Se reemplaza el criterio azul de la malla naval con pigmento rojo del mapa Nelson 1.1. 4.851 celdas marinas, 1.646 interiores sin navegación automática.",
     "coastalLand20261128": "Essëa–Kale: se retira la carretera base-087, pues no existe paso directo por las montañas; Ithar’iamil–Bahía Hirion: se conserva la senda costera directa.",
-    "kaleEsseaNoDirectPass": "La ruta base-087 y todas sus variantes quedan excluidas del grafo vial; el motor v22 elimina las copias locales antiguas, respalda los borradores y bloquea su reconstrucción. No se crea un desvío alternativo sin trazo autorizado por el mapa."
+    "kaleEsseaNoDirectPass": "La ruta base-087 y todas sus variantes quedan excluidas del grafo vial; el motor v22 elimina las copias locales antiguas, respalda los borradores y bloquea su reconstrucción. No se crea un desvío alternativo sin trazo autorizado por el mapa.",
+    "navalNearPorts20261128": "Version 3.7: rutas marítimas de proximidad generadas por puerto con un máximo de 3 enlaces preferentes y 5 de apoyo, recorridos A* no mayores de 50 hexágonos y razón de rodeo limitada; cuencas fluviales marcadas sin generar líneas por tierra."
   }
 }
