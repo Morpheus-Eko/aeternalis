@@ -20,3 +20,6 @@ El maestro de Aeternalis ya carga automáticamente `css/medallero.css` y `js/med
 **Importante:** los 21 logros sin ilustración principal identificada se muestran con un símbolo provisional. No se atribuyen automáticamente recompensas ni estados de consecución a usuarios. La ausencia o fallo de un archivo de imagen muestra un emblema provisional, sin afectar la navegación.
 
 Origen gráfico: imágenes conservadas en el paquete [medallero_prototipo_aeternalis.zip] generado a partir del Excel; subir iconos a `assets/medallero/iconos/` para mostrarlos desde GitHub Pages.
+
+## Estado de los archivos gráficos
+Los 69 archivos WebP están preservados en el paquete local generado desde Medallero.xlsx, pero todavía no se han transferido como binarios a esta rama de GitHub. El catálogo conserva las rutas originales esperadas en `assets/medallero/iconos/`. Hasta completar ese directorio, el visor muestra el emblema provisional para los iconos ausentes. No sustituir las ilustraciones originales por otros assets.
