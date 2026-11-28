@@ -234,7 +234,11 @@ function start(root){
  let hex={radius:CONFIG.HEX_RADIUS,phaseX:CONFIG.HEX_PHASE_X,phaseY:CONFIG.HEX_PHASE_Y};
  let edges=INITIAL_EDGES.map(e=>({...e,via:[...(e.via||[])]})),pendingVia=[],draftLine=null, drawing=false;
  let selectedEdgeId='';
- const validEdge=e=>e&&cityById.has(e.from)&&cityById.has(e.to)&&e.from!==e.to&&['road','trail','sea'].includes(e.kind);
+ // No existe paso directo entre Essëa y Kale por la cadena montañosa.
+ const isForbiddenMountainLink=e=>!!e&&
+   ((e.from==='place-083'&&e.to==='place-084')||(e.from==='place-084'&&e.to==='place-083'));
+ const validEdge=e=>e&&cityById.has(e.from)&&cityById.has(e.to)&&e.from!==e.to&&
+   ['road','trail','sea'].includes(e.kind)&&!isForbiddenMountainLink(e);
  const cloneBase=()=>INITIAL_EDGES.map(e=>({...e,via:[...(e.via||[])]}));
  let currentRoute=null;
  const defaultState={hex:{radius:CONFIG.HEX_RADIUS,phaseX:0,phaseY:0},cities:{},edges:[]};
@@ -287,7 +291,7 @@ function start(root){
  }
   if(saved.cities&&typeof saved.cities==='object'){for(const [id,pos] of Object.entries(saved.cities)){const p=cityById.get(id);if(p&&Number.isFinite(pos.x)&&Number.isFinite(pos.y)&&!isStaleMapPin(id,pos)){p.x=clamp(pos.x,0,D.map.width);p.y=clamp(pos.y,0,D.map.height);pinRefs.get(id)?.setLatLng(XY(p.x,p.y))}}}
  }
- function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:21,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
+ function saveDraft(){try{const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};localStorage.setItem(CONFIG.STORAGE_KEY,JSON.stringify({version:1,networkVersion:22,hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,source:'Atlas v1.5: posiciones publicas consolidadas desde exportacion JSON del autor'}));}catch(e){console.warn('Borrador local no disponible',e)}}
  let pendingKaleRoadSave=false;
  // Agregar nueva conexión a borradores locales anteriores sin restablecer eliminaciones en v20+.
  if(saved&&Array.isArray(saved.edges)&&(saved.networkVersion||0)<20){
@@ -300,9 +304,8 @@ function start(root){
  }
  if(pendingKaleRoadSave&&(!saved||(saved.networkVersion||0)>=19))saveDraft();
 
- // Red 21: importar la senda directa de Ithar'iamil a Bahía Hirion y corregir
- // Essëa–Kale aun cuando el navegador tenga un borrador de red v20.
- // Respetar los trazados confirmados o redibujados manualmente.
+ // Red 21: incorporar la senda directa Ithar'iamil–Bahía Hirion.
+ // La antigua carretera Essëa–Kale no se migra ni se reconstruye.
  let nelsonRoadMigration=false;
  if(saved&&Array.isArray(saved.edges)&&(saved.networkVersion||0)<21){
    const latestById=new Map(INITIAL_EDGES.map(e=>[e.id,e]));
@@ -313,22 +316,20 @@ function start(root){
      edges.push({...publishedCoast,via:(publishedCoast.via||[]).map(p=>({...p}))});
      nelsonRoadMigration=true;
    }
-   const oldLakeRoad=localById.get('base-087'),correctLakeRoad=latestById.get('base-087');
-   const oldCoords=oldLakeRoad&&oldLakeRoad.via;
-   const unchangedPreviousTrace=oldLakeRoad&&oldLakeRoad.status!=='confirmada'&&
-     oldLakeRoad.origin==='red_inicial_2026_11'&&
-     Array.isArray(oldCoords)&&oldCoords.length===5&&
-     Math.abs(oldCoords[0].x-420)<1.5&&Math.abs(oldCoords[0].y-1002.3)<1.5&&
-     Math.abs(oldCoords[4].x-462)<1.5&&Math.abs(oldCoords[4].y-961.9)<1.5;
-   if(unchangedPreviousTrace&&correctLakeRoad){
-     oldLakeRoad.via=(correctLakeRoad.via||[]).map(p=>({...p}));
-     oldLakeRoad.origin=correctLakeRoad.origin;
-     oldLakeRoad.reason=correctLakeRoad.reason;
-     oldLakeRoad.cartographicEvidence=correctLakeRoad.cartographicEvidence;
-     nelsonRoadMigration=true;
-   }
+
  }
  if(nelsonRoadMigration)saveDraft();
+ // Red 22: eliminar la conexión directa Essëa–Kale de los borradores.
+ // Crear un respaldo local antes de retirar cualquier variante guardada.
+ if(saved&&Array.isArray(saved.edges)&&saved.edges.some(isForbiddenMountainLink)){
+   try{
+     const backup=CONFIG.STORAGE_KEY+'_RESPALDO_SIN_PASO_KALE_ESSEA_V22';
+     if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
+   }catch(err){console.warn('[Atlas] No se pudo respaldar la ruta descartada',err)}
+   edges=edges.filter(e=>!isForbiddenMountainLink(e));
+   saveDraft();
+ }
+
  if(saved&&(saved.networkVersion||0)<19){
    try{const backup=CONFIG.STORAGE_KEY+'_RESPALDO_ANTES_DE_CAMINOS_V19';
      if(!localStorage.getItem(backup))localStorage.setItem(backup,JSON.stringify(saved));
@@ -573,11 +574,14 @@ function start(root){
   byId('ae-hex-apply').onclick=()=>{const radius=Number(byId('ae-hex-size').value),x=Number(byId('ae-hex-x').value),y=Number(byId('ae-hex-y').value);
    if(!Number.isFinite(radius)||radius<5||radius>40||!Number.isFinite(x)||!Number.isFinite(y)){banner('Parámetros hexagonales inválidos.',2700);return}hex={radius,phaseX:x,phaseY:y};redrawGrid();saveDraft();refreshSelected();rerenderRoutes()};
   byId('ae-edge-start').onclick=()=>{const a=byId('ae-edge-from').value,b=byId('ae-edge-to').value;
-   if(a===b){byId('ae-edge-hint').textContent='Selecciona dos lugares distintos.';return}drawing=true;pendingVia=[];byId('ae-edge-save').disabled=false;byId('ae-edge-hint').textContent='Marca los quiebres del camino sobre el mapa. Termina con «Guardar tramo». No es necesario hacer clic en el origen o destino.';renderDraftLine()};
+   if(a===b){byId('ae-edge-hint').textContent='Selecciona dos lugares distintos.';return}
+    if(isForbiddenMountainLink({from:a,to:b})){byId('ae-edge-hint').textContent='No existe camino directo entre Essëa y Kale por las montañas.';return}
+    drawing=true;pendingVia=[];byId('ae-edge-save').disabled=false;byId('ae-edge-hint').textContent='Marca los quiebres del camino sobre el mapa. Termina con «Guardar tramo». No es necesario hacer clic en el origen o destino.';renderDraftLine()};
   byId('ae-edge-cancel').onclick=cancelDraw;
   byId('ae-edge-save').onclick=()=>{if(!drawing)return;const from=byId('ae-edge-from').value,to=byId('ae-edge-to').value;
    const e={id:'edge-'+Date.now(),from,to,kind:byId('ae-edge-kind').value,terrain:byId('ae-edge-terrain').value,climate:byId('ae-edge-climate').value,via:pendingVia.map(p=>({x:Number(p.x.toFixed(1)),y:Number(p.y.toFixed(1))})),status:byId('ae-edge-status').value,origin:'cartografo_manual',reason:'Tramo dibujado por cartógrafo'};
-   const count=updateEdgeHexes(e);edges.push(e);saveDraft();cancelDraw();rerenderRoutes();renderEditorPanel();banner('Tramo guardado: '+cityById.get(from).name+' → '+cityById.get(to).name+' · '+count+' hexágonos',3500)};
+   if(isForbiddenMountainLink(e)){banner('No existe un paso directo entre Essëa y Kale por las montañas.',3500);return}
+    const count=updateEdgeHexes(e);edges.push(e);saveDraft();cancelDraw();rerenderRoutes();renderEditorPanel();banner('Tramo guardado: '+cityById.get(from).name+' → '+cityById.get(to).name+' · '+count+' hexágonos',3500)};
   byId('ae-export').onclick=exportDraft;byId('ae-import').onclick=()=>byId('ae-import-file').click();byId('ae-import-file').onchange=importDraft;
    byId('ae-reset-official').onclick=()=>{
      if(!window.confirm('¿Restablecer el mapa publicado? Se descartarán las modificaciones locales que no hayas exportado.'))return;
@@ -608,7 +612,7 @@ function start(root){
   const a=cityById.get(byId('ae-edge-from').value),b=cityById.get(byId('ae-edge-to').value);
   draftLine=L.polyline([XY(a.x,a.y),...pendingVia.map(p=>XY(p.x,p.y)),XY(b.x,b.y)],{color:'#ffce69',weight:4,dashArray:'8 6'}).addTo(map)}
  map.on('click',ev=>{if(editorEnabled&&addingRegionVertex){const point=pointFromEvent(ev);addRegionVertex(point.x,point.y);return}if(!editorEnabled||!drawing)return;const point=pointFromEvent(ev);pendingVia.push(point);renderDraftLine();byId('ae-edge-hint').textContent=`Puntos intermedios: ${pendingVia.length}. Guardar tramo para incorporarlo a la red.`});
- function exportDraft(){const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};const info={version:1,networkVersion:19,coordinateSystem:'Aeternalis logical 2048x1571',rasterHighResolution:'4100x3146',hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,warning:'TODOS los tramos iniciales son propuestas, no rutas canónicas. Comprobar puertos, pasos, caminos y posiciones.'};
+ function exportDraft(){const cities={};for(const p of D.places)cities[p.id]={x:p.x,y:p.y};const info={version:1,networkVersion:22,coordinateSystem:'Aeternalis logical 2048x1571',rasterHighResolution:'4100x3146',hex,cities,regions:Object.fromEntries(D.regions.map(r=>[r.id,r.points])),edges,warning:'TODOS los tramos iniciales son propuestas, no rutas canónicas. Comprobar puertos, pasos, caminos y posiciones.'};
   const file=new Blob([JSON.stringify(info,null,2)],{type:'application/json'});const uri=URL.createObjectURL(file);const a=document.createElement('a');a.href=uri;a.download='Aeternalis_Cartografia_Caminos.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(uri),1500)}
  function importDraft(ev){const file=ev.target.files?.[0];if(!file)return;file.text().then(s=>{const v=JSON.parse(s);if(v.version!==1||!Array.isArray(v.edges)||!v.cities||!v.hex)throw Error('Formato de datos no reconocido');
   edges=v.edges.filter(validEdge);hex=v.hex;currentRoute=null;selectedEdgeId='';
