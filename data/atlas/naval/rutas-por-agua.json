@@ -1,7 +1,7 @@
 {
   "schema": "aeternalis-rutas-agua-v1",
-  "revision": "2026-11-27-costa-rios-yugen-mapa33",
-  "status": "rutas_preliminares_pendientes_de_verificar_con_mapa_33",
+  "revision": "2026-11-28-rutas-legacy-con-recálculo-nelson11",
+  "status": "rutas_fuente_preliminares_recalculadas_dinamicamente_con_malla_nelson_1_1",
   "sourceMapSha256": "79d8d66d34951f531ddc98bdb04f2e8d9efbfdffb395da86dee4fd5bb0cbc71d",
   "routes": [
     {
@@ -5596,11 +5596,13 @@
     }
   ],
   "seaOnlyEnforced": true,
-  "notes": "Grafo de hexágonos navegables calculado a partir del Mapa 3.21. Un tramo de aproximación fluvial no está confirmado cuando la localidad dista >25 píxeles lógicos del componente oceánico. No debe afirmarse que el río completo es navegable.",
+  "notes": "Los 111 tramos originales solo sirven como pares de puertos candidatos; el visor naval 3.5 recalcula sus trayectorias sobre la máscara roja Nelson 1.1, descarta los incomunicados y no asume que los ríos y lagos interiores sean navegables.",
   "runtimeCorrection": {
-    "source": "data/atlas/naval/agua-mapa33-verdanteyl.json",
+    "source": "data/atlas/naval/agua-roja-nelson-1-1.json",
     "motor": "js/supermapa-naval.js",
-    "revision": "3.4.0",
-    "method": "A* sobre malla hídrica actualizada, con puertos reajustados y rutas inválidas omitidas."
+    "revision": "3.5.0",
+    "method": "Al abrir Carta Náutica, cada corredor se vuelve a resolver por A* sobre hexágonos del mar rojo con aristas verificadas; los waypoints antiguos no se dibujan directamente.",
+    "excludes": "Celdas de tierra, ríos, lagos y aguas interiores o de navegabilidad no verificada.",
+    "checked": "El antiguo arreglo routes contiene propuestas de destino; no pretende representar geometría ya certificada en la nueva imagen."
   }
 }
