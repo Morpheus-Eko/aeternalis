@@ -1,0 +1,81 @@
+{
+  "schema": "aeternalis-agua-roja-nelson-v1",
+  "revision": "2026-11-28-mapa-nelson-1-1",
+  "source": {
+    "filename": "Mapa_Nelson_1.1.png",
+    "sha256": "23f5b979b8855df4e6c460dc566940d7f759b62a512f06dbde2444c679001243",
+    "width": 2048,
+    "height": 1571,
+    "note": "Fuente de clasificación proporcionada por el autor: el pigmento rojo identifica toda clase de agua, incluidos mares, ríos y lagos. No se publica ni modifica la imagen."
+  },
+  "grid": {
+    "orientation": "flat-top",
+    "radius": 9.3333,
+    "qMin": 2,
+    "qMax": 144,
+    "minX": 28,
+    "maxX": 2020,
+    "minY": 27,
+    "maxY": 1544,
+    "stepY": "sqrt(3)*radius",
+    "rStartFormula": "ceil(minY/H-q/2)",
+    "rEndFormula": "floor(maxY/H-q/2)",
+    "order": "q creciente, r creciente"
+  },
+  "encoding": {
+    "kind": "zlib-deflate+base64",
+    "layout": "first 2 bits of type per grid cell (low bit first), followed by 6-bit neighbor mask per navigable cell, little-endian bit-packed",
+    "types": {
+      "0": "tierra",
+      "1": "orilla_marina_navegable",
+      "2": "mar_profundo_navegable",
+      "3": "agua_interior_rio_lago_o_cauce_no_verificado"
+    },
+    "navBitOrder": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ]
+    ],
+    "note": "Los enlaces entre hexágonos fueron comprobados por muestreo de píxeles rojos a lo largo de la arista. No se habilita navegar entre dos celdas separadas por una lengua de tierra."
+  },
+  "stats": {
+    "gridCells": 13442,
+    "deepSea": 4266,
+    "coastalNavigable": 585,
+    "otherRedWater": 1646,
+    "land": 6945,
+    "shipCells": 4851,
+    "rawByteCount": 7000,
+    "sha256Raw": "7c52be83d606fae49eea94bf4da48c860a6a883be767e5db7eb60f3ec81dfb69"
+  },
+  "criteria": {
+    "red": "R>48, R>1.55*(G+1), R>1.4*(B+1), G<128, B<128",
+    "colorClose": "morphological close 3×3",
+    "openWater": "morphological open ellipse 11×11",
+    "ship": "rojo en al menos 48% del hexágono, continuidad con la mayor masa de mar abierto y arista compartida con presencia de agua roja >=55% de puntos muestreados",
+    "water": "pigmento rojo en al menos 10% de las muestras interiores de hexágono",
+    "limitations": "Ríos estrechos y lagos interiores identificados como agua, sin asumir que admitan buques; un paso fluvial requiere verificación del lore y profundidad"
+  },
+  "packed": "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"
+}
