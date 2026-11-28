@@ -1,0 +1,309 @@
+{
+  "schema": "aeternalis-prologo-ozma-v1",
+  "version": "1.0.0",
+  "title": "Prólogo del Bardo",
+  "subtitle": "Una conversación junto al fuego",
+  "eyebrow": "AETERNALIS · CUARTA ERA",
+  "narrator": {
+    "name": "Ozma",
+    "role": "El bardo",
+    "image": "https://2img.net/u/4917/89/95/32/avatars/1-53.jpg",
+    "imageAlt": "Retrato original de Ozma, el bardo",
+    "invitation": "Siéntate, viajero. Tal vez todavía consiga sorprenderte."
+  },
+  "scene": {
+    "image": "https://2img.net/i.imgur.com/8CZFJnE.png",
+    "imageAlt": "Interior de una taberna de Aeternalis iluminada por el hogar, con viajeros reunidos",
+    "caption": "Una taberna cualquiera, al término de una jornada incierta."
+  },
+  "intro": [
+    {
+      "type": "acotacion",
+      "text": "La taberna está llena de voces. Entre el crepitar de la leña, el humo del tabaco y el choque de las jarras, un hombre observa al recién llegado desde el otro extremo de la mesa. Tiene una copa de vino en la mano y la expresión divertida de quien ha escuchado demasiadas historias."
+    },
+    {
+      "type": "acotacion",
+      "text": "Es Ozma, el bardo. Levanta su copa a modo de saludo y señala el asiento vacío frente a él."
+    }
+  ],
+  "cantos": [
+    {
+      "id": "mundo",
+      "numero": "I",
+      "titulo": "Un mundo que ya no es el mismo",
+      "icon": "assets/codex/separadores/estrella_brujula_01.webp",
+      "paragraphs": [
+        {
+          "type": "voz",
+          "text": "¿Y qué quieres que te cuente que no sepas, viajero? ¿Que el mundo se está yendo al demonio? ¡Ja! Para eso no necesitas un bardo. Basta con salir a la calle y escuchar a los mercaderes discutir sobre el precio del pan."
+        },
+        {
+          "type": "voz",
+          "text": "Pero ya que has venido hasta aquí, siéntate. Pide algo de beber y presta atención. Tal vez todavía consiga sorprenderte."
+        },
+        {
+          "type": "voz",
+          "text": "Todo comenzó a cambiar con la Cuarta Era, cuando aparecieron los humanos. Desde entonces, Aeternalis no ha conocido demasiado descanso."
+        },
+        {
+          "type": "voz",
+          "text": "Hubo un tiempo en que los Altos Elfos, con su orgullosa Compañía de Plata, se enseñoreaban de los mares. ¡Ah, qué tiempos aquellos! Aunque dudo que los marineros que pagaban sus tributos los recuerden con tanto cariño."
+        },
+        {
+          "type": "voz",
+          "text": "Ahora tienen competencia. Los Señores Piratas gobiernan sus propias aguas, y Avalon ha levantado una armada humana formidable, sostenida por la Compañía Solaria y la Compañía Reina-Turquesa."
+        },
+        {
+          "type": "voz",
+          "text": "Y en tierra firme las cosas no son mejores."
+        },
+        {
+          "type": "voz",
+          "text": "Los Yūgen han llegado con ese inquietante poder espiritual suyo, capaz de llamar a espíritus y demonios. Como si no tuviéramos suficientes desgracias entre los vivos, ahora también debemos preocuparnos por los muertos."
+        },
+        {
+          "type": "voz",
+          "text": "Después vinieron los imperios. El Sacro Imperio de Arcadia, levantado sobre la alianza de humanos, enanos y montaraces. Y frente a él, el Imperio Eldoria, donde Altos Elfos y Yūgen han unido sus destinos."
+        },
+        {
+          "type": "voz",
+          "text": "Dos grandes potencias, dos maneras de entender el mundo y demasiados hombres dispuestos a morir para demostrar cuál tiene razón. Así se escribe la historia de Northia, forastero. Con coronas, juramentos y una cantidad indecente de sangre."
+        }
+      ]
+    },
+    {
+      "id": "sombras",
+      "numero": "II",
+      "titulo": "Los señores de las sombras",
+      "icon": "assets/codex/separadores/craneo_plumas_01.webp",
+      "paragraphs": [
+        {
+          "type": "acotacion",
+          "text": "Ozma se inclina hacia delante. Su voz desciende hasta confundirse con el murmullo de la taberna."
+        },
+        {
+          "type": "voz",
+          "text": "Pero no seas ingenuo. Las coronas son fáciles de ver. Los verdaderos peligros rara vez se sientan en un trono."
+        },
+        {
+          "type": "voz",
+          "text": "Hay organizaciones que llevan generaciones moviendo los hilos entre las sombras. Escuchan detrás de las puertas, compran secretos, corrompen voluntades y esperan pacientemente a que otros hagan el trabajo sucio."
+        },
+        {
+          "type": "voz",
+          "text": "Los Susurradores, por ejemplo."
+        },
+        {
+          "type": "voz",
+          "text": "Dicen que han extendido su influencia hasta las grandes escuelas de magia: Laberinthia, la Academia Niffariell, la Torre Blanca y los Salones Dorados. ¡Imagínate! Lugares donde los sabios prometen desentrañar los misterios del universo, mientras quizá ni siquiera conocen los secretos de la habitación contigua."
+        },
+        {
+          "type": "voz",
+          "text": "Aunque tampoco hace falta vestir una túnica oscura para gobernar desde las sombras. La Iglesia de las Cuatro Luces ya demostró cuánto poder puede conseguirse cuando se mezclan la fe y la política. Reinos e imperios enteros han sentido su mano."
+        },
+        {
+          "type": "voz",
+          "text": "Y luego están la Piedra Umbra y aquel repugnante Vínculo de Esclavitud…"
+        },
+        {
+          "type": "acotacion",
+          "text": "El bardo guarda silencio unos instantes y hace girar el vino en su copa."
+        },
+        {
+          "type": "voz",
+          "text": "No. De eso hablaremos otro día. Hay historias que estropean incluso el mejor de los vinos."
+        }
+      ]
+    },
+    {
+      "id": "bosques",
+      "numero": "III",
+      "titulo": "Los bosques que guardan secretos",
+      "icon": "assets/codex/separadores/silvestre_hojas_jade_01.webp",
+      "paragraphs": [
+        {
+          "type": "voz",
+          "text": "¿Has oído hablar de Verdenteyl? Un continente hermoso, si hemos de creer a quienes regresan de allí. Bosques interminables, tierras fértiles y una paz que, como casi todas las cosas hermosas de este mundo, resulta mucho más frágil de lo que parece."
+        },
+        {
+          "type": "voz",
+          "text": "Las Amarant y los cazadores del Círculo de Faëandir permanecen aislados de sus hermanos del norte por causa de la guerra. Y mientras los emperadores discuten fronteras, ellos enfrentan monstruos cada vez más numerosos en el gran Bosque de Veridia."
+        },
+        {
+          "type": "voz",
+          "text": "¡Monstruos, viajero! No simples lobos hambrientos ni bandidos disfrazados con pieles. Criaturas capaces de hacer que el más valiente recuerde súbitamente algún asunto urgente en su hogar."
+        },
+        {
+          "type": "voz",
+          "text": "Los Sinhair tampoco lo tienen fácil. Junto a los eruditos del Laberinto de Astarax, continúan buscando respuestas a la Sangrenegra, esa enfermedad terrible que ha condenado a tantos. Y no es la única peste que dificulta sus expediciones hacia los misterios del Gran Bosque."
+        },
+        {
+          "type": "voz",
+          "text": "Piensa en ello. Tantos conocimientos olvidados, tantos secretos esperando bajo las raíces… y a veces basta una herida, una fiebre o una gota de sangre corrompida para impedir que alguien regrese a contarlos."
+        }
+      ]
+    },
+    {
+      "id": "fronteras",
+      "numero": "IV",
+      "titulo": "Allí donde termina el mundo conocido",
+      "icon": "assets/codex/separadores/brujula_plumas_01.webp",
+      "paragraphs": [
+        {
+          "type": "acotacion",
+          "text": "El bardo se reclina en su asiento. Durante un momento parece escuchar algo más allá de la música y las conversaciones."
+        },
+        {
+          "type": "voz",
+          "text": "¿Y adónde piensas huir si todo empeora?"
+        },
+        {
+          "type": "voz",
+          "text": "¿Al sur? Allí los monstruos marinos se han vuelto enormes. Más grandes, más agresivos y más letales que cuanto recuerdan los viejos navegantes."
+        },
+        {
+          "type": "voz",
+          "text": "¿Al este? Pregunta por las tormentas y las mareas. Pregunta qué ocurrió después de que cuatro mil barcos desaparecieran en el más allá. Después dime si todavía te apetece embarcarte."
+        },
+        {
+          "type": "voz",
+          "text": "¿Al norte? Las montañas son cada vez más despiadadas. El frío ha alcanzado extremos que ni los montaraces, esos orgullosos hijos del hielo, consiguen soportar."
+        },
+        {
+          "type": "voz",
+          "text": "¿Y al suroeste?"
+        },
+        {
+          "type": "acotacion",
+          "text": "Ozma deja la copa sobre la mesa."
+        },
+        {
+          "type": "voz",
+          "text": "Ushios."
+        },
+        {
+          "type": "voz",
+          "text": "Solo pronunciar ese nombre debería bastarte. Sus tierras retorcidas continúan allí, pacientes, como si el tiempo se hubiera detenido. Su corrupción se extiende sobre el mar sombrío, y sus misterios siguen reclamando la vida de cuantos se atreven a buscarlos."
+        },
+        {
+          "type": "voz",
+          "text": "No sé qué me inquieta más: lo que sabemos de aquel lugar o lo que todavía ignoramos."
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "numero": "V",
+      "titulo": "Una tregua, una copa y una decisión",
+      "icon": "assets/codex/separadores/libro_alas_01.webp",
+      "paragraphs": [
+        {
+          "type": "voz",
+          "text": "En fin… Aquí estamos. Con un poco de tabaco enano, una botella de vino y este atardecer que se empeña en recordarnos que algún día la mismísima Luell vendrá a buscarnos."
+        },
+        {
+          "type": "voz",
+          "text": "¡Salud por ella! Aunque espero que no tenga demasiada prisa."
+        },
+        {
+          "type": "voz",
+          "text": "Y mientras tanto, tenemos una tregua. Sí, sí. Esa magnífica, gloriosa y estúpida tregua que la emperatriz Alatariel ha conseguido a espaldas del emperador élfico."
+        },
+        {
+          "type": "voz",
+          "text": "¿Crees que durará? Yo le concedo un par de estaciones. Un año, si los dioses están especialmente entretenidos mirando hacia otro lado."
+        },
+        {
+          "type": "voz",
+          "text": "¿Y después? ¿Nos iremos a vivir entre los medianos, cultivando nabos y escuchando sus interminables discusiones sobre monedas? ¡Por todos los dioses, no! Ya he soportado suficientes canciones sobre cosechas para una vida entera."
+        },
+        {
+          "type": "voz",
+          "text": "Aunque, pensándolo bien, tampoco creo que haya demasiados lugares donde esconderse. Si no nos alcanzan los supremacistas élficos, serán los fanáticos religiosos. Si no son los imperios, serán los piratas. Y si conseguimos librarnos de todos ellos, siempre quedará algún monstruo esperando en el bosque."
+        },
+        {
+          "type": "acotacion",
+          "text": "Ozma observa el fuego. Su sonrisa se desvanece por un instante."
+        },
+        {
+          "type": "voz",
+          "text": "Supongo que acabaré luchando. Todavía no sé por quién. Tal vez ni siquiera sepa contra quién cuando llegue el momento. Pero lucharé."
+        },
+        {
+          "type": "voz",
+          "text": "O quizá no. Quizá mañana descubra que todo esto era una terrible idea y decida hacerme granjero."
+        },
+        {
+          "type": "acotacion",
+          "text": "El bardo suelta una carcajada y vuelve a llenar su copa."
+        },
+        {
+          "type": "voz",
+          "text": "Necesito otra botella para pensarlo. Las decisiones importantes jamás deberían tomarse con la garganta seca."
+        },
+        {
+          "type": "voz",
+          "text": "Pero basta de hablar de mí."
+        },
+        {
+          "type": "acotacion",
+          "text": "Ozma acerca una jarra vacía hacia el otro lado de la mesa. Sus ojos se encuentran con los del recién llegado."
+        },
+        {
+          "type": "voz",
+          "text": "Has escuchado hablar de reyes, imperios, dioses y monstruos. De guerras que comenzaron antes de que nacieras y de secretos que podrían sobrevivirte."
+        },
+        {
+          "type": "voz",
+          "text": "Ahora falta una historia. La tuya."
+        }
+      ]
+    }
+  ],
+  "finale": {
+    "lead": "Dime, viajero…",
+    "question": "¿Ya has decidido cómo vivirás tu vida en Aeternalis?",
+    "signature": "Ozma · Bardo de los caminos"
+  },
+  "links": [
+    {
+      "id": "normativa",
+      "label": "Normativa",
+      "url": "https://aeternalis.foroactivo.com/t22-normativa-del-foro#53",
+      "icon": "assets/codex/separadores/libro_alas_01.webp",
+      "description": "Las reglas de nuestro mundo"
+    },
+    {
+      "id": "cronologia",
+      "label": "Cronología",
+      "url": "https://aeternalis.foroactivo.com/t31-02-cronologia#64",
+      "icon": "assets/codex/objetos/reloj_arena_01.webp",
+      "description": "De las eras y sus sucesos"
+    },
+    {
+      "id": "razas",
+      "label": "Razas",
+      "url": "https://aeternalis.foroactivo.com/t32-03-informacion-de-razas#65",
+      "icon": "assets/codex/emblemas/arbol_ancestral_01.webp",
+      "description": "Conoce los pueblos de Aeternalis"
+    },
+    {
+      "id": "regiones",
+      "label": "Regiones",
+      "url": "https://aeternalis.foroactivo.com/h1-mapa",
+      "icon": "assets/codex/separadores/estrella_brujula_01.webp",
+      "description": "Explora los mapas y territorios"
+    },
+    {
+      "id": "glosario",
+      "label": "Glosario",
+      "url": "https://aeternalis.foroactivo.com/",
+      "icon": "assets/codex/separadores/pluma_dorada_01.webp",
+      "description": "Voces, nombres y conceptos"
+    }
+  ],
+  "editorial": {
+    "imagePolicy": "Las dos imágenes de 2img.net son las URLs originales facilitadas por el usuario, sin descarga ni edición. Revisar disponibilidad en Foroactivo.",
+    "creativeNote": "Adaptación teatral del texto de Ambientación original: conservar nombres, facciones y acontecimientos. Las acotaciones escénicas son narrativas."
+  }
+}
