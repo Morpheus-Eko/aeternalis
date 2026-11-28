@@ -166,12 +166,12 @@
      var state={active:false,showHex:false,showRegions:true,showNetwork:true,from:'place-017',to:'place-018',sails:1,route:null,region:null,inspect:false};
      var zonesLayer=L.layerGroup(),routeNetworkLayer=L.layerGroup(),riverNetworkLayer=L.layerGroup(),routeLayer=L.layerGroup(),portLayer=L.layerGroup(),hexLayer=null;
      var portMarkers=new Map(),regionPolys=new Map();
-     var button=document.createElement('button');button.type='button';button.id='ae-toggle-naval';button.textContent='⚓ Carta Náutica';button.setAttribute('aria-pressed','false');button.title='Puertos, rutas marítimas y regiones del océano';toolbar.appendChild(button);
+     var button=document.createElement('button');button.type='button';button.id='ae-toggle-naval';button.textContent='⚓ Carta Náutica';button.setAttribute('aria-pressed','false');button.title='Puertos, ríos navegables, rutas marítimas y regiones del océano';toolbar.appendChild(button);
      var panel=document.createElement('aside');panel.id='ae-supermapa-naval-panel';panel.className='ae-naval-panel';panel.hidden=true;panel.setAttribute('aria-label','Carta Náutica de Aeternalis');viewport.appendChild(panel);
      panel.innerHTML='<div class="ae-naval-head"><span class="ae-naval-kicker">ATLAS DE LOS MARES · AETERNALIS</span><button type="button" id="ae-naval-close" aria-label="Cerrar Carta Náutica">✕</button><h2>Carta Náutica</h2><p>Cartografía de puertos, corrientes y regiones marítimas.</p></div>'+
-      '<div class="ae-naval-body"><section class="ae-naval-section"><h3>Itinerario marítimo</h3><label for="ae-naval-from">Escala o ribera de partida</label><select id="ae-naval-from"></select><label for="ae-naval-to">Escala o ribera de destino</label><select id="ae-naval-to"></select><label for="ae-naval-sails">Velas del navío</label><select id="ae-naval-sails"><option value="1">I · 24 h por hexágono</option><option value="2">II · 18 h por hexágono</option><option value="3">III · 12 h por hexágono</option><option value="4">Legendarias · 8 h por hexágono</option></select><button type="button" class="ae-naval-action" id="ae-naval-route">Trazar travesía</button><div class="ae-naval-result" id="ae-naval-result" aria-live="polite">Selecciona los puertos para consultar el rumbo.</div></section>'+
+      '<div class="ae-naval-body"><section class="ae-naval-section"><h3>Itinerario marítimo y fluvial</h3><label for="ae-naval-from">Escala o ribera de partida</label><select id="ae-naval-from"></select><label for="ae-naval-to">Escala o ribera de destino</label><select id="ae-naval-to"></select><label for="ae-naval-sails">Velas del navío</label><select id="ae-naval-sails"><option value="1">I · 24 h por hexágono</option><option value="2">II · 18 h por hexágono</option><option value="3">III · 12 h por hexágono</option><option value="4">Legendarias · 8 h por hexágono</option></select><button type="button" class="ae-naval-action" id="ae-naval-route">Trazar travesía</button><div class="ae-naval-result" id="ae-naval-result" aria-live="polite">Selecciona los puertos para consultar el rumbo.</div></section>'+
       '<section class="ae-naval-section"><h3>Puertos próximos</h3><div id="ae-naval-nearby" class="ae-naval-nearby"><p>Las conexiones cercanas se calculan al abrir la carta.</p></div></section>'+ 
-      '<section class="ae-naval-section"><h3>Capas náuticas</h3><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-hex"> Hexágonos de agua</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-network" checked> Corredores marítimos</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-regions" checked> Regiones del mar</label></section>'+
+      '<section class="ae-naval-section"><h3>Capas náuticas</h3><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-hex"> Hexágonos de agua</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-network" checked> Corredores marítimos y ríos</label><label class="ae-naval-switch"><input type="checkbox" id="ae-naval-toggle-regions" checked> Regiones del mar</label></section>'+
       '<section class="ae-naval-section"><h3>Mares y regiones</h3><div id="ae-naval-region-list" class="ae-naval-region-list"></div><article id="ae-naval-region-detail" class="ae-naval-region-detail"><p>Selecciona una región para consultar sus mares, vientos y peligros.</p></article></section>'+
       '<p class="ae-naval-meta" id="ae-naval-metrics"></p></div>';
      var q=function(id){return document.getElementById(id);};
@@ -412,7 +412,7 @@
            surfaceWater.length.toLocaleString('es-CL')+' de otras aguas · '+
            ports.length+' escalas registradas · '+maritimePorts.length+' con acceso marítimo · '+
            selected.length+' corredores cercanos ('+rejected+' propuestas sin paso corto verificado).';
-         console.info('[Aeternalis/Naval v3.7]',{
+         console.info('[Aeternalis/Naval v3.8]',{
            maritimePorts:maritimePorts.length,fluvialSites:fluvial.sites.length,
            candidatePairs:candidates.length,localRoutes:selected.length,rejected:rejected
          });
@@ -508,7 +508,7 @@
      q('ae-naval-toggle-network').addEventListener('change',function(e){state.showNetwork=e.target.checked;setVisible();});
      plotZones();drawPorts();drawVerifiedRivers();setVisible();
      // Public API for other modules, deliberately read-only for region and water data.
-     window.__AETERNALIS_SUPERMAPA_NAVAL__={version:VERSION,map:map,toggle:function(){button.click();},getState:function(){return Object.assign({},state);},getSummary:function(){return {hexagons:water.cells.length,otherWaterHexagons:surfaceWater.length,regions:zones.regions.length,connections:routes.routes.length,ports:ports.length};}};
+     window.__AETERNALIS_SUPERMAPA_NAVAL__={version:VERSION,map:map,toggle:function(){button.click();},getState:function(){return Object.assign({},state);},getSummary:function(){return {hexagons:water.cells.length,otherWaterHexagons:surfaceWater.length,regions:zones.regions.length,connections:routes.routes.length,ports:ports.length,verifiedRiverSegments:verifiedRiverSegments.length,riverMouthReady:!!anchorById.get('place-014')};}};
      // Optional deep-link: ?naval=1 opens the maritime chart directly.
      if(new URLSearchParams(window.location.search).get('naval')==='1'){state.active=true;setVisible();ensureSeaCorridors();}
    }).catch(function(err){console.error('[Supermapa Naval]',err);window.__AETERNALIS_SUPERMAPA_NAVAL_LOADER__=false;});
