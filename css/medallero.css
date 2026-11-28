@@ -1,5 +1,5 @@
 /* Aeternalis · Medallero v1.0.0. Encapsulado, sin estilos globales */
-#ae-medallero-app{--am-gold:#c6a875;--am-ink:#e8d9bc;--am-edge:rgba(195,164,112,.25);--am-muted:#aaa08c;position:relative;isolation:isolate;max-width:1190px;margin:22px auto 45px;background:radial-gradient(ellipse at top,rgba(170,117,54,.09),transparent 40%),linear-gradient(135deg,#1c2220,#111716 66%,#1e1e19);border:1px solid var(--am-edge);color:var(--am-ink);font:15px/1.7 inherit;overflow:hidden;box-shadow:0 24px 70px #0006}
+#ae-medallero-app{--am-gold:#c6a875;--am-ink:#e8d9bc;--am-edge:rgba(195,164,112,.25);--am-muted:#aaa08c;position:relative;isolation:isolate;max-width:1190px;margin:22px auto 45px;background:radial-gradient(ellipse at top,rgba(170,117,54,.09),transparent 40%),linear-gradient(135deg,#1c2220,#111716 66%,#1e1e19);border:1px solid var(--am-edge);color:var(--am-ink);font-size:15px;line-height:1.7;font-family:inherit;overflow:hidden;box-shadow:0 24px 70px #0006}
 #ae-medallero-app *,#ae-medallero-app *::before,#ae-medallero-app *::after{box-sizing:border-box}
 #ae-medallero-app [hidden]{display:none!important}
 #ae-medallero-app button,#ae-medallero-app input{font:inherit}
