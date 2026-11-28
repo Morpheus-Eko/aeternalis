@@ -1,0 +1,7 @@
+/* Vista independiente del Prólogo del Bardo. No se instala en Foroactivo. */
+html{background:#11100e;scroll-behavior:smooth}
+body{margin:0;min-height:100vh;padding:20px 0 70px;background:radial-gradient(circle at 50% 0%,#35261e,#12100e 72%);color:#f0dfc7;font-family:Georgia,"Times New Roman",serif}
+.preview-meta{max-width:1120px;margin:0 auto 12px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#9f8668;font-size:13px}
+.preview-meta a{color:#dbb884}
+@media(max-width:600px){body{padding:4px 0 35px}.preview-meta{padding:5px 12px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
