@@ -2,7 +2,7 @@
 #ae-primeros-pasos{
 --ap-leather:#28201b;--ap-ink:#37291f;--ap-muted:#725c47;--ap-gold:#ba8d4b;--ap-paper:#e4cea0;--ap-border:#aa8658;
 position:relative;isolation:isolate;max-width:1170px;margin:20px auto 50px;
-color:var(--ap-ink);font:15px/1.68 inherit;overflow:hidden;
+color:var(--ap-ink);font-size:15px;line-height:1.68;font-family:inherit;overflow:hidden;
 border:2px solid #8e6638;border-radius:13px;
 background:#d9bf87 url("https://morpheus-eko.github.io/aeternalis/assets/codex/texturas/pergamino_01.webp") center/cover;
 box-shadow:0 18px 60px rgba(0,0,0,.48),inset 0 0 0 5px rgba(96,60,31,.15);
@@ -51,7 +51,7 @@ border:1px solid #a47a45;border-radius:20px;font-size:12px;transition:background
 #ae-primeros-pasos .ap-trail{background:linear-gradient(180deg,#30241d,#211c1a);color:#f3e0c1;
 border-right:4px solid #a37c49;padding:30px 17px}
 #ae-primeros-pasos .ap-trail__heading{margin:0 8px 19px;font:italic 24px Georgia,serif;color:#f2d39a}
-#ae-primeros-pasos .ap-trail__heading small{font:12px/1.6 inherit;color:#bba98c;display:block;letter-spacing:.3px;margin-top:6px}
+#ae-primeros-pasos .ap-trail__heading small{font-size:12px;line-height:1.6;font-family:inherit;color:#bba98c;display:block;letter-spacing:.3px;margin-top:6px}
 #ae-primeros-pasos .ap-trail__steps{position:relative;display:grid;gap:10px}
 #ae-primeros-pasos .ap-trail__steps::before{content:"";position:absolute;top:19px;bottom:22px;left:21px;border-left:2px dashed #9c7847;opacity:.65}
 #ae-primeros-pasos .ap-trail__stop{
