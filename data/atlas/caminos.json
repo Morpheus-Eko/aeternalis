@@ -4008,40 +4008,54 @@
     "climate": "normal",
     "via": [
       {
-        "x": 420,
-        "y": 1002.3
+        "x": 418,
+        "y": 1003
       },
       {
-        "x": 434,
-        "y": 994.2
+        "x": 432,
+        "y": 989
       },
       {
-        "x": 448,
-        "y": 986.1
+        "x": 436,
+        "y": 979
       },
       {
-        "x": 462,
-        "y": 978
+        "x": 436,
+        "y": 963
       },
       {
-        "x": 462,
-        "y": 961.9
+        "x": 439,
+        "y": 951
+      },
+      {
+        "x": 445,
+        "y": 944
+      },
+      {
+        "x": 453,
+        "y": 939
+      },
+      {
+        "x": 460,
+        "y": 940
       }
     ],
     "status": "propuesta",
-    "origin": "red_inicial_2026_11",
-    "reason": "Recorrido de los puntos impresos, incluyendo pasos ocultos por rótulos; pendiente de validación final. No es línea recta entre localidades.",
+    "origin": "mapa_nelson_1_1_agua_roja_2026_11_28",
+    "reason": "Se corrige la carretera Essëa–Kale: el trazado antiguo atravesaba el lago rojo al sur de Kale. Nuevo recorrido por su margen occidental y septentrional, conservando los puntos de entrada y salida en tierra.",
     "priority": "normal",
     "from": "place-083",
     "cartographicEvidence": {
-      "source": "Mapa_3.21(2).png",
-      "pigment": "negro",
-      "method": "calcado_guiado_por_puntos_y_hexagonos",
-      "labelOcclusions": "interpolacion_de_trazado_bajo_letras",
-      "hexagons": 6,
-      "waterMaskPct": 0,
-      "confidence": "sugerencia",
-      "checked": "pendiente"
+      "source": "Mapa_Nelson_1.1.png",
+      "sourceSha256": "23f5b979b8855df4e6c460dc566940d7f759b62a512f06dbde2444c679001243",
+      "resolution": [
+        2048,
+        1571
+      ],
+      "method": "Desvío sobre tierra, inspección de la orilla occidental del lago y muestreo subpíxel de los segmentos",
+      "previousWaterCrossing": "Dos tramos penetraban el lago y cruzaban decenas de píxeles de agua roja",
+      "newWaterCrossingPixels": 0,
+      "status": "trazado_corregido_pendiente_validacion_del_autor"
     }
   },
   {
