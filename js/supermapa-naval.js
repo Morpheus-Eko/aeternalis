@@ -242,29 +242,76 @@
        return null;
      }
      var networkRequested=false;
-      function ensureSeaCorridors(){
-        if(networkRequested)return;
-        networkRequested=true;
-        rebuildSeaCorridors();
-      }
-      function rebuildSeaCorridors(){
-       // No reutilizar como dibujo ninguna ruta sobre un hexágono terrestre.
-       var prior=referenceRoutes.slice(),valid=[],excluded=0,index=0;
-       function batch(){
-         for(var k=0;k<4&&index<prior.length;k++,index++){
-           var old=prior[index],a=anchorById.get(old.from),b=anchorById.get(old.to);
-           if(!a||!b){excluded++;continue;}
-           var cells=findPath(old.from,old.to),straight=distance(a.hex,b.hex);
-           if(!cells||cells.length<2||cells.length-1>Math.max(25,3*straight+15)){excluded++;continue;}
-           var points=cells.map(function(n){var xy=center(n[0],n[1]);return [Number(xy[0].toFixed(1)),Number(xy[1].toFixed(1))];});
-           valid.push(Object.assign({},old,{waypoints:points,hexes:cells.length-1,status:'trazado_sobre_mar_rojo_nelson11',qa:Object.assign({},old.qa||{},{sourceRedVerified:'mapa_nelson_1_1',maskRevision:source.revision})}));
+     function ensureSeaCorridors(){
+       if(networkRequested)return;
+       networkRequested=true;
+       rebuildSeaCorridors();
+     }
+     function rebuildSeaCorridors(){
+       // Selección cartográfica local: pares próximos, no líneas heredadas que
+       // den la vuelta al continente. A* comprueba todos los hexágonos del tramo.
+       var nearest=Number(policy.nearestCandidatesPerPort)||8,
+           maxStraight=Number(policy.maxStraightHexDistance)||32,
+           preferred=Number(policy.preferredConnectionsPerPort)||3,
+           maximum=Number(policy.maximumConnectionsPerPort)||5,
+           maxEdges=Number(policy.networkMaxEdges)||140,
+           batchSize=Number(policy.batchSize)||3;
+       var pairs=new Map(),degree=new Map(),candidates=[],selected=[],rejected=0;
+       maritimePorts.forEach(function(p){
+         var a=anchorById.get(p.id);if(!a)return;
+         degree.set(p.id,0);
+         var near=maritimePorts.filter(function(other){return other.id!==p.id;})
+           .map(function(other){
+             var b=anchorById.get(other.id);
+             return {from:p.id,to:other.id,straight:distance(a.hex,b.hex)};
+           })
+           .filter(function(x){return x.straight>0&&x.straight<=maxStraight;})
+           .sort(function(a,b){return a.straight-b.straight;}).slice(0,nearest);
+         near.forEach(function(pair){
+           var key=[pair.from,pair.to].sort().join('|');
+           if(!pairs.has(key))pairs.set(key,pair);
+         });
+       });
+       candidates=Array.from(pairs.values()).sort(function(a,b){
+         return a.straight-b.straight;
+       });
+       var index=0;
+       function step(){
+         for(var i=0;i<batchSize&&index<candidates.length;i++,index++){
+           if(selected.length>=maxEdges){index=candidates.length;break;}
+           var pair=candidates[index],aDegree=degree.get(pair.from)||0,bDegree=degree.get(pair.to)||0;
+           // Intentar tres enlaces por escala, hasta cinco cuando un vecino
+           // necesite conectarse; no saturar los puertos más centrales.
+           if(aDegree>=maximum||bDegree>=maximum||(aDegree>=preferred&&bDegree>=preferred))continue;
+           var allowed=Math.min(Number(policy.maxDirectRouteHexes)||50,
+             Math.floor(pair.straight*(Number(policy.maxDetourRatio)||1.75)+(Number(policy.maxDetourSlackHexes)||8)));
+           var cells=findPath(pair.from,pair.to,allowed);
+           if(!cells||cells.length<2||cells.length-1>allowed){rejected++;continue;}
+           var points=cells.map(function(n){
+             var xy=center(n[0],n[1]);return [Number(xy[0].toFixed(1)),Number(xy[1].toFixed(1))];
+           });
+           selected.push({
+             id:'local-'+[pair.from,pair.to].sort().join('-'),from:pair.from,to:pair.to,
+             status:'corredor_cercano_verificado_sobre_mar_rojo',kind:'coastal-nearby',
+             hexes:cells.length-1,straightHexes:pair.straight,waypoints:points,
+             qa:{source:source.revision,redWaterOnly:true,verifiedEdges:true,maximumRouteHexes:allowed}
+           });
+           degree.set(pair.from,aDegree+1);degree.set(pair.to,bDegree+1);
          }
-         if(index<prior.length){setTimeout(batch,0);return;}
-         routes.routes=valid;drawNetwork();
-         q('ae-naval-metrics').textContent=water.cells.length.toLocaleString('es-CL')+' marinos · '+surfaceWater.length.toLocaleString('es-CL')+' aguas interiores/no verificadas · '+ports.length+' escalas accesibles · '+valid.length+' corredores ('+excluded+' no verificables excluidos).';
-         console.info('[Aeternalis/Naval v3.5]',{sea:water.cells.length,otherWater:surfaceWater.length,ports:ports.length,routes:valid.length,excluded:excluded});
+         if(index<candidates.length){setTimeout(step,0);return;}
+         routes.routes=selected;drawNetwork();updateNearby();
+         q('ae-naval-metrics').textContent=
+           water.cells.length.toLocaleString('es-CL')+' hexágonos marinos · '+
+           surfaceWater.length.toLocaleString('es-CL')+' de otras aguas · '+
+           ports.length+' escalas registradas · '+maritimePorts.length+' con acceso marítimo · '+
+           selected.length+' corredores cercanos ('+rejected+' propuestas sin paso corto verificado).';
+         console.info('[Aeternalis/Naval v3.7]',{
+           maritimePorts:maritimePorts.length,fluvialSites:fluvial.sites.length,
+           candidatePairs:candidates.length,localRoutes:selected.length,rejected:rejected
+         });
        }
-       batch();
+       updateNearby();
+       step();
      }
      function plotRoute(){
        var first=from.value,last=to.value;state.from=first;state.to=last;state.sails=Number(sails.value)||1;
